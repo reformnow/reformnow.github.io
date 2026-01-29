@@ -36,7 +36,7 @@ _Human nature as a shattered mirror: capable of reflection, but fundamentally fr
 
 Augustine argued for a concept of **Federal Headship**. He saw Adam not just as a single historical figure, but as the representative of the human race. When Adam fell, the entirety of human nature fell with him. It was as if the "source code" of humanity had been corrupted.
 
-```text
+```bible
 "Therefore, just as sin came into the world through one man, and death through sin, and so death spread to all men because all sinned." (Romans 5:12)
 ```
 
@@ -50,7 +50,7 @@ He believed that God is fundamentally just, and a just God would never command s
 
 Augustine countered this with what seemed like a scandalous paradox. He observed that the commands of God are not given to show us what we *can* do, but to reveal what we *cannot* do. The law, in Augustine’s view, acts as a diagnostic tool. Just as a thermometer reveals a fever but cannot cure it, the moral law reveals our spiritual impotence. 
 
-```text
+```bible
 "For by works of the law no human being will be justified in his sight, since through the law comes knowledge of sin." (Romans 3:20)
 ```
 
@@ -73,13 +73,13 @@ For **Augustine**, this kind of "grace" was a death sentence. If your car has a 
 
 Augustine insisted that for a person to turn toward God, God must first perform a "sovereign heart surgery." He must change the fundamental desires of the soul. This is the difference between **Synergism** (God and man working together as equals) and **Monergism** (God acting first and alone to bring the dead to life). 
 
-```text
+```bible
 "No one can come to me unless the Father who sent me draws him. And I will raise him up on the last day." (John 6:44)
 ```
 
 Augustine’s grace is "Preventing Grace" (*Gratia Praeveniens*)—a grace that comes *before* any human effort. It does not wait for us to ask; it creates the desire to ask. It is an irresistible force of love that overcomes our resistance. It is not a violation of the will, but a restoration of it. 
 
-```text
+```bible
 "And I will give you a new heart, and a new spirit I will put within you. And I will remove the heart of stone from your flesh and give you a heart of flesh." (Ezekiel 36:26)
 ```
 
@@ -98,7 +98,7 @@ Augustine argued for a more psychologically profound view, often called **Compat
 
 A man who is thirsty is "free" to drink salt water if that is all he sees, but he is not "at liberty" to satisfy his thirst with it. He is a slave to his circumstance and his need. Similarly, Augustine argued that while the will is technically "free" from external coercion, it is "in bondage" to its own corrupted desires. 
 
-```text
+```bible
 "For the mind that is set on the flesh is hostile to God, for it does not submit to God's law; indeed, it cannot. Those who are in the flesh cannot please God." (Romans 8:7-8)
 ```
 
@@ -122,7 +122,7 @@ These thinkers (like John Cassian and Faustus of Riez) wanted to find a balance.
 
 To the followers of Augustine, this was simply Pelagianism in a more subtle mask. They argued that if the "first step" comes from us, then salvation ultimately rests on a human work. If the "cry for help" is the deciding factor, then the human being is still, in some way, the master of their own destiny.
 
-```text
+```bible
 "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast." (Ephesians 2:8-9)
 ```
 
