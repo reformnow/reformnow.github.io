@@ -2,11 +2,13 @@
 title: "The Architecture of Grace: A Deep Dive into the Augustine-Pelagius Debate"
 date: 2026-01-28 16:30:00 +0000
 categories: [History, Theology]
-tags: [augustine, pelagius, grace, free-will, church-history]
+tags: [augustine, pelagius, grace, free-will, church-history, slide]
 image:
   path: /assets/img/posts/augustine_pelagius_header.png
   alt: "The Weight of Grace: Augustine and Pelagius in 410 AD"
 ---
+
+### Historical Background
 
 In the year 410 AD, the unthinkable happened: Rome fell. For a thousand years, the "Eternal City" had stood as the beacon of civilization, order, and power. Its sacking by the Visigoths sent shockwaves through the Mediterranean world, prompting a crisis of confidence that was as much psychological as it was political. If Rome could fall—the very symbol of human achievement and stability—what was secure? 
 
@@ -16,8 +18,6 @@ This debate, known to history as the Pelagian Controversy, remains the architect
 
 ![The Weight of Grace: Augustine vs Pelagius](/assets/img/posts/augustine_pelagius_header.png)
 _Augustine and Pelagius: Two colliding visions of humanity and hope._
-
----
 
 ### I. The Vision of the "Blank Slate" vs. the "Shattered Mirror"
 
@@ -35,7 +35,6 @@ The Fall, in Augustine’s view, was a catastrophic failure of the human instrum
 _Human nature as a shattered mirror: capable of reflection, but fundamentally fractured._
 
 Augustine argued for a concept of **Federal Headship**. He saw Adam not just as a single historical figure, but as the representative of the human race. When Adam fell, the entirety of human nature fell with him. It was as if the "source code" of humanity had been corrupted.
-
 ```bible
 "Therefore, just as sin came into the world through one man, and death through sin, and so death spread to all men because all sinned." (Romans 5:12)
 ```

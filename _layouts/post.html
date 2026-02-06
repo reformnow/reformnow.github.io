@@ -1,0 +1,457 @@
+---
+layout: default
+panel_includes:
+  - toc
+tail_includes:
+  - related-posts
+  - post-nav
+script_includes:
+  - comment
+---
+
+{% include lang.html %}
+
+{% include toc-status.html %}
+
+<article class="px-1" data-toc="{{ enable_toc }}">
+  <header>
+    <h1 data-toc-skip>{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-desc fw-light mb-4">{{ page.description }}</p>
+    {% endif %}
+
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        {{ site.data.locales[lang].post.posted }}
+        {% include datetime.html date=page.date tooltip=true lang=lang %}
+      </span>
+
+      <!-- lastmod date -->
+      {% if page.last_modified_at and page.last_modified_at != page.date %}
+        <span>
+          {{ site.data.locales[lang].post.updated }}
+          {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
+        </span>
+      {% endif %}
+
+      {% if page.image %}
+        {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
+        {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
+        {% capture alt %}alt="{{ page.image.alt | xml_escape | default: "Preview Image" }}"{% endcapture %}
+
+        {% if page.image.lqip %}
+          {%- capture lqip -%}lqip="{{ page.image.lqip }}"{%- endcapture -%}
+        {% endif %}
+
+        <div class="mt-3 mb-3">
+          <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip }}>
+          {%- if page.image.alt -%}
+            <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
+          {%- endif -%}
+        </div>
+      {% endif %}
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          {% if page.author %}
+            {% assign authors = page.author %}
+          {% elsif page.authors %}
+            {% assign authors = page.authors %}
+          {% endif %}
+
+          {{ site.data.locales[lang].post.written_by }}
+
+          <em>
+            {% if authors %}
+              {% for author in authors %}
+                {% if site.data.authors[author].url -%}
+                  <a href="{{ site.data.authors[author].url }}">{{ site.data.authors[author].name }}</a>
+                {%- else -%}
+                  {{ site.data.authors[author].name }}
+                {%- endif %}
+                {% unless forloop.last %}{{ '</em>, <em>' }}{% endunless %}
+              {% endfor %}
+            {% else %}
+              <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
+            {% endif %}
+          </em>
+        </span>
+
+        <div>
+          <!-- pageviews -->
+          {% if site.pageviews.provider and site.analytics[site.pageviews.provider].id %}
+            <span>
+              <em id="pageviews">
+                <i class="fas fa-spinner fa-spin small"></i>
+              </em>
+              {{ site.data.locales[lang].post.pageview_measure }}
+            </span>
+          {% endif %}
+
+          <!-- read time -->
+          {% include read-time.html content=content prompt=true lang=lang %}
+        </div>
+      </div>
+    </div>
+  </header>
+
+  {% if enable_toc %}
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">{{ page.title }}</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">{{- site.data.locales[lang].panel.toc -}}</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">{{- page.title -}}</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  {% endif %}
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+  {% if page.tags contains 'slide' %}
+    <!-- Presentation Mode Trigger (initially hidden, will be moved) -->
+    <div id="presentation-trigger-container" class="mt-3" style="display: none;">
+      <button id="start-presentation" class="btn btn-outline-primary btn-sm w-100">
+        <i class="fas fa-desktop me-2"></i>Presentation Mode
+      </button>
+    </div>
+
+    <script>
+      (function() {
+        function relocateButton() {
+          const triggerContainer = document.getElementById('presentation-trigger-container');
+          const tocWrapper = document.getElementById('toc-wrapper');
+          
+          if (tocWrapper && triggerContainer) {
+            // Move the button under the TOC
+            tocWrapper.appendChild(triggerContainer);
+            triggerContainer.style.display = 'block';
+            // Ensure the wrapper is visible if it was invisible
+            tocWrapper.classList.remove('invisible');
+          } else if (triggerContainer) {
+            // Fallback if no TOC exists
+            triggerContainer.style.display = 'flex';
+            triggerContainer.classList.add('justify-content-center', 'mt-5');
+            const content = document.querySelector('.content');
+            if (content) {
+              content.after(triggerContainer);
+            }
+          }
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', relocateButton);
+        } else {
+          relocateButton();
+        }
+
+        document.getElementById('start-presentation').addEventListener('click', function() {
+          const contentEl = document.querySelector('.content');
+          const originalContent = contentEl.cloneNode(true);
+          
+          // Request Fullscreen (Vendor-agnostic & Direct for maximum compatibility)
+          const docEl = document.documentElement;
+          try {
+            if (docEl.requestFullscreen) {
+              docEl.requestFullscreen().catch(() => {});
+            } else if (docEl.webkitRequestFullscreen) {
+              docEl.webkitRequestFullscreen();
+            } else if (docEl.mozRequestFullScreen) {
+              docEl.mozRequestFullScreen();
+            } else if (docEl.msRequestFullscreen) {
+              docEl.msRequestFullscreen();
+            }
+          } catch (e) {
+            console.warn("Fullscreen request failed", e);
+          }
+
+          
+          // Split content into slides based on H3 (horizontal) and optionally HR (vertical)
+          const slidesContainer = document.createElement('div');
+          slidesContainer.className = 'slides';
+          
+          // Create Cover Slide
+          const coverHSection = document.createElement('section');
+          const coverVSection = document.createElement('section');
+          coverVSection.className = 'cover-slide';
+          coverVSection.innerHTML = `
+            <h1 class="reveal-title text-center mb-4">{{ page.title }}</h1>
+            {% if page.image %}
+              <div class="text-center mb-4">
+                <img src="{{ page.image.path | default: page.image }}" class="reveal-cover-img" style="max-height: 500px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); background: transparent !important;">
+              </div>
+            {% endif %}
+            {% if page.description %}
+              <p class="reveal-description text-center mt-3">{{ page.description }}</p>
+            {% endif %}
+            <div class="reveal-author text-center mt-5">
+              <small>{{ site.social.name }} • {% include read-time.html content=content prompt=true lang=lang %}</small>
+            </div>
+          `;
+          coverHSection.appendChild(coverVSection);
+          slidesContainer.appendChild(coverHSection);
+          
+          let currentHSection = document.createElement('section');
+          let currentVSection = document.createElement('section');
+          currentHSection.appendChild(currentVSection);
+          slidesContainer.appendChild(currentHSection);
+          
+          let firstH3Seen = false;
+          
+          let currentTitleNode = null;
+          
+          Array.from(originalContent.childNodes).forEach(node => {
+            const isBlock = ['P', 'BLOCKQUOTE', 'UL', 'OL', 'PRE', 'FIGURE', 'DIV', 'TABLE'].includes(node.nodeName);
+            const isEmpty = node.nodeType === Node.TEXT_NODE && node.textContent.trim() === '';
+            
+            if (node.nodeName === 'H3') {
+              // Start a new horizontal slide for each H3
+              currentHSection = document.createElement('section');
+              currentVSection = document.createElement('section');
+              currentHSection.appendChild(currentVSection);
+              slidesContainer.appendChild(currentHSection);
+              
+              currentTitleNode = node.cloneNode(true);
+              currentVSection.appendChild(currentTitleNode.cloneNode(true));
+            } else if (node.nodeName === 'HR') {
+              // Forced vertical break
+              currentVSection = document.createElement('section');
+              currentHSection.appendChild(currentVSection);
+              if (currentTitleNode) {
+                currentVSection.appendChild(currentTitleNode.cloneNode(true));
+              }
+            } else if (isBlock) {
+              // Start a new vertical slide for each block element (paragraph, etc)
+              // But only if current slide already has content
+              if (currentVSection.childNodes.length > 0) {
+                currentVSection = document.createElement('section');
+                currentHSection.appendChild(currentVSection);
+                if (currentTitleNode) {
+                  currentVSection.appendChild(currentTitleNode.cloneNode(true));
+                }
+              }
+              
+              const clonedNode = node.cloneNode(true);
+              const img = clonedNode.querySelector('img');
+              if (img) {
+                // Apply split layout: Image Left, Text Right
+                const splitDiv = document.createElement('div');
+                splitDiv.className = 'slide-split-layout';
+                
+                const leftDiv = document.createElement('div');
+                leftDiv.className = 'slide-split-left';
+                leftDiv.appendChild(img);
+                
+                const rightDiv = document.createElement('div');
+                rightDiv.className = 'slide-split-right';
+                // Move everything else to the right
+                while (clonedNode.firstChild) {
+                  rightDiv.appendChild(clonedNode.firstChild);
+                }
+                
+                splitDiv.appendChild(leftDiv);
+                splitDiv.appendChild(rightDiv);
+                currentVSection.appendChild(splitDiv);
+              } else {
+                currentVSection.appendChild(clonedNode);
+              }
+            } else if (!isEmpty) {
+              // Append other nodes (text, spans, etc) to the current vertical slide
+              currentVSection.appendChild(node.cloneNode(true));
+            }
+          });
+
+          // Add Reveal.js styles
+          const styles = [
+            'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css',
+            'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/league.css',
+            'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/monokai.css'
+          ];
+          
+          styles.forEach(href => {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = href;
+            document.head.appendChild(link);
+          });
+
+          // Add custom styles for presentation mode
+          const style = document.createElement('style');
+          style.innerHTML = `
+            body { overflow: hidden; }
+            #main-wrapper { display: none !important; }
+            #sidebar { display: none !important; }
+            #search-results { display: none !important; }
+            footer { display: none !important; }
+            .reveal-viewport { position: fixed !important; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 9999; background: #222; }
+            .reveal .slides section { text-align: left; font-size: 0.8em; }
+            .reveal.overview .slides section {
+              display: block !important;
+              visibility: visible !important;
+              opacity: 1 !important;
+            }
+            .reveal.overview .slides section.present {
+              outline: 4px solid #ff8c00 !important;
+              outline-offset: 2px;
+            }
+            .reveal h1, .reveal h2, .reveal h3 { text-transform: none; }
+            .reveal .cover-slide { text-align: center; display: flex; flex-direction: column; justify-content: center; height: 100%; }
+            .reveal .cover-slide h1 { font-size: 2.2em; color: #d4af37; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+            .reveal .cover-slide p { font-size: 1.2em; color: #ccc; }
+            .reveal .bible-verse { 
+              background: #fcf5e5; padding: 1em; border-left: 10px solid #d4af37; 
+              font-family: serif; font-style: italic; color: #3e3a35; 
+              box-shadow: 2px 2px 10px rgba(0,0,0,0.1); 
+            }
+            .reveal .slide-split-layout {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              gap: 20px;
+              width: 100%;
+            }
+            .reveal .slide-split-left {
+              flex: 0 0 45%;
+              display: flex;
+              justify-content: center;
+            }
+            .reveal .slide-split-right {
+              flex: 1;
+            }
+            .reveal img { max-height: 500px; width: 100%; object-fit: contain; background: none !important; box-shadow: none !important; }
+            .reveal .shimmer { animation: none !important; background: none !important; }
+            .reveal .shimmer::before { display: none !important; }
+            #exit-presentation {
+              position: fixed; top: 20px; right: 20px; z-index: 10000;
+              opacity: 0.5; transition: opacity 0.3s;
+            }
+            #exit-presentation:hover { opacity: 1; }
+          `;
+          document.head.appendChild(style);
+
+          // Create Reveal.js structure
+          const revealDiv = document.createElement('div');
+          revealDiv.className = 'reveal';
+          const exitBtn = document.createElement('button');
+          exitBtn.id = 'exit-presentation';
+          exitBtn.className = 'btn btn-sm btn-secondary text-white';
+          exitBtn.innerText = 'Exit';
+          revealDiv.appendChild(exitBtn);
+          revealDiv.appendChild(slidesContainer);
+          
+          document.body.appendChild(revealDiv);
+          document.body.classList.add('reveal-viewport');
+
+          // Load Reveal.js and plugins
+          const scripts = [
+            'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js',
+            'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.js',
+            'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js'
+          ];
+
+          let loadedCount = 0;
+          scripts.forEach(src => {
+            const script = document.createElement('script');
+            script.src = src;
+            script.onload = () => {
+              loadedCount++;
+              if (loadedCount === scripts.length) {
+                Reveal.initialize({
+                  hash: true,
+                  slideNumber: 'c/t',
+                  plugins: [ RevealHighlight, RevealNotes ]
+                });
+              }
+            };
+            document.body.appendChild(script);
+          });
+
+          exitBtn.addEventListener('click', function() {
+            try {
+              if (document.exitFullscreen) {
+                document.exitFullscreen().catch(() => {});
+              } else if (document.webkitExitFullscreen) {
+                document.webkitExitFullscreen();
+              } else if (document.mozCancelFullScreen) {
+                document.mozCancelFullScreen();
+              } else if (document.msExitFullscreen) {
+                document.msExitFullscreen();
+              }
+            } catch (e) {
+              console.warn("Exit fullscreen failed", e);
+            }
+            location.reload();
+          });
+        });
+      })();
+    </script>
+  {% endif %}
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    {% if page.categories.size > 0 %}
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        {% for category in page.categories %}
+          <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">{{ category }}</a>
+          {%- unless forloop.last -%},{%- endunless -%}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <!-- tags -->
+    {% if page.tags.size > 0 %}
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        {% for tag in page.tags %}
+          <a
+            href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
+            class="post-tag no-text-decoration"
+          >
+            {{- tag -}}
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        {% if site.data.locales[lang].copyright.license.template %}
+          {% capture _replacement %}
+        <a href="{{ site.data.locales[lang].copyright.license.link }}">
+          {{ site.data.locales[lang].copyright.license.name }}
+        </a>
+        {% endcapture %}
+
+          {{ site.data.locales[lang].copyright.license.template | replace: ':LICENSE_NAME', _replacement }}
+        {% endif %}
+      </div>
+
+      {% include post-sharing.html lang=lang %}
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
+</article>
