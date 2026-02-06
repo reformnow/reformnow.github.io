@@ -1,0 +1,233 @@
+// Presentation Mode for Posts Tagged with 'slide'
+(function() {
+  'use strict';
+  
+  // Check if this post has the 'slide' tag
+  const postTags = document.querySelectorAll('.post-tag');
+  let hasSlideTag = false;
+  postTags.forEach(tag => {
+    if (tag.textContent.trim().toLowerCase() === 'slide') {
+      hasSlideTag = true;
+    }
+  });
+  
+  if (!hasSlideTag) return;
+  
+  // Create and inject presentation button
+  function injectPresentationButton() {
+    const tocWrapper = document.getElementById('toc-wrapper');
+    if (!tocWrapper) return;
+    
+    const buttonContainer = document.createElement('div');
+    buttonContainer.id = 'presentation-trigger-container';
+    buttonContainer.className = 'mt-3';
+    
+    const button = document.createElement('button');
+    button.id =  'start-presentation';
+    button.className = 'btn btn-outline-primary btn-sm w-100';
+    button.innerHTML = '<i class="fas fa-desktop me-2"></i>Presentation Mode';
+    
+    buttonContainer.appendChild(button);
+    tocWrapper.appendChild(buttonContainer);
+    
+    // Attach click handler
+    button.addEventListener('click', startPresentation);
+  }
+  
+  // Wait for DOM to be ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', injectPresentationButton);
+  } else {
+    injectPresentationButton();
+  }
+  
+  function startPresentation() {
+    const contentEl = document.querySelector('.content');
+    if (!contentEl) return;
+    
+    const originalContent = contentEl.cloneNode(true);
+    
+    // Request Fullscreen
+    const docEl = document.documentElement;
+    try {
+      if (docEl.requestFullscreen) {
+        docEl.requestFullscreen().catch(() => {});
+      } else if (docEl.webkitRequestFullscreen) {
+        docEl.webkitRequestFullscreen();
+      } else if (docEl.mozRequestFullScreen) {
+        docEl.mozRequestFullScreen();
+      } else if (docEl.msRequestFullscreen) {
+        docEl.msRequestFullscreen();
+      }
+    } catch (e) {
+      console.warn("Fullscreen request failed", e);
+    }
+    
+    // Create slides container
+    const slidesContainer = document.createElement('div');
+    slidesContainer.className = 'slides';
+    
+    // Get post metadata from page
+    const postTitle = document.querySelector('h1.dynamic-title')?.textContent || document.title;
+    const postImage = document.querySelector('.post-tail-wrapper img')?.src || '';
+    const postDesc = document.querySelector('meta[name="description"]')?.content || '';
+    
+    // Create cover slide
+    const coverHSection = document.createElement('section');
+    const coverVSection = document.createElement('section');
+    coverVSection.className = 'cover-slide';
+    coverVSection.innerHTML = `
+      <h1 class="reveal-title text-center mb-4">${postTitle}</h1>
+      ${postImage ? `<div class="text-center mb-4"><img src="${postImage}" class="reveal-cover-img" style="max-height: 500px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); background: transparent !important;"></div>` : ''}
+      ${postDesc ? `<p class="reveal-description text-center mt-3">${postDesc}</p>` : ''}
+    `;
+    coverHSection.appendChild(coverVSection);
+    slidesContainer.appendChild(coverHSection);
+    
+    // Parse content into slides
+    let currentHSection = document.createElement('section');
+    let currentVSection = document.createElement('section');
+    currentHSection.appendChild(currentVSection);
+    slidesContainer.appendChild(currentHSection);
+    
+    let currentTitleNode = null;
+    
+    Array.from(originalContent.childNodes).forEach(node => {
+      const isBlock = ['P', 'BLOCKQUOTE', 'UL', 'OL', 'PRE', 'FIGURE', 'DIV', 'TABLE'].includes(node.nodeName);
+      const isEmpty = node.nodeType === Node.TEXT_NODE && node.textContent.trim() === '';
+      
+      if (node.nodeName === 'H3') {
+        currentHSection = document.createElement('section');
+        currentVSection = document.createElement('section');
+        currentHSection.appendChild(currentVSection);
+        slidesContainer.appendChild(currentHSection);
+        
+        currentTitleNode = node.cloneNode(true);
+        currentVSection.appendChild(currentTitleNode.cloneNode(true));
+      } else if (node.nodeName === 'HR') {
+        currentVSection = document.createElement('section');
+        currentHSection.appendChild(currentVSection);
+        if (currentTitleNode) {
+          currentVSection.appendChild(currentTitleNode.cloneNode(true));
+        }
+      } else if (isBlock) {
+        if (currentVSection.childNodes.length > 0) {
+          currentVSection = document.createElement('section');
+          currentHSection.appendChild(currentVSection);
+          if (currentTitleNode) {
+            currentVSection.appendChild(currentTitleNode.cloneNode(true));
+          }
+        }
+        currentVSection.appendChild(node.cloneNode(true));
+      } else if (!isEmpty) {
+        currentVSection.appendChild(node.cloneNode(true));
+      }
+    });
+    
+    // Load Reveal.js styles
+    const styles = [
+      'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css',
+      'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/league.css',
+      'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/monokai.css'
+    ];
+    
+    styles.forEach(href => {
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = href;
+      document.head.appendChild(link);
+    });
+    
+    // Add custom styles
+    const style = document.createElement('style');
+    style.innerHTML = `
+      body { overflow: hidden; }
+      #main-wrapper { display: none !important; }
+      #sidebar { display: none !important; }
+      #search-results { display: none !important; }
+      footer { display: none !important; }
+      .reveal-viewport { position: fixed !important; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 9999; background: #222; }
+      .reveal .slides section { text-align: left; font-size: 0.8em; }
+      .reveal.overview .slides section {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+      }
+      .reveal.overview .slides section.present {
+        outline: 4px solid #ff8c00 !important;
+        outline-offset: 2px;
+      }
+      .reveal h1, .reveal h2, .reveal h3 { text-transform: none; }
+      .reveal .cover-slide { text-align: center; display: flex; flex-direction: column; justify-content: center; height: 100%; }
+      .reveal .cover-slide h1 { font-size: 2.2em; color: #d4af37; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+      .reveal .cover-slide p { font-size: 1.2em; color: #ccc; }
+      .reveal img { max-height: 500px; width: 100%; object-fit: contain; background: none !important; box-shadow: none !important; }
+      .reveal .shimmer { animation: none !important; background: none !important; }
+      .reveal .shimmer::before { display: none !important; }
+      #exit-presentation {
+        position: fixed; top: 20px; right: 20px; z-index: 10000;
+        opacity: 0.5; transition: opacity 0.3s;
+      }
+      #exit-presentation:hover { opacity: 1; }
+    `;
+    document.head.appendChild(style);
+    
+    // Create Reveal structure
+    const revealDiv = document.createElement('div');
+    revealDiv.className = 'reveal';
+    const exitBtn = document.createElement('button');
+    exitBtn.id = 'exit-presentation';
+    exitBtn.className = 'btn btn-sm btn-secondary text-white';
+    exitBtn.innerText = 'Exit';
+    revealDiv.appendChild(exitBtn);
+    revealDiv.appendChild(slidesContainer);
+    
+    document.body.appendChild(revealDiv);
+ document.body.classList.add('reveal-viewport');
+    
+    // Load Reveal.js scripts
+    const scripts = [
+      'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js',
+      'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.js',
+      'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js'
+    ];
+    
+    let loadedCount = 0;
+    scripts.forEach(src => {
+      const script = document.createElement('script');
+      script.src = src;
+      script.onload = () => {
+        loadedCount++;
+        if (loadedCount === scripts.length) {
+          Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            plugins: [ RevealHighlight, RevealNotes ]
+          });
+        }
+      };
+      document.head.appendChild(script);
+    });
+    
+    // Exit handler
+    exitBtn.addEventListener('click', function() {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+      } else if (document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+      } else if (document.msExitFullscreen) {
+        document.msExitFullscreen();
+      }
+      
+      revealDiv.remove();
+      document.body.classList.remove('reveal-viewport');
+      document.querySelectorAll('style, link[href*="reveal"], script[src*="reveal"]').forEach(el => {
+        if (el.href?.includes('reveal') || el.src?.includes('reveal') || el.innerHTML?.includes('reveal')) {
+          el.remove();
+        }
+      });
+    });
+  }
+})();
