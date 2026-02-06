@@ -101,12 +101,52 @@
     slidesContainer.appendChild(currentHSection);
     
     let currentTitleNode = null;
+    let pendingImage = null;
+    let pendingText = [];
+    
+    function createSlideWithLayout() {
+      if (pendingImage && pendingText.length > 0) {
+        // Create two-column layout: image left, text right
+        const layoutDiv = document.createElement('div');
+        layoutDiv.className = 'slide-layout';
+        
+        const imgDiv = document.createElement('div');
+        imgDiv.appendChild(pendingImage.cloneNode(true));
+        
+        const textDiv = document.createElement('div');
+        pendingText.forEach(textNode => textDiv.appendChild(textNode.cloneNode(true)));
+        
+        layoutDiv.appendChild(imgDiv);
+        layoutDiv.appendChild(textDiv);
+        currentVSection.appendChild(layoutDiv);
+      } else if (pendingImage) {
+        // Only image, no text
+        currentVSection.appendChild(pendingImage.cloneNode(true));
+      } else if (pendingText.length > 0) {
+        // Only text, no image
+        pendingText.forEach(textNode => currentVSection.appendChild(textNode.cloneNode(true)));
+      }
+      
+      pendingImage = null;
+      pendingText = [];
+    }
+    
+    function flushAndCreateNewSection() {
+      createSlideWithLayout();
+      currentVSection = document.createElement('section');
+      currentHSection.appendChild(currentVSection);
+      if (currentTitleNode) {
+        currentVSection.appendChild(currentTitleNode.cloneNode(true));
+      }
+    }
     
     Array.from(originalContent.childNodes).forEach(node => {
       const isBlock = ['P', 'BLOCKQUOTE', 'UL', 'OL', 'PRE', 'FIGURE', 'DIV', 'TABLE'].includes(node.nodeName);
       const isEmpty = node.nodeType === Node.TEXT_NODE && node.textContent.trim() === '';
+      const isImage = node.nodeName === 'IMG' || (node.nodeName === 'P' && node.querySelector('img')) || node.nodeName === 'FIGURE';
       
       if (node.nodeName === 'H3') {
+        createSlideWithLayout();
         currentHSection = document.createElement('section');
         currentVSection = document.createElement('section');
         currentHSection.appendChild(currentVSection);
@@ -115,24 +155,49 @@
         currentTitleNode = node.cloneNode(true);
         currentVSection.appendChild(currentTitleNode.cloneNode(true));
       } else if (node.nodeName === 'HR') {
-        currentVSection = document.createElement('section');
-        currentHSection.appendChild(currentVSection);
-        if (currentTitleNode) {
-          currentVSection.appendChild(currentTitleNode.cloneNode(true));
+        flushAndCreateNewSection();
+      } else if (isImage) {
+        // Check if we already have an image pending (new slide for multiple images)
+        if (pendingImage) {
+          createSlideWithLayout();
         }
-      } else if (isBlock) {
-        if (currentVSection.childNodes.length > 0) {
-          currentVSection = document.createElement('section');
-          currentHSection.appendChild(currentVSection);
-          if (currentTitleNode) {
-            currentVSection.appendChild(currentTitleNode.cloneNode(true));
+        // Extract image from P or FIGURE if needed
+        if (node.nodeName === 'P' && node.querySelector('img')) {
+          pendingImage = node.querySelector('img');
+          // Add any caption text
+          const caption = node.querySelector('em, figcaption');
+          if (caption && !pendingText.includes(caption)) {
+            pendingText.push(caption);
+          }
+        } else {
+          pendingImage = node;
+        }
+      } else if (isBlock && !isEmpty) {
+        // Check if we have an image pending and this is substantial text
+        if (pendingImage && node.textContent.trim().length > 50) {
+          pendingText.push(node);
+          createSlideWithLayout();
+        } else {
+          if (currentVSection.childNodes.length > 0 && !pendingImage) {
+            flushAndCreateNewSection();
+          }
+          if (pendingImage) {
+            pendingText.push(node);
+          } else {
+            currentVSection.appendChild(node.cloneNode(true));
           }
         }
-        currentVSection.appendChild(node.cloneNode(true));
       } else if (!isEmpty) {
-        currentVSection.appendChild(node.cloneNode(true));
+        if (pendingImage) {
+          pendingText.push(node);
+        } else {
+          currentVSection.appendChild(node.cloneNode(true));
+        }
       }
     });
+    
+    // Flush any remaining content
+    createSlideWithLayout();
     
     // Load Reveal.js styles
     const styles = [
@@ -172,6 +237,10 @@
       .reveal .cover-slide h1 { font-size: 2.2em; color: #d4af37; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
       .reveal .cover-slide p { font-size: 1.2em; color: #ccc; }
       .reveal img { max-height: 500px; width: 100%; object-fit: contain; background: none !important; box-shadow: none !important; }
+      .reveal .slide-layout { display: flex; gap: 40px; align-items: center; height: 100%; }
+      .reveal .slide-layout > div:first-child { flex: 1; max-width: 50%; }
+      .reveal .slide-layout > div:last-child { flex: 1; max-width: 50%; text-align: left; font-size: 0.75em; }
+      .reveal .slide-layout img { max-height: 400px; border-radius: 8px; }
       .reveal .shimmer { animation: none !important; background: none !important; }
       .reveal .shimmer::before { display: none !important; }
       #exit-presentation {
