@@ -14,12 +14,12 @@ timezone: "America/New_York"
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 归正 # the main title
+title: 磐石笔记 # the main title
 
-tagline: 从未停止 # it will display as the subtitle
+tagline: 恩典为先，归正不息 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  自宗教改革运动以来，归正运动从未停止过。
+  1517年，马丁·路德开启了一场回到本源的信仰更新。五百年后，这场运动仍在继续。本博客致力于探讨归正神学的核心议题——恩典的本质、人性的光景、救赎的秩序。我们相信，真正的归正从未停止，它持续呼召每一个世代回到圣经，更新思维，重塑生命。
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
