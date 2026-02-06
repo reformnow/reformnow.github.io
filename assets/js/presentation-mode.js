@@ -2,19 +2,19 @@
 (function() {
   'use strict';
   
-  // Check if this post has the 'slide' tag
-  const postTags = document.querySelectorAll('.post-tag');
-  let hasSlideTag = false;
-  postTags.forEach(tag => {
-    if (tag.textContent.trim().toLowerCase() === 'slide') {
-      hasSlideTag = true;
-    }
-  });
-  
-  if (!hasSlideTag) return;
-  
   // Create and inject presentation button
   function injectPresentationButton() {
+    // Check if this post has the 'slide' tag
+    const postTags = document.querySelectorAll('.post-tag');
+    let hasSlideTag = false;
+    postTags.forEach(tag => {
+      if (tag.textContent.trim().toLowerCase() === 'slide') {
+        hasSlideTag = true;
+      }
+    });
+    
+    if (!hasSlideTag) return;
+    
     const tocWrapper = document.getElementById('toc-wrapper');
     if (!tocWrapper) return;
     
@@ -25,7 +25,12 @@
     const button = document.createElement('button');
     button.id =  'start-presentation';
     button.className = 'btn btn-outline-primary btn-sm w-100';
-    button.innerHTML = '<i class="fas fa-desktop me-2"></i>Presentation Mode';
+    // Check if Font Awesome is available, fallback to emoji if not
+    const iconHtml = (typeof document.querySelector('.fas') !== 'undefined' || 
+                     document.querySelector('link[href*="fontawesome"]') || 
+                     document.querySelector('link[href*="fa-"]')) ? 
+      '<i class="fas fa-desktop me-2"></i>' : '📊 ';
+    button.innerHTML = iconHtml + 'Presentation Mode';
     
     buttonContainer.appendChild(button);
     tocWrapper.appendChild(buttonContainer);
@@ -43,7 +48,11 @@
   
   function startPresentation() {
     const contentEl = document.querySelector('.content');
-    if (!contentEl) return;
+    if (!contentEl) {
+      console.warn('Presentation mode: .content element not found');
+      alert('Unable to start presentation mode: content not found');
+      return;
+    }
     
     const originalContent = contentEl.cloneNode(true);
     
@@ -68,8 +77,9 @@
     slidesContainer.className = 'slides';
     
     // Get post metadata from page
-    const postTitle = document.querySelector('h1.dynamic-title')?.textContent || document.title;
-    const postImage = document.querySelector('.post-tail-wrapper img')?.src || '';
+    const postTitle = document.querySelector('h1[data-toc-skip]')?.textContent || document.title.split(' | ')[0];
+    // Get the first image from the article content
+    const postImage = document.querySelector('.content img')?.src || '';
     const postDesc = document.querySelector('meta[name="description"]')?.content || '';
     
     // Create cover slide
@@ -193,17 +203,30 @@
     ];
     
     let loadedCount = 0;
+    let failedCount = 0;
+    
     scripts.forEach(src => {
       const script = document.createElement('script');
       script.src = src;
       script.onload = () => {
         loadedCount++;
         if (loadedCount === scripts.length) {
-          Reveal.initialize({
-            hash: true,
-            slideNumber: 'c/t',
-            plugins: [ RevealHighlight, RevealNotes ]
-          });
+          try {
+            Reveal.initialize({
+              hash: true,
+              slideNumber: 'c/t',
+              plugins: [ RevealHighlight, RevealNotes ]
+            });
+          } catch (e) {
+            console.error('Failed to initialize Reveal.js:', e);
+          }
+        }
+      };
+      script.onerror = () => {
+        failedCount++;
+        console.error('Failed to load script:', src);
+        if (failedCount === scripts.length) {
+          alert('Failed to load presentation resources. Please check your internet connection.');
         }
       };
       document.head.appendChild(script);
