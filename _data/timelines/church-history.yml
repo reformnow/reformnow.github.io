@@ -1,0 +1,40 @@
+# Church History Timeline
+# Add events in chronological order
+# Format:
+# - date: "Year or Date"
+#   title: "Event Title"
+#   description: "Brief description"
+#   image: "/assets/img/timeline/event.jpg" (optional)
+#   category: "theology|history|reformation" (optional)
+#   link: "/posts/post-url/" (optional)
+
+- date: "33 AD"
+  title: "Day of Pentecost"
+  description: "The Holy Spirit descends upon the apostles, birth of the Christian Church"
+  category: "history"
+
+- date: "410 AD"
+  title: "Fall of Rome"
+  description: "Visigoths sack Rome, prompting Augustine's theological response"
+  category: "history"
+  link: "/posts/Augustine-vs-Pelagius/"
+
+- date: "430 AD"
+  title: "Death of Augustine"
+  description: "Augustine of Hippo dies during Vandal siege"
+  category: "theology"
+
+- date: "1517"
+  title: "95 Theses"
+  description: "Martin Luther nails 95 theses in Wittenberg, sparking the Reformation"
+  category: "reformation"
+
+- date: "1536"
+  title: "Institutes of the Christian Religion"
+  description: "John Calvin publishes his systematic theology"
+  category: "reformation"
+
+- date: "1560"
+  title: "Scottish Reformation"
+  description: "John Knox leads the Reformation in Scotland"
+  category: "reformation"

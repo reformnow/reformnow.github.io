@@ -1,0 +1,56 @@
+{% comment %}
+  Timeline Include
+  Usage: {% include timeline.html data=site.data.timelines.church-history %}
+  Or: {% include timeline.html data=page.timeline_data title="My Timeline" %}
+{% endcomment %}
+
+{% if include.title %}
+<h2 class="timeline-main-title">{{ include.title }}</h2>
+{% endif %}
+
+{% if include.data %}
+<div class="timeline {% if include.compact %}timeline-compact{% endif %}">
+  {% for event in include.data %}
+    <div class="timeline-item">
+      <div class="timeline-content">
+        {% if event.category %}
+        <span class="timeline-category">{{ event.category }}</span>
+        {% endif %}
+        
+        <div class="timeline-date">{{ event.date }}</div>
+        
+        {% if event.image %}
+        <img src="{{ event.image | relative_url }}" alt="{{ event.title }}" class="timeline-image">
+        {% endif %}
+        
+        <h3 class="timeline-title">
+          {% if event.link %}
+          <a href="{{ event.link | relative_url }}">{{ event.title }}</a>
+          {% else %}
+          {{ event.title }}
+          {% endif %}
+        </h3>
+        
+        <p class="timeline-description">{{ event.description }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% else %}
+<p class="text-muted">No timeline data provided.</p>
+{% endif %}
+
+{% comment %}
+  Simple Markdown-based timeline alternative
+  Use this in your Markdown posts:
+  
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <div class="timeline-date">1517</div>
+        <h3 class="timeline-title">95 Theses</h3>
+        <p class="timeline-description">Martin Luther nails 95 theses...</p>
+      </div>
+    </div>
+  </div>
+{% endcomment %}
