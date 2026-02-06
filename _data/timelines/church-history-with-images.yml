@@ -1,0 +1,42 @@
+# Church History Timeline with Images
+# Example showing different image layout options
+
+# Standard image (full width, 200px max height)
+- date: "1517"
+  title: "95 Theses"
+  description: "Martin Luther nails 95 theses to the church door in Wittenberg, sparking the Protestant Reformation that would reshape Western Christianity."
+  category: "reformation"
+  image: "/assets/img/posts/augustine_pelagius_header.png"
+
+# Event without image
+- date: "1536"
+  title: "Institutes of the Christian Religion"
+  description: "John Calvin publishes his systematic theology, providing the theological foundation for Reformed Christianity."
+  category: "reformation"
+
+# Event with image and link
+- date: "410 AD"
+  title: "Fall of Rome"
+  description: "The Visigoths sack Rome, causing a theological crisis that Augustine addresses in his work 'City of God.'"
+  category: "history"
+  image: "/assets/img/posts/augustine_pelagius_header.png"
+  link: "/posts/augustine-vs-pelagius/"
+
+- date: "430 AD"
+  title: "Death of Augustine"
+  description: "Augustine of Hippo dies during the Vandal siege of his city, leaving a theological legacy that influences Christianity to this day."
+  category: "theology"
+
+# Another event with image
+- date: "1560"
+  title: "Scottish Reformation"
+  description: "John Knox leads the Reformation in Scotland, establishing Presbyterianism as the national church."
+  category: "reformation"
+  image: "/assets/img/posts/augustine_pelagius_header.png"
+
+# Event with long description and image
+- date: "33 AD"
+  title: "Day of Pentecost"
+  description: "The Holy Spirit descends upon the apostles in Jerusalem, empowering them to preach the Gospel in multiple languages. This event marks the birth of the Christian Church and fulfills Jesus' promise to send the Advocate."
+  category: "history"
+  image: "/assets/img/posts/augustine_pelagius_header.png"

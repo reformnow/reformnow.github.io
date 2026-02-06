@@ -20,7 +20,18 @@
         <div class="timeline-date">{{ event.date }}</div>
         
         {% if event.image %}
-        <img src="{{ event.image | relative_url }}" alt="{{ event.title }}" class="timeline-image">
+          {% if event.image_layout == 'large' %}
+            <img src="{{ event.image | relative_url }}" alt="{{ event.title }}" class="timeline-image timeline-image-large">
+          {% elsif event.image_layout == 'thumb' %}
+            <img src="{{ event.image | relative_url }}" alt="{{ event.title }}" class="timeline-image-thumb">
+          {% elsif event.image_layout == 'circle' %}
+            <img src="{{ event.image | relative_url }}" alt="{{ event.title }}" class="timeline-image-circle">
+          {% else %}
+            <img src="{{ event.image | relative_url }}" alt="{{ event.title }}" class="timeline-image">
+          {% endif %}
+          {% if event.image_caption %}
+            <div class="timeline-image-caption">{{ event.image_caption }}</div>
+          {% endif %}
         {% endif %}
         
         <h3 class="timeline-title">
