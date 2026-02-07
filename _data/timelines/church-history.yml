@@ -187,6 +187,13 @@
   category: "history"
   image: "/assets/img/timeline/zwingli-death.jpg"
 
+# English Reformation
+- date: "1534"
+  title: "English Reformation Begins"
+  description: "Henry VIII breaks with Rome, establishes Church of England. Act of Supremacy makes king head of church."
+  category: "reformation"
+  image: "/assets/img/timeline/english-reformation.jpg"
+
 # Calvin and Reformed Tradition
 - date: "1536"
   title: "Institutes of the Christian Religion"
@@ -200,13 +207,14 @@
   category: "reformation"
   image: "/assets/img/timeline/calvin-geneva.jpg"
 
-# English Reformation
-- date: "1534"
-  title: "English Reformation Begins"
-  description: "Henry VIII breaks with Rome, establishes Church of England. Act of Supremacy makes king head of church."
-  category: "reformation"
-  image: "/assets/img/timeline/english-reformation.jpg"
+# Counter-Reformation
+- date: "1545-1563"
+  title: "Council of Trent"
+  description: "Catholic Counter-Reformation council. Affirms tradition alongside Scripture, rejects sola fide, maintains seven sacraments, anathematizes Protestant doctrines."
+  category: "council"
+  image: "/assets/img/timeline/council-trent.jpg"
 
+# English and Scottish Reformations Continue
 - date: "1559"
   title: "Elizabethan Settlement"
   description: "Queen Elizabeth I establishes Church of England via Act of Supremacy and Act of Uniformity. Via Media (middle way) between Protestant and Catholic."
@@ -227,23 +235,23 @@
   image: "/assets/img/timeline/council-trent.jpg"
 
 # Continental Confessions
-- date: "1563"
-  title: "Heidelberg Catechism"
-  description: "Written by Zacharias Ursinus and Caspar Olevianus. Q&A format teaching Reformed doctrine. Emphasizes comfort in belonging to Christ."
+- date: "1560"
+  title: "Geneva Bible"
+  description: "First English Bible with chapter and verse divisions. Includes marginal notes reflecting Calvinist theology. Popular with Puritans. First printed in Geneva by English exiles."
   category: "reformation"
-  image: "/assets/img/timeline/heidelberg-catechism.jpg"
+  image: "/assets/img/timeline/geneva-bible.jpg"
 
 - date: "1561"
   title: "Belgic Confession"
-  description: "Written by Guido de Brès. One of three forms of unity for Dutch Reformed churches. Articulates Reformed faith over against Anabaptism and Roman Catholicism."
+  description: "Written by Guido de Brès. One of three forms of unity for Dutch Reformed churches. Articulates Reformed faith over against Anabaptism and Roman Catholicism. Adopted by Synod of Dort as official confession."
   category: "reformation"
   image: "/assets/img/timeline/belgic-confession.jpg"
 
-- date: "1560"
-  title: "Geneva Bible"
-  description: "First English Bible with chapter and verse divisions. Includes marginal notes reflecting Calvinist theology. Popular with Puritans."
+- date: "1563"
+  title: "Heidelberg Catechism"
+  description: "Written by Zacharias Ursinus and Caspar Olevianus for Palatinate. Q&A format teaching Reformed doctrine. Emphasizes comfort in belonging to Christ. Adopted by Synod of Dort."
   category: "reformation"
-  image: "/assets/img/timeline/geneva-bible.jpg"
+  image: "/assets/img/timeline/heidelberg-catechism.jpg"
 
 # Arminian Controversy
 - date: "1603"
