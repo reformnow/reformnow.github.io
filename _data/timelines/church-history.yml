@@ -291,3 +291,81 @@
   description: "Comprehensive Reformed confession addressing Scripture, Trinity, providence, covenant, salvation, church, and last things. Most influential Reformed confession worldwide."
   category: "theology"
   image: "/assets/img/timeline/westminster-confession.jpg"
+
+# Post-Westminster Developments
+- date: "1648"
+  title: "Peace of Westphalia"
+  description: "Series of treaties ends Thirty Years' War and Eighty Years' War in Europe. Establishes principle of cuius regio, eius religio (whose realm, their religion), allowing rulers to determine official religion of their territories. Reduces religious wars in Europe."
+  category: "history"
+  image: "/assets/img/timeline/peace-westphalia.jpg"
+
+- date: "1660"
+  title: "English Restoration"
+  description: "Monarchy restored under Charles II after Cromwell's Commonwealth. Puritans face persecution, many flee to New England. Leads to establishment of Presbyterian and Congregational churches in America."
+  category: "history"
+  image: "/assets/img/timeline/english-restoration.jpg"
+
+# Revivals and Awakenings
+- date: "c. 1730-1740"
+  title: "First Great Awakening"
+  description: "Religious revival across American colonies. Jonathan Edwards preaches 'Sinners in the Hands of an Angry God' (1741). George Whitefield draws massive crowds. Emphasizes personal conversion and experiential faith. Shapes American evangelicalism."
+  category: "history"
+  image: "/assets/img/timeline/great-awakening.jpg"
+
+- date: "1734-1735"
+  title: "Northampton Revival"
+  description: "Jonathan Edwards ministers in Northampton, Massachusetts. Revival transforms community and sparks wider Great Awakening. Edwards later writes 'Religious Affections' (1746) on discerning true conversion."
+  category: "theology"
+  image: "/assets/img/timeline/northampton-revival.jpg"
+
+- date: "1792"
+  title: "William Carey and Modern Missions"
+  description: "William Carey publishes 'Enquiry into the Obligations of Christians to Use Means for the Conversion of the Heathens.' Founds Baptist Missionary Society, becomes 'father of modern missions.' Goes to India in 1793. Sparks global missionary movement."
+  category: "history"
+  image: "/assets/img/timeline/william-carey.jpg"
+
+# 19th Century Developments
+- date: "c. 1850-1900"
+  title: "Princeton Theology"
+  description: "Archibald Alexander, Charles Hodge, B.B. Warfield, and others develop systematic Reformed theology at Princeton Theological Seminary. Emphasizes inerrancy, covenant theology, and scholarly defense of Christianity against liberalism."
+  category: "theology"
+  image: "/assets/img/timeline/princeton-theology.jpg"
+
+# 20th Century Controversies
+- date: "1910-1915"
+  title: "The Fundamentals"
+  description: "Twelve-volume series of essays defending biblical Christianity against liberal theology. Written by conservative scholars including B.B. Warfield, James Orr, C.I. Scofield. Lays foundation for fundamentalist movement and modern evangelicalism."
+  category: "theology"
+  image: "/assets/img/timeline/the-fundamentals.jpg"
+
+- date: "1924"
+  title: "Auburn Affirmation"
+  description: "Presbyterian ministers sign statement rejecting five essential doctrines as necessary for ordination (virgin birth, substitutionary atonement, bodily resurrection, biblical miracles, inspiration). Leads to fundamentalist-modernist controversy and liberal-conservative split."
+  category: "heresy"
+  image: "/assets/img/timeline/auburn-affirmation.jpg"
+
+# Neo-Orthodoxy and Renewal
+- date: "1919-1968"
+  title: "Karl Barth and Neo-Orthodoxy"
+  description: "Swiss theologian Karl Barth reacts against liberal theology with 'Commentary on Romans' (1919). Emphasizes divine transcendence, revelation in Christ, and Word of God. Church Dogmatics (1932-1968) becomes massive Reformed systematic work. Influences 20th century theology."
+  category: "theology"
+  image: "/assets/img/timeline/karl-barth.jpg"
+
+- date: "1962-1965"
+  title: "Second Vatican Council"
+  description: "Twenty-first ecumenical council of Catholic Church. Addresses relationship between church and modern world, religious freedom, ecumenism. While not binding on Protestants, marks shift in Catholic-Protestant relations and interfaith dialogue."
+  category: "council"
+  image: "/assets/img/timeline/vatican-ii.jpg"
+
+# Modern Evangelicalism
+- date: "c. 1970-1990"
+  title: "Rise of Modern Evangelicalism"
+  description: "Reformed theology resurgence through ministries like Ligonier (R.C. Sproul), Desiring God (John Piper), Together for the Gospel, and The Gospel Coalition. Emphasizes sovereign grace, biblical inerrancy, and Reformed soteriology. Digital age spreads Reformed teaching globally."
+  category: "theology"
+  image: "/assets/img/timeline/modern-evangelicalism.jpg"
+
+- date: "c. 1990-Present"
+  title: "New Calvinism"
+  description: "Young, restless, Reformed movement embraces Calvinistic soteriology while engaging contemporary culture. Influenced by Piper, Keller, and Driscoll. Combines Reformed theology with evangelistic zeal, social justice, and cultural engagement. Grows through books, conferences, and social media."
+  category: "theology"
+  image: "/assets/img/timeline/new-calvinism.jpg"
