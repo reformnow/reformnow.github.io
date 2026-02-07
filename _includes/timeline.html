@@ -19,6 +19,12 @@
         
         <div class="timeline-date">{{ event.date }}</div>
         
+        {% comment %}
+        Image support disabled until images are actually available.
+        To enable images: 
+        1. Add image files to assets/img/timeline/
+        2. Uncomment this block
+        
         {% if event.image %}
           {% if event.image_layout == 'large' %}
             <img src="{{ event.image | relative_url }}" alt="{{ event.title }}" class="timeline-image timeline-image-large">
@@ -33,6 +39,7 @@
             <div class="timeline-image-caption">{{ event.image_caption }}</div>
           {% endif %}
         {% endif %}
+        {% endcomment %}
         
         <h3 class="timeline-title">
           {% if event.link %}
