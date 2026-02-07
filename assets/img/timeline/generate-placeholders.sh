@@ -75,6 +75,15 @@ echo ""
 for filename in "${!events[@]}"; do
     IFS='|' read -r title year <<< "${events[$filename]}"
     
+    # Check if the file already exists and is significant in size (> 10KB)
+    if [ -f "${filename}.jpg" ]; then
+        filesize=$(stat -f%z "${filename}.jpg" 2>/dev/null || stat -c%s "${filename}.jpg" 2>/dev/null)
+        if [ "$filesize" -gt 10240 ]; then
+            echo "Skipping ${filename}.jpg (existing large image: $filesize bytes)"
+            continue
+        fi
+    fi
+    
     echo "Creating: ${filename}.jpg"
     
     # Generate image with ImageMagick
