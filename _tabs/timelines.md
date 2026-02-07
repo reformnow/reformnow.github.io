@@ -7,26 +7,59 @@ order: 5
 
 ## Church History Timelines
 
-Explore the history of the church through interactive timelines. Each timeline traces major events, councils, reformations, and theological developments from the apostles to the present day.
+Explore interactive timelines tracing major events, councils, reformations, and theological developments from the apostles to the present day.
 
-### Featured Timelines
-
-<div class="timeline-list">
-  <div class="timeline-card">
-    <h3><a href="/posts/church-history-timeline/">Church History Timeline</a></h3>
-    <p class="text-muted">33 AD — Present</p>
-    <p>A comprehensive journey through 2,000 years of church history, from Pentecost to the New Calvinism movement. Features 57 major events including:</p>
-    <ul>
-      <li>All Seven Ecumenical Councils</li>
-      <li>The Protestant Reformation</li>
-      <li>Major Confessions and Synods</li>
-      <li>Modern Evangelicalism</li>
-    </ul>
-    <a href="/posts/church-history-timeline/" class="btn btn-outline-primary btn-sm">View Timeline</a>
+<div class="row">
+  {% assign timeline_posts = site.posts | where_exp: "post", "post.categories contains 'Timelines'" %}
+  
+  {% for post in timeline_posts %}
+  <div class="col-md-6 mb-4">
+    <article class="post-preview card h-100">
+      <div class="card-body">
+        <h3 class="card-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
+        
+        {% if post.description %}
+        <p class="card-text text-muted">{{ post.description }}</p>
+        {% endif %}
+        
+        <div class="post-meta mt-3">
+          <time>{{ post.date | date: "%B %d, %Y" }}</time>
+          
+          {% if post.categories %}
+          <div class="mt-2">
+            {% for category in post.categories %}
+              {% if category != "Timelines" %}
+              <span class="badge bg-secondary">{{ category }}</span>
+              {% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
+          
+          {% if post.tags %}
+          <div class="mt-2">
+            {% for tag in post.tags limit: 3 %}
+            <span class="badge bg-light text-dark">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+        
+        <a href="{{ post.url | relative_url }}" class="btn btn-outline-primary btn-sm mt-3">View Timeline</a>
+      </div>
+    </article>
   </div>
+  {% endfor %}
 </div>
 
-### About Our Timelines
+{% if timeline_posts.size == 0 %}
+<p class="text-muted">No timeline posts found. Check back soon!</p>
+{% endif %}
+
+---
+
+## About Our Timelines
 
 All timelines feature:
 - **Historical Accuracy**: Based on scholarly research and primary sources
@@ -78,21 +111,45 @@ All timelines feature:
   </div>
 </div>
 
-### Using the Timelines
+---
 
-To use a timeline in your own posts:
+## Create Your Own Timeline
+
+To create a new timeline post:
+
+1. **Create a data file** in `_data/timelines/`:
+
+```yaml
+# _data/timelines/my-timeline.yml
+- date: "Year"
+  title: "Event Title"
+  description: "Event description"
+  image: "/assets/img/timeline/image.jpg"
+  category: "category"
+```
+
+2. **Create a post** in `_posts/`:
 
 ```yaml
 ---
-title: "My Timeline"
+title: "My Timeline Title"
 layout: post
-tags: [timeline]
+date: 2025-02-06
+categories: [Timelines, My Category]
+tags: [timeline, tag1, tag2]
+description: Brief description of this timeline
 ---
 
-{% raw %}{% include timeline.html data=site.data.timelines.church-history title="My Timeline" %}{% endraw %}
+## Introduction
+
+Your timeline description here.
+
+{% raw %}{% include timeline.html data=site.data.timelines.my-timeline title="My Timeline" %}{% endraw %}
 ```
 
-Or create your own timeline data in `_data/timelines/`.
+3. **Add images** to `assets/img/timeline/`
+
+Your timeline will automatically appear in the list above!
 
 ---
 
