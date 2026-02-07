@@ -1,12 +1,13 @@
 #!/bin/bash
 # Download timeline images from Wikimedia Commons
-# This script downloads public domain images for timeline events
+# Run this script to automatically download the top 10 images
 
+echo "=========================================="
 echo "Timeline Image Downloader"
-echo "=========================="
+echo "=========================================="
 echo ""
 
-# Create download directory
+# Create downloads directory
 mkdir -p downloads
 cd downloads
 
@@ -19,171 +20,106 @@ download_image() {
     echo "Downloading: $description"
     
     # Download using curl
-    if curl -s -o "temp_$filename" "$url"; then
+    if curl -s -L -o "temp_$filename" "$url"; then
         # Check if file exists and has content
         if [ -s "temp_$filename" ]; then
-            # Convert to proper size
-            convert "temp_$filename" -resize 800x400^ -gravity center -extent 800x400 -quality 85 "../$filename"
-            echo "  ✓ $filename created"
-            rm "temp_$filename"
+            # Check if it's an image
+            filetype=$(file -b --mime-type "temp_$filename")
+            if [[ $filetype == image/* ]]; then
+                # Copy to timeline folder
+                cp "temp_$filename" "../$filename"
+                echo "  ✓ $filename downloaded successfully"
+            else
+                echo "  ✗ Downloaded file is not an image"
+            fi
         else
-            echo "  ✗ Failed to download: $filename"
-            rm -f "temp_$filename"
+            echo "  ✗ Download failed: empty file"
         fi
+        rm -f "temp_$filename"
     else
-        echo "  ✗ Download error: $filename"
+        echo "  ✗ Download failed"
     fi
 }
 
-echo "Attempting to download public domain images..."
+# Download top 10 images
+echo "Downloading top 10 priority images..."
 echo ""
 
-# Wikimedia Commons URLs (these are example URLs - actual URLs need to be found)
-# You need to manually find and add URLs from Wikimedia Commons
+# 1. Pentecost
+download_image \
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Tizian_005.jpg/800px-Tizian_005.jpg" \
+    "pentecost.jpg" \
+    "Pentecost by Titian"
 
-echo "TOP PRIORITY IMAGES:"
-echo "===================="
-echo ""
+# 2. Council of Nicaea
+download_image \
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/First_Council_of_Nicea.jpg/800px-First_Council_of_Nicea.jpg" \
+    "council-nicaea.jpg" \
+    "Council of Nicaea"
 
-# Example downloads (you need to find actual URLs from Wikimedia Commons)
-echo "1. Martin Luther - 95 Theses"
-echo "   Search: https://commons.wikimedia.org/wiki/File:Luther_95_Thesen.jpg"
-echo "   Download manually and save as: luther-95-theses.jpg"
-echo ""
+# 3. Augustine
+download_image \
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Saint_Augustine_by_Philippe_de_Champaigne.jpg/800px-Saint_Augustine_by_Philippe_de_Champaigne.jpg" \
+    "augustine-death.jpg" \
+    "Saint Augustine"
 
-echo "2. Council of Nicaea"
-echo "   Search: https://commons.wikimedia.org/wiki/Category:Council_of_Nicaea"
-echo "   Download manually and save as: council-nicaea.jpg"
-echo ""
+# 4. Luther 95 Theses
+download_image \
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Luther_95_Thesen.jpg/800px-Luther_95_Thesen.jpg" \
+    "luther-95-theses.jpg" \
+    "Luther 95 Theses"
 
-echo "3. John Calvin"
-echo "   Search: https://commons.wikimedia.org/wiki/File:Calvin_-_portrait.jpg"
-echo "   Download manually and save as: calvin-institutes.jpg"
-echo ""
+# 5. John Calvin
+download_image \
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/John_Calvin_by_Hans_Holbein_the_Younger.jpg/800px-John_Calvin_by_Hans_Holbein_the_Younger.jpg" \
+    "calvin-institutes.jpg" \
+    "John Calvin"
 
-echo "4. Augustine of Hippo"
-echo "   Search: https://commons.wikimedia.org/wiki/File:Saint_Augustine_Portrait.jpg"
-echo "   Download manually and save as: augustine-death.jpg"
-echo ""
+# 6. Council of Trent
+download_image \
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Council_of_Trent.jpg/800px-Council_of_Trent.jpg" \
+    "council-trent.jpg" \
+    "Council of Trent"
 
-echo "INSTRUCTIONS:"
-echo "============="
-echo ""
-echo "1. Go to https://commons.wikimedia.org"
-echo "2. Search for the event/person"
-echo "3. Find a suitable image (preferably painting or artwork)"
-echo "4. Check license (should say 'Public Domain' or 'CC0')"
-echo "5. Click 'Download' and select size (minimum 800px width)"
-echo "6. Rename to match timeline event name"
-echo "7. Move to: /assets/img/timeline/"
-echo ""
+# 7. Synod of Dort
+download_image \
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Synode_van_Dordrecht_%281618-1619%29.jpg/800px-Synode_van_Dordrecht_%281618-1619%29.jpg" \
+    "synod-dort.jpg" \
+    "Synod of Dort"
 
+# 8. Westminster Assembly
+download_image \
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Westminster_Assembly.jpg/800px-Westminster_Assembly.jpg" \
+    "westminster-assembly.jpg" \
+    "Westminster Assembly"
+
+# 9. Great Awakening (Whitefield)
+download_image \
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/George_Whitefield_preaching.jpg/800px-George_Whitefield_preaching.jpg" \
+    "great-awakening.jpg" \
+    "George Whitefield preaching"
+
+# 10. William Carey
+download_image \
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/William_Carey_by_Ann_Harriet_Fuller.jpg/800px-William_Carey_by_Ann_Harriet_Fuller.jpg" \
+    "william-carey.jpg" \
+    "William Carey"
+
+echo ""
+echo "=========================================="
+echo "Download complete!"
+echo "=========================================="
+echo ""
+echo "Images saved to: assets/img/timeline/"
+echo ""
+echo "IMPORTANT: These images may need to be resized to 800x400 pixels"
+echo "for optimal display in the timeline."
+echo ""
+echo "Next steps:"
+echo "1. Check that images downloaded correctly"
+echo "2. Resize images if needed"
+echo "3. Rebuild Jekyll site"
+echo "4. View your timeline with images!"
+
+# Go back to parent directory
 cd ..
-
-# Create a helper script for manual downloads
-cat > manual-download-list.txt << 'EOF'
-PRIORITY 1 - Essential Images:
-==============================
-1. pentecost.jpg
-   Wikimedia: Search "Pentecost painting"
-   Example: https://commons.wikimedia.org/wiki/File:Pentecost_Rubens.jpg
-
-2. luther-95-theses.jpg
-   Wikimedia: Search "Luther 95 theses"
-   Example: https://commons.wikimedia.org/wiki/File:Luther_95_Thesen.jpg
-
-3. calvin-institutes.jpg
-   Wikimedia: Search "John Calvin portrait"
-   Example: https://commons.wikimedia.org/wiki/File:Calvin.jpg
-
-4. council-nicaea.jpg
-   Wikimedia: Search "Council of Nicaea"
-   Example: https://commons.wikimedia.org/wiki/File:First_Council_of_Nicaea.jpg
-
-5. augustine-death.jpg
-   Wikimedia: Search "Augustine Hippo"
-   Example: https://commons.wikimedia.org/wiki/File:Saint_Augustine.jpg
-
-6. synod-dort.jpg
-   Wikimedia: Search "Synod of Dort"
-   Example: https://commons.wikimedia.org/wiki/File:Synod_of_Dort.jpg
-
-PRIORITY 2 - Major Councils:
-============================
-7. council-chalcedon.jpg
-8. council-constantinople.jpg
-9. council-ephesus.jpg
-10. council-trent.jpg
-
-PRIORITY 3 - Heresies:
-======================
-11. pelagianism.jpg (can copy from ../posts/augustine_pelagius_header.png)
-12. semi-pelagianism.jpg
-13. arminius.jpg
-
-PRIORITY 4 - Events:
-====================
-14. fall-of-rome.jpg
-15. great-schism.jpg
-16. marburg-colloquy.jpg
-17. scottish-reformation.jpg
-18. diet-of-worms.jpg
-19. westminster-assembly.jpg
-
-REMAINING:
-==========
-20. council-jerusalem.jpg
-21. gnosticism.jpg
-22. marcion.jpg
-23. council-constantinople-2.jpg
-24. council-constantinople-3.jpg
-25. council-nicaea-2.jpg
-26. filioque.jpg
-27. scholasticism.jpg
-28. wycliffe-hus.jpg
-29. luther-treatises.jpg
-30. zwingli-zurich.jpg
-31. zwingli-death.jpg
-32. calvin-geneva.jpg
-33. english-reformation.jpg
-34. elizabethan-settlement.jpg
-35. heidelberg-catechism.jpg
-36. belgic-confession.jpg
-37. geneva-bible.jpg
-38. remonstrance.jpg
-39. canons-dort.jpg
-40. westminster-confession.jpg
-
-PROCESSING:
-===========
-After downloading, resize images:
-  - Width: 800 pixels
-  - Height: 400 pixels (2:1 ratio)
-  - Quality: 85%
-  - Format: JPG
-
-TOOLS:
-======
-Online: https://tinypng.com (for compression)
-Online: https://www.iloveimg.com/resize-image (for resizing)
-Desktop: ImageMagick
-  convert input.jpg -resize 800x400^ -gravity center -extent 800x400 -quality 85 output.jpg
-EOF
-
-echo ""
-echo "Created: manual-download-list.txt"
-echo ""
-echo "This file contains search terms and instructions for manually"
-echo "downloading images from Wikimedia Commons."
-echo ""
-echo "QUICK START:"
-echo "==========="
-echo ""
-echo "Option 1: Use existing images"
-echo "  cp ../posts/augustine_pelagius_header.png ./pelagianism.jpg"
-echo ""
-echo "Option 2: Create placeholders"
-echo "  ../generate-placeholders.sh"
-echo ""
-echo "Option 3: Download from Wikimedia Commons"
-echo "  See manual-download-list.txt for instructions"
