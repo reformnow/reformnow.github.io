@@ -1,40 +1,285 @@
 # Church History Timeline
-# Add events in chronological order
+# Comprehensive timeline from Pentecost to Synod of Dort
+# Major ecumenical councils, synods, and doctrinal milestones
 # Format:
 # - date: "Year or Date"
 #   title: "Event Title"
 #   description: "Brief description"
 #   image: "/assets/img/timeline/event.jpg" (optional)
-#   category: "theology|history|reformation" (optional)
+#   category: "theology|history|reformation|council|heresy"
 #   link: "/posts/post-url/" (optional)
 
+# Apostolic and Early Church Period
 - date: "33 AD"
   title: "Day of Pentecost"
-  description: "The Holy Spirit descends upon the apostles, birth of the Christian Church"
+  description: "The Holy Spirit descends upon the apostles in Jerusalem, empowering them to preach the Gospel in multiple languages. This event marks the birth of the Christian Church and fulfills Jesus' promise to send the Advocate."
   category: "history"
+  image: "/assets/img/timeline/pentecost.jpg"
+
+- date: "48-50 AD"
+  title: "Council of Jerusalem"
+  description: "First church council convenes to address whether Gentile converts must follow Mosaic law. Decides that salvation is by grace through faith, not circumcision."
+  category: "council"
+  image: "/assets/img/timeline/council-jerusalem.jpg"
+
+# Early Heresies and Responses
+- date: "c. 100-200 AD"
+  title: "Rise of Gnosticism"
+  description: "Dualistic heresy teaching that spirit is good but matter is evil. Denies Christ's true humanity. Refuted by Irenaeus and others."
+  category: "heresy"
+  image: "/assets/img/timeline/gnosticism.jpg"
+
+- date: "c. 144 AD"
+  title: "Marcion's Heresy"
+  description: "Marcion rejects the Old Testament God and creates his own canon. His views prompt the church to establish the biblical canon."
+  category: "heresy"
+  image: "/assets/img/timeline/marcion.jpg"
+
+# Ecumenical Councils - First Four Defining Christian Orthodoxy
+- date: "325 AD"
+  title: "First Council of Nicaea"
+  description: "Convened by Constantine to address Arianism. Formulates the Nicene Creed affirming Christ's full divinity ('of one substance with the Father')."
+  category: "council"
+  image: "/assets/img/timeline/council-nicaea.jpg"
+
+- date: "381 AD"
+  title: "First Council of Constantinople"
+  description: "Confirms Nicene Creed, adds clauses on the Holy Spirit. Condemns Apollinarianism (which denied Christ had a human mind). Expands creed to full Trinitarian confession."
+  category: "council"
+  image: "/assets/img/timeline/council-constantinople.jpg"
+
+- date: "c. 386-430 AD"
+  title: "Augustine vs Pelagius"
+  description: "Augustine defends the necessity of prevenient grace against Pelagius, who taught human free will could choose righteousness without divine aid. Defines doctrines of original sin and salvation by grace."
+  category: "theology"
+  image: "/assets/img/timeline/augustine-pelagius.jpg"
+  link: "/posts/augustine-vs-pelagius/"
+
+# Pelagian Controversy
+- date: "c. 405-418 AD"
+  title: "Pelagianism Condemned"
+  description: "Pelagius teaches that humans are born morally neutral with free will capable of choosing good without divine grace. Rejects original sin. Condemned as heresy by Council of Carthage (418) and later Popes. Augustine writes extensively against this, establishing doctrines of original sin and prevenient grace."
+  category: "heresy"
+  image: "/assets/img/timeline/pelagianism.jpg"
+
+- date: "c. 428 AD"
+  title: "Semi-Pelagianism"
+  description: "Monastic communities in southern Gaul (France) react against Augustinian predestination. Teach that human will can initiate salvation, though grace completes it. Represents compromise between Pelagianism and Augustinianism. Condemned at Council of Orange (529), which affirms prevenient grace but moderates predestination language."
+  category: "heresy"
+  image: "/assets/img/timeline/semi-pelagianism.jpg"
+
+- date: "529 AD"
+  title: "Council of Orange"
+  description: "Condemns Semi-Pelagianism. Affirms that faith is a gift of God, not initiated by human free will. Compromises by not affirming double predestination (Augustine's stronger view) but establishes that grace always precedes human faith."
+  category: "council"
+  image: "/assets/img/timeline/council-orange.jpg"
 
 - date: "410 AD"
   title: "Fall of Rome"
-  description: "Visigoths sack Rome, prompting Augustine's theological response"
+  description: "Visigoths sack Rome, causing theological crisis. Augustine responds with 'City of God,' distinguishing earthly and heavenly kingdoms."
   category: "history"
-  link: "/posts/Augustine-vs-Pelagius/"
+  image: "/assets/img/timeline/fall-of-rome.jpg"
 
 - date: "430 AD"
   title: "Death of Augustine"
-  description: "Augustine of Hippo dies during Vandal siege"
+  description: "Augustine of Hippo dies during Vandal siege. His writings on grace, predestination, and the church become foundational for Western theology."
   category: "theology"
+  image: "/assets/img/timeline/augustine-death.jpg"
 
+- date: "431 AD"
+  title: "Council of Ephesus"
+  description: "Condemns Nestorianism, which separated Christ's divine and human natures. Affirms Mary as Theotokos (God-bearer), protecting Christ's unified person."
+  category: "council"
+  image: "/assets/img/timeline/council-ephesus.jpg"
+
+- date: "451 AD"
+  title: "Council of Chalcedon"
+  description: "Defines Christ as one person in two distinct natures (human and divine), united without confusion, change, division, or separation. Refutes Monophysitism."
+  category: "council"
+  image: "/assets/img/timeline/council-chalcedon.jpg"
+
+# Medieval Period
+- date: "529 AD"
+  title: "Second Council of Constantinople"
+  description: "Condemns the Three Chapters controversy. Affirms Chalcedonian Christology against lingering Nestorian and Monophysite tendencies."
+  category: "council"
+  image: "/assets/img/timeline/council-constantinople-2.jpg"
+
+- date: "553 AD"
+  title: "Fifth Ecumenical Council"
+  description: "Confirms condemnation of Origen's errors and affirms that Christ had a truly human will, not just a divine will."
+  category: "council"
+  image: "/assets/img/timeline/fifth-council.jpg"
+
+- date: "680-681 AD"
+  title: "Third Council of Constantinople"
+  description: "Condemns Monothelitism (one will in Christ). Affirms Christ has two wills (divine and human) corresponding to his two natures."
+  category: "council"
+  image: "/assets/img/timeline/council-constantinople-3.jpg"
+
+- date: "787 AD"
+  title: "Second Council of Nicaea"
+  description: "Restores veneration of icons. Distinguishes between worship (latria, for God alone) and veneration (dulia/proskynesis, for saints and images)."
+  category: "council"
+  image: "/assets/img/timeline/council-nicaea-2.jpg"
+
+# Medieval Heresies
+- date: "c. 800-1000 AD"
+  title: "Filioque Controversy"
+  description: "Western church adds 'and the Son' (Filioque) to Nicene Creed regarding Holy Spirit's procession. Eastern church rejects this as unilateral alteration. Leads to Great Schism."
+  category: "heresy"
+  image: "/assets/img/timeline/filioque.jpg"
+
+- date: "1054 AD"
+  title: "Great Schism"
+  description: "Formal split between Eastern Orthodox and Roman Catholic churches. Mutual excommunications not lifted until 1965."
+  category: "history"
+  image: "/assets/img/timeline/great-schism.jpg"
+
+- date: "c. 1100-1300 AD"
+  title: "Rise of Scholasticism"
+  description: "Theological method emphasizing dialectical reasoning. Thomas Aquinas synthesizes Aristotelian philosophy with Christian theology in Summa Theologica."
+  category: "theology"
+  image: "/assets/img/timeline/scholasticism.jpg"
+
+# Pre-Reformation Movements
+- date: "c. 1350-1400 AD"
+  title: "Precursors to Reformation"
+  description: "John Wycliffe in England and Jan Hus in Bohemia challenge papal authority and advocate Scripture in vernacular. Hus burned at stake (1415), but movement continues."
+  category: "history"
+  image: "/assets/img/timeline/wycliffe-hus.jpg"
+
+# The Reformation Begins
 - date: "1517"
   title: "95 Theses"
-  description: "Martin Luther nails 95 theses in Wittenberg, sparking the Reformation"
+  description: "Martin Luther nails 95 theses to Wittenberg church door, protesting indulgences and papal authority. Spark of the Protestant Reformation."
   category: "reformation"
+  image: "/assets/img/timeline/luther-95-theses.jpg"
 
+- date: "1520"
+  title: "Luther's Three Treatises"
+  description: "Luther publishes 'To the Christian Nobility,' 'Babylonian Captivity of the Church,' and 'Freedom of a Christian,' outlining Reformation principles."
+  category: "reformation"
+  image: "/assets/img/timeline/luther-treatises.jpg"
+
+- date: "1521"
+  title: "Diet of Worms"
+  description: "Luther refuses to recant at imperial diet. Declares 'Here I stand, I can do no other.' Edict of Worms declares him outlaw."
+  category: "reformation"
+  image: "/assets/img/timeline/diet-of-worms.jpg"
+
+# Swiss Reformation
+- date: "1522"
+  title: "Zwingli's Reformation in Zurich"
+  description: "Ulrich Zwingli begins preaching straight from Scripture in Zurich. Challenges unbiblical practices, leading to reforms in Swiss Confederacy."
+  category: "reformation"
+  image: "/assets/img/timeline/zwingli-zurich.jpg"
+
+- date: "1529"
+  title: "Marburg Colloquy"
+  description: "Luther and Zwingli meet to unite Protestant forces. Agree on 14 of 15 articles but split over Eucharist (real presence vs. symbolic)."
+  category: "reformation"
+  image: "/assets/img/timeline/marburg-colloquy.jpg"
+
+- date: "1531"
+  title: "Death of Zwingli"
+  description: "Zwingli killed in battle at Kappel. Swiss Reformation continues under Heinrich Bullinger."
+  category: "history"
+  image: "/assets/img/timeline/zwingli-death.jpg"
+
+# Calvin and Reformed Tradition
 - date: "1536"
   title: "Institutes of the Christian Religion"
-  description: "John Calvin publishes his systematic theology"
+  description: "John Calvin publishes first edition of his systematic theology. Work becomes foundational text for Reformed tradition, emphasizing sovereignty of God and predestination."
   category: "reformation"
+  image: "/assets/img/timeline/calvin-institutes.jpg"
+
+- date: "1541"
+  title: "Calvin in Geneva"
+  description: "Calvin establishes church government in Geneva. Creates model for Reformed churches emphasizing preaching, discipline, and deaconal care."
+  category: "reformation"
+  image: "/assets/img/timeline/calvin-geneva.jpg"
+
+# English Reformation
+- date: "1534"
+  title: "English Reformation Begins"
+  description: "Henry VIII breaks with Rome, establishes Church of England. Act of Supremacy makes king head of church."
+  category: "reformation"
+  image: "/assets/img/timeline/english-reformation.jpg"
+
+- date: "1559"
+  title: "Elizabethan Settlement"
+  description: "Queen Elizabeth I establishes Church of England via Act of Supremacy and Act of Uniformity. Via Media (middle way) between Protestant and Catholic."
+  category: "reformation"
+  image: "/assets/img/timeline/elizabethan-settlement.jpg"
 
 - date: "1560"
   title: "Scottish Reformation"
-  description: "John Knox leads the Reformation in Scotland"
+  description: "John Knox leads Reformation in Scotland. Presbyterian church polity established. Scots Confession adopted."
   category: "reformation"
+  image: "/assets/img/timeline/scottish-reformation.jpg"
+
+# Counter-Reformation
+- date: "1545-1563"
+  title: "Council of Trent"
+  description: "Catholic Counter-Reformation council. Affirms tradition alongside Scripture, rejects sola fide, maintains seven sacraments, anathematizes Protestant doctrines."
+  category: "council"
+  image: "/assets/img/timeline/council-trent.jpg"
+
+# Continental Confessions
+- date: "1563"
+  title: "Heidelberg Catechism"
+  description: "Written by Zacharias Ursinus and Caspar Olevianus. Q&A format teaching Reformed doctrine. Emphasizes comfort in belonging to Christ."
+  category: "reformation"
+  image: "/assets/img/timeline/heidelberg-catechism.jpg"
+
+- date: "1561"
+  title: "Belgic Confession"
+  description: "Written by Guido de Brès. One of three forms of unity for Dutch Reformed churches. Articulates Reformed faith over against Anabaptism and Roman Catholicism."
+  category: "reformation"
+  image: "/assets/img/timeline/belgic-confession.jpg"
+
+- date: "1560"
+  title: "Geneva Bible"
+  description: "First English Bible with chapter and verse divisions. Includes marginal notes reflecting Calvinist theology. Popular with Puritans."
+  category: "reformation"
+  image: "/assets/img/timeline/geneva-bible.jpg"
+
+# Arminian Controversy
+- date: "1603"
+  title: "Jacobus Arminius"
+  description: "Arminius challenges strict predestination, teaching that election is based on foreseen faith and that grace is resistible. Leads to Remonstrance (1610)."
+  category: "heresy"
+  image: "/assets/img/timeline/arminius.jpg"
+
+- date: "1610"
+  title: "Five Articles of Remonstrance"
+  description: "Followers of Arminius (Remonstrants) present five points challenging Calvinist doctrines: conditional election, universal atonement, free will, resistible grace, and possibility of apostasy."
+  category: "heresy"
+  image: "/assets/img/timeline/remonstrance.jpg"
+
+# The Synod of Dort - Culmination
+- date: "1618-1619"
+  title: "Synod of Dort"
+  description: "International synod convenes in Netherlands to address Arminianism. Drafts Canons of Dort affirming five points of Calvinism (TULIP): Total Depravity, Unconditional Election, Limited Atonement, Irresistible Grace, Perseverance of Saints."
+  category: "council"
+  image: "/assets/img/timeline/synod-dort.jpg"
+
+- date: "1619"
+  title: "Canons of Dort"
+  description: "Definitive statement of Reformed orthodoxy on salvation. Condemns Arminianism as heresy. One of three forms of unity for Dutch Reformed churches alongside Belgic Confession and Heidelberg Catechism."
+  category: "theology"
+  image: "/assets/img/timeline/canons-dort.jpg"
+
+# Post-Dort Developments
+- date: "1643-1649"
+  title: "Westminster Assembly"
+  description: "English assembly produces Westminster Confession of Faith, Larger and Shorter Catechisms. Definitive Presbyterian/Reformed confession."
+  category: "council"
+  image: "/assets/img/timeline/westminster-assembly.jpg"
+
+- date: "1647"
+  title: "Westminster Confession"
+  description: "Comprehensive Reformed confession addressing Scripture, Trinity, providence, covenant, salvation, church, and last things. Most influential Reformed confession worldwide."
+  category: "theology"
+  image: "/assets/img/timeline/westminster-confession.jpg"
