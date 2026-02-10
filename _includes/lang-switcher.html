@@ -1,0 +1,16 @@
+<!-- Language Switcher -->
+{% if page.path contains '_posts/en/' or page.lang == 'en' %}
+  {% assign zh_url = page.url | replace: '/en/', '/zh/' | replace: '/posts/', '/posts/zh/' %}
+  <div class="lang-switcher d-inline-block ms-2">
+    <a href="{{ zh_url }}" class="lang-link badge bg-secondary text-decoration-none" title="切换到中文">
+      中文
+    </a>
+  </div>
+{% elsif page.path contains '_posts/zh/' or page.lang == 'zh' %}
+  {% assign en_url = page.url | replace: '/zh/', '/en/' | replace: '/posts/zh/', '/posts/' %}
+  <div class="lang-switcher d-inline-block ms-2">
+    <a href="{{ en_url }}" class="lang-link badge bg-secondary text-decoration-none" title="Switch to English">
+      English
+    </a>
+  </div>
+{% endif %}
