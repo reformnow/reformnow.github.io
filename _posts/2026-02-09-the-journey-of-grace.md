@@ -5,7 +5,7 @@ categories: [Theology, Salvation]
 tags: [grace, salvation, bible, soteriology, bilingual]
 description: A journey through the work of divine grace in human lives, from the first stirrings of faith to final redemption
 image:
-  path: 
+  path: /assets/img/posts/journey_of_grace.png
   alt: "The Journey of Grace"
 ---
 
