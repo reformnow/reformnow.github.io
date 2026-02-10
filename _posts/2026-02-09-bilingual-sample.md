@@ -7,7 +7,7 @@ description: A sample bilingual post demonstrating the toggle feature
 ---
 
 <!-- English Version -->
-<div class="lang-en">
+<div class="lang-en" markdown="1">
 
 ## Welcome to Bilingual Posts
 
@@ -24,7 +24,7 @@ This system allows readers to choose their preferred language while keeping both
 </div>
 
 <!-- Chinese Version -->
-<div class="lang-zh">
+<div class="lang-zh" markdown="1">
 
 ## 欢迎来到双语文章
 
