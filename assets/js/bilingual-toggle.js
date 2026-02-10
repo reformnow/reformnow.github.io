@@ -6,8 +6,8 @@
   
   // Wait for DOM to be ready
   function init() {
-    // Check if this is a bilingual post
-    if (!document.querySelector('.post-content')) return;
+    // Check if this is a bilingual post (has language divs)
+    if (!document.querySelector('.lang-en') && !document.querySelector('.lang-zh')) return;
     
     // Create language switcher
     createLanguageSwitcher();
@@ -17,8 +17,8 @@
   }
   
   function createLanguageSwitcher() {
-    // Find the post header
-    const header = document.querySelector('h1.dynamic-title');
+    // Find the post header (h1 with data-toc-skip or in article)
+    const header = document.querySelector('h1[data-toc-skip]') || document.querySelector('article h1') || document.querySelector('.content h1');
     if (!header) return;
     
     // Create switcher container
@@ -48,23 +48,24 @@
   
   // Global function
   window.setLanguageView = function(lang) {
-    const content = document.querySelector('.post-content');
-    if (!content) return;
-    
     // Update button states
     document.querySelectorAll('.lang-switcher button').forEach(btn => {
       if (btn.dataset.lang === lang) {
         btn.classList.add('active');
-        btn.classList.replace('btn-outline-primary', 'btn-primary');
+        if (btn.classList.contains('btn-outline-primary')) {
+          btn.classList.replace('btn-outline-primary', 'btn-primary');
+        }
       } else {
         btn.classList.remove('active');
-        btn.classList.replace('btn-primary', 'btn-outline-primary');
+        if (btn.classList.contains('btn-primary')) {
+          btn.classList.replace('btn-primary', 'btn-outline-primary');
+        }
       }
     });
     
     // Show/hide content
-    const englishBlocks = content.querySelectorAll('.lang-en');
-    const chineseBlocks = content.querySelectorAll('.lang-zh');
+    const englishBlocks = document.querySelectorAll('.lang-en');
+    const chineseBlocks = document.querySelectorAll('.lang-zh');
     
     englishBlocks.forEach(block => {
       block.style.display = (lang === 'english' || lang === 'both') ? 'block' : 'none';
