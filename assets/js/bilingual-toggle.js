@@ -4,73 +4,27 @@
 (function() {
   'use strict';
   
-  // Wait for DOM to be ready
-  function init() {
-    // Check if this is a bilingual post (has language divs)
-    if (!document.querySelector('.lang-en') && !document.querySelector('.lang-zh')) return;
-    
-    // Create language switcher
-    createLanguageSwitcher();
-    
-    // Set default view
-    setLanguageView('english');
-  }
-  
-  function createLanguageSwitcher() {
-    // Find the content div
-    const content = document.querySelector('.content');
-    if (!content) return;
-    
-    // Create switcher container
-    const switcher = document.createElement('div');
-    switcher.className = 'lang-switcher my-4 py-2 border-bottom';
-    
-    // Create buttons
-    switcher.innerHTML = `
-    <div class="btn-group" role="group" aria-label="Language switcher">
-      <button type="button" class="btn btn-sm btn-outline-primary active" data-lang="english" onclick="setLanguageView('english')">
-        English
-      </button>
-      <button type="button" class="btn btn-sm btn-outline-primary" data-lang="chinese" onclick="setLanguageView('chinese')">
-        中文
-      </button>
-      <button type="button" class="btn btn-sm btn-outline-primary" data-lang="both" onclick="setLanguageView('both')">
-        Both / 双语
-      </button>
-    </div>
-    <small class="text-muted ms-2" style="font-size: 0.8rem;">Click to switch language</small>
-    `;
-    
-    // Insert at beginning of content
-    content.insertBefore(switcher, content.firstChild);
-  }
-  
-  // Global function
+  // Global function for button clicks
   window.setLanguageView = function(lang) {
     // Update button states
     document.querySelectorAll('.lang-switcher button').forEach(btn => {
       if (btn.dataset.lang === lang) {
         btn.classList.add('active');
-        if (btn.classList.contains('btn-outline-primary')) {
-          btn.classList.replace('btn-outline-primary', 'btn-primary');
-        }
+        btn.classList.remove('btn-outline-primary');
+        btn.classList.add('btn-primary');
       } else {
         btn.classList.remove('active');
-        if (btn.classList.contains('btn-primary')) {
-          btn.classList.replace('btn-primary', 'btn-outline-primary');
-        }
+        btn.classList.remove('btn-primary');
+        btn.classList.add('btn-outline-primary');
       }
     });
     
     // Show/hide content
-    const englishBlocks = document.querySelectorAll('.lang-en');
-    const chineseBlocks = document.querySelectorAll('.lang-zh');
-    
-    englishBlocks.forEach(block => {
+    document.querySelectorAll('.lang-en').forEach(block => {
       block.style.display = (lang === 'english' || lang === 'both') ? 'block' : 'none';
     });
     
-    chineseBlocks.forEach(block => {
+    document.querySelectorAll('.lang-zh').forEach(block => {
       block.style.display = (lang === 'chinese' || lang === 'both') ? 'block' : 'none';
     });
     
@@ -78,19 +32,24 @@
     localStorage.setItem('preferredLanguage', lang);
   };
   
-  // Restore saved preference
-  function restorePreference() {
+  // Initialize on page load
+  function init() {
+    // Check if this is a bilingual post
+    if (!document.querySelector('.lang-en') && !document.querySelector('.lang-zh')) return;
+    
+    // Restore saved preference or default to english
     const saved = localStorage.getItem('preferredLanguage');
     if (saved) {
       setLanguageView(saved);
+    } else {
+      setLanguageView('english');
     }
   }
   
-  // Initialize when DOM is ready
+  // Run when DOM is ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {
     init();
-    restorePreference();
   }
 })();
