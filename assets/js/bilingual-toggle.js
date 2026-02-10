@@ -17,33 +17,32 @@
   }
   
   function createLanguageSwitcher() {
-    // Find the post header (h1 with data-toc-skip or in article)
-    const header = document.querySelector('h1[data-toc-skip]') || document.querySelector('article h1') || document.querySelector('.content h1');
-    if (!header) return;
+    // Find the content div
+    const content = document.querySelector('.content');
+    if (!content) return;
     
     // Create switcher container
     const switcher = document.createElement('div');
-    switcher.className = 'lang-switcher';
-    switcher.style.cssText = 'margin: 1rem 0; padding: 0.5rem 0; border-bottom: 1px solid #e9ecef;';
+    switcher.className = 'lang-switcher my-4 py-2 border-bottom';
     
     // Create buttons
     switcher.innerHTML = `
-      <div class="btn-group" role="group" aria-label="Language switcher">
-        <button type="button" class="btn btn-sm btn-outline-primary active" data-lang="english" onclick="setLanguageView('english')">
-          English
-        </button>
-        <button type="button" class="btn btn-sm btn-outline-primary" data-lang="chinese" onclick="setLanguageView('chinese')">
-          中文
-        </button>
-        <button type="button" class="btn btn-sm btn-outline-primary" data-lang="both" onclick="setLanguageView('both')">
-          Both / 双语
-        </button>
-      </div>
-      <small class="text-muted ms-2" style="font-size: 0.8rem;">Click to switch language</small>
+    <div class="btn-group" role="group" aria-label="Language switcher">
+      <button type="button" class="btn btn-sm btn-outline-primary active" data-lang="english" onclick="setLanguageView('english')">
+        English
+      </button>
+      <button type="button" class="btn btn-sm btn-outline-primary" data-lang="chinese" onclick="setLanguageView('chinese')">
+        中文
+      </button>
+      <button type="button" class="btn btn-sm btn-outline-primary" data-lang="both" onclick="setLanguageView('both')">
+        Both / 双语
+      </button>
+    </div>
+    <small class="text-muted ms-2" style="font-size: 0.8rem;">Click to switch language</small>
     `;
     
-    // Insert after header
-    header.parentNode.insertBefore(switcher, header.nextSibling);
+    // Insert at beginning of content
+    content.insertBefore(switcher, content.firstChild);
   }
   
   // Global function
