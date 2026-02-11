@@ -23,7 +23,7 @@ To understand this journey, we must recognize that salvation is not a mere "repa
 
 <div class="lang-zh" markdown="1">
 
-## 引言：寻找人的神的奥秘
+### 引言：寻找神的奥秘
 
 我们常说“寻找神”，仿佛我们是主动的寻找者，而祂是迷失在阴影中的那一位。我们把信仰之旅描述为一系列个人发现、理智突破或情感觉醒。然而，圣经的见证却将这种以人为中心叙事彻底颠覆。救恩的故事不是人寻找神的故事，而是神寻找人的故事。
 
@@ -35,7 +35,7 @@ To understand this journey, we must recognize that salvation is not a mere "repa
 
 <div class="lang-en" markdown="1">
 
-## The Foundation: The Golden Chain of Salvation
+### The Foundation: The Golden Chain of Salvation
 
 Central to understanding the journey of grace is the "Golden Chain" of salvation found in the eighth chapter of Romans. This series of events, linked together by the sovereign purpose of God, ensures that every person God intends to save will indeed be brought home to glory. It is a chain that starts in eternity past and stretches to eternity future, and not a single link can be broken.
 
@@ -47,7 +47,7 @@ For those whom he foreknew he also predestined to be conformed to the image of h
 
 <div class="lang-zh" markdown="1">
 
-## 根基：救恩的金链
+### 根基：救恩的金链
 
 理解恩典之旅的核心是罗马书第八章中所说的救恩的“金链”。这一系列事件由神的主权旨意紧紧相连，确保了每一个神定意要拯救的人，都必将被带回荣耀的家。这是一条始于永恒的过去并延续到永恒未来的锁链，其中没有任何一个环节会断开。
 
@@ -59,7 +59,7 @@ For those whom he foreknew he also predestined to be conformed to the image of h
 
 <div class="lang-en" markdown="1">
 
-## 1. The Divine Source: Election and Purpose
+### 1. The Divine Source: Election and Purpose
 
 The journey does not begin with our choice, but with God’s choice. This is perhaps the most humbling truth in all of Scripture. God did not wait for us to improve ourselves or to seek Him out. In His infinite wisdom and love, He set His affection upon His people before the world was even spoken into existence.
 
@@ -73,7 +73,7 @@ Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Ch
 
 <div class="lang-zh" markdown="1">
 
-## 1. 神圣的源头：预定与旨意
+### 1. 神圣的源头：预定与旨意
 
 旅程并非始于我们的选择，而是始于神的选择。这也许是圣经中最令人谦卑的真理。神并没有等待我们完善自己或主动寻找祂。在祂无穷的智慧和爱中，祂在世界被造之前就已经将爱倾注在祂的子民身上。
 
@@ -87,7 +87,7 @@ Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Ch
 
 <div class="lang-en" markdown="1">
 
-## 2. The Human Condition: The Need for Grace
+### 2. The Human Condition: The Need for Grace
 
 To appreciate the height of grace, we must first look into the depth of our own need. The Scriptures describe the natural human state not as "ailing" or "misguided," but as "dead." A dead man cannot perform CPR on himself. A dead person cannot choose to live.
 
@@ -101,7 +101,7 @@ And you were dead in the trespasses and sins in which you once walked... among w
 
 <div class="lang-zh" markdown="1">
 
-## 2. 人的境况：对恩典的渴求
+### 2. 人的境况：对恩典的渴求
 
 要体会恩典的高度，我们必须先审视自己需求的深度。圣经描述人类自然的生命状态并非仅仅是“生病”或“误入歧途”，而是“死”。一个死人无法对自己进行心肺复苏。一个死人无法选择活着。
 
@@ -115,7 +115,7 @@ And you were dead in the trespasses and sins in which you once walked... among w
 
 <div class="lang-en" markdown="1">
 
-## 3. The Effectual Call: The Voice of Life
+### 3. The Effectual Call: The Voice of Life
 
 How does God bridge the gap between His eternal purpose and our temporal state of death? He does so through His call. But this is not merely a general invitation that can be ignored or rejected. While the general call of the gospel goes out to all people through preaching, there is a special, "effectual call" that God issues to His own.
 
@@ -129,7 +129,7 @@ No one can come to me unless the Father who sent me draws him. And I will raise 
 
 <div class="lang-zh" markdown="1">
 
-## 3. 有效的呼召：生命之声
+### 3. 有效的呼召：生命之声
 
 神如何弥合祂永恒的旨意与我们暂时的死亡状态之间的鸿沟？祂通过呼召来实现。但这不仅仅是一个可以被忽视或拒绝的一般性邀请。虽然福音的“普遍呼召”通过讲道传达给所有人，但神对属祂的人发出了一种特殊的、“有效的呼召”。
 
@@ -143,7 +143,7 @@ No one can come to me unless the Father who sent me draws him. And I will raise 
 
 <div class="lang-en" markdown="1">
 
-## 4. Regeneration: The New Birth
+### 4. Regeneration: The New Birth
 
 The inward call from God results in what Jesus described to Nicodemus as being "born again." This is the miracle of regeneration. It is the instantaneous work of the Holy Spirit where a new, spiritual life is infused into the soul. 
 
@@ -157,7 +157,7 @@ And I will give you a new heart, and a new spirit I will put within you. And I w
 
 <div class="lang-zh" markdown="1">
 
-## 4. 重生：新生命
+### 4. 重生：新生命
 
 来自神的内在呼召导致了耶稣向尼哥底母描述的“重生”。这就是重生的奇迹。它是圣灵瞬间的工作，将一种全新的、属灵的生命注入灵魂。
 
@@ -171,7 +171,7 @@ And I will give you a new heart, and a new spirit I will put within you. And I w
 
 <div class="lang-en" markdown="1">
 
-## 5. Conversion: Faith and Repentance
+### 5. Conversion: Faith and Repentance
 
 Once the new life has been given through regeneration, the human soul responds. This response is called conversion, and it consists of two inseparable parts: faith and repentance. Conversion is the first conscious step of the believer in the journey of grace.
 
@@ -185,7 +185,7 @@ For by grace you have been saved through faith. And this is not your own doing; 
 
 <div class="lang-zh" markdown="1">
 
-## 5. 归正：信心与悔改
+### 5. 归正：信心与悔改
 
 一旦通过重生赐予了新生命，人类的灵魂就会做出回应。这种回应被称为归正，它由两个不可分割的部分组成：信心与悔改。归正是信徒在恩典之旅中迈出的第一个自觉步伐。
 
@@ -199,7 +199,7 @@ For by grace you have been saved through faith. And this is not your own doing; 
 
 <div class="lang-en" markdown="1">
 
-## 6. Justification: The Great Exchange
+### 6. Justification: The Great Exchange
 
 Having been brought to faith, the believer enters into a new legal standing before God. This is the doctrine of justification. It is not a process of becoming holy (that is sanctification), but a legal declaration by God the Judge that the sinner is "not guilty" and is, in fact, "righteous" in His sight.
 
@@ -217,7 +217,7 @@ Therefore, since we have been justified by faith, we have peace with God through
 
 <div class="lang-zh" markdown="1">
 
-## 6. 称义：伟大的交换
+### 6. 称义：伟大的交换
 
 信徒有了信心，就在神面前进入了一个新的法律地位。这就是称义的教义。称义不是一个变得圣洁的过程（那是成圣），而是审判者神的一个法律宣告，宣布罪人是“无罪的”，事实上，在祂眼中是“公义的”。
 
@@ -235,7 +235,7 @@ Therefore, since we have been justified by faith, we have peace with God through
 
 <div class="lang-en" markdown="1">
 
-## 7. Adoption: From Slave to Son
+### 7. Adoption: From Slave to Son
 
 While justification changes our legal status from "guilty" to "righteous," adoption changes our relational status from "stranger" to "child." God does not merely pardon us and then send us on our way; He brings us into His family. He gives us the rights, privileges, and inheritance of His own children.
 
@@ -249,7 +249,7 @@ For you did not receive the spirit of slavery to fall back into fear, but you ha
 
 <div class="lang-zh" markdown="1">
 
-## 7. 后嗣：从奴仆到儿子
+### 7. 后嗣：从奴仆到儿子
 
 称义改变了我们的法律身份，从“有罪”变为“公义”；而收纳为后嗣则改变了我们的关系身份，从“陌生人”变为“孩子”。神不仅仅是赦免了我们然后打发我们走，祂把我们带进了祂的家庭。祂赋予了我们作为祂子女的权利、特权和基业。
 
@@ -263,7 +263,7 @@ For you did not receive the spirit of slavery to fall back into fear, but you ha
 
 <div class="lang-en" markdown="1">
 
-## 8. Sanctification: The Path of Transformation
+### 8. Sanctification: The Path of Transformation
 
 The journey of grace does not end with our standing before God; it continues with our likeness to God. This process is called sanctification. Unlike justification, which is a once-for-all declaration, sanctification is a progressive, lifelong work of the Holy Spirit. 
 
@@ -277,7 +277,7 @@ In sanctification, the power of sin is gradually broken, and the image of God is
 
 <div class="lang-zh" markdown="1">
 
-## 8. 成圣：转化的道路
+### 8. 成圣：转化的道路
 
 恩典之旅并未结束于我们在神面前的地位，它延续到我们与神相似的过程中。这一过程被称为成圣。与称义不同（称义是一次性的宣告），成圣是圣灵渐进的、终身的工作。
 
@@ -291,7 +291,7 @@ In sanctification, the power of sin is gradually broken, and the image of God is
 
 <div class="lang-en" markdown="1">
 
-## 9. Perseverance: Held by the Hand of God
+### 9. Perseverance: Held by the Hand of God
 
 One might wonder: after all this, could the believer yet fall away? Could the journey end in failure? If the journey depended on our strength, the answer would surely be yes. But the journey of grace is sustained by the same power that began it. This is the doctrine of the perseverance of the saints.
 
@@ -305,7 +305,7 @@ My sheep hear my voice, and I know them, and they follow me. I give them eternal
 
 <div class="lang-zh" markdown="1">
 
-## 9. 坚忍：被神的手紧握
+### 9. 坚忍：被神的手紧握
 
 有人可能会问：在这一切之后，信徒仍有可能坠落吗？旅程会以失败告终吗？如果旅程取决于我们的力量，答案肯定是的。但恩典之旅是由开始它的同一大能所支撑的。这就是圣徒坚忍的教义。
 
@@ -319,7 +319,7 @@ My sheep hear my voice, and I know them, and they follow me. I give them eternal
 
 <div class="lang-en" markdown="1">
 
-## 10. Glorification: Arrival at the Celestial City
+### 10. Glorification: Arrival at the Celestial City
 
 The final step in the journey of grace is glorification. This occurs when the believer enters the presence of God, either at death or at the return of Christ. It is the moment when the transformation is finally complete. The presence of sin is removed, the body is redeemed and perfected, and we see God face to face.
 
@@ -333,7 +333,7 @@ Beloved, we are God's children now, and what we will be has not yet appeared; bu
 
 <div class="lang-zh" markdown="1">
 
-## 10. 得荣耀：抵达圣城
+### 10. 得荣耀：抵达圣城
 
 恩典之旅的最后一步是得荣耀。这发生在信徒进入神的同在时，无论是在死亡时还是在基督再临时。那是转化最终完成的时刻。罪的存在被移除，身体被救赎和完善，我们面对面地见到神。
 
@@ -347,7 +347,7 @@ Beloved, we are God's children now, and what we will be has not yet appeared; bu
 
 <div class="lang-en" markdown="1">
 
-## Conclusion: The Horizon of Grace
+### Conclusion: The Horizon of Grace
 
 The journey of grace is a single, unified work of God. From the eternal "I have loved you" to the final "Welcome home," every step is a gift. There is no room for human boasting, for we have contributed nothing to our salvation but the sin that made it necessary.
 
@@ -357,7 +357,7 @@ As we look back on the path, we see that what we thought were our steps were oft
 
 <div class="lang-zh" markdown="1">
 
-## 结论：恩典的水平线
+### 结论：恩典的水平线
 
 恩典之旅是神单一且统一的工作。从永恒的“我以远古的爱爱你”到最后的“欢迎回家”，每一步都是礼物。人类没有夸口的余地，因为除了制造救恩之必要的罪以外，我们对自己的救恩毫无贡献。
 
