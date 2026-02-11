@@ -145,4 +145,120 @@ Salvation is a gift from God.
 
 ---
 
+## Creating Presentation Mode Posts
+
+Posts with the `slide` tag automatically enable a **Presentation Mode** button in the sidebar. This converts your article into an interactive slideshow using Reveal.js.
+
+### How to Enable Presentation Mode
+
+Add the `slide` tag to your post:
+
+```yaml
+---
+title: "Your Presentation Title"
+layout: post
+categories: [Theology]
+tags: [slide, presentation]  # <-- Add 'slide' tag
+description: Your description
+---
+```
+
+The "Presentation Mode" button will appear in the left sidebar when viewing the post.
+
+### Slide Structure
+
+Presentation mode automatically converts your content into slides based on heading levels:
+
+- **H2 (##)** and **H3 (###)** headings create new slides
+- Content flows vertically within each slide until a new heading appears
+- Use `---` (horizontal rule) to force a new slide
+
+### Slide Types
+
+**1. Regular Slides**
+- Created by H2/H3 headings
+- Content flows vertically
+
+**2. Cover Slide**
+- First slide shows post title, image, and description
+- Generated automatically
+
+**3. Image Slides**
+- Images appear on left side with text on right
+- Created automatically when images are detected
+
+### Best Practices
+
+**1. Clear Structure**
+```markdown
+## Section 1: Main Topic
+
+Content here...
+
+### Subtopic A
+
+More details...
+
+### Subtopic B
+
+More details...
+
+## Section 2: Next Topic
+
+New slide starts here...
+```
+
+**2. Bilingual Presentations**
+- Works seamlessly with the language toggle system
+- English on left, Chinese on right when "Both" is selected
+- Or shows only selected language
+
+**3. Bible Verses**
+- Bible references in ` ```bible ` blocks are properly displayed
+- Both English and Chinese versions shown side-by-side in "Both" mode
+
+**4. Keep Slides Focused**
+- One main idea per slide
+- Use bullet points for clarity
+- Avoid overly long paragraphs
+
+### Presentation Controls
+
+- **Navigation**: Arrow keys or spacebar
+- **Fullscreen**: Click the presentation button
+- **Exit**: Press ESC or click the exit button
+- **Overview**: Press 'O' to see all slides
+
+### Example Post Structure
+
+```markdown
+---
+title: "The Order of Salvation"
+categories: [Theology]
+tags: [slide, salvation]
+---
+
+## Introduction
+
+The journey of grace begins with God's calling...
+
+## 1. Effectual Calling
+
+Not all who hear the gospel are called effectively.
+
+```bible
+For those whom he predestined he also called... (Romans 8:30)
+```
+
+## 2. Regeneration
+
+The Spirit gives life where there was death.
+
+## Conclusion
+
+God completes what He begins.
+```
+
+---
+
 *All timeline images are from Wikimedia Commons and are in the public domain.*
