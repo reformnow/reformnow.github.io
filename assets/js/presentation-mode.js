@@ -56,6 +56,34 @@
     
     const originalContent = contentEl.cloneNode(true);
     
+    // Check language preference
+    const langPreference = localStorage.getItem('preferredLanguage') || 'english';
+    const hasBilingualContent = contentEl.querySelector('.lang-en') && contentEl.querySelector('.lang-zh');
+    
+    // Filter content based on language preference
+    if (hasBilingualContent) {
+      const contentCopy = originalContent.cloneNode(true);
+      const langEnDivs = contentCopy.querySelectorAll('.lang-en');
+      const langZhDivs = contentCopy.querySelectorAll('.lang-zh');
+      
+      if (langPreference === 'english') {
+        // Show only English
+        langZhDivs.forEach(div => div.remove());
+      } else if (langPreference === 'chinese') {
+        // Show only Chinese
+        langEnDivs.forEach(div => div.remove());
+      }
+      // For 'both', keep both and handle later
+      
+      // Replace originalContent with filtered version for processing
+      while (originalContent.firstChild) {
+        originalContent.removeChild(originalContent.firstChild);
+      }
+      while (contentCopy.firstChild) {
+        originalContent.appendChild(contentCopy.firstChild);
+      }
+    }
+
     // Request Fullscreen
     const docEl = document.documentElement;
     try {
@@ -172,26 +200,59 @@
         } else {
           pendingImage = node;
         }
-    } else if (node.nodeName === 'DIV' && (node.classList.contains('lang-en') || node.classList.contains('lang-zh'))) {
-      // Handle bilingual language divs - extract their content
-      const langContent = node.querySelectorAll('h2, h3, p, ul, ol, blockquote');
-      langContent.forEach(child => {
-        if (child.nodeName === 'H2' || child.nodeName === 'H3') {
-          // Create new horizontal slide for headers
-          createSlideWithLayout();
-          currentHSection = document.createElement('section');
-          currentVSection = document.createElement('section');
-          currentHSection.appendChild(currentVSection);
-          slidesContainer.appendChild(currentHSection);
+      } else if (node.nodeName === 'DIV' && (node.classList.contains('lang-en') || node.classList.contains('lang-zh'))) {
+        // Handle bilingual language divs
+        if (langPreference === 'both') {
+          // In "both" mode, we need to pair English and Chinese side by side
+          // Store the current node and look for its pair
+          const isEnglish = node.classList.contains('lang-en');
+          const sibling = isEnglish ? node.nextElementSibling : node.previousElementSibling;
           
-          currentTitleNode = child.cloneNode(true);
-          currentVSection.appendChild(currentTitleNode.cloneNode(true));
+          if (isEnglish && sibling && sibling.classList.contains('lang-zh')) {
+            // We have both English and Chinese - create side-by-side slide
+            const slideSection = document.createElement('section');
+            const sideBySideDiv = document.createElement('div');
+            sideBySideDiv.style.cssText = 'display: flex; gap: 40px; height: 100%; align-items: flex-start;';
+            
+            // English side (left)
+            const enDiv = document.createElement('div');
+            enDiv.style.cssText = 'flex: 1; text-align: left; font-size: 0.7em;';
+            const enContent = node.querySelectorAll('h2, h3, p, ul, ol, blockquote');
+            enContent.forEach(child => enDiv.appendChild(child.cloneNode(true)));
+            
+            // Chinese side (right)
+            const zhDiv = document.createElement('div');
+            zhDiv.style.cssText = 'flex: 1; text-align: left; font-size: 0.7em;';
+            const zhContent = sibling.querySelectorAll('h2, h3, p, ul, ol, blockquote');
+            zhContent.forEach(child => zhDiv.appendChild(child.cloneNode(true)));
+            
+            sideBySideDiv.appendChild(enDiv);
+            sideBySideDiv.appendChild(zhDiv);
+            slideSection.appendChild(sideBySideDiv);
+            slidesContainer.appendChild(slideSection);
+          }
+          // Skip the Chinese div since we already processed it with English
         } else {
-          // Add other content to current vertical slide
-          currentVSection.appendChild(child.cloneNode(true));
+          // For English or Chinese only mode, extract content normally
+          const langContent = node.querySelectorAll('h2, h3, p, ul, ol, blockquote');
+          langContent.forEach(child => {
+            if (child.nodeName === 'H2' || child.nodeName === 'H3') {
+              // Create new horizontal slide for headers
+              createSlideWithLayout();
+              currentHSection = document.createElement('section');
+              currentVSection = document.createElement('section');
+              currentHSection.appendChild(currentVSection);
+              slidesContainer.appendChild(currentHSection);
+              
+              currentTitleNode = child.cloneNode(true);
+              currentVSection.appendChild(currentTitleNode.cloneNode(true));
+            } else {
+              // Add other content to current vertical slide
+              currentVSection.appendChild(child.cloneNode(true));
+            }
+          });
         }
-      });
-    } else if (isBlock && !isEmpty) {
+      } else if (isBlock && !isEmpty) {
       // Check if we have an image pending and this is substantial text
       if (pendingImage && node.textContent.trim().length > 50) {
         pendingText.push(node);
