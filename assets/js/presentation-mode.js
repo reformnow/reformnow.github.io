@@ -217,13 +217,13 @@
             // English side (left)
             const enDiv = document.createElement('div');
             enDiv.style.cssText = 'flex: 1; text-align: left; font-size: 0.7em;';
-            const enContent = node.querySelectorAll('h2, h3, p, ul, ol, blockquote');
+            const enContent = node.querySelectorAll('h2, h3, p, ul, ol, blockquote, pre');
             enContent.forEach(child => enDiv.appendChild(child.cloneNode(true)));
             
             // Chinese side (right)
             const zhDiv = document.createElement('div');
             zhDiv.style.cssText = 'flex: 1; text-align: left; font-size: 0.7em;';
-            const zhContent = sibling.querySelectorAll('h2, h3, p, ul, ol, blockquote');
+            const zhContent = sibling.querySelectorAll('h2, h3, p, ul, ol, blockquote, pre');
             zhContent.forEach(child => zhDiv.appendChild(child.cloneNode(true)));
             
             sideBySideDiv.appendChild(enDiv);
@@ -234,7 +234,7 @@
           // Skip the Chinese div since we already processed it with English
         } else {
           // For English or Chinese only mode, extract content normally
-          const langContent = node.querySelectorAll('h2, h3, p, ul, ol, blockquote');
+          const langContent = node.querySelectorAll('h2, h3, p, ul, ol, blockquote, pre');
           langContent.forEach(child => {
             if (child.nodeName === 'H2' || child.nodeName === 'H3') {
               // Create new horizontal slide for headers
