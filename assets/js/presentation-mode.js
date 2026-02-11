@@ -268,10 +268,9 @@
         } else {
           // Add content to current vertical slide
           currentVSection.appendChild(node.cloneNode(true));
-          // If this is a paragraph, create a new vertical slide for the next content
-          if (node.nodeName === 'P' && node.textContent.trim().length > 0) {
-            flushAndCreateNewSection();
-          }
+          // Create a new vertical slide for the next content
+          currentVSection = document.createElement('section');
+          currentHSection.appendChild(currentVSection);
         }
       }
     } else if (!isEmpty) {
