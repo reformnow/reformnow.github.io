@@ -56,7 +56,9 @@
   }
   
   function startPresentation() {
+    console.log('startPresentation called');
     const contentEl = document.querySelector('.content');
+    console.log('Content element found:', !!contentEl);
     if (!contentEl) {
       console.warn('Presentation mode: .content element not found');
       alert('Unable to start presentation mode: content not found');
@@ -291,9 +293,12 @@
   }
 });
 
-// Flush any remaining content
+  // Flush any remaining content
     createSlideWithLayout();
     
+    console.log('Slides created:', slidesContainer.children.length);
+    console.log('Slides container innerHTML preview:', slidesContainer.innerHTML.substring(0, 500));
+
     // Load Reveal.js styles
     const styles = [
       'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css',
