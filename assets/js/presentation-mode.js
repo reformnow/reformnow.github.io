@@ -127,7 +127,7 @@
     coverVSection.className = 'cover-slide';
     coverVSection.innerHTML = `
       <h1 class="reveal-title text-center mb-4">${postTitle}</h1>
-      ${postImage ? `<div class="text-center mb-4"><img src="${postImage}" class="reveal-cover-img" style="max-height: 500px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); background: transparent !important;"></div>` : ''}
+      ${featuredImage ? `<div class="text-center mb-4"><img src="${featuredImage}" class="reveal-cover-img" style="max-height: 500px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); background: transparent !important;"></div>` : ''}
       ${postDesc ? `<p class="reveal-description text-center mt-3">${postDesc}</p>` : ''}
     `;
     coverHSection.appendChild(coverVSection);
@@ -194,7 +194,12 @@
         currentTitleNode = node.cloneNode(true);
         currentVSection.appendChild(currentTitleNode.cloneNode(true));
       } else if (node.nodeName === 'HR') {
-        flushAndCreateNewSection();
+        createSlideWithLayout();
+        // HR creates a new horizontal section
+        currentHSection = document.createElement('section');
+        currentVSection = document.createElement('section');
+        currentHSection.appendChild(currentVSection);
+        slidesContainer.appendChild(currentHSection);
       } else if (isImage) {
         // Check if we already have an image pending (new slide for multiple images)
         if (pendingImage) {
@@ -279,9 +284,6 @@
         } else {
           // Add content to current vertical slide
           currentVSection.appendChild(node.cloneNode(true));
-          // Create a new vertical slide for the next content
-          currentVSection = document.createElement('section');
-          currentHSection.appendChild(currentVSection);
         }
       }
     } else if (!isEmpty) {
