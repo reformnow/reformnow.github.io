@@ -257,19 +257,21 @@
       if (currentVSection.childNodes.length > 0) {
         flushAndCreateNewSection();
       }
-    } else if (isBlock && !isEmpty) {
+      } else if (isBlock && !isEmpty) {
       // Check if we have an image pending and this is substantial text
       if (pendingImage && node.textContent.trim().length > 50) {
         pendingText.push(node);
         createSlideWithLayout();
       } else {
-        if (currentVSection.childNodes.length > 0 && !pendingImage) {
-          flushAndCreateNewSection();
-        }
         if (pendingImage) {
           pendingText.push(node);
         } else {
+          // Add content to current vertical slide
           currentVSection.appendChild(node.cloneNode(true));
+          // If this is a paragraph, create a new vertical slide for the next content
+          if (node.nodeName === 'P' && node.textContent.trim().length > 0) {
+            flushAndCreateNewSection();
+          }
         }
       }
     } else if (!isEmpty) {

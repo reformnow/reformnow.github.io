@@ -175,29 +175,26 @@ Presentation mode automatically converts your content into slides based on headi
 
 #### Creating Vertical Slides
 
-To create vertical slides (slides stacked below the current one), use **blank lines** (empty paragraphs):
+To create vertical slides (slides stacked below the current one), simply write **each paragraph** as normal. **Every paragraph automatically becomes its own vertical slide:**
 
 ```markdown
 ## Main Topic
 
-First paragraph of content...
+First paragraph becomes the first vertical slide...
 
-Second paragraph continues...
+Second paragraph becomes the second vertical slide...
 
-(leave a blank line here - creates new vertical slide)
+Third paragraph becomes the third vertical slide...
 
-Third paragraph on new vertical slide...
-
-(leave another blank line)
-
-Fourth paragraph on another vertical slide...
+Fourth paragraph becomes the fourth vertical slide...
 ```
 
 **How it works:**
 - **Horizontal slides**: Created by H2/H3 headings (navigate with right/left arrows)
-- **Vertical slides**: Created by blank lines within a section (navigate with up/down arrows)
-- Each blank line starts a new vertical slide
-- This allows you to break up long content into digestible chunks
+- **Vertical slides**: **Each paragraph automatically becomes its own vertical slide** (navigate with up/down arrows)
+- This breaks up your content naturally without extra formatting
+- Lists, quotes, and code blocks also become their own slides
+- Images paired with text create special two-column layout slides
 
 ### Slide Types
 
