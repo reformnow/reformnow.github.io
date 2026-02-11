@@ -1,21 +1,30 @@
 // Presentation Mode for Posts Tagged with 'slide'
 (function() {
   'use strict';
-  
+
+  console.log('Presentation mode script loaded');
+
   // Create and inject presentation button
   function injectPresentationButton() {
+    console.log('Injecting presentation button...');
+    
     // Check if this post has the 'slide' tag
     const postTags = document.querySelectorAll('.post-tag');
+    console.log('Found', postTags.length, 'tags');
+    
     let hasSlideTag = false;
     postTags.forEach(tag => {
+      console.log('Tag text:', tag.textContent.trim());
       if (tag.textContent.trim().toLowerCase() === 'slide') {
         hasSlideTag = true;
       }
     });
-    
+
+    console.log('Has slide tag:', hasSlideTag);
     if (!hasSlideTag) return;
-    
+
     const tocWrapper = document.getElementById('toc-wrapper');
+    console.log('TOC wrapper found:', !!tocWrapper);
     if (!tocWrapper) return;
     
     const buttonContainer = document.createElement('div');
