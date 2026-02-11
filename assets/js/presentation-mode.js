@@ -106,8 +106,8 @@
     
     // Get post metadata from page
     const postTitle = document.querySelector('h1[data-toc-skip]')?.textContent || document.title.split(' | ')[0];
-    // Get the first image from the article content
-    const postImage = document.querySelector('.content img')?.src || '';
+    // Get the post's featured image (preview-img) or first image from content
+    const featuredImage = document.querySelector('.preview-img img')?.src || document.querySelector('img[src*="/posts/"]')?.src || document.querySelector('.content img')?.src || '';
     const postDesc = document.querySelector('meta[name="description"]')?.content || '';
     
     // Create cover slide
