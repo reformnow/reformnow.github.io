@@ -126,9 +126,11 @@
     const coverVSection = document.createElement('section');
     coverVSection.className = 'cover-slide';
     coverVSection.innerHTML = `
-      <h1 class="reveal-title text-center mb-4">${postTitle}</h1>
-      ${featuredImage ? `<div class="text-center mb-4"><img src="${featuredImage}" class="reveal-cover-img" style="max-height: 500px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); background: transparent !important;"></div>` : ''}
-      ${postDesc ? `<p class="reveal-description text-center mt-3">${postDesc}</p>` : ''}
+      <div class="container py-4">
+        <h1 class="reveal-title text-center mb-2" style="font-size: 2.8em; color: #d4af37; text-shadow: 0 2px 10px rgba(0,0,0,0.5);">${postTitle}</h1>
+        ${postDesc ? `<p class="reveal-description text-center mb-5" style="font-size: 1em; color: #ddd; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.4; opacity: 0.9;">${postDesc}</p>` : ''}
+        ${featuredImage ? `<div class="text-center w-100"><img src="${featuredImage}" class="reveal-cover-img" style="width: 100%; max-width: 1000px; max-height: 450px; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); margin: 0 auto;"></div>` : ''}
+      </div>
     `;
     coverHSection.appendChild(coverVSection);
     slidesContainer.appendChild(coverHSection);
