@@ -115,4 +115,34 @@ Your timeline will automatically appear in the [Timelines](/timelines/) tab!
 
 ---
 
+## Creating Bilingual Posts
+
+To support our English/中文/双语 switching functionality, bilingual posts must follow a specific format.
+
+### Writing Rules
+
+1.  **Interleaved Structure**: Write an English paragraph followed immediately by its Chinese translation.
+2.  **Language Wrappers**: Every English block must be wrapped in a specific `div`, and every Chinese block must be wrapped in its own `div`.
+    *   **English**: `<div class="lang-en" markdown="1"> ... </div>`
+    *   **Chinese**: `<div class="lang-zh" markdown="1"> ... </div>`
+3.  **Markdown Attribute**: Always include `markdown="1"` in the `div` tag so that headings, lists, and bold text are correctly rendered.
+4.  **Headings**: Provide headings in both languages, either within their respective blocks or as pairs.
+5.  **Bible Verses**: Use the ` ```bible ` code block for scripture. Ideally, provide the English verse in the English block and the Chinese verse in the Chinese block, or both together if the context requires.
+
+### Example Format
+
+```markdown
+<div class="lang-en" markdown="1">
+## The Journey of Grace
+Salvation is a gift from God.
+</div>
+
+<div class="lang-zh" markdown="1">
+## 恩典之旅
+救恩是神所赐的礼物。
+</div>
+```
+
+---
+
 *All timeline images are from Wikimedia Commons and are in the public domain.*
