@@ -219,51 +219,125 @@
       } else if (node.nodeName === 'DIV' && (node.classList.contains('lang-en') || node.classList.contains('lang-zh'))) {
         // Handle bilingual language divs
         if (langPreference === 'both') {
-          // In "both" mode, we need to pair English and Chinese side by side
-          // Store the current node and look for its pair
           const isEnglish = node.classList.contains('lang-en');
           const sibling = isEnglish ? node.nextElementSibling : node.previousElementSibling;
           
           if (isEnglish && sibling && sibling.classList.contains('lang-zh')) {
-            // We have both English and Chinese - create side-by-side slide
-            const slideSection = document.createElement('section');
-            const sideBySideDiv = document.createElement('div');
-            sideBySideDiv.style.cssText = 'display: flex; gap: 40px; height: 100%; align-items: flex-start;';
+            // Split content of both divs into chunks
+            const enNodes = Array.from(node.querySelectorAll('h2, h3, p, ul, ol, blockquote, pre, hr'));
+            const zhNodes = Array.from(sibling.querySelectorAll('h2, h3, p, ul, ol, blockquote, pre, hr'));
             
-            // English side (left)
-            const enDiv = document.createElement('div');
-            enDiv.style.cssText = 'flex: 1; text-align: left; font-size: 0.7em;';
-            const enContent = node.querySelectorAll('h2, h3, p, ul, ol, blockquote, pre');
-            enContent.forEach(child => enDiv.appendChild(child.cloneNode(true)));
+            let enChunk = [];
+            let zhChunk = [];
+            let maxLen = Math.max(enNodes.length, zhNodes.length);
             
-            // Chinese side (right)
-            const zhDiv = document.createElement('div');
-            zhDiv.style.cssText = 'flex: 1; text-align: left; font-size: 0.7em;';
-            const zhContent = sibling.querySelectorAll('h2, h3, p, ul, ol, blockquote, pre');
-            zhContent.forEach(child => zhDiv.appendChild(child.cloneNode(true)));
+            for (let i = 0; i < maxLen; i++) {
+              const en = enNodes[i];
+              const zh = zhNodes[i];
+              
+              const isHeader = en && (en.nodeName === 'H2' || en.nodeName === 'H3');
+              const isHR = en && en.nodeName === 'HR';
+              const isSpacer = en && en.nodeName === 'P' && en.textContent.trim() === '';
+              
+              if (isHeader || isHR || isSpacer) {
+                // Flush current chunks if they have content
+                if (enChunk.length > 0 || zhChunk.length > 0) {
+                  const slideSection = document.createElement('section');
+                  const sideBySideDiv = document.createElement('div');
+                  sideBySideDiv.style.cssText = 'display: flex; gap: 40px; height: 100%; align-items: flex-start;';
+                  
+                  const enCol = document.createElement('div');
+                  enCol.style.cssText = 'flex: 1; text-align: left; font-size: 0.7em;';
+                  enChunk.forEach(c => enCol.appendChild(c.cloneNode(true)));
+                  
+                  const zhCol = document.createElement('div');
+                  zhCol.style.cssText = 'flex: 1; text-align: left; font-size: 0.7em;';
+                  zhChunk.forEach(c => zhCol.appendChild(c.cloneNode(true)));
+                  
+                  sideBySideDiv.appendChild(enCol);
+                  sideBySideDiv.appendChild(zhCol);
+                  slideSection.appendChild(sideBySideDiv);
+                  slidesContainer.appendChild(slideSection);
+                  
+                  enChunk = [];
+                  zhChunk = [];
+                }
+                
+                if (isHeader || isHR) {
+                  // Headers and HRs create a new horizontal section
+                  createSlideWithLayout();
+                  currentHSection = document.createElement('section');
+                  currentVSection = document.createElement('section');
+                  currentHSection.appendChild(currentVSection);
+                  slidesContainer.appendChild(currentHSection);
+                  
+                  if (isHeader) {
+                    // Create side-by-side header slide
+                    const headerSlide = document.createElement('section');
+                    const headerFlex = document.createElement('div');
+                    headerFlex.style.cssText = 'display: flex; gap: 40px; align-items: center; justify-content: center; height: 100%;';
+                    
+                    const enH = en.cloneNode(true);
+                    enH.style.flex = '1';
+                    enH.style.textAlign = 'right';
+                    
+                    const zhH = (zh && (zh.nodeName === 'H2' || zh.nodeName === 'H3')) ? zh.cloneNode(true) : en.cloneNode(true);
+                    zhH.style.flex = '1';
+                    zhH.style.textAlign = 'left';
+                    
+                    headerFlex.appendChild(enH);
+                    headerFlex.appendChild(zhH);
+                    headerSlide.appendChild(headerFlex);
+                    currentHSection.appendChild(headerSlide);
+                  }
+                }
+              } else {
+                if (en) enChunk.push(en);
+                if (zh) zhChunk.push(zh);
+              }
+            }
             
-            sideBySideDiv.appendChild(enDiv);
-            sideBySideDiv.appendChild(zhDiv);
-            slideSection.appendChild(sideBySideDiv);
-            slidesContainer.appendChild(slideSection);
+            // Final chunk
+            if (enChunk.length > 0 || zhChunk.length > 0) {
+               const slideSection = document.createElement('section');
+               const sideBySideDiv = document.createElement('div');
+               sideBySideDiv.style.cssText = 'display: flex; gap: 40px; height: 100%; align-items: flex-start;';
+               const enCol = document.createElement('div');
+               enCol.style.cssText = 'flex: 1; text-align: left; font-size: 0.7em;';
+               enChunk.forEach(c => enCol.appendChild(c.cloneNode(true)));
+               const zhCol = document.createElement('div');
+               zhCol.style.cssText = 'flex: 1; text-align: left; font-size: 0.7em;';
+               zhChunk.forEach(c => zhCol.appendChild(c.cloneNode(true)));
+               sideBySideDiv.appendChild(enCol);
+               sideBySideDiv.appendChild(zhCol);
+               slideSection.appendChild(sideBySideDiv);
+               slidesContainer.appendChild(slideSection);
+            }
           }
-          // Skip the Chinese div since we already processed it with English
         } else {
-          // For English or Chinese only mode, extract content normally
-          const langContent = node.querySelectorAll('h2, h3, p, ul, ol, blockquote, pre');
+          // For English or Chinese only mode, respect headers, HRs and empty paragraphs
+          const langContent = node.querySelectorAll('h2, h3, p, ul, ol, blockquote, pre, hr');
           langContent.forEach(child => {
-            if (child.nodeName === 'H2' || child.nodeName === 'H3') {
-              // Create new horizontal slide for headers
+            const isHeader = child.nodeName === 'H2' || child.nodeName === 'H3';
+            const isHR = child.nodeName === 'HR';
+            const isSpacer = child.nodeName === 'P' && child.textContent.trim() === '';
+            
+            if (isHeader || isHR) {
               createSlideWithLayout();
               currentHSection = document.createElement('section');
               currentVSection = document.createElement('section');
               currentHSection.appendChild(currentVSection);
               slidesContainer.appendChild(currentHSection);
               
-              currentTitleNode = child.cloneNode(true);
-              currentVSection.appendChild(currentTitleNode.cloneNode(true));
+              if (isHeader) {
+                currentTitleNode = child.cloneNode(true);
+                currentVSection.appendChild(currentTitleNode.cloneNode(true));
+              }
+            } else if (isSpacer) {
+              if (currentVSection.childNodes.length > 0) {
+                flushAndCreateNewSection();
+              }
             } else {
-              // Add other content to current vertical slide
               currentVSection.appendChild(child.cloneNode(true));
             }
           });
