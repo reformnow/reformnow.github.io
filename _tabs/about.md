@@ -169,9 +169,35 @@ The "Presentation Mode" button will appear in the left sidebar when viewing the 
 
 Presentation mode automatically converts your content into slides based on heading levels:
 
-- **H2 (##)** and **H3 (###)** headings create new slides
+- **H2 (##)** and **H3 (###)** headings create new horizontal slides
 - Content flows vertically within each slide until a new heading appears
-- Use `---` (horizontal rule) to force a new slide
+- Use `---` (horizontal rule) to force a new horizontal slide
+
+#### Creating Vertical Slides
+
+To create vertical slides (slides stacked below the current one), use **blank lines** (empty paragraphs):
+
+```markdown
+## Main Topic
+
+First paragraph of content...
+
+Second paragraph continues...
+
+(leave a blank line here - creates new vertical slide)
+
+Third paragraph on new vertical slide...
+
+(leave another blank line)
+
+Fourth paragraph on another vertical slide...
+```
+
+**How it works:**
+- **Horizontal slides**: Created by H2/H3 headings (navigate with right/left arrows)
+- **Vertical slides**: Created by blank lines within a section (navigate with up/down arrows)
+- Each blank line starts a new vertical slide
+- This allows you to break up long content into digestible chunks
 
 ### Slide Types
 

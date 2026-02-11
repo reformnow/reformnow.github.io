@@ -252,7 +252,12 @@
             }
           });
         }
-      } else if (isBlock && !isEmpty) {
+    } else if (node.nodeName === 'P' && node.textContent.trim() === '') {
+      // Empty paragraph - create new vertical slide
+      if (currentVSection.childNodes.length > 0) {
+        flushAndCreateNewSection();
+      }
+    } else if (isBlock && !isEmpty) {
       // Check if we have an image pending and this is substantial text
       if (pendingImage && node.textContent.trim().length > 50) {
         pendingText.push(node);
@@ -265,9 +270,9 @@
           pendingText.push(node);
         } else {
           currentVSection.appendChild(node.cloneNode(true));
+        }
       }
-    }
-  } else if (!isEmpty) {
+    } else if (!isEmpty) {
     if (pendingImage) {
       pendingText.push(node);
     } else {
