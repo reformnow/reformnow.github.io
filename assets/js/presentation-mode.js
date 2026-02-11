@@ -145,7 +145,7 @@
       const isEmpty = node.nodeType === Node.TEXT_NODE && node.textContent.trim() === '';
       const isImage = node.nodeName === 'IMG' || (node.nodeName === 'P' && node.querySelector('img')) || node.nodeName === 'FIGURE';
       
-      if (node.nodeName === 'H3') {
+      if (node.nodeName === 'H2' || node.nodeName === 'H3') {
         createSlideWithLayout();
         currentHSection = document.createElement('section');
         currentVSection = document.createElement('section');
@@ -172,31 +172,50 @@
         } else {
           pendingImage = node;
         }
-      } else if (isBlock && !isEmpty) {
-        // Check if we have an image pending and this is substantial text
-        if (pendingImage && node.textContent.trim().length > 50) {
-          pendingText.push(node);
+    } else if (node.nodeName === 'DIV' && (node.classList.contains('lang-en') || node.classList.contains('lang-zh'))) {
+      // Handle bilingual language divs - extract their content
+      const langContent = node.querySelectorAll('h2, h3, p, ul, ol, blockquote');
+      langContent.forEach(child => {
+        if (child.nodeName === 'H2' || child.nodeName === 'H3') {
+          // Create new horizontal slide for headers
           createSlideWithLayout();
+          currentHSection = document.createElement('section');
+          currentVSection = document.createElement('section');
+          currentHSection.appendChild(currentVSection);
+          slidesContainer.appendChild(currentHSection);
+          
+          currentTitleNode = child.cloneNode(true);
+          currentVSection.appendChild(currentTitleNode.cloneNode(true));
         } else {
-          if (currentVSection.childNodes.length > 0 && !pendingImage) {
-            flushAndCreateNewSection();
-          }
-          if (pendingImage) {
-            pendingText.push(node);
-          } else {
-            currentVSection.appendChild(node.cloneNode(true));
-          }
+          // Add other content to current vertical slide
+          currentVSection.appendChild(child.cloneNode(true));
         }
-      } else if (!isEmpty) {
+      });
+    } else if (isBlock && !isEmpty) {
+      // Check if we have an image pending and this is substantial text
+      if (pendingImage && node.textContent.trim().length > 50) {
+        pendingText.push(node);
+        createSlideWithLayout();
+      } else {
+        if (currentVSection.childNodes.length > 0 && !pendingImage) {
+          flushAndCreateNewSection();
+        }
         if (pendingImage) {
           pendingText.push(node);
         } else {
           currentVSection.appendChild(node.cloneNode(true));
-        }
       }
-    });
-    
-    // Flush any remaining content
+    }
+  } else if (!isEmpty) {
+    if (pendingImage) {
+      pendingText.push(node);
+    } else {
+      currentVSection.appendChild(node.cloneNode(true));
+    }
+  }
+});
+
+// Flush any remaining content
     createSlideWithLayout();
     
     // Load Reveal.js styles
