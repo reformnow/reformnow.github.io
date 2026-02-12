@@ -10,30 +10,35 @@
     
     // Check if this post has the 'slide' tag
     const postTags = document.querySelectorAll('.post-tag');
-    console.log('Found', postTags.length, 'tags');
-    
     let hasSlideTag = false;
     postTags.forEach(tag => {
-      console.log('Tag text:', tag.textContent.trim());
       if (tag.textContent.trim().toLowerCase() === 'slide') {
         hasSlideTag = true;
       }
     });
 
-    console.log('Has slide tag:', hasSlideTag);
     if (!hasSlideTag) return;
 
-    const tocWrapper = document.getElementById('toc-wrapper');
-    console.log('TOC wrapper found:', !!tocWrapper);
-    if (!tocWrapper) return;
-    
-    const buttonContainer = document.createElement('div');
-    buttonContainer.id = 'presentation-trigger-container';
-    buttonContainer.className = 'mt-3';
+    // Target the language switcher or top of content
+    let switcher = document.querySelector('.lang-switcher');
+    const contentEl = document.querySelector('.content');
+
+    if (!switcher && contentEl) {
+      // Create a container if language switcher doesn't exist
+      switcher = document.createElement('div');
+      switcher.className = 'lang-switcher my-4 py-2 border-bottom d-flex justify-content-between align-items-center';
+      contentEl.parentNode.insertBefore(switcher, contentEl);
+    } else if (switcher) {
+      // Ensure existing switcher handles multiple items correctly
+      switcher.classList.add('d-flex', 'justify-content-between', 'align-items-center');
+    }
+
+    if (!switcher) return;
     
     const button = document.createElement('button');
     button.id =  'start-presentation';
-    button.className = 'btn btn-outline-primary btn-sm w-100';
+    button.className = 'btn btn-outline-primary btn-sm';
+    
     // Check if Font Awesome is available, fallback to emoji if not
     const iconHtml = (typeof document.querySelector('.fas') !== 'undefined' || 
                      document.querySelector('link[href*="fontawesome"]') || 
@@ -41,8 +46,7 @@
       '<i class="fas fa-desktop me-2"></i>' : '📊 ';
     button.innerHTML = iconHtml + 'Presentation Mode';
     
-    buttonContainer.appendChild(button);
-    tocWrapper.appendChild(buttonContainer);
+    switcher.appendChild(button);
     
     // Attach click handler
     button.addEventListener('click', startPresentation);
@@ -127,9 +131,15 @@
     coverVSection.className = 'cover-slide';
     coverVSection.innerHTML = `
       <div class="container py-4">
-        <h1 class="reveal-title text-center mb-2" style="font-size: 2.8em; color: #d4af37; text-shadow: 0 2px 10px rgba(0,0,0,0.5);">${postTitle}</h1>
-        ${postDesc ? `<p class="reveal-description text-center mb-5" style="font-size: 1em; color: #ddd; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.4; opacity: 0.9;">${postDesc}</p>` : ''}
-        ${featuredImage ? `<div class="text-center w-100"><img src="${featuredImage}" class="reveal-cover-img" style="width: 100%; max-width: 1000px; max-height: 450px; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); margin: 0 auto;"></div>` : ''}
+        <h1 class="reveal-title text-center mb-4" style="font-size: 2.8em; color: #d4af37; text-shadow: 0 2px 10px rgba(0,0,0,0.5);">${postTitle}</h1>
+        <div class="cover-image-container" style="position: relative; width: 100%; max-width: 1000px; margin: 0 auto;">
+          ${featuredImage ? `<img src="${featuredImage}" class="reveal-cover-img" style="width: 100%; max-height: 500px; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); display: block;">` : ''}
+          ${postDesc ? `
+            <div class="description-overlay" style="position: absolute; bottom: 0; left: 0; width: 100%; padding: 60px 30px 25px 30px; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 100%); border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; text-align: left;">
+              <p class="reveal-description" style="font-size: 1.2em; color: #fff; margin: 0; line-height: 1.4; text-shadow: 1px 1px 5px rgba(0,0,0,0.8); max-width: 85%; font-weight: 300; letter-spacing: 0.5px;">${postDesc}</p>
+            </div>
+          ` : ''}
+        </div>
       </div>
     `;
     coverHSection.appendChild(coverVSection);
