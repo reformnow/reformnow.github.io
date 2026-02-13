@@ -46,7 +46,7 @@
   description: "Dualistic heresy teaching that spirit is good but matter is evil. Denies Christ's true humanity. Refuted by Irenaeus and others."
   description_zh: "二元论异端，教导灵是善的，物质是恶的。否认基督真正的人性。遭到爱任纽等人的反驳。"
   category: "heresy"
-  image: "/assets/img/timeline/gnosticism.jpg"
+  image: "/assets/img/timeline/gnosticism.jpg?v=2"
 
 - date: "c. 144 AD"
   year: 144
@@ -57,7 +57,7 @@
   description: "Marcion rejects the Old Testament God and creates his own canon. His views prompt the church to establish the biblical canon."
   description_zh: "马吉安拒绝旧约的神，并创立了自己的正典。他的观点促使教会确立圣经正典。"
   category: "heresy"
-  image: "/assets/img/timeline/marcion.jpg"
+  image: "/assets/img/timeline/marcion.jpg?v=2"
 
 - date: "c. 180 AD"
   year: 180
@@ -68,7 +68,7 @@
   description: "Irenaeus of Lyons writes 'Adversus Haereses,' defending the biblical faith against Gnosticism and establishing the 'Rule of Faith' and apostolic succession."
   description_zh: "里昂的爱任纽撰写《反异端》，捍卫圣经信仰对抗诺斯底主义，并确立了“信仰准则”和使徒继承。"
   category: "theology"
-  image: "/assets/img/timeline/irenaeus.jpg"
+  image: "/assets/img/timeline/irenaeus.jpg?v=2"
 
 - date: "325 AD"
   year: 325
@@ -79,7 +79,7 @@
   description: "Convened by Constantine to address Arianism. Formulates the Nicene Creed affirming Christ's full divinity ('of one substance with the Father')."
   description_zh: "由君士坦丁召集以解决亚流派问题。制定了尼西亚信经，确认基督完全的神性（“与父同质”）。"
   category: "council"
-  image: "/assets/img/timeline/council-nicaea.jpg"
+  image: "/assets/img/timeline/council-nicaea.jpg?v=2"
 
 - date: "381 AD"
   year: 381
@@ -90,7 +90,7 @@
   description: "Confirms Nicene Creed, adds clauses on the Holy Spirit. Condemns Apollinarianism. Expands creed to full Trinitarian confession."
   description_zh: "确认尼西亚信经，增加了关于圣灵的条款。谴责了亚波里拿留主义。将信经扩展为完整的关于三位一体的宣认。"
   category: "council"
-  image: "/assets/img/timeline/council-constantinople.jpg"
+  image: "/assets/img/timeline/council-constantinople.jpg?v=2"
 
 - date: "c. 386-430 AD"
   year: 410
@@ -113,7 +113,7 @@
   description: "Visigoths sack Rome, causing theological crisis. Augustine responds with 'City of God,' distinguishing earthly and heavenly kingdoms."
   description_zh: "西哥特人洗劫罗马，引发神学危机。奥古斯丁以《上帝之城》作为回应，区分了地上之城和天上之城。"
   category: "history"
-  image: "/assets/img/timeline/fall-of-rome.jpg"
+  image: "/assets/img/timeline/fall-of-rome.jpg?v=2"
 
 - date: "418 AD"
   year: 418
@@ -124,7 +124,7 @@
   description: "Condemns the teachings of Pelagius, affirming that Adam's sin affected the entire race and that grace is necessary for every good act."
   description_zh: "谴责伯拉纠的教导，确认亚当的罪影响了全人类，且恩典对于每一个善行都是必要的。"
   category: "council"
-  image: "/assets/img/timeline/pelagianism.jpg"
+  image: "/assets/img/timeline/pelagianism.jpg?v=2"
 
 - date: "431 AD"
   year: 431
@@ -135,7 +135,7 @@
   description: "Condemns Nestorianism and Pelagianism. Affirms Mary as Theotokos (God-bearer), protecting Christ's unified person."
   description_zh: "谴责聂斯脱里主义和伯拉纠主义。确认马利亚为“诞神者”，保护了基督统一的神人二性一位。"
   category: "council"
-  image: "/assets/img/timeline/council-ephesus.jpg"
+  image: "/assets/img/timeline/council-ephesus.jpg?v=2"
 
 - date: "451 AD"
   year: 451
@@ -158,7 +158,7 @@
   description: "Condemns Semi-Pelagianism. Affirms that the beginning of faith is itself a gift of God's grace."
   description_zh: "谴责半伯拉纠主义。确认信心的开端本身就是神恩典的恩赐。"
   category: "council"
-  image: "/assets/img/timeline/council-orange.jpg"
+  image: "/assets/img/timeline/council-orange.jpg?v=2"
 
 - date: "1054 AD"
   year: 1054
@@ -169,7 +169,7 @@
   description: "Formal split between Eastern Orthodox and Roman Catholic churches over the Filioque clause and papal authority."
   description_zh: "由于“和子”条款和教皇权柄问题，东正教和罗马天主教正式分裂。"
   category: "history"
-  image: "/assets/img/timeline/great-schism.jpg"
+  image: "/assets/img/timeline/great-schism.jpg?v=2"
 
 - date: "c. 1265-1274 AD"
   year: 1270
@@ -180,7 +180,7 @@
   description: "Aquinas synthesizes Aristotelian philosophy with Christian theology, creating the most influential work of Scholasticism."
   description_zh: "阿奎那将亚里士多德哲学与基督教神学相结合，创作了经院哲学中最具影响力的著作。"
   category: "theology"
-  image: "/assets/img/timeline/scholasticism.jpg"
+  image: "/assets/img/timeline/scholasticism.jpg?v=2"
 
 - date: "c. 1380 AD"
   year: 1380
@@ -203,7 +203,7 @@
   description: "Martin Luther nails 95 theses to Wittenberg church door, protesting indulgences. Spark of the Protestant Reformation."
   description_zh: "马丁·路德将九十五条论纲钉在威登堡教堂门上，抗议赎罪券。开启了新教改革。"
   category: "reformation"
-  image: "/assets/img/timeline/luther-95-theses.jpg"
+  image: "/assets/img/timeline/luther-95-theses.jpg?v=2"
 
 - date: "1521"
   year: 1521
@@ -214,7 +214,7 @@
   description: "Luther refuse to recant before Emperor Charles V. 'My conscience is captive to the Word of God.'"
   description_zh: "路德在皇帝查理五世面前拒绝收回言论。‘我的良心被神的话语所俘虏。’"
   category: "reformation"
-  image: "/assets/img/timeline/diet-of-worms.jpg"
+  image: "/assets/img/timeline/diet-of-worms.jpg?v=2"
 
 - date: "1536"
   year: 1536
@@ -225,7 +225,7 @@
   description: "John Calvin publishes his first edition. Becomes the definitive systematic defense of Reformed theology."
   description_zh: "约翰·加尔文出版第一版。成为归正神学最具代表性的系统辩护著作。"
   category: "reformation"
-  image: "/assets/img/timeline/calvin-institutes.jpg"
+  image: "/assets/img/timeline/calvin-institutes.jpg?v=2"
 
 - date: "1545-1563"
   year: 1545
@@ -236,7 +236,7 @@
   description: "The primary response of the Roman Catholic Counter-Reformation. Defines Catholic dogma against Protestant 'heresies.'"
   description_zh: "罗马天主教反宗教改革的主要回应。定义了天主教教义对抗新教“异端”。"
   category: "council"
-  image: "/assets/img/timeline/council-trent.jpg"
+  image: "/assets/img/timeline/council-trent.jpg?v=2"
 
 - date: "1560"
   year: 1560
@@ -247,7 +247,7 @@
   description: "John Knox leads Scotland to break with Rome. The Scots Confession is adopted by Parliament."
   description_zh: "约翰·诺克斯领导苏格兰脱离罗马。议会通过了《苏格兰信经》。"
   category: "reformation"
-  image: "/assets/img/timeline/scottish-reformation.jpg"
+  image: "/assets/img/timeline/scottish-reformation.jpg?v=2"
 
 - date: "1563"
   year: 1563
@@ -258,7 +258,7 @@
   description: "A devotional and theological masterpiece of the Reformation, emphasizing the 'comfort' of belonging to Christ."
   description_zh: "宗教改革时期的一部灵修与神学杰作，强调属于基督的“安慰”。"
   category: "theology"
-  image: "/assets/img/timeline/heidelberg-catechism.jpg"
+  image: "/assets/img/timeline/heidelberg-catechism.jpg?v=2"
 
 - date: "1618-1619"
   year: 1618
@@ -292,7 +292,7 @@
   description: "Jonathan Edwards and George Whitefield lead a massive spiritual revival across the American colonies."
   description_zh: "乔纳森·爱德华兹和乔治·怀特腓德领导了一场席卷美洲殖民地的巨大属灵复兴。"
   category: "history"
-  image: "/assets/img/timeline/great-awakening.jpg"
+  image: "/assets/img/timeline/great-awakening.jpg?v=2"
 
 - date: "1792"
   year: 1792
@@ -303,7 +303,7 @@
   description: "William Carey publishes his 'Enquiry,' sparking the modern era of world missions starting in India."
   description_zh: "威廉·克里出版了他的《咨询》，开启了由印度开始的现代世界差传时代。"
   category: "history"
-  image: "/assets/img/timeline/william-carey.jpg"
+  image: "/assets/img/timeline/william-carey.jpg?v=2"
 
 - date: "c. 1850-1900"
   year: 1870
@@ -314,7 +314,7 @@
   description: "Charles Hodge and B.B. Warfield defend biblical inerrancy against rising theological liberalism."
   description_zh: "查尔斯·霍奇和B.B.沃菲尔德捍卫圣经无误论，对抗日益兴起的神学自由主义。"
   category: "theology"
-  image: "/assets/img/timeline/princeton-theology.jpg"
+  image: "/assets/img/timeline/princeton-theology.jpg?v=2"
 
 - date: "1910-1915"
   year: 1910
@@ -325,7 +325,7 @@
   description: "A series of essays defining 'fundamental' Christian doctrines against modernism. Lays ground for modern Evangelicalism."
   description_zh: "一系列定义对抗现代主义的基督教“基本”教义的文章。为现代福音派奠定了基础。"
   category: "theology"
-  image: "/assets/img/timeline/the-fundamentals.jpg"
+  image: "/assets/img/timeline/the-fundamentals.jpg?v=2"
 
 - date: "c. 1990-Present"
   year: 2000
@@ -336,4 +336,4 @@
   description: "A global resurgence of Reformed theology in the 21st century among younger generations."
   description_zh: "21世纪年轻一代中归正神学的全球复兴。"
   category: "theology"
-  image: "/assets/img/timeline/new-calvinism.jpg"
+  image: "/assets/img/timeline/new-calvinism.jpg?v=2"

@@ -5,9 +5,6 @@ date: 2025-02-06 10:00:00 +0000
 categories: [Timelines, Church History]
 tags: [timeline, church-history, slide]
 description: A comprehensive timeline of church history from Pentecost to the Reformation
-image:
-  path: /assets/img/posts/augustine_pelagius_header.png
-  alt: "Key Events in Church History"
 hidden: true
 ---
 
