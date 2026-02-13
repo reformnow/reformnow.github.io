@@ -6,50 +6,67 @@
 
   // Create and inject presentation button
   function injectPresentationButton() {
-    console.log('Injecting presentation button...');
+    console.log('Attempting to inject presentation button v6 (TOC-aware)...');
     
-    // Check if this post has the 'slide' tag
-    const postTags = document.querySelectorAll('.post-tag');
-    let hasSlideTag = false;
-    postTags.forEach(tag => {
-      if (tag.textContent.trim().toLowerCase() === 'slide') {
-        hasSlideTag = true;
-      }
-    });
-
-    if (!hasSlideTag) return;
-
-    // Target the language switcher or top of content
-    let switcher = document.querySelector('.lang-switcher');
-    const contentEl = document.querySelector('.content');
-
-    if (!switcher && contentEl) {
-      // Create a container if language switcher doesn't exist
-      switcher = document.createElement('div');
-      switcher.className = 'lang-switcher my-4 py-2 border-bottom d-flex justify-content-between align-items-center';
-      contentEl.parentNode.insertBefore(switcher, contentEl);
-    } else if (switcher) {
-      // Ensure existing switcher handles multiple items correctly
-      switcher.classList.add('d-flex', 'justify-content-between', 'align-items-center');
+    // We only want to inject the button on individual post pages.
+    // In Chirpy, ONLY individual posts have a #toc-wrapper (Table of Contents).
+    // Tab pages (Archives, Timelines, etc.) and the Home page do not.
+    if (!document.getElementById('toc-wrapper')) {
+      console.log('Not a post page (no #toc-wrapper found). Skipping.');
+      return;
     }
+    
+    // 1. Get the main content of the post
+    // On a post page, there's only one .content.
+    const allContents = document.querySelectorAll('.content');
+    
+    allContents.forEach(contentEl => {
+      // Skip if this content is inside a sidebar or panel (safety check)
+      if (contentEl.closest('#panel-wrapper') || contentEl.closest('.card-body')) {
+        return;
+      }
 
-    if (!switcher) return;
-    
-    const button = document.createElement('button');
-    button.id =  'start-presentation';
-    button.className = 'btn btn-outline-primary btn-sm';
-    
-    // Check if Font Awesome is available, fallback to emoji if not
-    const iconHtml = (typeof document.querySelector('.fas') !== 'undefined' || 
-                     document.querySelector('link[href*="fontawesome"]') || 
-                     document.querySelector('link[href*="fa-"]')) ? 
-      '<i class="fas fa-desktop me-2"></i>' : '📊 ';
-    button.innerHTML = iconHtml + 'Presentation Mode';
-    
-    switcher.appendChild(button);
-    
-    // Attach click handler
-    button.addEventListener('click', startPresentation);
+      // 2. Since this is likely the main post content, check for the 'slide' tag
+      // The 'slide' tag should be present on the page for this logic to run,
+      // but we specifically check again here to be safe.
+      const postTags = document.querySelectorAll('.post-tag');
+      let hasSlideTag = false;
+      postTags.forEach(tag => {
+        if (tag.textContent.trim().toLowerCase() === 'slide') {
+          hasSlideTag = true;
+        }
+      });
+
+      if (!hasSlideTag) return;
+
+      // 3. Find/Create placement target
+      let switcher = contentEl.parentElement.querySelector('.lang-switcher');
+      if (!switcher) {
+        console.log('Creating language switcher for button placement...');
+        switcher = document.createElement('div');
+        switcher.className = 'lang-switcher my-4 py-2 border-bottom d-flex justify-content-between align-items-center';
+        contentEl.parentNode.insertBefore(switcher, contentEl);
+      }
+      
+      // 4. Inject the button if not already there
+      if (switcher.querySelector('#start-presentation')) return;
+
+      const button = document.createElement('button');
+      button.id = 'start-presentation';
+      button.className = 'btn btn-outline-primary btn-sm';
+      
+      const iconHtml = (typeof document.querySelector('.fas') !== 'undefined' || 
+                       document.querySelector('link[href*="fontawesome"]') || 
+                       document.querySelector('link[href*="fa-"]')) ? 
+        '<i class="fas fa-desktop me-2"></i>' : '📊 ';
+      button.innerHTML = iconHtml + 'Presentation Mode';
+      
+      switcher.appendChild(button);
+      switcher.classList.add('d-flex', 'justify-content-between', 'align-items-center');
+      
+      button.addEventListener('click', startPresentation);
+      console.log('Presentation button successfully injected into post content.');
+    });
   }
   
   // Wait for DOM to be ready

@@ -1,7 +1,6 @@
 {% comment %}
   Timeline Include
-  Usage: {% include timeline.html data=site.data.timelines.church-history %}
-  Or: {% include timeline.html data=page.timeline_data title="My Timeline" %}
+  Improved with Era Grouping and Better Visual Structure
 {% endcomment %}
 
 {% if include.title %}
@@ -9,59 +8,84 @@
 {% endif %}
 
 {% if include.data %}
-<div class="timeline {% if include.compact %}timeline-compact{% endif %}">
-  {% for event in include.data %}
-    <div class="timeline-item">
-      <div class="timeline-content">
-        {% if event.category %}
-        <span class="timeline-category">{{ event.category }}</span>
-        {% endif %}
-        
-        <div class="timeline-date">{{ event.date }}</div>
-        
-        {% if event.image %}
-          {% if event.image_layout == 'large' %}
-            <img src="{{ event.image | relative_url }}" alt="{{ event.title }}" class="timeline-image timeline-image-large">
-          {% elsif event.image_layout == 'thumb' %}
-            <img src="{{ event.image | relative_url }}" alt="{{ event.title }}" class="timeline-image-thumb">
-          {% elsif event.image_layout == 'circle' %}
-            <img src="{{ event.image | relative_url }}" alt="{{ event.title }}" class="timeline-image-circle">
-          {% else %}
-            <img src="{{ event.image | relative_url }}" alt="{{ event.title }}" class="timeline-image">
-          {% endif %}
-          {% if event.image_caption %}
-            <div class="timeline-image-caption">{{ event.image_caption }}</div>
-          {% endif %}
-        {% endif %}
-        
-        <h3 class="timeline-title">
-          {% if event.link %}
-          <a href="{{ event.link | relative_url }}">{{ event.title }}</a>
-          {% else %}
-          {{ event.title }}
-          {% endif %}
-        </h3>
-        
-        <p class="timeline-description">{{ event.description }}</p>
-      </div>
-    </div>
-  {% endfor %}
-</div>
-{% else %}
-<p class="text-muted">No timeline data provided.</p>
-{% endif %}
+  {% assign timeline_items = include.data | sort: "year" %}
+  {% assign grouped_eras = timeline_items | group_by: "era" %}
 
-{% comment %}
-  Simple Markdown-based timeline alternative
-  Use this in your Markdown posts:
-  
-  <div class="timeline">
-    <div class="timeline-item">
-      <div class="timeline-content">
-        <div class="timeline-date">1517</div>
-        <h3 class="timeline-title">95 Theses</h3>
-        <p class="timeline-description">Martin Luther nails 95 theses...</p>
+  <div class="timeline-wrapper">
+    {% for era_group in grouped_eras %}
+      {% assign first_item = era_group.items | first %}
+      <div class="timeline-era-section">
+        <div class="timeline-era-header">
+          <div class="lang-en" id="era-{{ era_group.name | slugify }}-en">
+            <span class="era-label">Era:</span>
+            <h2 class="era-name text-capitalize">{{ era_group.name | replace: "-", " " }}</h2>
+          </div>
+          <div class="lang-zh" id="era-{{ era_group.name | slugify }}-zh">
+            <span class="era-label">时期:</span>
+            <h2 class="era-name">{{ first_item.era_zh | default: era_group.name }}</h2>
+          </div>
+        </div>
+
+        <div class="timeline {% if include.compact %}timeline-compact{% endif %}">
+          {% for event in era_group.items %}
+            <div class="timeline-item" data-category="{{ event.category }}">
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  {% if event.category %}
+                    <span class="timeline-category cat-{{ event.category }}">{{ event.category }}</span>
+                  {% endif %}
+                  <div class="timeline-date">{{ event.date }}</div>
+                </div>
+                
+                {% if event.image %}
+                  <div class="timeline-image-wrapper {{ event.image_layout | default: 'standard' }}">
+                    <img src="{{ event.image | relative_url }}" 
+                         alt="{{ event.title }}" 
+                         class="timeline-image {% if event.image_layout %}timeline-image-{{ event.image_layout }}{% endif %}"
+                         loading="lazy">
+                    {% if event.image_caption %}
+                      <div class="timeline-image-caption">
+                        <span class="lang-en">{{ event.image_caption }}</span>
+                        {% if event.image_caption_zh %}
+                        <span class="lang-zh">{{ event.image_caption_zh }}</span>
+                        {% endif %}
+                      </div>
+                    {% endif %}
+                  </div>
+                {% endif %}
+                
+                <h3 class="timeline-title">
+                  <div class="lang-en">
+                    {% if event.link %}
+                      <a href="{{ event.link | relative_url }}">{{ event.title }}</a>
+                    {% else %}
+                      {{ event.title }}
+                    {% endif %}
+                  </div>
+                  {% if event.title_zh %}
+                  <div class="lang-zh">
+                    {% if event.link %}
+                      <a href="{{ event.link | relative_url }}">{{ event.title_zh }}</a>
+                    {% else %}
+                      {{ event.title_zh }}
+                    {% endif %}
+                  </div>
+                  {% endif %}
+                </h3>
+                
+                <div class="timeline-description">
+                  <div class="lang-en">{{ event.description }}</div>
+                  {% if event.description_zh %}
+                  <div class="lang-zh">{{ event.description_zh }}</div>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
       </div>
-    </div>
+    {% endfor %}
   </div>
-{% endcomment %}
+{% else %}
+  <p class="text-muted text-center py-5">No timeline data provided.</p>
+{% endif %}

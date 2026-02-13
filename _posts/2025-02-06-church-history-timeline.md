@@ -5,9 +5,18 @@ date: 2025-02-06 10:00:00 +0000
 categories: [Timelines, Church History]
 tags: [timeline, church-history, slide]
 description: A comprehensive timeline of church history from Pentecost to the Reformation
+image:
+  path: /assets/img/posts/augustine_pelagius_header.png
+  alt: "Key Events in Church History"
 hidden: true
 ---
 
-This timeline showcases major events in church history, from the birth of the Christian church to the Protestant Reformation.
+<div class="lang-en" markdown="1">
+This timeline showcases major events in church history, from the birth of the Christian church to the present day.
+</div>
+
+<div class="lang-zh" markdown="1">
+本时间线展示了教会历史上的重大事件，从基督教会的诞生直到今天。
+</div>
 
 {% include timeline.html data=site.data.timelines.church-history title="Key Events in Church History" %}
