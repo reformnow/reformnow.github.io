@@ -163,16 +163,33 @@
     slidesContainer.appendChild(coverHSection);
     
     // Parse content into slides
-    let currentHSection = document.createElement('section');
-    let currentVSection = document.createElement('section');
-    currentHSection.appendChild(currentVSection);
-    slidesContainer.appendChild(currentHSection);
+    let currentHSection = null;
+    let currentVSection = null;
     
     let currentTitleNode = null;
     let pendingImage = null;
     let pendingText = [];
     
+    function ensureSections() {
+      if (!currentHSection) {
+        currentHSection = document.createElement('section');
+        slidesContainer.appendChild(currentHSection);
+      }
+      if (!currentVSection) {
+        currentVSection = document.createElement('section');
+        currentHSection.appendChild(currentVSection);
+        if (currentTitleNode) {
+          const titleCopy = currentTitleNode.cloneNode(true);
+          titleCopy.style.fontSize = '0.85em';
+          titleCopy.style.opacity = '0.7';
+          currentVSection.appendChild(titleCopy);
+        }
+      }
+    }
+    
     function createSlideWithLayout() {
+      if (!currentVSection) return;
+      
       if (pendingImage && pendingText.length > 0) {
         // Create two-column layout: image left, text right
         const layoutDiv = document.createElement('div');
@@ -200,11 +217,15 @@
     }
     
     function flushAndCreateNewSection() {
+      ensureSections();
       createSlideWithLayout();
       currentVSection = document.createElement('section');
       currentHSection.appendChild(currentVSection);
       if (currentTitleNode) {
-        currentVSection.appendChild(currentTitleNode.cloneNode(true));
+        const titleCopy = currentTitleNode.cloneNode(true);
+        titleCopy.style.fontSize = '0.85em';
+        titleCopy.style.opacity = '0.7';
+        currentVSection.appendChild(titleCopy);
       }
     }
     
@@ -216,9 +237,9 @@
       if (node.nodeName === 'H2' || node.nodeName === 'H3') {
         createSlideWithLayout();
         currentHSection = document.createElement('section');
+        slidesContainer.appendChild(currentHSection);
         currentVSection = document.createElement('section');
         currentHSection.appendChild(currentVSection);
-        slidesContainer.appendChild(currentHSection);
         
         currentTitleNode = node.cloneNode(true);
         currentVSection.appendChild(currentTitleNode.cloneNode(true));
@@ -226,9 +247,8 @@
         createSlideWithLayout();
         // HR creates a new horizontal section
         currentHSection = document.createElement('section');
-        currentVSection = document.createElement('section');
-        currentHSection.appendChild(currentVSection);
         slidesContainer.appendChild(currentHSection);
+        currentVSection = null; // Will be created by ensureSections on next content
       } else if (isImage) {
         // Check if we already have an image pending (new slide for multiple images)
         if (pendingImage) {
@@ -273,9 +293,8 @@
                 // Headers and HRs create a new horizontal section
                 createSlideWithLayout();
                 currentHSection = document.createElement('section');
-                currentVSection = document.createElement('section');
-                currentHSection.appendChild(currentVSection);
                 slidesContainer.appendChild(currentHSection);
+                currentVSection = null;
                 
                 if (isHeader) {
                   // Create side-by-side header slide
@@ -321,6 +340,7 @@
               }
 
               // For all other content (P, UL, OL, PRE, etc.), create a vertical slide
+              ensureSections();
               const slideSection = document.createElement('section');
               
               // Inject the bilingual title if it exists
@@ -356,9 +376,9 @@
             if (isHeader || isHR) {
               createSlideWithLayout();
               currentHSection = document.createElement('section');
+              slidesContainer.appendChild(currentHSection);
               currentVSection = document.createElement('section');
               currentHSection.appendChild(currentVSection);
-              slidesContainer.appendChild(currentHSection);
               
               if (isHeader) {
                 currentTitleNode = child.cloneNode(true);
@@ -366,6 +386,7 @@
               }
             } else if (!isEmptyP) {
               // Create a new vertical slide for every non-empty block element
+              ensureSections();
               const vSlide = document.createElement('section');
               if (currentTitleNode) {
                 const titleCopy = currentTitleNode.cloneNode(true);
@@ -393,6 +414,7 @@
           pendingText.push(node);
         } else {
           // Add content to current vertical slide
+          ensureSections();
           currentVSection.appendChild(node.cloneNode(true));
         }
       }
@@ -400,6 +422,7 @@
     if (pendingImage) {
       pendingText.push(node);
     } else {
+      ensureSections();
       currentVSection.appendChild(node.cloneNode(true));
     }
   }
