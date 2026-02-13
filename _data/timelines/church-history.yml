@@ -1,371 +1,339 @@
 # Church History Timeline
-# Comprehensive timeline from Pentecost to Synod of Dort
+# Comprehensive timeline from Pentecost to Modern Day
 # Major ecumenical councils, synods, and doctrinal milestones
 # Format:
-# - date: "Year or Date"
+# - date: "Year or Date" (Display)
+#   year: 1517 (Numeric for sorting)
+#   era: "apostolic|patristic|medieval|reformation|modern"
 #   title: "Event Title"
+#   title_zh: "中文标题"
 #   description: "Brief description"
+#   description_zh: "中文描述"
 #   image: "/assets/img/timeline/event.jpg" (optional)
 #   category: "theology|history|reformation|council|heresy"
 #   link: "/posts/post-url/" (optional)
 
-# Apostolic and Early Church Period
+# --- Apostolic Age (33 - 100 AD) ---
 - date: "33 AD"
+  year: 33
+  era: "apostolic"
+  era_zh: "使徒时期"
   title: "Day of Pentecost"
+  title_zh: "五旬节"
   description: "The Holy Spirit descends upon the apostles in Jerusalem, empowering them to preach the Gospel in multiple languages. This event marks the birth of the Christian Church and fulfills Jesus' promise to send the Advocate."
+  description_zh: "圣灵在耶路撒冷降临在使徒身上，使他们能够用多种语言传讲福音。这一事件标志着基督教会的诞生，并应验了耶稣关于差遣保惠师的应许。"
   category: "history"
   image: "/assets/img/timeline/pentecost.jpg"
 
 - date: "48-50 AD"
+  year: 49
+  era: "apostolic"
+  era_zh: "使徒时期"
   title: "Council of Jerusalem"
+  title_zh: "耶路撒冷会议"
   description: "First church council convenes to address whether Gentile converts must follow Mosaic law. Decides that salvation is by grace through faith, not circumcision."
+  description_zh: "第一次教会会议召开，讨论外邦皈依者是否必须遵守摩西律法。会议裁定救恩是本乎恩、也因着信，而非靠割礼。"
   category: "council"
   image: "/assets/img/timeline/council-jerusalem.jpg"
 
-# Early Heresies and Responses
+# --- Patristic Era (100 - 500 AD) ---
 - date: "c. 100-200 AD"
+  year: 150
+  era: "patristic"
+  era_zh: "教父时期"
   title: "Rise of Gnosticism"
+  title_zh: "诺斯底主义的兴起"
   description: "Dualistic heresy teaching that spirit is good but matter is evil. Denies Christ's true humanity. Refuted by Irenaeus and others."
+  description_zh: "二元论异端，教导灵是善的，物质是恶的。否认基督真正的人性。遭到爱任纽等人的反驳。"
   category: "heresy"
   image: "/assets/img/timeline/gnosticism.jpg"
 
 - date: "c. 144 AD"
+  year: 144
+  era: "patristic"
+  era_zh: "教父时期"
   title: "Marcion's Heresy"
+  title_zh: "马吉安异端"
   description: "Marcion rejects the Old Testament God and creates his own canon. His views prompt the church to establish the biblical canon."
+  description_zh: "马吉安拒绝旧约的神，并创立了自己的正典。他的观点促使教会确立圣经正典。"
   category: "heresy"
   image: "/assets/img/timeline/marcion.jpg"
 
-# Ecumenical Councils - First Four Defining Christian Orthodoxy
+- date: "c. 180 AD"
+  year: 180
+  era: "patristic"
+  era_zh: "教父时期"
+  title: "Irenaeus: Against Heresies"
+  title_zh: "爱任纽：《反异端》"
+  description: "Irenaeus of Lyons writes 'Adversus Haereses,' defending the biblical faith against Gnosticism and establishing the 'Rule of Faith' and apostolic succession."
+  description_zh: "里昂的爱任纽撰写《反异端》，捍卫圣经信仰对抗诺斯底主义，并确立了“信仰准则”和使徒继承。"
+  category: "theology"
+  image: "/assets/img/timeline/irenaeus.jpg"
+
 - date: "325 AD"
+  year: 325
+  era: "patristic"
+  era_zh: "教父时期"
   title: "First Council of Nicaea"
+  title_zh: "第一次尼西亚公会议"
   description: "Convened by Constantine to address Arianism. Formulates the Nicene Creed affirming Christ's full divinity ('of one substance with the Father')."
+  description_zh: "由君士坦丁召集以解决亚流派问题。制定了尼西亚信经，确认基督完全的神性（“与父同质”）。"
   category: "council"
   image: "/assets/img/timeline/council-nicaea.jpg"
 
 - date: "381 AD"
+  year: 381
+  era: "patristic"
+  era_zh: "教父时期"
   title: "First Council of Constantinople"
-  description: "Confirms Nicene Creed, adds clauses on the Holy Spirit. Condemns Apollinarianism (which denied Christ had a human mind). Expands creed to full Trinitarian confession."
+  title_zh: "第一次君士坦丁堡公会议"
+  description: "Confirms Nicene Creed, adds clauses on the Holy Spirit. Condemns Apollinarianism. Expands creed to full Trinitarian confession."
+  description_zh: "确认尼西亚信经，增加了关于圣灵的条款。谴责了亚波里拿留主义。将信经扩展为完整的关于三位一体的宣认。"
   category: "council"
   image: "/assets/img/timeline/council-constantinople.jpg"
 
 - date: "c. 386-430 AD"
+  year: 410
+  era: "patristic"
+  era_zh: "教父时期"
   title: "Augustine vs Pelagius"
+  title_zh: "奥古斯丁与伯拉纠"
   description: "Augustine defends the necessity of prevenient grace against Pelagius, who taught human free will could choose righteousness without divine aid. Defines doctrines of original sin and salvation by grace."
+  description_zh: "奥古斯丁对抗伯拉纠，捍卫先在恩典的必要性。伯拉纠教导人的自由意志无需神助即可选择公义。奥古斯丁定义了原罪和唯独恩典。 "
   category: "theology"
   image: "/assets/img/timeline/augustine-pelagius.jpg"
   link: "/posts/augustine-vs-pelagius/"
 
-# Pelagian Controversy
-- date: "c. 405-418 AD"
-  title: "Pelagianism Condemned"
-  description: "Pelagius teaches that humans are born morally neutral with free will capable of choosing good without divine grace. Rejects original sin. Condemned as heresy by Council of Carthage (418) and later Popes. Augustine writes extensively against this, establishing doctrines of original sin and prevenient grace."
-  category: "heresy"
-  image: "/assets/img/timeline/pelagianism.jpg"
-
-- date: "c. 428 AD"
-  title: "Semi-Pelagianism"
-  description: "Monastic communities in southern Gaul (France) react against Augustinian predestination. Teach that human will can initiate salvation, though grace completes it. Represents compromise between Pelagianism and Augustinianism. Condemned at Council of Orange (529), which affirms prevenient grace but moderates predestination language."
-  category: "heresy"
-  image: "/assets/img/timeline/semi-pelagianism.jpg"
-
-- date: "529 AD"
-  title: "Council of Orange"
-  description: "Condemns Semi-Pelagianism. Affirms that faith is a gift of God, not initiated by human free will. Compromises by not affirming double predestination (Augustine's stronger view) but establishes that grace always precedes human faith."
-  category: "council"
-  image: "/assets/img/timeline/council-orange.jpg"
-
 - date: "410 AD"
-  title: "Fall of Rome"
+  year: 410
+  era: "patristic"
+  era_zh: "教父时期"
+  title: "Fall of Rome (Sack of Alaric)"
+  title_zh: "罗马陷落（阿拉里克的掠夺）"
   description: "Visigoths sack Rome, causing theological crisis. Augustine responds with 'City of God,' distinguishing earthly and heavenly kingdoms."
+  description_zh: "西哥特人洗劫罗马，引发神学危机。奥古斯丁以《上帝之城》作为回应，区分了地上之城和天上之城。"
   category: "history"
   image: "/assets/img/timeline/fall-of-rome.jpg"
 
-- date: "430 AD"
-  title: "Death of Augustine"
-  description: "Augustine of Hippo dies during Vandal siege. His writings on grace, predestination, and the church become foundational for Western theology."
-  category: "theology"
-  image: "/assets/img/timeline/augustine-death.jpg"
+- date: "418 AD"
+  year: 418
+  era: "patristic"
+  era_zh: "教父时期"
+  title: "Council of Carthage (Pelagianism Condemned)"
+  title_zh: "迦太基会议（谴责伯拉纠主义）"
+  description: "Condemns the teachings of Pelagius, affirming that Adam's sin affected the entire race and that grace is necessary for every good act."
+  description_zh: "谴责伯拉纠的教导，确认亚当的罪影响了全人类，且恩典对于每一个善行都是必要的。"
+  category: "council"
+  image: "/assets/img/timeline/pelagianism.jpg"
 
 - date: "431 AD"
+  year: 431
+  era: "patristic"
+  era_zh: "教父时期"
   title: "Council of Ephesus"
-  description: "Condemns Nestorianism, which separated Christ's divine and human natures. Affirms Mary as Theotokos (God-bearer), protecting Christ's unified person."
+  title_zh: "以弗所公会议"
+  description: "Condemns Nestorianism and Pelagianism. Affirms Mary as Theotokos (God-bearer), protecting Christ's unified person."
+  description_zh: "谴责聂斯脱里主义和伯拉纠主义。确认马利亚为“诞神者”，保护了基督统一的神人二性一位。"
   category: "council"
   image: "/assets/img/timeline/council-ephesus.jpg"
 
 - date: "451 AD"
+  year: 451
+  era: "patristic"
+  era_zh: "教父时期"
   title: "Council of Chalcedon"
-  description: "Defines Christ as one person in two distinct natures (human and divine), united without confusion, change, division, or separation. Refutes Monophysitism."
+  title_zh: "迦克墩公会议"
+  description: "Defines Christ as one person in two distinct natures (human and divine), united without confusion or change. Refutes Monophysitism."
+  description_zh: "定义基督为两个截然不同的本性（人性和神性）中的位格，两者联合且不相混乱、不相交换。反驳了基督一性论。"
   category: "council"
   image: "/assets/img/timeline/council-chalcedon.jpg"
 
-# Medieval Period
+# --- Medieval Era (500 - 1500 AD) ---
 - date: "529 AD"
-  title: "Second Council of Constantinople"
-  description: "Condemns the Three Chapters controversy. Affirms Chalcedonian Christology against lingering Nestorian and Monophysite tendencies."
+  year: 529
+  era: "medieval"
+  era_zh: "中世纪时期"
+  title: "Council of Orange"
+  title_zh: "奥朗日会议"
+  description: "Condemns Semi-Pelagianism. Affirms that the beginning of faith is itself a gift of God's grace."
+  description_zh: "谴责半伯拉纠主义。确认信心的开端本身就是神恩典的恩赐。"
   category: "council"
-  image: "/assets/img/timeline/council-constantinople-2.jpg"
-
-- date: "553 AD"
-  title: "Fifth Ecumenical Council"
-  description: "Confirms condemnation of Origen's errors and affirms that Christ had a truly human will, not just a divine will."
-  category: "council"
-  image: "/assets/img/timeline/fifth-council.jpg"
-
-- date: "680-681 AD"
-  title: "Third Council of Constantinople"
-  description: "Condemns Monothelitism (one will in Christ). Affirms Christ has two wills (divine and human) corresponding to his two natures."
-  category: "council"
-  image: "/assets/img/timeline/council-constantinople-3.jpg"
-
-- date: "787 AD"
-  title: "Second Council of Nicaea"
-  description: "Restores veneration of icons. Distinguishes between worship (latria, for God alone) and veneration (dulia/proskynesis, for saints and images)."
-  category: "council"
-  image: "/assets/img/timeline/council-nicaea-2.jpg"
-
-# Medieval Heresies
-- date: "c. 800-1000 AD"
-  title: "Filioque Controversy"
-  description: "Western church adds 'and the Son' (Filioque) to Nicene Creed regarding Holy Spirit's procession. Eastern church rejects this as unilateral alteration. Leads to Great Schism."
-  category: "heresy"
-  image: "/assets/img/timeline/filioque.jpg"
+  image: "/assets/img/timeline/council-orange.jpg"
 
 - date: "1054 AD"
+  year: 1054
+  era: "medieval"
+  era_zh: "中世纪时期"
   title: "Great Schism"
-  description: "Formal split between Eastern Orthodox and Roman Catholic churches. Mutual excommunications not lifted until 1965."
+  title_zh: "相互绝罚（教会大分裂）"
+  description: "Formal split between Eastern Orthodox and Roman Catholic churches over the Filioque clause and papal authority."
+  description_zh: "由于“和子”条款和教皇权柄问题，东正教和罗马天主教正式分裂。"
   category: "history"
   image: "/assets/img/timeline/great-schism.jpg"
 
-- date: "c. 1100-1300 AD"
-  title: "Rise of Scholasticism"
-  description: "Theological method emphasizing dialectical reasoning. Thomas Aquinas synthesizes Aristotelian philosophy with Christian theology in Summa Theologica."
+- date: "c. 1265-1274 AD"
+  year: 1270
+  era: "medieval"
+  era_zh: "中世纪时期"
+  title: "Thomas Aquinas: Summa Theologica"
+  title_zh: "托马斯·阿奎那：《神学大全》"
+  description: "Aquinas synthesizes Aristotelian philosophy with Christian theology, creating the most influential work of Scholasticism."
+  description_zh: "阿奎那将亚里士多德哲学与基督教神学相结合，创作了经院哲学中最具影响力的著作。"
   category: "theology"
   image: "/assets/img/timeline/scholasticism.jpg"
 
-# Pre-Reformation Movements
-- date: "c. 1350-1400 AD"
-  title: "Precursors to Reformation"
-  description: "John Wycliffe in England and Jan Hus in Bohemia challenge papal authority and advocate Scripture in vernacular. Hus burned at stake (1415), but movement continues."
+- date: "c. 1380 AD"
+  year: 1380
+  era: "medieval"
+  era_zh: "中世纪时期"
+  title: "Wycliffe's Bible"
+  title_zh: "威克里夫圣经"
+  description: "John Wycliffe oversees the first complete translation of the Bible into Middle English, challenging the church's control over Scripture."
+  description_zh: "约翰·威克里夫监督了第一部完整的中古英语圣经翻译，挑战了教会对圣经的控制。"
   category: "history"
   image: "/assets/img/timeline/wycliffe-hus.jpg"
 
-# The Reformation Begins
+# --- Reformation Era (1500 - 1650 AD) ---
 - date: "1517"
+  year: 1517
+  era: "reformation"
+  era_zh: "宗教改革时期"
   title: "95 Theses"
-  description: "Martin Luther nails 95 theses to Wittenberg church door, protesting indulgences and papal authority. Spark of the Protestant Reformation."
+  title_zh: "九十五条论纲"
+  description: "Martin Luther nails 95 theses to Wittenberg church door, protesting indulgences. Spark of the Protestant Reformation."
+  description_zh: "马丁·路德将九十五条论纲钉在威登堡教堂门上，抗议赎罪券。开启了新教改革。"
   category: "reformation"
   image: "/assets/img/timeline/luther-95-theses.jpg"
 
-- date: "1520"
-  title: "Luther's Three Treatises"
-  description: "Luther publishes 'To the Christian Nobility,' 'Babylonian Captivity of the Church,' and 'Freedom of a Christian,' outlining Reformation principles."
-  category: "reformation"
-  image: "/assets/img/timeline/luther-treatises.jpg"
-
 - date: "1521"
+  year: 1521
+  era: "reformation"
+  era_zh: "宗教改革时期"
   title: "Diet of Worms"
-  description: "Luther refuses to recant at imperial diet. Declares 'Here I stand, I can do no other.' Edict of Worms declares him outlaw."
+  title_zh: "沃尔姆斯议会"
+  description: "Luther refuse to recant before Emperor Charles V. 'My conscience is captive to the Word of God.'"
+  description_zh: "路德在皇帝查理五世面前拒绝收回言论。‘我的良心被神的话语所俘虏。’"
   category: "reformation"
   image: "/assets/img/timeline/diet-of-worms.jpg"
 
-# Swiss Reformation
-- date: "1522"
-  title: "Zwingli's Reformation in Zurich"
-  description: "Ulrich Zwingli begins preaching straight from Scripture in Zurich. Challenges unbiblical practices, leading to reforms in Swiss Confederacy."
-  category: "reformation"
-  image: "/assets/img/timeline/zwingli-zurich.jpg"
-
-- date: "1529"
-  title: "Marburg Colloquy"
-  description: "Luther and Zwingli meet to unite Protestant forces. Agree on 14 of 15 articles but split over Eucharist (real presence vs. symbolic)."
-  category: "reformation"
-  image: "/assets/img/timeline/marburg-colloquy.jpg"
-
-- date: "1531"
-  title: "Death of Zwingli"
-  description: "Zwingli killed in battle at Kappel. Swiss Reformation continues under Heinrich Bullinger."
-  category: "history"
-  image: "/assets/img/timeline/zwingli-death.jpg"
-
-# English Reformation
-- date: "1534"
-  title: "English Reformation Begins"
-  description: "Henry VIII breaks with Rome, establishes Church of England. Act of Supremacy makes king head of church."
-  category: "reformation"
-  image: "/assets/img/timeline/english-reformation.jpg"
-
-# Calvin and Reformed Tradition
 - date: "1536"
+  year: 1536
+  era: "reformation"
+  era_zh: "宗教改革时期"
   title: "Institutes of the Christian Religion"
-  description: "John Calvin publishes first edition of his systematic theology. Work becomes foundational text for Reformed tradition, emphasizing sovereignty of God and predestination."
+  title_zh: "《基督教要义》"
+  description: "John Calvin publishes his first edition. Becomes the definitive systematic defense of Reformed theology."
+  description_zh: "约翰·加尔文出版第一版。成为归正神学最具代表性的系统辩护著作。"
   category: "reformation"
   image: "/assets/img/timeline/calvin-institutes.jpg"
 
-- date: "1541"
-  title: "Calvin in Geneva"
-  description: "Calvin establishes church government in Geneva. Creates model for Reformed churches emphasizing preaching, discipline, and deaconal care."
-  category: "reformation"
-  image: "/assets/img/timeline/calvin-geneva.jpg"
-
-# Counter-Reformation
 - date: "1545-1563"
+  year: 1545
+  era: "reformation"
+  era_zh: "宗教改革时期"
   title: "Council of Trent"
-  description: "Catholic Counter-Reformation council. Affirms tradition alongside Scripture, rejects sola fide, maintains seven sacraments, anathematizes Protestant doctrines."
+  title_zh: "特伦托会议"
+  description: "The primary response of the Roman Catholic Counter-Reformation. Defines Catholic dogma against Protestant 'heresies.'"
+  description_zh: "罗马天主教反宗教改革的主要回应。定义了天主教教义对抗新教“异端”。"
   category: "council"
   image: "/assets/img/timeline/council-trent.jpg"
 
-# English and Scottish Reformations Continue
-- date: "1559"
-  title: "Elizabethan Settlement"
-  description: "Queen Elizabeth I establishes Church of England via Act of Supremacy and Act of Uniformity. Via Media (middle way) between Protestant and Catholic."
-  category: "reformation"
-  image: "/assets/img/timeline/elizabethan-settlement.jpg"
-
 - date: "1560"
+  year: 1560
+  era: "reformation"
+  era_zh: "宗教改革时期"
   title: "Scottish Reformation"
-  description: "John Knox leads Reformation in Scotland. Presbyterian church polity established. Scots Confession adopted."
+  title_zh: "苏格兰改革"
+  description: "John Knox leads Scotland to break with Rome. The Scots Confession is adopted by Parliament."
+  description_zh: "约翰·诺克斯领导苏格兰脱离罗马。议会通过了《苏格兰信经》。"
   category: "reformation"
   image: "/assets/img/timeline/scottish-reformation.jpg"
 
-# Counter-Reformation
-- date: "1545-1563"
-  title: "Council of Trent"
-  description: "Catholic Counter-Reformation council. Affirms tradition alongside Scripture, rejects sola fide, maintains seven sacraments, anathematizes Protestant doctrines."
-  category: "council"
-  image: "/assets/img/timeline/council-trent.jpg"
-
-# Continental Confessions
-- date: "1560"
-  title: "Geneva Bible"
-  description: "First English Bible with chapter and verse divisions. Includes marginal notes reflecting Calvinist theology. Popular with Puritans. First printed in Geneva by English exiles."
-  category: "reformation"
-  image: "/assets/img/timeline/geneva-bible.jpg"
-
-- date: "1561"
-  title: "Belgic Confession"
-  description: "Written by Guido de Brès. One of three forms of unity for Dutch Reformed churches. Articulates Reformed faith over against Anabaptism and Roman Catholicism. Adopted by Synod of Dort as official confession."
-  category: "reformation"
-  image: "/assets/img/timeline/belgic-confession.jpg"
-
 - date: "1563"
+  year: 1563
+  era: "reformation"
+  era_zh: "宗教改革时期"
   title: "Heidelberg Catechism"
-  description: "Written by Zacharias Ursinus and Caspar Olevianus for Palatinate. Q&A format teaching Reformed doctrine. Emphasizes comfort in belonging to Christ. Adopted by Synod of Dort."
-  category: "reformation"
+  title_zh: "海德堡要理问答"
+  description: "A devotional and theological masterpiece of the Reformation, emphasizing the 'comfort' of belonging to Christ."
+  description_zh: "宗教改革时期的一部灵修与神学杰作，强调属于基督的“安慰”。"
+  category: "theology"
   image: "/assets/img/timeline/heidelberg-catechism.jpg"
 
-# Arminian Controversy
-- date: "1603"
-  title: "Jacobus Arminius"
-  description: "Arminius challenges strict predestination, teaching that election is based on foreseen faith and that grace is resistible. Leads to Remonstrance (1610)."
-  category: "heresy"
-  image: "/assets/img/timeline/arminius.jpg"
-
-- date: "1610"
-  title: "Five Articles of Remonstrance"
-  description: "Followers of Arminius (Remonstrants) present five points challenging Calvinist doctrines: conditional election, universal atonement, free will, resistible grace, and possibility of apostasy."
-  category: "heresy"
-  image: "/assets/img/timeline/remonstrance.jpg"
-
-# The Synod of Dort - Culmination
 - date: "1618-1619"
+  year: 1618
+  era: "reformation"
+  era_zh: "宗教改革时期"
   title: "Synod of Dort"
-  description: "International synod convenes in Netherlands to address Arminianism. Drafts Canons of Dort affirming five points of Calvinism (TULIP): Total Depravity, Unconditional Election, Limited Atonement, Irresistible Grace, Perseverance of Saints."
+  title_zh: "多特会议"
+  description: "Convened to settle the Arminian controversy. Produces the Canons of Dort, defining the 'Five Points of Calvinism' (TULIP)."
+  description_zh: "为解决亚米纽斯派争议而召开。产生了多特法规，定义了“加尔文主义五要点”（TULIP）。"
   category: "council"
   image: "/assets/img/timeline/synod-dort.jpg"
 
-- date: "1619"
-  title: "Canons of Dort"
-  description: "Definitive statement of Reformed orthodoxy on salvation. Condemns Arminianism as heresy. One of three forms of unity for Dutch Reformed churches alongside Belgic Confession and Heidelberg Catechism."
-  category: "theology"
-  image: "/assets/img/timeline/canons-dort.jpg"
-
-# Post-Dort Developments
-- date: "1643-1649"
+- date: "1643-1647"
+  year: 1643
+  era: "reformation"
+  era_zh: "宗教改革时期"
   title: "Westminster Assembly"
-  description: "English assembly produces Westminster Confession of Faith, Larger and Shorter Catechisms. Definitive Presbyterian/Reformed confession."
+  title_zh: "威斯敏斯特会议"
+  description: "Commissioned to reform the Church of England. Produces the Westminster Confession (WCF) and Catechisms."
+  description_zh: "受命改革英格兰教会。制定了《威斯敏斯特信条》及其大小要理问答。"
   category: "council"
   image: "/assets/img/timeline/westminster-assembly.jpg"
 
-- date: "1647"
-  title: "Westminster Confession"
-  description: "Comprehensive Reformed confession addressing Scripture, Trinity, providence, covenant, salvation, church, and last things. Most influential Reformed confession worldwide."
-  category: "theology"
-  image: "/assets/img/timeline/westminster-confession.jpg"
-
-# Post-Westminster Developments
-- date: "1648"
-  title: "Peace of Westphalia"
-  description: "Series of treaties ends Thirty Years' War and Eighty Years' War in Europe. Establishes principle of cuius regio, eius religio (whose realm, their religion), allowing rulers to determine official religion of their territories. Reduces religious wars in Europe."
-  category: "history"
-  image: "/assets/img/timeline/peace-westphalia.jpg"
-
-- date: "1660"
-  title: "English Restoration"
-  description: "Monarchy restored under Charles II after Cromwell's Commonwealth. Puritans face persecution, many flee to New England. Leads to establishment of Presbyterian and Congregational churches in America."
-  category: "history"
-  image: "/assets/img/timeline/english-restoration.jpg"
-
-# Revivals and Awakenings
-- date: "c. 1730-1740"
+# --- Modern Era (1650 - Present) ---
+- date: "1741"
+  year: 1741
+  era: "modern"
+  era_zh: "现代时期"
   title: "First Great Awakening"
-  description: "Religious revival across American colonies. Jonathan Edwards preaches 'Sinners in the Hands of an Angry God' (1741). George Whitefield draws massive crowds. Emphasizes personal conversion and experiential faith. Shapes American evangelicalism."
+  title_zh: "第一次大觉醒"
+  description: "Jonathan Edwards and George Whitefield lead a massive spiritual revival across the American colonies."
+  description_zh: "乔纳森·爱德华兹和乔治·怀特腓德领导了一场席卷美洲殖民地的巨大属灵复兴。"
   category: "history"
   image: "/assets/img/timeline/great-awakening.jpg"
 
-- date: "1734-1735"
-  title: "Northampton Revival"
-  description: "Jonathan Edwards ministers in Northampton, Massachusetts. Revival transforms community and sparks wider Great Awakening. Edwards later writes 'Religious Affections' (1746) on discerning true conversion."
-  category: "theology"
-  image: "/assets/img/timeline/northampton-revival.jpg"
-
 - date: "1792"
-  title: "William Carey and Modern Missions"
-  description: "William Carey publishes 'Enquiry into the Obligations of Christians to Use Means for the Conversion of the Heathens.' Founds Baptist Missionary Society, becomes 'father of modern missions.' Goes to India in 1793. Sparks global missionary movement."
+  year: 1792
+  era: "modern"
+  era_zh: "现代时期"
+  title: "Modern Missionary Movement"
+  title_zh: "现代差传运动"
+  description: "William Carey publishes his 'Enquiry,' sparking the modern era of world missions starting in India."
+  description_zh: "威廉·克里出版了他的《咨询》，开启了由印度开始的现代世界差传时代。"
   category: "history"
   image: "/assets/img/timeline/william-carey.jpg"
 
-# 19th Century Developments
 - date: "c. 1850-1900"
+  year: 1870
+  era: "modern"
+  era_zh: "现代时期"
   title: "Princeton Theology"
-  description: "Archibald Alexander, Charles Hodge, B.B. Warfield, and others develop systematic Reformed theology at Princeton Theological Seminary. Emphasizes inerrancy, covenant theology, and scholarly defense of Christianity against liberalism."
+  title_zh: "普林斯顿神学"
+  description: "Charles Hodge and B.B. Warfield defend biblical inerrancy against rising theological liberalism."
+  description_zh: "查尔斯·霍奇和B.B.沃菲尔德捍卫圣经无误论，对抗日益兴起的神学自由主义。"
   category: "theology"
   image: "/assets/img/timeline/princeton-theology.jpg"
 
-# 20th Century Controversies
 - date: "1910-1915"
+  year: 1910
+  era: "modern"
+  era_zh: "现代时期"
   title: "The Fundamentals"
-  description: "Twelve-volume series of essays defending biblical Christianity against liberal theology. Written by conservative scholars including B.B. Warfield, James Orr, C.I. Scofield. Lays foundation for fundamentalist movement and modern evangelicalism."
+  title_zh: "《基要真理》"
+  description: "A series of essays defining 'fundamental' Christian doctrines against modernism. Lays ground for modern Evangelicalism."
+  description_zh: "一系列定义对抗现代主义的基督教“基本”教义的文章。为现代福音派奠定了基础。"
   category: "theology"
   image: "/assets/img/timeline/the-fundamentals.jpg"
 
-- date: "1924"
-  title: "Auburn Affirmation"
-  description: "Presbyterian ministers sign statement rejecting five essential doctrines as necessary for ordination (virgin birth, substitutionary atonement, bodily resurrection, biblical miracles, inspiration). Leads to fundamentalist-modernist controversy and liberal-conservative split."
-  category: "heresy"
-  image: "/assets/img/timeline/auburn-affirmation.jpg"
-
-# Neo-Orthodoxy and Renewal
-- date: "1919-1968"
-  title: "Karl Barth and Neo-Orthodoxy"
-  description: "Swiss theologian Karl Barth reacts against liberal theology with 'Commentary on Romans' (1919). Emphasizes divine transcendence, revelation in Christ, and Word of God. Church Dogmatics (1932-1968) becomes massive Reformed systematic work. Influences 20th century theology."
-  category: "theology"
-  image: "/assets/img/timeline/karl-barth.jpg"
-
-- date: "1962-1965"
-  title: "Second Vatican Council"
-  description: "Twenty-first ecumenical council of Catholic Church. Addresses relationship between church and modern world, religious freedom, ecumenism. While not binding on Protestants, marks shift in Catholic-Protestant relations and interfaith dialogue."
-  category: "council"
-  image: "/assets/img/timeline/vatican-ii.jpg"
-
-# Modern Evangelicalism
-- date: "c. 1970-1990"
-  title: "Rise of Modern Evangelicalism"
-  description: "Reformed theology resurgence through ministries like Ligonier (R.C. Sproul), Desiring God (John Piper), Together for the Gospel, and The Gospel Coalition. Emphasizes sovereign grace, biblical inerrancy, and Reformed soteriology. Digital age spreads Reformed teaching globally."
-  category: "theology"
-  image: "/assets/img/timeline/modern-evangelicalism.jpg"
-
 - date: "c. 1990-Present"
+  year: 2000
+  era: "modern"
+  era_zh: "现代时期"
   title: "New Calvinism"
-  description: "Young, restless, Reformed movement embraces Calvinistic soteriology while engaging contemporary culture. Influenced by Piper, Keller, and Driscoll. Combines Reformed theology with evangelistic zeal, social justice, and cultural engagement. Grows through books, conferences, and social media."
+  title_zh: "新加尔文主义"
+  description: "A global resurgence of Reformed theology in the 21st century among younger generations."
+  description_zh: "21世纪年轻一代中归正神学的全球复兴。"
   category: "theology"
   image: "/assets/img/timeline/new-calvinism.jpg"
