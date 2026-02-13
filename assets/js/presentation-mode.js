@@ -170,21 +170,22 @@
     let pendingImage = null;
     let pendingText = [];
     
-    function ensureSections() {
+    function ensureHSection() {
       if (!currentHSection) {
         currentHSection = document.createElement('section');
         slidesContainer.appendChild(currentHSection);
       }
-      if (!currentVSection) {
-        currentVSection = document.createElement('section');
-        currentHSection.appendChild(currentVSection);
-        if (currentTitleNode) {
-          const titleCopy = currentTitleNode.cloneNode(true);
-          titleCopy.style.fontSize = '0.85em';
-          titleCopy.style.opacity = '0.7';
-          currentVSection.appendChild(titleCopy);
-        }
+    }
+
+    function createVSectionWithTitle() {
+      const vSection = document.createElement('section');
+      if (currentTitleNode) {
+        const titleCopy = currentTitleNode.cloneNode(true);
+        titleCopy.style.fontSize = '0.85em';
+        titleCopy.style.opacity = '0.7';
+        vSection.appendChild(titleCopy);
       }
+      return vSection;
     }
     
     function createSlideWithLayout() {
@@ -217,16 +218,10 @@
     }
     
     function flushAndCreateNewSection() {
-      ensureSections();
+      ensureHSection();
       createSlideWithLayout();
-      currentVSection = document.createElement('section');
+      currentVSection = createVSectionWithTitle();
       currentHSection.appendChild(currentVSection);
-      if (currentTitleNode) {
-        const titleCopy = currentTitleNode.cloneNode(true);
-        titleCopy.style.fontSize = '0.85em';
-        titleCopy.style.opacity = '0.7';
-        currentVSection.appendChild(titleCopy);
-      }
     }
     
     Array.from(originalContent.childNodes).forEach(node => {
@@ -340,7 +335,7 @@
               }
 
               // For all other content (P, UL, OL, PRE, etc.), create a vertical slide
-              ensureSections();
+              ensureHSection();
               const slideSection = document.createElement('section');
               
               // Inject the bilingual title if it exists
@@ -386,7 +381,7 @@
               }
             } else if (!isEmptyP) {
               // Create a new vertical slide for every non-empty block element
-              ensureSections();
+              ensureHSection();
               const vSlide = document.createElement('section');
               if (currentTitleNode) {
                 const titleCopy = currentTitleNode.cloneNode(true);
@@ -414,7 +409,11 @@
           pendingText.push(node);
         } else {
           // Add content to current vertical slide
-          ensureSections();
+          ensureHSection();
+          if (!currentVSection) {
+            currentVSection = createVSectionWithTitle();
+            currentHSection.appendChild(currentVSection);
+          }
           currentVSection.appendChild(node.cloneNode(true));
         }
       }
@@ -422,7 +421,11 @@
     if (pendingImage) {
       pendingText.push(node);
     } else {
-      ensureSections();
+      ensureHSection();
+      if (!currentVSection) {
+        currentVSection = createVSectionWithTitle();
+        currentHSection.appendChild(currentVSection);
+      }
       currentVSection.appendChild(node.cloneNode(true));
     }
   }
