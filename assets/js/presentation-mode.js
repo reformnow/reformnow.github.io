@@ -296,17 +296,38 @@
                   headerSlide.appendChild(headerFlex);
                   currentHSection.appendChild(headerSlide);
                   
-                  // Reset title node for subsequent vertical slides
-                  currentTitleNode = enH.cloneNode(true);
-                  currentTitleNode.style.fontSize = '0.8em';
-                  currentTitleNode.style.textAlign = 'center';
-                  currentTitleNode.style.opacity = '0.5';
+                  // Create a bilingual title node for subsequent vertical slides
+                  const bilingualHeader = document.createElement('div');
+                  bilingualHeader.className = 'bilingual-section-header';
+                  bilingualHeader.style.cssText = 'display: flex; gap: 20px; width: 100%; justify-content: center; opacity: 0.5; margin-bottom: 30px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;';
+                  
+                  const enT = en.cloneNode(true);
+                  enT.style.fontSize = '0.6em';
+                  enT.style.margin = '0';
+                  enT.style.flex = '1';
+                  enT.style.textAlign = 'right';
+                  
+                  const zhT = (zh && (zh.nodeName === 'H2' || zh.nodeName === 'H3')) ? zh.cloneNode(true) : en.cloneNode(true);
+                  zhT.style.fontSize = '0.6em';
+                  zhT.style.margin = '0';
+                  zhT.style.flex = '1';
+                  zhT.style.textAlign = 'left';
+                  
+                  bilingualHeader.appendChild(enT);
+                  bilingualHeader.appendChild(zhT);
+                  currentTitleNode = bilingualHeader;
                 }
                 continue;
               }
 
               // For all other content (P, UL, OL, PRE, etc.), create a vertical slide
               const slideSection = document.createElement('section');
+              
+              // Inject the bilingual title if it exists
+              if (currentTitleNode) {
+                slideSection.appendChild(currentTitleNode.cloneNode(true));
+              }
+
               const sideBySideDiv = document.createElement('div');
               sideBySideDiv.style.cssText = 'display: flex; gap: 40px; height: 100%; align-items: center; justify-content: center;';
               
