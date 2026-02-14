@@ -137,34 +137,78 @@
     slidesContainer.className = 'slides';
     
     // Get post metadata from page
-    const postTitle = document.querySelector('h1[data-toc-skip]')?.textContent || document.title.split(' | ')[0];
-    // Get the post's featured image (preview-img) or first image from content
+    const h1 = document.querySelector('h1[data-toc-skip]');
+    let postTitle = h1?.textContent || document.title.split(' | ')[0];
+    
+    // If bilingual titles exist, pick the right one or both
+    if (h1 && (h1.querySelector('.lang-en') || h1.querySelector('.lang-zh'))) {
+      const enTitle = h1.querySelector('.lang-en')?.innerText || h1.querySelector('.lang-en')?.textContent || '';
+      const zhTitle = h1.querySelector('.lang-zh')?.innerText || h1.querySelector('.lang-zh')?.textContent || '';
+      
+      if (langPreference === 'english') {
+        postTitle = enTitle || postTitle;
+      } else if (langPreference === 'chinese') {
+        postTitle = zhTitle || enTitle || postTitle;
+      } else if (langPreference === 'both') {
+        postTitle = `<div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="font-size: 0.8em;">${enTitle}</div>
+          <div style="font-size: 1em; color: #d4af37;">${zhTitle}</div>
+        </div>`;
+      }
+    } else {
+       // Single title, use innerText to be clean
+       postTitle = h1?.innerText || postTitle;
+    }
+
+    // Get description from the post-desc element which now has bilingual spans
+    const descEl = document.querySelector('.post-desc');
+    let postDesc = document.querySelector('meta[name="description"]')?.content || '';
+    
+    if (descEl && (descEl.querySelector('.lang-en') || descEl.querySelector('.lang-zh'))) {
+      const enDesc = descEl.querySelector('.lang-en')?.innerText || descEl.querySelector('.lang-en')?.textContent || '';
+      const zhDesc = descEl.querySelector('.lang-zh')?.innerText || descEl.querySelector('.lang-zh')?.textContent || '';
+      
+      if (langPreference === 'english') {
+        postDesc = enDesc || postDesc;
+      } else if (langPreference === 'chinese') {
+        postDesc = zhDesc || enDesc || postDesc;
+      } else if (langPreference === 'both') {
+        postDesc = `<div style="display: flex; flex-direction: column; gap: 5px;">
+          <div style="font-size: 0.9em; opacity: 0.9;">${enDesc}</div>
+          <div style="font-size: 1em;">${zhDesc}</div>
+        </div>`;
+      }
+    }
+    
+    // Get the post's featured image
     const featuredImage = document.querySelector('.preview-img img')?.src || document.querySelector('img[src*="/posts/"]')?.src || document.querySelector('.content img')?.src || '';
-    const postDesc = document.querySelector('meta[name="description"]')?.content || '';
     
     // Create cover slide
     const coverHSection = document.createElement('section');
     const coverVSection = document.createElement('section');
     coverVSection.className = 'cover-slide';
     coverVSection.innerHTML = `
-      <div class="container py-4">
-        <h1 class="reveal-title text-center mb-4" style="font-size: 2.8em; color: #d4af37; text-shadow: 0 2px 10px rgba(0,0,0,0.5);">${postTitle}</h1>
-        <div class="cover-image-container" style="position: relative; width: 100%; max-width: 1000px; margin: 0 auto;">
-          ${featuredImage ? `<img src="${featuredImage}" class="reveal-cover-img" style="width: 100%; max-height: 500px; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); display: block;">` : ''}
-          ${postDesc ? `
-            <div class="description-overlay" style="position: absolute; bottom: 0; left: 0; width: 100%; padding: 60px 30px 25px 30px; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 100%); border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; text-align: left;">
-              <p class="reveal-description" style="font-size: 1.2em; color: #fff; margin: 0; line-height: 1.4; text-shadow: 1px 1px 5px rgba(0,0,0,0.8); max-width: 85%; font-weight: 300; letter-spacing: 0.5px;">${postDesc}</p>
-            </div>
-          ` : ''}
+    <div class="container py-4">
+      <h1 class="reveal-title text-center mb-4" style="font-size: 2.8em; color: #d4af37; text-shadow: 0 2px 10px rgba(0,0,0,0.5);">${postTitle}</h1>
+      <div class="cover-image-container" style="position: relative; width: 100%; max-width: 1000px; margin: 0 auto;">
+        ${featuredImage ? `<img src="${featuredImage}" class="reveal-cover-img" style="width: 100%; max-height: 500px; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); display: block;">` : ''}
+        ${postDesc ? `
+        <div class="description-overlay" style="position: absolute; bottom: 0; left: 0; width: 100%; padding: 60px 30px 25px 30px; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 100%); border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; text-align: left;">
+          <div class="reveal-description" style="color: #fff; margin: 0; line-height: 1.4; text-shadow: 1px 1px 5px rgba(0,0,0,0.8); max-width: 90%; font-weight: 300; letter-spacing: 0.5px;">${postDesc}</div>
         </div>
+        ` : ''}
       </div>
+    </div>
     `;
     coverHSection.appendChild(coverVSection);
     slidesContainer.appendChild(coverHSection);
-    
+
     // Parse content into slides
     let currentHSection = null;
     let currentVSection = null;
+
+    // Track if we've created the first content section
+    let hasCreatedFirstSection = false;
     
     let currentTitleNode = null;
     let pendingImage = null;
@@ -228,39 +272,160 @@
       const isBlock = ['P', 'BLOCKQUOTE', 'UL', 'OL', 'PRE', 'FIGURE', 'DIV', 'TABLE'].includes(node.nodeName);
       const isEmpty = node.nodeType === Node.TEXT_NODE && node.textContent.trim() === '';
       const isImage = node.nodeName === 'IMG' || (node.nodeName === 'P' && node.querySelector('img')) || node.nodeName === 'FIGURE';
+      const isTimeline = node.nodeName === 'DIV' && node.classList.contains('timeline-wrapper');
       
-      if (node.nodeName === 'H2' || node.nodeName === 'H3') {
+      if (isTimeline) {
         createSlideWithLayout();
-        currentHSection = document.createElement('section');
-        slidesContainer.appendChild(currentHSection);
-        currentVSection = document.createElement('section');
-        currentHSection.appendChild(currentVSection);
-        
-        currentTitleNode = node.cloneNode(true);
-        currentVSection.appendChild(currentTitleNode.cloneNode(true));
-      } else if (node.nodeName === 'HR') {
-        createSlideWithLayout();
-        // HR creates a new horizontal section
-        currentHSection = document.createElement('section');
-        slidesContainer.appendChild(currentHSection);
-        currentVSection = null; // Will be created by ensureSections on next content
-      } else if (isImage) {
-        // Check if we already have an image pending (new slide for multiple images)
-        if (pendingImage) {
-          createSlideWithLayout();
-        }
-        // Extract image from P or FIGURE if needed
-        if (node.nodeName === 'P' && node.querySelector('img')) {
-          pendingImage = node.querySelector('img');
-          // Add any caption text
-          const caption = node.querySelector('em, figcaption');
-          if (caption && !pendingText.includes(caption)) {
-            pendingText.push(caption);
+        const eras = node.querySelectorAll('.timeline-era-section');
+        eras.forEach(era => {
+          // Each era is a new horizontal section
+          currentHSection = document.createElement('section');
+          slidesContainer.appendChild(currentHSection);
+          
+          // Era title slide
+          const eraHeader = era.querySelector('.timeline-era-header');
+          if (eraHeader) {
+            const titleSlide = document.createElement('section');
+            const hClone = eraHeader.cloneNode(true);
+            if (langPreference === 'both') {
+              hClone.style.cssText = 'display: flex; gap: 40px; align-items: center; justify-content: center;';
+              hClone.querySelectorAll('.lang-en, .lang-zh').forEach(l => {
+                l.style.flex = '1';
+                l.style.textAlign = l.classList.contains('lang-en') ? 'right' : 'left';
+                l.querySelector('.era-name').style.fontSize = '2.5em';
+              });
+            } else {
+              const activeLang = hClone.querySelector(`.lang-${langPreference === 'english' ? 'en' : 'zh'}`);
+              if (activeLang) {
+                hClone.innerHTML = activeLang.innerHTML;
+                hClone.querySelector('.era-name').style.fontSize = '3em';
+              }
+            }
+            titleSlide.appendChild(hClone);
+            currentHSection.appendChild(titleSlide);
           }
-        } else {
-          pendingImage = node;
+          
+          // Events within this era
+          const items = era.querySelectorAll('.timeline-item');
+          items.forEach(item => {
+            const content = item.querySelector('.timeline-content');
+            if (!content) return;
+            
+            const eventSlide = document.createElement('section');
+            const date = content.querySelector('.timeline-date')?.textContent;
+            const img = content.querySelector('img');
+            const cat = content.querySelector('.timeline-category')?.textContent;
+            
+            if (langPreference === 'both') {
+              const flex = document.createElement('div');
+              flex.style.cssText = 'display: flex; gap: 40px; align-items: center; justify-content: center; height: 100%;';
+              
+              const leftCol = document.createElement('div');
+              leftCol.style.cssText = 'flex: 1; text-align: left;';
+              const rightCol = document.createElement('div');
+              rightCol.style.cssText = 'flex: 1; text-align: left;';
+              
+              if (img) {
+                const imgContainer = document.createElement('div');
+                imgContainer.style.cssText = 'margin-bottom: 20px; text-align: center;';
+                const iClone = img.cloneNode(true);
+                iClone.style.cssText = 'max-height: 40vh; width: auto; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);';
+                imgContainer.appendChild(iClone);
+                eventSlide.appendChild(imgContainer);
+              }
+              
+              // Date and Category Label
+              const meta = document.createElement('div');
+              meta.style.cssText = 'font-size: 0.6em; opacity: 0.6; margin-bottom: 15px; text-align: center; letter-spacing: 2px;';
+              meta.textContent = `${date}${cat ? ' • ' + cat : ''}`;
+              eventSlide.appendChild(meta);
+              
+              const enTitle = content.querySelector('.timeline-title .lang-en')?.cloneNode(true);
+              const enDesc = content.querySelector('.timeline-description .lang-en')?.cloneNode(true);
+              const zhTitle = content.querySelector('.timeline-title .lang-zh')?.cloneNode(true);
+              const zhDesc = content.querySelector('.timeline-description .lang-zh')?.cloneNode(true);
+              
+              if (enTitle) {
+                enTitle.style.fontSize = '1.2em';
+                enTitle.style.marginBottom = '15px';
+                leftCol.appendChild(enTitle);
+              }
+              if (enDesc) {
+                enDesc.style.fontSize = '0.75em';
+                leftCol.appendChild(enDesc);
+              }
+              
+              if (zhTitle) {
+                zhTitle.style.fontSize = '1.2em';
+                zhTitle.style.marginBottom = '15px';
+                rightCol.appendChild(zhTitle);
+              }
+              if (zhDesc) {
+                zhDesc.style.fontSize = '0.75em';
+                rightCol.appendChild(zhDesc);
+              }
+              
+              flex.appendChild(leftCol);
+              flex.appendChild(rightCol);
+              eventSlide.appendChild(flex);
+            } else {
+              // Single Language Layout
+              if (img) {
+                const iClone = img.cloneNode(true);
+                iClone.style.cssText = 'max-height: 50vh; display: block; margin: 0 auto 20px; border-radius: 8px;';
+                eventSlide.appendChild(iClone);
+              }
+              const meta = document.createElement('div');
+              meta.style.cssText = 'font-size: 0.6em; opacity: 0.6; margin-bottom: 10px; text-align: center;';
+              meta.textContent = `${date}${cat ? ' • ' + cat : ''}`;
+              eventSlide.appendChild(meta);
+              
+              const lang = langPreference === 'english' ? 'en' : 'zh';
+              const title = content.querySelector(`.timeline-title .lang-${lang}`)?.cloneNode(true);
+              const desc = content.querySelector(`.timeline-description .lang-${lang}`)?.cloneNode(true);
+              
+              if (title) {
+                title.style.fontSize = '1.5em';
+                title.style.textAlign = 'center';
+                eventSlide.appendChild(title);
+              }
+              if (desc) {
+                desc.style.fontSize = '0.9em';
+                desc.style.textAlign = 'center';
+                desc.style.marginTop = '20px';
+                eventSlide.appendChild(desc);
+              }
+            }
+            
+            currentHSection.appendChild(eventSlide);
+          });
+        });
+        return; // Skip normal node processing
+      }
+
+    if (node.nodeName === 'H2' || node.nodeName === 'H3') {
+      createSlideWithLayout();
+      currentHSection = document.createElement('section');
+      slidesContainer.appendChild(currentHSection);
+      currentVSection = document.createElement('section');
+      currentHSection.appendChild(currentVSection);
+      hasCreatedFirstSection = true;
+
+  currentTitleNode = node.cloneNode(true);
+      currentVSection.appendChild(currentTitleNode.cloneNode(true));
+    } else if (isImage) {
+      // Extract image from P or FIGURE if needed
+      if (node.nodeName === 'P' && node.querySelector('img')) {
+        pendingImage = node.querySelector('img');
+        // Add any caption text
+        const caption = node.querySelector('em, figcaption');
+        if (caption && !pendingText.includes(caption)) {
+          pendingText.push(caption);
         }
-      } else if (node.nodeName === 'DIV' && (node.classList.contains('lang-en') || node.classList.contains('lang-zh'))) {
+      } else {
+        pendingImage = node;
+      }
+    } else if (node.nodeName === 'DIV' && (node.classList.contains('lang-en') || node.classList.contains('lang-zh'))) {
         // Handle bilingual language divs
         if (langPreference === 'both') {
           const isEnglish = node.classList.contains('lang-en');
