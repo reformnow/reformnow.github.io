@@ -18,9 +18,8 @@
     .view-english li.lang-zh:has(.lang-en) { display: block !important; }
     .view-english li.lang-zh:has(.lang-en) > .toc-link.lang-zh { display: none !important; }
     
-    /* Permanent Bilingual: Sidebar, Nav, and Section headings always show both */
+    /* Permanent Bilingual: Sidebar and Section headings always show both */
     #sidebar .nav-item .lang-en, #sidebar .nav-item .lang-zh,
-    #topbar-wrapper .lang-en, #topbar-wrapper .lang-zh,
     .panel-heading .lang-en, .panel-heading .lang-zh,
     #access-lastmod .lang-en, #access-lastmod .lang-zh { 
       display: inline !important; 
@@ -28,7 +27,6 @@
     
     /* Separators for Menu items (Not TOC) */
     #sidebar .nav-item .lang-en + .lang-zh::before,
-    #topbar-wrapper .lang-en + .lang-zh::before,
     .panel-heading .lang-en + .lang-zh::before,
     #access-lastmod .lang-en + .lang-zh::before { 
       content: "/"; margin: 0 4px; font-size: 0.8em; opacity: 0.5; 
