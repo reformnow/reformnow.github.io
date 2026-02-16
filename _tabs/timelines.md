@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Timelines
+title_zh: 时间线
 icon: fas fa-stream
 order: 5
 ---

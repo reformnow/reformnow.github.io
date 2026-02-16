@@ -1,9 +1,11 @@
 ---
 title: "The Journey of Grace: How God Brings His People Home"
+title_zh: "恩典之旅：神如何领子民归家"
 date: 2026-02-09 12:00:00 +0000
 categories: [Theology, Salvation]
 tags: [grace, salvation, bible, soteriology, bilingual]
 description: A journey through the work of divine grace in human lives, from the first stirrings of faith to final redemption
+description_zh: 一段关于神圣恩典在人生命中工作的旅程，从信心的最初萌芽到最终的救赎。
 image:
   path: /assets/img/posts/journey_of_grace.png
   alt: "The Journey of Grace"

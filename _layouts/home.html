@@ -94,7 +94,12 @@ layout: default
 
         <div class="col-md-{{ card_body_col }}">
           <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">{{ post.title }}</h1>
+            <h1 class="card-title my-2 mt-md-0">
+              <span class="lang-en">{{ post.title }}</span>
+              {% if post.title_zh %}
+                <span class="lang-zh">{{ post.title_zh }}</span>
+              {% endif %}
+            </h1>
 
             <div class="card-text content mt-0 mb-3">
               <p>{% include post-summary.html %}</p>

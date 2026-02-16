@@ -6,8 +6,13 @@
     max_length: The maximum length of the returned content. Default is 200.
 {%- endcomment -%}
 
-{%- if post.description and include.full_text != true -%}
-  {{- post.description -}}
+{%- if (post.description or post.description_zh) and include.full_text != true -%}
+  {% if post.description %}
+    <span class="lang-en">{{ post.description }}</span>
+  {% endif %}
+  {% if post.description_zh %}
+    <span class="lang-zh">{{ post.description_zh }}</span>
+  {% endif %}
 {%- else -%}
   {%- comment -%} Remove the line numbers from the code snippet. {%- endcomment -%}
 

@@ -10,28 +10,45 @@
 
       {% if paths.size == 0 or page.layout == 'home' %}
         <!-- index page -->
-        <span>{{ site.data.locales[include.lang].tabs.home | capitalize }}</span>
+        <span>
+          <span class="lang-en">Home</span>
+          <span class="lang-zh">首页</span>
+        </span>
 
       {% else %}
         {% for item in paths %}
           {% if forloop.first %}
             <span>
               <a href="{{ '/' | relative_url }}">
-                {{- site.data.locales[include.lang].tabs.home | capitalize -}}
+                <span class="lang-en">Home</span>
+                <span class="lang-zh">首页</span>
               </a>
             </span>
 
           {% elsif forloop.last %}
             {% if page.collection == 'tabs' %}
-              <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
+              <span>
+                <span class="lang-en">{{ page.title }}</span>
+                {% if page.title_zh %}
+                  <span class="lang-zh">{{ page.title_zh }}</span>
+                {% endif %}
+              </span>
             {% else %}
-              <span>{{ page.title }}</span>
+              <span>
+                <span class="lang-en">{{ page.title }}</span>
+                {% if page.title_zh %}
+                  <span class="lang-zh">{{ page.title_zh }}</span>
+                {% endif %}
+              </span>
             {% endif %}
 
           {% elsif page.layout == 'category' or page.layout == 'tag' %}
             <span>
               <a href="{{ item | append: '/' | relative_url }}">
-                {{- site.data.locales[include.lang].tabs[item] | default: page.title -}}
+                <span class="lang-en">{{- site.data.locales[include.lang].tabs[item] | default: page.title -}}</span>
+                {% if page.title_zh %}
+                  <span class="lang-zh">{{ page.title_zh }}</span>
+                {% endif %}
               </a>
             </span>
           {% endif %}
@@ -49,9 +66,15 @@
         {{- site.data.locales[include.lang].title | default: site.title -}}
       {% elsif page.collection == 'tabs' or page.layout == 'page' %}
         {%- capture tab_key -%}{{ page.url | split: '/' }}{%- endcapture -%}
-        {{- site.data.locales[include.lang].tabs[tab_key] | default: page.title -}}
+        <span class="lang-en">{{- site.data.locales[include.lang].tabs[tab_key] | default: page.title -}}</span>
+        {% if page.title_zh %}
+          <span class="lang-zh">{{ page.title_zh }}</span>
+        {% endif %}
       {% else %}
-        {{- site.data.locales[include.lang].layout[page.layout] | default: page.layout | capitalize -}}
+        <span class="lang-en">{{- site.data.locales[include.lang].layout[page.layout] | default: page.layout | capitalize -}}</span>
+        {% if page.title_zh %}
+          <span class="lang-zh">{{ page.title_zh }}</span>
+        {% endif %}
       {% endif %}
     </div>
 
@@ -67,11 +90,12 @@
         type="search"
         aria-label="search"
         autocomplete="off"
-        placeholder="{{ site.data.locales[include.lang].search.hint | capitalize }}..."
+        placeholder="Search... / 搜索..."
       >
     </search>
     <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">
-      {{- site.data.locales[include.lang].search.cancel -}}
+      <span class="lang-en">Cancel</span>
+      <span class="lang-zh">取消</span>
     </button>
   </div>
 </header>
