@@ -12,16 +12,25 @@ image:
 ---
 
 <div class="lang-en" markdown="1">
+### Introduction
+
 There is probably no more widely known phrase on the love of God used today than, "God loves you and offers a wonderful plan for your life." The question is simple: is it biblical? Is that a true thing to say to all people anywhere? More significantly, how should this affect our presentation of the gospel in evangelistic crusades, settings or gospel appeals? I touch more on this in an article called Love the Lord Jesus Christ at AudienceONE. I hope you will read it as part of this discussion. God's love is undeserving; unmerited; unfailing; self-sacrificial; and unreciprocated. It is only available to sinners through the gospel of Jesus Christ.
 </div>
+
 <div class="lang-zh" markdown="1">
+### 简介
+
 今天，在关于上帝的爱方面，可能没有比“上帝爱你，并为你的生命提供了一个奇妙的计划”这句话更广为人知的了。问题很简单：这符合圣经吗？对任何地方的任何人说这句话都正确吗？更重要的是，这应该如何影响我们在布道会、各种场合或福音呼召中呈现福音的方式？我在AudienceONE上的一篇名为《爱主耶稣基督》的文章中更多地谈到了这一点。我希望你能阅读它作为这次讨论的一部分。上帝的爱是我们不配得的、无功而获的、永不失败的、自我牺牲的，也是不求回报的。它只通过耶稣基督的福音向罪人提供。
 </div>
 
 <div class="lang-en" markdown="1">
+### How to Rewrite the Four Spiritual Laws?
+
 Millions of people around the world are familiar with this little witnessing booklet called, The Four Spiritual Laws. Due to my Wheaton upbringing, I even used this tract early in my Christian journey. However, upon closer scrutiny we must rightly ask, are those four spiritual laws biblical? Do they play upon our sentimental view of God that He has but one essential attribute, love, forgetting that He is also a God of justice, holiness, grace, wrath, mercy, and sovereignty? What if those "laws" were re-written from a truly biblical Reformed view--what would they look like? What would they say? Would millions use them... or shun them? Here is my attempt and offering to you. (Warning: some of the language used may sound shocking to our postmodern ears...if you are offended by any of the verbiage... it is purely intentional.)
 </div>
-<div class="lang-zh" markdown="1">
+<div class="lang-zh" markdown="1">  
+### 如何重写属灵四定律？
+
 全球数以百万计的人都熟悉这本名为《四个属灵的定律》的见证小册子。由于我在惠顿学院的成长背景，我甚至在我的基督徒旅程早期也使用过这本小册子。然而，经过仔细审视，我们必须正确地提问，这四个属灵的定律是否符合圣经？它们是否利用了我们对上帝的情感观点，即他只有一个基本属性——爱，而忘记了他同时也是一位公义、圣洁、恩典、忿怒、怜悯和主权的上帝？如果这些“定律”是从一个真正符合圣经的改革宗观点重写的——它们会是什么样子？它们会说什么？是会有数百万人使用它们……还是会避开它们？这是我的尝试，并呈现给你们。（警告：所使用的某些语言对我们的后现代耳朵来说可能听起来令人震惊……如果你对任何措辞感到冒犯……这纯粹是故意的。）
 </div>
 
@@ -113,38 +122,38 @@ Or, they could read like this in a more direct, pithy manner. (same Scripture pa
 </div>
 
 <div class="lang-en" markdown="1">
-#### LAW ONE
+### NEW LAW ONE
 God is holy; and He is angry with all sinners and their sin. He has a plan for your life whether for eternal life or eternal wrath.
 </div>
 <div class="lang-zh" markdown="1">
-#### 定律一
+### 新定律一
 上帝是圣洁的；他向所有的罪人和他们的罪发怒。他为你的生命制定了一个计划，无论是永生还是永远的忿怒。
 </div>
 
 <div class="lang-en" markdown="1">
-#### LAW TWO
+### NEW LAW TWO
 There is nothing anyone can do about it. Man is sinful and utterly lost. He is totally depraved, conceived in sin, and is incapable of saving himself, pleasing God, or satisfying the Lord's righteous demands by his own merits or his own efforts of works righteousness. There is nothing we can do in our own strength, goodness, religious acts, or humanitarian gestures of kindness to please Him and earn eternal life.
 </div>
 <div class="lang-zh" markdown="1">
-#### 定律二
+### 新定律二
 任何人都无能为力。人是罪恶的，完全失丧。他是完全堕落的，是在罪中孕育的，无法自救，无法取悦上帝，也无法通过自己的功德或自己的义行来满足主公义的要求。我们无法凭自己的力量、良善、宗教行为或人道主义的善举来取悦他并赚取永生。
 </div>
 
 <div class="lang-en" markdown="1">
-#### LAW THREE
+### NEW LAW THREE
 But Christ came and died in our place and fulfilled God's law and all righteousness, took all of the sin, its guilt and penalty that would ever be committed by everyone that would ever believe; and all of the wrath of God that burns against our sin on the cross; so that by grace alone, through faith alone, in Jesus Christ alone, on the Word alone, to the glory of God alone, we would have the hope, surety and promise of eternal life.
 </div>
 <div class="lang-zh" markdown="1">
-#### 定律三
+### 新定律三
 但是基督来了，代替我们死，成全了上帝的律法和一切的义，担当了所有相信之人将要犯下的所有罪、其罪咎和刑罚；以及上帝在十字架上对我们的罪燃烧的所有忿怒；因此，唯独借着恩典，唯独通过信心，唯独在耶稣基督里，唯独依靠圣经，唯独为了上帝的荣耀，我们才有了永生的盼望、确据和应许。
 </div>
 
 <div class="lang-en" markdown="1">
-#### LAW FOUR
+### NEW LAW FOUR
 May God grant you saving faith and the grace to repent of your sin and receive Christ Jesus as Lord and Savior for eternal life so that you may have peace with Him forever! His love, mercy and grace no one can ever take away once your life is hid in Christ.
 </div>
 <div class="lang-zh" markdown="1">
-#### 定律四
+### 新定律四
 愿上帝赐给你得救的信心和恩典，使你悔改你的罪，并接受基督耶稣为主和救主，得享永生，使你可以永远与他和睦！一旦你的生命藏在基督里，他的爱、怜悯和恩典就无人能夺去。
 </div>
 
