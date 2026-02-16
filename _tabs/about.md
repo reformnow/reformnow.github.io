@@ -127,6 +127,59 @@ Articles with the `slide` tag enable a dedicated presentation view.
 ---
 
 <div class="lang-en" markdown="1">
+## Creating Timelines
+</div>
+<div class="lang-zh" markdown="1">
+## 创建时间轴
+</div>
+
+<div class="lang-en" markdown="1">
+To create a new interactive timeline post, follow these steps:
+</div>
+<div class="lang-zh" markdown="1">
+要创建一个新的交互式时间轴文章，请按照以下步骤操作：
+</div>
+
+<div class="lang-en" markdown="1">
+### 1. Create Timeline Data
+Add a YAML file to `_data/timelines/`:
+```yaml
+- date: "Year"
+  title: "Event Title"
+  description: "Description"
+  image: "/assets/img/timeline/file.jpg"
+```
+</div>
+<div class="lang-zh" markdown="1">
+### 1. 创建时间轴数据
+在 `_data/timelines/` 中添加一个 YAML 文件：
+```yaml
+- date: "年份"
+  title: "事件标题"
+  description: "描述"
+  image: "/assets/img/timeline/文件名.jpg"
+```
+</div>
+
+<div class="lang-en" markdown="1">
+### 2. Create the Post
+Create a new post in `_posts/` and use the timeline include:
+```markdown
+{% include timeline.html data=site.data.timelines.your-file title="Title" %}
+```
+</div>
+<div class="lang-zh" markdown="1">
+### 2. 创建文章
+在 `_posts/` 中创建一篇新文章，并使用 timeline 包含文件：
+```markdown
+{% include timeline.html data=site.data.timelines.your-file title="标题" %}
+```
+</div>
+
+---
+
+
+<div class="lang-en" markdown="1">
 *All timeline images are from Wikimedia Commons and are in the public domain.*
 </div>
 <div class="lang-zh" markdown="1">
