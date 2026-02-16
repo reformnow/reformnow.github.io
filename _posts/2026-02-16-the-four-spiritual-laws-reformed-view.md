@@ -1,7 +1,7 @@
 ---
 title: "The Four Spiritual Laws: A Reformed View"
 title_zh: "符合圣经的属灵四定律：改革宗视角"
-date: 2026-02-16 16:50:00 +0000
+date: 2026-02-16 00:00:00 +0000
 categories: [Theology, Evangelism]
 tags: [gospel, reformed, salvation, bilingual, slide]
 description: "A truly biblical Reformed look at the Four Spiritual Laws: contrasting the sentimental view of God with His holiness, justice, and sovereign grace."
