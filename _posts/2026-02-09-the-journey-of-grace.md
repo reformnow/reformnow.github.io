@@ -25,7 +25,7 @@ To understand this journey, we must recognize that salvation is not a mere "repa
 
 <div class="lang-zh" markdown="1">
 
-### 引言：寻找神的奥秘
+### 引言：寻找人的神的奥秘
 
 我们常说“寻找神”，仿佛我们是主动的寻找者，而祂是迷失在阴影中的那一位。我们把信仰之旅描述为一系列个人发现、理智突破或情感觉醒。然而，圣经的见证却将这种以人为中心叙事彻底颠覆。救恩的故事不是人寻找神的故事，而是神寻找人的故事。
 
