@@ -22,7 +22,10 @@
       <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
         <a href="{{ '/' | relative_url }}" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
-          <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
+          <span>
+            <span class="lang-en">HOME</span>
+            <span class="lang-zh">首页</span>
+          </span>
         </a>
       </li>
       <!-- the real tabs -->
@@ -30,9 +33,16 @@
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
           <a href="{{ tab.url | relative_url }}" class="nav-link">
             <i class="fa-fw {{ tab.icon }}"></i>
-            {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
+            {% capture tab_name %}{{ tab.url | split: '/' | last }}{% endcapture %}
 
-            <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
+            <span>
+              <span class="lang-en">{{ site.data.locales['en'].tabs.[tab_name] | default: tab.title | upcase }}</span>
+              {% if tab.title_zh %}
+                <span class="lang-zh">{{ tab.title_zh }}</span>
+              {% else %}
+                <span class="lang-zh">{{ tab.title }}</span>
+              {% endif %}
+            </span>
           </a>
         </li>
         <!-- .nav-item -->

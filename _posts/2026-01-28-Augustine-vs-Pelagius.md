@@ -1,8 +1,10 @@
 ---
 title: "The Architecture of Grace: A Deep Dive into the Augustine-Pelagius Debate"
+title_zh: "恩典的架构：深入探讨奥古斯丁与伯拉纠之争"
 date: 2026-01-28 16:30:00 +0000
 categories: [History, Theology]
 tags: [augustine, pelagius, grace, free-will, church-history, slide]
+description_zh: 深入探讨教会历史上最重要的神学辩论之一：奥古斯丁与伯拉纠关于恩典、自由意志和人性的交锋。
 image:
   path: /assets/img/posts/augustine_pelagius_header.png
   alt: "The Weight of Grace: Augustine and Pelagius in 410 AD"
