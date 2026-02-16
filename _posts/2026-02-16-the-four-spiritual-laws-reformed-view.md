@@ -6,6 +6,9 @@ categories: [Theology, Evangelism]
 tags: [gospel, reformed, salvation, bilingual, slide]
 description: "A truly biblical Reformed look at the Four Spiritual Laws: contrasting the sentimental view of God with His holiness, justice, and sovereign grace."
 description_zh: "以真正符合圣经的改革宗视角审视属灵四定律：将对上帝的情感化观点与他的圣洁、公义和主权恩典进行对比。"
+image:
+  path: /assets/img/posts/four_spiritual_laws_reformed.png
+  alt: "The Four Spiritual Laws: A Reformed Perspective"
 ---
 
 <div class="lang-en" markdown="1">
