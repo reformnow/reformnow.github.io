@@ -225,8 +225,9 @@
       const vSection = document.createElement('section');
       if (currentTitleNode) {
         const titleCopy = currentTitleNode.cloneNode(true);
-        titleCopy.style.fontSize = '0.85em';
-        titleCopy.style.opacity = '0.7';
+        titleCopy.style.fontSize = '1.1em';
+        titleCopy.style.opacity = '0.9';
+        titleCopy.style.color = '#d4af37';
         vSection.appendChild(titleCopy);
       }
       return vSection;
@@ -478,19 +479,21 @@
                   // Create a bilingual title node for subsequent vertical slides
                   const bilingualHeader = document.createElement('div');
                   bilingualHeader.className = 'bilingual-section-header';
-                  bilingualHeader.style.cssText = 'display: flex; gap: 20px; width: 100%; justify-content: center; opacity: 0.7; margin-bottom: 30px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;';
+                  bilingualHeader.style.cssText = 'display: flex; gap: 20px; width: 100%; justify-content: center; opacity: 0.9; margin-bottom: 30px; border-bottom: 2px solid rgba(212, 175, 55, 0.3); padding-bottom: 10px;';
                   
                   const enT = en.cloneNode(true);
-                  enT.style.fontSize = '0.85em';
+                  enT.style.fontSize = '1.1em';
                   enT.style.margin = '0';
                   enT.style.flex = '1';
                   enT.style.textAlign = 'right';
+                  enT.style.color = '#fff';
                   
                   const zhT = (zh && (zh.nodeName === 'H2' || zh.nodeName === 'H3')) ? zh.cloneNode(true) : en.cloneNode(true);
-                  zhT.style.fontSize = '0.85em';
+                  zhT.style.fontSize = '1.1em';
                   zhT.style.margin = '0';
                   zhT.style.flex = '1';
                   zhT.style.textAlign = 'left';
+                  zhT.style.color = '#d4af37';
                   
                   bilingualHeader.appendChild(enT);
                   bilingualHeader.appendChild(zhT);
@@ -550,8 +553,9 @@
               const vSlide = document.createElement('section');
               if (currentTitleNode) {
                 const titleCopy = currentTitleNode.cloneNode(true);
-                titleCopy.style.fontSize = '0.85em';
-                titleCopy.style.opacity = '0.7';
+                titleCopy.style.fontSize = '1.1em';
+                titleCopy.style.opacity = '0.9';
+                titleCopy.style.color = '#d4af37';
                 vSlide.appendChild(titleCopy);
               }
               vSlide.appendChild(child.cloneNode(true));
