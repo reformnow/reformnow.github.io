@@ -189,7 +189,7 @@
     coverVSection.className = 'cover-slide';
     coverVSection.innerHTML = `
     <div class="container py-4">
-      <h1 class="reveal-title text-center mb-4" style="font-size: 2.8em; color: #d4af37; text-shadow: 0 2px 10px rgba(0,0,0,0.5);">${postTitle}</h1>
+      <h1 class="reveal-title text-center mb-4" style="font-size: 2.2em; color: #d4af37; text-shadow: 0 2px 10px rgba(0,0,0,0.5);">${postTitle}</h1>
       <div class="cover-image-container" style="position: relative; width: 100%; max-width: 1000px; margin: 0 auto;">
         ${featuredImage ? `<img src="${featuredImage}" class="reveal-cover-img" style="width: 100%; max-height: 500px; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); display: block;">` : ''}
         ${postDesc ? `
@@ -225,7 +225,7 @@
       const vSection = document.createElement('section');
       if (currentTitleNode) {
         const titleCopy = currentTitleNode.cloneNode(true);
-        titleCopy.style.fontSize = '1.1em';
+        titleCopy.style.fontSize = '0.9em';
         titleCopy.style.opacity = '0.9';
         titleCopy.style.color = '#d4af37';
         vSection.appendChild(titleCopy);
@@ -482,14 +482,14 @@
                   bilingualHeader.style.cssText = 'display: flex; gap: 20px; width: 100%; justify-content: center; opacity: 0.9; margin-bottom: 30px; border-bottom: 2px solid rgba(212, 175, 55, 0.3); padding-bottom: 10px;';
                   
                   const enT = en.cloneNode(true);
-                  enT.style.fontSize = '1.1em';
+                  enT.style.fontSize = '0.9em';
                   enT.style.margin = '0';
                   enT.style.flex = '1';
                   enT.style.textAlign = 'right';
                   enT.style.color = '#fff';
                   
                   const zhT = (zh && (zh.nodeName === 'H2' || zh.nodeName === 'H3')) ? zh.cloneNode(true) : en.cloneNode(true);
-                  zhT.style.fontSize = '1.1em';
+                  zhT.style.fontSize = '0.9em';
                   zhT.style.margin = '0';
                   zhT.style.flex = '1';
                   zhT.style.textAlign = 'left';
