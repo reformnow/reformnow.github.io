@@ -14,6 +14,22 @@ layout: default
         <span class="lang-zh">{{ page.title_zh }}</span>
       {% endif %}
     </h1>
+    {% if content contains 'lang-en' and content contains 'lang-zh' %}
+      <div class="lang-switcher my-4 py-2 border-bottom">
+        <div class="btn-group" role="group" aria-label="Language switcher">
+          <button type="button" class="btn btn-sm btn-outline-primary active" data-lang="english" onclick="setLanguageView('english')">
+            English
+          </button>
+          <button type="button" class="btn btn-sm btn-outline-primary" data-lang="chinese" onclick="setLanguageView('chinese')">
+            中文
+          </button>
+          <button type="button" class="btn btn-sm btn-outline-primary" data-lang="both" onclick="setLanguageView('both')">
+            双语
+          </button>
+        </div>
+      </div>
+    {% endif %}
+
     <div class="content">
       {{ content }}
     </div>
