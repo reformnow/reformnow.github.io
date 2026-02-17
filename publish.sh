@@ -6,8 +6,9 @@ COMMIT_MSG=${1:-"Update site content and styling"}
 
 echo "🚀 Starting publication process..."
 
-# Stage all changes
-git add .
+# Stage changes (considering adding only tracked files or specific directories)
+git add -A
+# Optional: git add -u  # to skip new untracked files if desired
 
 # Check if there are changes to commit
 if git diff --cached --quiet; then

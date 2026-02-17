@@ -71,3 +71,60 @@ pre:has(code.language-bible) {
     border-radius: 0 !important;
   }
 }
+
+/* Elegant Theological Quote Styling */
+pre:has(code.language-quote) {
+  background: linear-gradient(to right, #ffffff, #fcfcfc) !important;
+  border: 1px solid rgba(0,0,0,0.08) !important;
+  border-left: 4px solid #4a5568 !important; /* Slate gray accent */
+  border-radius: 6px !important;
+  margin: 2.5rem 0 !important;
+  padding: 0 !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03) !important;
+  position: relative !important;
+  overflow: visible !important; /* Allow the quote mark to pop */
+
+  &::before {
+    content: "Theological Wisdom" !important;
+    display: block !important;
+    background-color: #f7fafc !important;
+    border-bottom: 1px solid #edf2f7 !important;
+    padding: 0.6rem 1.2rem !important;
+    color: #4a5568 !important;
+    font-size: 0.75rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.1em !important;
+    font-family: var(--font-family-base) !important;
+    border-radius: 6px 6px 0 0 !important;
+  }
+
+  code.language-quote {
+    display: block !important;
+    padding: 2rem !important;
+    font-family: "Spectral", "Georgia", serif !important;
+    font-style: italic !important;
+    font-size: 1.15rem !important;
+    line-height: 1.8 !important;
+    color: #2d3748 !important;
+    background: transparent !important;
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
+    position: relative !important;
+    z-index: 2 !important;
+  }
+
+  /* Decorative Quote Mark */
+  &::after {
+    content: "“" !important;
+    position: absolute !important;
+    top: 2.5rem !important;
+    left: 0.5rem !important;
+    font-size: 6rem !important;
+    color: rgba(74, 85, 104, 0.07) !important;
+    font-family: "Georgia", serif !important;
+    z-index: 1 !important;
+    line-height: 1 !important;
+    pointer-events: none !important;
+  }
+}

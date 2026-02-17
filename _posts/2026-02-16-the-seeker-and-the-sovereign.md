@@ -53,7 +53,7 @@ In his *Confessions*, Augustine marvels at how God's initiative always precedes 
 在《忏悔录》中，奥古斯丁感叹上帝的主动权总是先行于人的行动：
 </div>
 
-```
+```quote
 "Thou didst seek us when we sought Thee not; 
 didst seek us indeed that we might seek Thee." 
 (Augustine, Confessions, Book XI)
@@ -66,14 +66,14 @@ Furthermore, he clarifies that even our choice to believe is a fruit, not a caus
 此外，他明确指出，即便我们选择相信，也只是预选的结果而非原因：
 </div>
 
-```
+```quote
 "God chooses us, not because we believe, but that we may believe; 
 lest we should say that we first chose Him." 
 (Augustine, On the Predestination of the Saints, 34)
 ```
 
 <div class="lang-en" markdown="1">
-```
+```quote
 "Grace does not find men fit for salvation, but makes them so... 
 The beginning of our freedom is to be free from crimes... 
 but when we have been justified by grace, then there is nothing 
@@ -82,7 +82,7 @@ that should prevent us from seeking God."
 ```
 </div>
 <div class="lang-zh" markdown="1">
-```
+```quote
 “恩典并不是因为人配得救赎才找到他们，而是使他们变得配得…… 
 我们自由的开端是脱离罪行…… 
 但当我们因恩典称义后，就没有什么
