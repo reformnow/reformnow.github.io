@@ -80,6 +80,16 @@ but when we have been justified by grace, then there is nothing
 that should prevent us from seeking God." 
 (Augustine, On Nature and Grace)
 ```
+</div>
+<div class="lang-zh" markdown="1">
+```
+“恩典并不是因为人配得救赎才找到他们，而是使他们变得配得…… 
+我们自由的开端是脱离罪行…… 
+但当我们因恩典称义后，就没有什么
+能阻碍我们寻求上帝了。” 
+（奥古斯丁，《论本性与恩典》）
+```
+</div>
 
 ---
 
@@ -120,11 +130,11 @@ Therefore, it is a theological impossibility for an "un-chosen" or "un-graced" p
 ---
 
 <div class="lang-en" markdown="1">
-## III. The Harmonious Will: Not Draggings, but change hearts
+## III. The Harmonious Will: Not Draggings, but Drawings
 A common misunderstanding is the image of God dragging a screaming sinner into heaven, or a weeping saint being locked out of heaven's gate. Both images are caricatures that ignore the nature of the will.
 </div>
 <div class="lang-zh" markdown="1">
-## 三、 和谐的意志：不是拖曳而是改变人心，被改变了内心的罪人才会被神吸引
+## 三、 和谐的意志：不是拖曳，而是吸引
 一种常见的误解是：上帝将一个尖叫挣扎的罪人拖进天堂，或者一个流泪寻求的圣徒被关在天堂门外。这两幅图景都是扭曲的讽刺，忽略了意志的本质。
 </div>
 
