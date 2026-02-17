@@ -1,7 +1,7 @@
 ---
 title: "The Seeker and the Sovereign: The Mystery of the Internal Call"
 title_zh: "寻找者与主权者：内在呼召的奥秘"
-date: 2026-02-17 17:00:00 +0000
+date: 2026-02-16 12:00:00 +0000
 categories: [Theology, Soteriology]
 tags: [grace, election, human-will, augustine, salvation, slide]
 description: "An in-depth exploration of why no one seeks God unless first touched by grace, and how the divine will harmonizes with human desire."
@@ -43,12 +43,36 @@ As it is written: “There is no one righteous, not even one; there is no one wh
 </div>
 
 <div class="lang-en" markdown="1">
-St. Augustine of Hippo, in his battles against the superficial views of human nature, emphasized that the fall did not just make us "sick," but spiritually "dead." A dead man does not seek a doctor; a doctor must first bring life before the patient can even recognize his need.
+St. Augustine of Hippo, in his battles against the superficial views of human nature, emphasized that the fall did not just make us "sick," but spiritually "dead." A dead man does not seek a doctor; a doctor must first bring life before the patient can even recognize his need. 
+
+In his *Confessions*, Augustine marvels at how God's initiative always precedes human action:
 </div>
 <div class="lang-zh" markdown="1">
 希波的圣奥古斯丁在抗击对人性的肤浅看法时强调，堕落不仅使我们“病了”，更使我们在灵性上“死了”。死人不会寻找医生；医生必须先赋予生命，病人才可能意识到自己的需要。
+
+在《忏悔录》中，奥古斯丁感叹上帝的主动权总是先行于人的行动：
 </div>
 
+```
+"Thou didst seek us when we sought Thee not; 
+didst seek us indeed that we might seek Thee." 
+(Augustine, Confessions, Book XI)
+```
+
+<div class="lang-en" markdown="1">
+Furthermore, he clarifies that even our choice to believe is a fruit, not a cause, of election:
+</div>
+<div class="lang-zh" markdown="1">
+此外，他明确指出，即便我们选择相信，也只是预选的结果而非原因：
+</div>
+
+```
+"God chooses us, not because we believe, but that we may believe; 
+lest we should say that we first chose Him." 
+(Augustine, On the Predestination of the Saints, 34)
+```
+
+<div class="lang-en" markdown="1">
 ```
 "Grace does not find men fit for salvation, but makes them so... 
 The beginning of our freedom is to be free from crimes... 
@@ -96,11 +120,11 @@ Therefore, it is a theological impossibility for an "un-chosen" or "un-graced" p
 ---
 
 <div class="lang-en" markdown="1">
-## III. The Harmonious Will: Not Draggings, but Drawings
+## III. The Harmonious Will: Not Draggings, but change hearts
 A common misunderstanding is the image of God dragging a screaming sinner into heaven, or a weeping saint being locked out of heaven's gate. Both images are caricatures that ignore the nature of the will.
 </div>
 <div class="lang-zh" markdown="1">
-## 三、 和谐的意志：不是拖曳，而是吸引
+## 三、 和谐的意志：不是拖曳而是改变人心，被改变了内心的罪人才会被神吸引
 一种常见的误解是：上帝将一个尖叫挣扎的罪人拖进天堂，或者一个流泪寻求的圣徒被关在天堂门外。这两幅图景都是扭曲的讽刺，忽略了意志的本质。
 </div>
 
