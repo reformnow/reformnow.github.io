@@ -127,7 +127,7 @@
       mutations.forEach(mutation => {
         if (mutation.addedNodes.length > 0) {
           mutation.addedNodes.forEach(node => {
-            if (node.nodeType === 1 && (node.className?.includes?.('toc-link') || node.querySelector?.('.toc-link'))) {
+            if (node.nodeType === 1 && (node.classList.contains('toc-link') || node.querySelector('.toc-link'))) {
               tocChanged = true;
             }
           });
@@ -138,8 +138,14 @@
       }
     });
 
-    const panel = document.getElementById('panel-wrapper') || document.body;
-    observer.observe(panel, { childList: true, subtree: true });
+    const tocWrapper = document.getElementById('toc-wrapper');
+    if (tocWrapper) {
+      observer.observe(tocWrapper, { childList: true, subtree: true });
+    } else {
+      // Fallback if TOC wrapper isn't found yet or on this page
+      const panel = document.getElementById('panel-wrapper') || document.body;
+      observer.observe(panel, { childList: true, subtree: true });
+    }
 
     // Recurrent check for first few seconds
     let checks = 0;
