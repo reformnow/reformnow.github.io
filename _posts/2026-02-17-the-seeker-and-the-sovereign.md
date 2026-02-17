@@ -1,7 +1,7 @@
 ---
 title: "The Seeker and the Sovereign: The Mystery of the Internal Call"
 title_zh: "寻找者与主权者：内在呼召的奥秘"
-date: 2026-02-16 18:00:00 +0000
+date: 2026-02-17 17:00:00 +0000
 categories: [Theology, Soteriology]
 tags: [grace, election, human-will, augustine, salvation, slide]
 description: "An in-depth exploration of why no one seeks God unless first touched by grace, and how the divine will harmonizes with human desire."
