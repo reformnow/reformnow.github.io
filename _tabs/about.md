@@ -124,6 +124,7 @@ Articles with the `slide` tag enable a dedicated presentation view.
 - **O**：显示全局幻灯片总览。
 </div>
 
+<div class="lang-en" markdown="1">
 ## Special Formatting
 </div>
 <div class="lang-zh" markdown="1">
