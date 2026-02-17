@@ -1,7 +1,7 @@
 ---
 title: "The Great Schism: A Detailed Forensic and Theological Investigation into the Condemnation of Luther and Calvin"
 title_zh: "伟大的分裂：对路德与加尔文定罪过程的详细历史与神学调查"
-date: 2026-02-17 10:00:00 +0000
+date: 2026-02-16 10:00:00 +0000
 categories: [History, Theology]
 tags: [reformation, martin-luther, john-calvin, council-of-trent, catholicism, anathema, slide]
 description: "A monumental study of the legal excommunication of Martin Luther, the systematic anathemas of the Council of Trent, and the intellectual conflict with John Calvin. Estimated reading time: 45 minutes."
