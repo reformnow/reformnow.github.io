@@ -124,6 +124,51 @@ Articles with the `slide` tag enable a dedicated presentation view.
 - **O**：显示全局幻灯片总览。
 </div>
 
+## Special Formatting
+</div>
+<div class="lang-zh" markdown="1">
+## 特殊格式
+</div>
+
+<div class="lang-en" markdown="1">
+To enhance the beauty and readability of our articles, we use custom code blocks for sacred texts and theological wisdom.
+
+### 1. Bible Block
+Use ` ```bible ` to wrap Holy Scripture. This generates a parchment-style background with a golden left border.
+```markdown
+` ```bible `
+"For God so loved the world..." (John 3:16)
+` ``` `
+```
+
+### 2. Quote Block
+Use ` ```quote ` for patristic citations or theological aphorisms. This generates an elegant card with a slate gray accent and a decorative quotation mark.
+```markdown
+` ```quote `
+"Thou didst seek us when we sought Thee not..." (Augustine)
+` ``` `
+```
+</div>
+<div class="lang-zh" markdown="1">
+为了提升文章的美感和可读性，我们为神圣经文和神学智慧提供了自定义的代码块。
+
+### 1. 经文区块 (Bible Block)
+使用 ` ```bible ` 来包裹圣经经文。这将生成一个带有金色左边框的羊皮纸风格背景，视觉上更加庄重。
+```markdown
+` ```bible `
+“神爱世人……” (约翰福音 3:16)
+` ``` `
+```
+
+### 2. 引用区块 (Quote Block)
+使用 ` ```quote ` 来引用教父或神学格言。这将生成一个带石板灰边饰和装饰性大括号的优雅卡片。
+```markdown
+` ```quote `
+“在我们不寻找你时，你寻找了我们……” (奥古斯丁)
+` ``` `
+```
+</div>
+
 ---
 
 <div class="lang-en" markdown="1">
