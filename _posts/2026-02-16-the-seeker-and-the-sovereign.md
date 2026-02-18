@@ -1,6 +1,6 @@
 ---
-title: "The Seeker and the Sovereign: The Mystery of the Internal Call"
-title_zh: "寻找者与主权者：内在呼召的奥秘"
+title: "What Happens if Someone Not Chosen Seeks God?"
+title_zh: "如果一个没有被选中的人试图寻求上帝，会发生什么？"
 date: 2026-02-16 12:00:00 +0000
 categories: [Theology, Soteriology]
 tags: [grace, election, human-will, augustine, salvation, slide]
@@ -94,11 +94,11 @@ that should prevent us from seeking God."
 ---
 
 <div class="lang-en" markdown="1">
-## II. Prevenient Grace: The Catalyst of the Knock
+## II. Divine Regeneration Precedes Human Seeking
 If the natural heart is silent and averse, why then do we see people knocking? Why do we see people weeping over their sins and crying out for a Savior? The answer is simple: they are not acting out of their own unregenerate power. The "knock" is the fruit of a "touch."
 </div>
 <div class="lang-zh" markdown="1">
-## 二、 先修恩典：叩门的催化剂
+## 二、 神重生的恩典在先，人寻求的能力在后
 如果天然之心是沉默且反感的，那我们为什么会看到人们在叩门？为什么会看到人们为罪哀恸，并呼求救主？答案很简单：他们并非出于其自身未被重生的力量而行动。“叩门”其实是“触动”的结果。
 </div>
 
@@ -130,12 +130,12 @@ Therefore, it is a theological impossibility for an "un-chosen" or "un-graced" p
 ---
 
 <div class="lang-en" markdown="1">
-## III. The Harmonious Will: Not Draggings, but Drawings
-A common misunderstanding is the image of God dragging a screaming sinner into heaven, or a weeping saint being locked out of heaven's gate. Both images are caricatures that ignore the nature of the will.
+## III. The Harmonious Will: Not Just Attraction, but Drawing (Draw)
+A common misunderstanding is that God might drag a screaming sinner who is unwilling to enter heaven into it, or reject some repentant and weeping person who is seeking salvation by locking them out of heaven's gate. Both images are distorted misunderstandings of the Bible that ignore the nature of the sinner's will. God's drawing is first to change the heart; the sinner's heart of stone becomes a heart of flesh, and they naturally and joyfully turn to Christ of their own accord. Therefore, this drawing is not coercion, nor is there any resistance. This is also why we have the theological concept of "Irresistible Grace."
 </div>
 <div class="lang-zh" markdown="1">
-## 三、 和谐的意志：不是拖曳，而是吸引
-一种常见的误解是：上帝将一个尖叫挣扎的罪人拖进天堂，或者一个流泪寻求的圣徒被关在天堂门外。这两幅图景都是扭曲的讽刺，忽略了意志的本质。
+## 三、 和谐的意志：神不光是是吸引，更是救拔（draw）
+一种常见的误解是：上帝可能会将一些尖叫挣扎不愿意进天堂的罪人拖进天堂，或者拒绝一些痛悔哭泣寻求救恩的人关在天堂门外。这两幅图景都是对圣经扭曲的误解，忽略了罪人意志的本质。神的救拔是先改变人心，罪人的石心变成了肉心，自然就会欢欢喜喜主动归向基督，因此这救拔不是强迫，也不会有抗拒。这也是为什么我们会有“不可抗拒的恩典”这一神学概念。
 </div>
 
 <div class="lang-en" markdown="1">
