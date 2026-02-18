@@ -53,11 +53,19 @@ In his *Confessions*, Augustine marvels at how God's initiative always precedes 
 在《忏悔录》中，奥古斯丁感叹上帝的主动权总是先行于人的行动：
 </div>
 
+<div class="lang-en" markdown="1">
 ```quote
 "Thou didst seek us when we sought Thee not; 
 didst seek us indeed that we might seek Thee." 
 (Augustine, Confessions, Book XI)
 ```
+</div>
+<div class="lang-zh" markdown="1">
+```quote
+“由于我们不寻找你，你寻找了我们；你寻找我们，是为了让我们能寻找你。”
+（奥古斯丁，《忏悔录》第十一卷）
+```
+</div>
 
 <div class="lang-en" markdown="1">
 Furthermore, he clarifies that even our choice to believe is a fruit, not a cause, of election:
@@ -66,11 +74,19 @@ Furthermore, he clarifies that even our choice to believe is a fruit, not a caus
 此外，他明确指出，即便我们选择相信，也只是预选的结果而非原因：
 </div>
 
+<div class="lang-en" markdown="1">
 ```quote
 "God chooses us, not because we believe, but that we may believe; 
 lest we should say that we first chose Him." 
 (Augustine, On the Predestination of the Saints, 34)
 ```
+</div>
+<div class="lang-zh" markdown="1">
+```quote
+“上帝拣选我们，不是因为我们相信，而是为了让我们能够相信；免得我们说是我们先拣选了祂。”
+（奥古斯丁，《论圣徒的预选》34）
+```
+</div>
 
 <div class="lang-en" markdown="1">
 ```quote
