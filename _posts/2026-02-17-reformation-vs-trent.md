@@ -53,12 +53,10 @@ On January 3, 1521, Luther was formally and finally excommunicated. The legal la
 1521 年 1 月 3 日，路德被正式且最终绝罚。其法律语言是绝对的。教会不仅禁止他领受圣体，还宣布他为一条从葡萄树上切断的“枯枝”。
 </div>
 
-```
-We decrease and declare the said Martin to be a heretic...
+> We decrease and declare the said Martin to be a heretic...
 We prohibit each and every one of the faithful, under pain of excommunication, 
 to read, possess, or print any books composed by the said Martin.
 (Decet Romanum Pontificem)
-```
 
 ---
 
