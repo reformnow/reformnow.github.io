@@ -181,6 +181,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 10. Ignorant and wicked are the doings of those priests who, in the case of the dying, reserve canonical penances for purgatory.
 11. This changing of the canonical penalty to the penalty of purgatory is quite evidently one of the tares that were sown while the bishops slept (Mt 13:25).
 12. In former times canonical penalties were imposed, not after, but before absolution, as tests of true contrition.
+
 13. The dying are freed by death from all penalties, are already dead as far as the canon laws are concerned, and have a right to be released from them.
 14. Imperfect piety or love on the part of the dying person necessarily brings with it great fear; and the smaller the love, the greater the fear.
 15. This fear or horror is sufficient in itself, to say nothing of other things, to constitute the penalty of purgatory, since it is very near to the horror of despair.
@@ -200,6 +201,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 10. 那些将教条所定的补赎留到炼狱里的神父，其行为是无知且邪恶的。
 11. 将教会法典的惩罚转变为炼狱的惩罚，显然是仇敌（魔鬼）在主教们睡觉时撒下的稗子。
 12. 从前，教典所定的惩罚是在赦罪之前施加的，作为真实痛悔的考验。
+
 13. 临终者因死亡而免除了所有的惩罚，对于教典的法规来说他们已经死了，不再受其约束。
 14. 临终者心灵的健康（即爱心）若不完全，必然会带来极大的恐惧，爱心越小，恐惧越大。
 15. 这种恐惧和惊惶本身就足以构成炼狱的惩罚，因为它与绝望的恐惧相距不远。
