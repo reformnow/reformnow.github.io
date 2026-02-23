@@ -36,7 +36,10 @@ While popular history often describes justification by faith as the "hinge" of t
 
 There is a vital distinction here. As we ordinarily use a hinge, a door swings open and shut, but it does not revolve 360 degrees. An axis, however, is the central point around which an entire system revolves. Calvin argued that unless a person first grasps their relationship to God and the nature of His judgment, they have no foundation upon which to establish salvation or build true "piety toward God." By centering the faith on this praecipuus cardo, all other subsidiary teachings—from the nature of the church to the role of the sacraments—stay in their proper orbit. Without this axis, the foundation of salvation collapses into a heap of moralism.
 
-*"And we must so discuss them as to bear in mind that this is the main axis (praecipuus…cardinem) on which religion turns, so that we devote the greater attention and care to it."* — John Calvin, Institutes 3.11.1
+```quote
+"And we must so discuss them as to bear in mind that this is the main axis (praecipuus…cardinem) on which religion turns, so that we devote the greater attention and care to it."
+— John Calvin, Institutes 3.11.1
+```
 </div>
 
 <div class="lang-zh" markdown="1">
@@ -46,7 +49,10 @@ There is a vital distinction here. As we ordinarily use a hinge, a door swings o
 
 这里有一个至关重要的区别。按照我们通常使用铰链的方式，门只能打开和关闭，但它不会360度旋转。然而，轴是整个系统围绕其旋转的中心点。加尔文认为，除非一个人首先掌握了他们与神的关系以及神的审判的本质，否则他们就没有基础来确立救恩或建立真正的“对神的敬虔”。通过将信仰置于这个“主轴”之上，所有其他附属教导——从教会的本质到圣礼的作用——都将留在它们各自正确的轨道上。没有这个轴，救恩的根基就会坍塌成一堆道德主义。
 
-*“所以我们讨论这题目时必须牢记：宗教既然以此为主轴（praecipuus…cardinem），我们就当对它付出更大的注意与关怀。”*——约翰·加尔文，《基督教要义》 3.11.1
+```quote
+“所以我们讨论这题目时必须牢记：宗教既然以此为主轴（praecipuus…cardinem），我们就当对它付出更大的注意与关怀。”
+——约翰·加尔文，《基督教要义》 3.11.1
+```
 </div>
 
 ---
@@ -58,7 +64,10 @@ To understand Sola Fide, one must distinguish between the "Forensic" view of the
 
 In the Roman view, justification is a medical process—an "infusion" of grace where God gradually imparts holiness into the believer, making them actually righteous over time. It is important to note that the Roman view does not exclude grace; rather, it insists that Christ’s work must be supplemented by what man does. In contrast, the Reformation view is strictly forensic—a legal declaration within the courtroom of God. God does not wait for the sinner to become holy in a "hospital" setting before accepting them; instead, He acts as a Judge who declares the ungodly "not guilty" based on a righteousness that is not their own.
 
-*"To the one who does not work, but believes in Him who justifies the ungodly, his faith is reckoned as righteousness."* — Romans 4:5
+```bible
+"To the one who does not work, but believes in Him who justifies the ungodly, his faith is reckoned as righteousness."
+— Romans 4:5
+```
 </div>
 
 <div class="lang-zh" markdown="1">
@@ -68,7 +77,10 @@ In the Roman view, justification is a medical process—an "infusion" of grace w
 
 在罗马天主教看来，称义是一个医疗过程——恩典的“注入”，神逐渐将圣洁分给信徒，使他们随着时间的推移真正变得公义。值得注意的是，罗马天主教的观点并不排斥恩典；相反，它坚持认为基督的工作必须由人的作为来补充。相比之下，宗教改革的观点是严格的法庭式的——在神的法庭内的合法宣告。神并不在“医院”的环境中等到罪人变得圣洁之后才接纳他们；相反，祂作为一位法官，根据不属于他们自己的公义宣告不敬虔的人“无罪”。
 
-*“惟有不做工的，只信称罪人为义的神，他的信就算为义。”*——罗马书 4:5
+```bible
+“惟有不做工的，只信称罪人为义的神，他的信就算为义。”
+——罗马书 4:5
+```
 </div>
 
 ---
@@ -104,7 +116,10 @@ A central pillar of Sola Fide is "Monergism," the belief that God the Holy Spiri
 
 Using the analogy of a spiritual corpse, R.C. Sproul explains that a person is "utterly passive" in their rebirth. This clarifies the Ordo Salutis (Order of Salvation): in the monergistic view, regeneration precedes faith. Because we are dead in sin, we cannot assist in our own resuscitation; we require "Operative Grace" (God working alone) rather than "Cooperative Grace" (God waiting for our assistance).
 
-*"A corpse cannot revive itself. It cannot even assist in the effort. It can only respond after receiving new life."* — R.C. Sproul
+```quote
+"A corpse cannot revive itself. It cannot even assist in the effort. It can only respond after receiving new life."
+— R.C. Sproul
+```
 
 This ensures that salvation is "Grace Alone," removing all human boasting. Faith is not a contribution we make to secure a reward, but a gift we receive because we have been made alive.
 </div>
@@ -116,7 +131,10 @@ This ensures that salvation is "Grace Alone," removing all human boasting. Faith
 
 R.C. 斯普劳尔用属灵尸体的比喻解释说，一个人在重生时是“完全被动的”。这澄清了“救恩的次序”（Ordo Salutis）：在神恩独作论的观点中，重生先于信心。因为我们死在罪中，我们无法协助自己的复苏；我们需要的是“运作的恩典”（神独自做工），而不是“合作的恩典”（神等待我们的协助）。
 
-*“一具尸体无法使自己复活。它甚至无法提供协助。它只能在接受新生命后做出回应。”*——R.C. 斯普劳尔
+```quote
+“一具尸体无法使自己复活。它甚至无法提供协助。它只能在接受新生命后做出回应。”
+——R.C. 斯普劳尔
+```
 
 这确保了救恩是“唯独恩典”，消除了人类所有的夸口。信心不是我们为了确保获得奖赏而做出的贡献，而是因为我们活过来而领受的一份礼物。
 </div>
@@ -130,7 +148,10 @@ A common challenge to Sola Fide arises from the Epistle of James, which states t
 
 Works are the evidence of a prior soteric justification, not the cause of it. For James, "faith-alone" (hyphenated) is often an intellectual abstraction, but true faith is an act of trust. As the Heidelberg Catechism (Q64) notes, it is impossible for those grafted into Christ not to bring forth "fruits of thankfulness."
 
-*"Justification is by faith alone, but not by faith that is alone."* — Martin Luther
+```quote
+"Justification is by faith alone, but not by faith that is alone."
+— Martin Luther
+```
 </div>
 
 <div class="lang-zh" markdown="1">
@@ -140,7 +161,10 @@ Works are the evidence of a prior soteric justification, not the cause of it. Fo
 
 行为是在先的救恩性称义的证据，而不是其原因。对雅各来说，“单独的信心”往往是一种理性的抽象，但真正的信心是一种信靠的行为。正如《海德堡探题》（问64）所指出的，那些被连于基督的人，不可能不结出“感恩的果子”。
 
-*“称义唯独靠信心，但这信心绝不孤立。”*——马丁·路德
+```quote
+“称义唯独靠信心，但这信心绝不孤立。”
+——马丁·路德
+```
 </div>
 
 ---
