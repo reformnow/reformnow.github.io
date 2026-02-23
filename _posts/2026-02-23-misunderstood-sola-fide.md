@@ -1,6 +1,6 @@
 ---
 title: "Misunderstood Sola Fide: 5 Impactful Truths About the Doctrine of \"Faith Alone\""
-title_zh: "被误解的“唯独因信称义”：关于“唯独信心”教义的5个震撼真相"
+title_zh: "被误解的“唯独信心”：关于“唯独信心”教义的5个震撼真相"
 date: 2026-02-23 10:00:00 -0500
 categories: [Theology, Reformed]
 tags: [sola-fide, reformed, theology, justification]
