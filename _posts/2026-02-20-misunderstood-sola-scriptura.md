@@ -1,11 +1,11 @@
 ---
-title: "Misunderstood Sola Scriptura: Returning to the True Reformed View of Authority"
-title_zh: "被误解的“唯独圣经”——回归真正的改革宗权威观"
+title: "Misunderstood Sola Scriptura: Returning to the True View of Authority"
+title_zh: "被误解的“唯独圣经”——回归真正的权威观"
 date: 2026-02-20 10:00:00 +0000
-categories: [Theology, Reformed]
-tags: [sola-scriptura, reformed, confessions, creeds, church-history]
+categories: [Theology, Authority]
+tags: [sola-scriptura, authority, confessions, creeds, church-history]
 description: "A deep dive into the distinction between true Sola Scriptura and the modern misunderstanding of Solo Scriptura."
-description_zh: "深度解析“唯独圣经”与现代误读“唯圣经论”之间的本质区别，呼吁回归大公教会与改革宗的权威观。"
+description_zh: "深度解析“唯独圣经”与现代误读“唯圣经论”之间的本质区别，呼吁回归大公教会与正统信仰的权威观。"
 image:
   path: /assets/img/posts/sola_scriptura.png
   alt: "An open Bible representing Sola Scriptura"
@@ -17,7 +17,7 @@ In the modern evangelical world, "Sola Scriptura" (Scripture Alone) is a ubiquit
 
 &nbsp;
 
-The crisis is not in the Bible itself, but in a subtle yet lethal shift in our understanding of authority. We must distinguish between **True Sola Scriptura**—the historical Reformed position—and **Solo Scriptura** (individualistic biblicism). The latter, often mistaken for the former, is what fuels the endless fragmentation of the modern church.
+The crisis is not in the Bible itself, but in a subtle yet lethal shift in our understanding of authority. We must distinguish between **True Sola Scriptura**—the historical orthodox position—and **Solo Scriptura** (individualistic biblicism). The latter, often mistaken for the former, is what fuels the endless fragmentation of the modern church.
 
 As the Westminster Confession of Faith (WCF) 1.10 states: *"The supreme judge by which all controversies of religion are to be determined... can be no other but the Holy Spirit speaking in the Scripture."* But how we hear that Spirit speak makes all the difference.
 </div>
@@ -28,7 +28,7 @@ As the Westminster Confession of Faith (WCF) 1.10 states: *"The supreme judge by
 
 &nbsp;
 
-危机不在于圣经本身，而在于我们对权威的理解发生了微妙却致命的位移。我们需要区分**真正的唯独圣经（Sola Scriptura）**——即历史性的改革宗立场——与**极端的唯圣经论（Solo Scriptura，或称个人化圣经主义）**。后者往往被误认为是前者，但这恰恰是导致现代教会无休止分裂的根源。
+危机不在于圣经本身，而在于我们对权威的理解发生了微妙却致命的位移。我们需要区分**真正的唯独圣经（Sola Scriptura）**——即历史性的正统信仰立场——与**极端的唯圣经论（Solo Scriptura，或称个人化圣经主义）**。后者往往被误认为是前者，但这恰恰是导致现代教会无休止分裂的根源。
 
 正如《威斯敏斯特信条》（WCF）1.10所言：*“判定宗教的一切争端……的最高审判者，除了在圣经中说话的圣灵以外，别无他人。”* 但我们如何倾听圣灵的说话，却决定了截然不同的结局。
 </div>
@@ -64,7 +64,7 @@ To understand the truth, we must first clear the weeds of misunderstanding.
 
 Properly understood, Sola Scriptura defines the *nature* and *rank* of biblical authority.
 
-*   **Norma Normans (The Norming Norm):** While this technical term was later coined by Reformed and Lutheran scholastics, it captures Luther’s core conviction that Scripture is the primary rule that "norms" all others. As Luther famously declared at the **Diet of Worms (1521)**: *"My conscience is captive to the Word of God."* He later wrote in the **Smalcald Articles (1537)**: *"The Word of God shall establish articles of faith, and no one else, not even an angel."* 
+*   **Norma Normans (The Norming Norm):** While this technical term was later coined by historical Protestant scholastics, it captures Luther’s core conviction that Scripture is the primary rule that "norms" all others. As Luther famously declared at the **Diet of Worms (1521)**: *"My conscience is captive to the Word of God."* He later wrote in the **Smalcald Articles (1537)**: *"The Word of God shall establish articles of faith, and no one else, not even an angel."* 
 
 &nbsp;
 
@@ -154,7 +154,7 @@ A common error is believing that the slogan "Back to the Bible" is itself the me
 <div class="lang-en" markdown="1">
 ## VI. The Means to Achieve Return: The Church's "Guardrails"
 
-The Reformed tradition teaches that to protect Sola Scriptura, we must employ "Secondary Standards." These standards possess **Ministerial Authority (仆从性权威)**—they serve the Word—while the Bible alone possesses **Magisterial Authority (主权性权威)**.
+History and orthodox theology teach that to protect Sola Scriptura, we must employ "Secondary Standards." These standards possess **Ministerial Authority (仆从性权威)**—they serve the Word—while the Bible alone possesses **Magisterial Authority (主权性权威)**.
 
 ### a. The Ecumenical Creeds
 *   **Function:** Defining the **Boundaries of Christianity**.
@@ -171,7 +171,7 @@ The Reformed tradition teaches that to protect Sola Scriptura, we must employ "S
 <div class="lang-zh" markdown="1">
 ## 六、 达成回归圣经的手段：教会的“护栏”
 
-改革宗认为，要真正保护“唯独圣经”，必须使用“次要标准”。这些标准拥有的是**“仆从性权威”（Ministerial Authority）**，而唯独圣经拥有的是**“主权性权威”（Magisterial Authority）**。
+历史与正统神学认为，要真正保护“唯独圣经”，必须使用“次要标准”。这些标准拥有的是**“仆从性权威”（Ministerial Authority）**，而唯独圣经拥有的是**“主权性权威”（Magisterial Authority）**。
 
 ### a. 大公信经（Ecumenical Creeds）
 *   **功能：** 划定**基督徒的边界**。
