@@ -140,6 +140,8 @@
     const h1 = document.querySelector('h1[data-toc-skip]');
     let postTitle = h1?.textContent || document.title.split(' | ')[0];
     
+    let titleElement = null;
+    
     // If bilingual titles exist, pick the right one or both
     if (h1 && (h1.querySelector('.lang-en') || h1.querySelector('.lang-zh'))) {
       const enTitle = h1.querySelector('.lang-en')?.innerText || h1.querySelector('.lang-en')?.textContent || '';
@@ -150,10 +152,19 @@
       } else if (langPreference === 'chinese') {
         postTitle = zhTitle || enTitle || postTitle;
       } else if (langPreference === 'both') {
-        postTitle = `<div style="display: flex; flex-direction: column; gap: 10px;">
-          <div style="font-size: 0.8em;">${enTitle}</div>
-          <div style="font-size: 1em; color: #d4af37;">${zhTitle}</div>
-        </div>`;
+        titleElement = document.createElement('div');
+        titleElement.style.cssText = 'display: flex; flex-direction: column; gap: 10px;';
+        
+        const enDiv = document.createElement('div');
+        enDiv.style.fontSize = '0.8em';
+        enDiv.textContent = enTitle;
+        
+        const zhDiv = document.createElement('div');
+        zhDiv.style.cssText = 'font-size: 1em; color: #d4af37;';
+        zhDiv.textContent = zhTitle;
+        
+        titleElement.appendChild(enDiv);
+        titleElement.appendChild(zhDiv);
       }
     } else {
        // Single title, use innerText to be clean
@@ -164,6 +175,8 @@
     const descEl = document.querySelector('.post-desc');
     let postDesc = document.querySelector('meta[name="description"]')?.content || '';
     
+    let descElement = null;
+    
     if (descEl && (descEl.querySelector('.lang-en') || descEl.querySelector('.lang-zh'))) {
       const enDesc = descEl.querySelector('.lang-en')?.innerText || descEl.querySelector('.lang-en')?.textContent || '';
       const zhDesc = descEl.querySelector('.lang-zh')?.innerText || descEl.querySelector('.lang-zh')?.textContent || '';
@@ -173,10 +186,19 @@
       } else if (langPreference === 'chinese') {
         postDesc = zhDesc || enDesc || postDesc;
       } else if (langPreference === 'both') {
-        postDesc = `<div style="display: flex; flex-direction: column; gap: 5px;">
-          <div style="font-size: 0.9em; opacity: 0.9;">${enDesc}</div>
-          <div style="font-size: 1em;">${zhDesc}</div>
-        </div>`;
+        descElement = document.createElement('div');
+        descElement.style.cssText = 'display: flex; flex-direction: column; gap: 5px;';
+        
+        const enDiv = document.createElement('div');
+        enDiv.style.cssText = 'font-size: 0.9em; opacity: 0.9;';
+        enDiv.textContent = enDesc;
+        
+        const zhDiv = document.createElement('div');
+        zhDiv.style.fontSize = '1em';
+        zhDiv.textContent = zhDesc;
+        
+        descElement.appendChild(enDiv);
+        descElement.appendChild(zhDiv);
       }
     }
     
@@ -187,19 +209,52 @@
     const coverHSection = document.createElement('section');
     const coverVSection = document.createElement('section');
     coverVSection.className = 'cover-slide';
-    coverVSection.innerHTML = `
-    <div class="container py-4">
-      <h1 class="reveal-title text-center mb-4" style="font-size: 2.2em; color: #d4af37; text-shadow: 0 2px 10px rgba(0,0,0,0.5);">${postTitle}</h1>
-      <div class="cover-image-container" style="position: relative; width: 100%; max-width: 1000px; margin: 0 auto;">
-        ${featuredImage ? `<img src="${featuredImage}" class="reveal-cover-img" style="width: 100%; max-height: 500px; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); display: block;">` : ''}
-        ${postDesc ? `
-        <div class="description-overlay" style="position: absolute; bottom: 0; left: 0; width: 100%; padding: 60px 30px 25px 30px; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 100%); border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; text-align: left;">
-          <div class="reveal-description" style="color: #fff; margin: 0; line-height: 1.4; text-shadow: 1px 1px 5px rgba(0,0,0,0.8); max-width: 90%; font-weight: 300; letter-spacing: 0.5px;">${postDesc}</div>
-        </div>
-        ` : ''}
-      </div>
-    </div>
-    `;
+    const container = document.createElement('div');
+    container.className = 'container py-4';
+    
+    const h1Title = document.createElement('h1');
+    h1Title.className = 'reveal-title text-center mb-4';
+    h1Title.style.cssText = 'font-size: 2.2em; color: #d4af37; text-shadow: 0 2px 10px rgba(0,0,0,0.5);';
+    if (titleElement) {
+      h1Title.appendChild(titleElement);
+    } else {
+      h1Title.textContent = postTitle;
+    }
+    container.appendChild(h1Title);
+    
+    const imageContainer = document.createElement('div');
+    imageContainer.className = 'cover-image-container';
+    imageContainer.style.cssText = 'position: relative; width: 100%; max-width: 1000px; margin: 0 auto;';
+    
+    if (featuredImage) {
+      const img = document.createElement('img');
+      img.src = featuredImage;
+      img.className = 'reveal-cover-img';
+      img.style.cssText = 'width: 100%; max-height: 500px; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); display: block;';
+      imageContainer.appendChild(img);
+    }
+    
+    if (descElement || postDesc) {
+      const descOverlay = document.createElement('div');
+      descOverlay.className = 'description-overlay';
+      descOverlay.style.cssText = 'position: absolute; bottom: 0; left: 0; width: 100%; padding: 60px 30px 25px 30px; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 100%); border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; text-align: left;';
+      
+      const descTextAttr = document.createElement('div');
+      descTextAttr.className = 'reveal-description';
+      descTextAttr.style.cssText = 'color: #fff; margin: 0; line-height: 1.4; text-shadow: 1px 1px 5px rgba(0,0,0,0.8); max-width: 90%; font-weight: 300; letter-spacing: 0.5px;';
+      
+      if (descElement) {
+        descTextAttr.appendChild(descElement);
+      } else {
+        descTextAttr.textContent = postDesc;
+      }
+      
+      descOverlay.appendChild(descTextAttr);
+      imageContainer.appendChild(descOverlay);
+    }
+    
+    container.appendChild(imageContainer);
+    coverVSection.appendChild(container);
     coverHSection.appendChild(coverVSection);
     slidesContainer.appendChild(coverHSection);
 
