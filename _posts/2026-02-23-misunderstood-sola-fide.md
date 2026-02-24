@@ -1,11 +1,11 @@
 ---
-title: "Misunderstood Sola Fide: 5 Impactful Truths About the Doctrine of \"Faith Alone\""
-title_zh: "被误解的“唯独信心”：关于“唯独信心”教义的5个震撼真相"
+title: "Misunderstood Sola Fide: From Legalistic Bondage to the Great Exchange"
+title_zh: "被误解的“唯独信心”：从律法主义的枷锁到伟大的交换"
 date: 2026-02-23 10:00:00 -0500
 categories: [Theology, Reformed]
 tags: [sola-fide, reformed, theology, justification]
-description: "Five impactful truths that clarify the historical and biblical doctrine of Justification by Faith Alone."
-description_zh: "澄清历史与圣经中关于“唯独因信称义”教义的5个震撼真相。"
+description: "Discover how the biblical doctrine of justification shifts our foundation from self-righteous moral efforts to the finished, alien righteousness of Christ, bringing true spiritual peace."
+description_zh: "在这个自我称义的时代，发掘圣经中因信称义的法庭宣告如何将我们从疲惫的道德挣扎中释放，并赐下神恩独作的永恒平安。"
 image:
   path: /assets/img/posts/sola_fide.png
   alt: "Sola Fide - Faith Alone"
@@ -142,7 +142,73 @@ R.C. 斯普劳尔用属灵尸体的比喻解释说，一个人在重生时是“
 ---
 
 <div class="lang-en" markdown="1">
-## 6. The Mirror of James: When "Faith Alone" Isn't Alone
+## 6. The Source of Faith: A Divine Gift, Not a Human Product
+
+When we say "justification by faith alone," a subtle danger arises: we might begin to view faith itself as a new kind of "work" or contribution we bring to God. We might ask, "Did I muster up enough faith to be saved?" This misunderstands the very source of faith.
+
+Solid biblical theology reveals that faith is not a product of human free will, which is naturally bound by sin and unable to seek God on its own. Rather, faith itself is entirely a sovereign gift from God. The Holy Spirit creates faith in our hearts through the hearing of the Gospel.
+
+```bible
+"For it has been granted to you that for the sake of Christ you should not only believe in him but also suffer for his sake."
+— Philippians 1:29
+```
+
+Even the hands we reach out to receive the gift of salvation were given to us by God. The Apostle Paul famously dismantles any human contribution in Ephesians 2:8-9, explicitly stating two "nots" regarding our salvation:
+
+```bible
+"For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast."
+— Ephesians 2:8-9
+```
+
+1. **Not your own doing:** The faith we exercise does not originate from within our fallen nature. It is an alien gift implanted by the Spirit.
+2. **Not a result of works:** Faith is itself not a meritorious act or moral exertion we perform to earn God's favor.
+
+This profound understanding of faith as a divine gift dates back to the early church fathers, who defended the absolute necessity of grace against human pride.
+
+```quote
+"Let us understand that God gives to us the grace to believe. [...] For we do not first believe, in order that we may attain the gift of grace, but we attain the gift of grace in order that we may believe."
+— Augustine of Hippo, On the Predestination of the Saints
+```
+
+Thus, "Faith Alone" ultimately points back to "Grace Alone"—ensuring that from beginning to end, all glory belongs to God, not to our own ability to believe.
+</div>
+
+<div class="lang-zh" markdown="1">
+## 6. 信心的来源：神圣的礼物，而非人的产品
+
+当我们在说“唯独信心”时，一种微妙的危险就出现了：我们可能会开始将“信心”本身视为一种新的“行为”，或我们向神献上的贡献。我们可能会问：“我是否积攒了足够的信心来获得拯救？”这完全误解了信心的真正来源。
+
+深邃的圣经神学指出，信心不是人类自由意志的产物，因为人的意志本性上被罪所捆绑，无法主动寻求神。相反，信心本身完全是神主权之下赐予的礼物。圣灵借着我们听信福音，在我们心中生发了信心。
+
+```bible
+“因为你们蒙恩，不但得以信服基督，并要为他受苦。”
+——腓立比书 1:29
+```
+
+哪怕是我们伸出去领受救恩礼物的那双手，也是神赐给我们的。使徒保罗在《以弗所书》2:8-9中著名地粉碎了任何关于人类贡献的企图，明确指出了关于我们得救的“两个不是”：
+
+```bible
+“你们得救是本乎恩，也因着信。这并不是出于自己，乃是神所赐的；也不是出于行为，免得有人自夸。”
+——以弗所书 2:8-9
+```
+
+1. **不是出于自己（Not of yourselves）：** 我们所运用的信心并非源自我们自身堕落的本性，它是圣灵植入的一份外来的神圣礼物。
+2. **也不是出于行为（Not a result of works）：** 信心本身绝不是我们为了赢得神恩宠而进行的一种有功德的行为或道德努力。
+
+这种对神主权赐下信心之恩典的深刻理解可以追溯到极力对抗人类骄傲并捍卫恩典必需性的早期教父。
+
+```quote
+“让我们明白，神赐给我们相信的恩典……因为我们不是因为先相信才获得了恩典的礼物，而是我们获得了恩典的礼物才得以相信。”
+——希波的奥古斯丁，《论圣徒的预定》
+```
+
+因此，“唯独信心”最终指向了“唯独恩典”——确保从始至终，所有的荣耀都归于神，而不是归于我们自己相信的能力。
+</div>
+
+---
+
+<div class="lang-en" markdown="1">
+## 7. The Mirror of James: When "Faith Alone" Isn't Alone
 
 A common challenge to Sola Fide arises from the Epistle of James, which states that a person is justified by works and not by faith alone. However, this is a conflict of terminology, not theology. Paul speaks of soteric justification (our legal status before God), while James speaks of demonstrative justification, or Vindication (how our faith is shown to be authentic before men).
 
@@ -155,7 +221,7 @@ Works are the evidence of a prior soteric justification, not the cause of it. Fo
 </div>
 
 <div class="lang-zh" markdown="1">
-## 6. 雅各的试金石：当“唯独信心”不再孤单
+## 7. 雅各的试金石：当“唯独信心”不再孤单
 
 对“唯独信心”的一个常见挑战来自雅各书，书中说人称义是因着行为，不是单因着信。然而，这是术语的冲突，而不是神学的冲突。保罗谈论的是救恩性称义（我们在神面前的合法地位），而雅各谈论的是证明性称义，或称为辩护（我们的信心如何在人前显明为真）。
 
@@ -170,7 +236,7 @@ Works are the evidence of a prior soteric justification, not the cause of it. Fo
 ---
 
 <div class="lang-en" markdown="1">
-## 7. Conclusion: The Gift of Infallible Assurance
+## 8. Conclusion: The Gift of Infallible Assurance
 
 The doctrine of Sola Fide replaces the "legalistic bondage" of performance-based acceptance with "infallible assurance." In the modern theological landscape, this remains under siege by the "New Perspective on Paul" (NPP) and figures like N.T. Wright, who attempt to shift justification from a "status before God" to a "membership in a community."
 
@@ -180,7 +246,7 @@ However, we must reject this modern shadow. If our standing depended on our memb
 </div>
 
 <div class="lang-zh" markdown="1">
-## 7. 结论：绝对确据的礼物
+## 8. 结论：绝对确据的礼物
 
 “唯独信心”的教义用“绝对的确据”取代了基于表现而被接纳的“律法主义枷锁”。在现代神学版图中，这仍受到“保罗新观”（New Perspective on Paul, NPP）及N.T. 赖特等人的围攻，他们试图将称义从“在神面前的地位”转变为“共同体中的成员资格”。
 
