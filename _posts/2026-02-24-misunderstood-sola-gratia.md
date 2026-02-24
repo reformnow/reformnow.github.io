@@ -1,6 +1,6 @@
 ---
-title: "Misunderstood Sola Gratia: 6 Impactful Truths About the Rescue of the Spiritually Dead"
-title_zh: "被误解的“唯独恩典”：关于拯救属灵死人的6个震撼真相"
+title: "Misunderstood Sola Gratia: The Sovereign Rescue of the Spiritually Dead"
+title_zh: "被误解的“唯独恩典”：拯救属灵死人的主权大能"
 date: 2026-02-24 10:00:00 -0500
 categories: [Theology, Grace]
 tags: [sola-gratia, theology, grace, salvation]
