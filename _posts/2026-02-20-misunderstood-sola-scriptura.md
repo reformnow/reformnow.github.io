@@ -1,6 +1,6 @@
 ---
 title: "Misunderstood Sola Scriptura: Returning to the True View of Authority"
-title_zh: "被误解的“唯独圣经”——回归真正的权威观"
+title_zh: "被误解的“唯独圣经”：回归真正的权威观"
 date: 2026-02-20 10:00:00 +0000
 categories: [Theology, Authority]
 tags: [sola-scriptura, authority, confessions, creeds, church-history]
