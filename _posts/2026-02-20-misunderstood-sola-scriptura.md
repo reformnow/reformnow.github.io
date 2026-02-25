@@ -19,7 +19,14 @@ In the modern evangelical world, "Sola Scriptura" (Scripture Alone) is a ubiquit
 
 The crisis is not in the Bible itself, but in a subtle yet lethal shift in our understanding of authority. We must distinguish between **True Sola Scriptura**—the historical orthodox position—and **Solo Scriptura** (individualistic biblicism). The latter, often mistaken for the former, is what fuels the endless fragmentation of the modern church.
 
-As the Westminster Confession of Faith (WCF) 1.10 states: *"The supreme judge by which all controversies of religion are to be determined... can be no other but the Holy Spirit speaking in the Scripture."* But how we hear that Spirit speak makes all the difference.
+As the Westminster Confession of Faith (WCF) 1.10 states:
+
+```quote
+"The supreme judge by which all controversies of religion are to be determined... can be no other but the Holy Spirit speaking in the Scripture."
+— WCF 1.10
+```
+
+But how we hear that Spirit speak makes all the difference.
 </div>
 
 <div class="lang-zh" markdown="1">
@@ -30,7 +37,14 @@ As the Westminster Confession of Faith (WCF) 1.10 states: *"The supreme judge by
 
 危机不在于圣经本身，而在于我们对权威的理解发生了微妙却致命的位移。我们需要区分**真正的唯独圣经（Sola Scriptura）**——即历史性的正统信仰立场——与**极端的唯圣经论（Solo Scriptura，或称个人化圣经主义）**。后者往往被误认为是前者，但这恰恰是导致现代教会无休止分裂的根源。
 
-正如《威斯敏斯特信条》（WCF）1.10所言：*“判定宗教的一切争端……的最高审判者，除了在圣经中说话的圣灵以外，别无他人。”* 但我们如何倾听圣灵的说话，却决定了截然不同的结局。
+正如《威斯敏斯特信条》（WCF）1.10所言：
+
+```quote
+“判定宗教的一切争端……的最高审判者，除了在圣经中说话的圣灵以外，别无他人。”
+——WCF 1.10
+```
+
+但我们如何倾听圣灵的说话，却决定了截然不同的结局。
 </div>
 
 ---
@@ -74,7 +88,19 @@ To understand the truth, we must first clear the weeds of misunderstanding.
 
 Properly understood, Sola Scriptura defines the *nature* and *rank* of biblical authority.
 
-*   **Norma Normans (The Norming Norm):** While this technical term was later coined by historical Protestant scholastics, it captures Luther’s core conviction that Scripture is the primary rule that "norms" all others. As Luther famously declared at the **Diet of Worms (1521)**: *"My conscience is captive to the Word of God."* He later wrote in the **Smalcald Articles (1537)**: *"The Word of God shall establish articles of faith, and no one else, not even an angel."* 
+*   **Norma Normans (The Norming Norm):** While this technical term was later coined by historical Protestant scholastics, it captures Luther’s core conviction that Scripture is the primary rule that "norms" all others. As Luther famously declared at the **Diet of Worms (1521)**:
+
+```quote
+"My conscience is captive to the Word of God."
+— Martin Luther
+```
+
+He later wrote in the **Smalcald Articles (1537)**:
+
+```quote
+"The Word of God shall establish articles of faith, and no one else, not even an angel."
+— Smalcald Articles
+```
 
 &nbsp;
 
@@ -83,7 +109,12 @@ Properly understood, Sola Scriptura defines the *nature* and *rank* of biblical 
 
 &nbsp;
 
-*   **Perspicuity (Clarity):** The essential truths of salvation are clear enough that a sincere seeker can understand them through ordinary means—reading and hearing the preached Word. As Psalm 119:105 says: *"Your word is a lamp to my feet and a light to my path."*
+*   **Perspicuity (Clarity):** The essential truths of salvation are clear enough that a sincere seeker can understand them through ordinary means—reading and hearing the preached Word. As Psalm 119:105 says:
+
+```bible
+"Your word is a lamp to my feet and a light to my path."
+— Psalm 119:105
+```
 </div>
 
 <div class="lang-zh" markdown="1">
@@ -91,7 +122,19 @@ Properly understood, Sola Scriptura defines the *nature* and *rank* of biblical 
 
 正确理解的“唯独圣经”，定义了圣经权威的“性质”与“位阶”。
 
-*   **Norma Normans（规范的规范）：** 虽然这一技术术语是后来经院学者总结的，但它完美捕捉了路德的核心信念：圣经是衡量一切的原始准则。路德在**1521年沃尔姆斯议会**上曾宣告：*“我的良心是被上帝的话语所束缚的。”* 他在**1537年《施马加登信条》**中更明确指出：*“上帝的话语应当设立信仰条文，此外没有任何人可以这样做，即便天使也不行。”*
+*   **Norma Normans（规范的规范）：** 虽然这一技术术语是后来经院学者总结的，但它完美捕捉了路德的核心信念：圣经是衡量一切的原始准则。路德在**1521年沃尔姆斯议会**上曾宣告：
+
+```quote
+“我的良心是被上帝的话语所束缚的。”
+——马丁·路德
+```
+
+他在**1537年《施马加登信条》**中更明确指出：
+
+```quote
+“上帝的话语应当设立信仰条文，此外没有任何人可以这样做，即便天使也不行。”
+——《施马加登信条》
+```
 
 &nbsp;
 
@@ -100,7 +143,12 @@ Properly understood, Sola Scriptura defines the *nature* and *rank* of biblical 
 
 &nbsp;
 
-*   **清晰性（Perspicuity）：** 关于救恩的基本真理是足够清晰的，诚心的寻求者通过常规手段（阅读、讲道）即可明白。正如诗篇119:105所云：*“你的话是我脚前的灯，是我路上的光。”*
+*   **清晰性（Perspicuity）：** 关于救恩的基本真理是足够清晰的，诚心的寻求者通过常规手段（阅读、讲道）即可明白。正如诗篇119:105所云：
+
+```bible
+“你的话是我脚前的灯，是我路上的光。”
+——诗篇 119:105
+```
 </div>
 
 ---
