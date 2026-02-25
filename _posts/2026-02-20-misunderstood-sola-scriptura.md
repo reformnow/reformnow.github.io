@@ -43,7 +43,12 @@ To understand the truth, we must first clear the weeds of misunderstanding.
 *   **Not "Nuda Scriptura" (Naked Scripture):** True Sola Scriptura is not the claim of "Me, my Bible, and a tree." It does not mean discarding 2,000 years of church history as if the Holy Spirit went on vacation between the death of the last Apostle and the birth of my local pastor.
 *   **Not the "Rejection of Reason":** It does not suggest that the Bible replaces logic, scientific facts, or common sense. Scripture is the *highest* authority, but not the *only* source of knowledge.
 *   **Not "Bible Worship" (Bibliolatry):** The Bible is not a magical talisman or an object of worship. Its authority is derived from God Himself, not from the ink, paper, or the book as a physical object. We worship the God of the Word, not the word as a god.
-*   **Not "Absolute Private Interpretation":** The Reformation did not advocate for the "right of everyone to interpret the Bible however they please." Instead, it upheld the principle that "Scripture interprets Scripture" within the communal context of the Church. As 2 Peter 1:20-21 reminds us: *"No prophecy of Scripture comes from someone’s own interpretation."*
+*   **Not "Absolute Private Interpretation":** The Reformation did not advocate for the "right of everyone to interpret the Bible however they please." Instead, it upheld the principle that "Scripture interprets Scripture" within the communal context of the Church. As 2 Peter 1:20-21 reminds us:
+
+```bible
+"No prophecy of Scripture comes from someone’s own interpretation."
+— 2 Peter 1:20-21
+```
 </div>
 
 <div class="lang-zh" markdown="1">
@@ -54,7 +59,12 @@ To understand the truth, we must first clear the weeds of misunderstanding.
 *   **不是“赤裸的圣经”（Nuda Scriptura）：** 真正的唯独圣经不是主张“我、我的圣经、一棵树”。它并不意味着可以完全抛弃两千年的教会历史，仿佛圣灵在最后一位使徒去世到我现在的牧师出生之间一直处于“休假”状态。
 *   **不是“拒绝理性”：** 这一教义并不是说圣经代替了逻辑推理、科学事实或通用常识。圣经是“最高”的权威，但不是知识的“唯一”来源。
 *   **不是“圣经崇拜”（Bibliolatry）：** 圣经不是护身符，也不是敬拜的对象。圣经的权威来源于神自己，而非纸张、印刷和文字本身。我们敬拜的是话语背后的神，而不是把这本书本身当作神。
-*   **不是“每个人的私人解释权”：** 宗教改革并不主张“每个人都可以按自己的意思解释圣经”，而是主张在教会的共同体语境中“以经解经”。正如彼得后书1:20-21提醒我们的：*“第一要紧的，该知道经上所有的预言没有可随私意解说的。”*
+*   **不是“每个人的私人解释权”：** 宗教改革并不主张“每个人都可以按自己的意思解释圣经”，而是主张在教会的共同体语境中“以经解经”。正如彼得后书1:20-21提醒我们的：
+
+```bible
+“第一要紧的，该知道经上所有的预言没有可随私意解说的。”
+——彼得后书 1:20-21
+```
 </div>
 
 ---
