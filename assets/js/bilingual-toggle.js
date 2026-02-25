@@ -162,7 +162,7 @@
     if (saved) {
       setLanguageView(saved);
     } else {
-      setLanguageView('english');
+      setLanguageView('chinese');
     }
   }
   

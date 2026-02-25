@@ -89,7 +89,7 @@
     const originalContent = contentEl.cloneNode(true);
     
     // Check language preference
-    const langPreference = localStorage.getItem('preferredLanguage') || 'english';
+    const langPreference = localStorage.getItem('preferredLanguage') || 'chinese';
     const hasBilingualContent = contentEl.querySelector('.lang-en') && contentEl.querySelector('.lang-zh');
     
     // Filter content based on language preference
