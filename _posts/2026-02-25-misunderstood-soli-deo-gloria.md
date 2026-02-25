@@ -61,7 +61,7 @@ image:
 ## III. Deep Diagnosis: Three Hidden Ways You Rob God's Glory
 
 ### 1. Splitting the Bill on the "Motive" of Salvation
-Many people believe that while God provides the opportunity for salvation, we are ultimately saved because we were somehow "wiser" or "more humble" than others to make the right choice to accept Him.
+Many people believe that while God provides the opportunity for salvation, we are ultimately saved because we were somehow "wiser" or "more humble" than others to make the right choice to accept Him. They treat their "faith" as an independent human contribution, rather than a gift granted by God.
 
 **The Logical Correction:** This is the most insidious form of robbing glory. If your salvation involves even a tiny percentage of you being "better" or "smarter" than your neighbor, then that 1% of merit and glory belongs solely to you, not God. The historical, orthodox truth of total inability tells us: you are no better than anyone else. You were able to believe purely because of God's sovereign, unmerited grace. The Apostle Paul leaves absolutely no room for such boasting:
 
@@ -93,7 +93,7 @@ If, in our religious practices, we grant an inappropriately high level of venera
 ## 三、 深度诊断：你抢夺荣耀的三种隐蔽方式
 
 ### 1. 在救恩的“动机”上分账
-很多人认为，上帝虽然提供了救恩的机会，但最终我之所以得救，是因为我比别人“更明智”、“更谦卑”地选择了相信神。
+很多人认为，上帝虽然提供了救恩的机会，但最终我之所以得救，是因为我比别人“更明智”、“更谦卑”地选择了相信神。他们把“相信神的信心”当成了完全出于自己的独立贡献，而不是神所赐予的礼物。
 
 **逻辑纠偏：** 这是最隐蔽的抢夺荣耀的形式。如果你的得救包含了一丁点你比别人“更强”、“更聪明”的地方，那么那 1% 的功劳和荣耀就唯独属于你自己，而非上帝。但人在灵性上全然败坏的历史正统真相告诉我们：你并没有比任何人更优越，你能够相信，完全而且仅仅是因为上帝主权之下那白白赐予的恩典。使徒保罗的质问没有给这种傲慢的自夸留下任何余地：
 
