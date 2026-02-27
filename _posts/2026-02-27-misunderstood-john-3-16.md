@@ -299,6 +299,8 @@ The true gospel leaves no room for self-boasting. When we read John 3:16, we sho
 John 3:16 is not God getting down on one knee to "propose" to humanity, waiting anxiously for our answer. It is the mighty King of Heaven exercising His "sovereign right of pardon" in a graveyard of the spiritually dead. 
 
 Let us stop degrading salvation into a legalistic transaction. Let us return to the text, fall to our knees, and worship that irresistible, omnipotent, and utterly sovereign Love.
+
+*(Note: For those looking for English translations that accurately capture the Greek adverb of manner "Houtōs" as "in this way" rather than adverbs of degree like "so much," the **CSB (Christian Standard Bible)** translates it excellently: "For God loved the world in this way: He gave his one and only Son..." Another faithful translation is the **NET Bible**: "For this is the way God loved the world...")*
 </div>
 
 <div class="lang-zh" markdown="1">
@@ -307,4 +309,6 @@ Let us stop degrading salvation into a legalistic transaction. Let us return to 
 约翰福音 3:16 绝对不是上帝单膝跪地向人类“求婚”、并在焦虑中等待我们的答复；而是大能的天国君王，在灵性死人的坟场里行使祂“赦免的主权”。
 
 让我们停止把救恩降格为一场讨价还价的交易。让我们回到经文面前，屈膝俯伏，去敬拜那份不可抗拒、满有能力、完全属乎主权的爱。
+
+*（注：如果您希望寻找能准确翻译出希腊文方式副词“Houtōs”（如此地/以这种方式）而非程度副词（这么/甚至）的中英文圣经译本，在英文译本中，推荐 **CSB（Christian Standard Bible）**：“For God loved the world in this way...” 以及 **NET Bible**：“For this is the way God loved the world...”。在中文译本中，**吕振中译本**的翻译十分精准：“上帝这样地爱世人，甚至赐下独生子...”；另外**《新汉语译本》**也正确地译为了“神这样爱世人，甚至赐下他独一的儿子...”。）*
 </div>
