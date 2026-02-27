@@ -88,23 +88,43 @@ In the Roman view, justification is a medical process—an "infusion" of grace w
 <div class="lang-en" markdown="1">
 ## 4. The Great Exchange: The Ultimate Accounting Miracle
 
-The mechanism of this forensic declaration is known as "Double Imputation," a two-fold accounting transaction where the records of Christ and the believer are swapped. At the heart of this miracle is the concept of "Alien Righteousness" (iustitia aliena)—a righteousness that exists extra nos, or "outside of us."
+The mechanism of this forensic declaration is known as "Double Imputation," a two-fold accounting transaction where the records of Christ and the believer are swapped. At the heart of this miracle is the concept of "Alien Righteousness" (iustitia aliena)—a righteousness that exists extra nos, or "outside of us." The Apostle Paul famously summarizes this exchange in his letter to the Corinthians:
+
+```bible
+"For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God."
+— 2 Corinthians 5:21
+```
 
 *   **Our Unrighteousness to Him:** The believer’s sin, guilt, and debt are laid upon Christ. He assumes the sinner's identity and bears the full satisfaction of God's justice.
 *   **His Righteousness to Us:** Christ’s perfect obedience and holiness are credited (imputed) to the believer’s account.
 
-This results in the profound visual of being "clothed" or "draped in a robe" of righteousness. We are not merely forgiven; we are clothed in Christ's identity. In this "Great Exchange," the Father views the redeemed sinner through the lens of His Son’s perfection, seeing them as equally righteous as Christ Himself.
+This results in the profound visual of being "clothed" or "draped in a robe" of righteousness. We are not merely forgiven; we are clothed in Christ's identity. In this "Great Exchange," the Father views the redeemed sinner through the lens of His Son’s perfection, seeing them as equally righteous as Christ Himself. This breathtaking reality was marvelled at even by the early church in the anonymous *Epistle to Diognetus*:
+
+```quote
+"O sweet exchange! O unsearchable operation! O benefits surpassing all expectation! that the wickedness of many should be hid in a single righteous One, and that the righteousness of One should justify many transgressors!"
+— Epistle to Diognetus (2nd Century)
+```
 </div>
 
 <div class="lang-zh" markdown="1">
 ## 4. 伟大的交换：终极的会计奇迹
 
-这种法庭宣告的机制被称为“双重归算”（Double Imputation），这是一种双重的会计交易，基督和信徒的账目被交换了。这个奇迹的核心是“外来的公义”（iustitia aliena）的概念——一种存在于 extra nos 或“我们之外”的公义。
+这种法庭宣告的机制被称为“双重归算”（Double Imputation），这是一种双重的会计交易，基督和信徒的账目被交换了。这个奇迹的核心是“外来的公义”（iustitia aliena）的概念——一种存在于 extra nos 或“我们之外”的公义。使徒保罗在写给哥林多教会的信中精辟地总结了这一交换：
+
+```bible
+“神使那无罪的，替我们成为罪，好叫我们在他里面成为神的义。”
+——哥林多后书 5:21
+```
 
 *   **我们的不义归给祂：** 信徒的罪、内疚和债务都加在基督身上。祂承担了罪人的身份，并完全满足了神的公义。
 *   **祂的公义归给我们：** 基督完美的顺服和圣洁被记入（归算）到信徒的账上。
 
-这产生了被公义“穿上”或“披戴上外袍”的深刻视觉效果。我们不仅仅是被原谅；我们穿上了基督的身份。在这个“伟大的交换”中，父神透过祂儿子完美的滤镜来看待被救赎的罪人，将他们视为与基督本身同等的公义。
+这产生了被公义“穿上”或“披戴上外袍”的深刻视觉效果。我们不仅仅是被原谅；我们穿上了基督的身份。在这个“伟大的交换”中，父神透过祂儿子完美的滤镜来看待被救赎的罪人，将他们视为与基督本身同等的公义。哪怕是早期教会，在匿名的《致丢格那妥书》中，也对这令人惊叹的事实发出了由衷的赞叹：
+
+```quote
+“哦，何等甘甜的交换！何等深不可测的作为！何等出人意料的恩惠！许多人的罪孽竟被隐藏在一位义人里面，而一位义人的公义竟使许多违纪者得称为义！”
+——《致丢格那妥书》（公元二世纪）
+```
 </div>
 
 ---
