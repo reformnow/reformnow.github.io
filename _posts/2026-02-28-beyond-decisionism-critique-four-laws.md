@@ -17,9 +17,9 @@ image:
 The "Four Spiritual Laws," popularized in the mid-20th century, has become one of the most widely used evangelistic frameworks in modern history. Its simplicity is undeniable, and its reach is vast. However, in our attempt to make the Gospel "simple," have we accidentally made it something other than the biblical Gospel?
 
 Evangelism must be more than a simplified sales pitch or a cosmic transaction. To honor God, our presentation of the Gospel must be faithful to the fullness of His holy character and the reality of our fallen condition. As we peel back the layers of this popular model, we find that it often trades the sovereign majesty of God for a human-centered "decisionism."
+</div>
 
----
-
+<div class="lang-zh" markdown="1">
 ## 一、 引言：福音的分量
 
 诞生于20世纪中叶的“四个属灵原则”（简称“四律”），已成为现代历史上使用最广泛的传福音框架之一。它的简洁性不言而喻，其影响力也极其深远。然而，在我们试图将福音“简单化”的过程中，是否不小心将其扭曲成了圣经福音之外的某种东西？
@@ -45,9 +45,9 @@ In Scripture, the "plan" of God for those remaining in their sins is not describ
 ```
 
 God's love is not a sentimental benevolence but a holy devotion to His own glory. To present God as a divine assistant waiting to fulfill a person's "abundant life" risks making the sinner the center of the story and God the means to an end.
+</div>
 
----
-
+<div class="lang-zh" markdown="1">
 ## 二、 原则一：万事如意的计划与神圣的主权预旨
 
 > **普遍的表述：** “神爱你，并且为你的生命有一套奇妙的计划。”
@@ -83,9 +83,9 @@ Biblical diagnosis goes much deeper than "separation." The Bible calls it **Deat
 ```
 
 A man who is separated can walk, think, and choose to cross a bridge. But a man who is **dead** can do nothing. By Framing the problem as a "gulf to be bridged" rather than a "corpse to be resurrected," we subtly suggest that the sinner still possesses the moral ability to seek God if the right bridge (Christ) is presented. 
+</div>
 
----
-
+<div class="lang-zh" markdown="1">
 ## 三、 原则二：距离的隔阂与灵魂的死亡
 
 > **普遍的表述：** “人有罪，与神隔绝。”
@@ -120,9 +120,9 @@ Christ did not die to make salvation *possible* for those who would choose Him; 
 ```
 
 Jesus did not say He was a "provision" for the sheep, but that He actually **gave His life** for them (John 10:15). In the modern model, the effectiveness of Christ's blood is held hostage by the sinner's response. But in a God-centered view, the cross is an actual achievement, not just a potential offer.
+</div>
 
----
-
+<div class="lang-zh" markdown="1">
 ## 四、 原则三：救恩的“备选方案”与确定的代替赎罪
 
 > **普遍的表述：** “耶稣基督是神为人的罪所预备的唯一救法。”
@@ -157,9 +157,9 @@ Revelation 3:20 was written to a *church* (Laodicea), not as an evangelistic des
 ```
 
 Faith is not the trigger for the New Birth; it is the **symptom** of the New Birth. We do not "open the door" so that God can change us; God changes our hearts of stone into hearts of flesh, and *therefore* we joyfully open the door to our King. Law 4 risks making the human will the "prime mover" of salvation.
+</div>
 
----
-
+<div class="lang-zh" markdown="1">
 ## 五、 原则四：人的“意愿行为”还是神的主权重生
 
 > **普遍的表述：** “我们必须亲自接受耶稣……藉着个人的邀请……作为一种意志的行动。”
@@ -189,9 +189,9 @@ The comfort of the believer is not that they were smart enough to "make a decisi
 Let us preach a Gospel that doesn't just offer a "wonderful plan," but heralds a **Sovereign Rescue**. 
 
 **Soli Deo Gloria.**
+</div>
 
----
-
+<div class="lang-zh" markdown="1">
 ## 六、 总结：让上帝成为上帝
 
 现代“决定论”那被过度简化的福音，是为统计数据和快速成效而设计的；但圣经中的福音，则是为产生敬拜和战兢而启示的。当我们呈现一个正在卑微等待人类准许才敢施恩的上帝时，我们就被剥夺了福音中真正的安慰。
