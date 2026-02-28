@@ -1,7 +1,7 @@
 ---
 title: "Beyond 'Decisionism': A Theological Critique of the Four Spiritual Laws"
 title_zh: "超越“决定论”：对“四个属灵原则”的神学辨析"
-date: 2026-03-01 10:00:00 -0500
+date: 2026-02-28 14:00:00 -0500
 categories: [Theology, Gospel]
 tags: [evangelism, sovereign-grace, theology, spiritual-laws]
 description: "Examining the theological gaps in the modern 'Four Spiritual Laws' model, returning to a God-centered view of salvation and the sovereign work of the Spirit."
