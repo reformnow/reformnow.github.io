@@ -7,8 +7,8 @@ tags: [evangelism, sovereign-grace, theology, spiritual-laws]
 description: "Examining the theological gaps in the modern 'Four Spiritual Laws' model, returning to a God-centered view of salvation and the sovereign work of the Spirit."
 description_zh: "考察现代“四个属灵原则”传福音模式中的神学偏差，呼吁从“人本中心”回归到以主权之神、圣灵重生为核心的福音观。"
 image:
-  path: /assets/img/posts/spiritual_laws.png
-  alt: "Royal Decree and the Cross"
+  path: /assets/img/posts/beyond_decisionism.jpg
+  alt: "The Four Spiritual Laws booklet cover in Chinese and English"
 ---
 
 <div class="lang-en" markdown="1">
@@ -116,7 +116,8 @@ The word "provision" suggests that Christ’s death provided a *possibility* or 
 Christ did not die to make salvation *possible* for those who would choose Him; He died to make salvation *certain* for those the Father had given Him. 
 
 ```quote
-"Christ did not just open the door of salvation; He walked through the darkness and dragged His specific sheep into the light."
+"Christ did not die to make men savable, but to save them. ... We say that Christ so died that He infallibly secured the salvation of a multitude that no man can number."
+— Charles Spurgeon
 ```
 
 Jesus did not say He was a "provision" for the sheep, but that He actually **gave His life** for them (John 10:15). In the modern model, the effectiveness of Christ's blood is held hostage by the sinner's response. But in a God-centered view, the cross is an actual achievement, not just a potential offer.
@@ -133,7 +134,8 @@ Jesus did not say He was a "provision" for the sheep, but that He actually **gav
 基督降世受死不仅仅是为了让救恩变得“可能”（只要你选择祂就行）；祂受死是为了让圣父赏赐给祂的人得救变得“确定”。
 
 ```quote
-“基督不仅开启了救恩的大门，祂更是亲自走入黑暗，将祂的羊一一领入光明。祂在十字架上不仅买下了‘礼物’，也买下了祂子民那颗‘愿意相信的心’。”
+“基督受死不是为了使人‘有被拯救的可能’（savable），而是为了确确实实地拯救他们。……我们不仅说基督使得救成为可能，更宣告祂的死绝对无谬地保证了那不可胜数的群众之救恩。”
+—— 查尔斯·司布真 (Charles Spurgeon)
 ```
 
 耶稣从没说祂是对羊的一项“预备条款”，而是说祂实实在在地为羊**舍命**（约10:15）。在现代模式中，基督宝血的功效仿佛被罪人的反应所绑架；但在以神为中心的真理中，十字架是一个实质性的成就，而非仅仅是一个潜在的邀约。
