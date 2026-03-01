@@ -71,7 +71,28 @@ In presenting the solution to sin, EE famously uses the analogy of a gift. The e
 **The Theological Critique:**
 This seemingly innocent illustration subtly undermines the doctrine of Total Depravity. A beggar who reaches out to take a gift is poor, but he is fundamentally *alive* and possesses the moral ability to recognize the value of the gift and choose it. 
 
-Scripture, however, teaches that the unregenerate man is not merely a poor beggar; he is a corpse (Ephesians 2:1), and his mind is hostile to God (Romans 8:7). An unregenerate person will view the "gift" of Christ as foolishness (1 Corinthians 2:14) until God sovereignly acts to regenerate the heart. The faith used to "take the gift" is itself something God must grant.
+Scripture, however, teaches that the unregenerate man is not merely a poor beggar; he is a corpse that must be awakened:
+
+```bible
+"As for you, you were dead in your transgressions and sins."
+— Ephesians 2:1
+```
+
+Furthermore, his mind is naturally hostile to God:
+
+```bible
+"The mind governed by the flesh is hostile to God; it does not submit to God's law, nor can it do so."
+— Romans 8:7
+```
+
+An unregenerate person will view the "gift" of Christ as foolishness until God sovereignly acts to regenerate the heart:
+
+```bible
+"The person without the Spirit does not accept the things that come from the Spirit of God but considers them foolishness, and cannot understand them because they are discerned only through the Spirit."
+— 1 Corinthians 2:14
+```
+
+The faith used to "take the gift" is itself something God must grant:
 
 ```bible
 "For it has been granted to you on behalf of Christ not only to believe in him, but also to suffer for him."
@@ -87,7 +108,28 @@ Scripture, however, teaches that the unregenerate man is not merely a poor begga
 **神学辨析：**
 这个看似纯良无害的插图，却在潜移默化中瓦解了“全然败坏”（Total Depravity）的教义。一个伸出手去接礼物的乞丐确实很穷，但他在本质上是**活着**的；他依然拥有道德能力去辨认礼物的价值，并依靠自己的意志去做出选择。
 
-然而，圣经教导说，未重生的人不仅仅是一个一贫如洗的乞丐；他是一具必须被唤醒的死尸（弗2:1），他的心思意念是与上帝为仇的（罗8:7）。在上帝主权地重生这颗心之前，未重生的人只会将基督这份“礼物”看为愚拙（林前2:14）。退一万步讲，即使是那个用来“接受礼物”的信心，本身也是上帝所赐的！
+然而，圣经教导说，未重生的人不仅仅是一个一贫如洗的乞丐；他是一具必须被唤醒的死尸：
+
+```bible
+“你们死在过犯罪恶之中，他叫你们活过来。”
+——以弗所书 2:1
+```
+
+并且，他的天然心思意念是与上帝为仇的：
+
+```bible
+“原来体贴肉体的，就是与神为仇，因为不服神的律法，也是不能服。”
+——罗马书 8:7
+```
+
+在上帝主权地重生这颗心之前，未重生的人只会将基督这份“礼物”看为愚拙：
+
+```bible
+“然而，属血气的人不领会神圣灵的事，反倒以为愚拙，并且不能知道，因为这些事惟有属灵的人才能看透。”
+——哥林多前书 2:14
+```
+
+退一万步讲，即使是那个用来“接受礼物”的信心，本身也是上帝所赐的！
 
 ```bible
 “因为你们蒙恩，不但得以信服基督，并要为他受苦。”
