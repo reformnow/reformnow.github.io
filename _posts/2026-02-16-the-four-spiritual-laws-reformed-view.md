@@ -1,14 +1,14 @@
 ---
-title: "The Four Spiritual Laws: A Reformed View"
-title_zh: "符合圣经的属灵四定律：改革宗视角"
+title: "The Four Spiritual Laws: A Biblical View"
+title_zh: "符合圣经的属灵四定律：正统视角"
 date: 2026-02-16 00:00:00 +0000
 categories: [Theology, Evangelism]
-tags: [gospel, reformed, salvation, bilingual, slide]
-description: "A truly biblical Reformed look at the Four Spiritual Laws: contrasting the sentimental view of God with His holiness, justice, and sovereign grace."
-description_zh: "以真正符合圣经的改革宗视角审视属灵四定律：将对上帝的情感化观点与他的圣洁、公义和主权恩典进行对比。"
+tags: [gospel, biblical, salvation, bilingual, slide]
+description: "A truly biblical look at the Four Spiritual Laws: contrasting the sentimental view of God with His holiness, justice, and sovereign grace."
+description_zh: "以真正符合圣经的视角审视属灵四定律：将对上帝的情感化观点与他的圣洁、公义和主权恩典进行对比。"
 image:
   path: /assets/img/posts/four_spiritual_laws_reformed.png
-  alt: "The Four Spiritual Laws: A Reformed Perspective"
+  alt: "The Four Spiritual Laws: A Biblical Perspective"
 ---
 
 <div class="lang-en" markdown="1">
@@ -26,12 +26,12 @@ There is probably no more widely known phrase on the love of God used today than
 <div class="lang-en" markdown="1">
 ### How to Rewrite the Four Spiritual Laws?
 
-Millions of people around the world are familiar with this little witnessing booklet called, The Four Spiritual Laws. Due to my Wheaton upbringing, I even used this tract early in my Christian journey. However, upon closer scrutiny we must rightly ask, are those four spiritual laws biblical? Do they play upon our sentimental view of God that He has but one essential attribute, love, forgetting that He is also a God of justice, holiness, grace, wrath, mercy, and sovereignty? What if those "laws" were re-written from a truly biblical Reformed view--what would they look like? What would they say? Would millions use them... or shun them? Here is my attempt and offering to you. (Warning: some of the language used may sound shocking to our postmodern ears...if you are offended by any of the verbiage... it is purely intentional.)
+Millions of people around the world are familiar with this little witnessing booklet called, The Four Spiritual Laws. Due to my Wheaton upbringing, I even used this tract early in my Christian journey. However, upon closer scrutiny we must rightly ask, are those four spiritual laws biblical? Do they play upon our sentimental view of God that He has but one essential attribute, love, forgetting that He is also a God of justice, holiness, grace, wrath, mercy, and sovereignty? What if those "laws" were re-written from a truly biblical view--what would they look like? What would they say? Would millions use them... or shun them? Here is my attempt and offering to you. (Warning: some of the language used may sound shocking to our postmodern ears...if you are offended by any of the verbiage... it is purely intentional.)
 </div>
 <div class="lang-zh" markdown="1">  
 ### 如何重写属灵四定律？
 
-全球数以百万计的人都熟悉这本名为《四个属灵的定律》的见证小册子。由于我在惠顿学院的成长背景，我甚至在我的基督徒旅程早期也使用过这本小册子。然而，经过仔细审视，我们必须正确地提问，这四个属灵的定律是否符合圣经？它们是否利用了我们对上帝的情感观点，即他只有一个基本属性——爱，而忘记了他同时也是一位公义、圣洁、恩典、忿怒、怜悯和主权的上帝？如果这些“定律”是从一个真正符合圣经的改革宗观点重写的——它们会是什么样子？它们会说什么？是会有数百万人使用它们……还是会避开它们？这是我的尝试，并呈现给你们。（警告：所使用的某些语言对我们的后现代耳朵来说可能听起来令人震惊……如果你对任何措辞感到冒犯……这纯粹是故意的。）
+全球数以百万计的人都熟悉这本名为《四个属灵的定律》的见证小册子。由于我在惠顿学院的成长背景，我甚至在我的基督徒旅程早期也使用过这本小册子。然而，经过仔细审视，我们必须正确地提问，这四个属灵的定律是否符合圣经？它们是否利用了我们对上帝的情感观点，即他只有一个基本属性——爱，而忘记了他同时也是一位公义、圣洁、恩典、忿怒、怜悯和主权的上帝？如果这些“定律”是从一个真正符合圣经的正统观点重写的——它们会是什么样子？它们会说什么？是会有数百万人使用它们……还是会避开它们？这是我的尝试，并呈现给你们。（警告：所使用的某些语言对我们的后现代耳朵来说可能听起来令人震惊……如果你对任何措辞感到冒犯……这纯粹是故意的。）
 </div>
 
 <hr />

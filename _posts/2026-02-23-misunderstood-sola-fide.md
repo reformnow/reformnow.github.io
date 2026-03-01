@@ -2,8 +2,8 @@
 title: "Misunderstood Sola Fide: From Legalistic Bondage to the Great Exchange"
 title_zh: "被误解的“唯独信心”：从律法主义的枷锁到伟大的交换"
 date: 2026-02-23 10:00:00 -0500
-categories: [Theology, Reformed]
-tags: [sola-fide, reformed, theology, justification]
+categories: [Theology, Biblical]
+tags: [sola-fide, biblical, theology, justification]
 description: "Discover how the biblical doctrine of justification shifts our foundation from self-righteous moral efforts to the finished, alien righteousness of Christ, bringing true spiritual peace."
 description_zh: "在这个自我称义的时代，发掘圣经中因信称义的法庭宣告如何将我们从疲惫的道德挣扎中释放，并赐下神恩独作的永恒平安。"
 image:

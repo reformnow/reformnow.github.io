@@ -1,11 +1,11 @@
 ---
-title: "The Pragmatic 'Sales Pitch': A Reformed Critique of Evangelism Explosion"
+title: "The Pragmatic 'Sales Pitch': A Biblical Critique of Evangelism Explosion"
 title_zh: "实用的“推销”还是主权的恩典？——对“三元福音”的神学反思"
 date: 2026-02-28 17:35:00 -0500
 categories: [Theology, Gospel]
 tags: [evangelism, sovereign-grace, theology, evangelism-explosion]
-description: "A theological review of the 'Evangelism Explosion' (EE) methodology, critiquing its pragmatic approach to the 'sinner's prayer' and decisionism from a Reformed perspective."
-description_zh: "从改革宗神学视角审视“三元福音”（EE）布道法，反思其中人本的实用主义倾向、决志祷告的弊端，呼吁回归以神为中心的福音宣告。"
+description: "A theological review of the 'Evangelism Explosion' (EE) methodology, critiquing its pragmatic approach to the 'sinner's prayer' and decisionism from a biblical perspective."
+description_zh: "从正统神学视角审视“三元福音”（EE）布道法，反思其中人本的实用主义倾向、决志祷告的弊端，呼吁回归以神为中心的福音宣告。"
 image:
   path: /assets/img/posts/evangelism_explosion_critique.jpg
   alt: "Evangelism Explosion Do You Know Tract Cover"
@@ -14,17 +14,17 @@ image:
 <div class="lang-en" markdown="1">
 ## I. Introduction: The Legacy and the Dilemma
 
-Developed by Dr. D. James Kennedy in the 1960s, "Evangelism Explosion" (EE) has trained millions of Christians in personal evangelism. Ironically, while Kennedy himself was a minister in the Presbyterian Church in America (PCA) and held to Reformed theology, the *methodology* of EE frequently functions in a decidedly Arminian, pragmatic manner. 
+Developed by Dr. D. James Kennedy in the 1960s, "Evangelism Explosion" (EE) has trained millions of Christians in personal evangelism. Ironically, while Kennedy himself was a minister in the Presbyterian Church in America (PCA) and held to historic biblical theology, the *methodology* of EE frequently functions in a decidedly Arminian, pragmatic manner. 
 
-EE provides a highly structured script for believers, most famously characterized by its two diagnostic questions. While its commitment to equipping the saints is commendable, its underlying mechanics—the presentation of the Gospel as a "gift" waiting to be taken, and the heavy psychological pressure to "close the deal" with a sinner's prayer—reveal serious theological gaps when evaluated against historic Reformed orthodoxy.
+EE provides a highly structured script for believers, most famously characterized by its two diagnostic questions. While its commitment to equipping the saints is commendable, its underlying mechanics—the presentation of the Gospel as a "gift" waiting to be taken, and the heavy psychological pressure to "close the deal" with a sinner's prayer—reveal serious theological gaps when evaluated against historic orthodox theology.
 </div>
 
 <div class="lang-zh" markdown="1">
 ## 一、 引言：三福的遗产与神学困境
 
-由雅各·甘雅各博士（Dr. D. James Kennedy）在20世纪60年代创立的“三元福音”（Evangelism Explosion，简称EE或三福），已经培训了数以百万计的基督徒进行个人布道。颇具讽刺意味的是，虽然甘雅各本人是美国长老会（PCA）的牧师，也认同改革宗神学，但“三福”的*方法论*在实际操作中，却常常表现出明显的阿米念主义和实用主义色彩。
+由雅各·甘雅各博士（Dr. D. James Kennedy）在20世纪60年代创立的“三元福音”（Evangelism Explosion，简称EE或三福），已经培训了数以百万计的基督徒进行个人布道。颇具讽刺意味的是，虽然甘雅各本人是美国长老会（PCA）的牧师，也认同正统的神学，但“三福”的*方法论*在实际操作中，却常常表现出明显的阿米念主义和实用主义色彩。
 
-“三福”为信徒提供了一套高度结构化的话术，其中最著名的便是它的两个“诊断问题”。虽然它致力于装备信徒传福音的热忱值得赞赏，但其底层的运作机制——将福音包装成一份等待人去提取的“礼物”，并在交谈末尾施加极大的心理压力以促使对方做“决志祷告”在历史上正统改革宗神学的审视下，暴露出了严重的神学偏差。
+“三福”为信徒提供了一套高度结构化的话术，其中最著名的便是它的两个“诊断问题”。虽然它致力于装备信徒传福音的热忱值得赞赏，但其底层的运作机制——将福音包装成一份等待人去提取的“礼物”，并在交谈末尾施加极大的心理压力以促使对方做“决志祷告”在历史上正统神学的审视下，暴露出了严重的神学偏差。
 </div>
 
 ---
@@ -105,7 +105,7 @@ The most troubling aspect of the EE methodology is the pressure it applies in "t
 **The Theological Critique:**
 This reflects the heart of modern "Decisionism" inherited from Charles Finney. It assumes that salvation can be efficiently triggered through psychological momentum and verbal compliance. It treats the New Birth as something the evangelist and the sinner can manufacture through a mechanical recitation of words.
 
-From a Reformed perspective, the work of salvation belongs exclusively to the Holy Spirit. While we enthusiastically call all men to repent and believe, we cannot manipulate the timing or coerce a superficial verbal confession. 
+From a biblical perspective, the work of salvation belongs exclusively to the Holy Spirit. While we enthusiastically call all men to repent and believe, we cannot manipulate the timing or coerce a superficial verbal confession. 
 
 ```quote
 "Our evangelistic work is the instrument which He uses for this purpose, but the power that saves is not in the instrument: it is in the hand of the One who uses the instrument."
@@ -123,7 +123,7 @@ A coerced "sinner's prayer" gives people a false assurance of salvation resting 
 **神学辨析：**
 这完全暴露了从查尔斯·芬尼（Charles Finney）那里继承来的现代“决定论（Decisionism）”的内核。它预设了救恩是可以通过心理造势和口头顺服被高效地“触发”的。它将“重生”当作是可以由布道者和罪人通过机械地背诵几句祷告词就能联手“制造”出来的东西。
 
-从改革宗的视角来看，拯救的工作唯独属于圣灵。虽然我们热切地呼吁所有人悔改信主，但我们绝不能去操纵人心的节奏，或是通过施压来逼出一个肤浅的口头认信。
+从正统圣经教导的视角来看，拯救的工作唯独属于圣灵。虽然我们热切地呼吁所有人悔改信主，但我们绝不能去操纵人心的节奏，或是通过施压来逼出一个肤浅的口头认信。
 
 ```quote
 “我们的传福音工作是祂用来成就这目的的工具，但那拯救的大能并不在工具本身之中：大能乃在于使用这工具的那位主的手里。”
