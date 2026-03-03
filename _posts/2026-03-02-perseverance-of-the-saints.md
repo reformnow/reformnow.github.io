@@ -311,10 +311,120 @@ image:
 </div>
 
 <div class="lang-en" markdown="1">
-## 7. Conclusion & Application
+## 7. The 17th-Century Crisis: Remonstrants vs. the Synod of Dort
 </div>
 <div class="lang-zh" markdown="1">
-## 7. 结论与应用 (Conclusion & Application)
+## 7. 17 世纪的危机：抗辩派与多特会议
+</div>
+
+<div class="lang-en" markdown="1">
+**The Remonstrant Challenge (1610):** The followers of Jacobus Arminius issued a document called the *Remonstrance*. In its fifth article, they initially expressed uncertainty but eventually taught that true believers could potentially forfeit their salvation through negligence or sin.
+```quote
+"True believers can fall from true faith and can fall into such sins as cannot be consistent with true and justifying faith... and therefore finally to fall and to perish." 
+— The Opinion of the Remonstrants (1618)
+```
+</div>
+<div class="lang-zh" markdown="1">
+**抗辩派的挑战 (1610)：** 雅各·阿米念的追随者发布了一份名为《抗辩文》的文件。在第五条中，他们最初表示不确定，但最终公开教导说，真信徒可能因疏忽或犯罪而完全丧失救恩。
+```quote
+“真信徒可能从真实的信心坠落……并陷入那些与真实的、使人称义的信心不相容的历史罪恶中……并因此最终离弃神而永远沉沦。”
+—— 抗辩派立场声明 (1618)
+```
+</div>
+
+<div class="lang-en" markdown="1">
+**The Definitive Response (1619):** In response, the historic Synod of Dort met to clarify the biblical position. They affirmed that perseverance is not a human achievement, but a divine work of preservation.
+```quote
+"For God is faithful, who having conferred grace, mercifully confirms and powerfully preserves them therein, even to the end." 
+— Canons of Dort, Fifth Head of Doctrine, Article 3
+```
+</div>
+<div class="lang-zh" markdown="1">
+**多特会议的果断回应 (1619)：** 作为回应，历史性的多特会议召开，旨在澄清圣经立场。他们确认，“坚韧”并不是人的成就，而是上帝神圣的“保守”工作。
+```quote
+“因为上帝是信实的，由于祂赐下了恩典，祂便仁慈地确认并在当中有力地保守他们，直到末了。”
+—— 多特信经，第五要点，第三条
+```
+</div>
+
+<div class="lang-en" markdown="1">
+**Perspective Shift:** The Synod of Dort taught that while we may let go of God's hand, He never lets go of ours. The doctrine is better understood not as the "perseverance of the believer," but as the **"Preservation of God."**
+</div>
+<div class="lang-zh" markdown="1">
+**视角的转变：** 多特会议教导说，虽然我们可能会松开上帝的手，但祂永远不会松开我们的手。这一教义与其被理解为“信徒的自强不息”，不如被理解为**“上帝主权的保守”**。
+</div>
+
+<div class="lang-en" markdown="1">
+## 8. The Hebrews 6:4 Challenge: Overcoming Hard Sayings
+</div>
+<div class="lang-zh" markdown="1">
+## 8. 希伯来书 6:4 的挑战：攻克难点
+</div>
+
+<div class="lang-en" markdown="1">
+**The Objection:** Critics of perseverance often point to a specific "warning passage" in the Epistle to the Hebrews:
+</div>
+<div class="lang-zh" markdown="1">
+**反对者的质疑：** 反对此教义的人常引用希伯来书中的一段“警告经文”：
+</div>
+
+<div class="lang-en" markdown="1">
+```bible
+"For it is impossible, in the case of those who have once been enlightened, who have tasted the heavenly gift, and have shared in the Holy Spirit, and have tasted the goodness of the word of God and the powers of the age to come, and then have fallen away, to restore them again to repentance..." 
+— Hebrews 6:4-6 (ESV)
+```
+</div>
+<div class="lang-zh" markdown="1">
+```bible
+“论到那些已经蒙了光照、尝过天恩的滋味、又于圣灵有分，并尝过神善道的滋味、觉悟来世权能的人，若是离弃道理，就不能叫他们从新懊悔了。”
+—— 希伯来书 6:4-6 (和合本)
+```
+</div>
+
+<div class="lang-en" markdown="1">
+**The Augustinian Distinction:** St. Augustine, in his response to those who argued such people were true believers, clarified that while they had indeed been "enlightened" and "moved" by the Spirit's external work, they lacked the specific **"Gift of Perseverance"** (*donum perseverantiae*) which God only bestows upon those He has truly chosen to save to the end.
+```quote
+"But of such as these, none perished when they were being called, but they were called in such a way as to be truly chosen... They were not in that number of sons, even when they were in the faith of sons." 
+— St. Augustine, *On the Gift of Perseverance*, Chapter 9
+```
+</div>
+<div class="lang-zh" markdown="1">
+**奥古斯丁的区分：** 圣奥古斯丁在回应那些认为“离弃者曾是真信徒”的观点时，明确指出：虽然这些人确实被圣灵的外在工作所“光照”和“感召”，但他们缺少那唯独赐给神所预定救赎到底之人的**“坚韧之恩”** (*donum perseverantiae*)。
+```quote
+“然而在这样的人中，没有一个是在被呼召时毁灭的，因为他们是以被真正拣选的方式而受召的……即便当他们拥有‘儿子的信心’时，他们也不在儿子的定额（定数）之内。”
+—— 圣奥古斯丁，《论坚韧的恩赐》，第 9 章
+```
+</div>
+
+<div class="lang-en" markdown="1">
+**Reformed Interpretation (Temporary Faith):** John Calvin and the Reformers explained such cases as **"Temporary Faith"** (*fides temporaria*). These individuals are like the "rocky ground" in Jesus' parable: they receive the word with joy but have no root. They experience a shadow of grace, but their hearts were never fundamentally united to Christ.
+</div>
+<div class="lang-zh" markdown="1">
+**改教家的解释（暂时性的信心）：** 加尔文和改教家们将此类情况解释为“暂时性的信心” (*fides temporaria*)。这些人就像耶稣比喻中那“石头地”里的种子：他们欢喜领受真道，但心里没有根。他们经历到了恩典的影子，但其内心从未真正与基督联合。
+</div>
+
+<div class="lang-en" markdown="1">
+**The Biblical Verdict:** The principle is summarized by St. John:
+```bible
+"They went out from us, but they were not of us; for if they had been of us, they would have continued with us. But they went out, that it might become plain that they all are not of us." 
+— 1 John 2:19 (ESV)
+```
+Hebrews 6 serves as a severe warning against surface-level profession and hypocrisy, not a denial of God's sovereign power to keep His own.
+</div>
+<div class="lang-zh" markdown="1">
+**圣经的判语：** 这一原则被圣约翰总结为：
+```bible
+“他们从我们中间出去，却不是属我们的；若是属我们的，就必仍旧存留在我们中间；他们出去，显明他们都不是属我们的。”
+—— 约翰一书 2:19 (和合本)
+```
+希伯来书第 6 章是对浅表层面的认信和伪善的严厉警告，而非否定上帝保守祂子民的大能。
+</div>
+
+<div class="lang-en" markdown="1">
+## 9. Conclusion & Application
+</div>
+<div class="lang-zh" markdown="1">
+## 9. 结论与应用 (Conclusion & Application)
 </div>
 
 <div class="lang-en" markdown="1">
