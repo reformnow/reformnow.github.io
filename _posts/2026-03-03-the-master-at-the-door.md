@@ -5,7 +5,7 @@ subtitle: "叩门的主：回归启示录 3:20 的真意"
 author: reformnow
 categories: [ Theology, Biblical Studies ]
 tags: [ Revelation, Sovereignty of God, Evangelism, Correcting Misunderstandings ]
-image: /assets/img/posts/christ_the_king.jpg
+image: /assets/img/posts/lightoftheworld.jpg
 ---
 
 <div class="lang-en" markdown="1">
