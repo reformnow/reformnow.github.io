@@ -114,6 +114,17 @@
   category: "council"
   image: "/assets/img/timeline/council-constantinople.jpg?v=2"
 
+- date: "c. 385-410 AD"
+  year: 405
+  era: "patristic"
+  era_zh: "教父时期"
+  title: "Rise of Pelagianism"
+  title_zh: "伯拉纠主义的兴起"
+  description: "Pelagius, a British monk, teaches that human nature is essentially good and that Adam's sin affected only himself, not the human race. He argues that humans have the full capacity to live without sin and achieve salvation through free will and effort, denying the necessity of divine grace."
+  description_zh: "英国修士伯拉纠教导说，人性本善，且亚当的罪只影响了他自己，而非全人类。他主张人类完全有能力靠着自由意志和努力不犯罪，以此获得救恩，从而否认了神圣恩典的必要性。这一学说是彻头彻尾的自救论异端。"
+  category: "heresy"
+  image: "/assets/img/timeline/pelagianism-rise.jpg"
+
 - date: "c. 386-430 AD"
   year: 410
   era: "patristic"
