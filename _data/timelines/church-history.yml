@@ -238,6 +238,17 @@
   category: "reformation"
   image: "/assets/img/timeline/diet-of-worms.jpg?v=2"
 
+- date: "1521-1522"
+  year: 1521
+  era: "reformation"
+  era_zh: "宗教改革时期"
+  title: "Luther at Wartburg Castle"
+  title_zh: "路德在瓦尔特堡"
+  description: "After the Diet of Worms, Luther is 'kidnapped' for his safety by Elector Frederick the Wise and hidden at Wartburg Castle. During this time, he translates the New Testament from Greek into German, making the Word of God accessible to the common people."
+  description_zh: "在沃尔姆斯议会之后，路德被智者腓特烈“绑架”以确保安全，并隐居在瓦尔特堡。在此期间，他将新约圣经从希腊文翻译成德文，使上帝的话语能够被普通民众阅读。"
+  category: "reformation"
+  image: "/assets/img/timeline/wartburg.jpg"
+
 - date: "1524-1525"
   year: 1525
   era: "reformation"
