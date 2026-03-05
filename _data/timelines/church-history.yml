@@ -459,6 +459,18 @@
   category: "history"
   image: "/assets/img/timeline/william-carey.jpg?v=2"
 
+- date: "c. 1824-1835"
+  year: 1830
+  era: "modern"
+  era_zh: "现代时期"
+  title: "Charles Finney: The Rise of Decisionism"
+  title_zh: "查尔斯·芬尼：决志主义的兴起"
+  description: "Charles Grandison Finney introduces 'New Measures' in revival meetings, shifting the focus from God's sovereign miracle to human psychological techniques. Denying original sin (Pelagianism), he popularizes 'Decisionism'—the idea that salvation is the result of a human choice facilitated by emotional pressure."
+  description_zh: "查尔斯·芬尼在复兴聚会中引入“新手段”，将重点从上帝的主权神迹转向人类的心理技术。他否认原罪（伯拉纠主义），并普及了“决志主义”——即认为救赎是由于人类在情感压力下做出的选择结果。"
+  category: "heresy"
+  image: "/assets/img/timeline/charles-finney.jpg"
+  link: "/posts/past-and-present-of-decisionism/"
+
 - date: "c. 1850-1900"
   year: 1870
   era: "modern"
