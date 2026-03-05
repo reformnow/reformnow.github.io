@@ -26,7 +26,7 @@ First, people imagine a God who is a **divine bully**—dragging people kicking 
 
 Second, they imagine a God who is **arbitrarily exclusive**—picturing a sincere seeker standing at the gates of heaven, weeping and begging to come in, only to be told: "Sorry, you weren't on the list."
 
-Both of these are tragic caricatures that miss the biblical truth. The doctrine of irresistible grace doesn't mean God forces people into heaven who don't want to be there, nor does it mean He rejects anyone who truly seeks Him. Rather, it is the beautiful truth of how God **heals the will** so that we *want* what we once hated.
+Both of these are tragic caricatures that miss the biblical truth. The term "irresistible" can be misleading because it suggests force. Many theologians, such as R.C. Sproul, prefer the term **"Effectual Grace."** It means that God's grace is so powerful that it has the capacity to *overcome* our natural resistance. It doesn't mean we aren't capable of resisting; it means that when God intends to save, His grace successfully achieves its purpose.
 </div>
 <div class="lang-zh" markdown="1">
 每当提到**“不可抗拒的恩典”（Irresistible Grace）**，许多人会本能地产生一种防御性的恐惧。这种恐惧通常表现为两种形式：
@@ -35,7 +35,7 @@ Both of these are tragic caricatures that miss the biblical truth. The doctrine 
 
 第二，他们想象上帝是**“任性排外的”**——想象一个真诚的寻求者站在天堂门口，哭泣着哀求进入，却被告知：“对不起，你不在名单上。”
 
-这两种想象都是对福音极大的歪曲，完全错失了圣经的真理。“不可抗拒的恩典”既不意味着上帝强迫那些不想去天堂的人进去，也不意味着祂会拒绝任何真正寻求祂的人。相反，这个教义阐明了一个美丽的真理：上帝如何**医治了我们的意志**，使我们开始**渴慕**那些我们曾经厌恶的事物。
+这两种想象都是对福音极大的歪曲，完全错失了圣经的真理。“不可抗拒”这个词有时会引起误解，因为它暗示了某种强力。诸如史普罗（R.C. Sproul）等许多神学家更倾向于使用**“有效恩典”（Effectual Grace）**这个术语。它的意思是：上帝的恩典是大有能力的，有能力**克服**我们天然的抗拒。这并不意味着我们由于软弱而无法抗拒，而是说当上帝定意要救赎时，祂的恩典必能达成祂的目的。
 </div>
 
 ---
@@ -92,16 +92,20 @@ Left to ourselves, we *always* choose to resist Him. Our hearts are hearts of st
 </div>
 
 <div class="lang-en" markdown="1">
-The miracle of irresistible grace is the miracle of **regeneration** (being born again). God does not force the old, rebellious heart to love Him; instead, He gives a **new heart**. 
+The miracle of irresistible grace is the miracle of **regeneration** (being born again). Reformed theology makes a crucial distinction here: **Regeneration precedes faith.** God does not wait for us to believe so He can give us life; He gives us life so we *can* believe. 
 
-```bible
-"And I will give you a new heart, and a new spirit I will put within you. And I will remove the heart of stone from your flesh and give you a heart of flesh."
-— Ezekiel 36:26
+To understand this, we must distinguish between the **Outward Call** and the **Inward (Effectual) Call**:
+1. **The Outward Call**: The Gospel is preached to all. This call is often resisted because men, by nature, are dead in sin (Eph 2:1).
+2. **The Inward Call**: The Holy Spirit works directly in the elect's heart, removing the "heart of stone" and giving a "heart of flesh" (Ezekiel 36:26). 
+
+This is what we call **Monergism**—it is 100% the work of God alone. We didn't help God create us biologically, and we don't help Him recreate us spiritually. As the *Westminster Confession of Faith* (10.1) explains, God saves people by:
+
+```quote
+"...renewing their wills, and by his almighty power determining them to that which is good; and effectually drawing them to Jesus Christ; yet so as they come most freely, being made willing by his grace."
+— Westminster Confession of Faith, 10.1
 ```
 
-Think of a person in a dark, cold room who hates the light. God doesn't just drag them out into the sun while they cover their eyes; He heals their eyes so that they can *see* the beauty of the sun. Once they see the sun's beauty, they no longer *want* to stay in the dark. 
-
-This truth was defended as early as the **Council of Orange (529 AD)**, which corrected the idea that man could take the first step toward God:
+Once God heals our eyes, we don't *want* to stay in the dark. This truth was defended as early as the **Council of Orange (529 AD)**:
 
 ```quote
 "If anyone says that the beginning of faith... is in us naturally and not by a gift of grace, that is, by the inspiration of the Holy Spirit bringing our will from infidelity to faith... he is proved to be an enemy to the teaching of the Apostles."
@@ -116,16 +120,20 @@ As St. Augustine famously put it:
 ```
 </div>
 <div class="lang-zh" markdown="1">
-不可抗拒之恩典的神迹就是**重生**（出生入死）的神迹。上帝并不强迫那颗陈旧、反叛的心去爱祂；相反，祂赐予了一颗**新心**。
+不可抗拒之恩典的神迹就是**重生**（出生入死）的神迹。改革宗神学在这里做出了一个至关重要的区分：**重生先于信心**（Regeneration precedes faith）。上帝并非等到我们相信后才赐予我们生命；祂是先赐予我们生命，使我们**能够**相信。
 
-```bible
-“我也要赐给你们一个新心，将新灵放在你们里面，又从你们的肉体中除掉石心，赐给你们肉心。”
-—— 以西结书 36:26
+要理解这一点，我们必须区分**“外在呼召”**与**“内在（有效）呼召”**：
+1. **外在呼召**：福音向所有人传讲。这种呼召经常被抗拒，因为人按天性在罪中是死的（弗 2:1）。
+2. **内在呼召**：圣灵直接在选民心中动工，除掉“石心”，赐予“肉心”（以西结书 36:26）。
+
+这就是我们所说的**“独作论”（Monergism）**——这圣工百分之百是上帝独自完成的。在生物学意义上，我们没有协助上帝创造我们；在属灵意义上，我们也无法协助祂重造我们。正如《威斯敏斯特信条》（10.1）所阐明的，上帝拯救人是：
+
+```quote
+“……重新更新其意志，用祂的大能使他们趋向于善，并有力地吸引他们到耶稣基督里去。然而他们来得极其自愿，因他们在神的恩典中已经变得情愿了。”
+——《威斯敏斯特信条》，10.1
 ```
 
-想象一个处在阴暗寒冷房间里的人，他讨厌光。上帝并不只是在他们捂住眼睛时将他们强行拖入阳光下，而是医治了他们的眼睛，使他们能**看见**阳光的美丽。一旦他们看见了阳光的美，他们就不再**想要**留在黑暗中了。
-
-这一真理早在公元 **529 年的奥兰治会议（Council of Orange）** 中就得到了辩护，该会议纠正了“人可以向着上帝迈出第一步”的错误思想：
+一旦上帝医治了我们的眼睛，我们就再也不**想要**留在黑暗中了。这一真理早在公元 **529 年的奥兰治会议（Council of Orange）** 中就得到了辩护：
 
 ```quote
 “若有人说，信仰的开端……是我们天生就有的，而非由恩典的赐予，即并非由圣灵的启迪使我们的意志从不信转向相信……这便证明他是使徒教训的仇敌。”
