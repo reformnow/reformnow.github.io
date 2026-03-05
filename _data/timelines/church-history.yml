@@ -70,6 +70,17 @@
   category: "theology"
   image: "/assets/img/timeline/irenaeus.jpg?v=2"
 
+- date: "c. 318 AD"
+  year: 318
+  era: "patristic"
+  era_zh: "教父时期"
+  title: "Rise of Arianism"
+  title_zh: "亚流派异端的兴起"
+  description: "Arius, a presbyter in Alexandria, begins to teach that the Son of God was a created being and not eternal ('There was a time when he was not'). This denied Christ's full divinity and co-eternity with the Father, sparking the greatest theological crisis of the early church."
+  description_zh: "亚历山大的长老亚流开始教导说，圣子是被造物，而非永恒的（“曾有一时祂不存在”）。这否认了基督完全的神性以及与父同等永恒的地位，引发了早期教会最严重的神学危机。"
+  category: "heresy"
+  image: "/assets/img/timeline/arianism.jpg"
+
 - date: "325 AD"
   year: 325
   era: "patristic"
