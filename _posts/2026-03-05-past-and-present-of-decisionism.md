@@ -44,9 +44,7 @@ The true "father" of modern decisionism is **Charles Grandison Finney**. Finney 
 
 Most famously, he invented the **"Anxious Seat"**—a designated bench at the front where those "under conviction" were pressured to sit and make their transition. Finney openly denied the doctrine of original sin, believing man had the natural ability to turn to God by sheer willpower.
 
-````quote
-"A revival is not a miracle, or dependent on a miracle, in any sense. It is a purely philosophical result of the right use of the constituted means—as much so as any other effect produced by the application of means." — Charles Finney, *Lectures on Revivals of Religion*
-````
+> "A revival is not a miracle, or dependent on a miracle, in any sense. It is a purely philosophical result of the right use of the constituted means—as much so as any other effect produced by the application of means." — Charles Finney, *Lectures on Revivals of Religion*
 
 Finney effectively downgraded the Gospel from a **Divine Decree** to a **Marketing Suggestion.** He no longer waited for God to move; he sought to force God’s hand through human psychology.
 
@@ -104,9 +102,7 @@ As Reformed believers, we affirm: **God commands all men to repent (highlighting
 
 最著名的是，他发明了**“焦虑座”（Anxious Seat）**——讲台前一个特定的长凳，那些“感到扎心”的人被施加压力坐到那里，完成他们的“转变”。芬尼公开否认原罪教义，认为人有一种天然的能力，可以仅凭意志力就转向神。
 
-````quote
-“复兴在任何意义上都不是神迹，也不依赖于神迹。它纯粹是正确使用既定手段的哲学结果——就像其他任何通过手段产生的效果一样。” —— 查尔斯·芬尼，《宗教复兴讲义》
-````
+> “复兴在任何意义上都不是神迹，也不依赖于神迹。它纯粹是正确使用既定手段的哲学结果——就像其他任何通过手段产生的效果一样。” —— 查尔斯·芬尼，《宗教复兴讲义》
 
 芬尼实际上将福音从**“神的命令”**降级为了**“人的营销建议”**。他不再等候上帝动工，而是试图通过人类心理学来“强迫”上帝动工。
 
