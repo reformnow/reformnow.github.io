@@ -81,6 +81,17 @@
   category: "theology"
   image: "/assets/img/timeline/irenaeus.jpg?v=2"
 
+- date: "313 AD"
+  year: 313
+  era: "patristic"
+  era_zh: "教父时期"
+  title: "Edict of Milan: Legalization of Christianity"
+  title_zh: "米兰敕令：基督教合法化"
+  description: "Emperors Constantine and Licinius issue the Edict of Milan, granting religious freedom throughout the Roman Empire and ending the era of state-sponsored persecution of Christians."
+  description_zh: "君士坦丁与李锡尼共同颁布《米兰敕令》，承认基督教在罗马帝国的合法地位，停止了对基督徒的官方大逼迫，并归还了先前没收的教会财产。"
+  category: "history"
+  image: "/assets/img/timeline/edict-milan.jpg"
+
 - date: "c. 318 AD"
   year: 318
   era: "patristic"
@@ -102,6 +113,17 @@
   description_zh: "由君士坦丁召集以解决亚流派问题。制定了尼西亚信经，确认基督完全的神性（“与父同质”）。"
   category: "council"
   image: "/assets/img/timeline/council-nicaea.jpg?v=2"
+
+- date: "380 AD"
+  year: 380
+  era: "patristic"
+  era_zh: "教父时期"
+  title: "Edict of Thessalonica: Christianity as State Religion"
+  title_zh: "萨洛尼卡敕令：基督教成为国教"
+  description: "Emperor Theodosius I issues the Edict of Thessalonica, declaring Nicene Christianity the sole official religion of the Roman Empire and effectively ending state support for paganism."
+  description_zh: "皇帝狄奥多西一世颁布《萨洛尼卡敕令》，宣布尼西亚立场的基督教为罗马帝国唯一的官方宗教。这标志着基督教正式成为帝国国教，并终结了国家对异教运动的支持。"
+  category: "history"
+  image: "/assets/img/timeline/edict-thessalonica.jpg"
 
 - date: "381 AD"
   year: 381
