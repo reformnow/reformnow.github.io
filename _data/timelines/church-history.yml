@@ -294,6 +294,17 @@
   category: "theology"
   image: "/assets/img/timeline/heidelberg-catechism.jpg?v=2"
 
+- date: "1588"
+  year: 1588
+  era: "reformation"
+  era_zh: "宗教改革时期"
+  title: "Molinism (Middle Knowledge)"
+  title_zh: "莫利纳主义（中间知识）"
+  description: "Jesuit Luis de Molina publishes 'Concordia,' proposing 'Middle Knowledge' as a way to reconcile divine sovereignty with human free will. From a Reformed perspective, it is seen as a sophisticated form of Semi-Pelagianism that makes God's decrees dependent on human choices."
+  description_zh: "耶稣会士路易斯·德·莫利纳出版《自由意志与恩典赐予的和谐》，提出“中间知识”的概念，试图调和上帝的主权与人的自由意志。从归正神学的视角看，这被视为一种复杂的“半伯拉纠主义”，因其将上帝的预旨建立在人的抉择之上。"
+  category: "heresy"
+  image: "/assets/img/timeline/molinism.jpg"
+
 - date: "1603-1609"
   year: 1603
   era: "reformation"
