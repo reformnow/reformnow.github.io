@@ -493,6 +493,17 @@
   category: "theology"
   image: "/assets/img/timeline/the-fundamentals.jpg?v=2"
 
+- date: "1929"
+  year: 1929
+  era: "modern"
+  era_zh: "现代时期"
+  title: "Founding of Westminster Theological Seminary"
+  title_zh: "威斯敏斯特神学院的建立"
+  description: "J. Gresham Machen and other orthodox faculty members leave Princeton Theological Seminary to found Westminster. This marks a definitive stand to preserve the 'Old Princeton' Reformed tradition against the encroachment of theological liberalism."
+  description_zh: "梅钦（J. Gresham Machen）及其他持守正统信仰的教授离开普林斯顿神学院，共同创立了威斯敏斯特神学院。这标志着归正神学家们为了抵御神学自由主义的渗透，坚决捍卫“老普林斯顿”改革宗传统的历史性立场。"
+  category: "theology"
+  image: "/assets/img/timeline/westminster-seminary.jpg"
+
 - date: "c. 1990-Present"
   year: 2000
   era: "modern"
