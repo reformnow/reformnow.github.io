@@ -2,8 +2,8 @@
 layout: post
 title: "The Misunderstood Doctrine: Irresistible Grace, Does God Force People to Believe?"
 title_zh: "被误解的教义：神不可抗拒的恩典，是神强迫人相信吗？"
-description: "Is that really true? Do some cry out to believe and enter heaven only to be rejected, while others are dragged into glory against their will? Unpacking the beauty of Irresistible Grace."
-description_zh: "真是这样吗？有人哭着喊着想信耶稣，进天堂，但却被神拒绝，有人就是不想信神却被拖着进了天堂。让我们揭开“不可抗拒之恩典”的真相。"
+description: "Do some cry out to believe and enter heaven only to be rejected, while others are dragged into glory against their will?"
+description_zh: "有人哭着喊着想信耶稣，进天堂，但却被神拒绝，有人就是不想信神却被拖着进了天堂？"
 date: 2026-03-04 12:00:00 -0500
 categories: [Theology, Gospel Truth]
 tags: [Grace, TULIP, Regeneration, Sovereignty, Correcting Misunderstandings]
