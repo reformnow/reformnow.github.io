@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "The Misunderstood Doctrine: Perseverance of the Saints, Can a Saint Fall from Grace?"
-title_zh: "被误解的教义：圣徒的坚韧，圣徒会从恩中坠落（失去救恩）吗？"
+title: "The Misunderstood Doctrine: Perseverance of the Saints - Falling from Grace or Once Saved, Always Saved?"
+title_zh: "被误解的教义：圣徒的坚韧，圣徒会从恩中坠落（失去救恩）吗？还是一次得救，永远得救？"
 description: "Why the popular slogan 'Once Saved, Always Saved' can be misleading, and how the biblical doctrine of the perseverance of the saints provides true assurance without becoming a license to sin."
 description_zh: "为什么“一次得救，永远得救”容易产生误导？带你了解符合圣经的“圣徒蒙保守”教义，这不仅带来真正的得救确据，更不会成为犯罪的通行证。"
 date: 2026-03-02 12:00:00 -0500
