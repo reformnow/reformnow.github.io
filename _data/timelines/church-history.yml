@@ -59,6 +59,17 @@
   category: "heresy"
   image: "/assets/img/timeline/marcion.jpg?v=2"
 
+- date: "c. 156-172 AD"
+  year: 160
+  era: "patristic"
+  era_zh: "教父时期"
+  title: "Montanism (The New Prophecy)"
+  title_zh: "梦他努主义（新预言运动）"
+  description: "Started by Montanus in Phrygia, claiming direct new revelations from the Holy Spirit that superceded Apostolic authority. Characterized by extreme asceticism and ecstatic prophecy, it challenged the sufficiency of Scripture and the established order of the church."
+  description_zh: "由梦他努在弗吕家发起，声称直接受圣灵的新启示，且这些启示超越了使徒的权威。该运动以极端苦修和狂喜式预言为特征，挑战了圣经的充足性以及教会的既有秩序。"
+  category: "heresy"
+  image: "/assets/img/timeline/montanism.jpg"
+
 - date: "c. 180 AD"
   year: 180
   era: "patristic"
