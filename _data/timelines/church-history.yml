@@ -437,14 +437,14 @@
   image: "/assets/img/timeline/westminster-assembly.jpg"
 
 # --- Modern Era (1650 - Present) ---
-- date: "1741"
-  year: 1741
+- date: "c. 1730-1750"
+  year: 1740
   era: "modern"
   era_zh: "现代时期"
   title: "First Great Awakening"
   title_zh: "第一次大觉醒"
-  description: "Jonathan Edwards and George Whitefield lead a massive spiritual revival across the American colonies."
-  description_zh: "乔纳森·爱德华兹和乔治·怀特腓德领导了一场席卷美洲殖民地的巨大属灵复兴。"
+  description: "A profound spiritual revival across the American colonies and Britain, spearheaded by the theological depth of Jonathan Edwards and the powerful preaching of George Whitefield. It emphasized the absolute necessity of the 'new birth' (regeneration) and the sovereign grace of God in salvation. Viewed as a 'surprising work of God,' it prioritized the supernatural working of the Holy Spirit over human orchestration, laying a deep Reformed foundation for the Gospel in the West."
+  description_zh: "一场席卷美洲殖民地和英国的深刻属灵复兴，其核心由乔纳森·爱德华兹的神学深度和乔治·怀特腓德的大能讲道所引领。该运动强调救赎中“新生命”（重生）的绝对必要性和上帝的主权恩典。它被视为“上帝奇妙的工作”，将圣灵超自然的运行置于人为策划之上，为福音在西方的发展奠定了深厚的归正神学基础。"
   category: "history"
   image: "/assets/img/timeline/great-awakening.jpg?v=2"
 
