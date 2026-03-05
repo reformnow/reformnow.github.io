@@ -148,6 +148,17 @@
   category: "council"
   image: "/assets/img/timeline/pelagianism.jpg?v=2"
 
+- date: "c. 426-429 AD"
+  year: 427
+  era: "patristic"
+  era_zh: "教父时期"
+  title: "John Cassian: Rise of Semi-Pelagianism"
+  title_zh: "约翰·卡西安：半伯拉纠主义的兴起"
+  description: "John Cassian promotes a 'middle ground' between Augustine and Pelagius, teaching that the human will is not entirely dead in sin and can take the 'first step' toward God. This view, later known as Semi-Pelagianism, makes salvation a cooperative effort (synergism) between God and man."
+  description_zh: "约翰·卡西安在奥古斯丁和伯拉纠之间提出了“折中”立场，教导人的意志并未在罪中完全死绝，可以向神迈出“第一步”。这种观点后来被称为半伯拉纠主义，将救恩视为神与人之间的某种合作（神人合作说）。"
+  category: "heresy"
+  image: "/assets/img/timeline/john-cassian.jpg"
+
 - date: "431 AD"
   year: 431
   era: "patristic"
