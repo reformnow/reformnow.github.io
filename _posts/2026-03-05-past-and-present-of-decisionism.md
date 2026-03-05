@@ -33,9 +33,11 @@ In the biblical logic articulated at Dort, **regeneration must precede faith.** 
 ````
 
 ## 3. The Shift: The Age of Reason and the Erosion of Mystery
-By the early 19th century, the intellectual landscape began to shift. The rise of **Uniformitarianism** in the natural sciences suggested that the world could be explained by slow, constant, observable laws. This thinking bled into theology: if the natural world can be manipulated via known techniques, why not the spiritual soul?
+By the early 19th century, the intellectual landscape of the West underwent a seismic shift. In the natural sciences, the rise of **Uniformitarianism**—championed by figures like Charles Lyell—suggested that the universe was governed by fixed, slow, and constant laws. This "present is the key to the past" mentality effectively exiled the direct, sovereign intervention of God from the narrative of the natural world.
 
-This paved the way for the "Technological Revolution" in evangelism. The mystery of the Holy Spirit’s sovereign breath was being replaced by the "philosophy of means."
+This scientific rationalism soon bled into the sanctuary. A new generation of thinkers began to apply the same logic to the soul: If the physical world operates through predictable cause-and-effect laws, why should the spiritual world be any different? The Enlightenment, with its emphasis on human reason and autonomy, fostered a theological environment where divine mystery and sovereign action were increasingly viewed with suspicion. The idea of a God who acts supernaturally, regenerating dead souls, seemed incompatible with a universe governed by immutable laws.
+
+The old Reformed view, epitomized by Jonathan Edwards during the First Great Awakening, saw revival as a "surprising work of God"—a sovereign miracle akin to creation itself, which no man could engineer. Edwards, in his seminal work *Religious Affections*, meticulously distinguished between genuine spiritual experience, which was God-wrought, and mere emotionalism or human-induced fervor. He understood that true conversion was a supernatural impartation of new life, not a product of human persuasion or technique. But under the influence of the Enlightenment, this mystery was eroded. The "miracle" of revival was downgraded to the "result" of a formula. If you applied the right psychological pressure, used the right sequence of emotional triggers, and optimized the "means," a revival was guaranteed to occur. The pulpit was no longer a place to herald a King's decree; it became a laboratory for human mastery. The focus shifted from God's sovereign power to human ability and methodology, paving the way for a man-centered approach to evangelism.
 
 ## 4. The Present: Charles Finney and the "Industrialization" of Salvation
 The true "father" of modern decisionism is **Charles Grandison Finney**. Finney was a lawyer who treated the pulpit like a courtroom and the congregation like a jury to be persuaded. He introduced "New Measures"—techniques designed to strip away defenses and force a psychic crisis.
@@ -91,9 +93,11 @@ As Reformed believers, we affirm: **God commands all men to repent (highlighting
 ````
 
 ## 3. 转折：理性的侵蚀与神秘感的消亡
-到了19世纪初，知识界的版图开始发生位移。自然科学中**均变论（Uniformitarianism）**的兴起暗示，世界可以通过缓慢、恒定、可观察的规律来解释。这种思维渗透进了神学：既然自然界可以通过已知的技术来操纵，那么属灵的灵魂为什么不可以呢？
+到了19世纪初，西方的知识界经历了地震般的位移。在自然科学领域，以查尔斯·莱尔（Charles Lyell）为代表的**均变论（Uniformitarianism）**开始占据主导地位。这种观点认为宇宙是由固定、缓慢且恒定的规律支配的，“现在是通往过去的钥匙”。这种思维实质上将上帝直接、主权性的干预从自然界的叙事中“放逐”了。
 
-这为布道领域的“技术革命”铺平了道路。圣灵主权运行的奥秘，正被“手段的哲学”所取代。
+这种科学理性主义很快就渗透进了圣所。新一代的思想家开始将同样的逻辑应用到灵魂上：如果物质世界是按照可预测的因果律运行的，那么属灵世界凭什么会有所不同呢？启蒙运动强调人的理性和自主性，这种神学环境使得上帝的主权作为逐渐被某种“可控性”所取代。
+
+在第一次大觉醒时期，以爱德华兹（Jonathan Edwards）为代表的古老归正观将复兴视为“上帝奇妙的作为”——一种类似于创造本身的、主权性的神迹，没有任何人可以策划。爱德华兹在其代表作《宗教情感》（Religious Affections）中，细致地分辨了何为圣灵动工产生的真实体验，何为纯粹的人为情感煽动。他明白真实的悔改是超自然新生命的注入，而非人类说服术的产物。但在启蒙运动的影响下，这种神秘感被侵蚀了。复兴的“神迹”被降级为公式的“结果”。人们认为，只要你施加正确的心理压力，使用正确的情感触发顺序，并优化布道“手段”，复兴就必然会发生。讲坛不再是宣告君王敕令的地方，它变成了人类实施心理操控和“主宰灵魂”的实验室。
 
 ## 4. 今生：查尔斯·芬尼与救恩的“工业化”
 现代决志主义真正的“父亲”是**查尔斯·芬尼（Charles Grandison Finney）**。芬尼曾是一名律师，他把讲坛当作法庭，把会众当作需要被说服的陪审团。他引入了“新手段”（New Measures）——这些技术旨在剥离人的心理防御，制造出一场人为的心理危机。
