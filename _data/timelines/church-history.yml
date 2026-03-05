@@ -272,6 +272,27 @@
   category: "theology"
   image: "/assets/img/timeline/heidelberg-catechism.jpg?v=2"
 
+- date: "1603-1609"
+  year: 1603
+  era: "reformation"
+  era_zh: "宗教改革时期"
+  title: "Arminius at Leiden University"
+  title_zh: "亚米念在莱顿大学"
+  description: "Jacobus Arminius is appointed professor at Leiden, where he begins to challenge established Reformed views on predestination and grace, laying the seeds for later theological controversy."
+  description_zh: "亚米念被任命为莱顿大学教授。在此期间，他开始对当时正统的归正预定论和恩典观提出挑战，埋下了日后神学争议的种子。"
+  category: "theology"
+
+- date: "1610"
+  year: 1610
+  era: "reformation"
+  era_zh: "宗教改革时期"
+  title: "The Remonstrance"
+  title_zh: "五大抗辩信条"
+  description: "Followers of Arminius issue the 'Five Articles of Remonstrance,' formally presenting their views on conditional election, universal atonement, and resistible grace."
+  description_zh: "亚米念的追随者发布了《五大抗辩信条》，正式提出了他们在有条件拣选、普世赎罪和可抗拒恩典等方面的神学立场，直接引发了多特会议的召开。"
+  category: "theology"
+  link: "/posts/perseverance-of-the-saints/"
+
 - date: "1618-1619"
   year: 1618
   era: "reformation"
