@@ -41,6 +41,18 @@ In the biblical logic articulated at Dort, **regeneration must precede faith.** 
 
 [以西结书 36:26-27]
 “我也要赐给你们一个新心，将新灵放在你们里面，又从你们的肉体中除掉石心，赐给你们肉心。我必将我的灵放在你们里面，使你们顺从我的律例，谨守遵行我的典章。”（和合本）
+
+[Ephesians 2:1, 4-5]
+"As for you, you were dead in your transgressions and sins... But because of his great love for us, God, who is rich in mercy, made us alive with Christ even when we were dead in transgressions—it is by grace you have been saved." (NIV)
+
+[以弗所书 2:1, 4-5]
+“你们死在过犯圣罪之中……然而，神既有丰富的怜悯，因他爱我们的大爱，当我们死在过犯中的时候，便叫我们与基督一同活过来。你们得救是本乎恩。”（和合本）
+````
+
+````quote
+"But when God performs this His good pleasure in the elect... He produces in them both the will to believe, and the act of believing also... it is a supernatural work, most powerful, and at the same time most delightful, astonishing, mysterious, and ineffable; not inferior in efficacy to creation, or the resurrection from the dead." — Canons of Dort, Third and Fourth Heads, Article 12
+
+“当上帝在选民心中成就祂的美意时……祂在他们里面既产生相信的愿望，也产生相信的行为……这是一件超自然的工作，极其有力，同时又极其令人喜悦、惊异、奥秘且不可言说；其效力绝不亚于创造或死人复活。” —— 《多特信经》，第三/四章，第十二条
 ````
 
 <div class="lang-en" markdown="1">
@@ -96,6 +108,12 @@ The legacy of Finney’s decisionism is the spiritual wasteland we see today. **
 ### 现状：虚假的确据与“撒旦的福音”
 芬尼决志主义遗留给我们的，是今天我们看到的属灵荒原。**阿瑟·宾克（A.W. Pink）**在他犀利的著作《撒旦的福音》（The Gospel of Satan）中警告说，最危险的谎言不是全然否认真理，而是那种看起来像真的、却缺乏大能的“伪造福音”。
 
+````quote
+"The 'Gospel' of Satan is not a system of revolutionary principles... it is a system of error which contains just enough truth to make it acceptable to the unwary... It is not the 'holding up of the hand' or 'signing a card' which makes a man a Christian... salvation is a miracle of grace, and not the result of some 'decision' made by the sinner." — A.W. Pink, *The Gospel of Satan*
+
+“撒旦的‘福音’不是一套革命性的原则……它是一套包含了足够真理以引诱不设防者的错误体系……使一个人成为基督徒的不是‘举手’或‘签卡’……救赎是恩典的奇迹，而不是罪人做出的某种‘决定’的结果。” —— 阿瑟·宾克，《撒旦的福音》
+````
+
 **“廉价恩典”**是决志主义的果实：没有悔改的救赎，没有新生命的称义。数以百万计的人拥有“虚假的确据”，因为他们曾经“做过一个动作”（举手或走到台前），然而他们的灵魂并未重生，仍死在罪中。
 </div>
 
@@ -111,6 +129,12 @@ As Reformed believers, we affirm: **God commands all men to repent (highlighting
 解决这个决志主义时代的方案不是“更好的技术”，而是回归**上帝的主权**。我们必须宣告：福音不是我们与上帝达成的一项协议，而是万王之王向死人发出的命令。
 
 作为归正信仰的信徒，我们确认：**上帝命令所有的人悔改（凸显了人的责任），但上帝亲自赐下那悔改（凸显了祂主权的恩典）。** 我们不需要更多的心理手段；我们需要重新敬畏那位庄稼的主，唯独祂能向枯骨吹气，使其复生。
+
+````quote
+"Free-will has carried many souls to hell, but never a soul to heaven yet." — C.H. Spurgeon
+
+“自由意志已经把许多灵魂送进了地狱，但至今还没有把一个灵魂送进天堂。” —— 司布真
+````
 </div>
 
 <div class="lang-en" markdown="1">
