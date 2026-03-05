@@ -261,6 +261,17 @@
   image: "/assets/img/timeline/luther-erasmus.jpg"
   link: "/posts/misunderstood-irresistible-grace/"
 
+- date: "c. 1525"
+  year: 1525
+  era: "reformation"
+  era_zh: "宗教改革时期"
+  title: "Rise of Anabaptism (Radical Reformation)"
+  title_zh: "重洗派（激进改革运动）的兴起"
+  description: "The Radical Reformation begins in Zurich as Conrad Grebel and others break with Zwingli, rejecting infant baptism and insisting on 'believer's baptism.' By rejecting the church-state covenant and re-baptizing those previously baptized as infants, they were condemned as heretics by both Catholics and mainstream Reformers."
+  description_zh: "苏黎世的康拉德·格列伯等人因为拒绝婴儿洗礼并坚持“信徒洗礼”而与慈运理决裂，开启了激进改革运动。他们全盘否定政教盟约并重新洗礼，因此被天主教和主流改教者一致判定为异端。"
+  category: "heresy"
+  image: "/assets/img/timeline/anabaptism.jpg"
+
 - date: "1536"
   year: 1536
   era: "reformation"
