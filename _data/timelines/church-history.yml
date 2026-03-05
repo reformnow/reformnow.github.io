@@ -227,6 +227,17 @@
   category: "reformation"
   image: "/assets/img/timeline/luther-95-theses.jpg?v=2"
 
+- date: "1519"
+  year: 1519
+  era: "reformation"
+  era_zh: "宗教改革时期"
+  title: "Zwingli's Lectures in Zurich"
+  title_zh: "慈运理在苏黎世的讲坛改革"
+  description: "Huldrych Zwingli begins preaching through the New Testament verse-by-verse (Lectio Continua) at the Grossmünster in Zurich. This marks the beginning of the Swiss Reformation, characterized by a return to Scripture as the sole authority and the removal of statues and traditional rituals."
+  description_zh: "胡德里希·慈运理在苏黎世大教堂开始逐节讲解新约圣经（连续讲经）。这标志着瑞士宗教改革的开始，其特点是回归圣经作为唯一权威，并移除了偶像雕像和传统仪式。"
+  category: "reformation"
+  image: "/assets/img/timeline/zwingli-zurich.jpg"
+
 - date: "1521"
   year: 1521
   era: "reformation"
@@ -271,6 +282,17 @@
   description_zh: "苏黎世的康拉德·格列伯等人因为拒绝婴儿洗礼并坚持“信徒洗礼”而与慈运理决裂，开启了激进改革运动。他们全盘否定政教盟约并重新洗礼，因此被天主教和主流改教者一致判定为异端。"
   category: "heresy"
   image: "/assets/img/timeline/anabaptism.jpg"
+
+- date: "1529"
+  year: 1529
+  era: "reformation"
+  era_zh: "宗教改革时期"
+  title: "Marburg Colloquy"
+  title_zh: "马尔堡会谈"
+  description: "A meeting between Martin Luther and Huldrych Zwingli to unite the German and Swiss Reformations. They agreed on 14 out of 15 articles but famously disagreed on the real presence of Christ in the Lord's Supper, leading to a permanent split between the Lutheran and Reformed traditions."
+  description_zh: "马丁·路德与胡德里希·慈运理会面，试图统一德国和瑞士的改革运动。他们在15条条款中达成了14条共识，但在圣餐中基督是否真实临在的问题上产生了著名的分歧，导致了路德宗和归正宗传统之间的永久分裂。"
+  category: "theology"
+  image: "/assets/img/timeline/marburg-colloquy.jpg"
 
 - date: "1536"
   year: 1536
