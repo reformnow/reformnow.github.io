@@ -10,39 +10,56 @@
   >
 
   {%- capture seo_tags -%}
-    {% seo title=false %}
+    {% seo title=false description=false %}
   {%- endcapture -%}
 
-  <!-- Setup Open Graph image -->
+  {%- assign seo_title = page.title -%}
+  {% if page.title_zh %}
+    {% assign seo_title = page.title_zh | append: " | " | append: page.title %}
+  {% endif %}
 
+  {%- if page.description -%}
+    {%- assign seo_description = page.description -%}
+    {%- if page.description_zh -%}
+      {%- assign seo_description = page.description_zh | append: " " | append: page.description -%}
+    {%- endif -%}
+  {%- else -%}
+    {%- assign seo_description = site.description -%}
+  {%- endif -%}
+
+  <!-- Update SEO tags with bilingual content -->
+  {%- capture bilingual_meta -%}
+    <meta name="description" content="{{ seo_description | strip_html | strip_newlines | truncate: 160 }}">
+    <meta property="og:title" content="{{ seo_title }}">
+    <meta property="og:description" content="{{ seo_description | strip_html | strip_newlines | truncate: 160 }}">
+    <meta name="twitter:title" content="{{ seo_title }}">
+    <meta name="twitter:description" content="{{ seo_description | strip_html | strip_newlines | truncate: 160 }}">
+  {%- endcapture -%}
+
+  {% assign seo_tags = seo_tags | append: bilingual_meta %}
+
+  <!-- Setup Open Graph image -->
   {% if page.image %}
     {% assign src = page.image.path | default: page.image %}
-
     {% unless src contains '://' %}
       {%- capture img_url -%}
         {% include media-url.html src=src subpath=page.media_subpath absolute=true %}
       {%- endcapture -%}
-
       {%- capture old_url -%}{{ src | absolute_url }}{%- endcapture -%}
       {%- capture new_url -%}{{ img_url }}{%- endcapture -%}
-
       {% assign seo_tags = seo_tags | replace: old_url, new_url %}
     {% endunless %}
-
   {% elsif site.social_preview_image %}
     {%- capture img_url -%}
       {% include media-url.html src=site.social_preview_image absolute=true %}
     {%- endcapture -%}
-
     {%- capture og_image -%}
       <meta property="og:image" content="{{ img_url }}" />
     {%- endcapture -%}
-
     {%- capture twitter_image -%}
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="twitter:image" content="{{ img_url }}" />
     {%- endcapture -%}
-
     {% assign old_meta_clip = '<meta name="twitter:card" content="summary" />' %}
     {% assign new_meta_clip = og_image | append: twitter_image %}
     {% assign seo_tags = seo_tags | replace: old_meta_clip, new_meta_clip %}
@@ -52,7 +69,7 @@
 
   <title>
     {%- unless page.layout == 'home' -%}
-      {{ page.title | append: ' | ' }}
+      {{ seo_title | append: ' | ' }}
     {%- endunless -%}
     {{ site.title }}
   </title>
