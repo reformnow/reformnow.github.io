@@ -216,6 +216,18 @@
   category: "reformation"
   image: "/assets/img/timeline/diet-of-worms.jpg?v=2"
 
+- date: "1524-1525"
+  year: 1525
+  era: "reformation"
+  era_zh: "宗教改革时期"
+  title: "Luther vs. Erasmus: The Debate on Free Will"
+  title_zh: "路德与伊拉斯谟：论自由意志的辩论"
+  description: "Erasmus publishes 'On the Freedom of the Will' (1524), advocating for human cooperation in salvation. Luther responds with 'The Bondage of the Will' (1525), decisively arguing that the human will is enslaved to sin and entirely dependent on sovereign grace for salvation."
+  description_zh: "伊拉斯谟出版《论自由意志》（1524），主张神人合作救恩。路德以《意志的束缚》（1525）回击，断言人的意志被罪奴役，救恩完全取决于上帝主权的恩典。"
+  category: "theology"
+  image: "/assets/img/timeline/luther-erasmus.jpg"
+  link: "/posts/misunderstood-irresistible-grace/"
+
 - date: "1536"
   year: 1536
   era: "reformation"
