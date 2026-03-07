@@ -13,7 +13,7 @@ image:
 
 <div class="lang-en" markdown="1">
 
-## Introduction: The Worst-Named "Crown Jewel"
+## 1. Introduction: The Worst-Named "Crown Jewel"
 
 Among the Five Points of Calvinism (TULIP), the letter "L"—Limited Atonement—is perhaps the most misunderstood and frequently attacked. Often referred to as "Particular Redemption," this doctrine is seen by some as a restriction on God’s love, as if a wall were built around the cross.
 
@@ -28,7 +28,7 @@ However, this critique misses the consistent witness of Reformed orthodoxy. As D
 
 <div class="lang-zh" markdown="1">
 
-## 引言：名声最差的“皇冠珠宝”
+## 1. 引言：名声最差的“皇冠珠宝”
 
 在加尔文主义五要点（TULIP）中，字母“L”——有限的救恩（Limited Atonement，又称“特定的救赎” Particular Redemption）——或许是最受误解、也是最常被攻击的一个。许多人将其视为对上帝之爱的限制，认为它在十字架周围筑起了高墙。
 
@@ -45,7 +45,7 @@ However, this critique misses the consistent witness of Reformed orthodoxy. As D
 
 <div class="lang-en" markdown="1">
 
-## Divine Law: The Trap of Double Jeopardy
+## 2. Divine Law: The Trap of Double Jeopardy
 
 To understand Limited Atonement, we must step into the courtroom of divine justice. God is a righteous Judge who cannot compromise His own Law. Sin is a debt, and "the wages of sin is death" (Romans 6:23).
 
@@ -68,7 +68,7 @@ Therefore, Limited Atonement declares that Christ’s death was not designed to 
 
 <div class="lang-zh" markdown="1">
 
-## 救赎的法律逻辑：双重追讨的阱陷
+## 2. 救赎的法律逻辑：双重追讨的阱陷
 
 要理解有限的救恩，我们必须进入神圣公义的法庭。上帝是公义的审判者，祂绝不妥协于自己的律法。罪是欠神的债，而“罪的工价乃是死”（罗马书 6:23）。
 
@@ -95,7 +95,7 @@ Therefore, Limited Atonement declares that Christ’s death was not designed to 
 
 <div class="lang-en" markdown="1">
 
-## Scriptural Testimony: For Whom Did Christ Die?
+## 3. Scriptural Testimony: For Whom Did Christ Die?
 
 Does the Bible say Christ died for everyone in a generic, non-saving way, or for a specific people in a saving way? The testimony of Scripture points to the latter.
 
@@ -117,7 +117,7 @@ If Christ died for everyone equally, then His love for the Church would be no di
 
 <div class="lang-zh" markdown="1">
 
-## 圣经的见证：基督为“谁”而死？
+## 3. 圣经的见证：基督为“谁”而死？
 
 圣经是说明基督是以一种普遍、非拯救性的方式为所有人死，还是以一种特定的、拯救性的方式为属祂的人死？圣经的见证指向了后者。
 
@@ -141,7 +141,7 @@ If Christ died for everyone equally, then His love for the Church would be no di
 
 <div class="lang-en" markdown="1">
 
-## Clash with Decisionism: Efficacy vs. Possibility
+## 4. Clash with Decisionism: Efficacy vs. Possibility
 
 The modern "Decisionalist" view, influenced significantly by figures like Charles Finney, argues that Christ's death only provided a **"possibility of salvation."**
 
@@ -158,7 +158,7 @@ This view reduces the power of the blood of Christ to a mere "offer." It portray
 
 <div class="lang-zh" markdown="1">
 
-## 与决志主义的对决：效力还是可能性？
+## 4. 与决志主义的对决：效力还是可能性？
 
 现代的“决志主义”观点（深受查尔斯·芬尼等人的影响）辩称，基督的死仅提供了一种**“救赎的可能性”**。
 
@@ -177,7 +177,7 @@ This view reduces the power of the blood of Christ to a mere "offer." It portray
 
 <div class="lang-en" markdown="1">
 
-## The Foundation of Assurance
+## 5. The Foundation of Assurance
 
 Many fear that Limited Atonement robs them of assurance. Actually, it is the only doctrine that can provide it. If Christ died for everyone but many still go to hell, then the cross is no guarantee of my safety. My salvation would depend on my "choice" or my "holding on," making the cross a shaky foundation.
 
@@ -199,7 +199,7 @@ As Charles Spurgeon famously put it:
 
 <div class="lang-zh" markdown="1">
 
-## 确据的根基
+## 5. 确据的根基
 
 许多人担心有限的救恩会夺走他们的得救确据。事实上，唯有这一教义能提供真正的确据。如果基督为所有人死，但许多人依然下地狱，那么十字架就不是我安全的保障。我的救恩将取决于我的“选择”或“坚持”，使十字架变成一个动摇的根基。
 
@@ -223,7 +223,7 @@ As Charles Spurgeon famously put it:
 
 <div class="lang-en" markdown="1">
 
-## Conclusion: Victory, Not Potential
+## 6. Conclusion: Victory, Not Potential
 
 Limited Atonement is the crown jewel of the TULIP because it defends the sheer power of the cross. It presents a Christ who does not just "try" to save, but who **successfully saves**. It reveals an Almighty God who does not wait for human permission to be victorious.
 
@@ -233,7 +233,7 @@ The "narrow gate" of the cross leads to the widest imaginable sky—the sky of a
 
 <div class="lang-zh" markdown="1">
 
-## 结语：是胜利，而非潜力
+## 6. 结语：是胜利，而非潜力
 
 有限的救恩是 TULIP 的皇冠珠宝，因为它捍卫了十字架纯粹的大能。它呈现了一位不只是“尝试”救赎、而是**“成功救赎”**的基督。它揭示了一位全能的上帝，祂不需等待人的许可就能得胜。
 
