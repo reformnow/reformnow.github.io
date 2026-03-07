@@ -26,8 +26,6 @@ However, this critique misses the consistent witness of Reformed orthodoxy. As D
 
 </div>
 
-</div>
-
 <div class="lang-zh" markdown="1">
 
 ## 引言：名声最差的“皇冠珠宝”
@@ -40,8 +38,6 @@ However, this critique misses the consistent witness of Reformed orthodoxy. As D
 “这是神最自由的、至高目的。……基督借着在十字架上流出的宝血，……确实地救赎了那些从永恒中被拣选得救的人。”
 — 多特信经 (Canons of Dort), 第二部分，第八条
 ```
-
-</div>
 
 </div>
 
@@ -70,8 +66,6 @@ Therefore, Limited Atonement declares that Christ’s death was not designed to 
 
 </div>
 
-</div>
-
 <div class="lang-zh" markdown="1">
 
 ## 救赎的法律逻辑：双重追讨的阱陷
@@ -94,8 +88,6 @@ Therefore, Limited Atonement declares that Christ’s death was not designed to 
 “基督为之买赎了救赎的人，祂必将这救赎确定且有效地应用并传达给他们。”
 — 威斯敏斯特信条 (Westminster Confession), 8.8
 ```
-
-</div>
 
 </div>
 
@@ -164,8 +156,6 @@ This view reduces the power of the blood of Christ to a mere "offer." It portray
 
 </div>
 
-</div>
-
 <div class="lang-zh" markdown="1">
 
 ## 与决志主义的对决：效力还是可能性？
@@ -180,8 +170,6 @@ This view reduces the power of the blood of Christ to a mere "offer." It portray
 “基督的血是全世界的赎价……但并非所有人都得到了释放。救赎的属性是普遍的，但其果效却归于那些被拣选的人。”
 — 阿奎那的普罗斯珀 (Prosper of Aquitaine), *Responses to the Gauls*
 ```
-
-</div>
 
 </div>
 
@@ -209,8 +197,6 @@ As Charles Spurgeon famously put it:
 
 </div>
 
-</div>
-
 <div class="lang-zh" markdown="1">
 
 ## 确据的根基
@@ -230,8 +216,6 @@ As Charles Spurgeon famously put it:
 “我情愿相信一个确实能救出部分人的救恩，也不愿相信一个试图救所有人却最终依赖人意的虚弱救恩。”
 — 查尔斯·司布真 (C.H. Spurgeon)
 ```
-
-</div>
 
 </div>
 
