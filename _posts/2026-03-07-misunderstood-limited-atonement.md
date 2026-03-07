@@ -7,7 +7,7 @@ tags: [limited-atonement, TULIP, grace, soteriology, bilingual]
 description: "The doctrine of Limited Atonement is often accused of narrowness, but it actually defends the absolute efficacy of Christ's work on the cross."
 description_zh: "‘有限的救恩’常被指责为狭隘，但它真正捍卫的是：基督在十字架上的工作不是一种‘可能救赎的提议’，而是一个‘确实成就的胜利’。"
 image:
-  path: /assets/img/posts/limited_atonement.png
+  path: /assets/img/posts/limited_atonement_efficacy.png
   alt: "Limited Atonement and the Efficacy of the Cross"
 ---
 
