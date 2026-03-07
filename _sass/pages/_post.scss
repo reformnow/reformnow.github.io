@@ -16,12 +16,6 @@
 }
 
 header {
-  h1 {
-    @include bp.lt(bp.get(lg)) {
-      display: none;
-    }
-  }
-
   .post-desc {
     @extend %heading;
 
