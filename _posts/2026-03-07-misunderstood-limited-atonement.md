@@ -141,7 +141,53 @@ If Christ died for everyone equally, then His love for the Church would be no di
 
 <div class="lang-en" markdown="1">
 
-## 4. Clash with Decisionism: Efficacy vs. Possibility
+## 4. The Historical Witness: Catholic Roots before Dort
+
+The claim that Limited Atonement was a 17th-century invention is historically false. This doctrine has roots deep in the Augustinian tradition of the Western Church. St. Augustine himself, in his later works, interpreted the scope of salvation in terms of God's specific decree rather than a vague, general potential.
+
+```quote
+"No one of the elect perishes... God wills all men to be saved, meaning all types of men through the elect of all nations."
+— St. Augustine (De Correptione et Gratia)
+```
+
+In the 9th century, long before the Reformation, the **Council of Valence (855)** issued a decree that directly prefigured the Canons of Dort, responding to the controversies of Gottschalk of Orbais.
+
+```quote
+"We believe with confidence that our Lord Jesus Christ gave the price of His blood for those alone of whom He Himself says: 'I give my life for my sheep' (John 10:15)."
+— Canons of the Council of Valence (855), Canon 4
+```
+
+This demonstrates that the "catholicity" of the doctrine is based on the historic defense of sovereign grace against the rise of semi-Pelagianism throughout church history.
+
+</div>
+
+<div class="lang-zh" markdown="1">
+
+## 4. 历史的见证：多特之前的大公根基
+
+有一种普遍的误解认为，“有限的救恩”是 17 世纪一群加尔文主义者凭空发明的。事实上，这一教义深深植根于西方教会的奥古斯丁传统中。圣奥古斯丁本人在后期的著作中，就从上帝特定的旨意角度来阐述救恩的范围，而非将其视为一种模糊的、普遍的可能性。
+
+```quote
+“选民中没有一个会灭亡……神愿万人得救，意指通过各国中的选民，使各样的人得救。”
+— 圣奥古斯丁 (De Correptione et Gratia)
+```
+
+在 9 世纪——远在改教运动之前——围绕**哥特沙尔克**（Gottschalk of Orbais）的争议中，**瓦朗斯会议**（Council of Valence, 855 AD）发布的法令直接预表了多特信条的内容：
+
+```quote
+“我们确信地相信，我们的主耶稣基督只为那些祂亲自提及的人付出了血的代价，祂说：‘我为羊舍命’（约翰福音 10:15）。”
+— 瓦朗斯会议 (855 AD), 条款 4
+```
+
+这证明了该教义的“大公性”并非新创，而是建立在历史上对主权恩典的持续捍卫，以驳斥历代不断抬头的半伯拉纠主义。
+
+</div>
+
+---
+
+<div class="lang-en" markdown="1">
+
+## 5. Clash with Decisionism: Efficacy vs. Possibility
 
 The modern "Decisionalist" view, influenced significantly by figures like Charles Finney, argues that Christ's death only provided a **"possibility of salvation."**
 
@@ -158,7 +204,7 @@ This view reduces the power of the blood of Christ to a mere "offer." It portray
 
 <div class="lang-zh" markdown="1">
 
-## 4. 与决志主义的对决：效力还是可能性？
+## 5. 与决志主义的对决：效力还是可能性？
 
 现代的“决志主义”观点（深受查尔斯·芬尼等人的影响）辩称，基督的死仅提供了一种**“救赎的可能性”**。
 
@@ -177,7 +223,7 @@ This view reduces the power of the blood of Christ to a mere "offer." It portray
 
 <div class="lang-en" markdown="1">
 
-## 5. The Foundation of Assurance
+## 6. The Foundation of Assurance
 
 Many fear that Limited Atonement robs them of assurance. Actually, it is the only doctrine that can provide it. If Christ died for everyone but many still go to hell, then the cross is no guarantee of my safety. My salvation would depend on my "choice" or my "holding on," making the cross a shaky foundation.
 
@@ -199,7 +245,7 @@ As Charles Spurgeon famously put it:
 
 <div class="lang-zh" markdown="1">
 
-## 5. 确据的根基
+## 6. 确据的根基
 
 许多人担心有限的救恩会夺走他们的得救确据。事实上，唯有这一教义能提供真正的确据。如果基督为所有人死，但许多人依然下地狱，那么十字架就不是我安全的保障。我的救恩将取决于我的“选择”或“坚持”，使十字架变成一个动摇的根基。
 
@@ -223,7 +269,7 @@ As Charles Spurgeon famously put it:
 
 <div class="lang-en" markdown="1">
 
-## 6. Conclusion: Victory, Not Potential
+## 7. Conclusion: Victory, Not Potential
 
 Limited Atonement is the crown jewel of the TULIP because it defends the sheer power of the cross. It presents a Christ who does not just "try" to save, but who **successfully saves**. It reveals an Almighty God who does not wait for human permission to be victorious.
 
@@ -233,7 +279,7 @@ The "narrow gate" of the cross leads to the widest imaginable sky—the sky of a
 
 <div class="lang-zh" markdown="1">
 
-## 6. 结语：是胜利，而非潜力
+## 7. 结语：是胜利，而非潜力
 
 有限的救恩是 TULIP 的皇冠珠宝，因为它捍卫了十字架纯粹的大能。它呈现了一位不只是“尝试”救赎、而是**“成功救赎”**的基督。它揭示了一位全能的上帝，祂不需等待人的许可就能得胜。
 
