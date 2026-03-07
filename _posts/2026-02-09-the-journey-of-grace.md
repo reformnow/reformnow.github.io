@@ -45,6 +45,8 @@ Central to understanding the journey of grace is the "Golden Chain" of salvation
 For those whom he foreknew he also predestined to be conformed to the image of his Son, in order that he might be the firstborn among many brothers. And those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified. (Romans 8:29-30)
 ```
 
+The first link in this chain, "foreknew," is often misused to support the idea of "foreseen faith"—that God’s choice is merely a reaction to a future human decision. However, this interpretation involves two fatal errors. First, it is an act of **eisegesis** (reading into the text): the verse does not say God foreknew *the faith* of certain people, but that He foreknew *the people* themselves. Adding "faith" to the text is a human invention that shifts the source of salvation from God to man. Second, if "foreknowledge" were merely intellectual awareness, then because God is **omniscient** (all-knowing) and knows everyone who has ever lived, the "Golden Chain" would imply that every human being is predestined, called, justified, and glorified. We know this is not the case. Therefore, the "knowing" in this context must refer to a specific, relational, and saving affection—an intimate choice of love before the foundation of the world, much like how Adam "knew" Eve in Genesis 4:1.
+
 </div>
 
 <div class="lang-zh" markdown="1">
@@ -57,6 +59,8 @@ For those whom he foreknew he also predestined to be conformed to the image of h
 因为他预先所知道的人，就预先定下模塑成他儿子的形像，使他儿子在许多弟兄中作长子。预先所定下的人又召他们来；所召来的人又称他们为义；所称为义的人又叫他们得荣耀。（罗马书 8:29-30）
 ```
 
+“预先所知道”（foreknew）是金链第一个环节，也是极易被误解的一个词。亚米念主义者常将其解释为“预见信心”，即神预见谁会信，所以才预定。但这种观点存在两个严重的神学错误。首先，这是一种**“私意解经”**（eisegesis）：经文说的是神预知**“人”**，而不是预知**“人的信心”**。在经文中强行加上“信心”二字，是将人的意思读进圣经，而非以经解经。其次，从逻辑上讲，上帝是**全知**的，祂预知每一个受造物，若这里的“知道”仅指智力上的知晓，那么全人类都应被列入这环环相扣的救恩金链中。显然，事实并非如此。这里的“知道”必须是指一种特殊的、拯救性的爱。正如创世记 4:1 说“那人认识（知道）他的妻子”，这里的“知道”是一种亲密的契合与立约的爱。因此，神“预先知道”祂的子民，是指祂在创世以前就预先将主权的爱倾注在他们身上。
+
 </div>
 
 <div class="lang-en" markdown="1">
@@ -65,7 +69,7 @@ For those whom he foreknew he also predestined to be conformed to the image of h
 
 The journey does not begin with our choice, but with God’s choice. This is perhaps the most humbling truth in all of Scripture. God did not wait for us to improve ourselves or to seek Him out. In His infinite wisdom and love, He set His affection upon His people before the world was even spoken into existence.
 
-This choice was not based on any foreseen merit, future faith, or hidden goodness within us. If God had waited for us to be "worthy" of His choice, the journey would never have begun. Instead, He chose us according to the good pleasure of His will, so that the glory of His grace might be displayed through our utter dependence on Him.
+This choice was not based on any foreseen merit, future faith, or hidden goodness within us. If God had waited for us to be "worthy" of His choice, the journey would never have begun. Instead, He chose us according to the good pleasure of His will, so that the glory of His grace might be displayed through our utter dependence on Him. This is the doctrine of **unconditional election**, which stands in stark contrast to any system that makes God's decree dependent on human cooperation. As the Synod of Dort (1618-19) affirmed, election is the "fountain of every saving good."
 
 ```bible
 Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places, even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. (Ephesians 1:3-4)
@@ -79,7 +83,7 @@ Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Ch
 
 旅程并非始于我们的选择，而是始于神的选择。这也许是圣经中最令人谦卑的真理。神并没有等待我们完善自己或主动寻找祂。在祂无穷的智慧和爱中，祂在世界被造之前就已经将爱倾注在祂的子民身上。
 
-这个选择不是基于预见的功绩、未来的信心或是我们里面隐藏的良善。如果神等待我们变得“配得”祂的选择，那么这趟旅程永远不会开始。相反，祂按着自己意旨所喜悦的预定了我们，为要使祂荣耀的恩典，得着称赞。
+这个选择不是基于预见的功绩、未来的信心或是我们里面隐藏的良善。如果神等待我们变得“配得”祂的选择，那么这趟旅程永远不会开始。相反，祂按着自己意旨所喜悦的预定了我们，为要使祂荣耀的恩典，得着称赞。这就是**无条件的拣选**，它否定了任何认为神的旨意取决于人的意愿的体制。正如多特法典（Synod of Dort）所言，拣选是“一切拯救之福的源头”。
 
 ```bible
 愿赞美归与我们主耶稣基督的父神！他在基督里曾赐给我们天上各样属灵的福气：就如神从创立世界以前，在基督里拣选了我们，使我们在他面前成为圣洁，无有瑕疵。（以弗所书 1:3-4）
@@ -121,7 +125,7 @@ And you were dead in the trespasses and sins in which you once walked... among w
 
 How does God bridge the gap between His eternal purpose and our temporal state of death? He does so through His call. But this is not merely a general invitation that can be ignored or rejected. While the general call of the gospel goes out to all people through preaching, there is a special, "effectual call" that God issues to His own.
 
-When Jesus stood before the tomb of Lazarus and shouted, "Lazarus, come out!", it was not a suggestion. It was a creative command that imparted the very life it demanded. In the same way, when God calls a sinner into His kingdom, He does not just provide information; He provides transformation. He speaks, and the heart that was previously deaf begins to hear the music of the gospel.
+When Jesus stood before the tomb of Lazarus and shouted, "Lazarus, come out!", it was not a suggestion. It was a creative command that imparted the very life it demanded. In the same way, when God calls a sinner into His kingdom, He does not just provide information; He provides transformation. This is a **monergistic** work—God alone is the actor. He speaks, and the heart that was previously deaf begins to hear the music of the gospel. The external call of the preacher becomes the internal, irresistible call of the Spirit.
 
 ```bible
 No one can come to me unless the Father who sent me draws him. And I will raise him up on the last day. (John 6:44)
@@ -135,7 +139,7 @@ No one can come to me unless the Father who sent me draws him. And I will raise 
 
 神如何弥合祂永恒的旨意与我们暂时的死亡状态之间的鸿沟？祂通过呼召来实现。但这不仅仅是一个可以被忽视或拒绝的一般性邀请。虽然福音的“普遍呼召”通过讲道传达给所有人，但神对属祂的人发出了一种特殊的、“有效的呼召”。
 
-当耶稣站在拉撒路的坟墓前大喊“拉撒路，出来！”时，那不是一个建议。那是一个创造性的命令，赋予了它所要求的生命。同样地，当神呼召一个罪人进入祂的国度时，祂不只是提供信息，祂提供的是转化。祂说话，那原本耳聋的心就开始听到福音的旋律。
+当耶稣站在拉撒路的坟墓前大喊“拉撒路，出来！”时，那不是一个建议。那是一个创造性的命令，赋予了它所要求的生命。同样地，当神呼召一个罪人进入祂的国度时，祂不只是提供信息，祂提供的是转化。这是一个**“神单方面的作为”**（Monergism）——唯独神是行动者。祂说话，那原本耳聋的心就开始听到福音的旋律。传道人外在的呼召，因着圣灵变为了内在、不可抗拒的有效呼召。
 
 ```bible
 若不是差我来的父吸引人，就没有能到我这里来的；到我这里来的，在末日我要叫他复活。（约翰福音 6:44）
@@ -205,7 +209,7 @@ For by grace you have been saved through faith. And this is not your own doing; 
 
 Having been brought to faith, the believer enters into a new legal standing before God. This is the doctrine of justification. It is not a process of becoming holy (that is sanctification), but a legal declaration by God the Judge that the sinner is "not guilty" and is, in fact, "righteous" in His sight.
 
-How can a holy God declare a sinner righteous? He does so through what is often called "the Great Exchange." On the cross, our sins were counted to Christ, and He suffered the full wrath of God that we deserved. In return, the perfect righteousness of Christ is counted to us.
+How can a holy God declare a sinner righteous? He does so through what is often called "the Great Exchange." On the cross, our sins were counted to Christ, and He suffered the full wrath of God that we deserved. In return, the perfect righteousness of Christ is counted to us. This is not a "legal fiction," but a forensic reality based on our union with Christ. As the reformers emphasized, we are *simul iustus et peccator*—simultaneously righteous (in standing) and a sinner (in practice).
 
 ```bible
 For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God. (2 Corinthians 5:21)
@@ -223,7 +227,7 @@ Therefore, since we have been justified by faith, we have peace with God through
 
 信徒有了信心，就在神面前进入了一个新的法律地位。这就是称义的教义。称义不是一个变得圣洁的过程（那是成圣），而是审判者神的一个法律宣告，宣布罪人是“无罪的”，事实上，在祂眼中是“公义的”。
 
-圣洁的神怎能宣告罪人为义？祂是通过通常所说的“伟大的交换”来实现的。在十字架上，我们的罪被算在基督身上，祂承担了我们应得的所有忿怒。作为回报，基督完美的义被算在我们身上。
+圣洁的神怎能宣告罪人为义？祂是通过通常所说的“伟大的交换”来实现的。在十字架上，我们的罪被算在基督身上，祂承担了我们应得的所有忿怒。作为回报，基督完美的义被算在我们身上。这并非“法律上的虚构”，而是基于我们与基督联合的法庭式事实。正如改教家所强调的，我们是**“义人，同时也是罪人”**（simul iustus et peccator）——在地位上是义的，在实际中仍有残余的罪。
 
 ```bible
 神使那无罪的，替我们成为罪，好叫我们在他里面成为神的义。（哥林多后书 5:21）
@@ -297,7 +301,7 @@ In sanctification, the power of sin is gradually broken, and the image of God is
 
 One might wonder: after all this, could the believer yet fall away? Could the journey end in failure? If the journey depended on our strength, the answer would surely be yes. But the journey of grace is sustained by the same power that began it. This is the doctrine of the perseverance of the saints.
 
-God does not merely start the work and then leave us to finish it. He protects us, disciplines us, and restores us. He who began a good work will bring it to completion. The same "golden chain" that began in eternity past reaches to eternity future without a single broken link.
+God does not merely start the work and then leave us to finish it. He protects us, disciplines us, and restores us. He who began a good work will bring it to completion. The same "golden chain" that began in eternity past reaches to eternity future without a single broken link. Our perseverance is the result of **God's preservation**. As Charles Spurgeon once said, "If one dear saint of God had perished, so might all." But because Christ lives, we shall live also.
 
 ```bible
 My sheep hear my voice, and I know them, and they follow me. I give them eternal life, and they will never perish, and no one will snatch them out of my hand. (John 10:27-28)
@@ -311,7 +315,7 @@ My sheep hear my voice, and I know them, and they follow me. I give them eternal
 
 有人可能会问：在这一切之后，信徒仍有可能坠落吗？旅程会以失败告终吗？如果旅程取决于我们的力量，答案肯定是的。但恩典之旅是由开始它的同一大能所支撑的。这就是圣徒坚忍的教义。
 
-神不仅仅是开启了这项工作然后留给我们去完成。祂保护我们、管教我们、恢复我们。那在你们心里动了善工的，必成就这工。罗马书 8 章中那条“金链”始于永恒的过去，延续到永恒的未来，没有一个环节是断裂的。
+神不仅仅是开启了这项工作然后留给我们去完成。祂保护我们、管教我们、恢复我们。那在你们心里动了善工的，必成就这工。罗马书 8 章中那条“金链”始于永恒的过去，延续到永恒未来的荣耀，没有一个环节会断裂。信徒的坚忍实际上是**神的保守**。正如司布真所说：“如果神的一个亲爱圣徒灭亡了，那么所有人都有可能灭亡。”但因为基督活着，我们也必活着。
 
 ```bible
 我的羊听我的声音，我也认识他们，他们也跟着我。我又赐给他们永生；他们永不灭亡，谁也不能从我手里把他们夺去。（约翰福音 10:27-28）
