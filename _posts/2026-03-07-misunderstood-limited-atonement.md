@@ -1,6 +1,6 @@
 ---
-title: "Misunderstood Doctrine: Limited Atonement"
-title_zh: "被误解的教义：有限的救恩"
+title: "Misunderstood Doctrine: Limited Atonement - Is God Unloving or Unjust?"
+title_zh: "被误解的教义：有限的救恩 - 神岂是缺少爱心，而且不够公义的呢？"
 date: 2026-03-07 10:00:00 +0000
 categories: [Theology, Salvation]
 tags: [limited-atonement, TULIP, grace, soteriology, bilingual]
