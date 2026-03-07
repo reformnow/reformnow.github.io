@@ -59,7 +59,7 @@ When Christ died on the cross, He was not merely performing a "demonstration of 
 
 ### The Double Jeopardy Absurdity
 
-If God has already punished Christ for the sins of an individual, yet on Judgment Day He throws that same individual into hell to suffer the penalty again because of their unbelief, then God has committed an act of **Double Jeopardy**. This would mean God is collecting the same debt twice—once from the Surety (Christ) and once from the debtor. Such an act would contradict the very justice of God. 
+If God has already punished Christ for the sins of an individual, yet on Judgment Day He throws that same individual into hell to suffer the penalty again because of their unbelief, then God has committed an act of **Double Jeopardy**. This logic, famously refined by **John Owen** in his 1647 masterpiece *The Death of Death in the Death of Christ*, argues that God is a just Creditor who cannot collect the same debt twice—once from the Surety (Christ) and once from the debtor. The 18th-century hymn-writer **Augustus Toplady** later popularized this in verse: "Payment God cannot twice demand, First at my bleeding Surety's hand, And then again at mine." To do so would contradict the very justice of God.
 
 Therefore, Limited Atonement declares that Christ’s death was not designed to make salvation "possible," but to make it **"certain"** for His people. As the Westminster Confession succinctly states regarding the purchase of salvation:
 
@@ -84,7 +84,9 @@ Therefore, Limited Atonement declares that Christ’s death was not designed to 
 
 ### “双重追讨”的荒谬
 
-如果上帝在基督身上已经刑罚了某些人的罪，但在审判那日，又因为这些人的不信而再次将他们投入地狱受刑，这在法理上就构成了**“双重追讨”**。这意味着上帝对同一笔债务进行了两次追讨——一次从担保人（基督）那里，一次从债务人那里。这样的行径将违背上帝自身的公义。
+如果上帝在基督身上已经刑罚了某些人的罪，但在审判那日，又因为这些人的不信而再次将他们投入地狱受刑，这在法理上就构成了**“双重追讨”**。
+
+这一逻辑最著名的论述者是 **约翰·欧文**（John Owen）。他在 1647 年的神学巨著《基督之死所带来的死之死》中指出：上帝是一位公义的债主，祂绝不会对同一笔债务索取两次偿付——一次在担保人（基督）手中，一次在债务（罪人）手中。18 世纪的圣诗作家**奥古斯都·托普雷迪**（Augustus Toplady）后来在诗中也精彩地表达了这一点：“上帝不能两次索取偿还，先在流血的担保人手中，继而又要求我来承担。” 违背这一原则，实际上是宣告上帝是不公义的债主。
 
 因此，有限的救恩宣告：基督的死不是为了让救赎变得“可能”，而是为了让救赎变得“确定”。正如威斯敏斯特信条在谈到救赎的买赎时简洁地指出：
 
