@@ -123,7 +123,7 @@
   description: "Emperor Theodosius I issues the Edict of Thessalonica, declaring Nicene Christianity the sole official religion of the Roman Empire and effectively ending state support for paganism."
   description_zh: "皇帝狄奥多西一世颁布《萨洛尼卡敕令》，宣布尼西亚立场的基督教为罗马帝国唯一的官方宗教。这标志着基督教正式成为帝国国教，并终结了国家对异教运动的支持。"
   category: "history"
-  image: "/assets/img/timeline/edict-thessalonica.jpg"
+  image: "/assets/img/timeline/edict-thessalonica.jpg?v=2"
 
 - date: "381 AD"
   year: 381
@@ -145,7 +145,7 @@
   description: "Pelagius, a British monk, teaches that human nature is essentially good and that Adam's sin affected only himself, not the human race. He argues that humans have the full capacity to live without sin and achieve salvation through free will and effort, denying the necessity of divine grace."
   description_zh: "英国修士伯拉纠教导说，人性本善，且亚当的罪只影响了他自己，而非全人类。他主张人类完全有能力靠着自由意志和努力不犯罪，以此获得救恩，从而否认了神圣恩典的必要性。这一学说是彻头彻尾的自救论异端。"
   category: "heresy"
-  image: "/assets/img/timeline/pelagianism-rise.jpg"
+  image: "/assets/img/timeline/pelagianism.jpg?v=2"
 
 - date: "c. 386-430 AD"
   year: 410
@@ -190,7 +190,7 @@
   description: "John Cassian promotes a 'middle ground' between Augustine and Pelagius, teaching that the human will is not entirely dead in sin and can take the 'first step' toward God. This view, later known as Semi-Pelagianism, makes salvation a cooperative effort (synergism) between God and man."
   description_zh: "约翰·卡西安在奥古斯丁和伯拉纠之间提出了“折中”立场，教导人的意志并未在罪中完全死绝，可以向神迈出“第一步”。这种观点后来被称为半伯拉纠主义，将救恩视为神与人之间的某种合作（神人合作说）。"
   category: "heresy"
-  image: "/assets/img/timeline/john-cassian.jpg"
+  image: "/assets/img/timeline/semi-pelagianism.jpg"
 
 - date: "431 AD"
   year: 431
@@ -280,7 +280,7 @@
   description: "Huldrych Zwingli begins preaching through the New Testament verse-by-verse (Lectio Continua) at the Grossmünster in Zurich. This marks the beginning of the Swiss Reformation, characterized by a return to Scripture as the sole authority and the removal of statues and traditional rituals."
   description_zh: "胡德里希·慈运理在苏黎世大教堂开始逐节讲解新约圣经（连续讲经）。这标志着瑞士宗教改革的开始，其特点是回归圣经作为唯一权威，并移除了偶像雕像和传统仪式。"
   category: "reformation"
-  image: "/assets/img/timeline/zwingli-zurich.jpg"
+  image: "/assets/img/timeline/zwingli-zurich.jpg?v=2"
 
 - date: "1521"
   year: 1521
@@ -302,7 +302,7 @@
   description: "After the Diet of Worms, Luther is 'kidnapped' for his safety by Elector Frederick the Wise and hidden at Wartburg Castle. During this time, he translates the New Testament from Greek into German, making the Word of God accessible to the common people."
   description_zh: "在沃尔姆斯议会之后，路德被智者腓特烈“绑架”以确保安全，并隐居在瓦尔特堡。在此期间，他将新约圣经从希腊文翻译成德文，使上帝的话语能够被普通民众阅读。"
   category: "reformation"
-  image: "/assets/img/timeline/wartburg.jpg"
+  image: "/assets/img/timeline/wartburg.jpg?v=2"
 
 - date: "1524-1525"
   year: 1525
@@ -325,7 +325,7 @@
   description: "The Radical Reformation begins in Zurich as Conrad Grebel and others break with Zwingli, rejecting infant baptism and insisting on 'believer's baptism.' By rejecting the church-state covenant and re-baptizing those previously baptized as infants, they were condemned as heretics by both Catholics and mainstream Reformers."
   description_zh: "苏黎世的康拉德·格列伯等人因为拒绝婴儿洗礼并坚持“信徒洗礼”而与慈运理决裂，开启了激进改革运动。他们全盘否定政教盟约并重新洗礼，因此被天主教和主流改教者一致判定为异端。"
   category: "heresy"
-  image: "/assets/img/timeline/anabaptism.jpg"
+  image: "/assets/img/timeline/anabaptism.jpg?v=2"
 
 - date: "1529"
   year: 1529
@@ -336,7 +336,7 @@
   description: "A meeting between Martin Luther and Huldrych Zwingli to unite the German and Swiss Reformations. They agreed on 14 out of 15 articles but famously disagreed on the real presence of Christ in the Lord's Supper, leading to a permanent split between the Lutheran and Reformed traditions."
   description_zh: "马丁·路德与胡德里希·慈运理会面，试图统一德国和瑞士的改革运动。他们在15条条款中达成了14条共识，但在圣餐中基督是否真实临在的问题上产生了著名的分歧，导致了路德宗和归正宗传统之间的永久分裂。"
   category: "theology"
-  image: "/assets/img/timeline/marburg-colloquy.jpg"
+  image: "/assets/img/timeline/marburg-colloquy.jpg?v=2"
 
 - date: "1536"
   year: 1536
@@ -391,7 +391,7 @@
   description: "Jesuit Luis de Molina publishes 'Concordia,' proposing 'Middle Knowledge' as a way to reconcile divine sovereignty with human free will. From a Reformed perspective, it is seen as a sophisticated form of Semi-Pelagianism that makes God's decrees dependent on human choices."
   description_zh: "耶稣会士路易斯·德·莫利纳出版《自由意志与恩典赐予的和谐》，提出“中间知识”的概念，试图调和上帝的主权与人的自由意志。从归正神学的视角看，这被视为一种复杂的“半伯拉纠主义”，因其将上帝的预旨建立在人的抉择之上。"
   category: "heresy"
-  image: "/assets/img/timeline/molinism.jpg"
+  image: "/assets/img/timeline/molinism.jpg?v=2"
 
 - date: "1603-1609"
   year: 1603
@@ -470,7 +470,7 @@
   description: "Charles Grandison Finney introduces 'New Measures' in revival meetings, shifting the focus from God's sovereign miracle to human psychological techniques. Denying original sin (Pelagianism), he popularizes 'Decisionism'—the idea that salvation is the result of a human choice facilitated by emotional pressure."
   description_zh: "查尔斯·芬尼在复兴聚会中引入“新手段”，将重点从上帝的主权神迹转向人类的心理技术。他否认原罪（伯拉纠主义），并普及了“决志主义”——即认为救赎是由于人类在情感压力下做出的选择结果。"
   category: "heresy"
-  image: "/assets/img/timeline/charles-finney.jpg"
+  image: "/assets/img/timeline/charles-finney.jpg?v=2"
   link: "/posts/past-and-present-of-decisionism/"
 
 - date: "c. 1850-1900"
@@ -504,7 +504,7 @@
   description: "J. Gresham Machen and other orthodox faculty members leave Princeton Theological Seminary to found Westminster. This marks a definitive stand to preserve the 'Old Princeton' Reformed tradition against the encroachment of theological liberalism."
   description_zh: "梅钦（J. Gresham Machen）及其他持守正统信仰的教授离开普林斯顿神学院，共同创立了威斯敏斯特神学院。这标志着归正神学家们为了抵御神学自由主义的渗透，坚决捍卫“老普林斯顿”改革宗传统的历史性立场。"
   category: "theology"
-  image: "/assets/img/timeline/westminster-seminary.jpg"
+  image: "/assets/img/timeline/westminster-seminary.jpg?v=2"
 
 - date: "c. 1990-Present"
   year: 2000

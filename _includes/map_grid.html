@@ -1,0 +1,208 @@
+<style>
+  .map-grid-container {
+    padding: 2rem 0;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --card-border: rgba(255, 255, 255, 0.12);
+    --accent-color: #d4af37; /* Gold */
+    --text-color: inherit;
+  }
+
+  [data-theme='light'] .map-grid-container {
+    --card-bg: rgba(255, 255, 255, 0.9);
+    --card-border: rgba(0, 0, 0, 0.08);
+  }
+
+  .map-category-section {
+    margin-bottom: 5rem;
+  }
+
+  .map-category-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    gap: 1.5rem;
+  }
+
+  .map-category-title {
+    font-size: 2.2rem;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    font-weight: 700;
+    color: var(--accent-color);
+    letter-spacing: 0.5px;
+  }
+
+  .map-category-line {
+    flex-grow: 1;
+    height: 1px;
+    background: linear-gradient(to right, var(--accent-color), transparent);
+    opacity: 0.3;
+  }
+
+  .map-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)) !important;
+    gap: 3rem !important;
+  }
+
+  @media (max-width: 768px) {
+    .map-grid {
+      grid-template-columns: 1fr !important;
+    }
+  }
+
+  .map-card {
+    background: var(--card-bg) !important;
+    border: 1px solid var(--card-border) !important;
+    border-radius: 16px !important;
+    overflow: hidden !important;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1) !important;
+    text-decoration: none !important;
+    display: flex !important;
+    flex-direction: column !important;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.12) !important;
+    backdrop-filter: blur(12px) !important;
+    height: 100% !important;
+  }
+
+  .map-card:hover {
+    transform: translateY(-12px) !important;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.25) !important;
+    border-color: var(--accent-color) !important;
+  }
+
+  .map-card-image-wrapper {
+    position: relative !important;
+    padding-top: 65% !important;
+    overflow: hidden !important;
+  }
+
+  .map-card-image {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    transition: transform 0.8s ease !important;
+  }
+
+  .map-card:hover .map-card-image {
+    transform: scale(1.08) !important;
+  }
+
+  .map-card-overlay {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: linear-gradient(to top, rgba(0,0,0,0.4), transparent) !important;
+    opacity: 0;
+    transition: opacity 0.5s ease !important;
+  }
+
+  .map-card:hover .map-card-overlay {
+    opacity: 1 !important;
+  }
+
+  .map-card-content {
+    padding: 1.8rem !important;
+    flex-grow: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .map-card-title {
+    font-size: 1.4rem !important;
+    margin: 0 0 1rem 0 !important;
+    color: var(--accent-color) !important;
+    font-weight: 700 !important;
+    font-family: 'Playfair Display', serif !important;
+  }
+
+  .map-card-desc {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    margin-bottom: 2rem !important;
+    color: var(--text-color) !important;
+    opacity: 0.85 !important;
+  }
+
+  .map-card-footer {
+    margin-top: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+    color: var(--accent-color) !important;
+    transition: color 0.3s ease !important;
+  }
+
+  .map-card-footer i {
+    margin-left: 0.8rem !important;
+    transition: transform 0.4s ease !important;
+  }
+
+  .map-card:hover .map-card-footer i {
+    transform: translateX(8px) !important;
+  }
+
+  /* Entrance Animation */
+  .fade-up-card {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 0.8s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  }
+
+  @keyframes fadeUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+<div class="map-grid-container">
+  {% for category_item in include.data %}
+    <div class="map-category-section">
+      <div class="map-category-header">
+        <h2 class="map-category-title">
+          <span class="lang-en">{{ category_item.category }}</span>
+          <span class="lang-zh">{{ category_item.category_zh }}</span>
+        </h2>
+        <div class="map-category-line"></div>
+      </div>
+      
+      <div class="map-grid">
+        {% for map in category_item.maps %}
+          <a href="{{ map.url | relative_url }}" class="map-card fade-up-card" style="animation-delay: {{ forloop.index0 | times: 0.1 }}s">
+            <div class="map-card-image-wrapper">
+              <div class="map-card-image" style="background-image: url('{{ map.image | relative_url }}');" role="img" aria-label="{{ map.title }}"></div>
+              <div class="map-card-overlay"></div>
+            </div>
+            <div class="map-card-content">
+              <h3 class="map-card-title">
+                <span class="lang-en">{{ map.title }}</span>
+                <span class="lang-zh">{{ map.title_zh }}</span>
+              </h3>
+              <p class="map-card-desc">
+                <span class="lang-en">{{ map.description }}</span>
+                <span class="lang-zh">{{ map.description_zh }}</span>
+              </p>
+              <div class="map-card-footer">
+                <span class="lang-en">View Ancient Map</span>
+                <span class="lang-zh">查看古地图</span>
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

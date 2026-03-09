@@ -1,0 +1,500 @@
+---
+layout: page
+---
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+
+<style>
+  #bible-map {
+    height: 600px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .map-info-panel {
+    background: rgba(var(--card-bg-rgb), 0.5);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .map-back-btn {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .map-back-btn i {
+    margin-right: 0.5rem;
+  }
+
+  /* Custom map label styles */
+  .bible-label {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #442200 !important; /* Dark earthy color */
+    font-weight: 700 !important;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8), -1px -1px 2px rgba(255, 255, 255, 0.8) !important;
+    font-size: 0.85rem !important;
+    pointer-events: none !important;
+  }
+
+  .bible-label::before {
+    display: none !important;
+  }
+
+  .leaflet-marker-icon {
+    filter: sepia(0.5) hue-rotate(140deg); /* Adjust marker color to be more academic */
+  }
+
+  /* Parchment vintage filter for map tiles */
+  .parchment-filter {
+    filter: sepia(0.7) contrast(0.9) brightness(0.95) hue-rotate(-10deg);
+  }
+
+  /* Numbered markers for journey locations */
+  .numbered-marker {
+    background-color: var(--marker-color, #d4af37);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px; /* matches iconSize height minus border */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+  
+  .map-legend {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: -1rem;
+    margin-bottom: 2.5rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    opacity: 0.9;
+  }
+
+  .legend-line {
+    display: inline-block;
+    width: 35px;
+    height: 3px;
+    border-radius: 2px;
+  }
+
+  .legend-line.dashed {
+    background: transparent;
+    border-top: 3.5px dashed #d4af37;
+    height: 0;
+    border-radius: 0;
+  }
+
+  .legend-line.solid {
+    background-color: #665c49;
+  }
+</style>
+
+<a href="{{ '/maps/' | relative_url }}" class="map-back-btn">
+  <i class="fas fa-arrow-left"></i>
+  <span class="lang-en">Back to Maps</span>
+  <span class="lang-zh">返回地图列表</span>
+</a>
+
+<div class="map-info-panel">
+  <h1 class="mb-3">
+    <span class="lang-en">{{ page.title }}</span>
+    <span class="lang-zh">{{ page.title_zh }}</span>
+  </h1>
+  <div class="text-muted">
+    <span class="lang-en">{{ page.description }}</span>
+    <span class="lang-zh">{{ page.description_zh }}</span>
+  </div>
+</div>
+
+<div id="bible-map"></div>
+
+<div class="map-legend">
+  <div class="legend-item">
+    <span class="legend-line dashed"></span>
+    <span class="lang-en">Travel Route</span>
+    <span class="lang-zh">行进路线 (虚线)</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-line solid"></span>
+    <span class="lang-en">Historical Boundary / Region</span>
+    <span class="lang-zh">历史边界 / 区域 (实线)</span>
+  </div>
+</div>
+
+{{ content }}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Initializing the map centered on the biblical world
+    var map = L.map('bible-map', {
+      fullscreenControl: true,
+      fullscreenControlOptions: {
+        position: 'topleft'
+      }
+    }).setView([{{ page.center | default: "31.7683, 35.2137" }}], {{ page.zoom | default: 6 }});
+
+    // Stamen Terrain — emphasizes topography (mountain ridges that form tribal boundaries)
+    var baseTerrain = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Tiles &copy; Esri &mdash; Source: Esri',
+      maxZoom: 13,
+      className: 'parchment-filter'
+    }).addTo(map);
+
+    // Add a subtle reference label layer on top
+    var referenceLabels = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places_Alternate/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 13,
+      opacity: 0.35,
+      className: 'parchment-filter'
+    }).addTo(map);
+
+    var overlayMaps = {};
+    var bounds = L.latLngBounds();
+
+    // ===== GeoJSON loading (preferred path) =====
+    {% if page.geojson %}
+      fetch('{{ site.baseurl }}/assets/geo/{{ page.geojson }}')
+        .then(function(response) { return response.json(); })
+        .then(function(data) {
+          var geojsonLayer = L.geoJSON(data, {
+            style: function(feature) {
+              return {
+                fillColor: feature.properties.color || '#888',
+                weight: 1.8,
+                opacity: 1,
+                color: '#665c49',
+                fillOpacity: 0.45
+              };
+            },
+            onEachFeature: function(feature, layer) {
+              var p = feature.properties;
+
+              // Bilingual popup with verse reference
+              var popup = '<div style="font-family: Georgia, serif; min-width: 180px;">';
+              popup += '<div style="font-size: 1.1em; font-weight: 700; color: #3e2723; border-bottom: 2px solid #d4af37; padding-bottom: 6px; margin-bottom: 8px;">';
+              popup += p.name + ' / ' + (p.name_zh || '') + '</div>';
+              if (p.desc) {
+                popup += '<div style="font-size: 0.9em; color: #555; line-height: 1.5;">' + p.desc + '</div>';
+              }
+              if (p.desc_zh) {
+                popup += '<div style="font-size: 0.9em; color: #777; line-height: 1.5; margin-top: 4px;">' + p.desc_zh + '</div>';
+              }
+              if (p.verse) {
+                popup += '<div style="margin-top: 10px; padding-top: 6px; border-top: 1px solid #e0d5c1; font-style: italic; color: #b8860b; font-size: 0.85em;">';
+                popup += '📖 ' + p.verse;
+                if (p.verse_zh) popup += ' / ' + p.verse_zh;
+                popup += '</div>';
+              }
+              popup += '</div>';
+              layer.bindPopup(popup);
+
+              // Permanent center label (tribe name)
+              layer.bindTooltip(
+                '<div style="text-align:center; font-weight:700;">' + p.name + '<br>' + (p.name_zh || '') + '</div>',
+                { permanent: true, direction: 'center', className: 'bible-label', opacity: 0.8 }
+              );
+
+              // Hover highlight
+              layer.on('mouseover', function() {
+                this.setStyle({ fillOpacity: 0.65, weight: 3 });
+              });
+              layer.on('mouseout', function() {
+                geojsonLayer.resetStyle(this);
+              });
+            }
+          }).addTo(map);
+        })
+        .catch(function(err) {
+          console.error('Failed to load GeoJSON:', err);
+        });
+    {% endif %}
+
+    // ===== City markers =====
+    {% if page.locations %}
+      {% for loc in page.locations %}
+        var markerIcon = L.divIcon({
+          className: '',
+          html: '<div class="numbered-marker" style="--marker-color: #d4af37;">{{ forloop.index }}</div>',
+          iconSize: [28, 28],
+          iconAnchor: [14, 14]
+        });
+        var marker = L.marker([{{ loc.lat }}, {{ loc.lng }}], { icon: markerIcon }).addTo(map);
+        
+        marker.bindTooltip(
+          "<div style='text-align:center;'><strong>{{ loc.name }}</strong><br>{{ loc.name_zh }}</div>", 
+          { permanent: true, direction: "top", opacity: 0.9, className: 'bible-label', offset: [0, -10] }
+        );
+
+        var popupContent = "<div style='font-family: Georgia, serif;'><strong>{{ forloop.index }}. {{ loc.name }} / {{ loc.name_zh }}</strong></div>";
+        {% if loc.event %}
+          popupContent += "<div style='margin-top: 6px; font-weight: 700; color: #a04000; font-size: 0.95em;'>✦ {{ loc.event }}{% if loc.event_zh %} <br> ✦ {{ loc.event_zh }}{% endif %}</div>";
+        {% endif %}
+        popupContent += "<div style='margin-top: 5px; opacity: 0.8; font-size: 0.9em;'>{{ loc.desc }}{% if loc.desc_zh %}<br>{{ loc.desc_zh }}{% endif %}</div>";
+        
+        {% if loc.bible_ref %}
+          popupContent += "<div style='margin-top: 8px; padding-top: 5px; border-top: 1px solid rgba(0,0,0,0.1); font-style: italic; color: #d4af37; font-weight: 600; font-size: 0.85em;'>{{ loc.bible_ref }}</div>";
+        {% endif %}
+
+        marker.bindPopup(popupContent);
+      {% endfor %}
+    {% endif %}
+
+    // ===== Subtle Reference Reference Cities =====
+    {% if page.cities %}
+      var cityIcon = L.divIcon({
+        className: '',
+        html: '<div style="width: 8px; height: 8px; background: #555; border: 1px solid #fff; border-radius: 50%; box-shadow: 0 1px 3px rgba(0,0,0,0.3);"></div>',
+        iconSize: [8, 8],
+        iconAnchor: [4, 4]
+      });
+
+      {% for city in page.cities %}
+        var cityMarker = L.marker([{{ city.lat }}, {{ city.lng }}], { icon: cityIcon }).addTo(map);
+        
+        cityMarker.bindTooltip(
+          "<div style='text-align:center; font-weight: 600; color: #444;'>{{ city.name }}<br>{{ city.name_zh }}</div>", 
+          { permanent: true, direction: "top", opacity: 0.8, className: 'bible-label', offset: [0, -6] }
+        );
+      {% endfor %}
+    {% endif %}
+
+    // ===== Legacy polygon rendering (fallback) =====
+    {% if page.polygons %}
+      {% for region in page.polygons %}
+        var polygonPoints = [
+          {% for p in region.points %}
+            [{{ p[0] }}, {{ p[1] }}]{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ];
+        var polygon = L.polygon(polygonPoints, {
+          color: '{{ region.color | default: "#777" }}',
+          fillColor: '{{ region.color | default: "#777" }}',
+          fillOpacity: 0.35,
+          weight: 2
+        }).addTo(map);
+        
+        {% if region.name %}
+        polygon.bindTooltip(
+          "<div style='text-align:center; font-weight: bold;'>{{ region.name }}<br>{{ region.name_zh }}</div>",
+          { permanent: true, direction: "center", className: 'bible-label', opacity: 0.7 }
+        );
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    // ===== Route path rendering =====
+    {% if page.route %}
+      var routePoints = [
+        {% for point in page.route %}
+          [{{ point[0] }}, {{ point[1] }}]{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ];
+      var polyline = L.polyline(routePoints, {color: '#d4af37', weight: 4, dashArray: '10, 10'}).addTo(map);
+      bounds.extend(polyline.getBounds());
+    {% endif %}
+
+    // ===== Layer Groups for multiple toggleable journeys =====
+    {% if page.layers %}
+      var allLayerGroups = [];
+      {% for layer in page.layers %}
+        {% assign layer_index = forloop.index %}
+        var layerColor_{{ layer_index }} = '{{ layer.color | default: "#d4af37" }}';
+        var thisLayerGroup = L.featureGroup();
+        
+        {% for loc in layer.locations %}
+          var layerMarkerIcon = L.divIcon({
+            className: '',
+            html: '<div class="numbered-marker" style="--marker-color: ' + layerColor_{{ layer_index }} + ';">{{ forloop.index }}</div>',
+            iconSize: [28, 28],
+            iconAnchor: [14, 14]
+          });
+          var m = L.marker([{{ loc.lat }}, {{ loc.lng }}], { icon: layerMarkerIcon });
+          
+          m.bindTooltip(
+            "<div style='text-align:center;'><strong>{{ loc.name }}</strong><br>{{ loc.name_zh }}</div>", 
+            { permanent: true, direction: "top", opacity: 0.9, className: 'bible-label', offset: [0, -10] }
+          );
+
+          var pCont = "<div style='font-family: Georgia, serif;'><strong>{{ forloop.index }}. {{ loc.name }} / {{ loc.name_zh }}</strong></div>";
+          {% if layer.date %}
+            pCont += "<div style='color: #665c49; font-size: 0.85em; margin-top: 3px; font-weight: 500;'><i class='far fa-clock'></i> {{ layer.date }} / {{ layer.date_zh }}</div>";
+          {% endif %}
+          {% if loc.event %}
+            pCont += "<div style='margin-top: 6px; font-weight: 700; color: #a04000; font-size: 0.95em;'>✦ {{ loc.event }}{% if loc.event_zh %} <br> ✦ {{ loc.event_zh }}{% endif %}</div>";
+          {% endif %}
+          pCont += "<div style='margin-top: 5px; opacity: 0.8; font-size: 0.9em;'>{{ loc.desc }}{% if loc.desc_zh %}<br>{{ loc.desc_zh }}{% endif %}</div>";
+          
+          {% if loc.bible_ref %}
+            pCont += "<div style='margin-top: 8px; padding-top: 5px; border-top: 1px solid rgba(0,0,0,0.1); font-style: italic; color: " + layerColor_{{ layer_index }} + "; font-weight: 600; font-size: 0.85em;'>{{ loc.bible_ref }}</div>";
+          {% endif %}
+
+          m.bindPopup(pCont);
+          m.addTo(thisLayerGroup);
+        {% endfor %}
+
+        {% if layer.route %}
+          var routePoints_{{ layer_index }} = [];
+          {% for point in layer.route %}
+            routePoints_{{ layer_index }}.push([{{ point[0] }}, {{ point[1] }}]);
+          {% endfor %}
+          L.polyline(routePoints_{{ layer_index }}, {color: layerColor_{{ layer_index }}, weight: 4, dashArray: '10, 10'}).addTo(thisLayerGroup);
+        {% endif %}
+
+        // Add to map by default only if it is the first journey
+        {% if forloop.first %}
+          thisLayerGroup.addTo(map);
+        {% endif %}
+
+        allLayerGroups.push(thisLayerGroup);
+
+        // Add to layer control
+        overlayMaps["<span style='color: " + layerColor_{{ layer_index }} + "; font-weight: bold;'>{{ layer.name }} / {{ layer.name_zh }}</span>"] = thisLayerGroup;
+      {% endfor %}
+
+      // Add the layer control panel to top right
+      L.control.layers(null, overlayMaps, {collapsed: false, position: 'topright'}).addTo(map);
+
+      // Helper function to re-center map
+      function fitActiveLayers() {
+        var activeBounds = L.latLngBounds();
+        var hasActive = false;
+        allLayerGroups.forEach(function(group) {
+          if (map.hasLayer(group)) {
+            activeBounds.extend(group.getBounds());
+            hasActive = true;
+          }
+        });
+
+        if (hasActive && activeBounds.isValid()) {
+          map.fitBounds(activeBounds, { padding: [50, 50] });
+        }
+      }
+
+      // Initial fit to the first shown layer
+      fitActiveLayers();
+
+      // Animate bounds change when layer toggles are clicked
+      map.on('overlayadd overlayremove', function() {
+        fitActiveLayers();
+      });
+
+    {% else %}
+      if (bounds.isValid()) {
+        map.fitBounds(bounds, { padding: [20, 20] });
+      }
+    {% endif %}
+
+    // ===== Reset Map Bounds Control =====
+    var resetViewControl = L.control({position: 'topleft'});
+    
+    resetViewControl.onAdd = function (map_instance) {
+      var div = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
+      div.innerHTML = '<a href="#" title="Center to Route" role="button" aria-label="Center Map" style="display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; color: #444; background: white;"><i class="fas fa-expand-arrows-alt" style="font-size: 1.1rem;"></i></a>';
+      
+      div.onclick = function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (typeof fitActiveLayers === 'function') {
+          fitActiveLayers();
+        } else if (bounds && bounds.isValid()) {
+          map.fitBounds(bounds, { padding: [20, 20] });
+        } else {
+          map.setView([{{ page.center | default: "31.7683, 35.2137" }}], {{ page.zoom | default: 6 }});
+        }
+      };
+      
+      return div;
+    };
+    
+    resetViewControl.addTo(map);
+
+    // ===== Vintage Compass Rose Control =====
+    var compassControl = L.control({position: 'bottomleft'});
+    compassControl.onAdd = function(map_instance) {
+      var div = L.DomUtil.create('div', 'leaflet-compass-rose');
+      div.innerHTML = `
+        <svg width="85" height="85" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.9; filter: drop-shadow(2px 3px 5px rgba(0,0,0,0.3)); pointer-events: none;">
+          <g transform="translate(50,50)">
+            <!-- Rings -->
+            <circle cx="0" cy="0" r="32" fill="rgba(255, 245, 215, 0.6)" stroke="#6a5d4d" stroke-width="1"/>
+            <circle cx="0" cy="0" r="28" fill="none" stroke="#6a5d4d" stroke-width="1" stroke-dasharray="2 3"/>
+            
+            <!-- Secondary Points (NE, SE, SW, NW) -->
+            <g transform="rotate(45)">
+              <polygon points="0,-28 5,-6 0,0 -5,-6" fill="#7a6b58" />
+              <polygon points="0,-28 0,0 -5,-6" fill="#bca588" />
+              <polygon points="0,28 5,6 0,0 -5,6" fill="#7a6b58" />
+              <polygon points="0,28 0,0 -5,6" fill="#bca588" />
+              <polygon points="28,0 6,5 0,0 6,-5" fill="#7a6b58" />
+              <polygon points="28,0 0,0 6,-5" fill="#bca588" />
+              <polygon points="-28,0 -6,5 0,0 -6,-5" fill="#7a6b58" />
+              <polygon points="-28,0 0,0 -6,-5" fill="#bca588" />
+            </g>
+
+            <!-- Primary Points -->
+            <polygon points="0,-40 7,-7 0,0 -7,-7" fill="#3e2723" />
+            <polygon points="0,-40 0,0 -7,-7" fill="#8c7b65" />
+            <polygon points="0,38 7,7 0,0 -7,7" fill="#4e342e" />
+            <polygon points="0,38 0,0 -7,7" fill="#9c8b75" />
+            <polygon points="38,0 7,7 0,0 7,-7" fill="#4e342e" />
+            <polygon points="38,0 0,0 7,-7" fill="#9c8b75" />
+            <polygon points="-38,0 -7,7 0,0 -7,-7" fill="#4e342e" />
+            <polygon points="-38,0 0,0 -7,-7" fill="#9c8b75" />
+
+            <!-- Center -->
+            <circle cx="0" cy="0" r="3.5" fill="#d4af37" stroke="#3e2723" stroke-width="1"/>
+
+            <!-- Labels -->
+            <text x="0" y="-43" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#3e2723" text-anchor="middle">N</text>
+            <text x="0" y="49" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#4e342e" text-anchor="middle">S</text>
+            <text x="44" y="4" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#4e342e" text-anchor="middle">E</text>
+            <text x="-44" y="4" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#4e342e" text-anchor="middle">W</text>
+          </g>
+        </svg>
+      `;
+      div.style.marginBottom = '20px';
+      div.style.marginLeft = '10px';
+      return div;
+    };
+    compassControl.addTo(map);
+
+    // Handle fullscreen resize issues
+    map.on('fullscreenchange', function () {
+      // Need a slight delay to allow the CSS dimensional change to take place
+      setTimeout(function() {
+        map.invalidateSize();
+        if (typeof fitActiveLayers === 'function') {
+          fitActiveLayers();
+        } else if (bounds && bounds.isValid()) {
+          map.fitBounds(bounds, { padding: [20, 20] });
+        }
+      }, 250);
+    });
+
+  });
+</script>
