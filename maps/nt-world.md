@@ -20,13 +20,17 @@ locations:
 ---
 
 <article class="post-content">
-  <div class="lang-en" markdown="1">
-    ### The Fullness of Time
-    The Pax Romana, common language (Koine Greek), and extensive road networks provided the strategic platform for the rapid spread of Christianity.
-  </div>
+<div class="lang-en" markdown="1">
 
-  <div class="lang-zh" markdown="1">
-    ### 时候满足
-    罗马和平 (Pax Romana)、通用语言 (通用希腊语) 以及四通八达的道路网络，为基督教在整个已知世界的快速传播提供了战略性的平台。
-  </div>
+### The Fullness of Time
+The Pax Romana, common language (Koine Greek), and extensive road networks provided the strategic platform for the rapid spread of Christianity.
+
+</div>
+
+<div class="lang-zh" markdown="1">
+
+### 时候满足
+罗马和平 (Pax Romana)、通用语言 (通用希腊语) 以及四通八达的道路网络，为基督教在整个已知世界的快速传播提供了战略性的平台。
+
+</div>
 </article>
