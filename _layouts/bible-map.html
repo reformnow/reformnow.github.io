@@ -138,10 +138,21 @@ layout: page
     transform-origin: center bottom;
   }
   
+  /* Ensure the container stretches properly to support sticky */
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  main > article.px-1 {
+    flex-grow: 1;
+    display: block;
+  }
+
   .sticky-map-container {
     position: sticky;
     top: 6rem;
     z-index: 10;
+    align-self: flex-start;
   }
 </style>
 
