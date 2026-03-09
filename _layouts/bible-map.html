@@ -113,6 +113,19 @@ layout: page
   .legend-line.solid {
     background-color: #665c49;
   }
+
+  /* Sidebar Locations List */
+  .map-sidebar-list { padding: 0; margin: 0; list-style: none; }
+  .map-sidebar-group { margin-bottom: 24px; }
+  .map-sidebar-group-title { font-weight: 700; font-family: Georgia, serif; margin-bottom: 12px; border-bottom: 1px solid rgba(0,0,0,0.1); padding-bottom: 6px; font-size: 1.05rem;}
+  [data-theme="dark"] .map-sidebar-group-title { border-bottom: 1px solid rgba(255,255,255,0.1); }
+  .map-sidebar-item { padding: 8px 12px; margin-bottom: 8px; border-radius: 8px; cursor: pointer; transition: all 0.2s ease; border: 1px solid rgba(0,0,0,0.05); background: var(--card-bg); display: flex; align-items: flex-start; gap: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.02);}
+  .map-sidebar-item:hover { background: rgba(0,0,0,0.03); transform: translateY(-1px); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-color: rgba(0,0,0,0.1);}
+  [data-theme="dark"] .map-sidebar-item { border-color: rgba(255,255,255,0.05); }
+  [data-theme="dark"] .map-sidebar-item:hover { background: rgba(255,255,255,0.05); box-shadow: 0 4px 6px rgba(0,0,0,0.2); border-color: rgba(255,255,255,0.1);}
+  .map-sidebar-number { flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: bold; margin-top: 2px; }
+  .map-sidebar-text { line-height: 1.4; font-size: 0.95rem;}
+  .map-sidebar-text strong { color: var(--text-color); font-family: Georgia, serif;}
 </style>
 
 <a href="{{ '/maps/' | relative_url }}" class="map-back-btn">
@@ -159,6 +172,19 @@ layout: page
       }
     }).setView([{{ page.center | default: "31.7683, 35.2137" }}], {{ page.zoom | default: 6 }});
 
+    var globalMarkers = {};
+    window.openMapPopup = function(id) {
+      if (globalMarkers[id]) {
+        var m = globalMarkers[id];
+        if (typeof m.layerGroup !== 'undefined' && !map.hasLayer(m.layerGroup)) {
+          map.addLayer(m.layerGroup);
+        }
+        map.setView(m.getLatLng(), map.getZoom() < 8 ? 8 : map.getZoom(), {animate: true});
+        m.openPopup();
+        document.getElementById('bible-map').scrollIntoView({behavior: 'smooth', block: 'center'});
+      }
+    };
+
     /* Stamen Terrain — emphasizes topography (mountain ridges that form tribal boundaries) */
     var baseTerrain = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
       attribution: 'Tiles &copy; Esri &mdash; Source: Esri',
@@ -195,17 +221,20 @@ layout: page
               var p = feature.properties;
 
               /* Bilingual popup with verse reference */
-              var popup = '<div style="font-family: Georgia, serif; min-width: 180px;">';
-              popup += '<div style="font-size: 1.1em; font-weight: 700; color: #3e2723; border-bottom: 2px solid #d4af37; padding-bottom: 6px; margin-bottom: 8px;">';
+              var popup = '<div style="font-family: Georgia, serif; min-width: 220px; font-size: 1.05em;">';
+              if (p.image) {
+                popup += "<img src='{{ site.baseurl }}" + p.image + "' style='width: 100%; height: auto; max-height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 8px; border: 1px solid rgba(0,0,0,0.1);'>";
+              }
+              popup += '<div style="font-size: 1.15em; font-weight: 700; color: #3e2723; border-bottom: 2px solid #d4af37; padding-bottom: 6px; margin-bottom: 8px;">';
               popup += p.name + ' / ' + (p.name_zh || '') + '</div>';
               if (p.desc) {
-                popup += '<div style="font-size: 0.9em; color: #555; line-height: 1.5;">' + p.desc + '</div>';
+                popup += '<div style="font-size: 1.0em; color: #444; line-height: 1.5;">' + p.desc + '</div>';
               }
               if (p.desc_zh) {
-                popup += '<div style="font-size: 0.9em; color: #777; line-height: 1.5; margin-top: 4px;">' + p.desc_zh + '</div>';
+                popup += '<div style="font-size: 1.0em; color: #555; line-height: 1.5; margin-top: 6px;">' + p.desc_zh + '</div>';
               }
               if (p.verse) {
-                popup += '<div style="margin-top: 10px; padding-top: 6px; border-top: 1px solid #e0d5c1; font-style: italic; color: #b8860b; font-size: 0.85em;">';
+                popup += '<div style="margin-top: 12px; padding-top: 8px; border-top: 1px solid #e0d5c1; font-style: italic; color: #b8860b; font-size: 0.9em;">';
                 popup += '📖 ' + p.verse;
                 if (p.verse_zh) popup += ' / ' + p.verse_zh;
                 popup += '</div>';
@@ -250,17 +279,23 @@ layout: page
           { permanent: true, direction: "top", opacity: 0.9, className: 'bible-label', offset: [0, -10] }
         );
 
-        var popupContent = "<div style='font-family: Georgia, serif;'><strong>{{ forloop.index }}. {{ loc.name }} / {{ loc.name_zh }}</strong></div>";
-        {% if loc.event %}
-          popupContent += "<div style='margin-top: 6px; font-weight: 700; color: #a04000; font-size: 0.95em;'>✦ {{ loc.event }}{% if loc.event_zh %} <br> ✦ {{ loc.event_zh }}{% endif %}</div>";
+        var popupContent = "<div style='font-family: Georgia, serif; min-width: 220px;'>";
+        {% if loc.image %}
+          popupContent += "<img src='{{ site.baseurl }}{{ loc.image }}' style='width: 100%; height: auto; max-height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 8px; border: 1px solid rgba(0,0,0,0.1);'>";
         {% endif %}
-        popupContent += "<div style='margin-top: 5px; opacity: 0.8; font-size: 0.9em;'>{{ loc.desc }}{% if loc.desc_zh %}<br>{{ loc.desc_zh }}{% endif %}</div>";
+        popupContent += "<div style='font-size: 1.2em;'><strong>{{ forloop.index }}. {{ loc.name }} / {{ loc.name_zh }}</strong></div>";
+        {% if loc.event %}
+          popupContent += "<div style='margin-top: 6px; font-weight: 700; color: #a04000; font-size: 1.05em;'>✦ {{ loc.event }}{% if loc.event_zh %} <br> ✦ {{ loc.event_zh }}{% endif %}</div>";
+        {% endif %}
+        popupContent += "<div style='margin-top: 8px; opacity: 0.9; font-size: 1.05em; line-height: 1.45;'>{{ loc.desc }}{% if loc.desc_zh %}<br>{{ loc.desc_zh }}{% endif %}</div>";
         
         {% if loc.bible_ref %}
-          popupContent += "<div style='margin-top: 8px; padding-top: 5px; border-top: 1px solid rgba(0,0,0,0.1); font-style: italic; color: #d4af37; font-weight: 600; font-size: 0.85em;'>{{ loc.bible_ref }}</div>";
+          popupContent += "<div style='margin-top: 10px; padding-top: 6px; border-top: 1px solid rgba(0,0,0,0.1); font-style: italic; color: #d4af37; font-weight: 600; font-size: 0.95em;'>{{ loc.bible_ref }}</div>";
         {% endif %}
+        popupContent += "</div>";
 
         marker.bindPopup(popupContent);
+        globalMarkers['loc_{{ forloop.index }}'] = marker;
       {% endfor %}
     {% endif %}
 
@@ -340,21 +375,28 @@ layout: page
             { permanent: true, direction: "top", opacity: 0.9, className: 'bible-label', offset: [0, -10] }
           );
 
-          var pCont = "<div style='font-family: Georgia, serif;'><strong>{{ forloop.index }}. {{ loc.name }} / {{ loc.name_zh }}</strong></div>";
+          var pCont = "<div style='font-family: Georgia, serif; min-width: 220px;'>";
+          {% if loc.image %}
+            pCont += "<img src='{{ site.baseurl }}{{ loc.image }}' style='width: 100%; height: auto; max-height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 8px; border: 1px solid rgba(0,0,0,0.1);'>";
+          {% endif %}
+          pCont += "<div style='font-size: 1.2em;'><strong>{{ forloop.index }}. {{ loc.name }} / {{ loc.name_zh }}</strong></div>";
           {% if layer.date %}
-            pCont += "<div style='color: #665c49; font-size: 0.85em; margin-top: 3px; font-weight: 500;'><i class='far fa-clock'></i> {{ layer.date }} / {{ layer.date_zh }}</div>";
+            pCont += "<div style='color: #665c49; font-size: 0.95em; margin-top: 3px; font-weight: 500;'><i class='far fa-clock'></i> {{ layer.date }} / {{ layer.date_zh }}</div>";
           {% endif %}
           {% if loc.event %}
-            pCont += "<div style='margin-top: 6px; font-weight: 700; color: #a04000; font-size: 0.95em;'>✦ {{ loc.event }}{% if loc.event_zh %} <br> ✦ {{ loc.event_zh }}{% endif %}</div>";
+            pCont += "<div style='margin-top: 6px; font-weight: 700; color: #a04000; font-size: 1.05em;'>✦ {{ loc.event }}{% if loc.event_zh %} <br> ✦ {{ loc.event_zh }}{% endif %}</div>";
           {% endif %}
-          pCont += "<div style='margin-top: 5px; opacity: 0.8; font-size: 0.9em;'>{{ loc.desc }}{% if loc.desc_zh %}<br>{{ loc.desc_zh }}{% endif %}</div>";
+          pCont += "<div style='margin-top: 8px; opacity: 0.9; font-size: 1.05em; line-height: 1.45;'>{{ loc.desc }}{% if loc.desc_zh %}<br>{{ loc.desc_zh }}{% endif %}</div>";
           
           {% if loc.bible_ref %}
-            pCont += "<div style='margin-top: 8px; padding-top: 5px; border-top: 1px solid rgba(0,0,0,0.1); font-style: italic; color: " + layerColor_{{ layer_index }} + "; font-weight: 600; font-size: 0.85em;'>{{ loc.bible_ref }}</div>";
+            pCont += "<div style='margin-top: 10px; padding-top: 6px; border-top: 1px solid rgba(0,0,0,0.1); font-style: italic; color: " + layerColor_{{ layer_index }} + "; font-weight: 600; font-size: 0.95em;'>{{ loc.bible_ref }}</div>";
           {% endif %}
+          pCont += "</div>";
 
           m.bindPopup(pCont);
+          m.layerGroup = thisLayerGroup;
           m.addTo(thisLayerGroup);
+          globalMarkers['layer_{{ layer_index }}_loc_{{ forloop.index }}'] = m;
         {% endfor %}
 
         {% if layer.route %}
@@ -495,6 +537,40 @@ layout: page
         }
       }, 250);
     });
+
+    /* ===== Setup Sidebar List ===== */
+    {% if page.layers or page.locations %}
+      var panelWrapper = document.getElementById('panel-wrapper');
+      if (panelWrapper) {
+        var sidebarHtml = '<div class="access"><section><h2 class="panel-heading"><span class="lang-en">Locations</span><span class="lang-zh">行进地点</span></h2><ul class="map-sidebar-list">';
+
+        {% if page.layers %}
+          {% for layer in page.layers %}
+            {% assign layer_index = forloop.index %}
+            sidebarHtml += '<div class="map-sidebar-group"><div class="map-sidebar-group-title" style="color: {{ layer.color | default: "#d4af37" }};">{{ layer.name }} / {{ layer.name_zh }}</div>';
+            {% for loc in layer.locations %}
+              sidebarHtml += '<li class="map-sidebar-item" onclick="openMapPopup(\'layer_{{ layer_index }}_loc_{{ forloop.index }}\')">' +
+                '<div class="map-sidebar-number" style="background-color: {{ layer.color | default: "#d4af37" }};">{{ forloop.index }}</div>' +
+                '<div class="map-sidebar-text"><strong>{{ loc.name }}</strong><br><span class="text-muted" style="font-size:0.85em;">{{ loc.name_zh }}</span></div>' +
+              '</li>';
+            {% endfor %}
+            sidebarHtml += '</div>';
+          {% endfor %}
+        {% elsif page.locations %}
+          sidebarHtml += '<div class="map-sidebar-group">';
+          {% for loc in page.locations %}
+            sidebarHtml += '<li class="map-sidebar-item" onclick="openMapPopup(\'loc_{{ forloop.index }}\')">' +
+              '<div class="map-sidebar-number" style="background-color: var(--marker-color, #d4af37);">{{ forloop.index }}</div>' +
+              '<div class="map-sidebar-text"><strong>{{ loc.name }}</strong><br><span class="text-muted" style="font-size:0.85em;">{{ loc.name_zh }}</span></div>' +
+            '</li>';
+          {% endfor %}
+          sidebarHtml += '</div>';
+        {% endif %}
+
+        sidebarHtml += '</ul></section></div>';
+        panelWrapper.innerHTML = sidebarHtml;
+      }
+    {% endif %}
 
   });
 </script>

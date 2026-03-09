@@ -58,9 +58,9 @@ layers:
       - { lat: 41.02, lng: 24.28, name: "Philippi", name_zh: "腓立比", event: "Lydia converted & Jailer saved", event_zh: "吕底亚信主与狱卒得救", desc: "First church in Europe.", desc_zh: "腓立比：欧洲的第一间教会建立于此。", bible_ref: "Acts 16:14-34 / 使徒行传 16:14-34" }
       - { lat: 40.64, lng: 22.94, name: "Thessalonica", name_zh: "帖撒罗尼迦", event: "Uproar in the city", event_zh: "城中引起骚动", desc: "Jews become jealous.", desc_zh: "帖撒罗尼迦：不信的犹太人招聚市井匪类制造骚动。", bible_ref: "Acts 17:1-5 / 使徒行传 17:1-5" }
       - { lat: 40.52, lng: 22.20, name: "Berea", name_zh: "庇哩亚", desc: "Examining the Scriptures daily.", desc_zh: "庇哩亚：天天考查圣经的信徒。", bible_ref: "Acts 17:10 / 使徒行传 17:10" }
-      - { lat: 37.98, lng: 23.72, name: "Athens", name_zh: "雅典", event: "Sermon on the Areopagus", event_zh: "在亚略巴古讲未识之神", desc: "Paul disputes with philosophers.", desc_zh: "雅典：面对伊壁鸠鲁和斯多亚学派的哲学家。", bible_ref: "Acts 17:15-34 / 使徒行传 17:15-34" }
+      - { lat: 37.98, lng: 23.72, name: "Athens", name_zh: "雅典", event: "Sermon on the Areopagus", event_zh: "在亚略巴古讲未识之神", desc: "Paul disputes with philosophers.", desc_zh: "雅典：面对伊壁鸠鲁和斯多亚学派的哲学家。", bible_ref: "Acts 17:15-34 / 使徒行传 17:15-34", image: "/assets/img/maps/ancient-athens.png" }
       - { lat: 37.94, lng: 22.93, name: "Corinth", name_zh: "哥林多", event: "Working with Aquila and Priscilla", event_zh: "与亚居拉、百基拉同工", desc: "Stayed for 18 months.", desc_zh: "哥林多：保罗在此停留了一年半建立建立教会。", bible_ref: "Acts 18:1-11 / 使徒行传 18:1-11" }
-      - { lat: 37.94, lng: 27.34, name: "Ephesus", name_zh: "以弗所", desc: "A brief stop on the return.", desc_zh: "以弗所：回程时短暂亦在此讲论。", bible_ref: "Acts 18:19 / 使徒行传 18:19" }
+      - { lat: 37.94, lng: 27.34, name: "Ephesus", name_zh: "以弗所", desc: "A brief stop on the return.", desc_zh: "以弗所：回程时短暂亦在此讲论。", bible_ref: "Acts 18:19 / 使徒行传 18:19", image: "/assets/img/maps/ancient-ephesus.png" }
       - { lat: 31.76, lng: 35.21, name: "Jerusalem", name_zh: "耶路撒冷", desc: "Greeting the church.", desc_zh: "耶路撒冷：问候母会。", bible_ref: "Acts 18:22 / 使徒行传 18:22" }
     route:
       - [36.20, 36.16] # Antioch
@@ -87,7 +87,7 @@ layers:
     date_zh: "公元 53-57 年"
     color: "#2e7d32" # Dark Green
     locations:
-      - { lat: 37.94, lng: 27.34, name: "Ephesus", name_zh: "以弗所", event: "Riot of the silversmiths", event_zh: "银匠底米丢制造暴乱", desc: "Stayed for ~3 years.", desc_zh: "以弗所：保罗在此牧养近三年之久，福音大为兴旺。", bible_ref: "Acts 19:23-41 / 使徒行传 19:23-41" }
+      - { lat: 37.94, lng: 27.34, name: "Ephesus", name_zh: "以弗所", event: "Riot of the silversmiths", event_zh: "银匠底米丢制造暴乱", desc: "Stayed for ~3 years.", desc_zh: "以弗所：保罗在此牧养近三年之久，福音大为兴旺。", bible_ref: "Acts 19:23-41 / 使徒行传 19:23-41", image: "/assets/img/maps/ancient-ephesus.png" }
       - { lat: 40.64, lng: 22.94, name: "Macedonia", name_zh: "马其顿", desc: "Encouraging the churches.", desc_zh: "马其顿：鼓励各教会。", bible_ref: "Acts 20:1 / 使徒行传 20:1" }
       - { lat: 37.94, lng: 22.93, name: "Greece (Corinth)", name_zh: "希腊(哥林多)", desc: "Stayed 3 months.", desc_zh: "希腊：在此居住三个月。", bible_ref: "Acts 20:2 / 使徒行传 20:2" }
       - { lat: 39.93, lng: 26.15, name: "Troas", name_zh: "特罗亚", event: "Eutychus raised from the dead", event_zh: "犹推古从死里复活", desc: "Paul preached until midnight.", desc_zh: "特罗亚：保罗讲道直到半夜。", bible_ref: "Acts 20:7-12 / 使徒行传 20:7-12" }
