@@ -151,7 +151,7 @@ layout: page
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // Initializing the map centered on the biblical world
+    /* Initializing the map centered on the biblical world */
     var map = L.map('bible-map', {
       fullscreenControl: true,
       fullscreenControlOptions: {
@@ -159,14 +159,14 @@ layout: page
       }
     }).setView([{{ page.center | default: "31.7683, 35.2137" }}], {{ page.zoom | default: 6 }});
 
-    // Stamen Terrain — emphasizes topography (mountain ridges that form tribal boundaries)
+    /* Stamen Terrain — emphasizes topography (mountain ridges that form tribal boundaries) */
     var baseTerrain = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
       attribution: 'Tiles &copy; Esri &mdash; Source: Esri',
       maxZoom: 13,
       className: 'parchment-filter'
     }).addTo(map);
 
-    // Add a subtle reference label layer on top
+    /* Add a subtle reference label layer on top */
     var referenceLabels = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places_Alternate/MapServer/tile/{z}/{y}/{x}', {
       maxZoom: 13,
       opacity: 0.35,
@@ -176,7 +176,7 @@ layout: page
     var overlayMaps = {};
     var bounds = L.latLngBounds();
 
-    // ===== GeoJSON loading (preferred path) =====
+    /* ===== GeoJSON loading (preferred path) ===== */
     {% if page.geojson %}
       fetch('{{ site.baseurl }}/assets/geo/{{ page.geojson }}')
         .then(function(response) { return response.json(); })
@@ -194,7 +194,7 @@ layout: page
             onEachFeature: function(feature, layer) {
               var p = feature.properties;
 
-              // Bilingual popup with verse reference
+              /* Bilingual popup with verse reference */
               var popup = '<div style="font-family: Georgia, serif; min-width: 180px;">';
               popup += '<div style="font-size: 1.1em; font-weight: 700; color: #3e2723; border-bottom: 2px solid #d4af37; padding-bottom: 6px; margin-bottom: 8px;">';
               popup += p.name + ' / ' + (p.name_zh || '') + '</div>';
@@ -213,13 +213,13 @@ layout: page
               popup += '</div>';
               layer.bindPopup(popup);
 
-              // Permanent center label (tribe name)
+              /* Permanent center label (tribe name) */
               layer.bindTooltip(
                 '<div style="text-align:center; font-weight:700;">' + p.name + '<br>' + (p.name_zh || '') + '</div>',
                 { permanent: true, direction: 'center', className: 'bible-label', opacity: 0.8 }
               );
 
-              // Hover highlight
+              /* Hover highlight */
               layer.on('mouseover', function() {
                 this.setStyle({ fillOpacity: 0.65, weight: 3 });
               });
@@ -234,7 +234,7 @@ layout: page
         });
     {% endif %}
 
-    // ===== City markers =====
+    /* ===== City markers ===== */
     {% if page.locations %}
       {% for loc in page.locations %}
         var markerIcon = L.divIcon({
@@ -264,7 +264,7 @@ layout: page
       {% endfor %}
     {% endif %}
 
-    // ===== Subtle Reference Reference Cities =====
+    /* ===== Subtle Reference Reference Cities ===== */
     {% if page.cities %}
       var cityIcon = L.divIcon({
         className: '',
@@ -283,7 +283,7 @@ layout: page
       {% endfor %}
     {% endif %}
 
-    // ===== Legacy polygon rendering (fallback) =====
+    /* ===== Legacy polygon rendering (fallback) ===== */
     {% if page.polygons %}
       {% for region in page.polygons %}
         var polygonPoints = [
@@ -307,7 +307,7 @@ layout: page
       {% endfor %}
     {% endif %}
 
-    // ===== Route path rendering =====
+    /* ===== Route path rendering ===== */
     {% if page.route %}
       var routePoints = [
         {% for point in page.route %}
@@ -318,7 +318,7 @@ layout: page
       bounds.extend(polyline.getBounds());
     {% endif %}
 
-    // ===== Layer Groups for multiple toggleable journeys =====
+    /* ===== Layer Groups for multiple toggleable journeys ===== */
     {% if page.layers %}
       var allLayerGroups = [];
       {% for layer in page.layers %}
@@ -365,21 +365,21 @@ layout: page
           L.polyline(routePoints_{{ layer_index }}, {color: layerColor_{{ layer_index }}, weight: 4, dashArray: '10, 10'}).addTo(thisLayerGroup);
         {% endif %}
 
-        // Add to map by default only if it is the first journey
+        /* Add to map by default only if it is the first journey */
         {% if forloop.first %}
           thisLayerGroup.addTo(map);
         {% endif %}
 
         allLayerGroups.push(thisLayerGroup);
 
-        // Add to layer control
+        /* Add to layer control */
         overlayMaps["<span style='color: " + layerColor_{{ layer_index }} + "; font-weight: bold;'>{{ layer.name }} / {{ layer.name_zh }}</span>"] = thisLayerGroup;
       {% endfor %}
 
-      // Add the layer control panel to top right
+      /* Add the layer control panel to top right */
       L.control.layers(null, overlayMaps, {collapsed: false, position: 'topright'}).addTo(map);
 
-      // Helper function to re-center map
+      /* Helper function to re-center map */
       function fitActiveLayers() {
         var activeBounds = L.latLngBounds();
         var hasActive = false;
@@ -395,10 +395,10 @@ layout: page
         }
       }
 
-      // Initial fit to the first shown layer
+      /* Initial fit to the first shown layer */
       fitActiveLayers();
 
-      // Animate bounds change when layer toggles are clicked
+      /* Animate bounds change when layer toggles are clicked */
       map.on('overlayadd overlayremove', function() {
         fitActiveLayers();
       });
@@ -409,7 +409,7 @@ layout: page
       }
     {% endif %}
 
-    // ===== Reset Map Bounds Control =====
+    /* ===== Reset Map Bounds Control ===== */
     var resetViewControl = L.control({position: 'topleft'});
     
     resetViewControl.onAdd = function (map_instance) {
@@ -433,7 +433,7 @@ layout: page
     
     resetViewControl.addTo(map);
 
-    // ===== Vintage Compass Rose Control =====
+    /* ===== Vintage Compass Rose Control ===== */
     var compassControl = L.control({position: 'bottomleft'});
     compassControl.onAdd = function(map_instance) {
       var div = L.DomUtil.create('div', 'leaflet-compass-rose');
@@ -483,9 +483,9 @@ layout: page
     };
     compassControl.addTo(map);
 
-    // Handle fullscreen resize issues
+    /* Handle fullscreen resize issues */
     map.on('fullscreenchange', function () {
-      // Need a slight delay to allow the CSS dimensional change to take place
+      /* Need a slight delay to allow the CSS dimensional change to take place */
       setTimeout(function() {
         map.invalidateSize();
         if (typeof fitActiveLayers === 'function') {

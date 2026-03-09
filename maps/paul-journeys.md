@@ -112,13 +112,17 @@ layers:
 ---
 
 <article class="post-content">
-  <div class="lang-en" markdown="1">
-    ### The Gospel Spreads
-    Use the layer control in the top-right corner of the map to display or hide the routes of Paul's First, Second, and Third Missionary Journeys. These journeys covered vast distances to establish and strengthen the early Gentile churches.
-  </div>
+<div class="lang-en" markdown="1">
 
-  <div class="lang-zh" markdown="1">
-    ### 福音的传开
-    您可以使用地图右上角的图层面板，选择显示或隐藏保罗第一次、第二次或第三次宣教的路线。借着这三次旅程，保罗走了极远的路程，建立并坚固了许多外邦教全会。
-  </div>
+### The Gospel Spreads
+Use the layer control in the top-right corner of the map to display or hide the routes of Paul's First, Second, and Third Missionary Journeys. These journeys covered vast distances to establish and strengthen the early Gentile churches.
+
+</div>
+
+<div class="lang-zh" markdown="1">
+
+### 福音的传开
+您可以使用地图右上角的图层面板，选择显示或隐藏保罗第一次、第二次或第三次宣教的路线。借着这三次旅程，保罗走了极远的路程，建立并坚固了许多外邦教全会。
+
+</div>
 </article>
