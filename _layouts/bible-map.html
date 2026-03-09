@@ -211,10 +211,13 @@ layout: page
         if (typeof m.layerGroup !== 'undefined' && !map.hasLayer(m.layerGroup)) {
           map.addLayer(m.layerGroup);
         }
-        /* Zoom in a bit if zoomed out too far, and pan to the exact location */
+        /* Animate to the target location, then open the popup to avoid animation collision */
         var targetZoom = map.getZoom() < 9 ? 9 : map.getZoom();
-        map.setView(m.getLatLng(), targetZoom, {animate: true});
-        m.openPopup();
+        map.flyTo(m.getLatLng(), targetZoom, { duration: 0.6 });
+        
+        map.once('moveend', function() {
+          m.openPopup();
+        });
         /* No need to scrollIntoView('bible-map') since the map is now sticky on the screen. */
       }
     };
