@@ -57,7 +57,7 @@ layers:
     date_zh: "公元 49-52 年"
     color: "#e64a19" # Deep Orange
     locations:
-      - { lat: 36.20, lng: 36.16, name: "Antioch", name_zh: "安提阿", event: "Beginning the second journey", event_zh: "开始第二次旅程", desc: "Paul and Silas depart.", desc_zh: "安提阿：保罗与西拉结伴出发。", bible_ref: "Acts 15:40 / 使徒行传 15:40" }
+      - { lat: 36.20, lng: 36.16, name: "Antioch", name_zh: "安提阿", event: "Beginning the second journey", event_zh: "开始第二次旅程", desc: "Paul and Silas depart.", desc_zh: "安提阿：保罗与西拉结伴出发。", bible_ref: "Acts 15:40 / 使徒行传 15:40", anchor_x: 29 }
       - { lat: 36.82, lng: 34.64, name: "Tarsus", name_zh: "大数", desc: "Paul's hometown.", desc_zh: "大数：保罗的故乡。", bible_ref: "Acts 15:41 / 使徒行传 15:41" }
       - { lat: 37.36, lng: 33.22, name: "Derbe", name_zh: "特庇", desc: "Revisiting the churches.", desc_zh: "特庇：重访以前建立的教会。", bible_ref: "Acts 16:1 / 使徒行传 16:1" }
       - { lat: 37.58, lng: 32.55, name: "Lystra", name_zh: "路司得", event: "Timothy joins Paul", event_zh: "提摩太加入团队", desc: "Paul circumcises Timothy.", desc_zh: "路司得：保罗带着提摩太同行。", bible_ref: "Acts 16:1-3 / 使徒行传 16:1-3" }
@@ -76,7 +76,7 @@ layers:
       - { lat: 37.94, lng: 27.34, name: "Ephesus", name_zh: "以弗所", desc: "A brief stop on the return.", desc_zh: "以弗所：回程时短暂在此讲论。", bible_ref: "Acts 18:19-21 / 使徒行传 18:19-21", image: "/assets/img/maps/ancient-ephesus.png" }
       - { lat: 31.63, lng: 34.56, name: "Caesarea", name_zh: "凯撒利亚", desc: "Landing back in Judea.", desc_zh: "凯撒利亚：在犹太地登陆的港口。", bible_ref: "Acts 18:22 / 使徒行传 18:22" }
       - { lat: 31.76, lng: 35.21, name: "Jerusalem", name_zh: "耶路撒冷", desc: "Greeting the church.", desc_zh: "耶路撒冷：问候母会。", bible_ref: "Acts 18:22 / 使徒行传 18:22" }
-      - { lat: 36.17, lng: 36.19, name: "Antioch (Return)", name_zh: "回程：安提阿", desc: "End of the second journey.", desc_zh: "安提阿：第二次旅程结束，返回母会。", bible_ref: "Acts 18:22 / 使徒行传 18:22" }
+      - { lat: 36.20, lng: 36.16, name: "Antioch (Return)", name_zh: "回程：安提阿", desc: "End of the second journey.", desc_zh: "安提阿：第二次旅程结束，返回母会。", bible_ref: "Acts 18:22 / 使徒行传 18:22", anchor_x: -1 }
     route:
       - [36.20, 36.16] # Antioch
       - [36.82, 34.64] # Tarsus
@@ -97,7 +97,7 @@ layers:
       - [37.94, 27.34] # Ephesus
       - [31.63, 34.56] # Caesarea
       - [31.76, 35.21] # Jerusalem
-      - [36.17, 36.19] # Antioch (Return)
+      - [36.20, 36.16] # Antioch (Return)
 
   - name: "Third Journey"
     name_zh: "第三次旅程"
