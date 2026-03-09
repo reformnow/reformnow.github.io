@@ -137,6 +137,12 @@ layout: page
     animation: sway 6s ease-in-out infinite;
     transform-origin: center bottom;
   }
+  
+  .sticky-map-container {
+    position: sticky;
+    top: 6rem;
+    z-index: 10;
+  }
 </style>
 
 <a href="{{ '/maps/' | relative_url }}" class="map-back-btn">
@@ -156,18 +162,20 @@ layout: page
   </div>
 </div>
 
-<div id="bible-map"></div>
+<div class="sticky-map-container">
+  <div id="bible-map"></div>
 
-<div class="map-legend">
-  <div class="legend-item">
-    <span class="legend-line dashed"></span>
-    <span class="lang-en">Travel Route</span>
-    <span class="lang-zh">行进路线 (虚线)</span>
-  </div>
-  <div class="legend-item">
-    <span class="legend-line solid"></span>
-    <span class="lang-en">Historical Boundary / Region</span>
-    <span class="lang-zh">历史边界 / 区域 (实线)</span>
+  <div class="map-legend">
+    <div class="legend-item">
+      <span class="legend-line dashed"></span>
+      <span class="lang-en">Travel Route</span>
+      <span class="lang-zh">行进路线 (虚线)</span>
+    </div>
+    <div class="legend-item">
+      <span class="legend-line solid"></span>
+      <span class="lang-en">Historical Boundary / Region</span>
+      <span class="lang-zh">历史边界 / 区域 (实线)</span>
+    </div>
   </div>
 </div>
 
