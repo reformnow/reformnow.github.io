@@ -304,7 +304,7 @@ layout: page
           className: '',
           html: '<div class="numbered-marker" style="--marker-color: #d4af37;">{{ forloop.index }}</div>',
           iconSize: [28, 28],
-          iconAnchor: [14, 14]
+          iconAnchor: [{{ loc.anchor_x | default: 14 }}, {{ loc.anchor_y | default: 14 }}]
         });
         var marker = L.marker([{{ loc.lat }}, {{ loc.lng }}], { icon: markerIcon }).addTo(map);
         
@@ -441,7 +441,7 @@ layout: page
             className: '',
             html: '<div class="numbered-marker" style="--marker-color: ' + layerColor_{{ layer_index }} + ';">{{ forloop.index }}</div>',
             iconSize: [28, 28],
-            iconAnchor: [14, 14]
+            iconAnchor: [{{ loc.anchor_x | default: 14 }}, {{ loc.anchor_y | default: 14 }}]
           });
           var m = L.marker([{{ loc.lat }}, {{ loc.lng }}], { icon: layerMarkerIcon });
           
