@@ -18,11 +18,11 @@ locations:
   - { lat: 35.15, lng: 33.91, name: "Cyprus", name_zh: "居比路", desc: "Native land of Barnabas.", desc_zh: "巴拿巴的祖籍所在地。", bible_ref: "Acts 4:36 / 使徒行传 4:36" }
   - { lat: 35.20, lng: 24.80, name: "Crete", name_zh: "革哩底", desc: "Where Titus was left for ministry.", desc_zh: "保罗留下提多在此设立长老。", bible_ref: "Titus 1:5 / 提多书 1:5" }
 ships:
-  - { lat: 33.5, lng: 30.5, rotation: "10" } # South of Cyprus
-  - { lat: 38.5, lng: 25.5, rotation: "-15" } # Aegean Sea
-  - { lat: 36.5, lng: 19.5, rotation: "5" } # Ionian Sea
-  - { lat: 33.0, lng: 18.0, rotation: "20", flip: "-1" } # Mediterranean central
-  - { lat: 40.5, lng: 13.0, rotation: "-5", flip: "-1" } # Tyrrhenian Sea
+  - { lat: 34.0, lng: 31.0, rotation: "10" } # Mediterranean Sea, South of Cyprus
+  - { lat: 37.5, lng: 25.5, rotation: "-10" } # Aegean Sea
+  - { lat: 36.5, lng: 20.0, rotation: "5" } # Ionian Sea
+  - { lat: 34.5, lng: 16.5, rotation: "15", flip: "-1" } # Central Mediterranean
+  - { lat: 39.5, lng: 12.5, rotation: "-5", flip: "-1" } # Tyrrhenian Sea
 ---
 
 <article class="post-content">
