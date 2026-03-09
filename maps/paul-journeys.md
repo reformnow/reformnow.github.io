@@ -57,15 +57,26 @@ layers:
     date_zh: "公元 49-52 年"
     color: "#e64a19" # Deep Orange
     locations:
+      - { lat: 36.20, lng: 36.16, name: "Antioch", name_zh: "安提阿", event: "Beginning the second journey", event_zh: "开始第二次旅程", desc: "Paul and Silas depart.", desc_zh: "安提阿：保罗与西拉结伴出发。", bible_ref: "Acts 15:40 / 使徒行传 15:40" }
       - { lat: 36.82, lng: 34.64, name: "Tarsus", name_zh: "大数", desc: "Paul's hometown.", desc_zh: "大数：保罗的故乡。", bible_ref: "Acts 15:41 / 使徒行传 15:41" }
-      - { lat: 39.93, lng: 26.15, name: "Troas", name_zh: "特罗亚", event: "The Macedonian call", event_zh: "马其顿的呼声", desc: "Vision of a man from Macedonia.", desc_zh: "特罗亚：夜间异象呼召保罗前往欧洲。", bible_ref: "Acts 16:8-10 / 使徒行传 16:8-10" }
-      - { lat: 41.02, lng: 24.28, name: "Philippi", name_zh: "腓立比", event: "Lydia converted & Jailer saved", event_zh: "吕底亚信主与狱卒得救", desc: "First church in Europe.", desc_zh: "腓立比：欧洲的第一间教会建立于此。", bible_ref: "Acts 16:14-34 / 使徒行传 16:14-34" }
-      - { lat: 40.64, lng: 22.94, name: "Thessalonica", name_zh: "帖撒罗尼迦", event: "Uproar in the city", event_zh: "城中引起骚动", desc: "Jews become jealous.", desc_zh: "帖撒罗尼迦：不信的犹太人招聚市井匪类制造骚动。", bible_ref: "Acts 17:1-5 / 使徒行传 17:1-5" }
-      - { lat: 40.52, lng: 22.20, name: "Berea", name_zh: "庇哩亚", desc: "Examining the Scriptures daily.", desc_zh: "庇哩亚：天天考查圣经的信徒。", bible_ref: "Acts 17:10 / 使徒行传 17:10" }
+      - { lat: 37.36, lng: 33.22, name: "Derbe", name_zh: "特庇", desc: "Revisiting the churches.", desc_zh: "特庇：重访以前建立的教会。", bible_ref: "Acts 16:1 / 使徒行传 16:1" }
+      - { lat: 37.58, lng: 32.55, name: "Lystra", name_zh: "路司得", event: "Timothy joins Paul", event_zh: "提摩太加入团队", desc: "Paul circumcises Timothy.", desc_zh: "路司得：保罗带着提摩太同行。", bible_ref: "Acts 16:1-3 / 使徒行传 16:1-3" }
+      - { lat: 37.87, lng: 32.48, name: "Iconium", name_zh: "以哥念", desc: "Delivering the Jerusalem decrees.", desc_zh: "以哥念：传达耶路撒冷会议的决定。", bible_ref: "Acts 16:4 / 使徒行传 16:4" }
+      - { lat: 37.78, lng: 30.52, name: "Pisidian Antioch", name_zh: "彼西底的安提阿", desc: "Strengthening the churches.", desc_zh: "彼西底的安提阿：坚固众教会。", bible_ref: "Acts 16:4-5 / 使徒行传 16:4-5" }
+      - { lat: 39.93, lng: 26.15, name: "Troas", name_zh: "特罗亚", event: "The Macedonian call", event_zh: "马其顿的呼声", desc: "Vision of a man from Macedonia. Luke joins.", desc_zh: "特罗亚：夜间异象呼召保罗前往欧洲，路加加入。", bible_ref: "Acts 16:8-10 / 使徒行传 16:8-10" }
+      - { lat: 40.48, lng: 25.53, name: "Samothrace", name_zh: "撒摩特喇", desc: "An island in the Aegean.", desc_zh: "撒摩特喇：爱琴海的岛屿停靠点。", bible_ref: "Acts 16:11 / 使徒行传 16:11" }
+      - { lat: 40.94, lng: 24.41, name: "Neapolis", name_zh: "尼亚坡里", desc: "Landing in Europe.", desc_zh: "尼亚坡里：登陆欧洲的港口。", bible_ref: "Acts 16:11 / 使徒行传 16:11" }
+      - { lat: 41.02, lng: 24.28, name: "Philippi", name_zh: "腓立比", event: "Lydia converted & Jailer saved", event_zh: "吕底亚信主与狱卒得救", desc: "First church in Europe.", desc_zh: "腓立比：欧洲的第一间教会建立于此。", bible_ref: "Acts 16:12-40 / 使徒行传 16:12-40" }
+      - { lat: 40.82, lng: 23.85, name: "Amphipolis", name_zh: "暗妃波里", desc: "Travelling through Macedonia.", desc_zh: "暗妃波里：途经之地。", bible_ref: "Acts 17:1 / 使徒行传 17:1" }
+      - { lat: 40.63, lng: 23.48, name: "Apollonia", name_zh: "亚波罗尼亚", desc: "Travelling through Macedonia.", desc_zh: "亚波罗尼亚：途经之地。", bible_ref: "Acts 17:1 / 使徒行传 17:1" }
+      - { lat: 40.64, lng: 22.94, name: "Thessalonica", name_zh: "帖撒罗尼迦", event: "Uproar in the city", event_zh: "城中引起骚动", desc: "Jews become jealous.", desc_zh: "帖撒罗尼迦：不信的犹太人招聚市井匪类制造骚动。", bible_ref: "Acts 17:1-9 / 使徒行传 17:1-9" }
+      - { lat: 40.52, lng: 22.20, name: "Berea", name_zh: "庇哩亚", desc: "Examining the Scriptures daily.", desc_zh: "庇哩亚：天天考查圣经的信徒。", bible_ref: "Acts 17:10-14 / 使徒行传 17:10-14" }
       - { lat: 37.98, lng: 23.72, name: "Athens", name_zh: "雅典", event: "Sermon on the Areopagus", event_zh: "在亚略巴古讲未识之神", desc: "Paul disputes with philosophers.", desc_zh: "雅典：面对伊壁鸠鲁和斯多亚学派的哲学家。", bible_ref: "Acts 17:15-34 / 使徒行传 17:15-34", image: "/assets/img/maps/ancient-athens.png" }
-      - { lat: 37.94, lng: 22.93, name: "Corinth", name_zh: "哥林多", event: "Working with Aquila and Priscilla", event_zh: "与亚居拉、百基拉同工", desc: "Stayed for 18 months.", desc_zh: "哥林多：保罗在此停留了一年半建立建立教会。", bible_ref: "Acts 18:1-11 / 使徒行传 18:1-11" }
-      - { lat: 37.94, lng: 27.34, name: "Ephesus", name_zh: "以弗所", desc: "A brief stop on the return.", desc_zh: "以弗所：回程时短暂亦在此讲论。", bible_ref: "Acts 18:19 / 使徒行传 18:19", image: "/assets/img/maps/ancient-ephesus.png" }
+      - { lat: 37.94, lng: 22.93, name: "Corinth", name_zh: "哥林多", event: "Working with Aquila and Priscilla", event_zh: "与亚居拉、百基拉同工", desc: "Stayed for 18 months.", desc_zh: "哥林多：保罗在此停留了一年半建立教会。", bible_ref: "Acts 18:1-18 / 使徒行传 18:1-18" }
+      - { lat: 37.94, lng: 27.34, name: "Ephesus", name_zh: "以弗所", desc: "A brief stop on the return.", desc_zh: "以弗所：回程时短暂在此讲论。", bible_ref: "Acts 18:19-21 / 使徒行传 18:19-21", image: "/assets/img/maps/ancient-ephesus.png" }
+      - { lat: 31.63, lng: 34.56, name: "Caesarea", name_zh: "凯撒利亚", desc: "Landing back in Judea.", desc_zh: "凯撒利亚：在犹太地登陆的港口。", bible_ref: "Acts 18:22 / 使徒行传 18:22" }
       - { lat: 31.76, lng: 35.21, name: "Jerusalem", name_zh: "耶路撒冷", desc: "Greeting the church.", desc_zh: "耶路撒冷：问候母会。", bible_ref: "Acts 18:22 / 使徒行传 18:22" }
+      - { lat: 36.20, lng: 36.16, name: "Antioch (Return)", name_zh: "回程：安提阿", desc: "End of the second journey.", desc_zh: "安提阿：第二次旅程结束，返回母会。", bible_ref: "Acts 18:22 / 使徒行传 18:22" }
     route:
       - [36.20, 36.16] # Antioch
       - [36.82, 34.64] # Tarsus
@@ -74,8 +85,11 @@ layers:
       - [37.87, 32.48] # Iconium
       - [37.78, 30.52] # Pisidian Antioch
       - [39.93, 26.15] # Troas
-      - [40.85, 24.74] # Neapolis
+      - [40.48, 25.53] # Samothrace 
+      - [40.94, 24.41] # Neapolis 
       - [41.02, 24.28] # Philippi
+      - [40.82, 23.85] # Amphipolis 
+      - [40.63, 23.48] # Apollonia 
       - [40.64, 22.94] # Thessalonica
       - [40.52, 22.20] # Berea
       - [37.98, 23.72] # Athens
@@ -83,7 +97,7 @@ layers:
       - [37.94, 27.34] # Ephesus
       - [31.63, 34.56] # Caesarea
       - [31.76, 35.21] # Jerusalem
-      - [36.20, 36.16] # Antioch
+      - [36.20, 36.16] # Antioch (Return)
 
   - name: "Third Journey"
     name_zh: "第三次旅程"
