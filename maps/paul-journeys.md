@@ -13,6 +13,12 @@ cities:
   - { lat: 31.20, lng: 29.91, name: "Alexandria", name_zh: "亚历山大" }
   - { lat: 33.51, lng: 36.27, name: "Damascus", name_zh: "大马士革" }
   - { lat: 34.77, lng: 32.42, name: "Cyprus", name_zh: "居比路" }
+ships:
+  - { lat: 33.5, lng: 30.5, rotation: "10" } # South of Cyprus
+  - { lat: 38.5, lng: 25.5, rotation: "-15" } # Aegean Sea
+  - { lat: 36.5, lng: 19.5, rotation: "5" } # Ionian Sea
+  - { lat: 33.0, lng: 18.0, rotation: "20", flip: "-1" } # Mediterranean central
+  - { lat: 40.5, lng: 13.0, rotation: "-5", flip: "-1" } # Tyrrhenian Sea
 layers:
   - name: "First Journey"
     name_zh: "第一次旅程"

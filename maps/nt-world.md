@@ -17,6 +17,12 @@ locations:
   - { lat: 33.51, lng: 36.27, name: "Damascus", name_zh: "大马士革", desc: "Where Paul was converted on the road.", desc_zh: "保罗在路上蒙召信主之处。", bible_ref: "Acts 9:3 / 使徒行传 9:3" }
   - { lat: 35.15, lng: 33.91, name: "Cyprus", name_zh: "居比路", desc: "Native land of Barnabas.", desc_zh: "巴拿巴的祖籍所在地。", bible_ref: "Acts 4:36 / 使徒行传 4:36" }
   - { lat: 35.20, lng: 24.80, name: "Crete", name_zh: "革哩底", desc: "Where Titus was left for ministry.", desc_zh: "保罗留下提多在此设立长老。", bible_ref: "Titus 1:5 / 提多书 1:5" }
+ships:
+  - { lat: 33.5, lng: 30.5, rotation: "10" } # South of Cyprus
+  - { lat: 38.5, lng: 25.5, rotation: "-15" } # Aegean Sea
+  - { lat: 36.5, lng: 19.5, rotation: "5" } # Ionian Sea
+  - { lat: 33.0, lng: 18.0, rotation: "20", flip: "-1" } # Mediterranean central
+  - { lat: 40.5, lng: 13.0, rotation: "-5", flip: "-1" } # Tyrrhenian Sea
 ---
 
 <article class="post-content">

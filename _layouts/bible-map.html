@@ -126,6 +126,17 @@ layout: page
   .map-sidebar-number { flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: bold; margin-top: 2px; }
   .map-sidebar-text { line-height: 1.4; font-size: 0.95rem;}
   .map-sidebar-text strong { color: var(--text-color); font-family: Georgia, serif;}
+
+  /* Ship sway animation */
+  @keyframes sway {
+    0% { transform: rotate(-3deg); }
+    50% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+  }
+  .vintage-ship-icon {
+    animation: sway 6s ease-in-out infinite;
+    transform-origin: center bottom;
+  }
 </style>
 
 <a href="{{ '/maps/' | relative_url }}" class="map-back-btn">
@@ -315,6 +326,47 @@ layout: page
           "<div style='text-align:center; font-weight: 600; color: #444;'>{{ city.name }}<br>{{ city.name_zh }}</div>", 
           { permanent: true, direction: "top", opacity: 0.8, className: 'bible-label', offset: [0, -6] }
         );
+      {% endfor %}
+    {% endif %}
+
+    /* ===== Vintage Ships ===== */
+    {% if page.ships %}
+      var shipIconSvg = `
+        <svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.7; filter: drop-shadow(1px 2px 2px rgba(0,0,0,0.3)); pointer-events: none;">
+          <g transform="translate(10, 15) scale(0.8)">
+            <!-- Sails -->
+            <path d="M 40,20 Q 55,40 40,60 Q 25,40 40,20 Z" fill="#fff" stroke="#8a735c" stroke-width="2"/>
+            <path d="M 50,15 Q 70,35 50,55 Q 30,35 50,15 Z" fill="#fff" stroke="#8a735c" stroke-width="2"/>
+            <!-- Masts -->
+            <line x1="40" y1="10" x2="40" y2="65" stroke="#5c442c" stroke-width="3"/>
+            <line x1="50" y1="5" x2="50" y2="70" stroke="#5c442c" stroke-width="3"/>
+            <line x1="60" y1="20" x2="60" y2="60" stroke="#5c442c" stroke-width="2"/>
+            <!-- Small Sail -->
+            <path d="M 60,30 Q 70,45 60,60 Q 50,45 60,30 Z" fill="#fff" stroke="#8a735c" stroke-width="2"/>
+            <!-- Hull -->
+            <path d="M 10,60 L 90,60 L 75,80 L 25,80 Z" fill="#5c442c" stroke="#3e2723" stroke-width="2"/>
+            <path d="M 15,65 L 85,65" stroke="#8a735c" stroke-width="1"/>
+            <path d="M 20,70 L 80,70" stroke="#8a735c" stroke-width="1"/>
+            <path d="M 25,75 L 75,75" stroke="#8a735c" stroke-width="1"/>
+          </g>
+        </svg>
+      `;
+      var shipIcon = L.divIcon({
+        className: 'vintage-ship-icon',
+        html: shipIconSvg,
+        iconSize: [40, 40],
+        iconAnchor: [20, 20]
+      });
+
+      {% for ship in page.ships %}
+        var marker = L.marker([{{ ship.lat }}, {{ ship.lng }}], { 
+          icon: shipIcon, 
+          interactive: false,
+          zIndexOffset: -100
+        }).addTo(map);
+        {% if ship.rotation %}
+          marker.getElement().style.transform += ' scaleX({{ ship.flip | default: 1 }}) rotate({{ ship.rotation }}deg)';
+        {% endif %}
       {% endfor %}
     {% endif %}
 
