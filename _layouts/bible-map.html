@@ -160,6 +160,10 @@ layout: page
     <span class="lang-en">{{ page.description }}</span>
     <span class="lang-zh">{{ page.description_zh }}</span>
   </div>
+  
+  <div class="map-article-content mt-4" style="font-size: 0.95em;">
+    {{ content }}
+  </div>
 </div>
 
 <div class="sticky-map-container">
@@ -178,8 +182,6 @@ layout: page
     </div>
   </div>
 </div>
-
-{{ content }}
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
