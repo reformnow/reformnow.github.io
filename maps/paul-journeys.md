@@ -76,7 +76,7 @@ layers:
       - { lat: 37.94, lng: 27.34, name: "Ephesus", name_zh: "以弗所", desc: "A brief stop on the return.", desc_zh: "以弗所：回程时短暂在此讲论。", bible_ref: "Acts 18:19-21 / 使徒行传 18:19-21", image: "/assets/img/maps/ancient-ephesus.png" }
       - { lat: 31.63, lng: 34.56, name: "Caesarea", name_zh: "凯撒利亚", desc: "Landing back in Judea.", desc_zh: "凯撒利亚：在犹太地登陆的港口。", bible_ref: "Acts 18:22 / 使徒行传 18:22" }
       - { lat: 31.76, lng: 35.21, name: "Jerusalem", name_zh: "耶路撒冷", desc: "Greeting the church.", desc_zh: "耶路撒冷：问候母会。", bible_ref: "Acts 18:22 / 使徒行传 18:22" }
-      - { lat: 36.20, lng: 36.16, name: "Antioch (Return)", name_zh: "回程：安提阿", desc: "End of the second journey.", desc_zh: "安提阿：第二次旅程结束，返回母会。", bible_ref: "Acts 18:22 / 使徒行传 18:22" }
+      - { lat: 36.17, lng: 36.19, name: "Antioch (Return)", name_zh: "回程：安提阿", desc: "End of the second journey.", desc_zh: "安提阿：第二次旅程结束，返回母会。", bible_ref: "Acts 18:22 / 使徒行传 18:22" }
     route:
       - [36.20, 36.16] # Antioch
       - [36.82, 34.64] # Tarsus
@@ -97,7 +97,7 @@ layers:
       - [37.94, 27.34] # Ephesus
       - [31.63, 34.56] # Caesarea
       - [31.76, 35.21] # Jerusalem
-      - [36.20, 36.16] # Antioch (Return)
+      - [36.17, 36.19] # Antioch (Return)
 
   - name: "Third Journey"
     name_zh: "第三次旅程"
