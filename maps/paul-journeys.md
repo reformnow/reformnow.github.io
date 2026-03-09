@@ -105,26 +105,73 @@ layers:
     date_zh: "公元 53-57 年"
     color: "#2e7d32" # Dark Green
     locations:
-      - { lat: 37.94, lng: 27.34, name: "Ephesus", name_zh: "以弗所", event: "Riot of the silversmiths", event_zh: "银匠底米丢制造暴乱", desc: "Stayed for ~3 years.", desc_zh: "以弗所：保罗在此牧养近三年之久，福音大为兴旺。", bible_ref: "Acts 19:23-41 / 使徒行传 19:23-41", image: "/assets/img/maps/ancient-ephesus.png" }
-      - { lat: 40.64, lng: 22.94, name: "Macedonia", name_zh: "马其顿", desc: "Encouraging the churches.", desc_zh: "马其顿：鼓励各教会。", bible_ref: "Acts 20:1 / 使徒行传 20:1" }
-      - { lat: 37.94, lng: 22.93, name: "Greece (Corinth)", name_zh: "希腊(哥林多)", desc: "Stayed 3 months.", desc_zh: "希腊：在此居住三个月。", bible_ref: "Acts 20:2 / 使徒行传 20:2" }
-      - { lat: 39.93, lng: 26.15, name: "Troas", name_zh: "特罗亚", event: "Eutychus raised from the dead", event_zh: "犹推古从死里复活", desc: "Paul preached until midnight.", desc_zh: "特罗亚：保罗讲道直到半夜。", bible_ref: "Acts 20:7-12 / 使徒行传 20:7-12" }
+      - { lat: 36.20, lng: 36.16, name: "Antioch", name_zh: "安提阿", event: "Beginning the third journey", event_zh: "开始第三次旅程", desc: "Paul sets out to strengthen disciples.", desc_zh: "安提阿：保罗再次出发，坚固门徒。", bible_ref: "Acts 18:23 / 使徒行传 18:23", anchor_x: 29 }
+      - { lat: 36.82, lng: 34.64, name: "Tarsus", name_zh: "大数", desc: "Travelling through Cilicia.", desc_zh: "大数：途经基利家。", bible_ref: "Acts 18:23 / 使徒行传 18:23" }
+      - { lat: 37.36, lng: 33.22, name: "Derbe", name_zh: "特庇", desc: "Strengthening the disciples.", desc_zh: "特庇：坚固众门徒。", bible_ref: "Acts 18:23 / 使徒行传 18:23" }
+      - { lat: 37.58, lng: 32.55, name: "Lystra", name_zh: "路司得", desc: "Strengthening the disciples.", desc_zh: "路司得：坚固众门徒。", bible_ref: "Acts 18:23 / 使徒行传 18:23" }
+      - { lat: 37.87, lng: 32.48, name: "Iconium", name_zh: "以哥念", desc: "Strengthening the disciples.", desc_zh: "以哥念：坚固众门徒。", bible_ref: "Acts 18:23 / 使徒行传 18:23" }
+      - { lat: 37.78, lng: 30.52, name: "Pisidian Antioch", name_zh: "彼西底的安提阿", desc: "Travelling through Phrygia.", desc_zh: "彼西底的安提阿：途经弗吕家。", bible_ref: "Acts 18:23 / 使徒行传 18:23" }
+      - { lat: 37.77, lng: 29.06, name: "Laodicea", name_zh: "老底嘉", desc: "Journeying to Ephesus.", desc_zh: "老底嘉：前往以弗所的途中。", bible_ref: "Acts 19:1 / 使徒行传 19:1" }
+      - { lat: 37.94, lng: 27.34, name: "Ephesus", name_zh: "以弗所", event: "Riot of the silversmiths", event_zh: "银匠底米丢制造暴乱", desc: "Stayed for ~3 years.", desc_zh: "以弗所：保罗在此牧养近三年之久，福音大为兴旺。", bible_ref: "Acts 19:23-41 / 使徒行传 19:23-41", image: "/assets/img/maps/ancient-ephesus.png", anchor_x: -1 }
+      - { lat: 39.93, lng: 26.15, name: "Troas", name_zh: "特罗亚", desc: "Wait for Titus.", desc_zh: "特罗亚：暂等提多。", bible_ref: "2 Cor 2:12 / 林后 2:12", anchor_x: -1 }
+      - { lat: 40.48, lng: 25.53, name: "Samothrace", name_zh: "撒摩特喇", desc: "Crossing to Macedonia.", desc_zh: "撒摩特喇：过爱琴海到马其顿。", bible_ref: "Acts 20:1 / 使徒行传 20:1" }
+      - { lat: 40.94, lng: 24.41, name: "Neapolis", name_zh: "尼亚坡里", desc: "Landing in Macedonia.", desc_zh: "尼亚坡里：登陆马其顿。", bible_ref: "Acts 20:1 / 使徒行传 20:1" }
+      - { lat: 41.02, lng: 24.28, name: "Philippi", name_zh: "腓立比", desc: "Encouraging the churches.", desc_zh: "腓立比：鼓励马其顿的众教会。", bible_ref: "Acts 20:1-2 / 使徒行传 20:1-2", anchor_x: 29 }
+      - { lat: 40.82, lng: 23.85, name: "Amphipolis", name_zh: "暗妃波里", desc: "Travelling through Macedonia.", desc_zh: "暗妃波里：马其顿行程。", bible_ref: "Acts 20:1-2 / 使徒行传 20:1-2" }
+      - { lat: 40.63, lng: 23.48, name: "Apollonia", name_zh: "亚波罗尼亚", desc: "Travelling through Macedonia.", desc_zh: "亚波罗尼亚：马其顿行程。", bible_ref: "Acts 20:1-2 / 使徒行传 20:1-2" }
+      - { lat: 40.64, lng: 22.94, name: "Thessalonica", name_zh: "帖撒罗尼迦", desc: "Encouraging the brethren.", desc_zh: "帖撒罗尼迦：劝勉弟兄们。", bible_ref: "Acts 20:1-2 / 使徒行传 20:1-2", anchor_x: 29 }
+      - { lat: 40.52, lng: 22.20, name: "Berea", name_zh: "庇哩亚", desc: "Travelling to Greece.", desc_zh: "庇哩亚：前往希腊途中。", bible_ref: "Acts 20:1-2 / 使徒行传 20:1-2", anchor_x: -1 }
+      - { lat: 37.98, lng: 23.72, name: "Athens", name_zh: "雅典", desc: "Journey to Corinth.", desc_zh: "雅典：前往哥林多途中。", bible_ref: "Acts 20:2 / 使徒行传 20:2" }
+      - { lat: 37.94, lng: 22.93, name: "Corinth", name_zh: "哥林多", event: "Staying in Greece", event_zh: "在希腊停留", desc: "Stayed 3 months. Plot against him.", desc_zh: "哥林多：在此居住三个月，因犹太人谋害而改变路线。", bible_ref: "Acts 20:2-3 / 使徒行传 20:2-3" }
+      - { lat: 39.49, lng: 26.34, name: "Assos", name_zh: "亚朔", desc: "Met the ship companions here.", desc_zh: "亚朔：保罗步行至此登船。", bible_ref: "Acts 20:13-14 / 使徒行传 20:13-14" }
+      - { lat: 39.10, lng: 26.55, name: "Mytilene", name_zh: "米推利尼", desc: "Sailing down the coast.", desc_zh: "米推利尼：沿海岸航行。", bible_ref: "Acts 20:14 / 使徒行传 20:14" }
+      - { lat: 38.44, lng: 26.06, name: "Chios", name_zh: "基阿", desc: "Passed by Chios.", desc_zh: "基阿：航行经过。", bible_ref: "Acts 20:15 / 使徒行传 20:15" }
+      - { lat: 37.72, lng: 26.93, name: "Samos", name_zh: "撒摩", desc: "Touched at Samos.", desc_zh: "撒摩：短暂停留地。", bible_ref: "Acts 20:15 / 使徒行传 20:15" }
       - { lat: 37.52, lng: 27.27, name: "Miletus", name_zh: "米利都", event: "Farewell to Ephesian elders", event_zh: "与以弗所众长老泣别", desc: "Paul warns of fierce wolves.", desc_zh: "米利都：保罗告诫教会提防凶暴的豺狼。", bible_ref: "Acts 20:17-38 / 使徒行传 20:17-38" }
+      - { lat: 36.80, lng: 27.09, name: "Cos", name_zh: "哥士", desc: "A straight course to Cos.", desc_zh: "哥士：乘船直行到此。", bible_ref: "Acts 21:1 / 使徒行传 21:1" }
+      - { lat: 36.44, lng: 28.23, name: "Rhodes", name_zh: "罗底", desc: "Sailing via Rhodes.", desc_zh: "罗底：途经的海岛。", bible_ref: "Acts 21:1 / 使徒行传 21:1" }
+      - { lat: 36.27, lng: 29.32, name: "Patara", name_zh: "帕大喇", desc: "Found a ship crossing to Phoenicia.", desc_zh: "帕大喇：换乘前往腓尼基的船。", bible_ref: "Acts 21:1-2 / 使徒行传 21:1-2" }
       - { lat: 33.27, lng: 35.20, name: "Tyre", name_zh: "推罗", desc: "Disciples warned Paul.", desc_zh: "推罗：门徒被灵感动劝阻保罗入京。", bible_ref: "Acts 21:3-4 / 使徒行传 21:3-4" }
+      - { lat: 32.93, lng: 35.08, name: "Ptolemais", name_zh: "多利买", desc: "Greeted the brethren.", desc_zh: "多利买：停留一天问候弟兄们。", bible_ref: "Acts 21:7 / 使徒行传 21:7" }
       - { lat: 31.63, lng: 34.56, name: "Caesarea", name_zh: "该撒利亚", event: "Agabus's prophecy", event_zh: "亚迦布预言保罗受绑", desc: "Stayed with Philip the evangelist.", desc_zh: "该撒利亚：亚迦布用带子绑手脚预言保罗遇难。", bible_ref: "Acts 21:10-11 / 使徒行传 21:10-11" }
+      - { lat: 31.76, lng: 35.21, name: "Jerusalem", name_zh: "耶路撒冷", desc: "Third journey ends. Paul is arrested.", desc_zh: "耶路撒冷：第三次旅程结束，保罗随即被捕。", bible_ref: "Acts 21:17-33 / 使徒行传 21:17-33", anchor_x: 29 }
     route:
       - [36.20, 36.16] # Antioch
+      - [36.82, 34.64] # Tarsus
+      - [37.36, 33.22] # Derbe
+      - [37.58, 32.55] # Lystra
+      - [37.87, 32.48] # Iconium
       - [37.78, 30.52] # Pisidian Antioch
+      - [37.77, 29.06] # Laodicea
       - [37.94, 27.34] # Ephesus
       - [39.93, 26.15] # Troas
+      - [40.48, 25.53] # Samothrace
+      - [40.94, 24.41] # Neapolis
       - [41.02, 24.28] # Philippi
+      - [40.82, 23.85] # Amphipolis
+      - [40.63, 23.48] # Apollonia
       - [40.64, 22.94] # Thessalonica
-      - [37.94, 22.93] # Corinth
       - [40.52, 22.20] # Berea
-      - [41.02, 24.28] # Philippi
-      - [39.93, 26.15] # Troas
+      - [37.98, 23.72] # Athens
+      - [37.94, 22.93] # Corinth
+      - [37.98, 23.72] # Athens
+      - [40.52, 22.20] # Berea
+      - [40.64, 22.94] # Thessalonica
+      - [40.63, 23.48] # Apollonia
+      - [40.82, 23.85] # Amphipolis
+      - [41.02, 24.28] # Philippi (Return)
+      - [40.94, 24.41] # Neapolis
+      - [39.93, 26.15] # Troas (Return)
+      - [39.49, 26.34] # Assos
+      - [39.10, 26.55] # Mytilene
+      - [38.44, 26.06] # Chios
+      - [37.72, 26.93] # Samos
       - [37.52, 27.27] # Miletus
+      - [36.80, 27.09] # Cos
+      - [36.44, 28.23] # Rhodes
+      - [36.27, 29.32] # Patara
       - [33.27, 35.20] # Tyre
+      - [32.93, 35.08] # Ptolemais
       - [31.63, 34.56] # Caesarea
       - [31.76, 35.21] # Jerusalem
 ---
