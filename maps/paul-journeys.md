@@ -21,15 +21,15 @@ layers:
     color: "#d4af37" # Gold
     locations:
       - { lat: 36.20, lng: 36.16, name: "Antioch", name_zh: "安提阿", event: "Commissioned by the Holy Spirit", event_zh: "圣灵差遣", desc: "Starting point of the mission.", desc_zh: "安提阿：宣教旅程的出发点。", bible_ref: "Acts 13:1-3 / 使徒行传 13:1-3" }
-      - { lat: 36.14, lng: 35.92, name: "Seleucia", name_zh: "西流基", desc: "The port of Antioch.", desc_zh: "西流基：叙利亚安提阿的港口。", bible_ref: "Acts 13:4 / 使徒行传 13:4" }
-      - { lat: 35.15, lng: 33.91, name: "Salamis", name_zh: "撒拉米", desc: "A port on Cyprus.", desc_zh: "撒拉米：居比路的小港口。", bible_ref: "Acts 13:5 / 使徒行传 13:5" }
+      - { lat: 36.14, lng: 35.92, name: "Seleucia", name_zh: "西流基", event: "Setting sail for Cyprus", event_zh: "乘船启航前往居比路", desc: "The port of Antioch.", desc_zh: "西流基：叙利亚安提阿的港口。", bible_ref: "Acts 13:4 / 使徒行传 13:4" }
+      - { lat: 35.15, lng: 33.91, name: "Salamis", name_zh: "撒拉米", event: "Preaching in synagogues", event_zh: "在犹太各会堂宣讲", desc: "A port on Cyprus. John Mark assisted them.", desc_zh: "撒拉米：居比路的小港口，有马可约翰作助手。", bible_ref: "Acts 13:5 / 使徒行传 13:5" }
       - { lat: 34.77, lng: 32.42, name: "Paphos", name_zh: "帕弗", event: "Elymas the sorcerer is blinded", event_zh: "行法术的以吕马瞎眼", desc: "Capital of Cyprus.", desc_zh: "帕弗：居比路的主府。", bible_ref: "Acts 13:8-12 / 使徒行传 13:8-12" }
       - { lat: 36.85, lng: 30.85, name: "Perga", name_zh: "别加", event: "John Mark departs", event_zh: "马可离开保罗回耶路撒冷", desc: "Where John Mark left Paul and Barnabas.", desc_zh: "别加：马可约翰在此离开使徒。", bible_ref: "Acts 13:13 / 使徒行传 13:13" }
       - { lat: 37.78, lng: 30.52, name: "Pisidian Antioch", name_zh: "彼西底的安提阿", event: "Turning to the Gentiles", event_zh: "转向外邦人传道", desc: "Major center in Galatia.", desc_zh: "彼西底的安提阿：加拉太地区的核心城市。", bible_ref: "Acts 13:46 / 使徒行传 13:46" }
-      - { lat: 37.87, lng: 32.48, name: "Iconium", name_zh: "以哥念", desc: "Paul preach to great multitudes.", desc_zh: "以哥念：保罗在此向众人讲道。", bible_ref: "Acts 14:1 / 使徒行传 14:1" }
-      - { lat: 37.58, lng: 32.55, name: "Lystra", name_zh: "路司得", event: "Paul heals a lame man & is stoned", event_zh: "医治瘸腿者并遭人用石头打", desc: "Where Paul was stoned; Timothy's home.", desc_zh: "路司得：保罗在此遇袭，也是提摩太的家乡。", bible_ref: "Acts 14:8-19 / 使徒行传 14:8-19" }
-      - { lat: 37.36, lng: 33.22, name: "Derbe", name_zh: "特庇", desc: "Last point before turning back.", desc_zh: "特庇：此次行程的最东端。", bible_ref: "Acts 14:20 / 使徒行传 14:20" }
-      - { lat: 36.49, lng: 30.60, name: "Attalia", name_zh: "亚大利", desc: "Port where they sailed back to Antioch.", desc_zh: "亚大利：启航返回叙利亚安提阿的港口。", bible_ref: "Acts 14:25 / 使徒行传 14:25" }
+      - { lat: 37.87, lng: 32.48, name: "Iconium", name_zh: "以哥念", event: "A divided city and persecution", event_zh: "群众分裂与遭遇迫害", desc: "Stayed a long time despite opposition, doing signs and wonders.", desc_zh: "以哥念：虽遇反对，仍停留多日行神迹传道。", bible_ref: "Acts 14:1-7 / 使徒行传 14:1-7" }
+      - { lat: 37.58, lng: 32.55, name: "Lystra", name_zh: "路司得", event: "Paul heals a lame man & is stoned", event_zh: "医治瘸腿者并遭人用石头打", desc: "Mistaken for gods; Timothy's home.", desc_zh: "路司得：被误认为神明后遭迫害，也是提摩太家乡。", bible_ref: "Acts 14:8-19 / 使徒行传 14:8-19" }
+      - { lat: 37.36, lng: 33.22, name: "Derbe", name_zh: "特庇", event: "Making many disciples", event_zh: "使许多人作了门徒", desc: "Last point before turning back to strengthen the churches.", desc_zh: "特庇：此次行程最东端，后沿原路折返坚固众教会。", bible_ref: "Acts 14:20-21 / 使徒行传 14:20-21" }
+      - { lat: 36.49, lng: 30.60, name: "Attalia", name_zh: "亚大利", event: "Sailing back to Antioch", event_zh: "乘船返回安提阿母会", desc: "Port where they sailed back to Syria.", desc_zh: "亚大利：下到港口启航返回叙利亚的安提阿。", bible_ref: "Acts 14:25-26 / 使徒行传 14:25-26" }
     route:
       - [36.20, 36.16]
       - [36.14, 35.92]
