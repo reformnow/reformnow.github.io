@@ -29,6 +29,10 @@ layers:
       - { lat: 37.87, lng: 32.48, name: "Iconium", name_zh: "以哥念", event: "A divided city and persecution", event_zh: "群众分裂与遭遇迫害", desc: "Stayed a long time despite opposition, doing signs and wonders.", desc_zh: "以哥念：虽遇反对，仍停留多日行神迹传道。", bible_ref: "Acts 14:1-7 / 使徒行传 14:1-7" }
       - { lat: 37.58, lng: 32.55, name: "Lystra", name_zh: "路司得", event: "Paul heals a lame man & is stoned", event_zh: "医治瘸腿者并遭人用石头打", desc: "Mistaken for gods; Timothy's home.", desc_zh: "路司得：被误认为神明后遭迫害，也是提摩太家乡。", bible_ref: "Acts 14:8-19 / 使徒行传 14:8-19" }
       - { lat: 37.36, lng: 33.22, name: "Derbe", name_zh: "特庇", event: "Making many disciples", event_zh: "使许多人作了门徒", desc: "Last point before turning back to strengthen the churches.", desc_zh: "特庇：此次行程最东端，后沿原路折返坚固众教会。", bible_ref: "Acts 14:20-21 / 使徒行传 14:20-21" }
+      - { lat: 37.53, lng: 32.55, name: "Lystra (Return)", name_zh: "回程：路司得", event: "Strengthening the disciples", event_zh: "坚固门徒与设立长老", desc: "Appointed elders for them in every church.", desc_zh: "路司得 (回程)：坚固门徒的心，在各教会中选立长老。", bible_ref: "Acts 14:21-23 / 使徒行传 14:21-23" }
+      - { lat: 37.92, lng: 32.48, name: "Iconium (Return)", name_zh: "回程：以哥念", desc: "Encouraging them to continue in the faith.", desc_zh: "以哥念 (回程)：勉励信徒恒守所信的道。", bible_ref: "Acts 14:21-23 / 使徒行传 14:21-23" }
+      - { lat: 37.83, lng: 30.52, name: "Pisidian Antioch (Return)", name_zh: "回程：彼西底的安提阿", desc: "Saying we must through many tribulations enter the kingdom of God.", desc_zh: "彼西底的安提阿 (回程)：教导进入神的国必须经历艰难。", bible_ref: "Acts 14:21-23 / 使徒行传 14:21-23" }
+      - { lat: 36.80, lng: 30.85, name: "Perga (Return)", name_zh: "回程：别加", event: "Preaching the word", event_zh: "在别加讲道", desc: "Preached the word in Perga on their way back.", desc_zh: "别加 (回程)：回程时在这里传讲主的道。", bible_ref: "Acts 14:25 / 使徒行传 14:25" }
       - { lat: 36.49, lng: 30.60, name: "Attalia", name_zh: "亚大利", event: "Sailing back to Antioch", event_zh: "乘船返回安提阿母会", desc: "Port where they sailed back to Syria.", desc_zh: "亚大利：下到港口启航返回叙利亚的安提阿。", bible_ref: "Acts 14:25-26 / 使徒行传 14:25-26" }
     route:
       - [36.20, 36.16]
@@ -40,10 +44,10 @@ layers:
       - [37.87, 32.48]
       - [37.58, 32.55]
       - [37.36, 33.22]
-      - [37.58, 32.55]
-      - [37.87, 32.48]
-      - [37.78, 30.52]
-      - [36.85, 30.85]
+      - [37.53, 32.55]
+      - [37.92, 32.48]
+      - [37.83, 30.52]
+      - [36.80, 30.85]
       - [36.49, 30.60]
       - [36.20, 36.16]
 
