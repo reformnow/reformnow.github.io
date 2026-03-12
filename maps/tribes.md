@@ -8,6 +8,7 @@ permalink: /maps/tribes/
 center: "31.8, 35.3"
 zoom: 8
 geojson: "tribes.geojson"
+basemap: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
 polygons: []
 locations:
   - { lat: 31.7767, lng: 35.2342, name: "Jerusalem", name_zh: "耶路撒冷", desc: "The city of David and the Temple.", desc_zh: "大卫之城与圣殿所在地。", bible_ref: "2 Samuel 5:7 / 撒母耳记下 5:7" }
