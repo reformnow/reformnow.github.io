@@ -4,8 +4,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "New Feature",
-        "color": "#888"
+        "name": "Asher",
+        "color": "#F5CBA7",
+        "name_zh": "\u4e9a\u8bbe"
       },
       "geometry": {
         "type": "Polygon",
@@ -78,8 +79,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "New Feature",
-        "color": "#888"
+        "name": "Naphtali",
+        "color": "#A9DFBF",
+        "name_zh": "\u62ff\u5f17\u4ed6\u5229"
       },
       "geometry": {
         "type": "Polygon",
@@ -232,8 +234,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "New Feature",
-        "color": "#888"
+        "name": "Zebulun",
+        "color": "#85C1E9",
+        "name_zh": "\u897f\u5e03\u4f26"
       },
       "geometry": {
         "type": "Polygon",
@@ -318,8 +321,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "New Feature",
-        "color": "#888"
+        "name": "Issachar",
+        "color": "#D7BDE2",
+        "name_zh": "\u4ee5\u8428\u8fe6"
       },
       "geometry": {
         "type": "Polygon",
@@ -444,8 +448,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "New Feature",
-        "color": "#888"
+        "name": "Manasseh (W)",
+        "color": "#C5E1A5",
+        "name_zh": "\u739b\u62ff\u897f(\u897f)"
       },
       "geometry": {
         "type": "Polygon",
@@ -786,8 +791,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "New Feature",
-        "color": "#888"
+        "name": "Dan",
+        "color": "#F1948A",
+        "name_zh": "\u4f46"
       },
       "geometry": {
         "type": "Polygon",
@@ -968,8 +974,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "New Feature",
-        "color": "#888"
+        "name": "Ephraim",
+        "color": "#A3E4D7",
+        "name_zh": "\u4ee5\u6cd5\u83b2"
       },
       "geometry": {
         "type": "Polygon",
@@ -1134,8 +1141,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "New Feature",
-        "color": "#888"
+        "name": "Manasseh (E)",
+        "color": "#AED6F1",
+        "name_zh": "\u739b\u62ff\u897f(\u4e1c)"
       },
       "geometry": {
         "type": "Polygon",
@@ -1380,8 +1388,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "New Feature",
-        "color": "#888"
+        "name": "Gad",
+        "color": "#F9E79F",
+        "name_zh": "\u8fe6\u5f97"
       },
       "geometry": {
         "type": "Polygon",
@@ -1762,8 +1771,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "New Feature",
-        "color": "#888"
+        "name": "Reuben",
+        "color": "#D2B4DE",
+        "name_zh": "\u6d41\u4fbf"
       },
       "geometry": {
         "type": "Polygon",
@@ -2012,8 +2022,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "New Feature",
-        "color": "#888"
+        "name": "Benjamin",
+        "color": "#F7DC6F",
+        "name_zh": "\u4fbf\u96c5\u60af"
       },
       "geometry": {
         "type": "Polygon",
@@ -2150,8 +2161,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "New Feature",
-        "color": "#888"
+        "name": "Judah",
+        "color": "#C9A0DC",
+        "name_zh": "\u72b9\u5927"
       },
       "geometry": {
         "type": "Polygon",
