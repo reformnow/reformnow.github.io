@@ -266,6 +266,13 @@ This theological shift creates a significant internal tension: the modern Roman 
 这种神学上的转向造成了显著的内部张力：现代罗马天主教会在建制上继承了大公教会的道统，但在其当代对人神合作的强调中，却在很大程度上割断了与“无条件、主权恩典”这一历史教义传承的联系。“大公教会传统”曾教导恩典赐予了相信的意愿；而现代的人神合作论则往往暗示，恩典仅仅是辅助那个“必须先决定合作”的意志。
 </div>
 
+<div class="lang-en" markdown="1">
+This prompts a profound question for the modern believer: As those within the Protestant tradition, we have already stepped outside the institutional hierarchy of the medieval church. If we also fail to maintain a clear doctrinal connection with the consistent, historic teaching of the "Great Tradition," what then is our spiritual standing? In truth, seeking this very continuity was the heart of the Reformers' mission. The essence of "Reformation" was never to innovate or create a new religion, but to recover the catholic truths that had been obscured—to ensure that our faith is anchored not in the shifting sands of human cooperation, but in the rock-solid heritage of sovereign grace.
+</div>
+<div class="lang-zh" markdown="1">
+这引发了一个深切的追问：作为新教徒，我们已经脱离了中世纪教会的建制。如果我们在教义上不能与大公教会一贯的历史教导相连接，那么我们如今的属灵地位究竟是怎样的呢？事实上，寻求这种教义上的连续性正是改教家们的初衷——“归正”的本意，绝非创造一种新的宗教，而是回归并恢复那曾经被清晰宣认、后来却逐渐被遮蔽的大公信仰真理：确保我们的信仰不是建立在“人神合作”这种易变的沙土上，而是植根于主权恩典那坚如磐石的传承之中。
+</div>
+
 ---
 
 <div class="lang-en" markdown="1">
