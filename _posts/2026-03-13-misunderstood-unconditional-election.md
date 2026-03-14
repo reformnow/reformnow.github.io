@@ -229,6 +229,40 @@ The "purpose of election" stands or falls on whether it is "not of works." If Go
 ---
 
 <div class="lang-en" markdown="1">
+## The Contemporary Synthesis
+</div>
+<div class="lang-zh" markdown="1">
+## 当代的综合视角
+</div>
+
+<div class="lang-en" markdown="1">
+Today, the Roman Catholic Church continues to uphold this historic balance. According to the *Catechism of the Catholic Church*, God's eternal plan of "predestination" includes each person's free response to His grace (CCC 600). This perspective avoids the errors of fatalism by teaching that God, to whom all moments are present, incorporates our free cooperation into His sovereign decree.
+</div>
+<div class="lang-zh" markdown="1">
+时至今日，罗马天主教会继续维护这种历史性的平衡。根据《天主教教理》，上帝永恒的“预定”计划包括了每一个人对祂恩典的自由响应（CCC 600）。这一视角通过教导——对于上帝而言，所有时刻都是当下的，祂将我们的自由合作纳入了祂的主权指谕之中——从而避免了宿命论的错误。
+</div>
+
+<div class="lang-en" markdown="1">
+The contemporary position strongly emphasizes two points:
+1. **The Priority of Grace**: No one can take even the first step toward God without the preceding help of the Holy Spirit.
+2. **The Rejection of Double Predestination**: As the Catechism states, "God predestines no one to go to hell" (CCC 1037); condemnation is strictly the result of a willful, final rejection of God's offered mercy.
+</div>
+<div class="lang-zh" markdown="1">
+当代的立场强调两点：
+1. **恩典的优先性**：如果没有圣灵的预先引领，没有人能向着上帝迈出哪怕第一步。
+2. **弃绝“双重预定”**：正如教理所载，“天主并未预定任何人去下地狱”（CCC 1037）；定罪完全是个人意志最终拒绝上帝慈悲的结果。
+</div>
+
+<div class="lang-en" markdown="1">
+By holding these truths together, the church maintains that election is indeed "unconditional" in its origin—it flows from God's free favor—but it never operates as a mechanical force that bypasses the human heart.
+</div>
+<div class="lang-zh" markdown="1">
+通过将这些真理结合在一起，教会主张：拣选在其源头上的确是“无条件的”——它源于上帝白白的恩宠——但它绝非一种绕过人类心灵的机械力量。
+</div>
+
+---
+
+<div class="lang-en" markdown="1">
 ## Why This Matters: The Glory of Grace
 </div>
 <div class="lang-zh" markdown="1">
