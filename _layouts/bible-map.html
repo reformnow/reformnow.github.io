@@ -6,8 +6,10 @@ layout: page
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
 <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+{% if page.editor %}
 <link rel="stylesheet" href="https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.css" />
 <script src="https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.min.js"></script>
+{% endif %}
 
 <style>
   #bible-map {
@@ -315,6 +317,7 @@ layout: page
           }).addTo(map);
 
           /* --- Local Editing Support --- */
+          {% if page.editor %}
           if (window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost') {
             map.pm.setGlobalOptions({ limitMarkersToCount: 50 });
             map.pm.addControls({
@@ -784,6 +787,7 @@ layout: page
             });
             map.addControl(new DigitizingControl());
           }
+          {% endif %}
           /* -------------------------- */
 
         })
@@ -793,8 +797,14 @@ layout: page
 
       /* ===== Load existing saved Map Reference if it exists (PUBLIC STATIC SITE ONLY) ===== */
       var isLocalEditor = (window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost');
+      {% if page.editor %}
+      var showRef = isLocalEditor;
+      {% else %}
+      var showRef = false;
+      {% endif %}
+
       var refFile = '{{ page.geojson }}'.replace('.geojson', '_ref.json');
-      if (!isLocalEditor && refFile && refFile !== '{{ page.geojson }}') {
+      if (showRef && refFile && refFile !== '{{ page.geojson }}') {
         fetch('{{ site.baseurl }}/assets/geo/' + refFile + '?v=' + new Date().getTime())
           .then(function(res) { if (res.ok) return res.json(); throw new Error('No ref'); })
           .then(function(rd) {
