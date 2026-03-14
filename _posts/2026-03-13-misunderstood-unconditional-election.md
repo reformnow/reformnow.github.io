@@ -116,6 +116,47 @@ Paul explains the basis of election in Ephesians:
 —— 以弗所书 1:4-5
 ```
 </div>
+---
+
+<div class="lang-en" markdown="1">
+## The Witness of the Early Church
+</div>
+<div class="lang-zh" markdown="1">
+## 早期教会的见证
+</div>
+
+<div class="lang-en" markdown="1">
+This understanding of grace is not the invention of a single tradition, but is rooted in the "Historic Catholic Theology" of the early centuries. No figure stands more prominently here than Augustine of Hippo (354–430 AD), known as the "Doctor of Grace." Augustine tirelessly argued that if we are to take the Fall of man seriously, then we must conclude that even our desire to believe is a fruit of God's prior work in us.
+</div>
+<div class="lang-zh" markdown="1">
+这种对恩典的理解并非某个宗派的独创，而是植根于早期世纪的“大公教正统神学”之中。在这方面，没有任何人物比被称为“恩典博士”的希波的奥古斯丁（公元354-430年）更具代表性。奥古斯丁不遗余力地辩论道：如果我们严肃对待人的堕落，那么我们必须得出结论——甚至我们“想要相信”的愿望，也是上帝在我们心中预先工作的果子。
+</div>
+
+<div class="lang-en" markdown="1">
+In his mature reflections, Augustine addressed the very idea of "foreseen faith":
+</div>
+<div class="lang-zh" markdown="1">
+在奥古斯丁成熟的神学思考中，他直接回应了“预见信心”这一观念：
+</div>
+
+```quote
+"God chose us, not because we were going to believe, but in order that we might believe; lest we should be said first to have chosen Him."
+— Augustine of Hippo, *On the Predestination of the Saints*
+```
+
+<div class="lang-zh" markdown="1">
+```quote
+“上帝拣选我们，不是因为我们将要相信，而是为了让我们能够相信；免得我们说是我们先选择了祂。”
+—— 希波的奥古斯丁，《圣徒的预定》
+```
+</div>
+
+<div class="lang-en" markdown="1">
+This historic consensus was officially affirmed by the Second Council of Orange (529 AD). The council, which holds great weight in the history of the universal church, clarified that even the "increase of faith" and the "very beginning of faith" occur in us through the gift of grace. This means that God does not look for faith in us as a condition, but provides faith to us as a savior.
+</div>
+<div class="lang-zh" markdown="1">
+这一历史共识在公元529年的第二次奥兰治会议上得到了正式确认。这次在普世教会历史上具有重大影响力的会议明确指出：甚至“信心的增加”和“信心的最初起源”也是通过恩典的馈赠而在我们心中生成的。这意味着上帝并非在我们心中寻找信心作为“条件”，而是作为救主将信心赐予我们。
+</div>
 
 ---
 
