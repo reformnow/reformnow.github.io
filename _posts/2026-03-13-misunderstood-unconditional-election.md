@@ -166,10 +166,10 @@ This historic consensus was officially affirmed by the Second Council of Orange 
 </div>
 
 <div class="lang-en" markdown="1">
-Centuries later, the "Angelic Doctor" Thomas Aquinas (1225–1274), arguably the most influential theologian in Roman Catholic history, continued this robust defense of sovereign grace. In his *Summa Theologiae*, Aquinas argued for predestination "before foreseen merits" (*ante praevisa merita*). He maintained that God's choice is the cause of our goodness, not a reflection of it.
+Centuries later, the "Angelic Doctor" Thomas Aquinas (1225–1274), arguably the most influential theologian in the history of the "Historic Catholic Theology," continued this robust defense of sovereign grace. In his *Summa Theologiae*, Aquinas argued for predestination "before foreseen merits" (*ante praevisa merita*). He maintained that God's choice is the cause of our goodness, not a reflection of it.
 </div>
 <div class="lang-zh" markdown="1">
-几世纪后，被誉为罗马天主教历史上最具影响力的神学家——“天使博士”托马斯·阿奎那（1225-1274）继续对主权恩典进行了坚定的辩护。在他的《神学大全》中，阿奎那主张“在预见功劳之前”的预定（*ante praevisa merita*）。他坚称，上帝的拣选是我们“变善”的原因，而非对我们“变善”的反映。
+几世纪后，被誉为在大公教会神学历史上最具影响力的神学家——“天使博士”托马斯·阿奎那（1225-1274）继续对主权恩典进行了坚定的辩护。在他的《神学大全》中，阿奎那主张“在预见功劳之前”的预定（*ante praevisa merita*）。他坚称，上帝的拣选是我们“变善”的原因，而非对我们“变善”的反映。
 </div>
 
 ```quote
@@ -229,35 +229,24 @@ The "purpose of election" stands or falls on whether it is "not of works." If Go
 ---
 
 <div class="lang-en" markdown="1">
-## The Contemporary Synthesis
+Today, the institutional Roman Catholic Church continues to present a synthesis intended to uphold this historic balance. According to the *Catechism of the Catholic Church*, God's eternal plan of "predestination" includes each person's free response to His grace (CCC 600).
 </div>
 <div class="lang-zh" markdown="1">
-## 当代的综合视角
+时至今日，建制性的罗马天主教会继续呈现出一种旨在维护这种历史平衡的综合视角。根据《天主教教理》，上帝永恒的“预定”计划包括了每一个人对祂恩典的自由响应（CCC 600）。
 </div>
 
 <div class="lang-en" markdown="1">
-Today, the Roman Catholic Church continues to uphold this historic balance. According to the *Catechism of the Catholic Church*, God's eternal plan of "predestination" includes each person's free response to His grace (CCC 600). This perspective avoids the errors of fatalism by teaching that God, to whom all moments are present, incorporates our free cooperation into His sovereign decree.
+However, critics and historians of doctrine often observe a profound disconnect between this modern formulation and the rigorous Augustinian-Thomistic heritage of the "Historic Catholic Theology." While current teaching emphasizes the *Priority of Grace* and rejects *Double Predestination* (CCC 1037), the heavy emphasis on the necessity of human "cooperation" has, in practice, led the modern institution back toward a form of "Semi-Pelagian" synergism.
 </div>
 <div class="lang-zh" markdown="1">
-时至今日，罗马天主教会继续维护这种历史性的平衡。根据《天主教教理》，上帝永恒的“预定”计划包括了每一个人对祂恩典的自由响应（CCC 600）。这一视角通过教导——对于上帝而言，所有时刻都是当下的，祂将我们的自由合作纳入了祂的主权指谕之中——从而避免了宿命论的错误。
+然而，批评者和教义史学家经常观察到，这种现代表述与“大公教会正统神学”中严谨的奥古斯丁-托马斯主义遗产之间存在深刻的割裂。虽然当前的教导强调“恩典的优先性”并拒绝“双重预定”（CCC 1037），但由于过分强调人类“合作”的必要性，使得现代罗马天主教会在实践中重新转向了某种形式的“半伯拉纠式”的人神合作论。
 </div>
 
 <div class="lang-en" markdown="1">
-The contemporary position strongly emphasizes two points:
-1. **The Priority of Grace**: No one can take even the first step toward God without the preceding help of the Holy Spirit.
-2. **The Rejection of Double Predestination**: As the Catechism states, "God predestines no one to go to hell" (CCC 1037); condemnation is strictly the result of a willful, final rejection of God's offered mercy.
+This theological shift creates a significant internal tension: the modern Roman Catholic institution administratively inherits the lineage of the Great Tradition, yet in its contemporary emphasis on human agency, it has largely severed its ties to the historic dogmatic confession of unconditional, sovereign grace. The "Great Tradition" once taught that grace provides the will to believe; modern synergism often suggests that grace merely assists a will that must first decide to cooperate.
 </div>
 <div class="lang-zh" markdown="1">
-当代的立场强调两点：
-1. **恩典的优先性**：如果没有圣灵的预先引领，没有人能向着上帝迈出哪怕第一步。
-2. **弃绝“双重预定”**：正如教理所载，“天主并未预定任何人去下地狱”（CCC 1037）；定罪完全是个人意志最终拒绝上帝慈悲的结果。
-</div>
-
-<div class="lang-en" markdown="1">
-By holding these truths together, the church maintains that election is indeed "unconditional" in its origin—it flows from God's free favor—but it never operates as a mechanical force that bypasses the human heart.
-</div>
-<div class="lang-zh" markdown="1">
-通过将这些真理结合在一起，教会主张：拣选在其源头上的确是“无条件的”——它源于上帝白白的恩宠——但它绝非一种绕过人类心灵的机械力量。
+这种神学上的转向造成了显著的内部张力：现代罗马天主教会在建制上继承了大公教会的道统，但在其当代对人神合作的强调中，却在很大程度上割断了与“无条件、主权恩典”这一历史教义传承的联系。“大公教会传统”曾教导恩典赐予了相信的意愿；而现代的人神合作论则往往暗示，恩典仅仅是辅助那个“必须先决定合作”的意志。
 </div>
 
 ---
