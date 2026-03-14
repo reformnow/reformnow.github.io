@@ -152,10 +152,43 @@ In his mature reflections, Augustine addressed the very idea of "foreseen faith"
 </div>
 
 <div class="lang-en" markdown="1">
-This historic consensus was officially affirmed by the Second Council of Orange (529 AD). The council, which holds great weight in the history of the universal church, clarified that even the "increase of faith" and the "very beginning of faith" occur in us through the gift of grace. This means that God does not look for faith in us as a condition, but provides faith to us as a savior.
+This historic consensus was officially affirmed by the Second Council of Orange (529 AD). The council clarified that even the "very beginning of faith" occurs in us through the gift of grace. This means that God does not look for faith in us as a condition, but provides faith to us as a savior.
 </div>
 <div class="lang-zh" markdown="1">
-这一历史共识在公元529年的第二次奥兰治会议上得到了正式确认。这次在普世教会历史上具有重大影响力的会议明确指出：甚至“信心的增加”和“信心的最初起源”也是通过恩典的馈赠而在我们心中生成的。这意味着上帝并非在我们心中寻找信心作为“条件”，而是作为救主将信心赐予我们。
+这一历史共识在公元529年的第二次奥兰治会议上得到了正式确认。会议明确指出：甚至“信心的最初起源”也是通过恩典的馈赠而在我们心中生成的。这意味着上帝并非在我们心中寻找信心作为“条件”，而是作为救主将信心赐予我们。
+</div>
+
+<div class="lang-en" markdown="1">
+### The Angelic Doctor: Thomas Aquinas
+</div>
+<div class="lang-zh" markdown="1">
+### 天使博士：托马斯·阿奎那
+</div>
+
+<div class="lang-en" markdown="1">
+Centuries later, the "Angelic Doctor" Thomas Aquinas (1225–1274), arguably the most influential theologian in Roman Catholic history, continued this robust defense of sovereign grace. In his *Summa Theologiae*, Aquinas argued for predestination "before foreseen merits" (*ante praevisa merita*). He maintained that God's choice is the cause of our goodness, not a reflection of it.
+</div>
+<div class="lang-zh" markdown="1">
+几世纪后，被誉为罗马天主教历史上最具影响力的神学家——“天使博士”托马斯·阿奎那（1225-1274）继续对主权恩典进行了坚定的辩护。在他的《神学大全》中，阿奎那主张“在预见功劳之前”的预定（*ante praevisa merita*）。他坚称，上帝的拣选是我们“变善”的原因，而非对我们“变善”的反映。
+</div>
+
+```quote
+"God wills to manifest His goodness in those whom He predestines... but that He chooses some and reprobates others, has no reason except the divine will."
+— Thomas Aquinas, *Summa Theologiae*
+```
+
+<div class="lang-zh" markdown="1">
+```quote
+“上帝愿意在祂所预定的人身上彰显祂的美善……但祂拣选一些人而放弃另一些人，除了上帝的意志之外，没有别的原因。”
+—— 托马斯·阿奎那，《神学大全》
+```
+</div>
+
+<div class="lang-en" markdown="1">
+For Aquinas, as for the early church, if salvation were based on God's "weather forecast" of our faith, then God would be dependent on His creatures. By rooting election in God's unconditional will, the church protects the absolute priority of God's love.
+</div>
+<div class="lang-zh" markdown="1">
+对于阿奎那以及早期教会而言，如果救恩是基于上帝对我们信心的“天气预报”，那么上帝就会变得依赖于祂的被造物。通过将拣选根植于上帝无条件的意志，教会捍卫了上帝之爱的绝对优先权。
 </div>
 
 ---
