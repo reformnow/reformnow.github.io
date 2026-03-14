@@ -16,19 +16,30 @@
     #access-lastmod .lang-en, #access-lastmod .lang-zh,
     #trending-tags .lang-en, #trending-tags .lang-zh,
     .panel-heading .lang-en, .panel-heading .lang-zh {
-      display: none; /* Hidden by default, shown by view-* classes if not overridden */
+      display: none !important; 
     }
-    .view-english #access-lastmod .lang-en, .view-english #trending-tags .lang-en, .view-english .panel-heading .lang-en { display: inline !important; }
-    .view-chinese #access-lastmod .lang-zh, .view-chinese #trending-tags .lang-zh, .view-chinese .panel-heading .lang-zh { display: inline !important; }
+    
+    .view-english #access-lastmod .lang-en, 
+    .view-english #trending-tags .lang-en, 
+    .view-english .panel-heading .lang-en { display: inline !important; }
+    
+    .view-chinese #access-lastmod .lang-zh, 
+    .view-chinese #trending-tags .lang-zh, 
+    .view-chinese .panel-heading .lang-zh { display: inline !important; }
+    
     .view-bilingual #access-lastmod .lang-en, .view-bilingual #access-lastmod .lang-zh,
     .view-bilingual #trending-tags .lang-en, .view-bilingual #trending-tags .lang-zh,
     .view-bilingual .panel-heading .lang-en, .view-bilingual .panel-heading .lang-zh { display: inline !important; }
+
+    /* For specific list items that might need block display */
+    .view-bilingual #access-lastmod li .lang-en, 
+    .view-bilingual #access-lastmod li .lang-zh { display: inline !important; }
 
     /* Separators for list items and headings in bilingual mode */
     .view-bilingual #access-lastmod .lang-en + .lang-zh::before,
     .view-bilingual #trending-tags .lang-en + .lang-zh::before,
     .view-bilingual .panel-heading .lang-en + .lang-zh::before {
-      content: "/"; margin: 0 4px; font-size: 0.8em; opacity: 0.5;
+      content: "/"; margin: 0 4px; font-size: 0.8em; opacity: 0.5; display: inline !important;
     }
     
     /* TOC Hierarchy: Keep parent shells visible if they have children of the active language */
