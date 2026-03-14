@@ -239,6 +239,13 @@ The "purpose of election" stands or falls on whether it is "not of works." If Go
 ---
 
 <div class="lang-en" markdown="1">
+## The Great Paradox: Succession and Discontinuity
+</div>
+<div class="lang-zh" markdown="1">
+## 伟大的悖论：继承与断裂
+</div>
+
+<div class="lang-en" markdown="1">
 Today, the institutional Roman Catholic Church continues to present a synthesis intended to uphold this historic balance. According to the *Catechism of the Catholic Church*, God's eternal plan of "predestination" includes each person's free response to His grace (CCC 600).
 </div>
 <div class="lang-zh" markdown="1">
