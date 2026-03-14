@@ -8,8 +8,8 @@ date: 2026-03-13 20:30:00 +0800
 categories: [Theology, Gospel]
 tags: [Election, Grace, Sovereignty]
 image:
-  path: /assets/img/posts/sovereign_grace.png
-  alt: Sovereign Grace and Divine Choice
+  path: /assets/img/posts/christ_the_king.jpg
+  alt: Christ the King - Representative of Sovereign Decree
 ---
 
 <div class="lang-en" markdown="1">
