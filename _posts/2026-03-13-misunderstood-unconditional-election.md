@@ -63,10 +63,12 @@ As a historic confession of the church clarifies:
 正如教会的一份历史信条所阐明的：
 </div>
 
+<div class="lang-en" markdown="1">
 ```quote
 "This election was not founded upon foreseen faith, and the obedience of faith, holiness, or any other good quality or disposition in her, as a prerequisite, cause, or condition on which it depended."
 — Canons of Dort
 ```
+</div>
 
 <div class="lang-zh" markdown="1">
 ```quote
@@ -105,10 +107,12 @@ Paul explains the basis of election in Ephesians:
 保罗在以弗所书中解释了拣选的基础：
 </div>
 
+<div class="lang-en" markdown="1">
 ```bible
 "Even as He chose us in Him before the foundation of the world, that we should be holy and blameless before Him. In love He predestined us for adoption to Himself as sons through Jesus Christ, according to the purpose of His will."
 — Ephesians 1:4-5
 ```
+</div>
 
 <div class="lang-zh" markdown="1">
 ```bible
@@ -139,10 +143,12 @@ In his mature reflections, Augustine addressed the very idea of "foreseen faith"
 在奥古斯丁成熟的神学思考中，他直接回应了“预见信心”这一观念：
 </div>
 
+<div class="lang-en" markdown="1">
 ```quote
 "God chose us, not because we were going to believe, but in order that we might believe; lest we should be said first to have chosen Him."
 — Augustine of Hippo, *On the Predestination of the Saints*
 ```
+</div>
 
 <div class="lang-zh" markdown="1">
 ```quote
@@ -172,10 +178,12 @@ Centuries later, the "Angelic Doctor" Thomas Aquinas (1225–1274), arguably the
 几世纪后，被誉为在大公教会神学历史上最具影响力的神学家——“天使博士”托马斯·阿奎那（1225-1274）继续对主权恩典进行了坚定的辩护。在他的《神学大全》中，阿奎那主张“在预见功劳之前”的预定（*ante praevisa merita*）。他坚称，上帝的拣选是我们“变善”的原因，而非对我们“变善”的反映。
 </div>
 
+<div class="lang-en" markdown="1">
 ```quote
 "God wills to manifest His goodness in those whom He predestines... but that He chooses some and reprobates others, has no reason except the divine will."
 — Thomas Aquinas, *Summa Theologiae*
 ```
+</div>
 
 <div class="lang-zh" markdown="1">
 ```quote
@@ -207,10 +215,12 @@ To leave no room for doubt, the Biblical truth provides the specific example of 
 为了不留余地的消除疑虑，圣经真理提供了双胞胎雅各和以扫的典型例子。经文明确指出，上帝的拣选是在他们出生之前做出的，其目的正是为了不基于他们的行为或“预见”的素质，而完全基于上帝的呼召。
 </div>
 
+<div class="lang-en" markdown="1">
 ```bible
 "Though they were not yet born and had done nothing either good or bad—in order that God's purpose of election might continue, not because of works but because of Him who calls—she was told, 'The older will serve the younger.' As it is written, 'Jacob I loved, but Esau I hated.'"
 — Romans 9:11-13
 ```
+</div>
 
 <div class="lang-zh" markdown="1">
 ```bible
