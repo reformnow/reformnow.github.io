@@ -1,0 +1,9 @@
+- category: "Church History"
+  category_zh: "教会历史"
+  timelines:
+    - title: "Key Events in Church History"
+      title_zh: "教会历史重大事件"
+      image: "/assets/img/posts/augustine_pelagius_header.png"
+      url: "/timelines/church-history/"
+      description: "A comprehensive timeline from Pentecost to the modern day, covering major councils, synods, and doctrinal milestones."
+      description_zh: "从五旬节到现代的全面时间线，涵盖了主要的大公会议、宗教会议和教义里程碑。"
