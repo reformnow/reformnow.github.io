@@ -9,6 +9,9 @@
   style.id = 'bilingual-styles';
   style.textContent = `
     /* Core Visibility: Standard language toggle */
+    .view-english .lang-zh { display: none !important; }
+    .view-chinese .lang-en { display: none !important; }
+    
     /* Ensure Recently Updated list and Panel headings follow toggle */
     #access-lastmod .lang-en, #access-lastmod .lang-zh,
     #trending-tags .lang-en, #trending-tags .lang-zh,
