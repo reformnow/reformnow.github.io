@@ -13,10 +13,10 @@ image:
 ---
 
 <div class="lang-en" markdown="1">
-## The Fear of Election
+## 1. The Fear of Election
 </div>
 <div class="lang-zh" markdown="1">
-## 被误解的“拣选”
+## 1. 被误解的“拣选”
 </div>
 
 <div class="lang-en" markdown="1">
@@ -36,10 +36,10 @@ However, when we turn to the pages of Scripture, we find that the writers of the
 ---
 
 <div class="lang-en" markdown="1">
-## The Common "Forecast" View
+## 2. The Common "Forecast" View
 </div>
 <div class="lang-zh" markdown="1">
-## 流行的“天气预报”式观点
+## 2. 流行的“天气预报”式观点
 </div>
 
 <div class="lang-en" markdown="1">
@@ -80,10 +80,10 @@ As a historic confession of the church clarifies:
 ---
 
 <div class="lang-en" markdown="1">
-## Biblical Realism: Dead Men Don't Choose
+## 3. Biblical Realism: Dead Men Don't Choose
 </div>
 <div class="lang-zh" markdown="1">
-## 圣经的现实主义：死人不会选择
+## 3. 圣经的现实主义：死人不会选择
 </div>
 
 <div class="lang-en" markdown="1">
@@ -123,10 +123,10 @@ Paul explains the basis of election in Ephesians:
 ---
 
 <div class="lang-en" markdown="1">
-## The Witness of the Early Church
+## 4. The Witness of the Early Church
 </div>
 <div class="lang-zh" markdown="1">
-## 早期教会的见证
+## 4. 早期教会的见证
 </div>
 
 <div class="lang-en" markdown="1">
@@ -202,10 +202,10 @@ For Aquinas, as for the early church, if salvation were based on God's "weather 
 ---
 
 <div class="lang-en" markdown="1">
-## The Purpose of God: Jacob and Esau
+## 5. The Purpose of God: Jacob and Esau
 </div>
 <div class="lang-zh" markdown="1">
-## 上帝的旨意：雅各与以扫
+## 5. 上帝的旨意：雅各与以扫
 </div>
 
 <div class="lang-en" markdown="1">
@@ -239,10 +239,10 @@ The "purpose of election" stands or falls on whether it is "not of works." If Go
 ---
 
 <div class="lang-en" markdown="1">
-## The Great Paradox: Succession and Discontinuity
+## 6. The Great Paradox: Succession and Discontinuity
 </div>
 <div class="lang-zh" markdown="1">
-## 伟大的悖论：继承与断裂
+## 6. 伟大的悖论：继承与断裂
 </div>
 
 <div class="lang-en" markdown="1">
@@ -276,10 +276,10 @@ This prompts a profound question for the modern believer: As those within the Pr
 ---
 
 <div class="lang-en" markdown="1">
-## Why This Matters: The Glory of Grace
+## 7. Why This Matters: The Glory of Grace
 </div>
 <div class="lang-zh" markdown="1">
-## 为何这很重要：恩典的荣耀
+## 7. 为何这很重要：恩典的荣耀
 </div>
 
 <div class="lang-en" markdown="1">
