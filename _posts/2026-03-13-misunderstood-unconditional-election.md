@@ -6,7 +6,7 @@ description: "Exploring why the biblical doctrine of election is based on God's 
 description_zh: "探讨为何圣经中的拣选教义是基于上帝的主权美意，而非预见人的信心。"
 date: 2026-03-13 20:30:00 +0800
 categories: [Theology, Gospel]
-tags: [Election, Grace, Sovereignty]
+tags: [Election, Grace, Sovereignty, slide]
 image:
   path: /assets/img/posts/christ_the_king.jpg
   alt: Christ the King - Representative of Sovereign Decree

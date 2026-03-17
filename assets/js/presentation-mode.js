@@ -76,8 +76,57 @@
     injectPresentationButton();
   }
   
-  function startPresentation() {
-    console.log('startPresentation called');
+  async function startPresentation() {
+    const VERSION = '7.6-Debug';
+    const docEl = document.documentElement;
+    console.log('--- STARTING PRESENTATION v' + VERSION + ' ---');
+    
+    // 1. Immediate local fullscreen to capture gesture
+    let fullscreenWorked = false;
+    try {
+      if (docEl.requestFullscreen) {
+        await docEl.requestFullscreen();
+        fullscreenWorked = true;
+        console.log('Local fullscreen success');
+      }
+    } catch (e) {
+      console.warn('Immediate fullscreen failed:', e);
+    }
+
+    // 2. Check for screens
+    let externalScreen = null;
+    if ('getScreenDetails' in window) {
+      try {
+        const screenDetails = await window.getScreenDetails();
+        const screens = screenDetails.screens;
+        externalScreen = screens.find(s => !s.isInternal);
+        console.log('External screen found:', !!externalScreen);
+      } catch (e) {
+        console.warn('Screen details failed:', e);
+      }
+    }
+    
+    // Firefox/Safari Fallback: Detect if we're likely on a secondary screen
+    let likelyOnSecondary = false;
+    if (!externalScreen) {
+        likelyOnSecondary = Math.abs(window.screenX) > 100 || Math.abs(window.screenY) > 100;
+        console.log('Likely on secondary screen (fallback)?', likelyOnSecondary);
+    }
+    
+    // 3. If external exists AND it's not where we currently are, try to move there
+    if (externalScreen) {
+        // Simple heuristic: if window's left is near external screen's left, we are already there
+        const alreadyOnExternal = Math.abs(window.screenX - externalScreen.availLeft) < 100;
+        if (!alreadyOnExternal) {
+            try {
+                console.log('Projecting to external screen...');
+                await docEl.requestFullscreen({ screen: externalScreen });
+            } catch (e) {
+                console.warn('External project failed, staying local:', e);
+            }
+        }
+    }
+
     const contentEl = document.querySelector('.content');
     console.log('Content element found:', !!contentEl);
     if (!contentEl) {
@@ -115,22 +164,28 @@
         originalContent.appendChild(contentCopy.firstChild);
       }
     }
-
-    // Request Fullscreen
-    const docEl = document.documentElement;
-    try {
-      if (docEl.requestFullscreen) {
-        docEl.requestFullscreen().catch(() => {});
-      } else if (docEl.webkitRequestFullscreen) {
-        docEl.webkitRequestFullscreen();
-      } else if (docEl.mozRequestFullScreen) {
-        docEl.mozRequestFullScreen();
-      } else if (docEl.msRequestFullscreen) {
-        docEl.msRequestFullscreen();
+    
+    // 3. FULLSCREEN PRE-EMPTIVE (Must happen early to preserve user gesture)
+    const requestFullscreen = async (targetScreen) => {
+      try {
+        const options = targetScreen ? { screen: targetScreen } : {};
+        if (docEl.requestFullscreen) {
+          await docEl.requestFullscreen(options);
+        } else if (docEl.webkitRequestFullscreen) {
+          await docEl.webkitRequestFullscreen();
+        }
+        return true;
+      } catch (e) {
+        console.warn("Fullscreen request failed", e);
+        return false;
       }
-    } catch (e) {
-      console.warn("Fullscreen request failed", e);
-    }
+    };
+
+    // Determine target and GO!
+    const target = externalScreen || null;
+    await requestFullscreen(target);
+
+    // After fullscreen is initiated, we can proceed with slower operations
     
     // Create slides container
     const slidesContainer = document.createElement('div');
@@ -555,9 +610,34 @@
                   currentTitleNode = bilingualHeader;
                 }
                 continue;
+                        // For all other content (P, UL, OL, PRE, etc.), create a vertical slide
+              function checkNote(text) {
+                const t = text.trim();
+                return t.startsWith('Note:') || t.startsWith('Note：') || 
+                       t.startsWith('(Note:') || t.startsWith('(Note：') ||
+                       t.startsWith('备注:') || t.startsWith('备注：') ||
+                       t.startsWith('（注：') || t.startsWith('(注：');
+              }
+              
+              const isEnNote = en ? checkNote(en.textContent) : false;
+              const isZhNote = zh ? checkNote(zh.textContent) : false;
+
+              if (isEnNote || isZhNote) {
+                // Attach as notes to the PREVIOUS slide in this section
+                const lastSlide = currentHSection ? currentHSection.lastElementChild : null;
+                if (lastSlide) {
+                  let notesAside = lastSlide.querySelector('aside.notes');
+                  if (!notesAside) {
+                    notesAside = document.createElement('aside');
+                    notesAside.className = 'notes';
+                    lastSlide.appendChild(notesAside);
+                  }
+                  if (en) notesAside.appendChild(en.cloneNode(true));
+                  if (zh) notesAside.appendChild(zh.cloneNode(true));
+                }
+                continue;
               }
 
-              // For all other content (P, UL, OL, PRE, etc.), create a vertical slide
               ensureHSection();
               const slideSection = document.createElement('section');
               
@@ -583,7 +663,16 @@
               currentHSection.appendChild(slideSection);
             }
           }
-        } else {
+        }
+      } else {
+        // Shared helper for single-lang mode
+        function checkNote(text) {
+          const t = text.trim();
+          return t.startsWith('Note:') || t.startsWith('Note：') || 
+                 t.startsWith('(Note:') || t.startsWith('(Note：') ||
+                 t.startsWith('备注:') || t.startsWith('备注：') ||
+                 t.startsWith('（注：') || t.startsWith('(注：');
+        }
           // For English or Chinese only mode
           const langContent = node.querySelectorAll('h2, h3, p, ul, ol, blockquote, pre, hr');
           langContent.forEach(child => {
@@ -603,18 +692,34 @@
                 currentVSection.appendChild(currentTitleNode.cloneNode(true));
               }
             } else if (!isEmptyP) {
-              // Create a new vertical slide for every non-empty block element
-              ensureHSection();
-              const vSlide = document.createElement('section');
-              if (currentTitleNode) {
-                const titleCopy = currentTitleNode.cloneNode(true);
-                titleCopy.style.fontSize = '1.1em';
-                titleCopy.style.opacity = '0.9';
-                titleCopy.style.color = '#d4af37';
-                vSlide.appendChild(titleCopy);
+              const isNote = checkNote(child.textContent);
+
+              if (isNote) {
+                // If there's a previous slide in the current horizontal section, add notes to it
+                const lastSlide = currentHSection ? currentHSection.lastElementChild : null;
+                if (lastSlide) {
+                  let notesAside = lastSlide.querySelector('aside.notes');
+                  if (!notesAside) {
+                    notesAside = document.createElement('aside');
+                    notesAside.className = 'notes';
+                    lastSlide.appendChild(notesAside);
+                  }
+                  notesAside.appendChild(child.cloneNode(true));
+                }
+              } else {
+                // Create a new vertical slide for every non-empty block element
+                ensureHSection();
+                const vSlide = document.createElement('section');
+                if (currentTitleNode) {
+                  const titleCopy = currentTitleNode.cloneNode(true);
+                  titleCopy.style.fontSize = '1.1em';
+                  titleCopy.style.opacity = '0.9';
+                  titleCopy.style.color = '#d4af37';
+                  vSlide.appendChild(titleCopy);
+                }
+                vSlide.appendChild(child.cloneNode(true));
+                currentHSection.appendChild(vSlide);
               }
-              vSlide.appendChild(child.cloneNode(true));
-              currentHSection.appendChild(vSlide);
             }
           });
         }
@@ -705,22 +810,44 @@
       .reveal .slide-layout img { max-height: 400px; border-radius: 8px; }
       .reveal .shimmer { animation: none !important; background: none !important; }
       .reveal .shimmer::before { display: none !important; }
-      #exit-presentation {
+      #presentation-controls {
         position: fixed; top: 20px; right: 20px; z-index: 10000;
-        opacity: 0.5; transition: opacity 0.3s;
+        display: flex; gap: 10px; opacity: 0.5; transition: opacity 0.3s;
       }
-      #exit-presentation:hover { opacity: 1; }
+      #presentation-controls:hover { opacity: 1; }
+      #exit-presentation, #speaker-view {
+        box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      }
     `;
     document.head.appendChild(style);
     
     // Create Reveal structure
     const revealDiv = document.createElement('div');
     revealDiv.className = 'reveal';
+    
+    // Controls container
+    const controls = document.createElement('div');
+    controls.id = 'presentation-controls';
+    
+    const hasFA = (typeof document.querySelector('.fas') !== 'undefined' || 
+                   document.querySelector('link[href*="fontawesome"]') || 
+                   document.querySelector('link[href*="fa-"]'));
+    
+    const speakerBtn = document.createElement('button');
+    speakerBtn.id = 'speaker-view';
+    speakerBtn.className = 'btn btn-sm btn-info text-white';
+    speakerBtn.innerHTML = (hasFA ? '<i class="fas fa-comment-alt me-1"></i> ' : '💬 ') + 'Speaker';
+    speakerBtn.title = 'Open Speaker View (S)';
+    
     const exitBtn = document.createElement('button');
     exitBtn.id = 'exit-presentation';
-    exitBtn.className = 'btn btn-sm btn-secondary text-white';
+    exitBtn.className = 'btn btn-sm btn-outline-light';
     exitBtn.innerText = 'Exit';
-    revealDiv.appendChild(exitBtn);
+    
+    controls.appendChild(speakerBtn);
+    controls.appendChild(exitBtn);
+    
+    revealDiv.appendChild(controls);
     revealDiv.appendChild(slidesContainer);
     
     document.body.appendChild(revealDiv);
@@ -747,6 +874,29 @@
               hash: true,
               slideNumber: 'c/t',
               plugins: [ RevealHighlight, RevealNotes ]
+            }).then(() => {
+               // SUCCESSFUL INITIALIZATION
+               console.log('Reveal initialized');
+               
+               // Automatic Multi-screen Deployment
+               if (externalScreen || likelyOnSecondary) {
+                 console.log('Attempting auto-deployment (Speaker View)...');
+                 
+                 // Open Speaker View on internal screen (0,0)
+                 const notesPlugin = Reveal.getPlugin('notes');
+                 if (notesPlugin) {
+                    const originalOpen = window.open;
+                    window.open = (url, name, features) => {
+                      let f = features || "";
+                      f = f.replace(/left=[^,]*/, 'left=0').replace(/top=[^,]*/, 'top=0');
+                      if (!f.includes('left=')) f += ',left=0,top=0';
+                      const win = originalOpen.call(window, url, name, f);
+                      window.open = originalOpen;
+                      return win;
+                    };
+                    notesPlugin.open();
+                 }
+               }
             });
           } catch (e) {
             console.error('Failed to initialize Reveal.js:', e);
@@ -782,6 +932,52 @@
           el.remove();
         }
       });
+    });
+
+    // Speaker View handler
+    speakerBtn.addEventListener('click', function() {
+      if (typeof Reveal !== 'undefined') {
+        const notesPlugin = Reveal.getPlugin('notes');
+        if (notesPlugin) {
+          // Monkey-patch window.open to force position on primary monitor (0,0)
+          // This helps avoid the window opening on top of the presentation on secondary screens
+          const originalOpen = window.open;
+          window.open = function(url, name, features) {
+            // Add or overwrite left/top features
+            let updatedFeatures = features || "";
+            if (updatedFeatures.includes('left=')) {
+              updatedFeatures = updatedFeatures.replace(/left=[^,]*/, 'left=0');
+            } else {
+              updatedFeatures += (updatedFeatures ? ',' : '') + 'left=0';
+            }
+            if (updatedFeatures.includes('top=')) {
+              updatedFeatures = updatedFeatures.replace(/top=[^,]*/, 'top=0');
+            } else {
+              updatedFeatures += (updatedFeatures ? ',' : '') + 'top=0';
+            }
+            
+            console.log('Opening speaker view with forced coordinates:', updatedFeatures);
+            const win = originalOpen.call(window, url, name, updatedFeatures);
+            
+            // Restore original window.open immediately
+            window.open = originalOpen;
+            return win;
+          };
+          
+          notesPlugin.open();
+          
+          // Fallback restoration in case open() didn't call window.open synchronously
+          setTimeout(() => { window.open = originalOpen; }, 100);
+        }
+      }
+    });
+
+    // Keyboard listener for Speaker View auto-open if needed
+    document.addEventListener('keydown', function(e) {
+      if (e.key.toLowerCase() === 's' && document.body.classList.contains('reveal-viewport')) {
+        // Reveal.js handles 'S' by default, but we can intercept or enhance if needed
+        console.log('Speaker view requested via keyboard');
+      }
     });
   }
 })();
