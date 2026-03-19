@@ -78,11 +78,84 @@ This is not to say that a bank robber lacks a conscience or that a non-believer 
 
 ---
 
+真正“圣经真理”提示我们：恩典不只是给了我们一个机会，它给了我们一颗新心。
+</div>
+
+---
+
 <div class="lang-en" markdown="1">
-## 3. The Diagnosis: Not Sick, But Dead
+## 3. If Man is Dead, Why Can He Still Do "Good"?
 </div>
 <div class="lang-zh" markdown="1">
-## 3. 诊断报告：不是病了，而是死了
+## 3. 既然人已“死了”，为何还能行善？
+</div>
+
+<div class="lang-en" markdown="1">
+If the human heart is totally depraved, how do we account for the kindness of non-believers, the order of society, and the heroic acts of secular individuals? The answer lies in two critical distinctions: **Common Grace** and **Civil Virtue**.
+</div>
+<div class="lang-zh" markdown="1">
+如果人心是全然败坏的，我们该如何解释不信者的善良、社会的秩序以及世俗人士的英勇行为？答案在于两个关键的区别：**普遍恩典（Common Grace）**与**世俗的德行（Civil Virtue）**。
+</div>
+
+<div class="lang-en" markdown="1">
+### Common Grace: The Restrainer
+"Biblical Truth" teaches that God, in His mercy, does not allow sin to run its full course in every person. Through "Common Grace," He restrains the expression of evil so that society may flourish. This grace does not save the soul, but it preserves the world. It is why a totally depraved man is not an *utterly* depraved man (one who is as evil as he could possibly be).
+</div>
+<div class="lang-zh" markdown="1">
+### 普遍恩典：罪的抑制者
+“圣经真理”提示我们，上帝因其怜悯，并不允许罪在每一个人身上毫无保留地泛滥。通过“普遍恩典”，祂抑制了邪恶的表达，从而使社会得以延续。这种恩典并不救赎灵魂，但它保护了世界。这就是为什么一个“全然败坏”的人并不等同于一个“极致败坏”的人（即坏到不能再坏的人）。
+</div>
+
+<div class="lang-en" markdown="1">
+### Civil Virtue vs. Spiritual Good
+While a non-believer can be a law-abiding citizen or a loving parent (Civil Virtue), these acts lack the "Spiritual Good" required to please God. To be truly "good" in the eyes of a holy God, an act must proceed from a heart of faith and be done for His glory. Without this, even our noble deeds are, as Augustine famously said, "splendid vices."
+</div>
+<div class="lang-zh" markdown="1">
+### 世俗德行与属灵善行的区别
+虽然不信者可以成为守法的公民或慈爱的父母（即世俗德行），但这些行为缺乏取悦上帝所需的“属灵善行”。在圣洁的上帝眼中，真正的“善”必须源于信靠之心，并为祂的荣耀而作。缺乏这一点，即便我们最高尚的行为，也如奥古斯丁名言所说，只是“灿烂的罪恶”。
+</div>
+
+---
+
+<div class="lang-en" markdown="1">
+## 3. If Man is Dead, Why Can He Still Do "Good"?
+</div>
+<div class="lang-zh" markdown="1">
+## 3. 既然人已“死了”，为何还能行善？
+</div>
+
+<div class="lang-en" markdown="1">
+If the human heart is totally depraved, how do we account for the kindness of non-believers, the order of society, and the heroic acts of secular individuals? The answer lies in two critical distinctions: **Common Grace** and **Civil Virtue**.
+</div>
+<div class="lang-zh" markdown="1">
+如果人心是全然败坏的，我们该如何解释不信者的善良、社会的秩序以及世俗人士的英勇行为？答案在于两个关键的区别：**普遍恩典（Common Grace）**与**世俗的德行（Civil Virtue）**。
+</div>
+
+<div class="lang-en" markdown="1">
+### Common Grace: The Restrainer
+"Biblical Truth" teaches that God, in His mercy, does not allow sin to run its full course in every person. Through "Common Grace," He restrains the expression of evil so that society may flourish. This grace does not save the soul, but it preserves the world. It is why a totally depraved man is not an *utterly* depraved man (one who is as evil as he could possibly be).
+</div>
+<div class="lang-zh" markdown="1">
+### 普遍恩典：罪的抑制者
+“圣经真理”提示我们，上帝因其怜悯，并不允许罪在每一个人身上毫无保留地泛滥。通过“普遍恩典”，祂抑制了邪恶的表达，从而使社会得以延续。这种恩典并不救赎灵魂，但它保护了世界。这就是为什么一个“全然败坏”的人并不等同于一个“极致败坏”的人（即坏到不能再坏的人）。
+</div>
+
+<div class="lang-en" markdown="1">
+### Civil Virtue vs. Spiritual Good
+While a non-believer can be a law-abiding citizen or a loving parent (Civil Virtue), these acts lack the "Spiritual Good" required to please God. To be truly "good" in the eyes of a holy God, an act must proceed from a heart of faith and be done for His glory. Without this, even our noble deeds are, as Augustine famously said, "splendid vices."
+</div>
+<div class="lang-zh" markdown="1">
+### 世俗德行与属灵善行的区别
+虽然不信者可以成为守法的公民或慈爱的父母（即世俗德行），但这些行为缺乏取悦上帝所需的“属灵善行”。在圣洁的上帝眼中，真正的“善”必须源于信靠之心，并为祂的荣耀而作。缺乏这一点，即便我们最高尚的行为，也如奥古斯丁名言所说，只是“灿烂的罪恶”。
+</div>
+
+---
+
+<div class="lang-en" markdown="1">
+## 4. The Diagnosis: Not Sick, But Dead
+</div>
+<div class="lang-zh" markdown="1">
+## 4. 诊断报告：不是病了，而是死了
 </div>
 
 <div class="lang-en" markdown="1">
@@ -122,10 +195,10 @@ A sick man can still reach for medicine, but a dead man cannot. If salvation is 
 ---
 
 <div class="lang-en" markdown="1">
-## 4. The Consensus of the Ancient Church
+## 5. The Consensus of the Ancient Church
 </div>
 <div class="lang-zh" markdown="1">
-## 4. 古代教会的共识
+## 5. 古代教会的共识
 </div>
 
 <div class="lang-en" markdown="1">
@@ -179,10 +252,10 @@ This historic consensus was officially canonized by the Second Council of Orange
 ---
 
 <div class="lang-en" markdown="1">
-## 5. The "Escape Hatch": Modern Prevenient Grace
+## 6. The "Escape Hatch": Modern Prevenient Grace
 </div>
 <div class="lang-zh" markdown="1">
-## 5. “逃生门”：现代视角下的先行恩典
+## 6. “逃生门”：现代视角下的先行恩典
 </div>
 
 <div class="lang-en" markdown="1">
@@ -210,16 +283,16 @@ However, from the perspective of "Historic Christian Faith," this modern formula
 If the "dead man" in Ephesians is merely "made able to choose" but not "made alive," then the diagnosis of Total Depravity has been effectively bypassed. Real "Biblical Truth" suggests that grace doesn't just give us a chance; it gives us a new heart.
 </div>
 <div class="lang-zh" markdown="1">
-如果以弗所书中所说的“死人”仅仅是被赋予了“选择的能力”而没有被“赐予生命”，那么全然败坏的诊断就被巧妙地绕过了。真正的“圣经真理”提示我们：恩典不只是给了我们一个机会，它给了我们一颗新心。
+如果以弗所书中所说的“死人”仅仅是被赋予了“选择的能力”而没有被“赐予生命”，那么全然败坏的诊断就被巧妙地绕过了。真正“圣经真理”提示我们：恩典不只是给了我们一个机会，它给了我们一颗新心。
 </div>
 
 ---
 
 <div class="lang-en" markdown="1">
-## 6. The Internal Conflict of Modernity
+## 7. The Internal Conflict of Modernity
 </div>
 <div class="lang-zh" markdown="1">
-## 6. 现代性的内部冲突
+## 7. 现代性的内部冲突
 </div>
 
 <div class="lang-en" markdown="1">
@@ -246,10 +319,10 @@ If the root of our salvation lies in a choice we made *before* we were regenerat
 ---
 
 <div class="lang-en" markdown="1">
-## 7. The First Domino: Logical Necessity
+## 8. The First Domino: Logical Necessity
 </div>
 <div class="lang-zh" markdown="1">
-## 7. 第一张多米诺骨牌：逻辑的必然性
+## 8. 第一张多米诺骨牌：逻辑的必然性
 </div>
 
 <div class="lang-en" markdown="1">
@@ -275,10 +348,10 @@ Total Depravity is often called the "First Domino" of "Historic Christian Faith.
 ---
 
 <div class="lang-en" markdown="1">
-## 8. Why This is Good News
+## 9. Why This is Good News
 </div>
 <div class="lang-zh" markdown="1">
-## 8. 为何这是个好消息
+## 9. 为何这是个好消息
 </div>
 
 <div class="lang-en" markdown="1">
