@@ -2,7 +2,25 @@
 (function() {
   'use strict';
 
-  console.log('Presentation mode script loaded');
+  console.log('Presentation mode script loaded v8.7');
+
+  // 0. IMMEDIATE DETECTION FOR SPEAKER VIEW OR REDIRECTS
+  // Reveal.js Speaker View opens the page in an iframe within the notes window.
+  // We must detect this early to apply the 'clean' presentation layout.
+  if (window.location.search.includes('reveal-notes') || window.name.includes('reveal-notes') || window.location.search.includes('receiver')) {
+    const noteStyle = document.createElement('style');
+    noteStyle.innerHTML = `
+      #main-wrapper, #sidebar, #search-results, footer, #toc-wrapper, 
+      .post-meta, .post-tail-wrapper, .post-navigation, .masthead-wrapper, 
+      #access-lastmod, .mode-switcher, #presentation-mode-btn { 
+        display: none !important; 
+      }
+      body { background: #111 !important; color: #eee !important; overflow: auto !important; }
+      .reveal-viewport { background: #111 !important; }
+    `;
+    document.head.appendChild(noteStyle);
+    document.documentElement.classList.add('presentation-mode');
+  }
 
   // Create and inject presentation button
   function injectPresentationButton() {
@@ -77,7 +95,7 @@
   }
   
   async function startPresentation() {
-    const VERSION = '7.6-Debug';
+    const VERSION = '8.7';
     const docEl = document.documentElement;
     console.log('--- STARTING PRESENTATION v' + VERSION + ' ---');
     
@@ -536,6 +554,13 @@
       #sidebar { display: none !important; }
       #search-results { display: none !important; }
       footer { display: none !important; }
+      #toc-wrapper { display: none !important; }
+      .post-meta { display: none !important; }
+      .post-tail-wrapper { display: none !important; }
+      .post-navigation { display: none !important; }
+      .masthead-wrapper { display: none !important; }
+      #access-lastmod { display: none !important; }
+      .mode-switcher { display: none !important; }
       .reveal-viewport { position: fixed !important; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 9999; background: #222; }
       .reveal .slides section { text-align: left; font-size: 0.8em; }
       .reveal.overview .slides section {
