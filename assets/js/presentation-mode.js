@@ -312,88 +312,66 @@
     coverVSection.appendChild(container);
     coverHSection.appendChild(coverVSection);
     slidesContainer.appendChild(coverHSection);
-
     // Parse content into slides
     let currentHSection = null;
     let currentVSection = null;
-
-    // Track if we've created the first content section
-    let hasCreatedFirstSection = false;
-    
     let currentTitleNode = null;
-    let pendingImage = null;
-    let pendingText = [];
-    
-    function ensureHSection() {
-      if (!currentHSection) {
-        currentHSection = document.createElement('section');
-        slidesContainer.appendChild(currentHSection);
-      }
+
+    // Helper to check for speaker notes
+    function checkNote(text) {
+      const t = text.trim();
+      return t.startsWith('Note:') || t.startsWith('Note：') || 
+             t.startsWith('(Note:') || t.startsWith('(Note：') ||
+             t.startsWith('备注:') || t.startsWith('备注：') ||
+             t.startsWith('（注：') || t.startsWith('(注：');
     }
 
-    function createVSectionWithTitle() {
-      const vSection = document.createElement('section');
-      if (currentTitleNode) {
-        const titleCopy = currentTitleNode.cloneNode(true);
-        titleCopy.style.fontSize = '0.9em';
-        titleCopy.style.opacity = '0.9';
-        titleCopy.style.color = '#d4af37';
-        vSection.appendChild(titleCopy);
-      }
-      return vSection;
-    }
+    // Pre-process nodes into logical groups (Single or Bilingual Pair)
+    const rawNodes = Array.from(originalContent.childNodes);
+    const logicalGroups = [];
     
-    function createSlideWithLayout() {
-      if (!currentVSection) return;
-      
-      if (pendingImage && pendingText.length > 0) {
-        // Create two-column layout: image left, text right
-        const layoutDiv = document.createElement('div');
-        layoutDiv.className = 'slide-layout';
+    for (let i = 0; i < rawNodes.length; i++) {
+        const node = rawNodes[i];
+        if (node.nodeType !== 1) continue; // Skip text nodes/comments
         
-        const imgDiv = document.createElement('div');
-        imgDiv.appendChild(pendingImage.cloneNode(true));
+        let partner = null;
+        if (langPreference === 'both' && (node.classList.contains('lang-en') || node.classList.contains('lang-zh'))) {
+            // Find the partner if it exists
+            const isEn = node.classList.contains('lang-en');
+            const targetClass = isEn ? 'lang-zh' : 'lang-en';
+            
+            // Look ahead for the immediate next element partner
+            let nextIdx = i + 1;
+            while (nextIdx < rawNodes.length && rawNodes[nextIdx].nodeType !== 1) nextIdx++;
+            
+            if (nextIdx < rawNodes.length && rawNodes[nextIdx].nodeType === 1 && rawNodes[nextIdx].classList.contains(targetClass)) {
+                partner = rawNodes[nextIdx];
+                i = nextIdx; // Advance main loop to skip partner
+            }
+        }
         
-        const textDiv = document.createElement('div');
-        pendingText.forEach(textNode => textDiv.appendChild(textNode.cloneNode(true)));
-        
-        layoutDiv.appendChild(imgDiv);
-        layoutDiv.appendChild(textDiv);
-        currentVSection.appendChild(layoutDiv);
-      } else if (pendingImage) {
-        // Only image, no text
-        currentVSection.appendChild(pendingImage.cloneNode(true));
-      } else if (pendingText.length > 0) {
-        // Only text, no image
-        pendingText.forEach(textNode => currentVSection.appendChild(textNode.cloneNode(true)));
-      }
-      
-      pendingImage = null;
-      pendingText = [];
+        // Ensure En is always 'node' and Zh is always 'partner' if both exist
+        if (partner && partner.classList.contains('lang-en')) {
+            logicalGroups.push({ node: partner, partner: node });
+        } else {
+            logicalGroups.push({ node: node, partner: partner });
+        }
     }
-    
-    function flushAndCreateNewSection() {
-      ensureHSection();
-      createSlideWithLayout();
-      currentVSection = createVSectionWithTitle();
-      currentHSection.appendChild(currentVSection);
-    }
-    
-    Array.from(originalContent.childNodes).forEach(node => {
-      const isBlock = ['P', 'BLOCKQUOTE', 'UL', 'OL', 'PRE', 'FIGURE', 'DIV', 'TABLE'].includes(node.nodeName);
-      const isEmpty = node.nodeType === Node.TEXT_NODE && node.textContent.trim() === '';
-      const isImage = node.nodeName === 'IMG' || (node.nodeName === 'P' && node.querySelector('img')) || node.nodeName === 'FIGURE';
-      const isTimeline = node.nodeName === 'DIV' && node.classList.contains('timeline-wrapper');
+
+    // Process logical groups into slides
+    logicalGroups.forEach(group => {
+      const node = group.node;
+      const zh = group.partner;
       
-      if (isTimeline) {
-        createSlideWithLayout();
+      const isBlock = ['P', 'BLOCKQUOTE', 'UL', 'OL', 'PRE', 'FIGURE', 'DIV', 'TABLE', 'H2', 'H3'].includes(node.nodeName);
+      if (!isBlock) return;
+
+      // Special Case: Timeline
+      if (node.classList.contains('timeline-wrapper')) {
         const eras = node.querySelectorAll('.timeline-era-section');
         eras.forEach(era => {
-          // Each era is a new horizontal section
           currentHSection = document.createElement('section');
           slidesContainer.appendChild(currentHSection);
-          
-          // Era title slide
           const eraHeader = era.querySelector('.timeline-era-header');
           if (eraHeader) {
             const titleSlide = document.createElement('section');
@@ -407,363 +385,133 @@
               });
             } else {
               const activeLang = hClone.querySelector(`.lang-${langPreference === 'english' ? 'en' : 'zh'}`);
-              if (activeLang) {
-                hClone.innerHTML = activeLang.innerHTML;
-                hClone.querySelector('.era-name').style.fontSize = '3em';
-              }
+              if (activeLang) { hClone.innerHTML = activeLang.innerHTML; hClone.querySelector('.era-name').style.fontSize = '3em'; }
             }
             titleSlide.appendChild(hClone);
             currentHSection.appendChild(titleSlide);
           }
-          
-          // Events within this era
-          const items = era.querySelectorAll('.timeline-item');
-          items.forEach(item => {
+          era.querySelectorAll('.timeline-item').forEach(item => {
             const content = item.querySelector('.timeline-content');
             if (!content) return;
-            
             const eventSlide = document.createElement('section');
             const date = content.querySelector('.timeline-date')?.textContent;
             const img = content.querySelector('img');
             const cat = content.querySelector('.timeline-category')?.textContent;
-            
             if (langPreference === 'both') {
               const flex = document.createElement('div');
               flex.style.cssText = 'display: flex; gap: 40px; align-items: center; justify-content: center; height: 100%;';
-              
-              const leftCol = document.createElement('div');
-              leftCol.style.cssText = 'flex: 1; text-align: left;';
-              const rightCol = document.createElement('div');
-              rightCol.style.cssText = 'flex: 1; text-align: left;';
-              
+              const leftCol = document.createElement('div'); leftCol.style.cssText = 'flex: 1; text-align: left;';
+              const rightCol = document.createElement('div'); rightCol.style.cssText = 'flex: 1; text-align: left;';
               if (img) {
-                const imgContainer = document.createElement('div');
-                imgContainer.style.cssText = 'margin-bottom: 20px; text-align: center;';
-                const iClone = img.cloneNode(true);
-                iClone.style.cssText = 'max-height: 40vh; width: auto; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);';
-                imgContainer.appendChild(iClone);
-                eventSlide.appendChild(imgContainer);
+                const imgContainer = document.createElement('div'); imgContainer.style.cssText = 'margin-bottom: 20px; text-align: center;';
+                const iClone = img.cloneNode(true); iClone.style.cssText = 'max-height: 40vh; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);';
+                imgContainer.appendChild(iClone); eventSlide.appendChild(imgContainer);
               }
-              
-              // Date and Category Label
-              const meta = document.createElement('div');
-              meta.style.cssText = 'font-size: 0.6em; opacity: 0.6; margin-bottom: 15px; text-align: center; letter-spacing: 2px;';
-              meta.textContent = `${date}${cat ? ' • ' + cat : ''}`;
-              eventSlide.appendChild(meta);
-              
-              const enTitle = content.querySelector('.timeline-title .lang-en')?.cloneNode(true);
-              const enDesc = content.querySelector('.timeline-description .lang-en')?.cloneNode(true);
-              const zhTitle = content.querySelector('.timeline-title .lang-zh')?.cloneNode(true);
-              const zhDesc = content.querySelector('.timeline-description .lang-zh')?.cloneNode(true);
-              
-              if (enTitle) {
-                enTitle.style.fontSize = '1.2em';
-                enTitle.style.marginBottom = '15px';
-                leftCol.appendChild(enTitle);
-              }
-              if (enDesc) {
-                enDesc.style.fontSize = '0.75em';
-                leftCol.appendChild(enDesc);
-              }
-              
-              if (zhTitle) {
-                zhTitle.style.fontSize = '1.2em';
-                zhTitle.style.marginBottom = '15px';
-                rightCol.appendChild(zhTitle);
-              }
-              if (zhDesc) {
-                zhDesc.style.fontSize = '0.75em';
-                rightCol.appendChild(zhDesc);
-              }
-              
-              flex.appendChild(leftCol);
-              flex.appendChild(rightCol);
-              eventSlide.appendChild(flex);
+              const meta = document.createElement('div'); meta.style.cssText = 'font-size: 0.6em; opacity: 0.6; margin-bottom: 15px; text-align: center; letter-spacing: 2px;';
+              meta.textContent = `${date}${cat ? ' • ' + cat : ''}`; eventSlide.appendChild(meta);
+              const enT = content.querySelector('.timeline-title .lang-en')?.cloneNode(true);
+              const enD = content.querySelector('.timeline-description .lang-en')?.cloneNode(true);
+              const zhT = content.querySelector('.timeline-title .lang-zh')?.cloneNode(true);
+              const zhD = content.querySelector('.timeline-description .lang-zh')?.cloneNode(true);
+              if (enT) { enT.style.fontSize = '1.2em'; enT.style.marginBottom = '15px'; leftCol.appendChild(enT); }
+              if (enD) { enD.style.fontSize = '0.75em'; leftCol.appendChild(enD); }
+              if (zhT) { zhT.style.fontSize = '1.2em'; zhT.style.marginBottom = '15px'; rightCol.appendChild(zhT); }
+              if (zhD) { zhD.style.fontSize = '0.75em'; rightCol.appendChild(zhD); }
+              flex.appendChild(leftCol); flex.appendChild(rightCol); eventSlide.appendChild(flex);
             } else {
-              // Single Language Layout
-              if (img) {
-                const iClone = img.cloneNode(true);
-                iClone.style.cssText = 'max-height: 50vh; display: block; margin: 0 auto 20px; border-radius: 8px;';
-                eventSlide.appendChild(iClone);
-              }
-              const meta = document.createElement('div');
-              meta.style.cssText = 'font-size: 0.6em; opacity: 0.6; margin-bottom: 10px; text-align: center;';
-              meta.textContent = `${date}${cat ? ' • ' + cat : ''}`;
-              eventSlide.appendChild(meta);
-              
+              if (img) { const iClone = img.cloneNode(true); iClone.style.cssText = 'max-height: 50vh; display: block; margin: 0 auto 20px; border-radius: 8px;'; eventSlide.appendChild(iClone); }
+              const meta = document.createElement('div'); meta.style.cssText = 'font-size: 0.6em; opacity: 0.6; margin-bottom: 10px; text-align: center;';
+              meta.textContent = `${date}${cat ? ' • ' + cat : ''}`; eventSlide.appendChild(meta);
               const lang = langPreference === 'english' ? 'en' : 'zh';
               const title = content.querySelector(`.timeline-title .lang-${lang}`)?.cloneNode(true);
               const desc = content.querySelector(`.timeline-description .lang-${lang}`)?.cloneNode(true);
-              
-              if (title) {
-                title.style.fontSize = '1.5em';
-                title.style.textAlign = 'center';
-                eventSlide.appendChild(title);
-              }
-              if (desc) {
-                desc.style.fontSize = '0.9em';
-                desc.style.textAlign = 'center';
-                desc.style.marginTop = '20px';
-                eventSlide.appendChild(desc);
-              }
+              if (title) { title.style.fontSize = '1.5em'; title.style.textAlign = 'center'; eventSlide.appendChild(title); }
+              if (desc) { desc.style.fontSize = '0.9em'; desc.style.textAlign = 'center'; desc.style.marginTop = '20px'; eventSlide.appendChild(desc); }
             }
-            
             currentHSection.appendChild(eventSlide);
           });
         });
-        return; // Skip normal node processing
+        return;
       }
 
-    if (node.nodeName === 'H2' || node.nodeName === 'H3') {
-      createSlideWithLayout();
-      currentHSection = document.createElement('section');
-      slidesContainer.appendChild(currentHSection);
-      currentVSection = document.createElement('section');
-      currentHSection.appendChild(currentVSection);
-      hasCreatedFirstSection = true;
+      // 1. Check for Headers (New Horizontal Section)
+      const isHeader = node.nodeName === 'H2' || node.nodeName === 'H3';
+      const isHR = node.nodeName === 'HR';
 
-  currentTitleNode = node.cloneNode(true);
-      currentVSection.appendChild(currentTitleNode.cloneNode(true));
-    } else if (isImage) {
-      // Extract image from P or FIGURE if needed
-      if (node.nodeName === 'P' && node.querySelector('img')) {
-        pendingImage = node.querySelector('img');
-        // Add any caption text
-        const caption = node.querySelector('em, figcaption');
-        if (caption && !pendingText.includes(caption)) {
-          pendingText.push(caption);
-        }
-      } else {
-        pendingImage = node;
-      }
-    } else if (node.nodeName === 'DIV' && (node.classList.contains('lang-en') || node.classList.contains('lang-zh'))) {
-        // Handle bilingual language divs
-        if (langPreference === 'both') {
-          const isEnglish = node.classList.contains('lang-en');
-          const sibling = isEnglish ? node.nextElementSibling : node.previousElementSibling;
+      if (isHeader || isHR) {
+        currentHSection = document.createElement('section');
+        slidesContainer.appendChild(currentHSection);
+        
+        if (isHeader) {
+          const headerSlide = document.createElement('section');
+          currentHSection.appendChild(headerSlide);
           
-          if (isEnglish && sibling && sibling.classList.contains('lang-zh')) {
-            // Split content of both divs into chunks
-            const enNodes = Array.from(node.querySelectorAll('h2, h3, p, ul, ol, blockquote, pre, hr'));
-            const zhNodes = Array.from(sibling.querySelectorAll('h2, h3, p, ul, ol, blockquote, pre, hr'));
+          if (zh) {
+            const hFlex = document.createElement('div');
+            hFlex.style.cssText = 'display: flex; gap: 40px; align-items: center; justify-content: center; height: 100%;';
+            const enH = node.cloneNode(true); enH.style.flex = '1'; enH.style.textAlign = 'right';
+            const zhH = zh.cloneNode(true); zhH.style.flex = '1'; zhH.style.textAlign = 'left'; zhH.style.color = '#d4af37';
+            hFlex.appendChild(enH); hFlex.appendChild(zhH);
+            headerSlide.appendChild(hFlex);
             
-            let enChunk = [];
-            let zhChunk = [];
-            let maxLen = Math.max(enNodes.length, zhNodes.length);
-            
-            for (let i = 0; i < maxLen; i++) {
-              const en = enNodes[i];
-              const zh = zhNodes[i];
-              
-              if (!en && !zh) continue;
-
-              const isHeader = en && (en.nodeName === 'H2' || en.nodeName === 'H3');
-              const isHR = en && en.nodeName === 'HR';
-              
-              if (isHeader || isHR) {
-                // Headers and HRs create a new horizontal section
-                createSlideWithLayout();
-                currentHSection = document.createElement('section');
-                slidesContainer.appendChild(currentHSection);
-                currentVSection = null;
-                
-                if (isHeader) {
-                  // Create side-by-side header slide
-                  const headerSlide = document.createElement('section');
-                  const headerFlex = document.createElement('div');
-                  headerFlex.style.cssText = 'display: flex; gap: 40px; align-items: center; justify-content: center; height: 100%;';
-                  
-                  const enH = en.cloneNode(true);
-                  enH.style.flex = '1';
-                  enH.style.textAlign = 'right';
-                  
-                  const zhH = (zh && (zh.nodeName === 'H2' || zh.nodeName === 'H3')) ? zh.cloneNode(true) : en.cloneNode(true);
-                  zhH.style.flex = '1';
-                  zhH.style.textAlign = 'left';
-                  
-                  headerFlex.appendChild(enH);
-                  headerFlex.appendChild(zhH);
-                  headerSlide.appendChild(headerFlex);
-                  currentHSection.appendChild(headerSlide);
-                  
-                  // Create a bilingual title node for subsequent vertical slides
-                  const bilingualHeader = document.createElement('div');
-                  bilingualHeader.className = 'bilingual-section-header';
-                  bilingualHeader.style.cssText = 'display: flex; gap: 20px; width: 100%; justify-content: center; opacity: 0.9; margin-bottom: 30px; border-bottom: 2px solid rgba(212, 175, 55, 0.3); padding-bottom: 10px;';
-                  
-                  const enT = en.cloneNode(true);
-                  enT.style.fontSize = '0.9em';
-                  enT.style.margin = '0';
-                  enT.style.flex = '1';
-                  enT.style.textAlign = 'right';
-                  enT.style.color = '#fff';
-                  
-                  const zhT = (zh && (zh.nodeName === 'H2' || zh.nodeName === 'H3')) ? zh.cloneNode(true) : en.cloneNode(true);
-                  zhT.style.fontSize = '0.9em';
-                  zhT.style.margin = '0';
-                  zhT.style.flex = '1';
-                  zhT.style.textAlign = 'left';
-                  zhT.style.color = '#d4af37';
-                  
-                  bilingualHeader.appendChild(enT);
-                  bilingualHeader.appendChild(zhT);
-                  currentTitleNode = bilingualHeader;
-                }
-                continue;
-                        // For all other content (P, UL, OL, PRE, etc.), create a vertical slide
-              function checkNote(text) {
-                const t = text.trim();
-                return t.startsWith('Note:') || t.startsWith('Note：') || 
-                       t.startsWith('(Note:') || t.startsWith('(Note：') ||
-                       t.startsWith('备注:') || t.startsWith('备注：') ||
-                       t.startsWith('（注：') || t.startsWith('(注：');
-              }
-              
-              const isEnNote = en ? checkNote(en.textContent) : false;
-              const isZhNote = zh ? checkNote(zh.textContent) : false;
-
-              if (isEnNote || isZhNote) {
-                // Attach as notes to the PREVIOUS slide in this section
-                const lastSlide = currentHSection ? currentHSection.lastElementChild : null;
-                if (lastSlide) {
-                  let notesAside = lastSlide.querySelector('aside.notes');
-                  if (!notesAside) {
-                    notesAside = document.createElement('aside');
-                    notesAside.className = 'notes';
-                    lastSlide.appendChild(notesAside);
-                  }
-                  if (en) notesAside.appendChild(en.cloneNode(true));
-                  if (zh) notesAside.appendChild(zh.cloneNode(true));
-                }
-                continue;
-              }
-
-              ensureHSection();
-              const slideSection = document.createElement('section');
-              
-              // Inject the bilingual title if it exists
-              if (currentTitleNode) {
-                slideSection.appendChild(currentTitleNode.cloneNode(true));
-              }
-
-              const sideBySideDiv = document.createElement('div');
-              sideBySideDiv.style.cssText = 'display: flex; gap: 40px; height: 100%; align-items: center; justify-content: center;';
-              
-              const enCol = document.createElement('div');
-              enCol.style.cssText = 'flex: 1; text-align: left; font-size: 0.75em;';
-              if (en) enCol.appendChild(en.cloneNode(true));
-              
-              const zhCol = document.createElement('div');
-              zhCol.style.cssText = 'flex: 1; text-align: left; font-size: 0.75em;';
-              if (zh) zhCol.appendChild(zh.cloneNode(true));
-              
-              sideBySideDiv.appendChild(enCol);
-              sideBySideDiv.appendChild(zhCol);
-              slideSection.appendChild(sideBySideDiv);
-              currentHSection.appendChild(slideSection);
-            }
+            const bHeader = document.createElement('div');
+            bHeader.className = 'bilingual-section-header';
+            bHeader.style.cssText = 'display: flex; gap: 20px; width: 100%; justify-content: center; opacity: 0.9; margin-bottom: 30px; border-bottom: 2px solid rgba(212, 175, 55, 0.3); padding-bottom: 10px;';
+            const enT = node.cloneNode(true); enT.style.fontSize = '0.9em'; enT.style.margin = '0'; enT.style.flex = '1'; enT.style.textAlign = 'right'; enT.style.color = '#fff';
+            const zhT = zh.cloneNode(true); zhT.style.fontSize = '0.9em'; zhT.style.margin = '0'; zhT.style.flex = '1'; zhT.style.textAlign = 'left'; zhT.style.color = '#d4af37';
+            bHeader.appendChild(enT); bHeader.appendChild(zhT);
+            currentTitleNode = bHeader;
+          } else {
+            const hClone = node.cloneNode(true);
+            hClone.style.textAlign = 'center';
+            headerSlide.appendChild(hClone);
+            currentTitleNode = node.cloneNode(true);
+            currentTitleNode.style.fontSize = '1.1em';
+            currentTitleNode.style.color = '#d4af37';
           }
-        }
-      } else {
-        // Shared helper for single-lang mode
-        function checkNote(text) {
-          const t = text.trim();
-          return t.startsWith('Note:') || t.startsWith('Note：') || 
-                 t.startsWith('(Note:') || t.startsWith('(Note：') ||
-                 t.startsWith('备注:') || t.startsWith('备注：') ||
-                 t.startsWith('（注：') || t.startsWith('(注：');
-        }
-          // For English or Chinese only mode
-          const langContent = node.querySelectorAll('h2, h3, p, ul, ol, blockquote, pre, hr');
-          langContent.forEach(child => {
-            const isHeader = child.nodeName === 'H2' || child.nodeName === 'H3';
-            const isHR = child.nodeName === 'HR';
-            const isEmptyP = child.nodeName === 'P' && child.textContent.trim() === '';
-            
-            if (isHeader || isHR) {
-              createSlideWithLayout();
-              currentHSection = document.createElement('section');
-              slidesContainer.appendChild(currentHSection);
-              currentVSection = document.createElement('section');
-              currentHSection.appendChild(currentVSection);
-              
-              if (isHeader) {
-                currentTitleNode = child.cloneNode(true);
-                currentVSection.appendChild(currentTitleNode.cloneNode(true));
-              }
-            } else if (!isEmptyP) {
-              const isNote = checkNote(child.textContent);
-
-              if (isNote) {
-                // If there's a previous slide in the current horizontal section, add notes to it
-                const lastSlide = currentHSection ? currentHSection.lastElementChild : null;
-                if (lastSlide) {
-                  let notesAside = lastSlide.querySelector('aside.notes');
-                  if (!notesAside) {
-                    notesAside = document.createElement('aside');
-                    notesAside.className = 'notes';
-                    lastSlide.appendChild(notesAside);
-                  }
-                  notesAside.appendChild(child.cloneNode(true));
-                }
-              } else {
-                // Create a new vertical slide for every non-empty block element
-                ensureHSection();
-                const vSlide = document.createElement('section');
-                if (currentTitleNode) {
-                  const titleCopy = currentTitleNode.cloneNode(true);
-                  titleCopy.style.fontSize = '1.1em';
-                  titleCopy.style.opacity = '0.9';
-                  titleCopy.style.color = '#d4af37';
-                  vSlide.appendChild(titleCopy);
-                }
-                vSlide.appendChild(child.cloneNode(true));
-                currentHSection.appendChild(vSlide);
-              }
-            }
-          });
-        }
-    } else if (node.nodeName === 'P' && node.textContent.trim() === '') {
-      // Empty paragraph - create new vertical slide
-      if (currentVSection.childNodes.length > 0) {
-        flushAndCreateNewSection();
-      }
-      } else if (isBlock && !isEmpty) {
-      // Check if we have an image pending and this is substantial text
-      if (pendingImage && node.textContent.trim().length > 50) {
-        pendingText.push(node);
-        createSlideWithLayout();
-      } else {
-        if (pendingImage) {
-          pendingText.push(node);
+          currentVSection = headerSlide;
         } else {
-          // Add content to current vertical slide
-          ensureHSection();
-          if (!currentVSection) {
-            currentVSection = createVSectionWithTitle();
-            currentHSection.appendChild(currentVSection);
-          }
-          currentVSection.appendChild(node.cloneNode(true));
+          currentTitleNode = null;
         }
+        return;
       }
-    } else if (!isEmpty) {
-    if (pendingImage) {
-      pendingText.push(node);
-    } else {
-      ensureHSection();
-      if (!currentVSection) {
-        currentVSection = createVSectionWithTitle();
-        currentHSection.appendChild(currentVSection);
-      }
-      currentVSection.appendChild(node.cloneNode(true));
-    }
-  }
-});
 
-  // Flush any remaining content
-    createSlideWithLayout();
-    
-    console.log('Slides created:', slidesContainer.children.length);
+      // 2. Main Content Slides (Vertical Slides)
+      if (checkNote(node.textContent + (zh ? zh.textContent : ''))) {
+        const last = currentHSection ? currentHSection.lastElementChild : null;
+        if (last) {
+          let notes = last.querySelector('aside.notes') || document.createElement('aside');
+          notes.className = 'notes'; last.appendChild(notes);
+          notes.appendChild(node.cloneNode(true));
+          if (zh) notes.appendChild(zh.cloneNode(true));
+        }
+        return;
+      }
+
+      if (!currentHSection) {
+        currentHSection = document.createElement('section');
+        slidesContainer.appendChild(currentHSection);
+      }
+
+      const vSlide = document.createElement('section');
+      if (currentTitleNode) vSlide.appendChild(currentTitleNode.cloneNode(true));
+      
+      if (zh) {
+        const sbs = document.createElement('div');
+        sbs.style.cssText = 'display: flex; gap: 40px; height: 100%; align-items: center; justify-content: center;';
+        const enCol = document.createElement('div'); enCol.style.cssText = 'flex: 1; text-align: left; font-size: 0.75em;';
+        const zhCol = document.createElement('div'); zhCol.style.cssText = 'flex: 1; text-align: left; font-size: 0.75em;';
+        enCol.appendChild(node.cloneNode(true)); zhCol.appendChild(zh.cloneNode(true));
+        sbs.appendChild(enCol); sbs.appendChild(zhCol);
+        vSlide.appendChild(sbs);
+      } else {
+        vSlide.appendChild(node.cloneNode(true));
+      }
+      currentHSection.appendChild(vSlide);
+      currentVSection = vSlide;
+    });
+
+    console.log('Slides created (v8.5):', slidesContainer.children.length);
     console.log('Slides container innerHTML preview:', slidesContainer.innerHTML.substring(0, 500));
 
     // Load Reveal.js styles
