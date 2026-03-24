@@ -39,8 +39,8 @@
     const allContents = document.querySelectorAll('.content');
     
     allContents.forEach(contentEl => {
-      // Skip if this content is inside a sidebar or panel (safety check)
-      if (contentEl.closest('#panel-wrapper') || contentEl.closest('.card-body')) {
+      // Skip if this content is inside a sidebar, panel, or the search results wrapper
+      if (contentEl.closest('#panel-wrapper') || contentEl.closest('.card-body') || contentEl.closest('#search-result-wrapper')) {
         return;
       }
 
