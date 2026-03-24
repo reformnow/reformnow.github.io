@@ -36,16 +36,28 @@ The sequence can be visualized as follows:
 {: .lang-zh lang="zh-CN"}
 
 ```mermaid
-graph TD
+flowchart TD
+    subgraph Descent ["Descending Grace / 下行恩典"]
+    direction TB
     S[Election in Christ<br/>万世以先的拣选] --> C1[Effectual Calling<br/>有效呼召]
     C1 --> A[Regeneration<br/>重生]
+    end
+    
+    subgraph Bottom ["Conversion / 转变"]
     A --> B[Faith & Repentance<br/>信心与悔改]
-    B --> C[Justification<br/>称义]
-    C --> D[Sanctification<br/>成圣]
+    end
+    
+    subgraph Ascent ["Ascending Completion / 上行成全"]
+    direction BT
+    C[Justification<br/>称义] --> D[Sanctification<br/>成圣]
     D --> E[Glorification<br/>得荣耀]
+    end
+    
+    B --> C
+    
     style S fill:#d4af37,stroke:#333,stroke-width:2px,color:#000
     style E fill:#d4af37,stroke:#333,stroke-width:2px,color:#000
-    linkStyle 0,1,2,3,4,5 stroke:#d4af37,stroke-width:4px
+    linkStyle 0,1,2,3,4,5,6 stroke:#d4af37,stroke-width:4px
 ```
 {: .lang-en lang="en"}
 {: .lang-zh lang="zh-CN"}
