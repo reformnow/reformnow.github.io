@@ -19,10 +19,10 @@ image:
 ## 1. 引言：不可动摇的盼望
 {: .lang-zh lang="zh-CN"}
 
-In a world of shifting sand and broken promises, the human heart longs for something certain. When it comes to the salvation of our souls, we often wonder: Is it up to my fluctuating faith? Or is it anchored in something greater? The historic Christian faith points us to a "Golden Chain"—a series of divine acts that follow a necessary order (Ordo Salutis). It begins not with man's initiative, but with God's: **Regeneration** precedes **Faith** and **Repentance**, which inevitably leads to **Justification**, **Sanctification**, and finally **Glorification**. 
+In a world of shifting sand and broken promises, the human heart longs for something certain. When it comes to the salvation of our souls, we often wonder: Is it up to my fluctuating will or feelings? Or is it anchored in something greater? The historic Christian faith points us to a "Golden Chain"—a series of divine acts that follow a necessary order (Ordo Salutis). It begins not with man's initiative, but with God's: **Regeneration** precedes **Faith** and **Repentance**, which inevitably leads to **Justification**, **Sanctification**, and finally **Glorification**. 
 {: .lang-en lang="en"}
 
-在一个充满了流沙与破碎承诺的世界里，人类的心灵渴望着某种确定的事物。当涉及到我们灵魂的救赎时，我们常会问：它是取决于我那波动起伏的信心吗？还是锚定在某种更伟大的事物之上？历史悠久的基督教信仰引导我们将目光转向一条“黄金链条”——这是一系列遵循必然顺序的神圣作为（救恩的顺序 Ordo Salutis）。它并非始于人的主动，而始于上帝的主动：**重生（Regeneration）**先于**信心**与**悔改**，并必然导致随后的**称义**、**成圣**，直至最后的**得荣耀**。
+在一个充满了流沙与破碎承诺的世界里，人类的心灵渴望着某种确定的事物。当涉及到我们灵魂的救赎时，我们常会问：它是取决于我那波动起伏的意志或感觉吗？还是锚定在某种更伟大的事物之上？历史悠久的基督教信仰引导我们将目光转向一条“黄金链条”——这是一系列遵循必然顺序的神圣作为（救恩的顺序 Ordo Salutis）。它并非始于人的主动，而始于上帝的主动：**重生（Regeneration）**先于**信心**与**悔改**，并必然导致随后的**称义**、**成圣**，直至最后的**得荣耀**。
 {: .lang-zh lang="zh-CN"}
 
 The sequence can be visualized as follows:
