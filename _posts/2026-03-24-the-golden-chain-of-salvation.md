@@ -35,43 +35,47 @@ The sequence can be visualized as follows:
 {: .lang-en lang="en"}
 {: .lang-zh lang="zh-CN"}
 
-```mermaid
-graph TD
-    %% Define nodes with bilingual labels
-    S[Election in Christ<br/>万世以先的拣选]
-    C1[Effectual Calling<br/>有效呼召]
-    A[Regeneration<br/>重生]
-    B[Faith & Repentance<br/>信心与悔改]
-    C[Justification<br/>称义]
-    D[Sanctification<br/>成圣]
-    E[Glorification<br/>得荣耀]
+<div style="display: flex; justify-content: center; align-items: flex-end; font-family: sans-serif; gap: 20px; margin: 40px 0; overflow-x: auto; padding: 10px;">
     
-    %% Invisible spacer nodes to force the U-shape
-    spacer1[ ]
-    spacer2[ ]
-    
-    %% Actual flow (The Golden Chain)
-    S --> C1
-    C1 --> A
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    
-    %% Structural alignment (forcing side-by-side columns)
-    S ~~~ spacer1 ~~~ E
-    C1 ~~~ spacer2 ~~~ D
-    
-    %% Styling
-    style S fill:#d4af37,stroke:#333,stroke-width:2px,color:#000
-    style E fill:#d4af37,stroke:#333,stroke-width:2px,color:#000
-    style spacer1 fill:none,stroke:none
-    style spacer2 fill:none,stroke:none
-    linkStyle 0,1,2,3,4,5 stroke:#d4af37,stroke-width:4px
-    linkStyle 6,7,8,9 stroke:none
-```
-{: .lang-en lang="en"}
-{: .lang-zh lang="zh-CN"}
+    <!-- Descending Side -->
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
+        <div style="background: #d4af37; color: #000; padding: 12px; border-radius: 6px; text-align: center; width: 140px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            Election in Christ<br><small style="font-weight: normal; opacity: 0.9;">万世以先的拣选</small>
+        </div>
+        <div style="color: #d4af37; font-size: 24px; font-weight: bold;">↓</div>
+        <div style="background: #1a1a1a; color: #eee; padding: 12px; border-radius: 6px; text-align: center; width: 140px; border: 1px solid #333;">
+            Effectual Calling<br><small style="opacity: 0.8;">有效呼召</small>
+        </div>
+        <div style="color: #d4af37; font-size: 24px; font-weight: bold;">↓</div>
+        <div style="background: #1a1a1a; color: #eee; padding: 12px; border-radius: 6px; text-align: center; width: 140px; border: 1px solid #333;">
+            Regeneration<br><small style="opacity: 0.8;">重生</small>
+        </div>
+        <div style="color: #d4af37; font-size: 24px; font-weight: bold; transform: rotate(45deg); margin-left: 50px;">↓</div>
+    </div>
+
+    <!-- Turning Point -->
+    <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: -15px;">
+        <div style="background: #1a1a1a; color: #fff; padding: 18px; border-radius: 6px; text-align: center; width: 180px; font-weight: bold; border: 2px solid #d4af37; box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);">
+            Faith & Repentance<br><small style="font-weight: normal; opacity: 0.9;">信心与悔改</small>
+        </div>
+    </div>
+
+    <!-- Ascending Side -->
+    <div style="display: flex; flex-direction: column-reverse; align-items: center; gap: 8px;">
+        <div style="background: #d4af37; color: #000; padding: 12px; border-radius: 6px; text-align: center; width: 140px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            Glorification<br><small style="font-weight: normal; opacity: 0.9;">得荣耀</small>
+        </div>
+        <div style="color: #d4af37; font-size: 24px; font-weight: bold;">↑</div>
+        <div style="background: #1a1a1a; color: #eee; padding: 12px; border-radius: 6px; text-align: center; width: 140px; border: 1px solid #333;">
+            Sanctification<br><small style="opacity: 0.8;">成圣</small>
+        </div>
+        <div style="color: #d4af37; font-size: 24px; font-weight: bold;">↑</div>
+        <div style="background: #1a1a1a; color: #eee; padding: 12px; border-radius: 6px; text-align: center; width: 140px; border: 1px solid #333;">
+            Justification<br><small style="opacity: 0.8;">称义</small>
+        </div>
+        <div style="color: #d4af37; font-size: 24px; font-weight: bold; transform: rotate(-45deg); margin-right: 50px;">↑</div>
+    </div>
+</div>
 
 This chain is found in the heart of Paul’s letter to the Romans:
 {: .lang-en lang="en"}
