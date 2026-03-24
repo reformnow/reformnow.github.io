@@ -83,6 +83,18 @@ The chain begins in eternity past, rooted in the sovereign "Foreknowledge" of Go
 {: .lang-zh lang="zh-CN"}
 
 ```bible
+"Now Adam knew Eve his wife, and she conceived and bore Cain."
+— Genesis 4:1
+```
+{: .lang-en lang="en"}
+
+```bible
+“有一日，那人和他妻子夏娃同房（原文：知道），夏娃就怀孕，生了该隐。”
+—— 创世记 4:1
+```
+{: .lang-zh lang="zh-CN"}
+
+```bible
 "Even as he chose us in him before the foundation of the world, that we should be holy and blameless before him."
 — Ephesians 1:4
 ```
