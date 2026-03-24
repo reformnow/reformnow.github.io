@@ -45,6 +45,7 @@ graph TD
     D --> E[Glorification<br/>得荣耀]
     style S fill:#d4af37,stroke:#333,stroke-width:2px,color:#000
     style E fill:#d4af37,stroke:#333,stroke-width:2px,color:#000
+    linkStyle 0,1,2,3,4,5 stroke:#d4af37,stroke-width:4px
 ```
 {: .lang-en lang="en"}
 {: .lang-zh lang="zh-CN"}
