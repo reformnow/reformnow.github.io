@@ -37,15 +37,38 @@ The sequence can be visualized as follows:
 
 ```mermaid
 graph TD
-    S[Election in Christ<br/>万世以先的拣选] --> C1[Effectual Calling<br/>有效呼召]
-    C1 --> A[Regeneration<br/>重生]
-    A --> B[Faith & Repentance<br/>信心与悔改]
-    B --> C[Justification<br/>称义]
-    C --> D[Sanctification<br/>成圣]
-    D --> E[Glorification<br/>得荣耀]
+    %% Define nodes with bilingual labels
+    S[Election in Christ<br/>万世以先的拣选]
+    C1[Effectual Calling<br/>有效呼召]
+    A[Regeneration<br/>重生]
+    B[Faith & Repentance<br/>信心与悔改]
+    C[Justification<br/>称义]
+    D[Sanctification<br/>成圣]
+    E[Glorification<br/>得荣耀]
+    
+    %% Invisible spacer nodes to force the U-shape
+    spacer1[ ]
+    spacer2[ ]
+    
+    %% Actual flow (The Golden Chain)
+    S --> C1
+    C1 --> A
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    
+    %% Structural alignment (forcing side-by-side columns)
+    S ~~~ spacer1 ~~~ E
+    C1 ~~~ spacer2 ~~~ D
+    
+    %% Styling
     style S fill:#d4af37,stroke:#333,stroke-width:2px,color:#000
     style E fill:#d4af37,stroke:#333,stroke-width:2px,color:#000
+    style spacer1 fill:none,stroke:none
+    style spacer2 fill:none,stroke:none
     linkStyle 0,1,2,3,4,5 stroke:#d4af37,stroke-width:4px
+    linkStyle 6,7,8,9 stroke:none
 ```
 {: .lang-en lang="en"}
 {: .lang-zh lang="zh-CN"}
