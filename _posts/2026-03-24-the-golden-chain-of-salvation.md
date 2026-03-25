@@ -79,6 +79,30 @@ The sequence can be visualized as follows:
     </div>
 </div>
 
+This U-shaped "Golden Chain" represents the spiritual dynamic of our salvation:
+{: .lang-en lang="en"}
+
+这个 U 型的“黄金链条”展示了我们救恩的属灵动态：
+{: .lang-zh lang="zh-CN"}
+
+1. **Divine Descent (The Left Side):** Salvation begins with the sovereign decree of God. It descends from the eternal **Election** into our time through the **Effectual Call**, reaching down to the very depth of our dead hearts in **Regeneration**.
+{: .lang-en lang="en"}
+
+1. **神圣的下降（左侧）：** 救恩始于上帝主权的定旨。它从永恒的**拣选**降临，通过**有效呼召**进入我们的时间，并深入到我们死在过犯中的心灵深处，施行**重生**。
+{: .lang-zh lang="zh-CN"}
+
+2. **The Turning Point (The Center):** Where the new life first breathes. **Faith & Repentance** are not the source of this chain, but the vital transition point where the grace given internally manifests as a living response of the soul.
+{: .lang-en lang="en"}
+
+2. **生命的转折（中间）：** 这是新生命的第一口呼吸。**信心与悔改**并非这条链条的源头，而是一个至关重要的转折点——内在赋予的恩典在此转化为灵魂活生生的回应。
+{: .lang-zh lang="zh-CN"}
+
+3. **Divine Ascent (The Right Side):** Having been united to Christ, the believer is lifted up. We are legally declared righteous in **Justification**, progressively transformed in **Sanctification**, and will ultimately be brought back to the pinnacle of God's presence in **Glorification**.
+{: .lang-en lang="en"}
+
+3. **神圣的上升（右侧）：** 在与基督联合之后，信徒被提升。我们在**称义**中被宣告为义，在**成圣**中被逐渐改变，并最终在**得荣耀**中被带回到上帝同在的巅峰。
+{: .lang-zh lang="zh-CN"}
+
 This chain is found in the heart of Paul’s letter to the Romans:
 {: .lang-en lang="en"}
 
