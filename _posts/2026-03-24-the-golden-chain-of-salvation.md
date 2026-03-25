@@ -159,6 +159,24 @@ The chain begins in eternity past, rooted in the sovereign "Foreknowledge" of Go
 ```
 {: .lang-zh lang="zh-CN"}
 
+```bible
+"And as many as were appointed to eternal life believed."
+— Acts 13:48
+```
+{: .lang-en lang="en"}
+
+```bible
+“凡预定得永生的人都信了。”
+—— 使徒行传 13:48
+```
+{: .lang-zh lang="zh-CN"}
+
+Luke’s record in Acts provides a striking reversal of our human perception: we do not become the "appointed" because we believe; we believe because we were already "appointed to eternal life" by God's sovereign hand. Faith is the first observable fruit of our eternal election.
+{: .lang-en lang="en"}
+
+路加在《使徒行传》中的记录对我们人类的认知提供了一个震撼的反转：我们并非因为相信才被“预定”，而是因为我们早已被上帝的主权之手“预定得永生”，所以才相信。信心是我们在永恒中蒙拣选的第一个可见果效。
+{: .lang-zh lang="zh-CN"}
+
 As St. Augustine famously observed, we are chosen not because we were holy, but so that we might *become* holy through His grace. 
 {: .lang-en lang="en"}
 
