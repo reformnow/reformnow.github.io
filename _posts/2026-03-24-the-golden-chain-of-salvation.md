@@ -50,7 +50,8 @@ The sequence can be visualized as follows:
         <div style="background: #1a1a1a; color: #fff; padding: 15px 10px; border-radius: 6px; text-align: center; width: 160px; height: 75px; display: flex; flex-direction: column; justify-content: center; border: 1px solid #333;">
             Regeneration<br><small style="opacity: 0.8;">重生</small>
         </div>
-        <div style="color: #d4af37; font-size: 28px; font-weight: bold; transform: rotate(45deg); margin-left: 60px; margin-top: 5px;">↓</div>
+        <!-- Right Bottom Arrow: From Regeneration to Center (Points DOWN-RIGHT) -->
+        <div style="color: #d4af37; font-size: 28px; font-weight: bold; transform: rotate(-45deg); margin-left: 60px; margin-top: 5px;">↓</div>
     </div>
 
     <!-- Center Bridge: Turning Point -->
