@@ -35,46 +35,46 @@ The sequence can be visualized as follows:
 {: .lang-en lang="en"}
 {: .lang-zh lang="zh-CN"}
 
-<div style="display: flex; justify-content: center; align-items: flex-end; font-family: sans-serif; gap: 25px; margin: 40px 0; overflow-x: auto; padding: 20px 10px;">
+<div style="display: flex; justify-content: center; align-items: flex-end; font-family: sans-serif; gap: 30px; margin: 60px 0; overflow-x: auto; padding: 40px 20px;">
     
     <!-- Left Column: Descent -->
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
-        <div style="background: #d4af37; color: #000; padding: 15px 10px; border-radius: 6px; text-align: center; width: 160px; height: 75px; display: flex; flex-direction: column; justify-content: center; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 12px;">
+        <div style="background: linear-gradient(145deg, #f1c40f, #d4af37); color: #000; padding: 15px 10px; border-radius: 8px; text-align: center; width: 165px; height: 85px; display: flex; flex-direction: column; justify-content: center; font-weight: bold; box-shadow: 5px 10px 25px rgba(0,0,0,0.3), inset -2px -2px 5px rgba(0,0,0,0.2), inset 2px 2px 5px rgba(255,255,255,0.4); border: 1px solid rgba(255,255,255,0.5);">
             Election in Christ<br><small style="font-weight: normal; opacity: 0.9;">万世以先的拣选</small>
         </div>
-        <div style="color: #d4af37; font-size: 24px; font-weight: bold;">↓</div>
-        <div style="background: #1a1a1a; color: #fff; padding: 15px 10px; border-radius: 6px; text-align: center; width: 160px; height: 75px; display: flex; flex-direction: column; justify-content: center; border: 1px solid #333;">
+        <div style="color: #d4af37; font-size: 30px; font-weight: bold; text-shadow: 2px 4px 6px rgba(0,0,0,0.3);">↓</div>
+        <div style="background: linear-gradient(145deg, #2a2a2a, #1a1a1a); color: #fff; padding: 15px 10px; border-radius: 8px; text-align: center; width: 165px; height: 85px; display: flex; flex-direction: column; justify-content: center; box-shadow: 5px 10px 25px rgba(0,0,0,0.4), inset -2px -2px 5px rgba(0,0,0,0.5), inset 2px 2px 5px rgba(255,255,255,0.1); border: 1px solid #333;">
             Effectual Calling<br><small style="opacity: 0.8;">有效呼召</small>
         </div>
-        <div style="color: #d4af37; font-size: 24px; font-weight: bold;">↓</div>
-        <div style="background: #1a1a1a; color: #fff; padding: 15px 10px; border-radius: 6px; text-align: center; width: 160px; height: 75px; display: flex; flex-direction: column; justify-content: center; border: 1px solid #333;">
+        <div style="color: #d4af37; font-size: 30px; font-weight: bold; text-shadow: 2px 4px 6px rgba(0,0,0,0.3);">↓</div>
+        <div style="background: linear-gradient(145deg, #2a2a2a, #1a1a1a); color: #fff; padding: 15px 10px; border-radius: 8px; text-align: center; width: 165px; height: 85px; display: flex; flex-direction: column; justify-content: center; box-shadow: 5px 10px 25px rgba(0,0,0,0.4), inset -2px -2px 5px rgba(0,0,0,0.5), inset 2px 2px 5px rgba(255,255,255,0.1); border: 1px solid #333;">
             Regeneration<br><small style="opacity: 0.8;">重生</small>
         </div>
-        <!-- Right Bottom Arrow: From Regeneration to Center (Points DOWN-RIGHT) -->
-        <div style="color: #d4af37; font-size: 28px; font-weight: bold; transform: rotate(-45deg); margin-left: 60px; margin-top: 5px;">↓</div>
+        <!-- Left Bottom Arrow: Points DOWN-RIGHT (SE) -->
+        <div style="color: #d4af37; font-size: 32px; font-weight: bold; transform: rotate(-45deg); margin-left: 70px; margin-top: 10px; text-shadow: 4px 2px 6px rgba(0,0,0,0.3);">↓</div>
     </div>
 
     <!-- Center Bridge: Turning Point -->
-    <div style="display: flex; flex-direction: column; align-items: center; padding-bottom: 10px;">
-        <div style="background: #1a1a1a; color: #fff; padding: 20px 15px; border-radius: 6px; text-align: center; width: 190px; min-height: 90px; display: flex; flex-direction: column; justify-content: center; font-weight: bold; border: 2px solid #d4af37; box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);">
-            Faith & Repentance<br><small style="font-weight: normal; opacity: 0.9;">信心与悔改</small>
+    <div style="display: flex; flex-direction: column; align-items: center; padding-bottom: 20px;">
+        <div style="background: linear-gradient(145deg, #222, #0a0a0a); color: #fff; padding: 25px 20px; border-radius: 10px; text-align: center; width: 220px; min-height: 110px; display: flex; flex-direction: column; justify-content: center; font-weight: bold; border: 2px solid #d4af37; box-shadow: 0 0 35px rgba(212, 175, 55, 0.4), inset -2px -2px 5px rgba(0,0,0,0.6), inset 2px 2px 10px rgba(212, 175, 55, 0.3);">
+            Faith & Repentance<br><small style="font-weight: normal; opacity: 0.9; margin-top: 5px;">信心与悔改</small>
         </div>
     </div>
 
     <!-- Right Column: Ascent -->
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
-        <div style="background: #d4af37; color: #000; padding: 15px 10px; border-radius: 6px; text-align: center; width: 160px; height: 75px; display: flex; flex-direction: column; justify-content: center; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 12px;">
+        <div style="background: linear-gradient(145deg, #f1c40f, #d4af37); color: #000; padding: 15px 10px; border-radius: 8px; text-align: center; width: 165px; height: 85px; display: flex; flex-direction: column; justify-content: center; font-weight: bold; box-shadow: 5px 10px 25px rgba(0,0,0,0.3), inset -2px -2px 5px rgba(0,0,0,0.2), inset 2px 2px 5px rgba(255,255,255,0.4); border: 1px solid rgba(255,255,255,0.5);">
             Glorification<br><small style="font-weight: normal; opacity: 0.9;">得荣耀</small>
         </div>
-        <div style="color: #d4af37; font-size: 24px; font-weight: bold;">↑</div>
-        <div style="background: #1a1a1a; color: #fff; padding: 15px 10px; border-radius: 6px; text-align: center; width: 160px; height: 75px; display: flex; flex-direction: column; justify-content: center; border: 1px solid #333;">
+        <div style="color: #d4af37; font-size: 30px; font-weight: bold; text-shadow: 2px 4px 6px rgba(0,0,0,0.3);">↑</div>
+        <div style="background: linear-gradient(145deg, #2a2a2a, #1a1a1a); color: #fff; padding: 15px 10px; border-radius: 8px; text-align: center; width: 165px; height: 85px; display: flex; flex-direction: column; justify-content: center; box-shadow: 5px 10px 25px rgba(0,0,0,0.4), inset -2px -2px 5px rgba(0,0,0,0.5), inset 2px 2px 5px rgba(255,255,255,0.1); border: 1px solid #333;">
             Sanctification<br><small style="opacity: 0.8;">成圣</small>
         </div>
-        <div style="color: #d4af37; font-size: 24px; font-weight: bold;">↑</div>
-        <div style="background: #1a1a1a; color: #fff; padding: 15px 10px; border-radius: 6px; text-align: center; width: 160px; height: 75px; display: flex; flex-direction: column; justify-content: center; border: 1px solid #333;">
+        <div style="color: #d4af37; font-size: 30px; font-weight: bold; text-shadow: 2px 4px 6px rgba(0,0,0,0.3);">↑</div>
+        <div style="background: linear-gradient(145deg, #2a2a2a, #1a1a1a); color: #fff; padding: 15px 10px; border-radius: 8px; text-align: center; width: 165px; height: 85px; display: flex; flex-direction: column; justify-content: center; box-shadow: 5px 10px 25px rgba(0,0,0,0.4), inset -2px -2px 5px rgba(0,0,0,0.5), inset 2px 2px 5px rgba(255,255,255,0.1); border: 1px solid #333;">
             Justification<br><small style="opacity: 0.8;">称义</small>
         </div>
-        <!-- Right Bottom Arrow: From Center to Right (Points UP-RIGHT) -->
+        <!-- Right Bottom Arrow: Points UP-RIGHT (NE) -->
         <div style="color: #d4af37; font-size: 28px; font-weight: bold; transform: rotate(45deg); margin-right: 60px; margin-top: 5px;">↑</div>
     </div>
 </div>
