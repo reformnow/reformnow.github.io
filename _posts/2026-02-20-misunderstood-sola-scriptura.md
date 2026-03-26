@@ -12,6 +12,7 @@ image:
 ---
 
 ## I. Introduction: The Crisis Behind the Slogan
+{: .lang-en lang="en"}
 In the modern evangelical world, "Sola Scriptura" (Scripture Alone) is a ubiquitous slogan. Almost every Christian group claims to follow "the Bible alone." Yet, a glaring paradox remains: if we all hold the same Bible, why do we arrive at thousands of contradictory conclusions? Why does one group find support for infant baptism while another sees only believer's baptism? Why do some see a strict predestination while others see radical free will?
 {: .lang-en lang="en"}
 
@@ -34,6 +35,7 @@ But how we hear that Spirit speak makes all the difference.
 {: .lang-en lang="en"}
 
 ## 一、 引言：口号背后的危机
+{: .lang-zh lang="zh-CN"}
 在现代福音派世界中，“唯独圣经”（Sola Scriptura）是一个无处不在的口号。几乎所有基督徒群体都宣称自己遵循“唯独圣经”。然而，一个显而易见的悖论依然存在：如果我们都拿着同一本圣经，为什么会得出成千上万种彼此矛盾的结论？为什么一个群体在圣经里看到了婴儿洗礼的依据，而另一个群体却只看到信徒洗礼？为什么有人看到了严格的预定论，而有人却看到了绝对的自由意志？
 {: .lang-zh lang="zh-CN"}
 
@@ -190,13 +192,21 @@ When we isolate the Bible from its historical and ecclesiastical context, we don
 {: .lang-en lang="en"}
 
 ### a. Denominational Fragmentation and Private Interpretation
+{: .lang-en lang="en"}
+
 When the individual replaces the Church as the primary interpreter, everyone starts claiming direct, unmediated revelation from the Holy Spirit.
+{: .lang-en lang="en"}
+
 *   **The Problem:** There is no objective weight to correct error.
 *   **The Consequence:** "One-man denominations" explode. Without a shared interpretive framework (Confessions), subjective whim becomes king.
 {: .lang-en lang="en"}
 
 ### b. Ecclesiastical Schism and Historical Amnesia
+{: .lang-en lang="en"}
+
 Many modern groups reject the heritage of the ancient Church, viewing the last 1,500 years as a "dark age" of total apostasy.
+{: .lang-en lang="en"}
+
 *   **The Problem:** By ignoring the past, we lose the immune system of the Church.
 *   **The Consequence:** Ancient heresies are resurrected under new names. Today’s "Bible-only" groups often stumble back into Arianism or Pelagianism because they refuse to learn from the battles fought at Nicaea or Chalcedon.
 {: .lang-en lang="en"}
@@ -208,13 +218,21 @@ Many modern groups reject the heritage of the ancient Church, viewing the last 1
 {: .lang-zh lang="zh-CN"}
 
 ### a. 导致宗派林立与私意解经
+{: .lang-zh lang="zh-CN"}
+
 当个人取代教会成为解释主体时，每个人都宣称自己有圣灵的直接启示，甚至是所谓的“越过传统的开启”。
+{: .lang-zh lang="zh-CN"}
+
 *   **问题：** 缺乏纠正错误的客观权重。
 *   **后果：** 产生出无数“一人宗派”。因为没有公认的释经框架（如信条）来约束，主观臆断成了最高准则。
 {: .lang-zh lang="zh-CN"}
 
 ### b. 导致教会分裂与历史断层
+{: .lang-zh lang="zh-CN"}
+
 许多现代群体拒绝古代教会的遗产，视宗教改革之前的1500年为一片黑暗。
+{: .lang-zh lang="zh-CN"}
+
 *   **问题：** 拒绝历史意味着教会失去了抵御异端的“免疫系统”。
 *   **后果：** 导致古老异端的变相复活。今天许多高举“唯圣经论”的群体，往往在不经意间重蹈亚流派（Arianism）或伯拉纠派（Pelagianism）的覆辙，因为他们拒绝在尼西亚或迦克墩的战场上学习。
 {: .lang-zh lang="zh-CN"}
@@ -252,14 +270,17 @@ History and orthodox theology teach that to protect Sola Scriptura, we must empl
 {: .lang-en lang="en"}
 
 ### a. The Ecumenical Creeds
+{: .lang-en lang="en"}
 *   **Function:** Defining the **Boundaries of Christianity**.
 *   **Content:** Examples include the *Apostles' Creed* and the *Nicene Creed*. They establish the bedrock of the Trinity and the dual nature of Christ. Any "return to the Bible" that violates these creeds is not a return at all, but a departure into heresy.
 {: .lang-en lang="en"}
 
 ### b. Confessions and Catechisms
+{: .lang-en lang="en"}
 *   **Function:** Defining the **Depth and Coherence of Doctrine**.
 *   **Content:** Examples include the *Westminster Confession of Faith* and the *Heidelberg Catechism*.
 *   **The Role:**
+{: .lang-en lang="en"}
     1.  **Public Interpretation:** Confessions are the Church's collective testimony to what the Bible teaches, preventing the tyranny of "private interpretation."
     2.  **Systematic Synthesis:** They collect truths scattered throughout Scripture (Covenant, Election, Sacraments) into a coherent whole, providing a comprehensive biblical perspective.
 {: .lang-en lang="en"}
@@ -271,14 +292,17 @@ History and orthodox theology teach that to protect Sola Scriptura, we must empl
 {: .lang-zh lang="zh-CN"}
 
 ### a. 大公信经（Ecumenical Creeds）
+{: .lang-zh lang="zh-CN"}
 *   **功能：** 划定**基督徒的边界**。
 *   **内容：** 如《使徒信经》、《尼西亚信经》。它们确立了三位一体、完全的神人二性等基石。不符合信经的所谓“回归圣经”，本质上必是异端。
 {: .lang-zh lang="zh-CN"}
 
 ### b. 认信文/信条（Confessions）
+{: .lang-zh lang="zh-CN"}
 *   **功能：** 划定**教义的深度与系统的连贯性**。
 *   **内容：** 如《威斯敏斯特信条》、《海德堡探题》。
 *   **作用：**
+{: .lang-zh lang="zh-CN"}
     1.  **公共解释：** 信条是教会对圣经真理的集体宣言，防止任何个人的“私人解经霸权”。
     2.  **真理汇总：** 将分散在圣经各处的教义（如圣约、预定、圣礼）系统化，提供全备且连贯的信仰视角。
 {: .lang-zh lang="zh-CN"}
