@@ -105,31 +105,40 @@ The delay of the Second Coming is, therefore, a necessity of grace. Christ will 
 
 ---
 
-## III. The Distinction: The Preceptive and Decretive Will
+## III. The Three-Fold Will of God
 {: .lang-en lang="en"}
 
-## 三、 区分：诫命的旨意与预定的旨意
+## 三、 上帝的三重旨意
 {: .lang-zh lang="zh-CN"}
 
-To fully reconcile these truths, the historic Christian faith has long recognized a distinction between the "two wills" of God—not two contradictory gods, but two ways God's singular will relates to His creation.
+When we speak of God’s will, we must distinguish between His sovereign authority and a kind of depressing fatalism. As Doris Day famously sang, "Que Sera, Sera" (What will be, will be), many confuse biblical sovereignty with passive fate. However, the Bible presents God’s will in three distinct ways to help us understand His active and holy engagement with the world.
+{: .lang-en lang="en"}
+
+当我们谈论上帝的旨意时，必须区分祂那神圣的主权与一种令人沮丧的宿命论（Fatalism）。正如流行歌曲《世事难料》（Que Sera, Sera）中所唱的“该发生的总会发生”，许多人将圣经中的主权与被动的命运混为一谈。然而，圣经通过三种不同的方式呈现上帝的旨意，以帮助我们理解祂与世界之间那主动且圣洁的关系。
+{: .lang-zh lang="zh-CN"}
+
+To fully harmonize these truths, historical Christianity has long recognized a distinction between God’s "two wills"—not as two conflicting Gods, but as two ways in which the one will of God relates to His creatures.
 {: .lang-en lang="en"}
 
 为了完全协调这些真理，历史性的基督教信仰长期以来一直承认上帝“两种旨意”之间的区别——这不是说有两个相互矛盾的神，而是上帝唯一的旨意与其受造物发生关联的两种方式。
 {: .lang-zh lang="zh-CN"}
 
-**1. The Preceptive Will (Will of Command):** This is what God reveals as His moral standard. He takes no pleasure in the death of the wicked (Ezekiel 33:11), and His command to all men everywhere is to repent. In this sense, He "desires" all to be saved as a matter of what is morally pleasing and right according to His goodness.
+**1. The Preceptive Will (Will of Command):** This is what God reveals as His moral standard. He takes no pleasure in the death of the wicked (Ezekiel 33:11), and His command to all men everywhere is to repent. As R.C. Sproul points out, we have the *power* (the physical ability) to violate this will, but we never have the *right* to do so. Our disobedience does not nullify His authority; it establishes our guilt.
 {: .lang-en lang="en"}
 
-**1. 诫命的旨意（Will of Command）：** 这是上帝作为其道德标准所显明的。祂并不喜爱恶人死亡（以西结书33:11），祂给各地所有人的命令就是悔改。在此意义上，基于祂的良善，祂在道德喜悦和公义的角度上“愿意”万人得救。
+**1. 诫命的旨意（Will of Command）：** 这是上帝作为其道德标准所显明的。祂并不喜爱恶人死亡（以西结书33:11），祂给各地所有人的命令就是悔改。正如史普罗（R.C. Sproul）所指出的，我们有*能力*（肉体上的可能）去违反这一旨意，但我们绝没有*权利*这样做。我们的不顺服并不能废掉上帝的权威，反而确证了我们的罪责。
 {: .lang-zh lang="zh-CN"}
 
-**2. The Decretive Will (Will of Decree):** This is God’s eternal, sovereign purpose which *always* comes to pass. He ordains whatsoever comes to pass for His own glory. While God may not "delight" in the destruction of the wicked in the sense of His preceptive will, He nonetheless "decrees" their judgment to manifest His holy justice. 
+**2. The Decretive Will (Will of Decree):** This is God’s eternal, sovereign purpose which *always* comes to pass. He ordains whatsoever comes to pass for His own glory. This includes even the sinful acts of men, which God permits and directs for a greater end without being the author of sin. Consider the betrayal of Jesus by Judas: it was God's certain decree that the Son should be handed over, yet this divine permission gave Judas the power to act, but not the moral right, leaving his treachery no less evil.
 {: .lang-en lang="en"}
+
+**2. 预定的旨意（Will of Decree）：** 这是上帝永恒的、主权的定旨，且*必然*成就。祂为了自己的荣耀而预定了万事的发生。这甚至包括人类的罪行——上帝准许并引导这些行为以达成更高的目的，却并非罪的创始者。以犹大出卖耶稣为例：圣子被交给人是上帝确定的定旨，然而这种神圣的准许给了犹大行动的“能力”，却未给他道德上的“权利”，因此他的背叛之恶并未减损。
+{: .lang-zh lang="zh-CN"}
 
 This leads us to the distinction between a **Theoretical Salvation** and an **Effective Salvation**. In the former, God merely "desires" salvation but is frustrated by human will. In the latter—the biblical view—God's sovereign decree ensures that every single person He has chosen will certainly be brought to faith and glory.
 {: .lang-en lang="en"}
 
-**2. 预定的旨意（Will of Decree）：** 这是上帝永恒的、主权的定旨，且*必然*成就。祂为了自己的荣耀而预定了万事的发生。虽然按照诫命的旨意，上帝并不以毁灭恶人为“乐”，但祂依然“预定”了他们的审判，以显明祂圣洁的公义。
+这引出了**理论上的救赎**与**有效的救赎**之间的区别。在前者中，上帝仅仅是“渴望”救赎，却被人类的意志所阻挠。在后者——即圣经的观点中——上帝主权的定旨确保了祂所拣选的每一个人都必将进入信心与荣耀。
 {: .lang-zh lang="zh-CN"}
 
 **3. The Will of Disposition (Antecedent and Consequent):** This distinction is not a late invention but was deeply articulated by the Church Fathers. St. John of Damascus (8th Century) distinguished between God's **Antecedent Will** (His primary desire that all should be saved) and His **Consequent Will** (His secondary decree of punishment due to human sin). St. Thomas Aquinas later formalized this in the *Summa*, explaining that while God may "will" a man to be saved in the abstract (Antecedent), He may "will" him to be punished for the sake of justice (Consequent).
@@ -160,6 +169,30 @@ As St. Prosper of Aquitaine, a key defender of Augustinian theology, summarized 
 “我们必须相信上帝愿意万人得救……但同时我们绝不能忽视祂审判的深邃。祂通过普遍的护理呼召万民，却通过特殊的恩典拯救选民。这并非依靠他们自身的任何功劳，而是根据祂隐秘且永恒的定旨。”
 —— 阿基坦的圣普罗斯珀
 ```
+{: .lang-zh lang="zh-CN"}
+
+When we encounter the silence of God regarding His hidden decree, we would be wise to follow the counsel of John Calvin:
+{: .lang-en lang="en"}
+
+当我们面对上帝关于其隐秘定旨的沉默时，效法约翰·加尔文（John Calvin）的劝导是明智的：
+{: .lang-zh lang="zh-CN"}
+
+```quote
+"When God closes His holy mouth, I will desist from inquiry."
+— John Calvin
+```
+{: .lang-en lang="en"}
+
+```quote
+“当上帝闭上祂圣洁的口，我也必停止窥探。”
+—— 约翰·加尔文
+```
+{: .lang-zh lang="zh-CN"}
+
+The pursuit of God's secret, decretive will for our individual futures is an unwarranted invasion of His privacy. As R.C. Sproul warns, we should not be preoccupied with His hidden counsel, which is His business alone. Our calling is to meditate day and night upon His *revealed* will—His holy commandments—which are the chief business of our lives.
+{: .lang-en lang="en"}
+
+寻求上帝关于我们个人未来的隐秘预定旨意，是对祂隐私的一种无端侵犯。正如史普罗所警告的，我们不应过度痴迷于祂隐藏的定旨，那是属于祂自己的事情。我们的召命是昼夜思想祂**已显明**的旨意——即祂圣洁的诫命，这才是我们生命中的首要事务。
 {: .lang-zh lang="zh-CN"}
 
 As St. Augustine famously resolved:

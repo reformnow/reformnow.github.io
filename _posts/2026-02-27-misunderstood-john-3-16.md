@@ -58,29 +58,32 @@ To grasp this verse's true weight, we must look at the original Greek syntax.
 <audio controls src="/assets/audio/john_3_16_greek.mp3" style="width: 100%; margin-bottom: 20px;"></audio>
 {: .lang-en lang="en"}
 
-<div style="background-color: #1a202c; color: #e2e8f0; padding: 20px; border-left: 5px solid #4299e1; border-radius: 8px; font-family: 'Georgia', serif; margin-bottom: 20px;">
-  <h4 style="color: #63b3ed; margin-top: 0;">1. The Adverb of Manner: Οὕτως (Houtōs)</h4>
-  <p><strong>Common Assumption:</strong> Translated as "God <em>so</em> loved the world," making it an adverb of degree (loving "so much").</p>
-  <p><strong>Greek Reality:</strong> Οὕτως (Houtōs) is actually an adverb of <em>manner</em>. It means "In this way" or "Thusly."</p>
-{: .lang-en lang="en"}
+<div class="lang-en" style="background-color: #1a202c; color: #e2e8f0; padding: 20px; border-left: 5px solid #4299e1; border-radius: 8px; font-family: 'Georgia', serif; margin-bottom: 20px;" markdown="1">
+#### 1. The Adverb of Manner: Οὕτως (Houtōs)
+
+**Common Assumption:** Translated as "God *so* loved the world," making it an adverb of degree (loving "so much").
+
+**Greek Reality:** Οὕτως (Houtōs) is actually an adverb of *manner*. It means "In this way" or "Thusly."
 
 **Theological Correction:** The emphasis is not on measuring the "temperature" or amount of God's emotion, but rather on describing the sacred dimension of God's saving action. 
 
 **Core Viewpoint:** God demonstrates His love in this sovereign and unique **manner**: by "giving His only Son" into the world. This kind of love is a proactive, decisive strategy of redemption, not a passive emotional waiting game.
-
-<div style="background-color: #1a202c; color: #e2e8f0; padding: 20px; border-left: 5px solid #4299e1; border-radius: 8px; font-family: 'Georgia', serif; margin-bottom: 20px;">
-  <h4 style="color: #63b3ed; margin-top: 0;">2. The Object of Redemption: κόσμον (Kosmos)</h4>
-  <p><strong>Semantic Analysis:</strong> In Johannine literature, "the world" (Kosmos) rarely refers to every single person head-by-head. Instead, it refers to the fallen, rebellious system of humanity that stands in active enmity against God.</p>
 </div>
+
+<div class="lang-en" style="background-color: #1a202c; color: #e2e8f0; padding: 20px; border-left: 5px solid #4299e1; border-radius: 8px; font-family: 'Georgia', serif; margin-bottom: 20px;" markdown="1">
+#### 2. The Object of Redemption: κόσμον (Kosmos)
+
+**Semantic Analysis:** In Johannine literature, "the world" (Kosmos) rarely refers to every single person head-by-head. Instead, it refers to the fallen, rebellious system of humanity that stands in active enmity against God.
 
 **Theological Correction:** The greatness of God's love does not lie in the sheer breadth of a "headcount," but in its astonishing depth: He actually loved a world that is profoundly wicked and fundamentally despises Him. 
 
 **Logical Deduction:** If this love contained a saving intent for every single individual, yet many perish, then God's will would be frustrated by creatures. Therefore, this word emphasizes that salvation breaks through Jewish ethnic boundaries to reach all tribes, tongues, and nations across the globe.
-
-<div style="background-color: #1a202c; color: #e2e8f0; padding: 20px; border-left: 5px solid #4299e1; border-radius: 8px; font-family: 'Georgia', serif; margin-bottom: 20px;">
-  <h4 style="color: #63b3ed; margin-top: 0;">3. The Characteristic Description: πᾶς ὁ πιστεύων (Pas ho pisteuōn)</h4>
-  <p><strong>Syntax Breakdown:</strong> This is a present active participle. It does not map to a conditional "if you believe," but rather acts to define the characteristic of a specific group of people: "the believing ones."</p>
 </div>
+
+<div class="lang-en" style="background-color: #1a202c; color: #e2e8f0; padding: 20px; border-left: 5px solid #4299e1; border-radius: 8px; font-family: 'Georgia', serif; margin-bottom: 20px;" markdown="1">
+#### 3. The Characteristic Description: πᾶς ὁ πιστεύων (Pas ho pisteuōn)
+
+**Syntax Breakdown:** This is a present active participle. It does not map to a conditional "if you believe," but rather acts to define the characteristic of a specific group of people: "the believing ones."
 
 **Theological Correction:** This verse is not hinting that sinners possess a spontaneous, autonomous ability to believe. When paired with John 6:44 ("No one can come to me unless the Father who sent me draws him"), "believing" is the sacred evidence that God has already worked regeneration in a soul. 
 
@@ -102,29 +105,32 @@ To grasp this verse's true weight, we must look at the original Greek syntax.
 <audio controls src="/assets/audio/john_3_16_greek.mp3" style="width: 100%; margin-bottom: 20px;"></audio>
 {: .lang-zh lang="zh-CN"}
 
-<div style="background-color: #1a202c; color: #e2e8f0; padding: 20px; border-left: 5px solid #4299e1; border-radius: 8px; font-family: 'Georgia', serif; margin-bottom: 20px;">
-  <h4 style="color: #63b3ed; margin-top: 0;">1. 方式副词 Οὕτως (Houtōs)：是“如何爱”而非“多爱”</h4>
-  <p><strong>普遍预设：</strong> 中文常译为“神爱世人，甚至……”，让人以为这是一个程度副词（爱得“极深”）。</p>
-  <p><strong>希腊文真相：</strong> Οὕτως (Houtōs) 实际上是一个<strong>方式副词</strong>，意思是“如此地（In this way / Thusly）”或“以这种方式”。</p>
-{: .lang-zh lang="zh-CN"}
+<div class="lang-zh" style="background-color: #1a202c; color: #e2e8f0; padding: 20px; border-left: 5px solid #4299e1; border-radius: 8px; font-family: 'Georgia', serif; margin-bottom: 20px;" markdown="1">
+#### 1. 方式副词 Οὕτως (Houtōs)：是“如何爱”而非“多爱”
 
-**神学修正：** 经文的重点并不在于测量上帝情感的“热度”或量级，而是在描述上帝拯救行动的神圣维度与方式。
+**普遍预设：** 中文常译为“神爱世人，甚至……”，让人以为这是一个程度副词（爱得“极深”）。
+
+**希腊文真相：** Οὕτως (Houtōs) 实际上是一个**方式副词**，意思是“如此地（In this way / Thusly）”或“以这种方式”。
+
+**神学修正：** 经论的重点并不在于测量上帝情感的“热度”或量级，而是在描述上帝拯救行动的神圣维度与方式。
 
 **核心观点：** 上帝是以“差遣独生子入世”这种主权且唯一的方式来显明祂的爱。这种爱是一种主动的救赎策略，而非被动的情绪等待。
-
-<div style="background-color: #1a202c; color: #e2e8f0; padding: 20px; border-left: 5px solid #4299e1; border-radius: 8px; font-family: 'Georgia', serif; margin-bottom: 20px;">
-  <h4 style="color: #63b3ed; margin-top: 0;">2. 救赎对象 κόσμον (Kosmos)：爱的深度而非广度</h4>
-  <p><strong>语义分析：</strong> 在使徒约翰的文学语境中，“世人”（Kosmos / 世界）极少指代按人头计算的每一个个体。相反，它指代的是一个与神为敌、堕落的反叛体系。</p>
 </div>
+
+<div class="lang-zh" style="background-color: #1a202c; color: #e2e8f0; padding: 20px; border-left: 5px solid #4299e1; border-radius: 8px; font-family: 'Georgia', serif; margin-bottom: 20px;" markdown="1">
+#### 2. 救赎对象 κόσμον (Kosmos)：爱的深度而非广度
+
+**语义分析：** 在使徒约翰的文学语境中，“世人”（Kosmos / 世界）极少指代按人头计算的每一个个体。相反，它指代的是一个与神为敌、堕落的反叛体系。
 
 **神学修正：** 上帝之爱的伟大，不在于祂爱了多少“人头数”的广度，而在于它令人震惊的深度：祂竟然深爱着这个极其邪恶、且在本质上厌恶祂的世界。
 
 **逻辑推论：** 若这种爱包含着对每个个体的救赎意图，却依然有人灭亡，那么上帝的意志便被受造物挫败了。因此，这里强调的是救恩突破了犹太民族的藩篱，临到了全人类的各族各方。
-
-<div style="background-color: #1a202c; color: #e2e8f0; padding: 20px; border-left: 5px solid #4299e1; border-radius: 8px; font-family: 'Georgia', serif; margin-bottom: 20px;">
-  <h4 style="color: #63b3ed; margin-top: 0;">3. 特征描述 πᾶς ὁ πιστεύων (Pas ho pisteuōn)：信是果子而非门槛</h4>
-  <p><strong>语法拆解：</strong> 这是一个现在时主动态分词结构。它翻译出来并不是一个条件句“如果在座的某个人愿意信”，而是对一类人生命特质的界定：“那些正在相信的人（the believing ones）”。</p>
 </div>
+
+<div class="lang-zh" style="background-color: #1a202c; color: #e2e8f0; padding: 20px; border-left: 5px solid #4299e1; border-radius: 8px; font-family: 'Georgia', serif; margin-bottom: 20px;" markdown="1">
+#### 3. 特征描述 πᾶς ὁ πιστεύων (Pas ho pisteuōn)：信是果子而非门槛
+
+**语法拆解：** 这是一个现在时主动态分词结构。它翻译出来并不是一个条件句“如果在座的某个人愿意信”，而是对一类人生命特质的界定：“那些正在相信的人（the believing ones）”。
 
 **神学修正：** 经文并非在暗示堕落的罪人拥有自发的相信能力。结合约翰福音 6:44 的伟大宣告：
 
@@ -147,7 +153,11 @@ A major point of confusion hinges on the word "world" (Greek: *kosmos*). Modern 
 {: .lang-en lang="en"}
 
 **1. The World as the Cosmos or Universe:**
+{: .lang-en lang="en"}
+
 Sometimes it simply refers to the created order.
+{: .lang-en lang="en"}
+
 ```bible
 "He was in the world, and the world was made through him..." 
 — John 1:10
@@ -155,29 +165,47 @@ Sometimes it simply refers to the created order.
 {: .lang-en lang="en"}
 
 **2. The World as the Corrupt System or Mankind in Rebellion:**
+{: .lang-en lang="en"}
+
 More often, especially in John's writings, it refers to the fallen, wicked domain that hates God.
+{: .lang-en lang="en"}
+
 ```bible
 "If the world hates you, know that it has hated me before it hated you."
 — John 15:18
 ```
+{: .lang-en lang="en"}
+
 (Did every single human hate Jesus? No, His disciples loved Him. "The world" here refers to the anti-God system and people.)
 {: .lang-en lang="en"}
 
 **3. The World as "People from All Nations" (Jews and Gentiles alike):**
+{: .lang-en lang="en"}
+
 When the Pharisees panicked over Jesus' popularity, they exclaimed:
+{: .lang-en lang="en"}
+
 ```bible
 "...Look, the world has gone after him."
 — John 12:19
 ```
+{: .lang-en lang="en"}
+
 Did every individual on planet Earth go after Jesus? Of course not! The Pharisees simply meant: "Large groups of people from all over" or "Not just Judeans, but everyone in general."
 {: .lang-en lang="en"}
 
 **4. The World as a Specific Geographic or Political Empire (hyperbole):**
+{: .lang-en lang="en"}
+
 When Luke describes the birth of Christ, he uses a very similar expression to describe Caesar's decree:
+{: .lang-en lang="en"}
+
 ```bible
 "In those days a decree went out from Caesar Augustus that all the world should be registered." 
 — Luke 2:1
 ```
+{: .lang-en lang="en"}
+
 Did Caesar literally decree a census for the entire globe, including uncontacted tribes in the Americas or Asia? Of course not. It simply meant "all the known Roman world."
 {: .lang-en lang="en"}
 
@@ -214,7 +242,11 @@ Did Caesar literally decree a census for the entire globe, including uncontacted
 {: .lang-zh lang="zh-CN"}
 
 **1. 作为受造的宇宙或物理空间：**
+{: .lang-zh lang="zh-CN"}
+
 有时它简单地指代被造的秩序。
+{: .lang-zh lang="zh-CN"}
+
 ```bible
 “他在世界，世界也是藉着他造的……”
 ——约翰福音 1:10
@@ -222,29 +254,47 @@ Did Caesar literally decree a census for the entire globe, including uncontacted
 {: .lang-zh lang="zh-CN"}
 
 **2. 作为敌对神、堕落且败坏的体系：**
+{: .lang-zh lang="zh-CN"}
+
 更常见的是，特别是在约翰的著作中，它指代充满罪恶、本质上恨恶上帝的体系和人群。
+{: .lang-zh lang="zh-CN"}
+
 ```bible
 “世人若恨你们，你们知道，恨你们以先已经恨我了。”
 ——约翰福音 15:18
 ```
+{: .lang-zh lang="zh-CN"}
+
 （全地球每一个人都恨耶稣吗？不，祂的门徒爱祂。这里的“世人/世界”指的是不信的、悖逆神的阵营。）
 {: .lang-zh lang="zh-CN"}
 
 **3. 作为“各族各方的广大群体”（不论犹太人还是外邦人）：**
+{: .lang-zh lang="zh-CN"}
+
 当法利赛人看到耶稣极受欢迎而感到恐慌时，他们惊呼道：
+{: .lang-zh lang="zh-CN"}
+
 ```bible
 “……看哪，世人都随从他去了。”
 ——约翰福音 12:19
 ```
+{: .lang-zh lang="zh-CN"}
+
 难道当时地球上的每一个个体真的都随从耶稣去了吗？当然不是！法利赛人的意思是：“到处都是人”、“各个阶层、各地的人竟然都跟着祂”。
 {: .lang-zh lang="zh-CN"}
 
 **4. 作为特定的地理或政治帝国辖区（一种修辞手法）：**
+{: .lang-zh lang="zh-CN"}
+
 当路加在描述基督降生时的历史背景时，他也使用了极其类似的结构（在部分英文译本中也直接被译为 all the world / 普天下）来描述凯撒的旨意：
+{: .lang-zh lang="zh-CN"}
+
 ```bible
 “当那些日子，凯撒奥古斯都有旨意下来，叫天下人民都报名上册。”
 ——路加福音 2:1
 ```
+{: .lang-zh lang="zh-CN"}
+
 罗马皇帝凯撒真的下令让整个地球上（包括尚未被发现的美洲或亚洲原住民）的每一个人都去排队注册户口了吗？当然不是。这里的“天下”（全地/普天下的世界）仅仅是指“当时的整个罗马帝国辖区”。
 {: .lang-zh lang="zh-CN"}
 
@@ -282,14 +332,20 @@ Did Caesar literally decree a census for the entire globe, including uncontacted
 {: .lang-en lang="en"}
 
 ### 1. The Sovereign Sending by the Father
+{: .lang-en lang="en"}
+
 Salvation originates from the sovereign decree of God established before the foundation of the world, not from His "foresight" of human reaction. The Father proactively *gave* the Son.
 {: .lang-en lang="en"}
 
 ### 2. The Definite Redemption by the Son
+{: .lang-en lang="en"}
+
 Christ did not just purchase a gift on the cross; He explicitly purchased the "willingness to receive the gift" for His specific flock.
 {: .lang-en lang="en"}
 
 ### 3. The Effectual Transformation by the Holy Spirit
+{: .lang-en lang="en"}
+
 Grace is not a polite invitation that can be casually rejected by the flesh. It is an irresistible surgical operation of "resurrection from the dead" enacted by the Holy Spirit within the human heart.
 {: .lang-en lang="en"}
 
@@ -297,14 +353,20 @@ Grace is not a polite invitation that can be casually rejected by the flesh. It 
 {: .lang-zh lang="zh-CN"}
 
 ### 1. 圣父的主权差遣
+{: .lang-zh lang="zh-CN"}
+
 救恩源于神在创立世界以前的定旨，而非对人反应的所谓“预见”。是父主动地**赐下了**子。
 {: .lang-zh lang="zh-CN"}
 
 ### 2. 圣子的确定性救赎
+{: .lang-zh lang="zh-CN"}
+
 祂在十字架上不仅付清代价买下了那份礼物，祂更亲自为祂的子民买来了那颗“愿意接受礼物的心”。
 {: .lang-zh lang="zh-CN"}
 
 ### 3. 圣灵的有效转化
+{: .lang-zh lang="zh-CN"}
+
 恩典绝不是一份人可以凭藉肉体骄傲随意拒绝的礼貌邀约，而是圣灵在人心中直接行使的一场不可抗拒的“起死回生”的灵魂手术。
 {: .lang-zh lang="zh-CN"}
 
@@ -314,10 +376,14 @@ Grace is not a polite invitation that can be casually rejected by the flesh. It 
 {: .lang-en lang="en"}
 
 ### 1. The Rock of Assurance
+{: .lang-en lang="en"}
+
 My salvation does not rest on my wavering, fickle human will, but heavily securely upon the sovereign will of the God who sent the Son. Therefore, my eternal security is absolutely fail-proof.
 {: .lang-en lang="en"}
 
 ### 2. Radical Humility
+{: .lang-en lang="en"}
+
 The true gospel leaves no room for self-boasting. When we read John 3:16, we should not feel self-congratulatory pride ("Because I believed!"), but rather trembling awe ("That God would actually save a dead rebel like me!").
 {: .lang-en lang="en"}
 
@@ -325,10 +391,14 @@ The true gospel leaves no room for self-boasting. When we read John 3:16, we sho
 {: .lang-zh lang="zh-CN"}
 
 ### 1. 确据的磐石
+{: .lang-zh lang="zh-CN"}
+
 我的救恩不在于我那摇摆不定、脆弱不堪的天然意志，而完全在于那差遣子来的上帝之主权。因此，即使我软弱，我的永生也永不坠落。
 {: .lang-zh lang="zh-CN"}
 
 ### 2. 彻底的谦卑
+{: .lang-zh lang="zh-CN"}
+
 真正的福音不给人留下一丝一毫自夸的空间。当我们读到约翰福音 3:16 时，我们绝不该感到自豪（“看啊，我做出了对的决定，所以我信了！”），而是应当感到深深地震慑与敬畏（“神竟然付出了独生子的代价，拯救了我这死在罪中的叛逆者！”）。
 {: .lang-zh lang="zh-CN"}
 
