@@ -113,7 +113,69 @@ This view emphasizes that "All Israel" represents the full collection of **every
 
 ---
 
-## IV. The Metaphor of the Olive Tree
+## IV. The Voice of the Great Tradition: From Augustine to Westminster
+{: .lang-en lang="en"}
+
+## 四、 大公传统的呼声：从奥古斯丁到威斯敏斯特
+{: .lang-zh lang="zh-CN"}
+
+Throughout the history of the Church, theologians have wrestled with this mystery, finding in it a display of God's unshakeable faithfulness.
+{: .lang-en lang="en"}
+
+在教会历史上，神学家们不断在这一奥秘中摔跤，并从中发现了上帝那不可动摇之信实的显明。
+{: .lang-zh lang="zh-CN"}
+
+### 1. St. Augustine: The Unified Body
+{: .lang-en lang="en"}
+
+### 1. 圣奥古斯丁：统一的身体
+{: .lang-zh lang="zh-CN"}
+
+In his masterwork *The City of God*, **St. Augustine** emphasized that the distinction between Jew and Gentile is ultimately dissolved in the "one wall" of Christ. He viewed the salvation of "All Israel" as the completion of the city of God.
+{: .lang-en lang="en"}
+
+在其巨著《上帝之城》中，**圣奥古斯丁（St. Augustine）**强调犹太人与外邦人的区分最终在基督这一“中间隔断的墙”被拆毁后消解了。他将“以色列全家”的救赎视为上帝之城的最终完满。
+{: .lang-zh lang="zh-CN"}
+
+```quote
+"Neither is it to be doubted that the Jews are to be saved... For what is 'All Israel' but the whole multitude of the elect?"
+— St. Augustine, City of God
+```
+{: .lang-en lang="en"}
+
+```quote
+“毫无疑问，犹太人必将得救……因为‘以色列全家’除了那全体选民的大群之外，还能是什么呢？”
+—— 圣奥古斯丁，《上帝之城》
+```
+{: .lang-zh lang="zh-CN"}
+
+### 2. Westminster Larger Catechism: The Calling of the Jews
+{: .lang-en lang="en"}
+
+### 2. 威斯敏斯特大要理问答：犹太人的归回
+{: .lang-zh lang="zh-CN"}
+
+Reformed orthodoxy has often nurtured a specific hope for the ethnic Jewish people. The **Westminster Larger Catechism** includes this hope in its teaching on the Lord's Prayer ("Thy Kingdom Come"):
+{: .lang-en lang="en"}
+
+归正正统神学通常对犹太民族抱有一种特殊的指望。**《威斯敏斯特大要理问答》**在论及主祷文（“愿祢的国降临”）时，包含了这一盼望：
+{: .lang-zh lang="zh-CN"}
+
+```quote
+"We pray... that the gospel be propagated throughout the world, the Jews called, the fullness of the Gentiles brought in..."
+— Westminster Larger Catechism, Q. 191
+```
+{: .lang-en lang="en"}
+
+```quote
+“我们祷告……愿福音传遍天下，犹太人被召归主，外延的外邦人得以填满……”
+—— 威斯敏斯特大要理问答，第191问
+```
+{: .lang-zh lang="zh-CN"}
+
+---
+
+## V. The Metaphor of the Olive Tree
 {: .lang-en lang="en"}
 
 ## 四、 橄榄树的隐喻
@@ -137,10 +199,12 @@ Paul uses the striking image of an olive tree to illustrate his point. The root 
 ```
 {: .lang-zh lang="zh-CN"}
 
-## 五、 Fulfillment, Not Replacement
+---
+
+## VI. Fulfillment, Not Replacement
 {: .lang-en lang="en"}
 
-## 五、 成全而非替代
+## 六、 成全而非替代
 {: .lang-zh lang="zh-CN"}
 
 Reformers generally avoid the term **"Replacement Theology"** (Supersessionism), preferring **"Fulfillment Theology."** The Church does not simply "replace" Israel as a separate entity; rather, the Church is the *continuation* and *expansion* of all that Israel was promised to be.
@@ -167,10 +231,10 @@ Reformers generally avoid the term **"Replacement Theology"** (Supersessionism),
 
 ---
 
-## VI. Sola Gratia: The Only Way of Salvation
+## VII. Sola Gratia: The Only Way of Salvation
 {: .lang-en lang="en"}
 
-## 六、 唯独恩典：救赎只有一条路
+## 七、 唯独恩典：救赎只有一条路
 {: .lang-zh lang="zh-CN"}
 
 Regardless of which interpretation of "All Israel" one holds, we must maintain two ironclad biblical rules:
@@ -193,10 +257,10 @@ Regardless of which interpretation of "All Israel" one holds, we must maintain t
 
 ---
 
-## VI. Conclusion: The Irrevocable Call
+## VIII. Conclusion: The Irrevocable Call
 {: .lang-en lang="en"}
 
-## 七、 结语：永不后悔的选召
+## 八、 结语：永不后悔的选召
 {: .lang-zh lang="zh-CN"}
 
 The mystery of Romans 11 is not a special privilege outside of Christ, but a display of God's sovereign rescue in the graveyard of history. Whether "All Israel" refers to the spiritual reality of the whole Church or a future national turning, the glory remains the same: God is faithful even when we are faithless.
