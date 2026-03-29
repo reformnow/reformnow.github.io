@@ -136,6 +136,17 @@
   category: "council"
   image: "/assets/img/timeline/council-constantinople.jpg?v=2"
 
+- date: "398 AD"
+  year: 398
+  era: "patristic"
+  era_zh: "教父时期"
+  title: "John Chrysostom: The Golden-Mouthed Preacher"
+  title_zh: "金口约翰：伟大的讲道者"
+  description: "John Chrysostom, Archbishop of Constantinople, becomes the most famous preacher of the early church. Known for his eloquent sermons and commitment to the literal interpretation of Scripture (Antiochian School), he emphasized practical Christian living and liturgical reform. His 'Divine Liturgy' remains the primary liturgy used by the Eastern Orthodox Church today."
+  description_zh: "君士坦丁堡大主教金口约翰成为早期教会最著名的讲道者。他以雄辩的讲章和对圣经字面意义的忠实（安提阿学派）而闻名，强调基督徒的实际生活与礼拜改革。他所编订的《金口约翰圣礼仪》至今仍是东正教会使用的主要礼拜仪式。"
+  category: "theology"
+  image: "/assets/img/timeline/john-chrysostom.jpg"
+
 - date: "c. 385-410 AD"
   year: 405
   era: "patristic"
@@ -146,6 +157,8 @@
   description_zh: "英国修士伯拉纠教导说，人性本善，且亚当的罪只影响了他自己，而非全人类。他主张人类完全有能力靠着自由意志和努力不犯罪，以此获得救恩，从而否认了神圣恩典的必要性。这一学说是彻头彻尾的自救论异端。"
   category: "heresy"
   image: "/assets/img/timeline/pelagianism.jpg?v=2"
+
+
 
 - date: "c. 386-430 AD"
   year: 410
