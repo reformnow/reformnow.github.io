@@ -89,10 +89,72 @@ The Apostle Peter further reinforces this by calling believers **"living stones"
 
 ---
 
-## IV. The Finished Work vs. Blasphemous Regression
+## IV. The Witness of History: Fathers and Confessions
 {: .lang-en lang="en"}
 
-## 四、 成了之工 vs 亵渎性的退化
+## 四、 历史的见证：教父与信经
+{: .lang-zh lang="zh-CN"}
+
+The "Great Tradition" of the Church has consistently rejected any redemptive significance in a physical Third Temple.
+{: .lang-en lang="en"}
+
+“大公教会”的传统始终一致地拒绝承认物质的第三圣殿在救赎上有任何意义。
+{: .lang-zh lang="zh-CN"}
+
+### 1. St. John Chrysostom: The Truth vs. The Shadow
+{: .lang-en lang="en"}
+
+### 1. 圣金口约翰：真理 vs 影儿
+{: .lang-zh lang="zh-CN"}
+
+In his homilies, **St. John Chrysostom** forcefully argued that since the "Truth" (Christ) had arrived, returning to the "Shadow" (the physical temple rituals) was a denial of the Gospel:
+{: .lang-en lang="en"}
+
+在讲道集中，**圣金口约翰（St. John Chrysostom）**强力论证道：既然“真理”（基督）已经来到，那么重回“影儿”（物质圣殿的礼仪）就是对福音的否定：
+{: .lang-zh lang="zh-CN"}
+
+```quote
+"When the sun has risen, what need is there for a lamp? When the Truth has appeared, what need is there for the shadow? ... The temple is no longer in one city, but the whole world is now the temple of God."
+— St. John Chrysostom
+```
+{: .lang-en lang="en"}
+
+```quote
+“烈日已经升起，何须再点灯呢？真理已经显现，何须再求影儿？……圣殿不再只是一座城，全世界如今都是上帝的殿。”
+—— 圣金口约翰
+```
+{: .lang-zh lang="zh-CN"}
+
+### 2. Westminster Confession: Abrogated Ceremonies
+{: .lang-en lang="en"}
+
+### 2. 威斯敏斯特信条：已废除的礼仪
+{: .lang-zh lang="zh-CN"}
+
+The Reformed confessions are equally clear regarding the "ceremonial laws" (which included the temple, its sacrifices, and its priesthood):
+{: .lang-en lang="en"}
+
+归正信条对于“礼仪律”（包括圣殿、献祭与祭司制度）的论述同样清晰：
+{: .lang-zh lang="zh-CN"}
+
+```quote
+"All which ceremonial laws are now, under the New Testament, abrogated through Jesus Christ, who, having fulfilled them, abolished them."
+— Westminster Confession of Faith, 19.3
+```
+{: .lang-en lang="en"}
+
+```quote
+“上述所有的礼仪律，在新约之下，都因耶稣基督而废除了；祂既已成全了这些律法，便将其废止了。”
+—— 威斯敏斯特信条，19.3
+```
+{: .lang-zh lang="zh-CN"}
+
+---
+
+## V. The Finished Work vs. Blasphemous Regression
+{: .lang-en lang="en"}
+
+## 五、 成了之工 vs 亵渎性的退化
 {: .lang-zh lang="zh-CN"}
 
 Perhaps the most serious concern for the Great Tradition is the implication of **restarting animal sacrifices** in a rebuilt Third Temple. The blood of bulls and goats was never enough to wash away sins; it was merely a temporary seal pointing to the cross. To reintroduce these rituals now is not just a mistake—it is a slight against the sufficiency of Christ's blood and, in many ways, an act of theological blasphemy.
@@ -121,10 +183,10 @@ Perhaps the most serious concern for the Great Tradition is the implication of *
 
 ---
 
-## V. The Seat of the Lawless One: 2 Thessalonians 2:4
+## VI. The Seat of the Lawless One: 2 Thessalonians 2:4
 {: .lang-en lang="en"}
 
-## 五、 不法之人的座：帖后 2:4
+## 六、 不法之人的座：帖后 2:4
 {: .lang-zh lang="zh-CN"}
 
 History and Scripture suggest that a physical "Third Temple" is not intended to be a throne for the King of Kings, who already reigns in heaven. Rather, many Reformed interpreters point to the warning in 2 Thessalonians:
@@ -153,10 +215,10 @@ History and Scripture suggest that a physical "Third Temple" is not intended to 
 
 ---
 
-## VI. Perspective Comparison
+## VII. Perspective Comparison
 {: .lang-en lang="en"}
 
-## 六、 视角对比
+## 七、 视角对比
 {: .lang-zh lang="zh-CN"}
 
 | Perspective | Dispensationalist View (Popular) | Historic Orthodox / Reformed View |
@@ -177,10 +239,10 @@ History and Scripture suggest that a physical "Third Temple" is not intended to 
 
 ---
 
-## VII. Conclusion: Looking to the New Jerusalem
+## VIII. Conclusion: Looking to the New Jerusalem
 {: .lang-en lang="en"}
 
-## 七、 结语：仰望新耶路撒冷
+## 八、 结语：仰望新耶路撒冷
 {: .lang-zh lang="zh-CN"}
 
 As Christians, our hope is not in a temple made with human hands, but in the city that is to come. In the vision of the New Jerusalem, John tells us specifically:
@@ -189,13 +251,13 @@ As Christians, our hope is not in a temple made with human hands, but in the cit
 作为基督徒，我们的指望不在于人手所造的圣殿，而是在于那将要临到的城。在“新耶路撒冷”的异象中，约翰特别告诉我们：
 {: .lang-zh lang="zh-CN"}
 
-```quote
+```bible
 "And I saw no temple in the city, for its temple is the Lord God the Almighty and the Lamb."
 — Revelation 21:22 (ESV)
 ```
 {: .lang-en lang="en"}
 
-```quote
+```bible
 “我未见城内有殿，因主神全能者和羔羊为城的殿。”
 ——启示录 21:22（和合本）
 ```
