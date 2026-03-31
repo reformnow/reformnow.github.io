@@ -26,11 +26,13 @@
   function injectPresentationButton() {
     console.log('Attempting to inject presentation button v6 (TOC-aware)...');
     
-    // We only want to inject the button on individual post pages.
-    // In Chirpy, ONLY individual posts have a #toc-wrapper (Table of Contents).
-    // Tab pages (Archives, Timelines, etc.) and the Home page do not.
-    if (!document.getElementById('toc-wrapper')) {
-      console.log('Not a post page (no #toc-wrapper found). Skipping.');
+    // We only want to inject the button on individual post pages or enabled pages.
+    // In Chirpy, ONLY individual posts have a #toc-wrapper by default.
+    // We bypass this check if the 'presentation-enabled' meta tag is present.
+    const isEnablingMetaPresent = !!document.querySelector('meta[name="presentation-enabled"][content="true"]');
+    
+    if (!document.getElementById('toc-wrapper') && !isEnablingMetaPresent) {
+      console.log('Not a post page or enabled page. Skipping.');
       return;
     }
     
@@ -55,7 +57,8 @@
         }
       });
 
-      if (!hasSlideTag) return;
+      // Bypass tag check if meta enabling tag is present
+      if (!hasSlideTag && !isEnablingMetaPresent) return;
 
       // 3. Find/Create placement target
       let switcher = contentEl.parentElement.querySelector('.lang-switcher');
