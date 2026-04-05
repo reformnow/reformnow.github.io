@@ -3,7 +3,7 @@ title: "The Triumphant Songs of the Cross: Theological Mysteries of Christ's Sev
 title_zh: "十架上的凯歌：基督十架七言的神学奥秘"
 description: "A deep theological reflection on the seven utterances of Jesus from the cross, blending the warmth of C.H. Spurgeon with the systematic depth of A.W. Pink to explore the perfect work of redemption."
 description_zh: "深入探讨耶稣在十架上的七个呼吁，融合司布真的温情与平克的系统神学深度，剖析救主完美的代偿性救赎之功。"
-date: 2026-04-05 00:00:00 +0800
+date: 2026-04-04 12:00:00 +0800
 categories: [Bilingual, Theology]
 tags: [Crucifixion, Spurgeon, Atonement, Seven Last Words]
 image:
