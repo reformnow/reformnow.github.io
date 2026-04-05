@@ -3,7 +3,7 @@ title: "The Great 'Amen': Christ's Resurrection as the Firstfruits of the New Cr
 title_zh: "伟大的“阿们”：作为新造初熟果子的基督复活"
 description: "A deep theological analysis of the Resurrection, exploring its physical reality, its role as the Father's justification of the Son, and its guarantee of our future glory."
 description_zh: "对复活教义的深层解析：探讨其实际的身体性、作为父神对圣子之正名的意义，以及它作为我们未来荣耀之确据的本质。"
-date: 2026-04-05 06:00:00 +0800
+date: 2026-04-04 12:00:00 +0800
 categories: [Bilingual, Theology]
 tags: [Resurrection, Justification, New Creation, Monergism]
 image:
