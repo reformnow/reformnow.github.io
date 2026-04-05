@@ -43,6 +43,12 @@ The "Nature of Christ's Resurrection" is defined by its substantiality. Christ d
 “基督复活的本质”首先在于其实质性。基督并非以幽灵或模糊感化力的形式复活。他正是以那被钉在十字架上的同一身体复活，只是那身体如今已进入荣耀且永不朽坏。这种身体的真实性确认了：上帝的计划并非抛弃物质世界，而是救赎并更新它。
 {: .lang-zh lang="zh-CN"}
 
+Historically, the Church fought against the heresy of **Docetism** (from the Greek *dokeo*, "to seem"). The Docetists, influenced by Gnostic dualism, believed that matter was evil and that Christ's body was a mere phantom or illusion. They rejected the physical resurrection because they could not accept that the Divine could inhabit "corruptible" flesh. St. Ignatius of Antioch and other early fathers vehemently opposed this, for if Christ only *seemed* to suffer and rise, then His work of salvation is also a mere illusion. 
+{: .lang-en lang="en"}
+
+从历史上看，教会曾与**“幻影说”**（Docetism，源自希腊语 *dokeo*，意为“似乎”）这一异端进行了长期斗争。受诺斯底主义二元论影响，幻影派信徒认为物质是邪恶的，因此基督的身体仅仅是一个幻影或错觉。他们通过拒绝肉身复活，来表达他们无法接受“神圣者”会居住在“必朽”的肉身之中。圣依格那修（St. Ignatius of Antioch）和其他早期教父对此严厉反对，因为如果基督只是“看起来”在受苦和复活，那么他的救赎之功也将仅仅是一个错觉。
+{: .lang-zh lang="zh-CN"}
+
 ---
 
 ## 2. The Great 'Amen': Christ's Justification
@@ -57,13 +63,13 @@ Theologians point out that the Resurrection is the Father's "Amen" to the Son's 
 神学家们指出，复活是圣父对圣子那句“成了”所发出的“阿们”。在十架上，基督“为我们的过犯被交给人”；在复活中，他“为叫我们称义而复活”（罗马书 4:25）。这是神圣的法庭宣告：赎罪祭已蒙悦纳，债项已全数清偿。
 {: .lang-zh lang="zh-CN"}
 
-```quote
+```bible
 "If Christ be not risen, then is our preaching vain, and your faith is also vain... But now is Christ risen from the dead, and become the firstfruits of them that slept."
 — 1 Corinthians 15:14, 20
 ```
 {: .lang-en lang="en"}
 
-```quote
+```bible
 “若基督没有复活，我们所传的便是枉然，你们所信的也是枉然……但基督已经从死里复活，成为睡了之人初熟的果子。”
 —— 哥林多前书 15:14, 20
 ```
@@ -84,14 +90,14 @@ The Resurrection marks the beginning of the "New World" within the old. Christ i
 {: .lang-zh lang="zh-CN"}
 
 ```quote
-"The resurrection of Christ is the central fact of history... it is the birth of the new creation, the beginning of the end of the reign of sin and death."
-— Historic Christian Faith
+"For by His own resurrection He has abolished death, and the corruption of humanity is done away with, that the new life might appear."
+— St. Athanasius the Great, *On the Incarnation*
 ```
 {: .lang-en lang="en"}
 
 ```quote
-“基督的复活是历史的核心事实……它是新造的诞生，是罪恶与死亡统治终结的开始。”
-—— 历史基督教信仰
+“他借着自己的复活废掉了死亡，使人的腐朽归于无有，好叫新的生命得以显现。”
+—— 圣亚他那修，《论道成肉身》
 ```
 {: .lang-zh lang="zh-CN"}
 
