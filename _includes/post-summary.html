@@ -8,10 +8,10 @@
 
 {%- if (post.description or post.description_zh) and include.full_text != true -%}
   {% if post.description %}
-    <span class="lang-en">{{ post.description }}</span>
+    <span class="lang-en notranslate">{{ post.description }}</span>
   {% endif %}
   {% if post.description_zh %}
-    <span class="lang-zh">{{ post.description_zh }}</span>
+    <span class="lang-zh notranslate">{{ post.description_zh }}</span>
   {% endif %}
 {%- else -%}
   {%- comment -%} Remove the line numbers from the code snippet. {%- endcomment -%}
