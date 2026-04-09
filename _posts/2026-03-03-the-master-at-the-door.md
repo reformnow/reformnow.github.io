@@ -6,7 +6,7 @@ description: "Is Christ a beggar at our heart's door? Exploring the historical c
 description_zh: "基督是在我们心门外乞求的客旅吗？回归启示录 3:20 的历史背景，探讨上帝在救恩中的绝对主权。"
 date: 2026-03-03 12:00:00 -0500
 categories: [Theology, Biblical Studies]
-tags: [Revelation, Sovereignty, Evangelism, Correcting Misunderstandings]
+tags: [Revelation, Sovereignty, evangelism, Correcting Misunderstandings]
 image:
   path: /assets/img/posts/lightoftheworld.jpg
   alt: Light of the World - Jesus knocking at the door

@@ -6,7 +6,7 @@ description: "Exploring the depth of Deuteronomy 30:19 through the lens of Law a
 description_zh: "通过律法与福音的视角，深入探讨《申命记》30:19，揭示“选择生命”的呼召如何根植于上帝的主权怜悯。"
 date: 2026-03-18 10:00:00 +0800
 categories: [Theological Reflection, Gospel]
-tags: [Law and Gospel, Sovereignty, Total Inability, Augustine]
+tags: [Law and Gospel, Sovereignty, Total Inability, augustine]
 image:
   path: /assets/img/posts/sovereign_grace.png
   alt: A representation of Divine Sovereignty and Grace

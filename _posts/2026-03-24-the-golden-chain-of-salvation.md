@@ -6,7 +6,7 @@ description: "Exploring the unbreakable chain of God's grace in Romans 8:29-30, 
 description_zh: "探讨《罗马书》8:29-30中上帝恩典那不可动摇的链条，揭示我们救赎的永恒源头与必然成就。"
 date: 2026-03-24 10:00:00 +0800
 categories: [Theological Reflection, Gospel]
-tags: [Ordo Salutis, Sovereignty, Grace, Justification, slide]
+tags: [Ordo Salutis, Sovereignty, grace, justification, slide]
 mermaid: true
 image:
   path: /assets/img/posts/golden_chain_of_salvation.png

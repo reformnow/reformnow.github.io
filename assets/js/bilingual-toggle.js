@@ -84,8 +84,10 @@
     });
     
     // Update html class
+    // Map 'both' to 'bilingual' to match CSS rules
+    const classMode = (lang === 'both' ? 'bilingual' : lang);
     document.documentElement.classList.remove('view-english', 'view-chinese', 'view-bilingual');
-    document.documentElement.classList.add(`view-${lang}`);
+    document.documentElement.classList.add(`view-${classMode}`);
     
     // Save preference
     localStorage.setItem('preferredLanguage', lang);

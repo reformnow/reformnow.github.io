@@ -26,28 +26,28 @@
             </span>
 
           {% elsif forloop.last %}
-            {% if page.collection == 'tabs' %}
-              <span>
+            <span>
+              {% if page.layout == 'tag' or page.layout == 'category' %}
+                {% include tag-label.html tag=page.title %}
+              {% else %}
                 <span class="lang-en">{{ page.title }}</span>
                 {% if page.title_zh %}
                   <span class="lang-zh">{{ page.title_zh }}</span>
                 {% endif %}
-              </span>
-            {% else %}
-              <span>
-                <span class="lang-en">{{ page.title }}</span>
-                {% if page.title_zh %}
-                  <span class="lang-zh">{{ page.title_zh }}</span>
-                {% endif %}
-              </span>
-            {% endif %}
+              {% endif %}
+            </span>
 
           {% elsif page.layout == 'category' or page.layout == 'tag' %}
             <span>
               <a href="{{ item | append: '/' | relative_url }}">
-                <span class="lang-en">{{- site.data.locales[include.lang].tabs[item] | default: page.title -}}</span>
-                {% if page.title_zh %}
-                  <span class="lang-zh">{{ page.title_zh }}</span>
+                {% if item == 'tags' %}
+                  <span class="lang-en">Tags</span>
+                  <span class="lang-zh">标签</span>
+                {% elsif item == 'categories' %}
+                  <span class="lang-en">Categories</span>
+                  <span class="lang-zh">分类</span>
+                {% else %}
+                  {{ item | capitalize }}
                 {% endif %}
               </a>
             </span>
@@ -71,9 +71,13 @@
           <span class="lang-zh">{{ page.title_zh }}</span>
         {% endif %}
       {% else %}
-        <span class="lang-en">{{- site.data.locales[include.lang].layout[page.layout] | default: page.layout | capitalize -}}</span>
-        {% if page.title_zh %}
-          <span class="lang-zh">{{ page.title_zh }}</span>
+        {% if page.layout == 'tag' or page.layout == 'category' %}
+          {% include tag-label.html tag=page.title %}
+        {% else %}
+          <span class="lang-en">{{- site.data.locales[include.lang].layout[page.layout] | default: page.layout | capitalize -}}</span>
+          {% if page.title_zh %}
+            <span class="lang-zh">{{ page.title_zh }}</span>
+          {% endif %}
         {% endif %}
       {% endif %}
     </div>
