@@ -154,21 +154,9 @@
     .view-english .lang-zh { display: none !important; }
     .view-chinese .lang-en { display: none !important; }
     
-    /* Reveal logic for access panel items and headings */
-    .view-english .lang-en, 
-    .view-chinese .lang-zh,
-    .view-bilingual .lang-en, 
-    .view-bilingual .lang-zh { display: inline !important; }
-    
-    /* Separators for bilingual mode */
-    .view-bilingual .lang-en + .lang-zh::before {
-      content: "/"; margin: 0 4px; font-size: 0.8em; opacity: 0.5; display: inline !important;
-    }
-    
-    /* Shared logic for block-level lang items */
-    .view-bilingual div.lang-en, .view-bilingual div.lang-zh, 
-    .view-bilingual section.lang-en, .view-bilingual section.lang-zh { 
-      display: block !important; 
+    /* Separators for bilingual mode (apply only to inline elements like spans) */
+    .view-bilingual span.lang-en + span.lang-zh::before {
+      content: "/"; margin: 0 4px; font-size: 0.8em; opacity: 0.5;
     }
   </style>
 
