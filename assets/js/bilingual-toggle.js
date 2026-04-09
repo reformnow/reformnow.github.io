@@ -4,69 +4,7 @@
 (function() {
   'use strict';
   
-  // Inject filtering CSS
-  const style = document.createElement('style');
-  style.id = 'bilingual-styles';
-  style.textContent = `
-    /* Core Visibility: Standard language toggle */
-    .view-english .lang-zh { display: none !important; }
-    .view-chinese .lang-en { display: none !important; }
-    
-    /* Ensure Recently Updated list and Panel headings follow toggle */
-    #access-lastmod .lang-en, #access-lastmod .lang-zh,
-    #trending-tags .lang-en, #trending-tags .lang-zh,
-    .panel-heading .lang-en, .panel-heading .lang-zh {
-      display: none !important; 
-    }
-    
-    .view-english #access-lastmod .lang-en, 
-    .view-english #trending-tags .lang-en, 
-    .view-english .panel-heading .lang-en { display: inline !important; }
-    
-    .view-chinese #access-lastmod .lang-zh, 
-    .view-chinese #trending-tags .lang-zh, 
-    .view-chinese .panel-heading .lang-zh { display: inline !important; }
-    
-    .view-bilingual #access-lastmod .lang-en, .view-bilingual #access-lastmod .lang-zh,
-    .view-bilingual #trending-tags .lang-en, .view-bilingual #trending-tags .lang-zh,
-    .view-bilingual .panel-heading .lang-en, .view-bilingual .panel-heading .lang-zh { display: inline !important; }
-
-    /* For specific list items that might need block display */
-    .view-bilingual #access-lastmod li .lang-en, 
-    .view-bilingual #access-lastmod li .lang-zh { display: inline !important; }
-
-    /* Separators for list items and headings in bilingual mode */
-    .view-bilingual #access-lastmod .lang-en + .lang-zh::before,
-    .view-bilingual #trending-tags .lang-en + .lang-zh::before,
-    .view-bilingual .panel-heading .lang-en + .lang-zh::before {
-      content: "/"; margin: 0 4px; font-size: 0.8em; opacity: 0.5; display: inline !important;
-    }
-    
-    /* TOC Hierarchy: Keep parent shells visible if they have children of the active language */
-    .view-chinese li.lang-en:has(.lang-zh) { display: block !important; }
-    .view-chinese li.lang-en:has(.lang-zh) > .toc-link.lang-en { display: none !important; }
-    .view-english li.lang-zh:has(.lang-en) { display: block !important; }
-    .view-english li.lang-zh:has(.lang-en) > .toc-link.lang-zh { display: none !important; }
-    
-    /* Permanent Bilingual: Sidebar navigation stays bilingual */
-    #sidebar .nav-item .lang-en, #sidebar .nav-item .lang-zh { 
-      display: inline !important; 
-    }
-    
-    /* Separators for Permanent Bilingual items */
-    #sidebar .nav-item .lang-en + .lang-zh::before { 
-      content: "/"; margin: 0 4px; font-size: 0.8em; opacity: 0.5; 
-    }
-    
-    /* Bilingual View: Main Content blocks */
-    .view-bilingual .lang-en, .view-bilingual .lang-zh { display: inline-block; }
-    .view-bilingual div.lang-en, .view-bilingual div.lang-zh, 
-    .view-bilingual section.lang-en, .view-bilingual section.lang-zh { display: block !important; }
-    
-    /* TOC Layout: Vertical links with tight spacing */
-    .toc-link { display: block !important; padding: 2px 0 2px 1.25rem !important; }
-  `;
-  document.head.appendChild(style);
+  // Note: Core bilingual CSS is now injected in head.html to prevent FOUC.
 
   // Global function for button clicks
   window.setLanguageView = function(lang) {

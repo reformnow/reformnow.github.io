@@ -13,6 +13,15 @@
 
     <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
     <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
+
+    <!-- Global Language Switcher -->
+    <div class="lang-switcher mt-3 mb-1">
+      <div class="btn-group btn-group-sm" role="group" aria-label="Language Switcher">
+        <button type="button" class="btn btn-outline-primary active" data-lang="chinese" onclick="setLanguageView('chinese')">中文</button>
+        <button type="button" class="btn btn-outline-primary" data-lang="english" onclick="setLanguageView('english')">EN</button>
+        <button type="button" class="btn btn-outline-primary" data-lang="both" onclick="setLanguageView('both')">双语</button>
+      </div>
+    </div>
   </header>
   <!-- .profile-wrapper -->
 
