@@ -5,7 +5,7 @@ title_zh: "救恩的篡位——决志主义的前世今生"
 description: "Is salvation a sovereign work of God or a psychological 'decision' made by man? Unpacking the roots of decisionism from the Synod of Dort to Charles Finney."
 description_zh: "救恩是上帝主权的作为，还是人心理上的“决策”？从多特会议到查尔斯·芬尼，揭开决志主义的根源。"
 categories: [Theology, Church History]
-tags: [Decisionism, Soteriology, Charles Finney, Synod of Dort, A.W. Pink]
+tags: [Decisionism, soteriology, Charles Finney, Synod of Dort, A.W. Pink]
 image:
   path: /assets/img/posts/decisionism_past_present.jpg
   alt: "The contrast between Sovereign Grace and human techniques in evangelism."

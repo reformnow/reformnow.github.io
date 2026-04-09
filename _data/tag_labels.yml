@@ -1,0 +1,249 @@
+"1-timothy":
+  en: "1 Timothy"
+  zh: "提摩太前书"
+"2-peter":
+  en: "2 Peter"
+  zh: "彼得后书"
+"95-theses":
+  en: "95 Theses"
+  zh: "九十五条论纲"
+"A.W. Pink":
+  en: "A.W. Pink"
+  zh: "A.W. 平克"
+"Atonement":
+  en: "Atonement"
+  zh: "救赎"
+"Charles Finney":
+  en: "Charles Finney"
+  zh: "查尔斯·芬尼"
+"Correcting Misunderstandings":
+  en: "Correcting Misunderstandings"
+  zh: "纠偏辨析"
+"Crucifixion":
+  en: "Crucifixion"
+  zh: "十字架"
+"Decisionism":
+  en: "Decisionism"
+  zh: "决志主义"
+"Divine Sovereignty":
+  en: "Divine Sovereignty"
+  zh: "神的主权"
+"Election":
+  en: "Election"
+  zh: "拣选"
+"Human Responsibility":
+  en: "Human Responsibility"
+  zh: "人的责任"
+"Law and Gospel":
+  en: "Law and Gospel"
+  zh: "律法与福音"
+"Lament":
+  en: "Lament"
+  zh: "哀歌"
+"Monergism":
+  en: "Monergism"
+  zh: "神单独作工"
+"New Creation":
+  en: "New Creation"
+  zh: "新造"
+"Ordo Salutis":
+  en: "Ordo Salutis"
+  zh: "救恩次序"
+"Resurrection":
+  en: "Resurrection"
+  zh: "复活"
+"Revelation":
+  en: "Revelation"
+  zh: "启示录"
+"Seven Last Words":
+  en: "Seven Last Words"
+  zh: "十架七言"
+"Soteriology":
+  en: "Soteriology"
+  zh: "救恩论"
+"Sovereignty":
+  en: "Sovereignty"
+  zh: "主权"
+"Spurgeon":
+  en: "Spurgeon"
+  zh: "司布真"
+"Synod of Dort":
+  en: "Synod of Dort"
+  zh: "多特会议"
+"TULIP":
+  en: "TULIP"
+  zh: "加尔文主义五要点"
+"Total Depravity":
+  en: "Total Depravity"
+  zh: "全然败坏"
+"Total Inability":
+  en: "Total Inability"
+  zh: "全然无能"
+anathema:
+  en: "Anathema"
+  zh: "咒诅"
+authority:
+  en: "Authority"
+  zh: "权威"
+augustine:
+  en: "Augustine"
+  zh: "奥古斯丁"
+bible:
+  en: "Bible"
+  zh: "圣经"
+biblical:
+  en: "Biblical"
+  zh: "合乎圣经"
+bilingual:
+  en: "Bilingual"
+  zh: "双语"
+catholicism:
+  en: "Catholicism"
+  zh: "天主教"
+church-history:
+  en: "Church History"
+  zh: "教会历史"
+christology:
+  en: "Christology"
+  zh: "基督论"
+council-of-trent:
+  en: "Council of Trent"
+  zh: "特伦特会议"
+covenant-theology:
+  en: "Covenant Theology"
+  zh: "圣约神学"
+covenants:
+  en: "Covenants"
+  zh: "诸约"
+creeds:
+  en: "Creeds"
+  zh: "信经"
+election:
+  en: "Election"
+  zh: "拣选"
+evangelism:
+  en: "Evangelism"
+  zh: "布道"
+evangelism-explosion:
+  en: "Evangelism Explosion"
+  zh: "三元福音"
+exegesis:
+  en: "Exegesis"
+  zh: "释经"
+false-assurance:
+  en: "False Assurance"
+  zh: "虚假确据"
+five-solas:
+  en: "Five Solas"
+  zh: "五个唯独"
+free-will:
+  en: "Free Will"
+  zh: "自由意志"
+gods-will:
+  en: "God's Will"
+  zh: "神的旨意"
+glory:
+  en: "Glory"
+  zh: "荣耀"
+gospel:
+  en: "Gospel"
+  zh: "福音"
+gospel-of-john:
+  en: "Gospel of John"
+  zh: "约翰福音"
+grace:
+  en: "Grace"
+  zh: "恩典"
+human-will:
+  en: "Human Will"
+  zh: "人的意志"
+israel:
+  en: "Israel"
+  zh: "以色列"
+john-3-16:
+  en: "John 3:16"
+  zh: "约翰福音 3:16"
+john-calvin:
+  en: "John Calvin"
+  zh: "加尔文"
+justification:
+  en: "Justification"
+  zh: "称义"
+lazarus:
+  en: "Lazarus"
+  zh: "拉撒路"
+limited-atonement:
+  en: "Limited Atonement"
+  zh: "限定的救赎"
+luther:
+  en: "Luther"
+  zh: "路德"
+martin-luther:
+  en: "Martin Luther"
+  zh: "马丁·路德"
+patience:
+  en: "Patience"
+  zh: "忍耐"
+pelagius:
+  en: "Pelagius"
+  zh: "伯拉纠"
+perseverance:
+  en: "Perseverance"
+  zh: "坚忍"
+reformation:
+  en: "Reformation"
+  zh: "宗教改革"
+regeneration:
+  en: "Regeneration"
+  zh: "重生"
+romans-11:
+  en: "Romans 11"
+  zh: "罗马书 11 章"
+salvation:
+  en: "Salvation"
+  zh: "救恩"
+sanctification:
+  en: "Sanctification"
+  zh: "成圣"
+slide:
+  en: "Slides"
+  zh: "幻灯片"
+sola-fide:
+  en: "Sola Fide"
+  zh: "唯独信心"
+sola-gratia:
+  en: "Sola Gratia"
+  zh: "唯独恩典"
+sola-scriptura:
+  en: "Sola Scriptura"
+  zh: "唯独圣经"
+soli-deo-gloria:
+  en: "Soli Deo Gloria"
+  zh: "唯独神的荣耀"
+solus-christus:
+  en: "Solus Christus"
+  zh: "唯独基督"
+sovereign-grace:
+  en: "Sovereign Grace"
+  zh: "主权恩典"
+soteriology:
+  en: "Soteriology"
+  zh: "救恩论"
+spiritual-laws:
+  en: "Spiritual Laws"
+  zh: "属灵定律"
+temple:
+  en: "Temple"
+  zh: "圣殿"
+theology:
+  en: "Theology"
+  zh: "神学"
+third-temple:
+  en: "Third Temple"
+  zh: "第三圣殿"
+timeline:
+  en: "Timeline"
+  zh: "时间线"
+worship:
+  en: "Worship"
+  zh: "敬拜"

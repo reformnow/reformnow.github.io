@@ -6,7 +6,7 @@ description: "Do some cry out to believe and enter heaven only to be rejected, w
 description_zh: "有人哭着喊着想信耶稣，进天堂，但却被神拒绝，有人就是不想信神却被拖着进了天堂？"
 date: 2026-03-04 12:00:00 -0500
 categories: [Theology, Gospel Truth]
-tags: [Grace, TULIP, Regeneration, Sovereignty, Correcting Misunderstandings]
+tags: [grace, TULIP, regeneration, Sovereignty, Correcting Misunderstandings]
 image:
   path: /assets/img/posts/irresistible_grace.png
   alt: A divine light transforming a heart of stone into a heart of flesh.

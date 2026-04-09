@@ -5,7 +5,7 @@ description: "A deep theological analysis of the Resurrection, exploring its phy
 description_zh: "对复活教义的深层解析：探讨其实际的身体性、作为父神对圣子之正名的意义，以及它作为我们未来荣耀之确据的本质。"
 date: 2026-04-04 12:00:00 +0800
 categories: [Bilingual, Theology]
-tags: [Resurrection, Justification, New Creation, Monergism]
+tags: [Resurrection, justification, New Creation, Monergism]
 image:
   path: /assets/img/posts/resurrection_empty_tomb.png
   alt: A magnificent oil painting of the empty tomb of Jesus at dawn with radiating light.

@@ -30,15 +30,21 @@
     // In Chirpy, ONLY individual posts have a #toc-wrapper by default.
     // We bypass this check if the 'presentation-enabled' meta tag is present.
     const isEnablingMetaPresent = !!document.querySelector('meta[name="presentation-enabled"][content="true"]');
+    console.log('Meta enabling check:', isEnablingMetaPresent);
     
-    if (!document.getElementById('toc-wrapper') && !isEnablingMetaPresent) {
-      console.log('Not a post page or enabled page. Skipping.');
+    const hasSlideTag = !!document.querySelector('.post-tag [data-tag="slide"]') || 
+                      !!document.querySelector('.post-tag [data-tag="slides"]');
+    console.log('Slide tag check:', hasSlideTag);
+
+    if (!document.getElementById('toc-wrapper') && !isEnablingMetaPresent && !hasSlideTag) {
+      console.log('Not a post page, enabled page, or slide-tagged page. Skipping.');
       return;
     }
     
     // 1. Get the main content of the post
     // On a post page, there's only one .content.
     const allContents = document.querySelectorAll('.content');
+    console.log('Found content elements:', allContents.length);
     
     allContents.forEach(contentEl => {
       // Skip if this content is inside a sidebar, panel, or the search results wrapper
@@ -46,30 +52,20 @@
         return;
       }
 
-      // 2. Since this is likely the main post content, check for the 'slide' tag
-      // The 'slide' tag should be present on the page for this logic to run,
-      // but we specifically check again here to be safe.
-      const postTags = document.querySelectorAll('.post-tag');
-      let hasSlideTag = false;
-      postTags.forEach(tag => {
-        if (tag.textContent.trim().toLowerCase() === 'slide') {
-          hasSlideTag = true;
-        }
-      });
-
-      // Bypass tag check if meta enabling tag is present
-      if (!hasSlideTag && !isEnablingMetaPresent) return;
-
-      // 3. Find/Create placement target
+      // 4. Find/Create placement target
+      // Presentation button should go near the language switcher if it exists
       let switcher = contentEl.parentElement.querySelector('.lang-switcher');
-      if (!switcher) {
-        console.log('Creating language switcher for button placement...');
+      
+      if (!switcher && (isEnablingMetaPresent || hasSlideTag)) {
+        console.log('Creating container for presentation button...');
         switcher = document.createElement('div');
-        switcher.className = 'lang-switcher my-4 py-2 border-bottom d-flex justify-content-between align-items-center';
+        switcher.className = 'presentation-btn-wrapper my-4 py-2 border-bottom d-flex justify-content-between align-items-center';
         contentEl.parentNode.insertBefore(switcher, contentEl);
       }
       
-      // 4. Inject the button if not already there
+      if (!switcher) return;
+
+      // 5. Inject the button if not already there
       if (switcher.querySelector('#start-presentation')) return;
 
       const button = document.createElement('button');
@@ -83,10 +79,14 @@
       button.innerHTML = iconHtml + 'Presentation Mode';
       
       switcher.appendChild(button);
-      switcher.classList.add('d-flex', 'justify-content-between', 'align-items-center');
+      
+      // Ensure the container is visible and flexed
+      switcher.style.display = 'flex';
+      switcher.style.justifyContent = 'space-between';
+      switcher.style.alignItems = 'center';
       
       button.addEventListener('click', startPresentation);
-      console.log('Presentation button successfully injected into post content.');
+      console.log('Presentation button successfully injected.');
     });
   }
   

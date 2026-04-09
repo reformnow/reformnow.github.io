@@ -173,7 +173,9 @@ script_includes:
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
         {% for category in page.categories %}
-          <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">{{ category }}</a>
+          <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">
+            {% include tag-label.html tag=category %}
+          </a>
           {%- unless forloop.last -%},{%- endunless -%}
         {% endfor %}
       </div>
@@ -188,7 +190,7 @@ script_includes:
             href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
             class="post-tag no-text-decoration"
           >
-            {{- tag -}}
+            {% include tag-label.html tag=tag %}
           </a>
         {% endfor %}
       </div>

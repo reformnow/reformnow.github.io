@@ -6,7 +6,7 @@ description: "Clarifying why Total Depravity refers to the extensiveness of sin'
 description_zh: "探讨为何全然的败坏是指罪对人全身心的渗透性影响，而非指每一个人都坏到了极处。"
 date: 2026-03-15 20:30:00 +0800
 categories: [Theology, Gospel]
-tags: [Total Depravity, Grace, Sovereignty, slide]
+tags: [Total Depravity, grace, Sovereignty, slide]
 image:
   path: /assets/img/posts/expulsion_from_eden.jpg
   alt: Expulsion from Eden - The Origin of Depravity
