@@ -11,17 +11,9 @@
       {%- endif -%}
     </a>
 
-    <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
+    <a class="site-title d-block notranslate" href="{{ '/' | relative_url }}">磐石笔记</a>
+    <p class="site-subtitle fst-italic mb-0 notranslate">恩典为先，归正不息</p>
 
-    <!-- Global Language Switcher -->
-    <div class="lang-switcher mt-3 mb-1">
-      <div class="btn-group btn-group-sm" role="group" aria-label="Language Switcher">
-        <button type="button" class="btn btn-outline-primary active" data-lang="chinese" onclick="setLanguageView('chinese')">中文</button>
-        <button type="button" class="btn btn-outline-primary" data-lang="english" onclick="setLanguageView('english')">EN</button>
-        <button type="button" class="btn btn-outline-primary" data-lang="both" onclick="setLanguageView('both')">双语</button>
-      </div>
-    </div>
   </header>
   <!-- .profile-wrapper -->
 
@@ -45,12 +37,8 @@
             {% capture tab_name %}{{ tab.url | split: '/' | last }}{% endcapture %}
 
             <span>
-              <span class="lang-en">{{ site.data.locales['en'].tabs.[tab_name] | default: tab.title | upcase }}</span>
-              {% if tab.title_zh %}
-                <span class="lang-zh">{{ tab.title_zh }}</span>
-              {% else %}
-                <span class="lang-zh">{{ tab.title }}</span>
-              {% endif %}
+              <span class="lang-en notranslate">{{ site.data.locales['en'].tabs.[tab_name] | default: tab.title | upcase }}</span>
+              <span class="lang-zh notranslate">{{ tab.title_zh | default: tab.title }}</span>
             </span>
           </a>
         </li>

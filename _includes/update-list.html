@@ -25,8 +25,8 @@
 {% if update_list.size > 0 %}
   <section id="access-lastmod">
     <h2 class="panel-heading">
-      <span class="lang-en">Recently Updated</span>
-      <span class="lang-zh">最近更新</span>
+      <span class="lang-en notranslate">Recently Updated</span>
+      <span class="lang-zh notranslate">最近更新</span>
     </h2>
     <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
       {% for item in update_list %}
@@ -35,8 +35,8 @@
         {% assign url = post.url | relative_url %}
         <li class="text-truncate lh-lg">
           <a href="{{ url }}">
-            <span class="lang-en">{{ post.title | xml_escape }}</span>
-            <span class="lang-zh">{{ post.title_zh | default: post.title | xml_escape }}</span>
+            <span class="lang-en notranslate">{{ post.title | xml_escape }}</span>
+            <span class="lang-zh notranslate">{{ post.title_zh | default: post.title | xml_escape }}</span>
           </a>
         </li>
       {% endfor %}
