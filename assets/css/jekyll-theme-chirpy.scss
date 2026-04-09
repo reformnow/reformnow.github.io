@@ -59,12 +59,12 @@ pre:has(code.language-bible) {
     display: block !important;
     white-space: pre-wrap !important; /* Ensure wrapping */
     word-wrap: break-word !important;
-    font-family: "Spectral", "Lora", "Georgia", serif !important;
+    font-family: "Spectral", "Lora", "Georgia", "Kaiti TC", "KaiTi", "STKaiti", STZhongsong, "Noto Serif SC", serif !important;
     font-style: italic !important;
     font-size: 1.2rem !important;
     line-height: 1.7 !important;
     color: #3e3a35 !important; /* Darker brown-grey for ink feel */
-    padding: 2rem !important;
+    padding: 1.5rem 2rem 0.5rem 2rem !important;
     background: transparent !important;
     position: relative !important;
     z-index: 2 !important;
@@ -101,8 +101,8 @@ pre:has(code.language-quote) {
 
   code.language-quote {
     display: block !important;
-    padding: 2rem !important;
-    font-family: "Spectral", "Georgia", serif !important;
+    padding: 1.5rem 2rem 0.5rem 3.5rem !important;
+    font-family: "Spectral", "Georgia", "Kaiti TC", "KaiTi", "STKaiti", STZhongsong, "Noto Serif SC", serif !important;
     font-style: italic !important;
     font-size: 1.15rem !important;
     line-height: 1.8 !important;
@@ -118,10 +118,10 @@ pre:has(code.language-quote) {
   &::after {
     content: "“" !important;
     position: absolute !important;
-    top: 2.5rem !important;
+    top: 1.5rem !important;
     left: 0.5rem !important;
-    font-size: 6rem !important;
-    color: rgba(74, 85, 104, 0.07) !important;
+    font-size: 5rem !important;
+    color: rgba(74, 85, 104, 0.08) !important;
     font-family: "Georgia", serif !important;
     z-index: 1 !important;
     line-height: 1 !important;
