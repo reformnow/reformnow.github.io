@@ -11,8 +11,8 @@
       {% if paths.size == 0 or page.layout == 'home' %}
         <!-- index page -->
         <span>
-          <span class="lang-en">Home</span>
-          <span class="lang-zh">首页</span>
+          <span class="lang-en notranslate">Home</span>
+          <span class="lang-zh notranslate">首页</span>
         </span>
 
       {% else %}
@@ -20,8 +20,8 @@
           {% if forloop.first %}
             <span>
               <a href="{{ '/' | relative_url }}">
-                <span class="lang-en">Home</span>
-                <span class="lang-zh">首页</span>
+                <span class="lang-en notranslate">Home</span>
+                <span class="lang-zh notranslate">首页</span>
               </a>
             </span>
 
@@ -30,9 +30,9 @@
               {% if page.layout == 'tag' or page.layout == 'category' %}
                 {% include tag-label.html tag=page.title %}
               {% else %}
-                <span class="lang-en">{{ page.title }}</span>
+                <span class="lang-en notranslate">{{ page.title }}</span>
                 {% if page.title_zh %}
-                  <span class="lang-zh">{{ page.title_zh }}</span>
+                  <span class="lang-zh notranslate">{{ page.title_zh }}</span>
                 {% endif %}
               {% endif %}
             </span>
@@ -41,11 +41,11 @@
             <span>
               <a href="{{ item | append: '/' | relative_url }}">
                 {% if item == 'tags' %}
-                  <span class="lang-en">Tags</span>
-                  <span class="lang-zh">标签</span>
+                  <span class="lang-en notranslate">Tags</span>
+                  <span class="lang-zh notranslate">标签</span>
                 {% elsif item == 'categories' %}
-                  <span class="lang-en">Categories</span>
-                  <span class="lang-zh">分类</span>
+                  <span class="lang-en notranslate">Categories</span>
+                  <span class="lang-zh notranslate">分类</span>
                 {% else %}
                   {{ item | capitalize }}
                 {% endif %}
@@ -98,8 +98,8 @@
       >
     </search>
     <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">
-      <span class="lang-en">Cancel</span>
-      <span class="lang-zh">取消</span>
+      <span class="lang-en notranslate">Cancel</span>
+      <span class="lang-zh notranslate">取消</span>
     </button>
   </div>
 </header>
