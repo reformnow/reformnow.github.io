@@ -214,14 +214,14 @@
     
     // Get post metadata from page
     const h1 = document.querySelector('h1[data-toc-skip]');
-    let postTitle = h1?.textContent || document.title.split(' | ')[0];
+    let postTitle = h1 ? h1.textContent : document.title.split(' | ')[0];
     
     let titleElement = null;
     
     // If bilingual titles exist, pick the right one or both
     if (h1 && (h1.querySelector('.lang-en') || h1.querySelector('.lang-zh'))) {
-      const enTitle = h1.querySelector('.lang-en')?.innerText || h1.querySelector('.lang-en')?.textContent || '';
-      const zhTitle = h1.querySelector('.lang-zh')?.innerText || h1.querySelector('.lang-zh')?.textContent || '';
+      const langEn = h1.querySelector('.lang-en'); const enTitle = langEn ? (langEn.innerText || langEn.textContent) : '';
+      const langZh = h1.querySelector('.lang-zh'); const zhTitle = langZh ? (langZh.innerText || langZh.textContent) : '';
       
       if (langPreference === 'english') {
         postTitle = enTitle || postTitle;
@@ -244,18 +244,18 @@
       }
     } else {
        // Single title, use innerText to be clean
-       postTitle = h1?.innerText || postTitle;
+       postTitle = h1 ? h1.innerText : postTitle;
     }
 
     // Get description from the post-desc element which now has bilingual spans
     const descEl = document.querySelector('.post-desc');
-    let postDesc = document.querySelector('meta[name="description"]')?.content || '';
+    const metaDesc = document.querySelector('meta[name="description"]'); let postDesc = metaDesc ? metaDesc.content : '';
     
     let descElement = null;
     
     if (descEl && (descEl.querySelector('.lang-en') || descEl.querySelector('.lang-zh'))) {
-      const enDesc = descEl.querySelector('.lang-en')?.innerText || descEl.querySelector('.lang-en')?.textContent || '';
-      const zhDesc = descEl.querySelector('.lang-zh')?.innerText || descEl.querySelector('.lang-zh')?.textContent || '';
+      const descEn = descEl.querySelector('.lang-en'); const enDesc = descEn ? (descEn.innerText || descEn.textContent) : '';
+      const descZh = descEl.querySelector('.lang-zh'); const zhDesc = descZh ? (descZh.innerText || descZh.textContent) : '';
       
       if (langPreference === 'english') {
         postDesc = enDesc || postDesc;
@@ -279,7 +279,7 @@
     }
     
     // Get the post's featured image
-    const featuredImage = document.querySelector('.preview-img img')?.src || document.querySelector('img[src*="/posts/"]')?.src || document.querySelector('.content img')?.src || '';
+    let featuredImage = ''; if (document.querySelector('.preview-img img')) featuredImage = document.querySelector('.preview-img img').src; else if (document.querySelector('img[src*="/posts/"]')) featuredImage = document.querySelector('img[src*="/posts/"]').src; else if (document.querySelector('.content img')) featuredImage = document.querySelector('.content img').src;
     
     // Create cover slide
     const coverHSection = document.createElement('section');
@@ -415,9 +415,9 @@
             const content = item.querySelector('.timeline-content');
             if (!content) return;
             const eventSlide = document.createElement('section');
-            const date = content.querySelector('.timeline-date')?.textContent;
+            const dateNode = content.querySelector('.timeline-date'); const date = dateNode ? dateNode.textContent : null;
             const img = content.querySelector('img');
-            const cat = content.querySelector('.timeline-category')?.textContent;
+            const catNode = content.querySelector('.timeline-category'); const cat = catNode ? catNode.textContent : null;
             if (langPreference === 'both') {
               const flex = document.createElement('div');
               flex.style.cssText = 'display: flex; gap: 40px; align-items: center; justify-content: center; height: 100%;';
@@ -430,10 +430,10 @@
               }
               const meta = document.createElement('div'); meta.style.cssText = 'font-size: 0.6em; opacity: 0.6; margin-bottom: 15px; text-align: center; letter-spacing: 2px;';
               meta.textContent = `${date}${cat ? ' • ' + cat : ''}`; eventSlide.appendChild(meta);
-              const enT = content.querySelector('.timeline-title .lang-en')?.cloneNode(true);
-              const enD = content.querySelector('.timeline-description .lang-en')?.cloneNode(true);
-              const zhT = content.querySelector('.timeline-title .lang-zh')?.cloneNode(true);
-              const zhD = content.querySelector('.timeline-description .lang-zh')?.cloneNode(true);
+              const tempEnT = content.querySelector('.timeline-title .lang-en'); const enT = tempEnT ? tempEnT.cloneNode(true) : null;
+              const tempEnD = content.querySelector('.timeline-description .lang-en'); const enD = tempEnD ? tempEnD.cloneNode(true) : null;
+              const tempZhT = content.querySelector('.timeline-title .lang-zh'); const zhT = tempZhT ? tempZhT.cloneNode(true) : null;
+              const tempZhD = content.querySelector('.timeline-description .lang-zh'); const zhD = tempZhD ? tempZhD.cloneNode(true) : null;
               if (enT) { enT.style.fontSize = '1.2em'; enT.style.marginBottom = '15px'; leftCol.appendChild(enT); }
               if (enD) { enD.style.fontSize = '0.75em'; leftCol.appendChild(enD); }
               if (zhT) { zhT.style.fontSize = '1.2em'; zhT.style.marginBottom = '15px'; rightCol.appendChild(zhT); }
@@ -444,8 +444,8 @@
               const meta = document.createElement('div'); meta.style.cssText = 'font-size: 0.6em; opacity: 0.6; margin-bottom: 10px; text-align: center;';
               meta.textContent = `${date}${cat ? ' • ' + cat : ''}`; eventSlide.appendChild(meta);
               const lang = langPreference === 'english' ? 'en' : 'zh';
-              const title = content.querySelector(`.timeline-title .lang-${lang}`)?.cloneNode(true);
-              const desc = content.querySelector(`.timeline-description .lang-${lang}`)?.cloneNode(true);
+              const tempT = content.querySelector(`.timeline-title .lang-${lang}`); const title = tempT ? tempT.cloneNode(true) : null;
+              const tempD = content.querySelector(`.timeline-description .lang-${lang}`); const desc = tempD ? tempD.cloneNode(true) : null;
               if (title) { title.style.fontSize = '1.5em'; title.style.textAlign = 'center'; eventSlide.appendChild(title); }
               if (desc) { desc.style.fontSize = '0.9em'; desc.style.textAlign = 'center'; desc.style.marginTop = '20px'; eventSlide.appendChild(desc); }
             }
@@ -704,7 +704,7 @@
       revealDiv.remove();
       document.body.classList.remove('reveal-viewport');
       document.querySelectorAll('style, link[href*="reveal"], script[src*="reveal"]').forEach(el => {
-        if (el.href?.includes('reveal') || el.src?.includes('reveal') || el.innerHTML?.includes('reveal')) {
+        if ((el.href && el.href.includes('reveal')) || (el.src && el.src.includes('reveal')) || (el.innerHTML && el.innerHTML.includes('reveal'))) {
           el.remove();
         }
       });
