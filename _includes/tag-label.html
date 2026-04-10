@@ -1,0 +1,17 @@
+{% assign tag_key = include.tag | strip %}
+{% assign tag_label = site.data.tag_labels[tag_key] %}
+
+{% if tag_label == nil %}
+  {% assign downcased_key = tag_key | downcase %}
+  {% assign tag_label = site.data.tag_labels[downcased_key] %}
+{% endif %}
+
+{% if tag_label %}
+  {% assign tag_en = tag_label.en | default: tag_key %}
+  {% assign tag_zh = tag_label.zh | default: tag_en %}
+{% else %}
+  {% assign tag_en = tag_key %}
+  {% assign tag_zh = tag_key %}
+{% endif %}
+<span class="lang-en notranslate" data-tag="{{ tag_key | downcase | xml_escape }}">{{ tag_en | xml_escape }}</span>
+<span class="lang-zh notranslate" data-tag="{{ tag_key | downcase | xml_escape }}">{{ tag_zh | xml_escape }}</span>

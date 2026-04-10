@@ -30,14 +30,14 @@ assets/js/dist
 **/.DS_Store
 *.log
 *.png
-*.html
-!index.html
-!googled*.html
-*.json
-!_data/*.json
-!package*.json
-!gh_ref.json # wait, gh_ref.json I deleted but let's be general
-*.geojson
+/*.html
+!/index.html
+!/googled*.html
+/*.json
+!/_data/*.json
+!/package*.json
+!/gh_ref.json # wait, gh_ref.json I deleted but let's be general
+/*.geojson
 tmp_*
 data-temp/
 _backups_migration/
