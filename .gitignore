@@ -29,7 +29,7 @@ assets/js/dist
 .DS_Store
 **/.DS_Store
 *.log
-*.png
+/*.png
 /*.html
 !/index.html
 !/googled*.html
