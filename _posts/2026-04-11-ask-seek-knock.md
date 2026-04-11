@@ -119,10 +119,36 @@ When we knock, we do not knock as strangers demanding entry. We knock under the 
 
 ---
 
-## IV. The Sovereign Grace of Desiring
+## IV. Refuting the Myth of Natural Seeking
 {: .lang-en lang="en"}
 
-## 四、 渴望背后的主权恩典
+## 四、 驳斥关于“人天然能寻见”的迷思
+{: .lang-zh lang="zh-CN"}
+
+Throughout church history, some have misinterpreted this verse to champion human autonomy. They suggest that the act of seeking is derived from the innate introspection of the human heart and some remaining spark of natural goodness that prompts us to knock on God's door.
+{: .lang-en lang="en"}
+
+纵观教会历史，一些人误解了这节经文，以此来鼓吹人的自主性。他们声称，“寻找”这一行为源于人心天然的自省能力，以及人内里残存的一丝良善，正是这些能力激发了我们去叩神的大门。
+{: .lang-zh lang="zh-CN"}
+
+> "We seek because we still possess the natural ability and a remnant of goodness that leads us back to God; the choice to knock rests upon our own spiritual intuition and willpower."
+{: .lang-en lang="en"}
+
+> “我们去寻找，是因为我们出于自己的自省和我们残存的良善，让我们去寻找和叩门。叩门的选择完全取决于我们自身的属灵直觉。”
+{: .lang-zh lang="zh-CN"}
+
+This interpretation is fundamentally heterodox. If we seek God out of our "remaining goodness," then salvation is a cooperative effort where man takes the first decisive step. Yet, Biblical truth vehemently denies this. Romans 3:11 explicitly states, "No one seeks for God." The natural man is spiritually dead, utterly incapable of knocking on a door he inherently opposes. We are incapable of looking upward unless grace first descends. To claim that we seek God out of natural intuition is to rob the Holy Spirit of His sovereign, initiating work.
+{: .lang-en lang="en"}
+
+这种解经在根本上是违背正统的。如果我们是出于“残存的良善”去寻找神，那么救恩就成了一种人神合作的工程，并且是由人迈出那最具决定性的第一步。然而，圣经真理对此予以了坚决的驳斥。罗马书 3:11 明确宣告：“没有寻求神的。”天然人在属灵上是死的，绝对无力去敲开一扇他内心其实抵挡的门。如果恩典不首先降临，我们根本无能向上仰望。宣称我们是出于天然的直觉或残存的良善去寻找神，无异于剥夺了圣灵主权起首发动的荣耀工作。
+{: .lang-zh lang="zh-CN"}
+
+---
+
+## V. The Sovereign Grace of Desiring
+{: .lang-en lang="en"}
+
+## 五、 渴望背后的主权恩典
 {: .lang-zh lang="zh-CN"}
 
 Finally, we must recognize a profound paradox. If God knows what we need before we ask (Matthew 6:8), why must we ask at all? The answer lies in the sovereign work of God within our hearts. The very desire to ask, the perseverance to seek, and the strength to knock are themselves preceded by the secret grace of God.
@@ -149,10 +175,10 @@ We do not generate the initiative to find God; He gives us the thirst, so that H
 ```
 {: .lang-zh lang="zh-CN"}
 
-## V. Conclusion
+## VI. Conclusion
 {: .lang-en lang="en"}
 
-## 五、 结语
+## 六、 结语
 {: .lang-zh lang="zh-CN"}
 
 "Ask, and it will be given to you" is not a mechanistic formula for earthly prosperity, but a theological guarantee of spiritual communion. We ask confidently, not because of our own merit, but because a loving Father has ordained to bless us through the perfect mediation of His Son, Jesus Christ. The door opens because the Keeper of the Door loves you.
