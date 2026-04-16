@@ -8,8 +8,8 @@ date: 2026-04-15 00:00:00 -0400
 categories: [Theology, Ecclesiology]
 tags: [Theology, Dispensationalism, Covenant Theology, Eschatology]
 image:
-  path: /assets/img/posts/christ_the_true_temple.png
-  alt: Christ the True Temple
+  path: /assets/img/posts/dispensationalism_critique_cover.png
+  alt: Unity of the Old and New Testaments leading to the Cross
 ---
 
 ## 1. Introduction: The Need for Clarification
