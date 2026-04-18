@@ -32,6 +32,44 @@ script_includes:
       </p>
     {% endif %}
 
+    {% if content contains 'lang-en' or content contains 'lang-zh' %}
+      <div class="mb-4">
+        {% if content contains 'lang-en' %}
+        <span class="lang-en">
+          <div class="audio-player d-flex align-items-center mb-2 bg-light p-2 rounded">
+            <div class="me-3 ps-2 text-primary">
+              <i class="fa-solid fa-headphones fa-lg"></i>
+            </div>
+            <div class="flex-grow-1">
+              <p class="text-muted small mb-1 fw-bold">Listen to English audio</p>
+              <audio controls style="width: 100%; height: 35px; outline: none;">
+                <source src="{{ site.baseurl }}/assets/audio/posts/{{ page.name | remove: '.md' }}_en.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+        </span>
+        {% endif %}
+
+        {% if content contains 'lang-zh' %}
+        <span class="lang-zh">
+          <div class="audio-player d-flex align-items-center mb-2 bg-light p-2 rounded">
+            <div class="me-3 ps-2 text-primary">
+              <i class="fa-solid fa-headphones fa-lg"></i>
+            </div>
+            <div class="flex-grow-1">
+              <p class="text-muted small mb-1 fw-bold">聆听中文语音</p>
+              <audio controls style="width: 100%; height: 35px; outline: none;">
+                <source src="{{ site.baseurl }}/assets/audio/posts/{{ page.name | remove: '.md' }}_zh.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+        </span>
+        {% endif %}
+      </div>
+    {% endif %}
+
     <div class="post-meta text-muted">
       <!-- published date -->
       <span>
