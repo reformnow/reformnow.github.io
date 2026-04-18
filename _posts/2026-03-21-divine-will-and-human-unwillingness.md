@@ -44,7 +44,7 @@ There are few scenes in the Gospels more poignant than Jesus Christ standing on 
 ## 2. 母鸡的比喻：屈尊俯就的爱
 {: .lang-zh lang="zh-CN"}
 
-The use of the "hen and chicks" metaphor is a remarkable example of divine condescension. The Almighty God, who rules the heavens, likens Himself to a humble bird seeking to provide warmth and protection for her vulnerable young. Historically, the church has seen this as the outward call of the Gospel—a sincere invitation extended through the prophets and ultimately through the Son. 
+The use of the "hen and chicks" metaphor is a remarkable example of divine condescension. The Almighty God, who rules the heavens, likens Himself to a humble bird seeking to provide warmth and protection for her vulnerable young. Historically, the church has seen this as the outward call of the Gospel—a sincere invitation extended through the prophets and ultimately through the Son.
 {: .lang-en lang="en"}
 
 使用“母鸡与小鸡”的比喻是神圣屈尊的一个显著例子。那位统治诸天的全能上帝，竟然将自己比作一只寻找温暖并保护弱小幼雏的平凡母鸡。从历史上看，大公教会一直将其视为福音的外在呼召（External call）——这是通过先知并最终通过爱子发出的诚挚邀请。
@@ -96,7 +96,7 @@ As a prominent historic observer noted:
 ## 4. 人类的“不愿”：一颗被奴役的心
 {: .lang-zh lang="zh-CN"}
 
-This verse does not suggest a failure of God's power, but rather the catastrophic reality of human rebellion. The "unwillingness" of Jerusalem is the proof of Total Depravity. We are not merely "unable" to come to Him as a neutral handicap; we "won't" come because our hearts love the darkness. 
+This verse does not suggest a failure of God's power, but rather the catastrophic reality of human rebellion. The "unwillingness" of Jerusalem is the proof of Total Depravity. We are not merely "unable" to come to Him as a neutral handicap; we "won't" come because our hearts love the darkness.
 {: .lang-en lang="en"}
 
 这节经文并非在暗示上帝的能力失败了，而是在描述人类叛逆这一毁灭性的现实。耶路撒冷的“不愿意”是“全然败坏”（Total Depravity）的证明。我们不仅仅是处于某种中立状态下的“无力”来到祂面前；我们主观上“不愿意”来，因为我们的心爱黑暗。
@@ -128,7 +128,7 @@ To understand this "unwillingness," we must look at another foundational text wh
 ## 5. 司布真的挑战：绝对自由的迷思
 {: .lang-zh lang="zh-CN"}
 
-Charles Spurgeon, in his renowned sermon *Free Will—A Slave*, addressed this very tension. He argued that while man has a "will" in a natural sense, that will is never neutral—it is always a slave to the heart’s desires. If a man's heart is fallen, his "will" can only choose according to that fallen nature. 
+Charles Spurgeon, in his renowned sermon *Free Will—A Slave*, addressed this very tension. He argued that while man has a "will" in a natural sense, that will is never neutral—it is always a slave to the heart’s desires. If a man's heart is fallen, his "will" can only choose according to that fallen nature.
 {: .lang-en lang="en"}
 
 查尔斯·司布真（Charles Spurgeon）在著名的讲道《自由意志——一个奴仆》（*Free Will—A Slave*）中，探讨了这种张力。他认为，虽然人在自然意义上拥有“意志”，但这种意志绝非中立的——它始终是其内心欲望的奴隶。如果一个人的心是堕落的，他的“意志”只能根据那种堕落的本性做出选择。

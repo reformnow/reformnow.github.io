@@ -154,16 +154,16 @@ When the Old Testament prophesies a restored Temple (e.g., Amos 9, Ezekiel 40-48
 ## 5. 系统性批判之三：秘密被提与末世的逃避主义
 {: .lang-zh lang="zh-CN"}
 
-One of the most popular novelties introduced by Dispensationalism is the doctrine of the "Pre-Tribulation Secret Rapture." This view claims that Christ will return *twice*—once secretly to snatch believers away before a seven-year tribulation, and a second time visibly to establish an earthly millennial kingdom. 
+One of the most popular novelties introduced by Dispensationalism is the doctrine of the "Pre-Tribulation Secret Rapture." This view claims that Christ will return *twice*—once secretly to snatch believers away before a seven-year tribulation, and a second time visibly to establish an earthly millennial kingdom.
 {: .lang-en lang="en"}
 
 时代论引入的最流行的新奇教义之一，就是“灾前秘密被提”（Pre-Tribulation Secret Rapture）论。这种观点声称，基督将会有**两次**再来——一次是秘密地到来，在七年大灾难之前将信徒提走；另一次则是公开地降临，建立一个属地的千禧年国度。
 {: .lang-zh lang="zh-CN"}
 
-No Christian historically taught a "two-stage" second coming prior to the 1830s. The historic Christian faith has always confessed, as in the Nicene Creed, "He will come again in glory to judge the living and the dead." 
+No Christian historically taught a "two-stage" second coming prior to the 1830s. The historic Christian faith has always confessed, as in the Nicene Creed, "He will come again in glory to judge the living and the dead."
 {: .lang-en lang="en"}
 
-在1830年代之前，历史上没有任何基督徒教导过“分两阶段”的基督再来。大公教会正统神学一直以来的宣告就如《尼西亚信经》所言：“他必在荣耀中再降临，审判活人死人。” 
+在1830年代之前，历史上没有任何基督徒教导过“分两阶段”的基督再来。大公教会正统神学一直以来的宣告就如《尼西亚信经》所言：“他必在荣耀中再降临，审判活人死人。”
 {: .lang-zh lang="zh-CN"}
 
 The very text often used to support the rapture vividly describes a loud, public, and glorious arrival:
@@ -216,7 +216,7 @@ John Gerstner profoundly observed the danger of the Dispensational paradigm:
 ```
 {: .lang-zh lang="zh-CN"}
 
-By dividing the Bible into artificially distinct eras and dividing God's people into arbitrary categories, Dispensationalism obscures the grandeur of the Covenant of Grace. From Adam's fall to the New Jerusalem, God has pursued one Bride, through one Savior, by one Way of Grace. 
+By dividing the Bible into artificially distinct eras and dividing God's people into arbitrary categories, Dispensationalism obscures the grandeur of the Covenant of Grace. From Adam's fall to the New Jerusalem, God has pursued one Bride, through one Savior, by one Way of Grace.
 {: .lang-en lang="en"}
 
 通过将圣经人为地划分为不连续的时代，并将上帝的子民武断地分类，时代论掩盖了恩典之约的宏大与壮丽。从亚当的堕落一直到新耶路撒冷的降临，上帝始终只借着一位救主、通过一条恩典的道路，来迎娶同一位新娘（教会）。

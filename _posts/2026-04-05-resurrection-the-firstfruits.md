@@ -37,13 +37,13 @@ The Resurrection of Jesus Christ is the pivot upon which the entire door of "His
 ```
 {: .lang-zh lang="zh-CN"}
 
-The "Nature of Christ's Resurrection" is defined by its substantiality. Christ did not rise as a ghost or a vague influence. He rose in the same body that was nailed to the cross, now glorified and immortal. This physical reality confirms that God's plan is not to discard the material world, but to redeem and renew it. 
+The "Nature of Christ's Resurrection" is defined by its substantiality. Christ did not rise as a ghost or a vague influence. He rose in the same body that was nailed to the cross, now glorified and immortal. This physical reality confirms that God's plan is not to discard the material world, but to redeem and renew it.
 {: .lang-en lang="en"}
 
 “基督复活的本质”首先在于其实质性。基督并非以幽灵或模糊感化力的形式复活。他正是以那被钉在十字架上的同一身体复活，只是那身体如今已进入荣耀且永不朽坏。这种身体的真实性确认了：上帝的计划并非抛弃物质世界，而是救赎并更新它。
 {: .lang-zh lang="zh-CN"}
 
-Historically, the Church fought against the heresy of **Docetism** (from the Greek *dokeo*, "to seem"). The Docetists, influenced by Gnostic dualism, believed that matter was evil and that Christ's body was a mere phantom or illusion. They rejected the physical resurrection because they could not accept that the Divine could inhabit "corruptible" flesh. St. Ignatius of Antioch and other early fathers vehemently opposed this, for if Christ only *seemed* to suffer and rise, then His work of salvation is also a mere illusion. 
+Historically, the Church fought against the heresy of **Docetism** (from the Greek *dokeo*, "to seem"). The Docetists, influenced by Gnostic dualism, believed that matter was evil and that Christ's body was a mere phantom or illusion. They rejected the physical resurrection because they could not accept that the Divine could inhabit "corruptible" flesh. St. Ignatius of Antioch and other early fathers vehemently opposed this, for if Christ only *seemed* to suffer and rise, then His work of salvation is also a mere illusion.
 {: .lang-en lang="en"}
 
 从历史上看，教会曾与**“幻影说”**（Docetism，源自希腊语 *dokeo*，意为“似乎”）这一异端进行了长期斗争。受诺斯底主义二元论影响，幻影派信徒认为物质是邪恶的，因此基督的身体仅仅是一个幻影或错觉。他们通过拒绝肉身复活，来表达他们无法接受“神圣者”会居住在“必朽”的肉身之中。圣依格那修（St. Ignatius of Antioch）和其他早期教父对此严厉反对，因为如果基督只是“看起来”在受苦和复活，那么他的救赎之功也将仅仅是一个错觉。
