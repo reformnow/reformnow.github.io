@@ -49,6 +49,27 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          
+      - name: Install TTS dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install edge-tts
+          
+      - name: Generate TTS audio
+        run: python tools/generate_tts.py
+        
+      - name: Commit audio files
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add assets/audio/posts/ tools/.tts_hashes.json || true
+          git diff-index --quiet HEAD || git commit -m "Auto-generate TTS audio for bilingual posts"
+          git push || echo "No changes to push or push failed, continuing build"
+
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
