@@ -47,18 +47,24 @@ async def main():
         # strip the date from the slug for better URLs if desired, or keep filename
         slug = filename.replace('.md', '')
         
+        content_no_frontmatter = re.sub(r'^---.*?---\n', '', content, flags=re.DOTALL)
+        
         en_lines = []
         zh_lines = []
+        current_block = []
         
-        for block in content.split('\n\n'):
-            block = block.strip()
-            if '{: .lang-en lang="en"}' in block:
-                en_lines.append(block.replace('{: .lang-en lang="en"}', ''))
-            elif '{: .lang-zh lang="zh-CN"}' in block:
-                zh_lines.append(block.replace('{: .lang-zh lang="zh-CN"}', ''))
+        for line in content_no_frontmatter.split('\n'):
+            if re.search(r'\{:\s*\.lang-en', line):
+                en_lines.append("\n".join(current_block).strip())
+                current_block = []
+            elif re.search(r'\{:\s*\.lang-zh', line):
+                zh_lines.append("\n".join(current_block).strip())
+                current_block = []
+            else:
+                current_block.append(line)
                 
-        en_text = "\n".join(en_lines)
-        zh_text = "\n".join(zh_lines)
+        en_text = "\n".join(filter(None, en_lines))
+        zh_text = "\n".join(filter(None, zh_lines))
         
         en_text_clean = clean_markdown(en_text)
         zh_text_clean = clean_markdown(zh_text)
