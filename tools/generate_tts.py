@@ -30,9 +30,20 @@ def clean_markdown(text):
     text = re.sub(r'`(.*?)`', r'\1', text)
     return text.strip()
 
-async def generate_speech(text, voice, outfile):
-    communicate = edge_tts.Communicate(text, voice)
-    await communicate.save(outfile)
+async def generate_speech(text, voice, outfile, retries=4, delay=5):
+    for attempt in range(retries):
+        try:
+            communicate = edge_tts.Communicate(text, voice)
+            await communicate.save(outfile)
+            return
+        except Exception as e:
+            print(f"Error on attempt {attempt + 1}/{retries} for {outfile}: {e}")
+            if attempt < retries - 1:
+                print(f"Retrying in {delay} seconds...")
+                await asyncio.sleep(delay)
+            else:
+                print(f"Failed to generate {outfile} after {retries} attempts.")
+                raise e
 
 async def main():
     has_changes = False
@@ -81,6 +92,7 @@ async def main():
             await generate_speech(en_text_clean, "en-US-ChristopherNeural", en_audio_path)
             hashes[f"{slug}_en"] = en_hash
             has_changes = True
+            await asyncio.sleep(2)
 
         # Generate ZH
         if zh_text_clean and hashes.get(f"{slug}_zh") != zh_hash:
@@ -88,6 +100,7 @@ async def main():
             await generate_speech(zh_text_clean, "zh-CN-YunxiNeural", zh_audio_path)
             hashes[f"{slug}_zh"] = zh_hash
             has_changes = True
+            await asyncio.sleep(2)
 
     if has_changes:
         with open(hashes_file, 'w') as f:
