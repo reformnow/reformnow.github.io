@@ -17,6 +17,7 @@ On October 31, 1517, a Roman Catholic priest and theology professor named Martin
 
 Luther, at the time a loyal servant of the Church, was deeply concerned about the abuse of "indulgences"—certificates sold by the Church that purportedly reduced the temporal punishment for sins.
 {: .lang-en lang="en"}
+
 ## 导言：一份辩论的邀请
 1517年10月31日，一位名叫马丁·路德的天主教神父兼神学教授向他的大主教寄出了一封信，并根据传统，在维滕贝格大教堂的大门上贴出了一份包含95条论点的清单。这份公文的正式名称是《关于赎罪券效力的辩论》（*Disputatio pro declaratione virtutis indulgentiarum*），其初衷并非要发表革命宣言或脱离教会。从核心上讲，它是一份**邀请学术辩论的提纲**。
 {: .lang-zh lang="zh-CN"}
@@ -35,6 +36,7 @@ The very first thesis struck a thunderous note: "When our Lord and Master Jesus 
 
 *   **The Theological Meaning:** Luther argued that a sinner's transformation is a long-term internal process, not something that can be "settled" through a simple confession or the purchase of a piece of paper (an indulgence). True repentance is not a transaction; it is a posture of the heart before God.
 {: .lang-en lang="en"}
+
 ### 1. 悔改是一辈子的事（核心神学）
 论纲的第一条就极具震撼力：“当主耶稣基督说‘你们应当悔改’（马太福音4:17）时，他的意愿是希望信徒们**毕生致力于悔改**。”
 {: .lang-zh lang="zh-CN"}
@@ -52,6 +54,7 @@ Luther launched a fierce attack on the contemporary slogan: "As soon as the coin
 *   **No Power Over the Dead:** He argued that the Pope has no jurisdiction over souls in purgatory. The idea that common people could buy their relatives' way out of suffering was, in Luther's view, a deceptive lie.
 *   **The True "Treasury":** Thesis 62 states: "The true treasure of the Church is the most holy gospel of the glory and grace of God." Salvation is an unmerited gift of God's grace, and it is free.
 {: .lang-en lang="en"}
+
 ### 2. 赎罪券买不来救赎
 路德猛烈抨击了当时“钱币叮当响，灵魂出炼狱”的说法。
 {: .lang-zh lang="zh-CN"}
@@ -69,6 +72,7 @@ Luther included several sharp "critiques" that resonated deeply across the Germa
 
 *   **Where is the Money Going?** At the time, Pope Leo X was issuing indulgences on a massive scale to fund the construction of St. Peter's Basilica. In Thesis 86, Luther asked: "Why does not the pope, whose wealth is today greater than the wealth of the richest Crassus, build this one basilica of St. Peter with his own money rather than with the money of poor believers?"
 {: .lang-en lang="en"}
+
 ### 3. 抨击教会的贪婪与腐败
 路德在论纲中加入了一些非常尖锐的“吐槽”，这在德意志地区引发了巨大共鸣：
 {: .lang-zh lang="zh-CN"}
@@ -84,6 +88,7 @@ He believed that indulgences gave people a "false sense of peace," leading them 
 
 *   **Helping the Poor is More Important:** Thesis 45 mentions that a person who sees a brother in need and passes him by to give money for indulgences does not buy the Pope's indulgence, but the wrath of God.
 {: .lang-en lang="en"}
+
 ### 4. 基督徒应承担责任
 他认为赎罪券给人一种“虚假的平安感”，让人以为买了券就安全了，从而忽视了真正的善行。
 {: .lang-zh lang="zh-CN"}
@@ -100,6 +105,7 @@ While traditional paintings often depict Martin Luther dramatically nailing his 
 ### Why did it spread so fast?
 Originally written in **Latin** for academic discussion, the 95 Theses were translated into German and reproduced using the **Printing Press**. In just two weeks, they spread across Germany; within a month, they were known throughout Europe. What began as a local attempt to fix a loophole in the Church became the spark that ignited the **Protestant Reformation**.
 {: .lang-en lang="en"}
+
 ## 历史真相：他真的把纸钉在门上了吗？
 虽然传统画作常描绘马丁·路德在维滕贝格大教堂门上钉布告的情景，但现代史学家认为他更有可能是**把信寄给了主教**，并把提纲贴在了大学布告栏上（当时的教堂大门常充当大学的布告栏）。
 {: .lang-zh lang="zh-CN"}
@@ -123,6 +129,7 @@ The theological shifts started by the 95 Theses eventually crystallized into fiv
 4.  **Solus Christus (Christ Alone):** Christ is the only mediator between God and man.
 5.  **Soli Deo Gloria (To God Alone the Glory):** All glory belongs to God alone.
 {: .lang-en lang="en"}
+
 ## 信仰的基石：五大唯独
 马丁·路德的《九十五条论纲》引发的神学转变，最终凝结成了五个核心原则，即“五大唯独”（The Five Solas）。这些拉丁语短语总结了宗教改革者与中世纪教会之间的本质区别：
 {: .lang-zh lang="zh-CN"}
@@ -141,6 +148,7 @@ The theological shifts started by the 95 Theses eventually crystallized into fiv
 ## Full Text of the 95 Theses
 Below is the full bilingual text of the 95 Theses, categorized by their theological focus.
 {: .lang-en lang="en"}
+
 ## 《九十五条论纲》全文
 以下是《九十五条论纲》的全文中英对照，按其神学重点分类。
 {: .lang-zh lang="zh-CN"}
@@ -148,6 +156,7 @@ Below is the full bilingual text of the 95 Theses, categorized by their theologi
 ### Out of Love for the Truth
 Out of love for the truth and the desire to bring it to light, the following propositions will be discussed at Wittenberg, under the presidency of the Reverend Father Martin Luther, Master of Arts and of Sacred Theology, and Lecturer in Ordinary on the same at that place. Wherefore he requests that those who are unable to be present and debate orally with us, may do so by letter. In the Name of our Lord Jesus Christ. Amen.
 {: .lang-en lang="en"}
+
 ### 出于对真理的爱和追求
 出于对真理的爱和启发的愿望，下列命题将在维滕堡由文学和神学硕士、维滕堡大学常任讲师马丁·路德神父主持辩论。他请不能到场参加口头辩论的人以书面形式参加。奉主耶稣基督之名。阿门。
 {: .lang-zh lang="zh-CN"}
@@ -160,6 +169,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 3. Yet it does not mean solely inner repentance; such inner repentance is worthless unless it produces various outward mortification of the flesh.
 4. The penalty of sin remains as long as the hatred of self (that is, true inner repentance), namely till our entrance into the kingdom of heaven.
 {: .lang-en lang="en"}
+
 ### 一、 关于真实的悔改（1-4条）
 1. 当我们的主耶稣基督说“你们应当悔改”（马太福音4:17）时，祂的意思是信徒的**整个生命**应当是悔改的。
 2. “悔改”一词不能理解为圣礼中的忏悔（即神父主持下的告解和补赎）。
@@ -193,6 +203,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 19. Nor does it seem proved that souls in purgatory, at least not all of them, are certain and assured of their own salvation, even if we ourselves may be very certain of it.
 20. Therefore the pope, when he uses the words "plenary remission of all penalties," does not actually mean "all penalties," but only those imposed by himself.
 {: .lang-en lang="en"}
+
 ### 二、 教皇权力的限制（5-20条）
 5. 教皇没有免除任何罪责的意愿和权力，他只能赦免凭**他自己的权力**或教会法典所施加的惩罚。
 6. 教皇不能赦免任何罪债，而只能宣布并证明罪债已由上帝赦免。
@@ -244,6 +255,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 39. It is very difficult, even for the most learned theologians, at one and the same time to commend to the people the abundance of indulgences and the need of true contrition.
 40. A Christian who is truly contrite seeks and loves to pay penalties for his sins; the greed of indulgences, however, relaxes penalties and causes men to hate them.
 {: .lang-en lang="en"}
+
 ### 三、 关于赎罪券的错谬（21-40条）
 21. 因此，那些宣扬“靠教皇的赎罪券，人可以免除一切惩罚并得救”的传道士，是在犯错误。
 22. 事实上，教皇对炼狱里的灵魂没有任何惩罚的豁免权，因为那些惩罚本该在这一生根据教典去履行。
@@ -290,6 +302,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 54. Injury is done to the Word of God when, in the same sermon, an equal or larger amount of time is devoted to indulgences than to the Word.
 55. It is certainly the pope's sentiment that if indulgences, which are a very small thing, are celebrated with one bell, one procession, and one ceremony, then the gospel, which is the very greatest thing, should be preached with a hundred bells, a hundred processions, a hundred ceremonies.
 {: .lang-en lang="en"}
+
 ### 四、 真正的善行与教会责任（41-55条）
 41. 教皇的赦免必须谨慎宣扬，以免人们误以为它比慈善事业（善行）更重要。
 42. 必须教导基督徒：教皇并不认为购买赎罪券在任何程度上可以与怜悯的行为相提并论。
@@ -347,6 +360,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 79. To say that the cross emblazoned with the papal coat of arms, which is set up [by the indulgence preachers], is of equal worth with the cross of Christ is blasphemy.
 80. The bishops, curates, and theologians who permit such talk to be spread among the people will have to answer for this.
 {: .lang-en lang="en"}
+
 ### 五、 教会真正的宝藏（56-80条）
 56. 教皇借以颁发赎罪券的“教会宝藏”，在上帝的子民中既没有被充分界定，也没有被广泛知晓。
 57. 显然，这不是物质上的财宝，否则贩子们就不会只管积聚而不管散发了。
@@ -402,6 +416,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 90. To repress these very sharp arguments of the laity by force alone, and not to resolve them by giving reasons, is to expose the church and the pope to the ridicule of their enemies and to make Christians unhappy.
 91. If, therefore, indulgences were preached according to the spirit and intention of the pope, all these doubts would be readily resolved.
 {: .lang-en lang="en"}
+
 ### 六、 平信徒的尖锐质问（81-91条）
 81. 这种对赎罪券的无节制宣传，使得即使是博学的人，也很难在平信徒的尖锐质疑下维护教皇的尊严。
 82. 例如：既然教皇为了最可怜的理由（即为了盖一座教堂所需的臭钱）而救赎无数的灵魂，那他为什么不为了神圣的爱和灵魂的痛苦需要而清空炼狱呢？（这才是最正当的理由）。
@@ -428,6 +443,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 94. Christians should be exhorted to be diligent in following Christ, their Head, through penalties, death and hell.
 95. **And thus be confident of entering into heaven through many tribulations rather than through the false security of peace** (Acts 14:22).
 {: .lang-en lang="en"}
+
 ### 七、 总结（92-95条）
 92. 滚开！那些向基督徒说“平安，平安”而其实没有平安的先知。
 93. 祝福！那些向基督徒说“十字架，十字架”而其实没有十字架的先知。
@@ -443,6 +459,7 @@ The 95 Theses shifted the focus from human-effort-based redemption toward a radi
 
 If you are interested in how these arguments led to specific legal or religious consequences in Europe, we can explore the *Diet of Worms* or the *Confession of Augsburg* in future articles.
 {: .lang-en lang="en"}
+
 ## 神学意义：从赎罪券到恩典
 《九十五条论纲》将焦点从基于人为努力的救赎转向了对上帝恩典的彻底依赖。这最终演变成了清晰的“五大唯独”，确保每一位信徒都能通过耶稣基督直接来到施恩宝座前。
 {: .lang-zh lang="zh-CN"}

@@ -14,6 +14,7 @@ image:
 
 ## 1. Two Fears: The Divine Bully and the Locked Door
 {: .lang-en lang="en"}
+
 ## 1. 两种恐惧：神圣霸凌者与紧闭的大门
 {: .lang-zh lang="zh-CN"}
 
@@ -28,6 +29,7 @@ Second, they imagine a God who is **arbitrarily exclusive**—picturing a sincer
 
 Both of these are tragic caricatures that miss the biblical truth. The term "irresistible" can be misleading because it suggests force. Many theologians, such as R.C. Sproul, prefer the term **"Effectual Grace."** It means that God's grace is so powerful that it has the capacity to *overcome* our natural resistance. It doesn't mean we aren't capable of resisting; it means that when God intends to save, His grace successfully achieves its purpose.
 {: .lang-en lang="en"}
+
 每当提到**“不可抗拒的恩典”（Irresistible Grace）**，许多人会本能地产生一种防御性的恐惧。这种恐惧通常表现为两种形式：
 {: .lang-zh lang="zh-CN"}
 
@@ -44,6 +46,7 @@ Both of these are tragic caricatures that miss the biblical truth. The term "irr
 
 ## 2. The Root Problem: A Dead Will
 {: .lang-en lang="en"}
+
 ## 2. 根本问题：已死的意志
 {: .lang-zh lang="zh-CN"}
 
@@ -67,6 +70,7 @@ A dead person does not resist a doctor; a dead person simply *is* dead. As Marti
 
 Left to ourselves, we *always* choose to resist Him. Our hearts are hearts of stone—hard, cold, and unresponsive to the warmth of the Gospel.
 {: .lang-en lang="en"}
+
 要理解为什么恩典必须是“不可抗拒”（有效）的，我们必须先了解在基督之外人类心灵的状态。圣经并未将我们描述为“轻微病患”或“中立状态”，而是说我们在过犯中**死了**。
 {: .lang-zh lang="zh-CN"}
 
@@ -92,6 +96,7 @@ Left to ourselves, we *always* choose to resist Him. Our hearts are hearts of st
 
 ## 3. Regeneration: The Sweet Drawing
 {: .lang-en lang="en"}
+
 ## 3. 重生：甘甜的牵引
 {: .lang-zh lang="zh-CN"}
 
@@ -129,6 +134,7 @@ As St. Augustine famously put it:
 — St. Augustine
 ```
 {: .lang-en lang="en"}
+
 不可抗拒之恩典的神迹就是**重生**（出生入死）的神迹。改革宗神学在这里做出了一个至关重要的区分：**重生先于信心**（Regeneration precedes faith）。上帝并非等到我们相信后才赐予我们生命；祂是先赐予我们生命，使我们**能够**相信。
 {: .lang-zh lang="zh-CN"}
 
@@ -168,6 +174,7 @@ As St. Augustine famously put it:
 
 ## 4. The Clash at Dort: Persuasion or Power?
 {: .lang-en lang="en"}
+
 ## 4. 多特会议的博弈：劝导还是大能？
 {: .lang-zh lang="zh-CN"}
 
@@ -192,6 +199,7 @@ The doctrine of Irresistible Grace is the doctrine of **Sovereign Rescue**. If y
 
 As the *Canons of Dort* beautifully states:
 {: .lang-en lang="en"}
+
 在 17 世纪，亚米念派（抗辩派）认为恩典仅仅是一种“道德劝导”——是上帝的一种温柔提醒，而人可以轻易地拒绝它。他们在 **1610 年的《抗辩信条》** 中写道：
 {: .lang-zh lang="zh-CN"}
 
@@ -219,6 +227,7 @@ As the *Canons of Dort* beautifully states:
 — Canons of Dort, Article 11-12
 ```
 {: .lang-en lang="en"}
+
 ```quote
 “上帝……不仅赐予相信的能力，也产生了相信的意志和相信的行为……祂开启关闭的，软化坚硬的心……祂使那原是死的意志现在活了；原是恶的，现在变善了；原是不情愿的，现在变得情愿了。”
 ——《多特信经》，第 11-12 条
@@ -229,6 +238,7 @@ As the *Canons of Dort* beautifully states:
 
 ## 5. Conclusion: A Willing Surrender
 {: .lang-en lang="en"}
+
 ## 5. 结论：心甘情愿的投降
 {: .lang-zh lang="zh-CN"}
 
@@ -237,6 +247,7 @@ No one is forced into heaven. No one will be standing before the throne of God s
 
 It is not the "rape" of the will; it is the **resurrection** of the will. We surrender to Christ not because we are forced by a whip, but because we are captivated by a Beauty we can no longer resist.
 {: .lang-en lang="en"}
+
 没有一个人是被强迫进入天堂的。没有人会站在上帝的宝座前说：“我并不想来这里，但上帝逼我来了。”新造的人中的每一个人之所以在那里，是因为他们**想要**在那里——但他们之所以想要，仅仅是因为上帝在祂无限的慈爱中，将他们的“我不愿”变成了“我愿意”。
 {: .lang-zh lang="zh-CN"}
 
@@ -248,6 +259,7 @@ It is not the "rape" of the will; it is the **resurrection** of the will. We sur
 — Psalm 110:3
 ```
 {: .lang-en lang="en"}
+
 ```bible
 “当你掌权的日子，你的民要以圣洁的妆饰为衣，甘心牺牲自己……”
 —— 诗篇 110:3

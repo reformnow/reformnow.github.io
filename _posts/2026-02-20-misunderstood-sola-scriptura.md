@@ -13,6 +13,7 @@ image:
 
 ## I. Introduction: The Crisis Behind the Slogan
 {: .lang-en lang="en"}
+
 In the modern evangelical world, "Sola Scriptura" (Scripture Alone) is a ubiquitous slogan. Almost every Christian group claims to follow "the Bible alone." Yet, a glaring paradox remains: if we all hold the same Bible, why do we arrive at thousands of contradictory conclusions? Why does one group find support for infant baptism while another sees only believer's baptism? Why do some see a strict predestination while others see radical free will?
 {: .lang-en lang="en"}
 
@@ -36,6 +37,7 @@ But how we hear that Spirit speak makes all the difference.
 
 ## 一、 引言：口号背后的危机
 {: .lang-zh lang="zh-CN"}
+
 在现代福音派世界中，“唯独圣经”（Sola Scriptura）是一个无处不在的口号。几乎所有基督徒群体都宣称自己遵循“唯独圣经”。然而，一个显而易见的悖论依然存在：如果我们都拿着同一本圣经，为什么会得出成千上万种彼此矛盾的结论？为什么一个群体在圣经里看到了婴儿洗礼的依据，而另一个群体却只看到信徒洗礼？为什么有人看到了严格的预定论，而有人却看到了绝对的自由意志？
 {: .lang-zh lang="zh-CN"}
 
@@ -271,16 +273,19 @@ History and orthodox theology teach that to protect Sola Scriptura, we must empl
 
 ### a. The Ecumenical Creeds
 {: .lang-en lang="en"}
+
 *   **Function:** Defining the **Boundaries of Christianity**.
 *   **Content:** Examples include the *Apostles' Creed* and the *Nicene Creed*. They establish the bedrock of the Trinity and the dual nature of Christ. Any "return to the Bible" that violates these creeds is not a return at all, but a departure into heresy.
 {: .lang-en lang="en"}
 
 ### b. Confessions and Catechisms
 {: .lang-en lang="en"}
+
 *   **Function:** Defining the **Depth and Coherence of Doctrine**.
 *   **Content:** Examples include the *Westminster Confession of Faith* and the *Heidelberg Catechism*.
 *   **The Role:**
 {: .lang-en lang="en"}
+
     1.  **Public Interpretation:** Confessions are the Church's collective testimony to what the Bible teaches, preventing the tyranny of "private interpretation."
     2.  **Systematic Synthesis:** They collect truths scattered throughout Scripture (Covenant, Election, Sacraments) into a coherent whole, providing a comprehensive biblical perspective.
 {: .lang-en lang="en"}
@@ -293,16 +298,19 @@ History and orthodox theology teach that to protect Sola Scriptura, we must empl
 
 ### a. 大公信经（Ecumenical Creeds）
 {: .lang-zh lang="zh-CN"}
+
 *   **功能：** 划定**基督徒的边界**。
 *   **内容：** 如《使徒信经》、《尼西亚信经》。它们确立了三位一体、完全的神人二性等基石。不符合信经的所谓“回归圣经”，本质上必是异端。
 {: .lang-zh lang="zh-CN"}
 
 ### b. 认信文/信条（Confessions）
 {: .lang-zh lang="zh-CN"}
+
 *   **功能：** 划定**教义的深度与系统的连贯性**。
 *   **内容：** 如《威斯敏斯特信条》、《海德堡探题》。
 *   **作用：**
 {: .lang-zh lang="zh-CN"}
+
     1.  **公共解释：** 信条是教会对圣经真理的集体宣言，防止任何个人的“私人解经霸权”。
     2.  **真理汇总：** 将分散在圣经各处的教义（如圣约、预定、圣礼）系统化，提供全备且连贯的信仰视角。
 {: .lang-zh lang="zh-CN"}

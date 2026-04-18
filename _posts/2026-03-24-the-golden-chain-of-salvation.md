@@ -19,7 +19,7 @@ image:
 ## 1. 引言：不可动摇的盼望
 {: .lang-zh lang="zh-CN"}
 
-In a world of shifting sand and broken promises, the human heart longs for something certain. When it comes to the salvation of our souls, we often wonder: Is it up to my fluctuating will or feelings? Or is it anchored in something greater? The historic Christian faith points us to a "Golden Chain"—a series of divine acts that follow a necessary order (Ordo Salutis). It begins not with man's initiative, but with God's: **Regeneration** precedes **Faith** and **Repentance**, which inevitably leads to **Justification**, **Sanctification**, and finally **Glorification**. 
+In a world of shifting sand and broken promises, the human heart longs for something certain. When it comes to the salvation of our souls, we often wonder: Is it up to my fluctuating will or feelings? Or is it anchored in something greater? The historic Christian faith points us to a "Golden Chain"—a series of divine acts that follow a necessary order (Ordo Salutis). It begins not with man's initiative, but with God's: **Regeneration** precedes **Faith** and **Repentance**, which inevitably leads to **Justification**, **Sanctification**, and finally **Glorification**.
 {: .lang-en lang="en"}
 
 在一个充满了流沙与破碎承诺的世界里，人类的心灵渴望着某种确定的事物。当涉及到我们灵魂的救赎时，我们常会问：它是取决于我那波动起伏的意志或感觉吗？还是锚定在某种更伟大的事物之上？历史悠久的基督教信仰引导我们将目光转向一条“黄金链条”——这是一系列遵循必然顺序的神圣作为（救恩的顺序 Ordo Salutis）。它并非始于人的主动，而始于上帝的主动：**重生（Regeneration）**先于**信心**与**悔改**，并必然导致随后的**称义**、**成圣**，直至最后的**得荣耀**。
@@ -33,6 +33,7 @@ The sequence can be visualized as follows:
 
 ### The Golden Chain of Salvation / 救恩的黄金链条
 {: .lang-en lang="en"}
+
 {: .lang-zh lang="zh-CN"}
 
 <div style="display: flex; justify-content: center; align-items: flex-end; font-family: sans-serif; gap: 30px; margin: 60px 0; overflow-x: auto; padding: 40px 20px;">
@@ -177,7 +178,7 @@ Luke’s record in Acts provides a striking reversal of our human perception: we
 路加在《使徒行传》中的记录对我们人类的认知提供了一个震撼的反转：我们并非因为相信才被“预定”，而是因为我们早已被上帝的主权之手“预定得永生”，所以才相信。信心是我们在永恒中蒙拣选的第一个可见果效。
 {: .lang-zh lang="zh-CN"}
 
-As St. Augustine famously observed, we are chosen not because we were holy, but so that we might *become* holy through His grace. 
+As St. Augustine famously observed, we are chosen not because we were holy, but so that we might *become* holy through His grace.
 {: .lang-en lang="en"}
 
 正如圣奥古斯丁那段著名的观察：我们被拣选不是因为我们本身圣洁，而是为了让我们靠着祂的恩典能够“成为”圣洁。
@@ -435,7 +436,7 @@ Even in our strivings, it is God who works in us. The chain does not break durin
 ## 8. 得荣耀：必然的终点
 {: .lang-zh lang="zh-CN"}
 
-The final link is the certain end of all the elect. Romans 8:30 speaks of it as already finished. When Christ returns, our bodies will be raised, and we will be free from the presence of sin forever. 
+The final link is the certain end of all the elect. Romans 8:30 speaks of it as already finished. When Christ returns, our bodies will be raised, and we will be free from the presence of sin forever.
 {: .lang-en lang="en"}
 
 最后的环节是所有选民必然的终点。《罗马书》8:30 将其描述为已经成就的事实。当基督再来时，我们的身体必将复活，我们将永远脱离罪的同在。

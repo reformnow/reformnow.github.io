@@ -55,7 +55,7 @@ Does this verse imply that God’s eternal purposes can be frustrated by human u
 ## 二、 处境中的清晰：谁是这里的“万人”？
 {: .lang-zh lang="zh-CN"}
 
-In biblical interpretation, "all" does not always mean "every individual without exception." Often, it means "all kinds of people without distinction." In the verses immediately preceding 1 Timothy 2:4, Paul is exhorting Christians to pray for "kings and all who are in high positions" (1 Tim 2:2). 
+In biblical interpretation, "all" does not always mean "every individual without exception." Often, it means "all kinds of people without distinction." In the verses immediately preceding 1 Timothy 2:4, Paul is exhorting Christians to pray for "kings and all who are in high positions" (1 Tim 2:2).
 {: .lang-en lang="en"}
 
 在圣经解释中，“万人”或“所有”并不总是意味着“毫无例外的每一个个体”。它往往意味着“各种类别、不分等级的人”。在提摩太前书2:4之前的经文中，保罗正劝勉基督徒要为“君王和一切在位的”祷告（提前2:2）。
@@ -85,7 +85,7 @@ In biblical interpretation, "all" does not always mean "every individual without
 ```
 {: .lang-zh lang="zh-CN"}
 
-To interpret this verse as an argument against sovereign election is to ignore its immediate grammar. Note carefully to whom God is showing patience: "patient toward **you**" (*eis hymas*). Throughout the chapter, Peter distinguishes between the "scoffers" (v. 3) and the "beloved" (v. 1, 8). Furthermore, Peter identifies his audience in his first letter as "those who are elect" (1 Peter 1:1). The "all" who must reach repentance are the "all" of the beloved—the full count of the elect. 
+To interpret this verse as an argument against sovereign election is to ignore its immediate grammar. Note carefully to whom God is showing patience: "patient toward **you**" (*eis hymas*). Throughout the chapter, Peter distinguishes between the "scoffers" (v. 3) and the "beloved" (v. 1, 8). Furthermore, Peter identifies his audience in his first letter as "those who are elect" (1 Peter 1:1). The "all" who must reach repentance are the "all" of the beloved—the full count of the elect.
 {: .lang-en lang="en"}
 
 若将这节经文解析为反对主权拣选的论据，就忽略了其直接的语法结构。请仔细观察上帝正在向谁表现出忍耐：“宽容**你们**”（希腊文 *eis hymas*）。在整章经文中，彼得始终将“好戏谑的人”（3节）与“亲爱的”（1节, 8节）区分开来。更进一步看，彼得在第一封信中就明确了其受众是“蒙拣选的人”（彼得前书 1:1）。那些必须达到悔改的“人人”，是指这群“亲爱的”当中的所有人——即上帝选民的全数。
@@ -227,7 +227,7 @@ The "Golden Chain" of our salvation is not broken by the existence of those who 
 我们救恩的“黄金链条”并不会因为沉沦者的存在而断裂。相反，这条链条是由一位既极其忍耐又完全公义的主宰所造的纯全恩典。当我们读到祂“愿万人得救”时，我们听到了上帝那浩瀚的怜悯之心及其真诚的召请。但我们也安息在这样的知识中：祂的膀臂并非缩短不能拯救，凡祂从创世之前就召的人，祂必拯救到底。
 {: .lang-zh lang="zh-CN"}
 
-Salvation is a divine work from beginning to end. It does not hang on the "willing" or "running" of man, but on God who has mercy on whom He will have mercy. This is the **True Universalism** of Scripture: not that every single individual is saved, but that Christ has purchased for Himself a people from every tribe, and tongue, and nation (Rev. 5:9). 
+Salvation is a divine work from beginning to end. It does not hang on the "willing" or "running" of man, but on God who has mercy on whom He will have mercy. This is the **True Universalism** of Scripture: not that every single individual is saved, but that Christ has purchased for Himself a people from every tribe, and tongue, and nation (Rev. 5:9).
 {: .lang-en lang="en"}
 
 救恩从始至终都是一项神圣之工。它不在乎人的“定意”或“奔跑”，只在乎那要怜悯谁就怜悯谁的上帝。这就是圣经中**真正的普世性**：并非指每一个个体都得救，而是指基督已为自己从各族、各方、各民、各国中买了人来（启示录 5:9）。
