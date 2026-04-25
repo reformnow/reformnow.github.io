@@ -6,7 +6,7 @@ description: "An examination of the 19th-century origins of Dispensationalism an
 description_zh: "考查时代论在19世纪的起源，并为圣经在历史与圣约上的统一性作出有力的辩护。"
 date: 2026-04-15 00:00:00 -0400
 categories: [Theology, Ecclesiology]
-tags: [Theology, Dispensationalism, Covenant Theology, Eschatology]
+tags: [theology, dispensationalism, covenant-theology, eschatology]
 image:
   path: /assets/img/posts/dispensationalism_critique_cover.png
   alt: Unity of the Old and New Testaments leading to the Cross
