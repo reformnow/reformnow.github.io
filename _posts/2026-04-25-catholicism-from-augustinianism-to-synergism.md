@@ -6,7 +6,7 @@ description: "A historical and theological analysis of how the Roman Catholic Ch
 description_zh: "探讨罗马天主教如何从奥古斯丁的一元论转向神人合作论的历史与神学演变过程。"
 date: 2026-04-25 00:00:00 -0400
 categories: [Theology, Church History]
-tags: [Theology, Augustine, Catholicism, Synergism, Council of Trent, Molinism]
+tags: [theology, augustine, catholicism, synergism, council-of-trent, molinism]
 image:
   path: /assets/img/posts/catholic_theological_shift_cover.png
   alt: A depiction of St. Augustine and the Council of Trent representing the theological shift.
