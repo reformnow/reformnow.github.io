@@ -4,7 +4,7 @@ title: "The Battle for Romans 7: How a Single Chapter Triggered the Synod of Dor
 title_zh: "罗马书7章之战：一段经文如何引发了多特会议？"
 description: "Exploring the historical and theological conflict over Romans 7 that led to the Synod of Dort and the formulation of the TULIP."
 description_zh: "探讨引发多特会议的关于罗马书7章的历史与神学冲突，以及多特五要点的形成过程。"
-date: 2026-05-02 00:00:00 -0400
+date: 2026-04-25 00:00:00 -0400
 categories: [Theology, Church History]
 tags: [theology, church-history, romans, arminius, dordt, grace]
 image:
