@@ -128,3 +128,25 @@ pre#{':has(code.language-quote)'} {
     pointer-events: none !important;
   }
 }
+
+/* Audio Player Theme-aware Styling */
+.audio-player-container {
+  background-color: var(--card-bg) !important;
+  border: 1px solid var(--main-border-color) !important;
+  transition: all 0.2s ease-in-out;
+}
+
+[data-mode='dark'] .audio-player-container {
+  background-color: #2e2e2e !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+[data-mode='dark'] .audio-player-container audio {
+  filter: invert(90%) hue-rotate(180deg) brightness(1.2);
+  opacity: 0.85;
+}
+
+.audio-player-container p.text-muted {
+  color: var(--text-muted-color) !important;
+}
+
