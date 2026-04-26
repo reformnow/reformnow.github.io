@@ -84,11 +84,12 @@ The Protestant Reformation was the final catalyst for this shift. When Martin Lu
 宗教改革是这个转向的终点。当马丁·路德和加尔文打出“唯独恩典”和“绝对命定”的旗号，宣称自己是奥古斯丁的真正继承者时，天主教被迫做出了反击。
 {: .lang-zh lang="zh-CN"}
 
-At the Council of Trent, the Roman Catholic Church formally established the doctrine of synergism to distinguish itself from the Reformers. It condemned the view that the human will is "purely passive" in the presence of grace.
+At the Council of Trent, the Roman Catholic Church formally established the doctrine of synergism to distinguish itself from the historic orthodox position. It condemned the view that the human will is "purely passive" in the presence of grace.
 {: .lang-en lang="en"}
 
-在天特会议上，天主教为了与新教划清界限，正式确立了“神人合作”的教义。会议定罪了那种认为“人的意志在恩典面前完全是被动”的观点。
+在天特会议上，天主教为了与历史正统信仰划清界限，正式确立了“神人合作”的教义。会议定罪了那种认为“人的意志在恩典面前完全是被动”的观点。
 {: .lang-zh lang="zh-CN"}
+
 
 > "If any one saith, that man's free will moved and excited by God... cannot refuse its consent, if it would, but that, as something inanimate, it does nothing whatever and is merely a passive subject: let him be anathema."
 > — Council of Trent, Decree on Justification, Canon 4
