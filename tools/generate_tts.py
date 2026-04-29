@@ -65,6 +65,10 @@ async def main():
         current_block = []
         
         for line in content_no_frontmatter.split('\n'):
+            # Stop parsing if we reach the Bibliography section
+            if re.search(r'##\s*(Bibliography|参考文献)', line):
+                break
+                
             if re.search(r'\{:\s*\.lang-en', line):
                 en_lines.append("\n".join(current_block).strip())
                 current_block = []
@@ -89,7 +93,7 @@ async def main():
         # Generate EN
         if en_text_clean and hashes.get(f"{slug}_en") != en_hash:
             print(f"Generating EN audio for {slug}...")
-            await generate_speech(en_text_clean, "en-US-ChristopherNeural", en_audio_path)
+            await generate_speech(en_text_clean, "en-GB-RyanNeural", en_audio_path)
             hashes[f"{slug}_en"] = en_hash
             has_changes = True
             await asyncio.sleep(2)
@@ -97,7 +101,7 @@ async def main():
         # Generate ZH
         if zh_text_clean and hashes.get(f"{slug}_zh") != zh_hash:
             print(f"Generating ZH audio for {slug}...")
-            await generate_speech(zh_text_clean, "zh-CN-YunxiNeural", zh_audio_path)
+            await generate_speech(zh_text_clean, "zh-CN-YunjianNeural", zh_audio_path)
             hashes[f"{slug}_zh"] = zh_hash
             has_changes = True
             await asyncio.sleep(2)
