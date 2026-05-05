@@ -24,6 +24,18 @@ Many modern pulpits treat Deuteronomy 30:19 as a victory for "humanism," believi
 许多现代讲坛将《申命记》30:19 视为“人本主义”的胜利，认为这证明了人拥有中立且足以自救的自由意志。如果我们将这节经文孤立出来，就会把福音变成一种“交易”——一种以功劳为基础的报价，其决定性因素在于受造者而非创造主。
 {: .lang-zh lang="zh-CN"}
 
+```bible
+"I call heaven and earth to witness against you today, that I have set before you life and death, the blessing and the curse. So choose life in order that you may live, you and your descendants,"
+— Deuteronomy 30:19
+```
+{: .lang-en lang="en"}
+
+```bible
+“我今日呼天唤地向你作见证；我将生死祸福陈明在你面前，所以你要选择生命，使你和你的后裔都得存活；”
+—— 申命记 30:19
+```
+{: .lang-zh lang="zh-CN"}
+
 However, the historic Christian faith provides a different lens. This call is not an affirmation of human capability, but a proclamation of God's perfect standard. its primary purpose is to hold the mirror of the Law up to our souls, revealing our Total Inability to meet it apart from regenerating grace.
 {: .lang-en lang="en"}
 
