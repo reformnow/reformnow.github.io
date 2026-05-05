@@ -11,12 +11,17 @@ os.makedirs(audio_dir, exist_ok=True)
 hashes_file = 'tools/.tts_hashes.json'
 
 if os.path.exists(hashes_file):
-    with open(hashes_file, 'r') as f:
-        hashes = json.load(f)
+    with open(hashes_file, 'r', encoding='utf-8') as f:
+        try:
+            hashes = json.load(f)
+        except json.JSONDecodeError:
+            hashes = {}
 else:
     hashes = {}
 
 def clean_markdown(text):
+    # Ensure line endings are consistent (remove \r) and normalize to \n
+    text = text.replace('\r\n', '\n').replace('\r', '\n')
     # Remove YAML Frontmatter
     if text.startswith('---'):
         text = re.sub(r'^---.*?---\n', '', text, flags=re.DOTALL)
@@ -47,7 +52,8 @@ async def generate_speech(text, voice, outfile, retries=4, delay=5):
 
 async def main():
     has_changes = False
-    for filename in os.listdir(posts_dir):
+    # Sorting filenames for deterministic iteration
+    for filename in sorted(os.listdir(posts_dir)):
         if not filename.endswith('.md'):
             continue
             
@@ -55,9 +61,9 @@ async def main():
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
 
-        # strip the date from the slug for better URLs if desired, or keep filename
         slug = filename.replace('.md', '')
-        
+        # Normalize the whole content's line endings before regex
+        content = content.replace('\r\n', '\n').replace('\r', '\n')
         content_no_frontmatter = re.sub(r'^---.*?---\n', '', content, flags=re.DOTALL)
         
         en_lines = []
@@ -90,26 +96,32 @@ async def main():
         en_audio_path = os.path.join(audio_dir, f"{slug}_en.mp3")
         zh_audio_path = os.path.join(audio_dir, f"{slug}_zh.mp3")
         
+        # Check if file exists to force regeneration if missing
+        en_missing = not os.path.exists(en_audio_path)
+        zh_missing = not os.path.exists(zh_audio_path)
+
         # Generate EN
-        if en_text_clean and hashes.get(f"{slug}_en") != en_hash:
-            print(f"Generating EN audio for {slug}...")
+        if en_text_clean and (hashes.get(f"{slug}_en") != en_hash or en_missing):
+            reason = "content change" if hashes.get(f"{slug}_en") != en_hash else "missing file"
+            print(f"Generating EN audio for {slug} ({reason})...")
             await generate_speech(en_text_clean, "en-GB-RyanNeural", en_audio_path)
             hashes[f"{slug}_en"] = en_hash
             has_changes = True
-            await asyncio.sleep(2)
+            await asyncio.sleep(1)
 
         # Generate ZH
-        if zh_text_clean and hashes.get(f"{slug}_zh") != zh_hash:
-            print(f"Generating ZH audio for {slug}...")
+        if zh_text_clean and (hashes.get(f"{slug}_zh") != zh_hash or zh_missing):
+            reason = "content change" if hashes.get(f"{slug}_zh") != zh_hash else "missing file"
+            print(f"Generating ZH audio for {slug} ({reason})...")
             await generate_speech(zh_text_clean, "zh-CN-YunjianNeural", zh_audio_path)
             hashes[f"{slug}_zh"] = zh_hash
             has_changes = True
-            await asyncio.sleep(2)
+            await asyncio.sleep(1)
 
     if has_changes:
-        with open(hashes_file, 'w') as f:
-            json.dump(hashes, f, indent=2)
-        print("Audio generation completed.")
+        with open(hashes_file, 'w', encoding='utf-8') as f:
+            json.dump(hashes, f, indent=2, sort_keys=True)
+        print("Audio generation completed and hashes updated.")
     else:
         print("All audio files are up to date.")
 
