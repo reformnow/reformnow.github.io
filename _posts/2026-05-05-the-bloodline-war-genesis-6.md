@@ -80,10 +80,10 @@ Furthermore, Psalm 82 and Deuteronomy 32 describe a "Divine Council" hierarchy t
 ### 2. 生物突变的不可解性
 {: .lang-zh lang="zh-CN"}
 
-The intermarriage of two human groups—no matter how different their spiritual status—cannot produce *Nephilim* (giants). As Heiser emphasizes, the term *Nephilim* in Numbers 13:33 is used in a context that makes their physical "abnormality" and "giant stature" an undeniable fact.
+If the descendants of Seth were the "godly line," how could these supposedly righteous "Sons of God" lust after the beauty of the daughters of Cain and take wives for themselves "whomever they chose"? This phrasing suggests a unilateral desire or even coercion, proving that these descendants were by no means righteous. Furthermore, the intermarriage of two ungodly human groups—no matter how different their spiritual status or how depraved they were—cannot produce *Nephilim* (giants). As Heiser emphasizes, the term *Nephilim* in Numbers 13:33 is used in a context that makes their physical "abnormality" and "giant stature" an undeniable fact. These giants became the "mighty men of old, men of renown" (Genesis 6:4), providing a perfect biblical explanation for the legends of giant heroes found in the mythologies of nations and tribes across the globe.
 {: .lang-en lang="en"}
 
-两个人类族群的通婚——无论其属灵状态有多大差异——都不可能产生 *Nephilim*（伟人/巨人）。海瑟强调，*Nephilim* 在《民数记》13:33 的语境中，其生理上的“异常强大”与“巨人属性”是不容抹杀的事实。
+如果说赛特的后裔是合神心意的人，那这些合神心意的神的众子们却如何又贪恋该隐后裔的女儿的美貌，随意娶来为妻？这个随意二字更是体现了单方面的愿意甚至强迫。显然这些赛特的后裔也绝非义人。两个不敬虔的人类族群的通婚——无论其属灵状态有多大差异或者都很糟糕——都不可能产生 *Nephilim*（伟人/巨人）。海瑟强调，*Nephilim* 在《民数记》13:33 的语境中，其生理上的“异常强大”与“巨人属性”是不容抹杀的事实。而那些巨人后来都成了上古英武有名的人（创世纪6:4），这为人类各国各族的上古巨人英雄的传说做出了完美的符合圣经的解释。
 {: .lang-zh lang="zh-CN"}
 
 ```bible
