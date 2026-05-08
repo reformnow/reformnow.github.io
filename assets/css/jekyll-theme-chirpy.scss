@@ -9,14 +9,17 @@
 ';
 
 /* append your custom style below */
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;700&display=swap');
+
 .highlight pre {
   white-space: pre-wrap !important;
   word-break: break-word !important;
 }
 
 /* Bible Code Block Styling */
-/* Restore target via :has() using interpolation to avoid older SCSS compiler crashes */
-pre#{':has(code.language-bible)'} {
+/* Primary target using :has() */
+pre#{':has(code.language-bible)'},
+div.language-bible pre.highlight {
   background-color: #fcf5e5 !important; /* Parchment base color */
   background-image: 
     linear-gradient(90deg, rgba(0,0,0,0.02) 1px, transparent 1px),
@@ -73,7 +76,9 @@ pre#{':has(code.language-bible)'} {
 }
 
 /* Elegant Theological Quote Styling */
-pre#{':has(code.language-quote)'} {
+/* Primary target using :has() */
+pre#{':has(code.language-quote)'},
+div.language-quote pre.highlight {
   background: linear-gradient(to right, #ffffff, #fcfcfc) !important;
   border: 1px solid rgba(0,0,0,0.08) !important;
   border-left: 4px solid #4a5568 !important; /* Slate gray accent */
