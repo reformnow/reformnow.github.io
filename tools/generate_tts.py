@@ -35,8 +35,8 @@ def clean_markdown(text):
     text = re.sub(r'`(.*?)`', r'\1', text)
     # Remove HTML tags (e.g. <audio>, <div>)
     text = re.sub(r'<[^>]+>', '', text)
-    # Remove Greek characters that TTS engines struggle with and spell out letter by letter
-    text = re.sub(r'[\u0370-\u03FF\u1F00-\u1FFF]+', '', text)
+    # Remove Greek and Hebrew characters that TTS engines struggle with
+    text = re.sub(r'[\u0370-\u03FF\u1F00-\u1FFF\u0590-\u05FF\uFB1D-\uFB4F]+', '', text)
     return text.strip()
 
 async def generate_speech(text, voice, outfile, retries=4, delay=5):
