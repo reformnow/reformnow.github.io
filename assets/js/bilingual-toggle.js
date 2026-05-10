@@ -37,13 +37,10 @@
     if (tocLinks.length === 0) return;
 
     tocLinks.forEach(link => {
-      // Clear existing language classes to avoid double-tagging
-      link.classList.remove('lang-en', 'lang-zh');
       const parentLi = link.closest('li');
-      if (parentLi) parentLi.classList.remove('lang-en', 'lang-zh');
-
       const href = link.getAttribute('href');
       let tagged = false;
+      let expectedClass = '';
 
       if (href && href.startsWith('#')) {
         try {
@@ -53,29 +50,34 @@
             const parentEn = target.closest('.lang-en');
             const parentZh = target.closest('.lang-zh');
             if (parentEn && !parentZh) { // Only English
-              link.classList.add('lang-en');
-              if (parentLi) parentLi.classList.add('lang-en');
-              tagged = true;
+              expectedClass = 'lang-en';
             } else if (parentZh) { // If it has Chinese or both, prefer Chinese for filtering
-              link.classList.add('lang-zh');
-              if (parentLi) parentLi.classList.add('lang-zh');
-              tagged = true;
+              expectedClass = 'lang-zh';
             }
           }
         } catch (e) {}
       }
 
       // Fallback: Check text content for Chinese characters if not tagged yet
-      if (!tagged) {
+      if (!expectedClass) {
         const text = link.textContent || '';
         const hasChinese = /[\u4e00-\u9fa5]/.test(text);
         if (hasChinese) {
-          link.classList.add('lang-zh');
-          if (parentLi) parentLi.classList.add('lang-zh');
+          expectedClass = 'lang-zh';
         } else if (text.trim().length > 0) {
-          // Default to English if it has text and not tagged
-          link.classList.add('lang-en');
-          if (parentLi) parentLi.classList.add('lang-en');
+          expectedClass = 'lang-en';
+        }
+      }
+
+      // Apply expected class if not already present
+      if (expectedClass) {
+        if (!link.classList.contains(expectedClass)) {
+          link.classList.remove('lang-en', 'lang-zh');
+          link.classList.add(expectedClass);
+        }
+        if (parentLi && !parentLi.classList.contains(expectedClass)) {
+          parentLi.classList.remove('lang-en', 'lang-zh');
+          parentLi.classList.add(expectedClass);
         }
       }
     });
@@ -91,12 +93,21 @@
     const observer = new MutationObserver((mutations) => {
       let tocChanged = false;
       mutations.forEach(mutation => {
-        if (mutation.addedNodes.length > 0) {
+        if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
           mutation.addedNodes.forEach(node => {
             if (node.nodeType === 1 && (node.classList.contains('toc-link') || node.querySelector('.toc-link'))) {
               tocChanged = true;
             }
           });
+        } else if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+          // If tocbot strips our classes when active states change
+          const target = mutation.target;
+          if (target.classList.contains('toc-link') || target.tagName === 'LI') {
+            // We'll just trigger a check if the node doesn't have our tags but is a toc link/item
+            if (!target.classList.contains('lang-en') && !target.classList.contains('lang-zh')) {
+              tocChanged = true;
+            }
+          }
         }
       });
       if (tocChanged) {
@@ -106,11 +117,11 @@
 
     const tocWrapper = document.getElementById('toc-wrapper');
     if (tocWrapper) {
-      observer.observe(tocWrapper, { childList: true, subtree: true });
+      observer.observe(tocWrapper, { childList: true, subtree: true, attributes: true, attributeFilter: ['class'] });
     } else {
       // Fallback if TOC wrapper isn't found yet or on this page
       const panel = document.getElementById('panel-wrapper') || document.body;
-      observer.observe(panel, { childList: true, subtree: true });
+      observer.observe(panel, { childList: true, subtree: true, attributes: true, attributeFilter: ['class'] });
     }
 
     // Recurrent check for first few seconds
