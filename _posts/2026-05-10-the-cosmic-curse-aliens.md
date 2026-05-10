@@ -4,7 +4,7 @@ title: "The Cosmic Curse: Why Extraterrestrial Life is a Theological Impossibili
 title_zh: "宇宙性的咒诅：为何外星生命在神学上是不可能的"
 description: "Exploring the implications of Romans 8:21-22 for the existence of extraterrestrial life, arguing that Adam's fall and Christ's incarnation render the concept of 'aliens' theologically untenable."
 description_zh: "探讨罗马书 8:21-22 对外星生命存在的启示，论证亚当的堕落与基督的道成肉身如何使“外星人”的概念在神学上无法立足。"
-date: 2026-05-11 10:00:00 +0800
+date: 2026-05-10 10:00:00 +0800
 categories: [Theology, Biblical Studies]
 tags: [Aliens, Creation, Fall, Redemption, Romans 8]
 image:
