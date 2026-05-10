@@ -133,3 +133,31 @@ The "groaning" of the universe in Romans 8 is a testament to the devastating pow
 
 罗马书 8 章中所描述的宇宙“叹息”，见证了人类罪恶毁灭性的力量，以及上帝恩典更为伟大的权能。在星际间寻找生命，往往是为了逃避地球上咒诅的道德现实。外星生命在神学上的不可能，突显了赋予人类的巨大尊严与责任。我们是上帝救赎之爱唯一的对象，而这颗“暗淡蓝点”则是宇宙历史上最重要事件的舞台：借着羔羊的血，使堕落的受造界与神圣的创造主和好。
 {: .lang-zh lang="zh-CN"}
+
+---
+
+## Bibliography
+{: .lang-en lang="en"}
+
+## 参考文献
+{: .lang-zh lang="zh-CN"}
+
+1. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
+{: .lang-en lang="en"}
+1. **圣经**，新美国标准圣经 (NASB) / 简体圣经和合本 (CUV)。
+{: .lang-zh lang="zh-CN"}
+
+2. **Sproul, R.C.** *The Holiness of God*. Tyndale House Publishers, 1985.
+{: .lang-en lang="en"}
+2. **斯普劳尔**. 《上帝的神圣》。
+{: .lang-zh lang="zh-CN"}
+
+3. **MacArthur, John.** *The Battle for the Beginning: The Bible on Creation and the Fall of Adam*. W Publishing Group, 2001.
+{: .lang-en lang="en"}
+3. **麦克阿瑟**. 《创造的战争：圣经论起源与亚当的堕落》。
+{: .lang-zh lang="zh-CN"}
+
+4. **Lisle, Jason.** *Taking Back Astronomy: The Heavens Declare Creation*. Master Books, 2006.
+{: .lang-en lang="en"}
+4. **杰森·李斯乐**. 《夺回天文学：诸天宣扬创造》。
+{: .lang-zh lang="zh-CN"}
