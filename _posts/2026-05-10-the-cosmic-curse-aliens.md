@@ -142,22 +142,22 @@ The "groaning" of the universe in Romans 8 is a testament to the devastating pow
 ## 参考文献
 {: .lang-zh lang="zh-CN"}
 
-1. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
+1. **The Holy Bible**, [New American Standard Bible (NASB)](https://www.biblegateway.com/passage/?search=Romans+8&version=NASB) / [Chinese Union Version (CUV)](https://www.biblegateway.com/passage/?search=Romans+8&version=CUVS).
 {: .lang-en lang="en"}
-1. **圣经**，新美国标准圣经 (NASB) / 简体圣经和合本 (CUV)。
+1. **圣经**, [New American Standard Bible (NASB)](https://www.biblegateway.com/passage/?search=Romans+8&version=NASB) / [简体圣经和合本 (CUV)](https://www.biblegateway.com/passage/?search=Romans+8&version=CUVS)。
 {: .lang-zh lang="zh-CN"}
 
-2. **Sproul, R.C.** *The Holiness of God*. Tyndale House Publishers, 1985.
+2. **Sproul, R.C.** [*The Holiness of God*](https://www.ligonier.org/store/the-holiness-of-god-paperback). Tyndale House Publishers, 1985.
 {: .lang-en lang="en"}
-2. **斯普劳尔**. 《上帝的神圣》。
+2. **Sproul, R.C.** [*The Holiness of God*](https://www.ligonier.org/store/the-holiness-of-god-paperback). Tyndale House Publishers, 1985.
 {: .lang-zh lang="zh-CN"}
 
-3. **MacArthur, John.** *The Battle for the Beginning: The Bible on Creation and the Fall of Adam*. W Publishing Group, 2001.
+3. **MacArthur, John.** [*The Battle for the Beginning: The Bible on Creation and the Fall of Adam*](https://www.gty.org/store/books/451163). W Publishing Group, 2001.
 {: .lang-en lang="en"}
-3. **麦克阿瑟**. 《创造的战争：圣经论起源与亚当的堕落》。
+3. **MacArthur, John.** [*The Battle for the Beginning: The Bible on Creation and the Fall of Adam*](https://www.gty.org/store/books/451163). W Publishing Group, 2001.
 {: .lang-zh lang="zh-CN"}
 
-4. **Lisle, Jason.** *Taking Back Astronomy: The Heavens Declare Creation*. Master Books, 2006.
+4. **Lisle, Jason.** [*Taking Back Astronomy: The Heavens Declare Creation*](https://answersingenesis.org/store/product/taking-back-astronomy/). Master Books, 2006.
 {: .lang-en lang="en"}
-4. **杰森·李斯乐**. 《夺回天文学：诸天宣扬创造》。
+4. **Lisle, Jason.** [*Taking Back Astronomy: The Heavens Declare Creation*](https://answersingenesis.org/store/product/taking-back-astronomy/). Master Books, 2006.
 {: .lang-zh lang="zh-CN"}
