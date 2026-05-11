@@ -244,9 +244,9 @@ The following table compares the perspectives of the leading researchers in the 
 3. **Marzulli, L.A.** [*On the Trail of the Nephilim*](https://books.google.com/books/about/On_the_Trail_of_the_Nephilim.html?id=oD9OnAEACAAJ). Spiral Pressed, 2013.
 {: .lang-zh lang="zh-CN"}
 
-4. **Alberino, Timothy.** [*Birthright: The Coming Posthuman Apocalypse and the Usurpation of Adam's Dominion on Earth*](https://books.google.com/books/about/Birthright.html?id=7P0ezQEACAAJ). Alberino Media, 2020.
+4. **Alberino, Timothy.** [*Birthright: The Coming Posthuman Apocalypse and the Usurpation of Adam's Dominion on Earth*](https://www.amazon.com/Birthright-Posthuman-Apocalypse-Usurpation-Dominion/dp/B08M83XF8W). Alberino Media, 2020.
 {: .lang-en lang="en"}
-4. **Alberino, Timothy.** [*Birthright: The Coming Posthuman Apocalypse and the Usurpation of Adam's Dominion on Earth*](https://books.google.com/books/about/Birthright.html?id=7P0ezQEACAAJ). Alberino Media, 2020.
+4. **Alberino, Timothy.** [*Birthright: The Coming Posthuman Apocalypse and the Usurpation of Adam's Dominion on Earth*](https://www.amazon.com/Birthright-Posthuman-Apocalypse-Usurpation-Dominion/dp/B08M83XF8W). Alberino Media, 2020.
 {: .lang-zh lang="zh-CN"}
 
 5. **Jordan, Joe.** [*Alien Intrusion: Unmasking a Deception*](https://books.google.com/books/about/Alien_Intrusion.html?id=OQpQDwAAQBAJ). Master Books, 2011. (See also CE4 Research Group).
