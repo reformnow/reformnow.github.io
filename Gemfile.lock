@@ -76,6 +76,8 @@ GEM
       webrick (~> 1.7)
     jekyll-archives (2.3.0)
       jekyll (>= 3.6, < 5.0)
+    jekyll-feed (0.17.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
@@ -152,6 +154,7 @@ PLATFORMS
 
 DEPENDENCIES
   html-proofer (~> 5.0)
+  jekyll-feed (~> 0.17)
   jekyll-include-cache (~> 0.2)
   jekyll-paginate (~> 1.1)
   jekyll-theme-chirpy (~> 7.4, >= 7.4.1)

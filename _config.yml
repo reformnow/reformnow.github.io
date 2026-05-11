@@ -153,6 +153,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-sitemap
+  - jekyll-feed
 
 paginate: 10
 
