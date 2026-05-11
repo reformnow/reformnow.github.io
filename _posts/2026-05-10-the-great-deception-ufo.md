@@ -136,12 +136,16 @@ This explains why Grays lack reproductive organs, digestive tracts, or distinct 
 {: .lang-zh lang="zh-CN"}
 
 A critical piece of evidence regarding the true nature of the UFO phenomenon is the "Abduction" experience. When analyzed through a theological lens, the similarities between modern alien abductions and historical demonic oppression are undeniable. Both involve:
+{: .lang-en lang="en"}
+
 1.  **Paralysis and Terror**: Victims are often immobilized and overwhelmed by a sense of pure evil.
 2.  **Violations**: Involuntary medical-like procedures and sexual components that mirror the "incubus/succubus" accounts of old.
 3.  **Mental Manipulation**: The use of telepathy and false visions to deceive the victim.
 {: .lang-en lang="en"}
 
 关于 UFO 现象本质的一个关键证据是“绑架”经历。通过神学透镜分析，现代的外星人绑架与历史上的鬼魔压制之间的相似性是不可否认的。两者都涉及：
+{: .lang-zh lang="zh-CN"}
+
 1.  **瘫痪与恐怖**：受害者通常动弹不得，并被一种纯粹的邪恶感所淹没。
 2.  **侵犯**：非自愿的类医疗程序和性成分，这与古代关于“梦魇/淫妖”的记录如出一辙。
 3.  **精神操纵**：使用心灵感应和虚假异象来欺骗受害者。
