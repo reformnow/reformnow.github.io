@@ -31,6 +31,24 @@ With the recent surge in U.S. government "UFO disclosure," including Congression
 随着美国政府近期“UFO揭秘”浪潮的高涨，包括有关“非人类生物制品”的国会证词，世界正被引导进入一种范式转移。然而，正如 L.A. Marzulli 在近期访谈中所记录的那样，世俗世界所谓的“外星人”（ET），实际上是古代圣经文献中所描述的“非人类智能”（NHI）。这并非发现了他星生命，而是提摩太前书 4:1 中预言的“引诱人的邪灵和鬼魔的道理”的显现。
 {: .lang-zh lang="zh-CN"}
 
+```bible
+"All things were made through him, and without him was not any thing made that was made."
+— John 1:3
+```
+{: .lang-en lang="en"}
+
+```bible
+“万物是借着他造的；凡被造的，没有一样不是借着他造的。”
+—— 约翰福音 1:3
+```
+{: .lang-zh lang="zh-CN"}
+
+This foundational truth reminds us that there is no "rogue" life in the universe. Every entity, whether holy, fallen, or hybrid, exists within the created order of the Word (Logos).
+{: .lang-en lang="en"}
+
+这一基石般的真理提醒我们，宇宙中不存在“不受控”的生命。每一个实体，无论是神圣的、堕落的还是混血的，都存在于圣言（Logos）所创造的秩序之内。
+{: .lang-zh lang="zh-CN"}
+
 ---
 
 ## 2. Defining the Hierarchy: Angels, Fallen Angels, and Demons
@@ -175,9 +193,9 @@ The following table compares the perspectives of the leading researchers in the 
 ## 参考文献
 {: .lang-zh lang="zh-CN"}
 
-1. **The Holy Bible**, [New American Standard Bible (NASB)](https://www.biblegateway.com/passage/?search=Romans+8&version=NASB) / [Chinese Union Version (CUV)](https://www.biblegateway.com/passage/?search=Romans+8&version=CUVS).
+1. **The Holy Bible**, [New American Standard Bible (NASB)](https://www.biblegateway.com/passage/?search=John+1%3B+Romans+8&version=NASB) / [Chinese Union Version (CUV)](https://www.biblegateway.com/passage/?search=John+1%3B+Romans+8&version=CUVS).
 {: .lang-en lang="en"}
-1. **圣经**, [New American Standard Bible (NASB)](https://www.biblegateway.com/passage/?search=Romans+8&version=NASB) / [简体圣经和合本 (CUV)](https://www.biblegateway.com/passage/?search=Romans+8&version=CUVS)。
+1. **圣经**, [New American Standard Bible (NASB)](https://www.biblegateway.com/passage/?search=John+1%3B+Romans+8&version=NASB) / [简体圣经和合本 (CUV)](https://www.biblegateway.com/passage/?search=John+1%3B+Romans+8&version=CUVS)。
 {: .lang-zh lang="zh-CN"}
 
 2. **The Confessionals Podcast.** [*What If ‘Aliens’ Are Just Demons in Gray Bodies? feat. L.A. Marzulli*](https://www.youtube.com/watch?v=oW1JA8wQsio). YouTube, 2024.
