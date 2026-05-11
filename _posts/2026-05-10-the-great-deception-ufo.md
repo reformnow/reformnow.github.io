@@ -129,10 +129,42 @@ This explains why Grays lack reproductive organs, digestive tracts, or distinct 
 
 ---
 
-## 4. The Coming Great Deception
+## 4. Abductions and Demonic Oppression: The Spiritual Countermeasure
 {: .lang-en lang="en"}
 
-## 4. 即将到来的大欺骗
+## 4. 绑架与鬼魔压制：灵性的应对之道
+{: .lang-zh lang="zh-CN"}
+
+A critical piece of evidence regarding the true nature of the UFO phenomenon is the "Abduction" experience. When analyzed through a theological lens, the similarities between modern alien abductions and historical demonic oppression are undeniable. Both involve:
+1.  **Paralysis and Terror**: Victims are often immobilized and overwhelmed by a sense of pure evil.
+2.  **Violations**: Involuntary medical-like procedures and sexual components that mirror the "incubus/succubus" accounts of old.
+3.  **Mental Manipulation**: The use of telepathy and false visions to deceive the victim.
+{: .lang-en lang="en"}
+
+关于 UFO 现象本质的一个关键证据是“绑架”经历。通过神学透镜分析，现代的外星人绑架与历史上的鬼魔压制之间的相似性是不可否认的。两者都涉及：
+1.  **瘫痪与恐怖**：受害者通常动弹不得，并被一种纯粹的邪恶感所淹没。
+2.  **侵犯**：非自愿的类医疗程序和性成分，这与古代关于“梦魇/淫妖”的记录如出一辙。
+3.  **精神操纵**：使用心灵感应和虚假异象来欺骗受害者。
+{: .lang-zh lang="zh-CN"}
+
+The most revealing fact, however, is the **only effective countermeasure**. As documented by Joe Jordan of the *CE4 Research Group*, there are hundreds of verified cases where abductions were stopped mid-event by the victim calling on the name of **Jesus Christ**.
+{: .lang-en lang="en"}
+
+然而，最能揭示真相的事实是**唯一有效的应对措施**。正如 *CE4 研究小组* 的乔·乔丹（Joe Jordan）所记录的那样，有数百个经过验证的案例显示，当受害者呼求**耶稣基督**之名时，绑架过程会在中途立即停止。
+{: .lang-zh lang="zh-CN"}
+
+> "These experiences do not stop because of a laser or a scientific device. They stop when the authority of Christ is invoked. This proves they are subject to the spiritual laws of God, not the physical laws of interstellar travel."
+{: .lang-en lang="en"}
+
+> “这些经历并非因为激光或科学设备而停止。当基督的权柄被援引时，它们便停止了。这证明它们服从于上帝的灵性法则，而非星际旅行的物理法则。”
+{: .lang-zh lang="zh-CN"}
+
+---
+
+## 5. The Coming Great Deception
+{: .lang-en lang="en"}
+
+## 5. 即将到来的大欺骗
 {: .lang-zh lang="zh-CN"}
 
 The ultimate goal of this disclosure is what Marzulli calls "The Coming Great Deception." When these entities officially "arrive," they will likely offer a narrative intended to collapse the Christian worldview:
@@ -159,10 +191,10 @@ As Marzulli warns, it only takes a moment of global crisis (such as a nuclear th
 
 ---
 
-## 5. Comparative Perspectives: Marzulli, Quayle, and Alberino
+## 6. Comparative Perspectives: Marzulli, Quayle, and Alberino
 {: .lang-en lang="en"}
 
-## 5. 观点对比：Marzulli, Quayle 与 Alberino
+## 6. 观点对比：Marzulli, Quayle 与 Alberino
 {: .lang-zh lang="zh-CN"}
 
 The following table compares the perspectives of the leading researchers in the Biblical "Nephilim" and "UFO" field:
@@ -211,4 +243,9 @@ The following table compares the perspectives of the leading researchers in the 
 4. **Alberino, Timothy.** [*Birthright: The Coming Posthuman Apocalypse and the Usurpation of Adam's Dominion on Earth*](https://books.google.com/books/about/Birthright.html?id=7P0ezQEACAAJ). Alberino Media, 2020.
 {: .lang-en lang="en"}
 4. **Alberino, Timothy.** [*Birthright: The Coming Posthuman Apocalypse and the Usurpation of Adam's Dominion on Earth*](https://books.google.com/books/about/Birthright.html?id=7P0ezQEACAAJ). Alberino Media, 2020.
+{: .lang-zh lang="zh-CN"}
+
+5. **Jordan, Joe.** [*Alien Intrusion: Unmasking a Deception*](https://books.google.com/books/about/Alien_Intrusion.html?id=OQpQDwAAQBAJ). Master Books, 2011. (See also CE4 Research Group).
+{: .lang-en lang="en"}
+5. **乔丹, 乔.** [*Alien Intrusion: Unmasking a Deception*](https://books.google.com/books/about/Alien_Intrusion.html?id=OQpQDwAAQBAJ). Master Books, 2011. (参阅 CE4 研究小组)。
 {: .lang-zh lang="zh-CN"}
