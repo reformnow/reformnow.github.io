@@ -284,6 +284,12 @@ In his seminal work *The Potter's Freedom*, James White reinforces this by empha
 ```
 {: .lang-zh lang="zh-CN"}
 
+For those who struggle to grasp the doctrine of **Original Sin**, the hardening of Pharaoh may seem like God "denying him a chance" to repent. However, this objection fails to account for the total depravity of the human heart. Because of original sin, all are naturally alienated from God; apart from His sovereign grace in election, no one would ever truly repent on their own. Pharaoh was simply one of those not chosen for mercy, left instead in his natural rebellion. To say God denied him a chance is to ignore the reality that, without God’s prior work in the soul, no rebel ever seeks the God they hate.
+{: .lang-en lang="en"}
+
+在有些不能明白“原罪”教义的人看来，如果上帝使法老的心刚硬，则是没有给法老悔改的机会。这种异议的根源在于他们没有明白人的“原罪”使人与上帝完全隔绝。若非上帝主权的恩典拣选，没有人会在上帝面前真正悔改。法老显然是那些未被上帝拣选蒙怜悯的罪人之一，他被任凭留在自己天然的悖逆中。因此，若说上帝没有给他机会，则是忽视了这样一个事实：如果没有上帝先行的救赎之功，没有任何叛逆者会主动寻求他们所恨恶的上帝。
+{: .lang-zh lang="zh-CN"}
+
 This "patience" is not a sign of divine weakness or indecision. Rather, it is a strategic delay. God allows the wicked to proceed further in their rejection of Him so that, in the climax of their rebellion, His absolute power and holy wrath might be displayed. This serves as a stark contrast to the "riches of His glory" shown to the vessels of mercy. As Scripture records, the report of this judgment reached as far as Jericho, where Rahab confessed: "For we have heard how the Lord dried up the water of the Red Sea before you when you came out of Egypt... and as soon as we heard it, our hearts melted" (Joshua 2:10-11). Both the hardening of the one and the softening of the other serve the same singular end: the manifestation of the fullness of God’s character and the proclamation of His name in all the earth.
 {: .lang-en lang="en"}
 
