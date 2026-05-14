@@ -241,11 +241,3 @@ As believers who seek to stand upon the historic, unified faith of the Church, w
 3. **Poythress, Vern S.** *Understanding Dispensationalists*. P&R Publishing, 1994. (A careful and charitable analysis of dispensational hermeneutics).
 4. **Riddlebarger, Kim.** *A Case for Amillennialism: Understanding the End Times*. Baker Books, 2003. (Defends historic, covenantal eschatology against dispensational premillennialism).
 5. **Mathison, Keith A.** *Dispensationalism: Rightly Dividing the People of God?* P&R Publishing, 1995.
-{: .lang-en lang="en"}
-
-1. **奥斯瓦尔德·艾利斯 (Oswald T. Allis)**. 《预言与教会》(Prophecy and the Church). 改革宗长老会出版社, 1945. (批评时代论将以色列与教会割裂的经典之作).
-2. **约翰·葛斯纳 (John H. Gerstner)**. 《错误分解真理的道：对时代论的批判》(Wrongly Dividing the Word of Truth: A Critique of Dispensationalism). Soli Deo Gloria, 2000.
-3. **弗恩·蒲瑞思 (Vern S. Poythress)**. 《理解时代论者》(Understanding Dispensationalists). P&R 出版社, 1994.
-4. **金·利德尔伯格 (Kim Riddlebarger)**. 《支持无千禧年论：认识末世论》(A Case for Amillennialism: Understanding the End Times). 贝克出版社, 2003.
-5. **基思·马提森 (Keith A. Mathison)**. 《时代论：按正意分解神的子民？》(Dispensationalism: Rightly Dividing the People of God?). P&R 出版社, 1995.
-{: .lang-zh lang="zh-CN"}

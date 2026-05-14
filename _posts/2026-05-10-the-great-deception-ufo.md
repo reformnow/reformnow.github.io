@@ -141,15 +141,6 @@ A critical piece of evidence regarding the true nature of the UFO phenomenon is 
 1.  **Paralysis and Terror**: Victims are often immobilized and overwhelmed by a sense of pure evil.
 2.  **Violations**: Involuntary medical-like procedures and sexual components that mirror the "incubus/succubus" accounts of old.
 3.  **Mental Manipulation**: The use of telepathy and false visions to deceive the victim.
-{: .lang-en lang="en"}
-
-关于 UFO 现象本质的一个关键证据是“绑架”经历。通过神学透镜分析，现代的外星人绑架与历史上的鬼魔压制之间的相似性是不可否认的。两者都涉及：
-{: .lang-zh lang="zh-CN"}
-
-1.  **瘫痪与恐怖**：受害者通常动弹不得，并被一种纯粹的邪恶感所淹没。
-2.  **侵犯**：非自愿的类医疗程序和性成分，这与古代关于“梦魇/淫妖”的记录如出一辙。
-3.  **精神操纵**：使用心灵感应和虚假异象来欺骗受害者。
-{: .lang-zh lang="zh-CN"}
 
 The most revealing fact, however, is the **only effective countermeasure**. As documented by Joe Jordan of the *CE4 Research Group*, there are hundreds of verified cases where abductions were stopped mid-event by the victim calling on the name of **Jesus Christ**.
 {: .lang-en lang="en"}
@@ -180,12 +171,6 @@ The ultimate goal of this disclosure is what Marzulli calls "The Coming Great De
 1.  **Direct Creation (Panspermia)**: They will claim to have "seeded" all life on Earth.
 2.  **Genetic Manipulation**: They will claim to have "upgraded" early humans to create modern man.
 3.  **Religious Origins**: They will claim that all world religions were started by them to guide primitive humanity.
-{: .lang-en lang="en"}
-
-1.  **直接创造（生源论）**：他们将声称“播种”了地球上的所有生命。
-2.  **基因操纵**：他们将声称“升级”了早期人类以创造现代人。
-3.  **宗教起源**：他们将声称世界所有的宗教都是由他们发起的，以引导原始人类。
-{: .lang-zh lang="zh-CN"}
 
 As Marzulli warns, it only takes a moment of global crisis (such as a nuclear threat) to create a "climate of fear" that will drive humanity into the arms of these "saviors."
 {: .lang-en lang="en"}
@@ -230,26 +215,11 @@ The following table compares the perspectives of the leading researchers in the 
 {: .lang-zh lang="zh-CN"}
 
 1. **The Holy Bible**, [New American Standard Bible (NASB)](https://www.biblegateway.com/passage/?search=John+1%3B+Romans+8&version=NASB) / [Chinese Union Version (CUV)](https://www.biblegateway.com/passage/?search=John+1%3B+Romans+8&version=CUVS).
-{: .lang-en lang="en"}
-1. **圣经**, [New American Standard Bible (NASB)](https://www.biblegateway.com/passage/?search=John+1%3B+Romans+8&version=NASB) / [简体圣经和合本 (CUV)](https://www.biblegateway.com/passage/?search=John+1%3B+Romans+8&version=CUVS)。
-{: .lang-zh lang="zh-CN"}
 
 2. **The Confessionals Podcast.** [*What If ‘Aliens’ Are Just Demons in Gray Bodies? feat. L.A. Marzulli*](https://www.youtube.com/watch?v=oW1JA8wQsio). YouTube, 2024.
-{: .lang-en lang="en"}
-2. **The Confessionals Podcast.** [*如果“外星人”只是小灰人身体里的鬼魔？访谈 L.A. Marzulli*](https://www.youtube.com/watch?v=oW1JA8wQsio). YouTube, 2024.
-{: .lang-zh lang="zh-CN"}
 
 3. **Marzulli, L.A.** [*On the Trail of the Nephilim*](https://books.google.com/books/about/On_the_Trail_of_the_Nephilim.html?id=oD9OnAEACAAJ). Spiral Pressed, 2013.
-{: .lang-en lang="en"}
-3. **Marzulli, L.A.** [*On the Trail of the Nephilim*](https://books.google.com/books/about/On_the_Trail_of_the_Nephilim.html?id=oD9OnAEACAAJ). Spiral Pressed, 2013.
-{: .lang-zh lang="zh-CN"}
 
 4. **Alberino, Timothy.** [*Birthright: The Coming Posthuman Apocalypse and the Usurpation of Adam's Dominion on Earth*](https://www.amazon.com/Birthright-Posthuman-Apocalypse-Usurpation-Dominion/dp/B08M83XF8W). Alberino Media, 2020.
-{: .lang-en lang="en"}
-4. **Alberino, Timothy.** [*Birthright: The Coming Posthuman Apocalypse and the Usurpation of Adam's Dominion on Earth*](https://www.amazon.com/Birthright-Posthuman-Apocalypse-Usurpation-Dominion/dp/B08M83XF8W). Alberino Media, 2020.
-{: .lang-zh lang="zh-CN"}
 
 5. **Jordan, Joe.** [*Alien Intrusion: Unmasking a Deception*](https://books.google.com/books/about/Alien_Intrusion.html?id=OQpQDwAAQBAJ). Master Books, 2011. (See also CE4 Research Group).
-{: .lang-en lang="en"}
-5. **乔丹, 乔.** [*Alien Intrusion: Unmasking a Deception*](https://books.google.com/books/about/Alien_Intrusion.html?id=OQpQDwAAQBAJ). Master Books, 2011. (参阅 CE4 研究小组)。
-{: .lang-zh lang="zh-CN"}

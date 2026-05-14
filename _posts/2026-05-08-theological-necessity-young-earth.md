@@ -151,21 +151,9 @@ Once we strip away the mask of the secular billions of years, God's actions in h
 {: .lang-zh lang="zh-CN"}
 
 1. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
-{: .lang-en lang="en"}
-1. **圣经**，新美国标准圣经 (NASB) / 简体圣经和合本 (CUV)。
-{: .lang-zh lang="zh-CN"}
 
 2. **Morris, Henry M.** *The Biblical Basis for Modern Science*. Master Books, 2002.
-{: .lang-en lang="en"}
-2. **莫里斯, 亨利**. 《现代科学的圣经基础》。
-{: .lang-zh lang="zh-CN"}
 
 3. **Mortenson, Terry.** *Coming to Grips with Genesis: Biblical Authority and the Age of the Earth*. Master Books, 2008.
-{: .lang-en lang="en"}
-3. **莫滕森, 特里**. 《理解创世记：圣经权威与地球年龄》。
-{: .lang-zh lang="zh-CN"}
 
 4. **Whitcomb, John C., and Henry M. Morris.** *The Genesis Flood: The Biblical Record and Its Scientific Implications*. P&R Publishing, 1961.
-{: .lang-en lang="en"}
-4. **惠特科姆, 约翰 和 莫里斯, 亨利**. 《创世记大洪水：圣经记录及其科学意义》。
-{: .lang-zh lang="zh-CN"}

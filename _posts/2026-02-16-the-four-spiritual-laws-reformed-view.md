@@ -9,6 +9,7 @@ description_zh: "以真正符合圣经的视角审视属灵四定律：将对上
 image:
   path: /assets/img/posts/four_spiritual_laws_reformed.png
   alt: "The Four Spiritual Laws: A Biblical Perspective"
+  alt_zh: "四个属灵的原则：圣经视角"
 ---
 
 ### Introduction

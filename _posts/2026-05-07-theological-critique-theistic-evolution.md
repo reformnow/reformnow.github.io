@@ -175,21 +175,9 @@ We must stand firmly on the testimony of the Word: that man was a special creati
 {: .lang-zh lang="zh-CN"}
 
 1. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
-{: .lang-en lang="en"}
-1. **圣经**，新美国标准圣经 (NASB) / 简体圣经和合本 (CUV)。
-{: .lang-zh lang="zh-CN"}
 
 2. **Grudem, Wayne, J.P. Moreland, et al.** *Theistic Evolution: A Scientific, Philosophical, and Theological Critique*. Crossway, 2017.
-{: .lang-en lang="en"}
-2. **古德恩, 韦恩等**. 《神导进化论：科学、哲学和神学的批判》。
-{: .lang-zh lang="zh-CN"}
 
 3. **Collins, C. John.** *Did Adam and Eve Really Exist? Who They Were and Why You Should Care*. Crossway, 2011.
-{: .lang-en lang="en"}
-3. **柯林斯, C. 约翰**. 《亚当和夏娃真的存在吗？》。
-{: .lang-zh lang="zh-CN"}
 
 4. **Westminster Confession of Faith**, Chapter IV: Of Creation.
-{: .lang-en lang="en"}
-4. **威斯敏斯特信条**，第四章：论创造。
-{: .lang-zh lang="zh-CN"}

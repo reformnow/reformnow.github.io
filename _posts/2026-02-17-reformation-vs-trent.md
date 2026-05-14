@@ -9,6 +9,7 @@ description_zh: "关于马丁·路德法理绝罚、天特会议系统性咒诅�
 image:
   path: https://upload.wikimedia.org/wikipedia/commons/7/7e/Concilio_Trento_Museo_Buonconsiglio.jpg
   alt: "The Council of Trent by Elia Naurizio (1633)"
+  alt_zh: "埃利亚·纳乌里齐奥所绘的天特会议 (1633)"
 ---
 
 ## I. The Forensic Breaking Point: The Legal Trial of Martin Luther (1517–1521)
@@ -50,9 +51,10 @@ On January 3, 1521, Luther was formally and finally excommunicated. The legal la
 {: .lang-zh lang="zh-CN"}
 
 > We decrease and declare the said Martin to be a heretic...
-We prohibit each and every one of the faithful, under pain of excommunication, 
-to read, possess, or print any books composed by the said Martin.
-(Decet Romanum Pontificem)
+> We prohibit each and every one of the faithful, under pain of excommunication, 
+> to read, possess, or print any books composed by the said Martin.
+> (Decet Romanum Pontificem)
+{: .lang-en lang="en"}
 
 ---
 
@@ -136,6 +138,8 @@ If Luther was the blunt instrument, Calvin was the surgical strike. The Roman Ca
 
 ### 1. The *Institutes* and the Subversion of Order
 The Church saw the *Institutes of the Christian Religion* (1536) as an "Architect's Guide to Destroying the Apostolic Church." Calvin did not just point at the Pope's corruption; he argued that the Office of the Pope was the **Anti-Christ**. 
+{: .lang-en lang="en"}
+
 In 1542, the Sorbonne (the theological faculty of Paris) formally condemned the *Institutes*. They didn't just find errors; they found a **New Religion**.
 {: .lang-en lang="en"}
 
@@ -146,7 +150,11 @@ In 1542, the Sorbonne (the theological faculty of Paris) formally condemned the 
 
 ### 2. The Persistence of "Anathema" against Calvinism
 Trent's decrees on the Sacraments (Session VII and XIII) were specifically aimed at the precision of Calvin's logic.
+{: .lang-en lang="en"}
+
 - **Session VII, Canon 6**: "If any one saith, that the sacraments of the New Law do not contain the grace which they signify... let him be anathema."
+{: .lang-en lang="en"}
+
 This was a direct attack on Calvin's view that the sacraments are signs of grace already received by the elect, rather than the internal cause of grace itself.
 {: .lang-en lang="en"}
 
@@ -202,7 +210,9 @@ To the Reformers, this was a return to the Galatian heresy—the idea that somet
 
 ## V. Historical Conclusion: The Unbridgeable Chasm
 The Council of Trent did not "solve" the Reformation; it **codified the divorce**. By using the phrase "Anathema Sit," the Catholic Church declared that the Reformation was not a reform of the Church, but a departure from it. 
-In the 20th century, some attempts were made to bridge this gap, but as long as the Canons of Trent stand—and they are considered infallible by the Catholic Church—the legal status of Martin Luther and the theological status of John Calvin remain that of the condemned.
+{: .lang-en lang="en"}
+
+In 20th century, some attempts were made to bridge this gap, but as long as the Canons of Trent stand—and they are considered infallible by the Catholic Church—the legal status of Martin Luther and the theological status of John Calvin remain that of the condemned.
 {: .lang-en lang="en"}
 
 ## 五、 历史结论：无法逾越的鸿沟

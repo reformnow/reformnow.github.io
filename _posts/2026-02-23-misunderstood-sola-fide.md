@@ -9,6 +9,7 @@ description_zh: "在这个自我称义的时代，发掘圣经中因信称义的
 image:
   path: /assets/img/posts/sola_fide.png
   alt: "Sola Fide - Faith Alone"
+  alt_zh: "唯独信心"
 ---
 
 ## 1. The Relatable Search for Worthiness

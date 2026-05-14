@@ -300,15 +300,10 @@ The Seven Words from the cross remain the deepest well of meditation for the sou
 {: .lang-zh lang="zh-CN"}
 
 To fully grasp the mystery of these seven utterances, we must reflect on the unique nature of the Savior's death as delineated by A.W. Pink:
+{: .lang-en lang="en"}
+
 1. **Natural**: It was a real physical death, where He truly experienced the separation of soul and body.
 2. **Unnatural**: Being perfectly sinless, He had no legal obligation to die; He died solely as a substitute for others.
 3. **Preternatural**: It was not an accident of history but was eternally decreed in the divine counsel of God.
 4. **Supernatural**: He was never defeated by death; He was the master of it, actively yielding His spirit in perfect sovereignty.
 {: .lang-en lang="en"}
-
-为了全然领悟这七个呼吁中的奥秘，我们必须深思 A.W. 平克所描画的救主之死那独特的本质：
-1. **它是自然的 (Natural)**：这是一次真实的肉身死亡，他切实地经历了灵魂与身体的分离。
-2. **它是非自然的 (Unnatural)**：因他全然无罪，其本身并无法律上的受死义务；他是唯独作为他人的替代者而死。
-3. **它是超自然的 (Preternatural)**：这并非历史的偶然，而是三位一体上帝在永恒中早已预定好的旨意。
-4. **它是超凡的 (Supernatural)**：他从未被死亡所征服；他始终是死亡的主宰，在完美的主权中主动交出自己的灵魂。
-{: .lang-zh lang="zh-CN"}

@@ -199,11 +199,3 @@ Instead of fatalism's "I am a victim of fate," we declare "I am a child of a sov
 3. **Calvin, John.** *Institutes of the Christian Religion*. Book III, Chapters 21-24.
 4. **Packer, J.I.** *Evangelism and the Sovereignty of God*. InterVarsity Press, 1961. (Explains how divine sovereignty and human responsibility work together).
 5. **Pink, A.W.** *The Sovereignty of God*. Baker Books, 1918.
-{: .lang-en lang="en"}
-
-1. **史普罗 (R.C. Sproul)**. 《上帝所拣选的》(Chosen by God). 提道尔出版社, 1986. (理解预定论之人格化与慈爱属性的必读资源).
-2. **洛兰·伯特纳 (Loraine Boettner)**. 《改革宗预定论》(The Reformed Doctrine of Predestination). P&R 出版社, 1932. (对预定论与宿命论之辨析的系统性辩护).
-3. **约翰·加尔文 (John Calvin)**. 《基督教要义》(Institutes of the Christian Religion). 第三卷, 第21-24章.
-4. **巴刻 (J.I. Packer)**. 《传福音与神的主权》(Evangelism and the Sovereignty of God). IVP 出版社, 1961. (解释了上帝的主权与人的责任如何协调工作).
-5. **宾克 (A.W. Pink)**. 《上帝的主权》(The Sovereignty of God). 贝克出版社, 1918.
-{: .lang-zh lang="zh-CN"}

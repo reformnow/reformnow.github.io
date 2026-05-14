@@ -244,16 +244,8 @@ Regardless of which interpretation of "All Israel" one holds, we must maintain t
 {: .lang-zh lang="zh-CN"}
 
 1.  **No Separate Covenant**: There is no "Zionist" or ethnic path to God apart from Jesus Christ. No one is saved by their bloodline, but only by the precious blood of the Lamb.
-{: .lang-en lang="en"}
-
-1. **没有另一份圣约**：除了耶稣基督之外，没有任何“锡安主义”或民族性的道路可以通向上帝。没有人能靠着血统得救，唯有靠着羔羊的宝血。
-{: .lang-zh lang="zh-CN"}
 
 2.  **Sola Fide (Faith Alone)**: The "grafting in" occurs solely through faith and repentance. God's plan for Israel is not a political one, but a redemptive one—to bring them back to the Messiah they once rejected.
-{: .lang-en lang="en"}
-
-2. **唯独信心 (Sola Fide)**：“接上去”的工作完全是借着信心与悔改达成的。上帝对以色列的计划不是政治性的，而是救赎性的——即带领他们回到那位他们曾拒绝过的弥赛亚面前。
-{: .lang-zh lang="zh-CN"}
 
 ---
 

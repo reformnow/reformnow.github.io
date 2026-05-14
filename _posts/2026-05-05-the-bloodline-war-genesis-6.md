@@ -293,21 +293,9 @@ By recovering this supernatural worldview, we move beyond a simple moralism and 
 {: .lang-zh lang="zh-CN"}
 
 1. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
-{: .lang-en lang="en"}
-1. **圣经**，新美国标准圣经 (NASB) / 简体圣经和合本 (CUV)。
-{: .lang-zh lang="zh-CN"}
 
 2. **Heiser, Michael S.** *The Unseen Realm: Recovering the Supernatural Worldview of the Bible*. Lexham Press, 2015.
-{: .lang-en lang="en"}
-2. **海瑟, 迈克尔**. 《看不见的国度：恢复圣经的超自然世界观》。
-{: .lang-zh lang="zh-CN"}
 
 3. **Heiser, Michael S.** *Reversing Hermon: Enoch, the Watchers, and the Forgotten Mission of Jesus Christ*. Defender Publishing, 2017.
-{: .lang-en lang="en"}
-3. **海瑟, 迈克尔**. 《翻转黑门山：以诺、看守者与耶稣基督被遗忘的使命》。
-{: .lang-zh lang="zh-CN"}
 
 4. **Augustine of Hippo.** *The City of God*. (For contrast on the Sethite view development).
-{: .lang-en lang="en"}
-4. **希波的奥古斯丁**. 《上帝之城》。（用于对比塞特后裔说的演变）。
-{: .lang-zh lang="zh-CN"}
