@@ -36,22 +36,22 @@ In the Hebrew text of Exodus, three different verbs are used to describe the "ha
 在《出埃及记》的希伯来原文中，使用了三个不同的动词来描述法老之心的“刚硬”，每一个动词都传达了特定的神学细微差别。值得注意的是，在《出埃及记》共有 20 处提到这种刚硬，其中正好有一半（10 处）归因于法老自身的本性，另一半（10 处）则归因于上帝的主动作为。
 {: .lang-zh lang="zh-CN"}
 
-1. **Chazaq (חָזַק):** This verb means "to strengthen, to fortify, to make strong." It is the word most frequently used when God declares His active involvement (e.g., Exodus 4:21, 7:3). It implies that God reinforced Pharaoh's internal resolve, giving him the "strength" to resist the plagues that would have otherwise broken a lesser man.
+I. **Chazaq (חָזַק):** This verb means "to strengthen, to fortify, to make strong." It is the word most frequently used when God declares His active involvement (e.g., Exodus 4:21, 7:3). It implies that God reinforced Pharaoh's internal resolve, giving him the "strength" to resist the plagues that would have otherwise broken a lesser man.
 {: .lang-en lang="en"}
 
-1. **Chazaq (חָזַק):** 意为“使之坚硬、加强、使之有力量”。这是上帝宣告祂主动介入时最常用的词（如出4:21, 7:3）。它暗示上帝强化了法老内心的顽梗，使其有“力量”去抗拒那些足以让人崩溃的灾殃。
+I. **Chazaq (חָזַק):** 意为“使之坚硬、加强、使之有力量”。这是上帝宣告祂主动介入时最常用的词（如出4:21, 7:3）。它暗示上帝强化了法老内心的顽梗，使其有“力量”去抗拒那些足以让人崩溃的灾殃。
 {: .lang-zh lang="zh-CN"}
 
-2. **Qashah (קָשָׁה):** This verb means "to make hard, to make stubborn, to make heavy." Primarily used in God's sovereign declarations (e.g., Exodus 7:3), it emphasizes a state of obstinacy that refuses to yield to divine authority.
+II. **Qashah (קָשָׁה):** This verb means "to make hard, to make stubborn, to make heavy." Primarily used in God's sovereign declarations (e.g., Exodus 7:3), it emphasizes a state of obstinacy that refuses to yield to divine authority.
 {: .lang-en lang="en"}
 
-2. **Qashah (קָשָׁה):** 意为“使之硬化、使之顽固、使之沉重”。主要用于上帝主权的宣告（如出7:3），强调一种拒绝向神圣权威低头的顽固状态。
+II. **Qashah (קָשָׁה):** 意为“使之硬化、使之顽固、使之沉重”。主要用于上帝主权的宣告（如出7:3），强调一种拒绝向神圣权威低头的顽固状态。
 {: .lang-zh lang="zh-CN"}
 
-3. **Kabed (כָּבֵד):** Meaning "to make heavy, to become dull or insensitive." This verb is often used when describing Pharaoh’s own action (e.g., Exodus 8:15, 8:32). It highlights the spiritual numbness and the closing of the senses that follow consistent rejection of God's truth.
+III. **Kabed (כָּבֵד):** Meaning "to make heavy, to become dull or insensitive." This verb is often used when describing Pharaoh’s own action (e.g., Exodus 8:15, 8:32). It highlights the spiritual numbness and the closing of the senses that follow consistent rejection of God's truth.
 {: .lang-en lang="en"}
 
-3. **Kabed (כָּבֵד):** 意为“使之沉重、变得迟钝、失去知觉”。该词常用于描述法老自身的行为（如出8:15, 8:32），强调了在持续拒绝上帝真理后所产生的灵性麻木和感官封闭。
+III. **Kabed (כָּבֵד):** 意为“使之沉重、变得迟钝、失去知觉”。该词常用于描述法老自身的行为（如出8:15, 8:32），强调了在持续拒绝上帝真理后所产生的灵性麻木和感官封闭。
 {: .lang-zh lang="zh-CN"}
 
 ```bible
@@ -154,10 +154,10 @@ The hardening of Pharaoh is not an isolated incident but part of a consistent pa
 使法老心刚硬并非孤立的事件，而是贯穿整个救赎历史的护理模式的一部分。上帝经常利用人的罪恶动机来成就祂至高、圣洁的旨意，而这丝毫不损及祂自身的圣洁。
 {: .lang-zh lang="zh-CN"}
 
-**1. Joseph and the Evil of His Brothers**
+### I. Joseph and the Evil of His Brothers
 {: .lang-en lang="en"}
 
-**1. 约瑟与其弟兄的罪恶**
+### I. 约瑟与其弟兄的罪恶
 {: .lang-zh lang="zh-CN"}
 
 When Joseph’s brothers sold him into slavery, they were motivated by envy and malice. Yet, Joseph later recognized the dual nature of this event: the human will intended evil, but the Divine will intended (meant) it for good.
@@ -178,10 +178,10 @@ When Joseph’s brothers sold him into slavery, they were motivated by envy and 
 ```
 {: .lang-zh lang="zh-CN"}
 
-**2. Assyria: The Rod of God's Anger**
+### II. Assyria: The Rod of God's Anger
 {: .lang-en lang="en"}
 
-**2. 亚述：上帝愤怒的杖**
+### II. 亚述：上帝愤怒的杖
 {: .lang-zh lang="zh-CN"}
 
 God also uses wicked nations as instruments of judgment. He used the cruel and arrogant Assyrian Empire to judge His rebellious people, Israel. The Assyrians acted out of their own pride and bloodlust, yet they were ultimately the "rod" in God’s hand, fulfilling a purpose they did not even intend.
@@ -329,27 +329,27 @@ But the historic Christian faith offers a more robust hope. God is so sovereign 
 1. **圣经**，新美国标准圣经 (NASB) / 简体圣经和合本 (CUV)。
 {: .lang-zh lang="zh-CN"}
 
-1. **Augustine of Hippo**, *On Grace and Free Will*.
+2. **Augustine of Hippo**, *On Grace and Free Will*.
 {: .lang-en lang="en"}
-1. **希波的奥古斯丁**，《论恩典与自由意志》。
+2. **希波的奥古斯丁**，《论恩典与自由意志》。
 {: .lang-zh lang="zh-CN"}
 
-1. **The Westminster Confession of Faith** (1647).
+3. **The Westminster Confession of Faith** (1647).
 {: .lang-en lang="en"}
-1. **《威斯敏斯特信条》** (1647)。
+3. **《威斯敏斯特信条》** (1647)。
 {: .lang-zh lang="zh-CN"}
 
-1. **James R. White**, *The Potter's Freedom: A Defense of the Reformation and a Rebuttal of Norman Geisler's Chosen But Free*.
+4. **James R. White**, *The Potter's Freedom: A Defense of the Reformation and a Rebuttal of Norman Geisler's Chosen But Free*.
 {: .lang-en lang="en"}
-1. **詹姆斯·怀特**，《窑匠的自由：辩护改教信仰并反驳诺曼·盖斯勒的〈拣选还是自由〉》。
+4. **詹姆斯·怀特**，《窑匠的自由：辩护改教信仰并反驳诺曼·盖斯勒的〈拣选还是自由〉》。
 {: .lang-zh lang="zh-CN"}
 
-1. **Paul Carter**, "Did God Harden Pharaoh’s Heart?", *The Gospel Coalition Canada* (2018).
+5. **Paul Carter**, "Did God Harden Pharaoh’s Heart?", *The Gospel Coalition Canada* (2018).
 {: .lang-en lang="en"}
-1. **保罗·卡特**，“上帝使法老的心刚硬吗？”，*加拿大福音联盟* (2018)。
+5. **保罗·卡特**，“上帝使法老的心刚硬吗？”，*加拿大福音联盟* (2018)。
 {: .lang-zh lang="zh-CN"}
 
-1. **Monergism**, "Vessels Prepared for Destruction: An Analysis of Romans 9:22".
+6. **Monergism**, "Vessels Prepared for Destruction: An Analysis of Romans 9:22".
 {: .lang-en lang="en"}
-1. **Monergism**，“预备遭毁灭的器皿：罗马书 9:22 解析”。
+6. **Monergism**，“预备遭毁灭的器皿：罗马书 9:22 解析”。
 {: .lang-zh lang="zh-CN"}
