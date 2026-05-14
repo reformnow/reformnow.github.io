@@ -239,8 +239,11 @@ image:
 "They went out from us, but they were not of us; for if they had been of us, they would have continued with us. But they went out, that it might become plain that they all are not of us."
 — 1 John 2:19
 ```
+{: .lang-en lang="en"}
+
 *(This explains that those who completely abandon the faith actually never experienced true regeneration from the beginning.)*
 {: .lang-en lang="en"}
+
 
 ```bible
 “他们从我们中间出去，却不是属我们的；若是属我们的，就必仍旧与我们同在；他们出去，显明都不是属我们的。”
