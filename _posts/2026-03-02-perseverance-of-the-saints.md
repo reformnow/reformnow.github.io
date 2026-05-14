@@ -623,9 +623,14 @@ Authentic faith is a marathon. We are able to endure to the end because Jesus, t
 {: .lang-zh lang="zh-CN"}
 
 1\. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
+
 2\. **The Canons of Dort (1619)**, The Fifth Head of Doctrine: The Perseverance of the Saints.
+
 3\. **St. Augustine**, *On the Gift of Perseverance* (*De Dono Perseverantiae*), c. 428-429.
+
 4\. **The Second Council of Orange (529 AD)**, Canons on Grace and Free Will.
+
 5\. **David Pawson**, *Once Saved, Always Saved?*, Hodder & Stoughton, 1996.
+
 
 
