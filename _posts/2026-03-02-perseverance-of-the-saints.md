@@ -14,7 +14,7 @@ image:
 ## 1. Introduction
 {: .lang-en lang="en"}
 
-## 一、引言 (Introduction)
+## 一、引言
 {: .lang-zh lang="zh-CN"}
 
 ### 1. A Book that Misses the Mark
@@ -23,10 +23,10 @@ image:
 ### 1. 一本引起误解的书
 {: .lang-zh lang="zh-CN"}
 
-**A Book that Misses the Mark:** The well-known Bible teacher David Pawson once wrote a book titled *"Once Saved, Always Saved?"* While his ultimate goal was to prove that the "perseverance of the saints" is unbiblical, he didn't attack the actual doctrine directly. Instead, he employed a classic logical fallacy known as the **"Straw Man"**: he first distorted the profound biblical doctrine of perseverance into the shallow slogan "Once Saved, Always Saved," and then proceeded to criticize that caricature of the faith.
+The well-known Bible teacher David Pawson once wrote a book titled *"Once Saved, Always Saved?"* While his ultimate goal was to prove that the "perseverance of the saints" is unbiblical, he didn't attack the actual doctrine directly. Instead, he employed a classic logical fallacy known as the **"Straw Man"**: he first distorted the profound biblical doctrine of perseverance into the shallow slogan "Once Saved, Always Saved," and then proceeded to criticize that caricature of the faith.
 {: .lang-en lang="en"}
 
-**一本引起误解的书：** 著名圣经教师大卫·鲍森（David Pawson）曾写过一本书叫《一次得救，永远得救？》。鲍森的原意是想通过这本书来证明“圣徒的坚韧”不符合圣经，但他并没有直接面对面地反驳这一深邃的教义。相反，他使用了逻辑上典型的**“稻草人谬误”**：他先将这一神圣的保守观歪曲成了一种极其浅薄的、发放“天堂门票”式的廉价恩典口号，然后再对这个被他自个儿扭曲了的“一次得救，永远得救”进行批判。
+著名圣经教师大卫·鲍森（David Pawson）曾写过一本书叫《一次得救，永远得救？》。鲍森的原意是想通过这本书来证明“圣徒的坚韧”不符合圣经，但他并没有直接面对面地反驳这一深邃的教义。相反，他使用了逻辑上典型的**“稻草人谬误”**：他先将这一神圣的保守观歪曲成了一种极其浅薄的、发放“天堂门票”式的廉价恩典口号，然后再对这个被他自个儿扭曲了的“一次得救，永远得救”进行批判。
 {: .lang-zh lang="zh-CN"}
 
 ### 2. Overcoming the misconception
@@ -35,10 +35,10 @@ image:
 ### 2. 破题与澄清
 {: .lang-zh lang="zh-CN"}
 
-**Overcoming the misconception:** This reflects a common misunderstanding or criticism of Christianity: "Do you believe that as long as you believed once, you can do whatever bad things you want and still go to heaven?"
+This reflects a common misunderstanding or criticism of Christianity: "Do you believe that as long as you believed once, you can do whatever bad things you want and still go to heaven?"
 {: .lang-en lang="en"}
 
-**破题与澄清：** 鲍森的误解，其实代表了世俗对基督教一个非常普遍的批评：“你们是不是相信只要信了一次，以后随便干什么坏事都能上天堂？”
+鲍森的误解，其实代表了世俗对基督教一个非常普遍的批评：“你们是不是相信只要信了一次，以后随便干什么坏事都能上天堂？”
 {: .lang-zh lang="zh-CN"}
 
 ### 3. Presenting the core argument
@@ -47,10 +47,10 @@ image:
 ### 3. 提出核心论点
 {: .lang-zh lang="zh-CN"}
 
-**Presenting the core argument:** Many Christians indeed like to use the slogan "Once Saved, Always Saved" (OSAS) to express their assurance. But in reality, an orthodox faith with biblical depth does not endorse such a flippant, license-to-sin slogan. What we truly believe in is the **"Perseverance of the Saints"**—and it looks vastly different from the caricature drawn by its critics.
+Many Christians indeed like to use the slogan "Once Saved, Always Saved" (OSAS) to express their assurance. But in reality, an orthodox faith with biblical depth does not endorse such a flippant, license-to-sin slogan. What we truly believe in is the **"Perseverance of the Saints"**—and it looks vastly different from the caricature drawn by its critics.
 {: .lang-en lang="en"}
 
-**提出核心论点：** 确实，许多基督徒喜欢用“一次得救，永远得救”（OSAS）这句轻率的口号。但事实上，正统的、符合圣经深度的信仰，**绝不认同**这种把救恩当作犯罪许可证的堕落神学。我们真正相信的，是**“信徒的坚韧” (Perseverance of the Saints)**——它与那些反对者所描绘的扭曲画像截然不同。
+确实，许多基督徒喜欢用“一次得救，永远得救”（OSAS）这句轻率的口号。但事实上，正统的、符合圣经深度的信仰，**绝不认同**这种把救恩当作犯罪许可证的堕落神学。我们真正相信的，是**“信徒的坚韧” (Perseverance of the Saints)**——它与那些反对者所描绘的扭曲画像截然不同。
 {: .lang-zh lang="zh-CN"}
 
 ---
@@ -67,10 +67,10 @@ image:
 ### 1. 廉价恩典的温床
 {: .lang-zh lang="zh-CN"}
 
-**A breeding ground for cheap grace:** This phrase often creates the illusion that salvation requires only a past moment of "decision," completely disconnected from one's present state of life.
+This phrase often creates the illusion that salvation requires only a past moment of "decision," completely disconnected from one's present state of life.
 {: .lang-en lang="en"}
 
-**廉价恩典的温床：** 这种说法往往让人产生一种错觉——救恩只需要一个过去的“决志”时刻，而与现在的生命状态毫无关联。
+这种说法往往让人产生一种错觉——救恩只需要一个过去的“决志”时刻，而与现在的生命状态毫无关联。
 {: .lang-zh lang="zh-CN"}
 
 ### 2. Lack of the fruit of life
@@ -79,10 +79,10 @@ image:
 ### 2. 缺乏生命的果子
 {: .lang-zh lang="zh-CN"}
 
-**Lack of the fruit of life:** If someone claims to believe in the Lord but their life lacks any fruit of repentance and sanctification for years, and they live comfortably in sin, this slogan becomes an excuse for self-paralysis and deception.
+If someone claims to believe in the Lord but their life lacks any fruit of repentance and sanctification for years, and they live comfortably in sin, this slogan becomes an excuse for self-paralysis and deception.
 {: .lang-en lang="en"}
 
-**缺乏生命的果子：** 如果一个人自称信主，但生命中长年累月没有任何悔改和成圣的果子，且安然活在罪中，这句口号反而成了他们自我麻痹的借口。
+如果一个人自称信主，但生命中长年累月没有任何悔改和成圣的果子，且安然活在罪中，这句口号反而成了他们自我麻痹的借口。
 {: .lang-zh lang="zh-CN"}
 
 ### 3. Biblical warnings
@@ -91,10 +91,10 @@ image:
 ### 3. 圣经的警告
 {: .lang-zh lang="zh-CN"}
 
-**Biblical warnings:**
+We need to pay attention to the severe warnings in the Bible.
 {: .lang-en lang="en"}
 
-**圣经的警告：** 我们需要留意圣经中严厉的警告。
+我们需要留意圣经中严厉的警告。
 {: .lang-zh lang="zh-CN"}
 
 ```bible
@@ -135,10 +135,10 @@ image:
 ### 1. 不是“人的强撑”，而是“神的保守”
 {: .lang-zh lang="zh-CN"}
 
-**Not man's striving, but God's preservation:** "Perseverance" is not primarily about us holding tightly to God, but about God’s mighty hand holding tightly to us.
+"Perseverance" is not primarily about us holding tightly to God, but about God’s mighty hand holding tightly to us.
 {: .lang-en lang="en"}
 
-**不是“人的强撑”，而是“神的保守”：** “坚韧”首先不在于我们紧紧抓住神，而在于神大能的手紧紧抓住了我们。
+“坚韧”首先不在于我们紧紧抓住神，而在于神大能的手紧紧抓住了我们。
 {: .lang-zh lang="zh-CN"}
 
 ```bible
@@ -159,10 +159,10 @@ image:
 ### 2. 拣选与成圣的连贯性
 {: .lang-zh lang="zh-CN"}
 
-**The continuity of election and sanctification:** For those God saves, the Holy Spirit will inevitably work within them. True salvation necessarily brings life transformation—"justification by faith" is invariably accompanied by the process of "sanctification."
+For those God saves, the Holy Spirit will inevitably work within them. True salvation necessarily brings life transformation—"justification by faith" is invariably accompanied by the process of "sanctification."
 {: .lang-en lang="en"}
 
-**拣选与成圣的连贯性：** 神所拯救的人，圣灵必定在他们里面动工。真实的救恩必然带来生命的改变——“因信称义”必定伴随着“成圣”的过程。
+神所拯救的人，圣灵必定在他们里面动工。真实的救恩必然带来生命的改变——“因信称义”必定伴随着“成圣”的过程。
 {: .lang-zh lang="zh-CN"}
 
 ### 3. They may stumble, but will ultimately return
@@ -171,10 +171,10 @@ image:
 ### 3. 虽然会跌倒，但终必回转
 {: .lang-zh lang="zh-CN"}
 
-**They may stumble, but will ultimately return:** True believers are also weak and can commit sins (like David and Peter), but the indwelling of the Holy Spirit makes it impossible for them to rest peacefully in sin forever. They will be disciplined by God, produce godly grief, and eventually repent and return.
+True believers are also weak and can commit sins (like David and Peter), but the indwelling of the Holy Spirit makes it impossible for them to rest peacefully in sin forever. They will be disciplined by God, produce godly grief, and eventually repent and return.
 {: .lang-en lang="en"}
 
-**虽然会跌倒，但终必回转：** 真正的信徒也会软弱犯罪（例如大卫、彼得），但圣灵的内住使得他们不可能永远安寝在罪中。他们会被神管教，生出依着神意思的忧愁，最终悔改回转。
+真正的信徒也会软弱犯罪（例如大卫、彼得），但圣灵的内住使得他们不可能永远安寝在罪中。他们会被神管教，生出依着神意思的忧愁，最终悔改回转。
 {: .lang-zh lang="zh-CN"}
 
 ---
@@ -188,13 +188,13 @@ image:
 ### 1. OSAS vs. Perseverance
 {: .lang-en lang="en"}
 
-### 1. OSAS 与圣徒的坚韧
+### 1. “一次得救，永远得救” 与 "圣徒的坚韧"
 {: .lang-zh lang="zh-CN"}
 
 **OSAS** emphasizes: A human declaration guarantees eternal safety, regardless of subsequent behavior.
 {: .lang-en lang="en"}
 
-**OSAS** 强调的是：人的一个宣告保证了永远的安全，无论此后的行为如何。
+**“一次得救，永远得救”** 强调的是：人的一个宣告保证了永远的安全，无论此后的行为如何。
 {: .lang-zh lang="zh-CN"}
 
 **Perseverance of the Saints** emphasizes: God's sovereign salvation and the Holy Spirit's preservation ensure that the truly regenerated believer will continually trust and obey. Even through fierce storms and spiritual valleys, they will ultimately endure to the end.
@@ -302,10 +302,10 @@ image:
 ### 1. 历史的共识
 {: .lang-zh lang="zh-CN"}
 
-**The Historical Consensus:** The doctrine of perseverance is not a recent theological invention. From the early Ecumenical Councils to the Reformers, the emphasis has always been on God’s sovereign grace as the anchor for the believer’s soul.
+The doctrine of perseverance is not a recent theological invention. From the early Ecumenical Councils to the Reformers, the emphasis has always been on God’s sovereign grace as the anchor for the believer’s soul.
 {: .lang-en lang="en"}
 
-**历史的共识：** “信徒的坚韧”并非现代神学的发明。从早期的大公会议、教父到改教家，大公教会始终强调上帝主权恩典是信徒灵魂永不沉沦的锚。
+“信徒的坚韧”并非现代神学的发明。从早期的大公会议、教父到改教家，大公教会始终强调上帝主权恩典是信徒灵魂永不沉沦的锚。
 {: .lang-zh lang="zh-CN"}
 
 ### 2. The Council of Ephesus (431 AD)
@@ -314,10 +314,10 @@ image:
 ### 2. 以弗所大公会议 (431 AD)
 {: .lang-zh lang="zh-CN"}
 
-**The Council of Ephesus (431 AD):** This Third Ecumenical Council, authoritative for all historic Christianity, decisively condemned Pelagianism. By rejecting the idea that human will could achieve salvation on its own, it indirectly affirmed that we are entirely dependent on God's sustaining grace from beginning to end.
+This Third Ecumenical Council, authoritative for all historic Christianity, decisively condemned Pelagianism. By rejecting the idea that human will could achieve salvation on its own, it indirectly affirmed that we are entirely dependent on God's sustaining grace from beginning to end.
 {: .lang-en lang="en"}
 
-**以弗所大公会议 (431 AD)：** 作为大公教会历史上极具权威的第三次大公会议，它果断地定罪了伯拉纠主义。通过拒绝“人可以靠自由意志达成救恩”的错误观点，会议间接确认了我们从始至终都必须完全仰赖上帝那持守性的恩典。
+作为大公教会历史上极具权威的第三次大公会议，它果断地定罪了伯拉纠主义。通过拒绝“人可以靠自由意志达成救恩”的错误观点，会议间接确认了我们从始至终都必须完全仰赖上帝那持守性的恩典。
 {: .lang-zh lang="zh-CN"}
 
 ### 3. The Second Council of Orange (529 AD)
@@ -326,10 +326,10 @@ image:
 ### 3. 第二届奥兰治会议 (529 AD)
 {: .lang-zh lang="zh-CN"}
 
-**The Second Council of Orange (529 AD):** This historic synod provided one of the most explicit affirmations of preserving grace in the Western tradition. It taught that even the regenerate need the constant "succor of God" to persevere.
+This historic synod provided one of the most explicit affirmations of preserving grace in the Western tradition. It taught that even the regenerate need the constant "succor of God" to persevere.
 {: .lang-en lang="en"}
 
-**第二届奥兰治会议 (529 AD)：** 这一具有里程碑意义的历史性会议，为西方教会传统中关于“保守恩典”的教义提供了最明确的确认。它教导说，即便是重生的人，也需要上帝不断的扶助才能坚守到底。
+这一具有里程碑意义的历史性会议，为西方教会传统中关于“保守恩典”的教义提供了最明确的确认。它教导说，即便是重生的人，也需要上帝不断的扶助才能坚守到底。
 {: .lang-zh lang="zh-CN"}
 
 ```quote
@@ -350,10 +350,10 @@ image:
 ### 4. 希波的圣奥古斯丁 (354-430)
 {: .lang-zh lang="zh-CN"}
 
-**St. Augustine of Hippo (354-430):** The Great Doctor of Grace explicitly taught that perseverance is a distinct "gift of God" (*Donum Perseverantiae*). It is not something we achieve, but something God maintains in us.
+The Great Doctor of Grace explicitly taught that perseverance is a distinct "gift of God" (*Donum Perseverantiae*). It is not something we achieve, but something God maintains in us.
 {: .lang-en lang="en"}
 
-**希波的圣奥古斯丁 (354-430)：** 这位伟大的恩典博士明确教导说，坚韧本身是上帝白白的“恩赐” (*Donum Perseverantiae*)。这不是我们靠意志达成的，而是上帝在我们里面维持的。
+这位伟大的恩典博士明确教导说，坚韧本身是上帝白白的“恩赐” (*Donum Perseverantiae*)。这不是我们靠意志达成的，而是上帝在我们里面维持的。
 {: .lang-zh lang="zh-CN"}
 
 ```quote
@@ -374,10 +374,10 @@ image:
 ### 5. 马丁·路德 (1483-1546)
 {: .lang-zh lang="zh-CN"}
 
-**Martin Luther (1483-1546):** Luther emphasized that faith is an "invincible" work of God within us. He described the Christian life not as a static state, but as a dynamic process of being "guarded" and "purified" by God's power.
+Luther emphasized that faith is an "invincible" work of God within us. He described the Christian life not as a static state, but as a dynamic process of being "guarded" and "purified" by God's power.
 {: .lang-en lang="en"}
 
-**马丁·路德 (1483-1546)：** 路德强调信心是上帝在我们里面“不可战胜”的工作。他将基督徒生命描述为一种动态的过程，是不断被上帝的大能“保守”和“洁净”的过程，而非一种死板停滞的状态。
+路德强调信心是上帝在我们里面“不可战胜”的工作。他将基督徒生命描述为一种动态的过程，是不断被上帝的大能“保守”和“洁净”的过程，而非一种死板停滞的状态。
 {: .lang-zh lang="zh-CN"}
 
 ### 6. The Canons of Dort (1619)
@@ -386,10 +386,10 @@ image:
 ### 6. 多特信经 (1619)
 {: .lang-zh lang="zh-CN"}
 
-**The Canons of Dort (1619):** In response to challenges against this doctrine, the historic Synod of Dort summarized it perfectly: our perseverance depends entirely on God's faithfulness.
+In response to challenges against this doctrine, the historic Synod of Dort summarized it perfectly: our perseverance depends entirely on God's faithfulness.
 {: .lang-en lang="en"}
 
-**多特信经 (1619)：** 为了回应对此教义的挑战，多特会议做出了完美的总结：我们的坚韧完全取决于上帝的信实。
+为了回应对此教义的挑战，多特会议做出了完美的总结：我们的坚韧完全取决于上帝的信实。
 {: .lang-zh lang="zh-CN"}
 
 ```quote
@@ -418,10 +418,10 @@ image:
 ### 1. 抗辩派的挑战 (1610)
 {: .lang-zh lang="zh-CN"}
 
-**The Remonstrant Challenge (1610):** The followers of Jacobus Arminius issued a document called the *Remonstrance*. In its fifth article, they initially expressed uncertainty but eventually taught that true believers could potentially forfeit their salvation through negligence or sin.
+The followers of Jacobus Arminius issued a document called the *Remonstrance*. In its fifth article, they initially expressed uncertainty but eventually taught that true believers could potentially forfeit their salvation through negligence or sin.
 {: .lang-en lang="en"}
 
-**抗辩派的挑战 (1610)：** 雅各·阿米念的追随者发布了一份名为《抗辩文》的文件。在第五条中，他们最初表示不确定，但最终公开教导说，真信徒可能因疏忽或犯罪而完全丧失救恩。
+雅各·阿米念的追随者发布了一份名为《抗辩文》的文件。在第五条中，他们最初表示不确定，但最终公开教导说，真信徒可能因疏忽或犯罪而完全丧失救恩。
 {: .lang-zh lang="zh-CN"}
 
 ```quote
@@ -442,10 +442,10 @@ image:
 ### 2. 多特会议的果断回应 (1619)
 {: .lang-zh lang="zh-CN"}
 
-**The Definitive Response (1619):** In response, the historic Synod of Dort met to clarify the biblical position. They affirmed that perseverance is not a human achievement, but a divine work of preservation.
+In response, the historic Synod of Dort met to clarify the biblical position. They affirmed that perseverance is not a human achievement, but a divine work of preservation.
 {: .lang-en lang="en"}
 
-**多特会议的果断回应 (1619)：** 作为回应，历史性的多特会议召开，旨在澄清圣经立场。他们确认，“坚韧”并不是人的成就，而是上帝神圣的“保守”工作。
+作为回应，历史性的多特会议召开，旨在澄清圣经立场。他们确认，“坚韧”并不是人的成就，而是上帝神圣的“保守”工作。
 {: .lang-zh lang="zh-CN"}
 
 ```quote
@@ -466,10 +466,10 @@ image:
 ### 3. 视角的转变
 {: .lang-zh lang="zh-CN"}
 
-**Perspective Shift:** The Synod of Dort taught that while we may let go of God's hand, He never lets go of ours. The doctrine is better understood not as the "perseverance of the believer," but as the **"Preservation of God."**
+The Synod of Dort taught that while we may let go of God's hand, He never lets go of ours. The doctrine is better understood not as the "perseverance of the believer," but as the **"Preservation of God."**
 {: .lang-en lang="en"}
 
-**视角的转变：** 多特会议教导说，虽然我们可能会松开上帝的手，但祂永远不会松开我们的手。这一教义与其被理解为“信徒的自强不息”，不如被理解为**“上帝主权的保守”**。
+多特会议教导说，虽然我们可能会松开上帝的手，但祂永远不会松开我们的手。这一教义与其被理解为“信徒的自强不息”，不如被理解为**“上帝主权的保守”**。
 {: .lang-zh lang="zh-CN"}
 
 ---
@@ -486,10 +486,10 @@ image:
 ### 1. 反对者的质疑
 {: .lang-zh lang="zh-CN"}
 
-**The Objection:** Critics of perseverance often point to a specific "warning passage" in the Epistle to the Hebrews:
+Critics of perseverance often point to a specific "warning passage" in the Epistle to the Hebrews:
 {: .lang-en lang="en"}
 
-**反对者的质疑：** 反对此教义的人常引用希伯来书中的一段“警告经文”：
+反对此教义的人常引用希伯来书中的一段“警告经文”：
 {: .lang-zh lang="zh-CN"}
 
 ```bible
@@ -510,10 +510,10 @@ image:
 ### 2. 奥古斯丁的区分
 {: .lang-zh lang="zh-CN"}
 
-**The Augustinian Distinction:** St. Augustine, in his response to those who argued such people were true believers, clarified that while they had indeed been "enlightened" and "moved" by the Spirit's external work, they lacked the specific **"Gift of Perseverance"** (*donum perseverantiae*) which God only bestows upon those He has truly chosen to save to the end.
+St. Augustine, in his response to those who argued such people were true believers, clarified that while they had indeed been "enlightened" and "moved" by the Spirit's external work, they lacked the specific **"Gift of Perseverance"** (*donum perseverantiae*) which God only bestows upon those He has truly chosen to save to the end.
 {: .lang-en lang="en"}
 
-**奥古斯丁的区分：** 圣奥古斯丁在回应那些认为“离弃者曾是真信徒”的观点时，明确指出：虽然这些人确实被圣灵的外在工作所“光照” and “感召”，但他们缺少那唯独赐给神所预定救赎到底之人的**“坚韧之恩”** (*donum perseverantiae*)。
+圣奥古斯丁在回应那些认为“离弃者曾是真信徒”的观点时，明确指出：虽然这些人确实被圣灵的外在工作所“光照” and “感召”，但他们缺少那唯独赐给神所预定救赎到底之人的**“坚韧之恩”** (*donum perseverantiae*)。
 {: .lang-zh lang="zh-CN"}
 
 ```quote
@@ -534,10 +534,10 @@ image:
 ### 3. 历史性的解释 (暂时性的信心)
 {: .lang-zh lang="zh-CN"}
 
-**Historical Interpretation (Temporary Faith):** The Reformers explained such cases as **"Temporary Faith"** (*fides temporaria*). These individuals are like the "rocky ground" in Jesus' parable: they receive the word with joy but have no root. They experience a shadow of grace, but their hearts were never fundamentally united to Christ.
+The Reformers explained such cases as **"Temporary Faith"** (*fides temporaria*). These individuals are like the "rocky ground" in Jesus' parable: they receive the word with joy but have no root. They experience a shadow of grace, but their hearts were never fundamentally united to Christ.
 {: .lang-en lang="en"}
 
-**历史性的解释（暂时性的信心）：** 改教家们将此类情况解释为“暂时性的信心” (*fides temporaria*)。这些人就像耶稣比喻中那“石头地”里的种子：他们欢喜领受真道，但心里没有根。他们经历到了恩典的影子，但其内心从未真正与基督联合。
+改教家们将此类情况解释为“暂时性的信心” (*fides temporaria*)。这些人就像耶稣比喻中那“石头地”里的种子：他们欢喜领受真道，但心里没有根。他们经历到了恩典的影子，但其内心从未真正与基督联合。
 {: .lang-zh lang="zh-CN"}
 
 ### 4. The Biblical Verdict
@@ -546,10 +546,10 @@ image:
 ### 4. 圣经的判语
 {: .lang-zh lang="zh-CN"}
 
-**The Biblical Verdict:** The principle is summarized by St. John:
+The principle is summarized by St. John:
 {: .lang-en lang="en"}
 
-**圣经的判语：** 这一原则被圣约翰总结为：
+这一原则被圣约翰总结为：
 {: .lang-zh lang="zh-CN"}
 
 ```bible
@@ -584,10 +584,10 @@ Hebrews 6 serves as a severe warning against surface-level profession and hypocr
 ### 1. 带来极大的安慰
 {: .lang-zh lang="zh-CN"}
 
-**Brings great comfort:** Our assurance of salvation is not built on our own fragile will, but on God's faithful promises. This dispels a believer's fear of "losing" their salvation.
+Our assurance of salvation is not built on our own fragile will, but on God's faithful promises. This dispels a believer's fear of "losing" their salvation.
 {: .lang-en lang="en"}
 
-**带来极大的安慰：** 我们的得救确据不建立在我们自己脆弱的意志上，而是建立在神信实的应许上。这驱散了信徒对“失去救恩”的恐惧。
+我们的得救确据不建立在我们自己脆弱的意志上，而是建立在神信实的应许上。这驱散了信徒对“失去救恩”的恐惧。
 {: .lang-zh lang="zh-CN"}
 
 ### 2. Brings holy reverence
@@ -596,10 +596,10 @@ Hebrews 6 serves as a severe warning against surface-level profession and hypocr
 ### 2. 带来圣洁的敬畏
 {: .lang-zh lang="zh-CN"}
 
-**Brings holy reverence:** This is by no means a free pass for indulgence. On the contrary, it encourages us to "work out your own salvation with fear and trembling" (Philippians 2:12).
+This is by no means a free pass for indulgence. On the contrary, it encourages us to "work out your own salvation with fear and trembling" (Philippians 2:12).
 {: .lang-en lang="en"}
 
-**带来圣洁的敬畏：** 这绝不是放纵的通行证，反而激励我们“当恐惧战兢做成你们得救的工夫”（腓 2:12）。
+这绝不是放纵的通行证，反而激励我们“当恐惧战兢做成你们得救的工夫”（腓 2:12）。
 {: .lang-zh lang="zh-CN"}
 
 ### 3. Final appeal
@@ -608,10 +608,10 @@ Hebrews 6 serves as a severe warning against surface-level profession and hypocr
 ### 3. 结尾呼吁
 {: .lang-zh lang="zh-CN"}
 
-**Final appeal:** Authentic faith is a marathon. We are able to endure to the end because Jesus, the founder and perfecter of our faith, leads us from the front and preserves us from behind.
+Authentic faith is a marathon. We are able to endure to the end because Jesus, the founder and perfecter of our faith, leads us from the front and preserves us from behind.
 {: .lang-en lang="en"}
 
-**结尾呼吁：** 真实的信仰是一场持久战。我们能坚持到底，是因为那位创始成终的耶稣在前面引导，也在后面保守。
+真实的信仰是一场持久战。我们能坚持到底，是因为那位创始成终的耶稣在前面引导，也在后面保守。
 {: .lang-zh lang="zh-CN"}
 
 ---
@@ -623,27 +623,9 @@ Hebrews 6 serves as a severe warning against surface-level profession and hypocr
 {: .lang-zh lang="zh-CN"}
 
 1\. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
-{: .lang-en lang="en"}
-1\. **圣经**，新美国标准圣经 (NASB) / 简体圣经和合本 (CUV)。
-{: .lang-zh lang="zh-CN"}
-
 2\. **The Canons of Dort (1619)**, The Fifth Head of Doctrine: The Perseverance of the Saints.
-{: .lang-en lang="en"}
-2\. **多特信经 (1619)**，第五要点：圣徒的坚韧。
-{: .lang-zh lang="zh-CN"}
-
 3\. **St. Augustine**, *On the Gift of Perseverance* (*De Dono Perseverantiae*), c. 428-429.
-{: .lang-en lang="en"}
-3\. **圣奥古斯丁**，《论坚韧的恩赐》 (*De Dono Perseverantiae*)，约 428-429 年。
-{: .lang-zh lang="zh-CN"}
-
 4\. **The Second Council of Orange (529 AD)**, Canons on Grace and Free Will.
-{: .lang-en lang="en"}
-4\. **第二届奥兰治会议 (529 AD)**，关于恩典与自由意志的条令。
-{: .lang-zh lang="zh-CN"}
-
 5\. **David Pawson**, *Once Saved, Always Saved?*, Hodder & Stoughton, 1996.
-{: .lang-en lang="en"}
-5\. **大卫·鲍森**，《一次得救，永远得救？》，Hodder & Stoughton，1996 年。
-{: .lang-zh lang="zh-CN"}
+
 
