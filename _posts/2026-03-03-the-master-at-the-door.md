@@ -15,11 +15,20 @@ image:
 ## 1. The Sentiment vs. The Scripture
 {: .lang-en lang="en"}
 
-## 1. 情感与经文的博弈
+## 一、情感与经文的博弈
 {: .lang-zh lang="zh-CN"}
 
 ![Light of the World](/assets/img/posts/lightoftheworld-full.jpg)
+{: .lang-en lang="en"}
+
+![世界之光](/assets/img/posts/lightoftheworld-full.jpg)
+{: .lang-zh lang="zh-CN"}
+
 <p align="center"><i>William Holman Hunt, The Light of the World, 1851-52. Oil on canvas, 122 x 60.5 cm. Keble College, Oxford.</i></p>
+{: .lang-en lang="en"}
+
+<p align="center"><i>威廉·霍尔曼·亨特，《世界之光》，1851-52年。布面油画，122 x 60.5 厘米。牛津大学基布尔学院。</i></p>
+{: .lang-zh lang="zh-CN"}
 
 The image is iconic: **"The Light of the World"** by William Holman Hunt. It depicts Jesus standing before a door with no handle on the outside, gently knocking. The sentiment is usually accompanied by an emotional plea: "Jesus is a gentleman; He won't force His way in. He is waiting for you to open the door of your heart." While this makes for a touching evangelistic appeal, it often creates a "beggar God" who is excluded from His own creation unless man grants Him permission.
 {: .lang-en lang="en"}
@@ -32,7 +41,7 @@ The image is iconic: **"The Light of the World"** by William Holman Hunt. It dep
 ## 2. The Context: A Message to a Church
 {: .lang-en lang="en"}
 
-## 2. 回归处境：写给教会的信息
+## 二、回归处境：写给教会的信息
 {: .lang-zh lang="zh-CN"}
 
 To understand Revelation 3:20, we must look at the surrounding verses. Jesus is not speaking to the "unconverted world" at large; He is addressing a specific church—the church in Laodicea.
@@ -63,21 +72,26 @@ The tragedy of Laodicea was not that they were "atheists," but that they were **
 "No Scripture ever wears out... It is a call for the church to open the door and allow its Lord to re-enter. This is not a request for salvation, but a demand for repentance from those who already belong to Him."
 — Charles Spurgeon
 ```
-Christ is not knocking on the door of a "non-believer's heart" for initial salvation here; He is knocking on the door of HIS church, demanding that it let Him back into center stage.
 {: .lang-en lang="en"}
 
 ```quote
 “没有任何经文会过时……这是呼召教会打开大门，允许她的主重新进入。这并非在寻求救恩的入门，而是要求那些已经属于祂的人悔改。”
 —— 查尔斯·司布真
 ```
+{: .lang-zh lang="zh-CN"}
+
+Christ is not knocking on the door of a "non-believer's heart" for initial salvation here; He is knocking on the door of HIS church, demanding that it let Him back into center stage.
+{: .lang-en lang="en"}
+
 基督在这里叩击的不是“非信徒的心门”以寻求初步的救恩，而是扣响了**祂自己教会**的大门，要求教会让祂重新回到中心地位。
 {: .lang-zh lang="zh-CN"}
 
 ---
+
 ## 3. The Theological Error: The "Beggar God"
 {: .lang-en lang="en"}
 
-## 3. 神学误区：“乞求的上主”
+## 三、神学误区：“乞求的上主”
 {: .lang-zh lang="zh-CN"}
 
 When we use this verse to suggest that God is powerless until we act, we commit a serious theological error. It suggests that human will is the ultimate sovereign over God's grace. In common biblical theology, we recognize that when God intends to save, He does not merely "knock" and hope; He effectively "opens the heart."
@@ -87,26 +101,35 @@ When we use this verse to suggest that God is powerless until we act, we commit 
 {: .lang-zh lang="zh-CN"}
 
 The *Canons of Dort* (1619) clarify this divine initiative. It is not a matter of a helpless Christ waiting for permission, but of a Sovereign King who effectively transforms the heart. 
+{: .lang-en lang="en"}
+
+1619 年的《多特信经》极好地阐明了这种神圣的主动性。这绝不是一个无助的基督在苦苦等待许可，而是一位主权之君有力地转化人心。
+{: .lang-zh lang="zh-CN"}
+
 ```quote
 "God... softens the hard heart, and circumcises the heart that is uncircumcised... he breathes into the will new qualities, and makes that will, which was before dead, now alive; which was evil, now good."
 — Canons of Dort, Third and Fourth Head of Doctrine, Article 11
 ```
-Contrast Revelation 3:20 with Acts 16:14, where "the Lord opened [Lydia's] heart to pay attention to what was said by Paul." In the miracle of regeneration, God is the one who initiates by opening the door from the *inside*.
 {: .lang-en lang="en"}
 
-1619 年的《多特信经》极好地阐明了这种神圣的主动性。这绝不是一个无助的基督在苦苦等待许可，而是一位主权之君有力地转化人心。
 ```quote
 “上帝……使坚硬的心变软，使未受割礼的心受割礼……祂向意志注入新的属性，使那原是死的意志现在活了；原是恶的，现在变善了。”
 ——《多特信经》，第三与第四要点，第十一条
 ```
+{: .lang-zh lang="zh-CN"}
+
+Contrast Revelation 3:20 with Acts 16:14, where "the Lord opened [Lydia's] heart to pay attention to what was said by Paul." In the miracle of regeneration, God is the one who initiates by opening the door from the *inside*.
+{: .lang-en lang="en"}
+
 将启示录 3:20 与使徒行传 16:14 相对照，后者记载“主开导她（吕底亚）的心，叫她留心听保罗所讲的话”。在重生的神迹中，上帝才是那个由**内部**开启大门的发起者。
 {: .lang-zh lang="zh-CN"}
 
 ---
+
 ## 4. What "Opening the Door" Truly Means: Fellowship
 {: .lang-en lang="en"}
 
-## 4. “开门”的真正含义：契合与团契
+## 四、“开门”的真正含义：契合与团契
 {: .lang-zh lang="zh-CN"}
 
 The promise of Revelation 3:20 is about *Koinonia*—deep, intimate fellowship. The "dining" or "supping" mentioned points to a shared meal, a Hebrew idiom for intimate communion. The great Puritan John Owen emphasized that this depicts Christ refreshing Himself with the graces He has already bestowed upon the saint.
@@ -119,21 +142,26 @@ The promise of Revelation 3:20 is about *Koinonia*—deep, intimate fellowship. 
 "Communion is the mutual communication of such good things as wherein the persons holding that communion are delighted, joined, and satisfied."
 — John Owen, *Communion with God*
 ```
-This is not a call for the dead to come to life (regeneration), but a call for those already in a union with Christ to return to the *experience* of communion that they have lost through pride. It is a relational response to the Master's voice, not a monergistic act of creation.
 {: .lang-en lang="en"}
 
 ```quote
 “团契是美善之物的相互交流，使参与其中的人在其中得着喜悦、联合与满足。”
 —— 约翰·欧文，《与上帝的交通》
 ```
+{: .lang-zh lang="zh-CN"}
+
+This is not a call for the dead to come to life (regeneration), but a call for those already in a union with Christ to return to the *experience* of communion that they have lost through pride. It is a relational response to the Master's voice, not a monergistic act of creation.
+{: .lang-en lang="en"}
+
 这并不是呼吁死人复活（重生），而是呼吁那些已经与基督联合的人，回归到那因骄傲而丧失的团契**体验**中。这是对主人声音的关系性回应，而非一种独作性的创造之举。
 {: .lang-zh lang="zh-CN"}
 
 ---
+
 ## 5. Conclusion: A Stronger Gospel
 {: .lang-en lang="en"}
 
-## 5. 结论：更有力量的福音
+## 五、结论：更有力量的福音
 {: .lang-zh lang="zh-CN"}
 
 We do not need to diminish Christ's power to make Him appealing. The image of the Sovereign Lord, who stands ready both to discipline and to dine, is far more compelling than a helpless figure at a door. As Matthew Henry observed regarding Christ's approach to the heart:
@@ -171,3 +199,21 @@ Let us present a Christ who does not just "wait" at the door, but who is the Lor
 —— 启示录 3:7 (和合本)
 ```
 {: .lang-zh lang="zh-CN"}
+
+---
+
+## Bibliography
+{: .lang-en lang="en"}
+
+## 参考文献
+{: .lang-zh lang="zh-CN"}
+
+1\. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
+
+2\. **The Canons of Dort (1619)**, The Third and Fourth Heads of Doctrine.
+
+3\. **Charles Spurgeon**, *Sermons on Revelation 3:20*.
+
+4\. **John Owen**, *Communion with God*, 1657.
+
+5\. **Matthew Henry**, *Commentary on the Whole Bible*, Revelation 3.
