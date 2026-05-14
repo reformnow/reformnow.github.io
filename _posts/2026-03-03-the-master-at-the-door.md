@@ -209,11 +209,16 @@ Let us present a Christ who does not just "wait" at the door, but who is the Lor
 {: .lang-zh lang="zh-CN"}
 
 1\. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
+{: .lang-en .lang-zh}
 
 2\. **The Canons of Dort (1619)**, The Third and Fourth Heads of Doctrine.
+{: .lang-en .lang-zh}
 
 3\. **Charles Spurgeon**, *Sermons on Revelation 3:20*.
+{: .lang-en .lang-zh}
 
 4\. **John Owen**, *Communion with God*, 1657.
+{: .lang-en .lang-zh}
 
 5\. **Matthew Henry**, *Commentary on the Whole Bible*, Revelation 3.
+{: .lang-en .lang-zh}
