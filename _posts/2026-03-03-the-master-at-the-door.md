@@ -184,7 +184,7 @@ We do not need to diminish Christ's power to make Him appealing. The image of th
 {: .lang-zh lang="zh-CN"}
 
 Let us present a Christ who does not just "wait" at the door, but who is the Lord of the house, calling His people back to the life of true fellowship. He is the same Lord who holds ultimate authority over every door:
-{: .lang-en lang="en"}
+{: .lang-zh lang="zh-CN"}
 
 让我们传扬这样一位基督：祂不仅仅是在门外“等待”，祂更是这家的主人，呼召祂的子民回归那真实、活泼的爱之契合中。正如启示录在别处关于祂权柄的宣告：
 {: .lang-zh lang="zh-CN"}
@@ -210,16 +210,11 @@ Let us present a Christ who does not just "wait" at the door, but who is the Lor
 {: .lang-zh lang="zh-CN"}
 
 1\. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
-{: .lang-en .lang-zh}
 
 2\. **The Canons of Dort (1619)**, The Third and Fourth Heads of Doctrine.
-{: .lang-en .lang-zh}
 
 3\. **Charles Spurgeon**, *Sermons on Revelation 3:20*.
-{: .lang-en .lang-zh}
 
 4\. **John Owen**, *Communion with God*, 1657.
-{: .lang-en .lang-zh}
 
 5\. **Matthew Henry**, *Commentary on the Whole Bible*, Revelation 3.
-{: .lang-en .lang-zh}
