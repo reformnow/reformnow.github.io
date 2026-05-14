@@ -10,7 +10,12 @@
       class="btn btn-outline-primary"
       aria-label="{{ previous }}"
     >
-      <p>{{ page.previous.title }}</p>
+      <p>
+        <span class="lang-en">{{ page.previous.title }}</span>
+        {% if page.previous.title_zh %}
+          <span class="lang-zh">{{ page.previous.title_zh }}</span>
+        {% endif %}
+      </p>
     </a>
   {% else %}
     <div class="btn btn-outline-primary disabled" aria-label="{{ previous }}">
@@ -24,7 +29,12 @@
       class="btn btn-outline-primary"
       aria-label="{{ next }}"
     >
-      <p>{{ page.next.title }}</p>
+      <p>
+        <span class="lang-en">{{ page.next.title }}</span>
+        {% if page.next.title_zh %}
+          <span class="lang-zh">{{ page.next.title_zh }}</span>
+        {% endif %}
+      </p>
     </a>
   {% else %}
     <div class="btn btn-outline-primary disabled" aria-label="{{ next }}">

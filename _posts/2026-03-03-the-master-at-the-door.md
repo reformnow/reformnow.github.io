@@ -10,6 +10,7 @@ tags: [Revelation, Sovereignty, evangelism, Correcting Misunderstandings]
 image:
   path: /assets/img/posts/lightoftheworld.jpg
   alt: Light of the World - Jesus knocking at the door
+  alt_zh: 世界之光 —— 耶稣在门外叩门
 ---
 
 ## 1. The Sentiment vs. The Scripture
