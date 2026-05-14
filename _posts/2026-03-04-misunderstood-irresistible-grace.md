@@ -104,6 +104,8 @@ The miracle of irresistible grace is the miracle of **regeneration** (being born
 {: .lang-en lang="en"}
 
 To understand this, we must distinguish between the **Outward Call** and the **Inward (Effectual) Call**:
+{: .lang-en lang="en"}
+
 1. **The Outward Call**: The Gospel is preached to all. This call is often resisted because men, by nature, are dead in sin (Eph 2:1).
 2. **The Inward Call**: The Holy Spirit works directly in the elect's heart, removing the "heart of stone" and giving a "heart of flesh" (Ezekiel 36:26).
 {: .lang-en lang="en"}

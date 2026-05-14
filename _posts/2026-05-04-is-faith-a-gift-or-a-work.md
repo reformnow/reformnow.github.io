@@ -215,31 +215,11 @@ To say that faith is the source of our salvation is a category error. Faith is t
 {: .lang-zh lang="zh-CN"}
 
 1. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
-{: .lang-en lang="en"}
-
-1. **圣经**，新美国标准圣经 (NASB) / 简体圣经和合本 (CUV)。
-{: .lang-zh lang="zh-CN"}
 
 2. **Canons of Dort (1619)**. The historic confession of the Synod of Dort.
-{: .lang-en lang="en"}
-
-2. **多特法典 (1619)**。多特会议的历史性认信。
-{: .lang-zh lang="zh-CN"}
 
 3. **Second Council of Orange (529 AD)**. Canons on Nature and Grace.
-{: .lang-en lang="en"}
-
-3. **第二次奥兰治会议 (529 AD)**。关于本性与恩典的条款。
-{: .lang-zh lang="zh-CN"}
 
 4. **Calvin, John**. *Institutes of the Christian Religion*.
-{: .lang-en lang="en"}
-
-4. **加尔文, 约翰**。《基督教要义》。
-{: .lang-zh lang="zh-CN"}
 
 5. **Sproul, R.C.**. *Faith Alone: The Evangelical Doctrine of Justification*.
-{: .lang-en lang="en"}
-
-5. **史普罗, R.C.**。《唯独信心：福音派的称义教义》。
-{: .lang-zh lang="zh-CN"}

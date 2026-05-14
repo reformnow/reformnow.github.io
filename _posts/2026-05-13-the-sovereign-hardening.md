@@ -325,31 +325,13 @@ But the historic Christian faith offers a more robust hope. God is so sovereign 
 {: .lang-zh lang="zh-CN"}
 
 1. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
-{: .lang-en lang="en"}
-1. **圣经**，新美国标准圣经 (NASB) / 简体圣经和合本 (CUV)。
-{: .lang-zh lang="zh-CN"}
 
 2. **Augustine of Hippo**, *On Grace and Free Will*.
-{: .lang-en lang="en"}
-2. **希波的奥古斯丁**，《论恩典与自由意志》。
-{: .lang-zh lang="zh-CN"}
 
 3. **The Westminster Confession of Faith** (1647).
-{: .lang-en lang="en"}
-3. **《威斯敏斯特信条》** (1647)。
-{: .lang-zh lang="zh-CN"}
 
 4. **James R. White**, *The Potter's Freedom: A Defense of the Reformation and a Rebuttal of Norman Geisler's Chosen But Free*.
-{: .lang-en lang="en"}
-4. **詹姆斯·怀特**，《窑匠的自由：辩护改教信仰并反驳诺曼·盖斯勒的〈拣选还是自由〉》。
-{: .lang-zh lang="zh-CN"}
 
 5. **Paul Carter**, "Did God Harden Pharaoh’s Heart?", *The Gospel Coalition Canada* (2018).
-{: .lang-en lang="en"}
-5. **保罗·卡特**，“上帝使法老的心刚硬吗？”，*加拿大福音联盟* (2018)。
-{: .lang-zh lang="zh-CN"}
 
 6. **Monergism**, "Vessels Prepared for Destruction: An Analysis of Romans 9:22".
-{: .lang-en lang="en"}
-6. **Monergism**，“预备遭毁灭的器皿：罗马书 9:22 解析”。
-{: .lang-zh lang="zh-CN"}

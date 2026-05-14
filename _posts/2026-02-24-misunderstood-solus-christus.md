@@ -9,6 +9,7 @@ description_zh: "深入探究为什么“唯独基督”是关乎信仰生死的
 image:
   path: /assets/img/posts/sola_christus.png
   alt: "Solus Christus - Christ Alone"
+  alt_zh: "唯独基督"
 ---
 
 ## I. Introduction: The "Percentage" Myth of Salvation

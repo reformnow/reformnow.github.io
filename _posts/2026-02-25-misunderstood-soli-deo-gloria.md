@@ -9,6 +9,7 @@ description_zh: "发掘为什么“唯独神的荣耀”绝不只是一句恭维
 image:
   path: /assets/img/posts/soli_deo_gloria.png
   alt: "Soli Deo Gloria - Glory to God Alone"
+  alt_zh: "唯独神得荣耀"
 ---
 
 ## I. Introduction: Do We Really Mean "Glory to God"?

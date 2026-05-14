@@ -9,6 +9,7 @@ description_zh: "对拉撒路复活事件的深度分析，揭示救恩并非死
 image:
   path: /assets/img/posts/lazarus.png
   alt: "The Resurrection of Lazarus"
+  alt_zh: "拉撒路的复活"
 ---
 
 ## I. Introduction: The Theological Key Behind the Miracle
@@ -162,6 +163,8 @@ He did not weep out of helplessness. He wept with a holy indignation. The Greek 
 {: .lang-en lang="en"}
 
 As St. Augustine noted:
+{: .lang-en lang="en"}
+
 ```quote
 "Lazarus coming forth from the tomb represents the soul emerging from the dark habits of sin... but it is only the voice of the Lord that can break the silence of the grave."
 — St. Augustine
@@ -179,6 +182,8 @@ As St. Augustine noted:
 {: .lang-zh lang="zh-CN"}
 
 正如圣金口约翰（John Chrysostom）所言：
+{: .lang-zh lang="zh-CN"}
+
 ```quote
 “难道是拉撒路呼求了主吗？是他先有了信心吗？不，他躺在墓中腐烂。是那个创造万有的声音穿透了死亡，因为不是受造物呼求造物主，而是造物主在呼召祂流失的羊。”
 ——圣金口约翰

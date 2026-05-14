@@ -9,6 +9,7 @@ description_zh: "探索救恩的深邃之处，超越人类自我修补的边界
 image:
   path: /assets/img/posts/sola_gratia.png
   alt: "Sola Gratia - Grace Alone"
+  alt_zh: "唯独恩典"
 ---
 
 ## 1. The Diagnosis: Spiritual Death, Not Just a Sickness

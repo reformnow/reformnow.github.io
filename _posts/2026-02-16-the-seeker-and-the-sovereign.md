@@ -9,6 +9,7 @@ description_zh: "深入探讨为何除非先被恩典触动，否则无人会寻
 image:
   path: https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=2000&auto=format&fit=crop
   alt: "Light breaking through the clouds"
+  alt_zh: "穿透云层的光"
 ---
 
 ## Introduction: The Impossible Seeker

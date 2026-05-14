@@ -9,6 +9,7 @@ description_zh: "深度解析“唯独圣经”与现代误读“唯圣经论”
 image:
   path: /assets/img/posts/sola_scriptura.png
   alt: "An open Bible representing Sola Scriptura"
+  alt_zh: "一本打开的圣经，象征唯独圣经"
 ---
 
 ## I. Introduction: The Crisis Behind the Slogan
