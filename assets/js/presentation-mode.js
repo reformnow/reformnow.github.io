@@ -76,7 +76,9 @@
                        document.querySelector('link[href*="fontawesome"]') || 
                        document.querySelector('link[href*="fa-"]')) ? 
         '<i class="fas fa-desktop me-2"></i>' : '📊 ';
-      button.innerHTML = iconHtml + 'Presentation Mode';
+      const labelEn = 'Presentation Mode';
+      const labelZh = '演示模式';
+      button.innerHTML = iconHtml + `<span class="lang-en">${labelEn}</span><span class="lang-zh">${labelZh}</span>`;
       
       switcher.appendChild(button);
       
