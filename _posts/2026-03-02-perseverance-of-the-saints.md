@@ -622,27 +622,28 @@ Hebrews 6 serves as a severe warning against surface-level profession and hypocr
 ## 参考文献
 {: .lang-zh lang="zh-CN"}
 
-1. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
+1\. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
 {: .lang-en lang="en"}
-1. **圣经**，新美国标准圣经 (NASB) / 简体圣经和合本 (CUV)。
+1\. **圣经**，新美国标准圣经 (NASB) / 简体圣经和合本 (CUV)。
 {: .lang-zh lang="zh-CN"}
 
-2. **The Canons of Dort (1619)**, The Fifth Head of Doctrine: The Perseverance of the Saints.
+2\. **The Canons of Dort (1619)**, The Fifth Head of Doctrine: The Perseverance of the Saints.
 {: .lang-en lang="en"}
-2. **多特信经 (1619)**，第五要点：圣徒的坚韧。
+2\. **多特信经 (1619)**，第五要点：圣徒的坚韧。
 {: .lang-zh lang="zh-CN"}
 
-3. **St. Augustine**, *On the Gift of Perseverance* (*De Dono Perseverantiae*), c. 428-429.
+3\. **St. Augustine**, *On the Gift of Perseverance* (*De Dono Perseverantiae*), c. 428-429.
 {: .lang-en lang="en"}
-3. **圣奥古斯丁**，《论坚韧的恩赐》 (*De Dono Perseverantiae*)，约 428-429 年。
+3\. **圣奥古斯丁**，《论坚韧的恩赐》 (*De Dono Perseverantiae*)，约 428-429 年。
 {: .lang-zh lang="zh-CN"}
 
-4. **The Second Council of Orange (529 AD)**, Canons on Grace and Free Will.
+4\. **The Second Council of Orange (529 AD)**, Canons on Grace and Free Will.
 {: .lang-en lang="en"}
-4. **第二届奥兰治会议 (529 AD)**，关于恩典与自由意志的条令。
+4\. **第二届奥兰治会议 (529 AD)**，关于恩典与自由意志的条令。
 {: .lang-zh lang="zh-CN"}
 
-5. **David Pawson**, *Once Saved, Always Saved?*, Hodder & Stoughton, 1996.
+5\. **David Pawson**, *Once Saved, Always Saved?*, Hodder & Stoughton, 1996.
 {: .lang-en lang="en"}
-5. **大卫·鲍森**，《一次得救，永远得救？》，Hodder & Stoughton，1996 年。
+5\. **大卫·鲍森**，《一次得救，永远得救？》，Hodder & Stoughton，1996 年。
 {: .lang-zh lang="zh-CN"}
+
