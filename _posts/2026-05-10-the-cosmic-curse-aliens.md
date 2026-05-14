@@ -39,13 +39,13 @@ The primary theological barrier to the existence of extraterrestrial life is the
 {: .lang-zh lang="zh-CN"}
 
 ```bible
-"That the creation itself also will be set free from its slavery to corruption into the freedom of the glory of the children of God. For we know that the whole creation groans and suffers the pains of childbirth together until now."
+"that the creation itself also shall be delivered from the bondage of corruption into the liberty of the glory of the children of God. For we know that the whole creation groaneth and travaileth in pain together until now."
 — Romans 8:21-22
 ```
 {: .lang-en lang="en"}
 
 ```bible
-“指望受造之物自己照样得脱离败坏的辖制，得享神儿女管荣的自由。我们知道一切受造之物，一同叹息、劳苦，直到如今。”
+“但受造之物仍然指望脱离败坏的辖制，得享神儿女自由的荣耀。我们知道一切受造之物一同叹息、劳苦，直到如今。”
 —— 罗马书 8:21-22
 ```
 {: .lang-zh lang="zh-CN"}
