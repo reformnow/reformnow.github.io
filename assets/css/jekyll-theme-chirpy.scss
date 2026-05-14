@@ -58,6 +58,11 @@ div.language-bible pre.highlight {
     font-size: 0.85rem !important;
   }
 
+  /* Bilingual adjustment for headers */
+  @at-root .view-chinese &::before {
+    content: "圣经" !important;
+  }
+
   code.language-bible {
     display: block !important;
     white-space: pre-wrap !important; /* Ensure wrapping */
@@ -102,6 +107,11 @@ div.language-quote pre.highlight {
     letter-spacing: 0.1em !important;
     font-family: var(--font-family-base) !important;
     border-radius: 6px 6px 0 0 !important;
+  }
+
+  /* Bilingual adjustment for headers */
+  @at-root .view-chinese &::before {
+    content: "神学智慧" !important;
   }
 
   code.language-quote {
