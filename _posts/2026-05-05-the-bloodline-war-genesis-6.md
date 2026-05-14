@@ -32,10 +32,10 @@ For many modern readers, the accounts of giants and angelic incursions feel like
 
 ---
 
-## 1. The Limitations of the Sethite View: A "Rationalist Bias"
+## I. The Limitations of the Sethite View: A "Rationalist Bias"
 {: .lang-en lang="en"}
 
-## 一、 塞特后裔说的局限与解经的“理性偏误”
+## I. 塞特后裔说的局限与解经的“理性偏误”
 {: .lang-zh lang="zh-CN"}
 
 Traditional Reformed exegesis, in an effort to safeguard human moral responsibility, has often adopted the "Sethite View," equating the "Sons of God" with the godly line of Seth. This view suggests that the sin was merely the intermarriage of believers and unbelievers. However, this interpretation suffers from severe linguistic, logical, and historical flaws:
@@ -44,10 +44,10 @@ Traditional Reformed exegesis, in an effort to safeguard human moral responsibil
 传统改革宗解经为守护人的道德责任，常采取“塞特后裔说”，将“神的儿子”等同于塞特的敬虔后裔。这种观点认为，当时的罪仅仅是信徒与非信徒之间的通婚。然而，这种解释在语言学、逻辑和历史上都存在严重漏洞：
 {: .lang-zh lang="zh-CN"}
 
-### Linguistic Rupture and Divine Council
+### I. Linguistic Rupture and Divine Council
 {: .lang-en lang="en"}
 
-### 1. 语言学的断裂与神圣议会
+### I. 语言学的断裂与神圣议会
 {: .lang-zh lang="zh-CN"}
 
 In the Hebrew Bible, the term *Bene ha-elohim* (Sons of God) consistently refers to supernatural beings in the divine council, never to human beings. When we look at Job, these "Sons of God" are present at the foundation of the world:
@@ -74,10 +74,10 @@ Furthermore, Psalm 82 and Deuteronomy 32 describe a "Divine Council" hierarchy t
 此外，诗篇 82 篇和申命记 32 章描述了一个作为圣经神学核心的“神圣议会”等级制度。塞特后裔说忽略了这种宇宙地理观，剥离了文本在古代近东的语境，取而代之的是一种局部的道德教训。
 {: .lang-zh lang="zh-CN"}
 
-### The Biological Impossibility
+### II. The Biological Impossibility
 {: .lang-en lang="en"}
 
-### 2. 生物突变的不可解性
+### II. 生物突变的不可解性
 {: .lang-zh lang="zh-CN"}
 
 If the descendants of Seth were the "godly line," how could these supposedly righteous "Sons of God" lust after the beauty of the daughters of Cain and take wives for themselves "whomever they chose"? This phrasing suggests a unilateral desire or even coercion, proving that these descendants were by no means righteous. Furthermore, the intermarriage of two ungodly human groups—no matter how different their spiritual status or how depraved they were—cannot produce *Nephilim* (giants). As Heiser emphasizes, the term *Nephilim* in Numbers 13:33 is used in a context that makes their physical "abnormality" and "giant stature" an undeniable fact. These giants became the "mighty men of old, men of renown" (Genesis 6:4), providing a perfect biblical explanation for the legends of giant heroes found in the mythologies of nations and tribes across the globe.
@@ -106,10 +106,10 @@ The traditional view fails to explain why moral compromise would result in physi
 
 ---
 
-## 2. The Strategy of the Fallen Watchers: A War of Bloodlines
+## II. The Strategy of the Fallen Watchers: A War of Bloodlines
 {: .lang-en lang="en"}
 
-## 二、 堕落看守者的战略：一场血脉之战
+## II. 堕落看守者的战略：一场血脉之战
 {: .lang-zh lang="zh-CN"}
 
 Following the "Protoevangelium" in Genesis 3:15, Satan understood that his ultimate defeat would come through a "Seed of the Woman." His response was not merely to tempt, but to corrupt. The intervention in Genesis 6 was a tactical move of **Biological Warfare** against the Messiah's lineage.
@@ -118,10 +118,10 @@ Following the "Protoevangelium" in Genesis 3:15, Satan understood that his ultim
 根据《创世记》3:15 的“原始福音”，撒但明白他的最终失败将通过“女人的后裔”降临。他的回应不仅是诱惑，更是腐蚀。《创世记》6 章的干预是针对弥赛亚血脉的一场**生物战**战术行动。
 {: .lang-zh lang="zh-CN"}
 
-### The Preservation of "Pure" Humanity
+### I. The Preservation of "Pure" Humanity
 {: .lang-en lang="en"}
 
-### 1. “纯粹”人性的保全
+### I. “纯粹”人性的保全
 {: .lang-zh lang="zh-CN"}
 
 Satan dispatched "Watchers" who "did not keep their own domain" (Jude 6) to pollute the human gene pool. Their goal was to ensure that no "pure human" could be born to fulfill the prophecy.
@@ -150,10 +150,10 @@ For Christ to be the second Adam, He had to be "fully man." If all of humanity h
 
 ---
 
-## 3. Noah: The "Unblemished" Lamb of Humanity
+## III. Noah: The "Unblemished" Lamb of Humanity
 {: .lang-en lang="en"}
 
-## 三、 挪亚：人类中“无残疾”的羔羊
+## III. 挪亚：人类中“无残疾”的羔羊
 {: .lang-zh lang="zh-CN"}
 
 The text describes Noah as a "just man" and "perfect" (*Tamim*) in his generations.
@@ -174,10 +174,10 @@ The text describes Noah as a "just man" and "perfect" (*Tamim*) in his generatio
 ```
 {: .lang-zh lang="zh-CN"}
 
-### More Than Moral Blamelessness
+### I. More Than Moral Blamelessness
 {: .lang-en lang="en"}
 
-### 1. 不仅仅是道德上的无瑕疵
+### I. 不仅仅是道德上的无瑕疵
 {: .lang-zh lang="zh-CN"}
 
 Heiser and many Hebrew scholars note that *Tamim* is the primary term used in the Levitical law to describe sacrificial animals that must be "physically perfect, without blemish."
@@ -194,10 +194,10 @@ While Noah was certainly a man of faith, the context of Genesis 6 implies that h
 
 ---
 
-## 4. The Geography of Rebellion: From Hermon to Caesarea Philippi
+## IV. The Geography of Rebellion: From Hermon to Caesarea Philippi
 {: .lang-en lang="en"}
 
-## 四、 背叛的地理学：从黑门山到凯撒利亚·腓立比
+## IV. 背叛的地理学：从黑门山到凯撒利亚·腓立比
 {: .lang-zh lang="zh-CN"}
 
 Heiser restores a crucial geographic link: Jewish tradition identifies **Mount Hermon** as the site where the Watchers descended. This gives profound meaning to Jesus' ministry in the New Testament.
@@ -206,10 +206,10 @@ Heiser restores a crucial geographic link: Jewish tradition identifies **Mount H
 海瑟恢复了一个关键的地理联系：犹太传统认定**黑门山**是看守者降临的地点。这为新约中耶稣的事工赋予了深远的意义。
 {: .lang-zh lang="zh-CN"}
 
-### Confronting the Gates of Hell
+### I. Confronting the Gates of Hell
 {: .lang-en lang="en"}
 
-### 1. 直面阴间的权势
+### I. 直面阴间的权势
 {: .lang-zh lang="zh-CN"}
 
 When Jesus took His disciples to Caesarea Philippi—at the base of Mount Hermon—and declared that "the gates of hell shall not prevail" (Matthew 16:18), He was not just using a metaphor. He was standing at the very "epicenter" of the Watcher rebellion, declaring a **"Counter-Invasion."**
@@ -226,10 +226,10 @@ His Transfiguration, which likely occurred on Mount Hermon, was a public declara
 
 ---
 
-## 5. The Origin of Demons: The Disembodied Nephilim
+## V. The Origin of Demons: The Disembodied Nephilim
 {: .lang-en lang="en"}
 
-## 五、 鬼魔起源论：失去肉身的 Nephilim
+## V. 鬼魔起源论：失去肉身的 Nephilim
 {: .lang-zh lang="zh-CN"}
 
 One of the most profound insights in Heiser's research is the distinction between "Fallen Angels" and "Demons."
@@ -256,10 +256,10 @@ This is why they reacted with such terror when they saw Jesus. They are the ghos
 
 ---
 
-## 6. Conclusion: The Victory of Sovereign Grace
+## VI. Conclusion: The Victory of Sovereign Grace
 {: .lang-en lang="en"}
 
-## 六、 结论：主权恩典的胜利
+## VI. 结论：主权恩典的胜利
 {: .lang-zh lang="zh-CN"}
 
 The Great Flood was a surgical act of grace. It was the means by which God preserved the human race from a supernatural "extinction event."
