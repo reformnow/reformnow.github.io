@@ -167,10 +167,10 @@ The conflict over Romans 7 was not a mere academic exercise. It touched the very
 {: .lang-zh lang="zh-CN"}
 
 ---
-### References
+## Bibliography
 {: .lang-en lang="en"}
 
-### 参考文献
+## 参考文献
 {: .lang-zh lang="zh-CN"}
 
 1. **How Did We Get the Canons of Dort?** - *Ligonier Ministries*.

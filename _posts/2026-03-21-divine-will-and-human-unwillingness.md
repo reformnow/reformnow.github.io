@@ -12,10 +12,10 @@ image:
   alt: Jesus lamenting Jerusalem, with a symbolic hen gathering her chicks.
 ---
 
-## 1. Introduction: The Tears of the Creator
+## Introduction: The Tears of the Creator
 {: .lang-en lang="en"}
 
-## 1. 引言：创造主的泪水
+## 引言：创造主的泪水
 {: .lang-zh lang="zh-CN"}
 
 There are few scenes in the Gospels more poignant than Jesus Christ standing on the Mount of Olives, looking down upon the golden city of Jerusalem and weeping. His words are not those of a cold, indifferent judge, but of a rejected King who genuinely longs for the restoration of His people. In Matthew 23:37 and Luke 13:34, we encounter one of the most profound expressions of the "Revealed Will" of God toward a rebellious world.
@@ -198,10 +198,10 @@ The lament over Jerusalem shows that those who perish do so by their own active 
 
 ---
 
-## 7. Conclusion: Fleeing to the Shadow of His Wings
+## Conclusion: Fleeing to the Shadow of His Wings
 {: .lang-en lang="en"}
 
-## 7. 结语：逃向祂翅膀的荫下
+## 结语：逃向祂翅膀的荫下
 {: .lang-zh lang="zh-CN"}
 
 The call of the Hen continues today through the preaching of the Word. It is a sincere, compassionate call to all: *Come and be gathered.* If you feel the hardness of your own heart, do not try to "will" yourself into righteousness. Instead, cry out to the One who weeps over the lost, asking Him to do for you what you cannot do for yourself—to gather you, by His irresistible mercy, under the safety of His eternal wings.

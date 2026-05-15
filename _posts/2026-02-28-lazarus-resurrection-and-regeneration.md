@@ -12,7 +12,7 @@ image:
   alt_zh: "拉撒路的复活"
 ---
 
-## I. Introduction: The Theological Key Behind the Miracle
+## Introduction: The Theological Key Behind the Miracle
 {: .lang-en lang="en"}
 
 The resurrection of Lazarus is one of the most beloved stories in the Gospel of John. However, if we view it merely as a touching tale of divine sympathy or a localized miracle of physical resuscitation, we miss its highest purpose. This event is not just a miracle; it is a profound theological statement—the supreme demonstration of God's redemptive logic.
@@ -21,7 +21,7 @@ The resurrection of Lazarus is one of the most beloved stories in the Gospel of 
 **The Core Proposition:** If salvation were a "gift" that a sinner must first "decide" to accept of their own autonomous will, then Lazarus would have needed to make a "decision" while still rotting in the tomb. But the biblical narrative shows the exact opposite. Life did not come because Lazarus chose it; Lazarus chose to walk out because Life had already sovereignly claimed him.
 {: .lang-en lang="en"}
 
-## 一、 引言：神迹背后的神学定调
+## 引言：神迹背后的神学定调
 {: .lang-zh lang="zh-CN"}
 
 拉撒路的复活是《约翰福音》中最令人动容的故事之一。然而，如果我们仅仅将其视为一个关于同情心的感人传说，或是上帝对肉身死亡的一次临时干预，我们就错过了它最高的神学目的。拉撒路的复活不只是一个神迹；它是上帝救赎逻辑的最高展示。
@@ -32,7 +32,7 @@ The resurrection of Lazarus is one of the most beloved stories in the Gospel of 
 
 ---
 
-## II. The Reality of the Condition: Truly Dead
+## 2. The Reality of the Condition: Truly Dead
 {: .lang-en lang="en"}
 
 ### 1. "By this time there is a bad odor": Irreversible Decay
@@ -53,7 +53,7 @@ In the Jewish understanding of that era, the soul was thought to hover near the 
 **The Spiritual Meaning:** This is the biblical picture of "Total Depravity." Sinners are not merely "sick," "weak," or "unconscious." They are **spiritually dead**. A corpse has no appetite, no will toward life, and no capacity to "accept" a cure. To offer a "gift" to a dead man is futile unless you first give him the life to receive it.
 {: .lang-en lang="en"}
 
-## 二、 境遇的真实：死得透彻
+## 2. 境遇的真实：死得透彻
 {: .lang-zh lang="zh-CN"}
 
 ### 1. “主啊，他现在必是臭了”：无可挽回的腐烂
@@ -96,7 +96,7 @@ When Jesus heard Lazarus was sick, He didn't rush. He stayed where He was for tw
 
 ---
 
-## III. The Logic of Resurrection: Regeneration Precedes Faith
+## 3. The Logic of Resurrection: Regeneration Precedes Faith
 {: .lang-en lang="en"}
 
 ### 1. The Name Called: Effectual Calling
@@ -113,7 +113,7 @@ The climax occurs not with a suggestion, but with a command. Jesus cried out wit
 **Shattering "Acceptance Theology":** Did Lazarus exercise his "free will" to agree to be resurrected before Jesus called him? Absolutely not. He was a passive recipient of a creative act. Salvation is a monergistic work of God—it is a single-handed, sovereign creation of life in a place of death.
 {: .lang-en lang="en"}
 
-## 三、 复活的逻辑：重生先行于信心
+## 3. 复活的逻辑：重生先行于信心
 {: .lang-zh lang="zh-CN"}
 
 ### 1. 呼唤的名字：主权的恩召
@@ -152,7 +152,7 @@ After granting life, Jesus gives another command to the bystanders: "Take off th
 
 ---
 
-## IV. Jesus Wept: Sovereign Love and Divine Anger
+## 4. Jesus Wept: Sovereign Love and Divine Anger
 {: .lang-en lang="en"}
 
 One of the shortest and most profound verses in the Bible is John 11:35: **"Jesus wept"** (ἐδάκρυσεν).
@@ -171,7 +171,7 @@ As St. Augustine noted:
 ```
 {: .lang-en lang="en"}
 
-## 四、 耶稣的眼泪：主权的爱与神性
+## 4. 耶稣的眼泪：主权的爱与神性
 {: .lang-zh lang="zh-CN"}
 
 圣经中最短也最深邃的一节经文是《约翰福音》11:35：**“耶稣哭了”** (ἐδάκρυσεν)。
@@ -192,7 +192,7 @@ As St. Augustine noted:
 
 ---
 
-## V. Conclusion: The Ultimate Proof of Grace Alone
+## Conclusion: The Ultimate Proof of Grace Alone
 {: .lang-en lang="en"}
 
 The resurrection of Lazarus provides a perfect logical loop for the series of grace we have explored:
@@ -211,7 +211,7 @@ The resurrection of Lazarus provides a perfect logical loop for the series of gr
 > "It was not Lazarus' faith that woke Jesus; it was Jesus' voice that created Lazarus' faith."
 {: .lang-en lang="en"}
 
-## 五、 总结：唯独恩典的终极证明
+## 总结：唯独恩典的终极证明
 {: .lang-zh lang="zh-CN"}
 
 拉撒路的复活为我们之前探讨过的“救恩系列”提供了一个完美的逻辑闭环：
@@ -232,7 +232,7 @@ The resurrection of Lazarus provides a perfect logical loop for the series of gr
 
 ---
 
-## VI. Final Call: Let God Be the Architect
+## 6. Final Call: Let God Be the Architect
 {: .lang-en lang="en"}
 
 Stop treating the Gospel as a negotiation. It is a rescue. May we bow before the One who didn't just offer us a hand, but walked into our darkness, called us by name, and dragged us back into the light.
@@ -241,7 +241,7 @@ Stop treating the Gospel as a negotiation. It is a rescue. May we bow before the
 **Soli Deo Gloria.**
 {: .lang-en lang="en"}
 
-## 六、 结语：让上帝成为设计师
+## 结语：让上帝成为设计师
 {: .lang-zh lang="zh-CN"}
 
 不要再把福音当成一场谈判，它是一场主权的营救。愿我们俯伏在祂面前——祂没有向我们伸出竹竿，而是直接潜入死阴的海底，将我们这具冰冷的尸体带回岸上，并吹入了永恒的生命气息。

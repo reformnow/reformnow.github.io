@@ -11,7 +11,7 @@ image:
   alt: "The Four Spiritual Laws booklet cover in Chinese and English"
 ---
 
-## I. Introduction: The Weight of the Gospel
+## Introduction: The Weight of the Gospel
 {: .lang-en lang="en"}
 
 The "Four Spiritual Laws," popularized in the mid-20th century, has become one of the most widely used evangelistic frameworks in modern history. Its simplicity is undeniable, and its reach is vast. However, in our attempt to make the Gospel "simple," have we accidentally made it something other than the biblical Gospel?
@@ -20,7 +20,7 @@ The "Four Spiritual Laws," popularized in the mid-20th century, has become one o
 Evangelism must be more than a simplified sales pitch or a cosmic transaction. To honor God, our presentation of the Gospel must be faithful to the fullness of His holy character and the reality of our fallen condition. As we peel back the layers of this popular model, we find that it often trades the sovereign majesty of God for a human-centered "decisionism."
 {: .lang-en lang="en"}
 
-## 一、 引言：福音的分量
+## 引言：福音的分量
 {: .lang-zh lang="zh-CN"}
 
 诞生于20世纪中叶的“四个属灵原则”（简称“四律”），已成为现代历史上使用最广泛的传福音框架之一。它的简洁性不言而喻，其影响力也极其深远。然而，在我们试图将福音“简单化”的过程中，是否不小心将其扭曲成了圣经福音之外的某种东西？
@@ -31,7 +31,7 @@ Evangelism must be more than a simplified sales pitch or a cosmic transaction. T
 
 ---
 
-## II. Law 1: A "Wonderful Plan" vs. The Holy Decree
+## 2. Law 1: A "Wonderful Plan" vs. The Holy Decree
 {: .lang-en lang="en"}
 
 > **The Popular View:** "God loves you and has a wonderful plan for your life."
@@ -53,7 +53,7 @@ In Scripture, the "plan" of God for those remaining in their sins is not describ
 God's love is not a sentimental benevolence but a holy devotion to His own glory. To present God as a divine assistant waiting to fulfill a person's "abundant life" risks making the sinner the center of the story and God the means to an end.
 {: .lang-en lang="en"}
 
-## 二、 原则一：万事如意的计划与神圣的主权预旨
+## 2. 原则一：万事如意的计划与神圣的主权预旨
 {: .lang-zh lang="zh-CN"}
 
 > **普遍的表述：** “神爱你，并且为你的生命有一套奇妙的计划。”
@@ -77,7 +77,7 @@ God's love is not a sentimental benevolence but a holy devotion to His own glory
 
 ---
 
-## III. Law 2: Separation vs. Spiritual Death
+## 3. Law 2: Separation vs. Spiritual Death
 {: .lang-en lang="en"}
 
 > **The Popular View:** "Man is sinful and separated from God."
@@ -99,7 +99,7 @@ Biblical diagnosis goes much deeper than "separation." The Bible calls it **Deat
 A man who is separated can walk, think, and choose to cross a bridge. But a man who is **dead** can do nothing. By Framing the problem as a "gulf to be bridged" rather than a "corpse to be resurrected," we subtly suggest that the sinner still possesses the moral ability to seek God if the right bridge (Christ) is presented.
 {: .lang-en lang="en"}
 
-## 三、 原则二：距离的隔阂与灵魂的死亡
+## 3. 原则二：距离的隔阂与灵魂的死亡
 {: .lang-zh lang="zh-CN"}
 
 > **普遍的表述：** “人有罪，与神隔绝。”
@@ -123,7 +123,7 @@ A man who is separated can walk, think, and choose to cross a bridge. But a man 
 
 ---
 
-## IV. Law 3: Provision vs. Substitutionary Accomplishment
+## 4. Law 3: Provision vs. Substitutionary Accomplishment
 {: .lang-en lang="en"}
 
 > **The Popular View:** "Jesus Christ is God's only provision for man's sin."
@@ -145,7 +145,7 @@ Christ did not die to make salvation *possible* for those who would choose Him; 
 Jesus did not say He was a "provision" for the sheep, but that He actually **gave His life** for them (John 10:15). In the modern model, the effectiveness of Christ's blood is held hostage by the sinner's response. But in a God-centered view, the cross is an actual achievement, not just a potential offer.
 {: .lang-en lang="en"}
 
-## 四、 原则三：救恩的“备选方案”与确定的代替赎罪
+## 4. 原则三：救恩的“备选方案”与确定的代替赎罪
 {: .lang-zh lang="zh-CN"}
 
 > **普遍的表述：** “耶稣基督是神为人的罪所预备的唯一救法。”
@@ -169,7 +169,7 @@ Jesus did not say He was a "provision" for the sheep, but that He actually **gav
 
 ---
 
-## V. Law 4: The "Act of the Will" vs. Sovereign Regeneration
+## 5. Law 4: The "Act of the Will" vs. Sovereign Regeneration
 {: .lang-en lang="en"}
 
 > **The Popular View:** "We must individually receive Jesus... by personal invitation... as an act of the will."
@@ -191,7 +191,7 @@ Revelation 3:20 was written to a *church* (Laodicea), not as an evangelistic des
 Faith is not the trigger for the New Birth; it is the **symptom** of the New Birth. We do not "open the door" so that God can change us; God changes our hearts of stone into hearts of flesh, and *therefore* we joyfully open the door to our King. Law 4 risks making the human will the "prime mover" of salvation.
 {: .lang-en lang="en"}
 
-## 五、 原则四：人的“意愿行为”还是神的主权重生
+## 5. 原则四：人的“意愿行为”还是神的主权重生
 {: .lang-zh lang="zh-CN"}
 
 > **普遍的表述：** “我们必须亲自接受耶稣……藉着个人的邀请……作为一种意志的行动。”
@@ -215,7 +215,7 @@ Faith is not the trigger for the New Birth; it is the **symptom** of the New Bir
 
 ---
 
-## VI. Conclusion: Let God Be God
+## Conclusion: Let God Be God
 {: .lang-en lang="en"}
 
 The simplified Gospel of modern "Decisionism" is designed to produce statistics and quick results. But the biblical Gospel is designed to produce worship and awe. When we present a God who is helplessly waiting for a man's permission to be gracious, we are robbed of the true comfort of the Gospel.
@@ -230,7 +230,7 @@ Let us preach a Gospel that doesn't just offer a "wonderful plan," but heralds a
 **Soli Deo Gloria.**
 {: .lang-en lang="en"}
 
-## 六、 总结：让上帝成为上帝
+## 总结：让上帝成为上帝
 {: .lang-zh lang="zh-CN"}
 
 现代“决定论”那被过度简化的福音，是为统计数据和快速成效而设计的；但圣经中的福音，则是为产生敬拜和战兢而启示的。当我们呈现一个正在卑微等待人类准许才敢施恩的上帝时，我们就被剥夺了福音中真正的安慰。

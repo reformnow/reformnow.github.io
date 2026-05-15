@@ -11,7 +11,7 @@ image:
   alt: "Evangelism Explosion Do You Know Tract Cover"
 ---
 
-## I. Introduction: The Legacy and the Dilemma
+## Introduction: The Legacy and the Dilemma
 {: .lang-en lang="en"}
 
 Developed by Dr. D. James Kennedy in the 1960s, "Evangelism Explosion" (EE) has trained millions of Christians in personal evangelism. Ironically, while Kennedy himself was a minister in the Presbyterian Church in America (PCA) and held to historic biblical theology, the *methodology* of EE frequently functions in a decidedly Arminian, pragmatic manner.
@@ -20,7 +20,7 @@ Developed by Dr. D. James Kennedy in the 1960s, "Evangelism Explosion" (EE) has 
 EE provides a highly structured script for believers, most famously characterized by its two diagnostic questions. While its commitment to equipping the saints is commendable, its underlying mechanics—the presentation of the Gospel as a "gift" waiting to be taken, and the heavy psychological pressure to "close the deal" with a sinner's prayer—reveal serious theological gaps when evaluated against historic orthodox theology.
 {: .lang-en lang="en"}
 
-## 一、 引言：三福的遗产与神学困境
+## 引言：三福的遗产与神学困境
 {: .lang-zh lang="zh-CN"}
 
 由雅各·甘雅各博士（Dr. D. James Kennedy）在20世纪60年代创立的“三元福音”（Evangelism Explosion，简称EE或三福），已经培训了数以百万计的基督徒进行个人布道。颇具讽刺意味的是，虽然甘雅各本人是美国长老会（PCA）的牧师，也认同正统的神学，但“三福”的*方法论*在实际操作中，却常常表现出明显的阿米念主义和实用主义色彩。
@@ -31,7 +31,7 @@ EE provides a highly structured script for believers, most famously characterize
 
 ---
 
-## II. The Starting Point: Heaven, Not Holiness
+## 2. The Starting Point: Heaven, Not Holiness
 {: .lang-en lang="en"}
 
 The EE script immediately hooks the listener with its first diagnostic question: *"If you were to die today, do you know for sure that you would go to heaven?"*
@@ -50,7 +50,7 @@ The biblical Gospel does not begin with man's desire for heaven; it begins with 
 ```
 {: .lang-en lang="en"}
 
-## 二、 出发点：是“进天堂”还是“神的圣洁”？
+## 2. 出发点：是“进天堂”还是“神的圣洁”？
 {: .lang-zh lang="zh-CN"}
 
 “三福”的话术在一开始就用第一个诊断问题紧紧抓住了听众：*“如果你今天离开世界，你有多大把握能进天堂？”*
@@ -71,7 +71,7 @@ The biblical Gospel does not begin with man's desire for heaven; it begins with 
 
 ---
 
-## III. Faith as "Taking a Gift": The Denial of Total Inability
+## 3. Faith as "Taking a Gift": The Denial of Total Inability
 {: .lang-en lang="en"}
 
 In presenting the solution to sin, EE famously uses the analogy of a gift. The evangelist will often hold out a pen or a physical object and say, "Eternal life is a free gift... but you must reach out and take it by faith."
@@ -117,7 +117,7 @@ The faith used to "take the gift" is itself something God must grant:
 ```
 {: .lang-en lang="en"}
 
-## 三、 将信心视为“接受礼物”：对“全然无能”的妥协
+## 3. 将信心视为“接受礼物”：对“全然无能”的妥协
 {: .lang-zh lang="zh-CN"}
 
 在介绍如何对付罪的方案时，“三福”最著名的就是它的“礼物”比喻。布道者通常会拿出一支笔或一个实物，然后说：“永生是一份免费的礼物……但你必须伸出手，用信心去接受它。”
@@ -165,7 +165,7 @@ The faith used to "take the gift" is itself something God must grant:
 
 ---
 
-## IV. "Closing the Deal": The Error of Decisionism
+## 4. "Closing the Deal": The Error of Decisionism
 {: .lang-en lang="en"}
 
 The most troubling aspect of the EE methodology is the pressure it applies in "the close." The evangelist is trained to lead the person sequentially toward a pivotal point: *"Does this make sense? Would you like to receive the gift of eternal life right now? Please pray this prayer after me..."*
@@ -187,7 +187,7 @@ From a biblical perspective, the work of salvation belongs exclusively to the Ho
 A coerced "sinner's prayer" gives people a false assurance of salvation resting on a momentary human decision rather than the sovereign regenerating grace of God.
 {: .lang-en lang="en"}
 
-## 四、 “促成交易”：决志主义的误谬
+## 4. “促成交易”：决志主义的误谬
 {: .lang-zh lang="zh-CN"}
 
 “三福”方法论中最令人不安的环节，在于它在“收尾（the close）”时施加的压力。布道者受过严格的训练，会一步一步地将对方推向关键节点：*“这些听起来有道理吗？你现在愿意接受这永生的礼物吗？请跟着我做这个决志祷告……”*
@@ -211,7 +211,7 @@ A coerced "sinner's prayer" gives people a false assurance of salvation resting 
 
 ---
 
-## V. Conclusion: Returning to Biblical Proclamation
+## Conclusion: Returning to Biblical Proclamation
 {: .lang-en lang="en"}
 
 Evangelism Explosion was born out of a noble desire to see the lost saved, and God, in His gracious providence, has certainly used it despite its flaws. However, our evangelistic methods must be consistently derived from our theology.
@@ -226,7 +226,7 @@ True evangelism rests not in a perfected script or a cleverly constructed presen
 **Soli Deo Gloria.**
 {: .lang-en lang="en"}
 
-## 五、 结论：回归符合圣经的宣告
+## 结论：回归符合圣经的宣告
 {: .lang-zh lang="zh-CN"}
 
 “三元福音”的初衷是高尚的，它反映了对失丧灵魂的迫切关怀；而上帝在祂恩典的护理中，也确实曾使用过它。然而，我们的布道方法必须始终与我们的神学信仰保持一致。

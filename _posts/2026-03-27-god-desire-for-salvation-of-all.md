@@ -11,10 +11,10 @@ image:
   alt: "A shepherd waiting for a lost sheep under a luminous heavenly throne"
 ---
 
-## I. Introduction: The Tension of Divine Desire
+## Introduction: The Tension of Divine Desire
 {: .lang-en lang="en"}
 
-## 一、 引言：神圣愿望中的张力
+## 引言：神圣愿望中的张力
 {: .lang-zh lang="zh-CN"}
 
 In the discourse of historical theology, few verses are as frequently cited—or as often misunderstood—as those describing God’s desire for the salvation of humanity. To many, the statement that God "desires all people to be saved" seems to present an insurmountable challenge to His absolute sovereignty. If God is all-powerful and truly desires the salvation of every single person who ever lived, why is not every person saved?
@@ -49,10 +49,10 @@ Does this verse imply that God’s eternal purposes can be frustrated by human u
 
 ---
 
-## II. Contextual Clarity: Who are the "All"?
+## 2. Contextual Clarity: Who are the "All"?
 {: .lang-en lang="en"}
 
-## 二、 处境中的清晰：谁是这里的“万人”？
+## 2. 处境中的清晰：谁是这里的“万人”？
 {: .lang-zh lang="zh-CN"}
 
 In biblical interpretation, "all" does not always mean "every individual without exception." Often, it means "all kinds of people without distinction." In the verses immediately preceding 1 Timothy 2:4, Paul is exhorting Christians to pray for "kings and all who are in high positions" (1 Tim 2:2).
@@ -105,10 +105,10 @@ The delay of the Second Coming is, therefore, a necessity of grace. Christ will 
 
 ---
 
-## III. The Three-Fold Will of God
+## 3. The Three-Fold Will of God
 {: .lang-en lang="en"}
 
-## 三、 上帝的三重旨意
+## 3. 上帝的三重旨意
 {: .lang-zh lang="zh-CN"}
 
 When we speak of God’s will, we must distinguish between His sovereign authority and a kind of depressing fatalism. As Doris Day famously sang, "Que Sera, Sera" (What will be, will be), many confuse biblical sovereignty with passive fate. However, the Bible presents God’s will in three distinct ways to help us understand His active and holy engagement with the world.
@@ -215,10 +215,10 @@ As St. Augustine famously resolved:
 
 ---
 
-## IV. Conclusion: Resting in the Wisdom of the King
+## Conclusion: Resting in the Wisdom of the King
 {: .lang-en lang="en"}
 
-## 四、 结语：安息在君王的智慧中
+## 结语：安息在君王的智慧中
 {: .lang-zh lang="zh-CN"}
 
 The "Golden Chain" of our salvation is not broken by the existence of those who perish. Rather, it is a chain made of pure grace produced by a Sovereign who is both profoundly patient and perfectly just. When we read that He "desires all to be saved," we hear the heart of a God whose compassion is vast and whose invitation is sincere. But we also rest in the knowledge that His arm is not too short to save those whom He has called from before the foundations of the world.

@@ -16,7 +16,7 @@ image:
 ## 1. The Sentiment vs. The Scripture
 {: .lang-en lang="en"}
 
-## 一、情感与经文的博弈
+## 1. 情感与经文的博弈
 {: .lang-zh lang="zh-CN"}
 
 ![Light of the World](/assets/img/posts/lightoftheworld-full.jpg)
@@ -42,7 +42,7 @@ The image is iconic: **"The Light of the World"** by William Holman Hunt. It dep
 ## 2. The Context: A Message to a Church
 {: .lang-en lang="en"}
 
-## 二、回归处境：写给教会的信息
+## 2. 回归处境：写给教会的信息
 {: .lang-zh lang="zh-CN"}
 
 To understand Revelation 3:20, we must look at the surrounding verses. Jesus is not speaking to the "unconverted world" at large; He is addressing a specific church—the church in Laodicea.
@@ -92,7 +92,7 @@ Christ is not knocking on the door of a "non-believer's heart" for initial salva
 ## 3. The Theological Error: The "Beggar God"
 {: .lang-en lang="en"}
 
-## 三、神学误区：“乞求的上主”
+## 3. 神学误区：“乞求的上主”
 {: .lang-zh lang="zh-CN"}
 
 When we use this verse to suggest that God is powerless until we act, we commit a serious theological error. It suggests that human will is the ultimate sovereign over God's grace. In common biblical theology, we recognize that when God intends to save, He does not merely "knock" and hope; He effectively "opens the heart."
@@ -130,7 +130,7 @@ Contrast Revelation 3:20 with Acts 16:14, where "the Lord opened [Lydia's] heart
 ## 4. What "Opening the Door" Truly Means: Fellowship
 {: .lang-en lang="en"}
 
-## 四、“开门”的真正含义：契合与团契
+## 4. “开门”的真正含义：契合与团契
 {: .lang-zh lang="zh-CN"}
 
 The promise of Revelation 3:20 is about *Koinonia*—deep, intimate fellowship. The "dining" or "supping" mentioned points to a shared meal, a Hebrew idiom for intimate communion. The great Puritan John Owen emphasized that this depicts Christ refreshing Himself with the graces He has already bestowed upon the saint.
@@ -159,10 +159,10 @@ This is not a call for the dead to come to life (regeneration), but a call for t
 
 ---
 
-## 5. Conclusion: A Stronger Gospel
+## Conclusion: A Stronger Gospel
 {: .lang-en lang="en"}
 
-## 五、结论：更有力量的福音
+## 结论：更有力量的福音
 {: .lang-zh lang="zh-CN"}
 
 We do not need to diminish Christ's power to make Him appealing. The image of the Sovereign Lord, who stands ready both to discipline and to dine, is far more compelling than a helpless figure at a door. As Matthew Henry observed regarding Christ's approach to the heart:
@@ -184,7 +184,7 @@ We do not need to diminish Christ's power to make Him appealing. The image of th
 {: .lang-zh lang="zh-CN"}
 
 Let us present a Christ who does not just "wait" at the door, but who is the Lord of the house, calling His people back to the life of true fellowship. He is the same Lord who holds ultimate authority over every door:
-{: .lang-zh lang="zh-CN"}
+{: .lang-en lang="en"}
 
 让我们传扬这样一位基督：祂不仅仅是在门外“等待”，祂更是这家的主人，呼召祂的子民回归那真实、活泼的爱之契合中。正如启示录在别处关于祂权柄的宣告：
 {: .lang-zh lang="zh-CN"}

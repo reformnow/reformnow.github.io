@@ -11,10 +11,10 @@ image:
   alt: A classic oil painting of a humble biblical figure knocking on a massive ancient wooden door
 ---
 
-## I. Introduction: The Unbreakable Triplicate Promise
+## Introduction: The Unbreakable Triplicate Promise
 {: .lang-en lang="en"}
 
-## 一、 引言：牢不可破的三重应许
+## 引言：牢不可破的三重应许
 {: .lang-zh lang="zh-CN"}
 
 ```bible
@@ -43,10 +43,10 @@ If we view this passage through a human-centric lens, we might mistakenly assume
 
 ---
 
-## II. The Character of the Father: A Willingness to Give
+## 2. The Character of the Father: A Willingness to Give
 {: .lang-en lang="en"}
 
-## 二、 天父的属性：乐意赐予的神
+## 2. 天父的属性：乐意赐予的神
 {: .lang-zh lang="zh-CN"}
 
 The immediate context of Matthew 7 reveals the logic of Christ: "If you then, who are evil, know how to give good gifts to your children, how much more will your Father who is in heaven give good things to those who ask him!" The absolute certainty of answered prayer is grounded entirely in the paternal goodness of God.
@@ -81,10 +81,10 @@ Therefore, the door is opened not because we forced the lock with our theologica
 
 ---
 
-## III. The Mediator's Merit: The Key to the Door
+## 3. The Mediator's Merit: The Key to the Door
 {: .lang-en lang="en"}
 
-## 三、 中保的功劳：开启大门的钥匙
+## 3. 中保的功劳：开启大门的钥匙
 {: .lang-zh lang="zh-CN"}
 
 Yet, a theological tension arises. If God is completely holy, and we are utterly sinful, how dare we approach His door at all? The answer of the Historic Christian Faith is that our asking, seeking, and knocking are never done in a vacuum; they belong to a Covenant of Grace mediated by Jesus Christ.
@@ -119,10 +119,10 @@ When we knock, we do not knock as strangers demanding entry. We knock under the 
 
 ---
 
-## IV. Refuting the Myth of Natural Seeking
+## 4. Refuting the Myth of Natural Seeking
 {: .lang-en lang="en"}
 
-## 四、 驳斥关于“人天然能寻见”的迷思
+## 4. 驳斥关于“人天然能寻见”的迷思
 {: .lang-zh lang="zh-CN"}
 
 Throughout church history, some have misinterpreted this verse to champion human autonomy. They suggest that the act of seeking is derived from the innate introspection of the human heart and some remaining spark of natural goodness that prompts us to knock on God's door.
@@ -145,10 +145,10 @@ This interpretation is fundamentally heterodox. If we seek God out of our "remai
 
 ---
 
-## V. The Sovereign Grace of Desiring
+## 5. The Sovereign Grace of Desiring
 {: .lang-en lang="en"}
 
-## 五、 渴望背后的主权恩典
+## 5. 渴望背后的主权恩典
 {: .lang-zh lang="zh-CN"}
 
 Finally, we must recognize a profound paradox. If God knows what we need before we ask (Matthew 6:8), why must we ask at all? The answer lies in the sovereign work of God within our hearts. The very desire to ask, the perseverance to seek, and the strength to knock are themselves preceded by the secret grace of God.
@@ -175,10 +175,10 @@ We do not generate the initiative to find God; He gives us the thirst, so that H
 ```
 {: .lang-zh lang="zh-CN"}
 
-## VI. Conclusion
+## Conclusion
 {: .lang-en lang="en"}
 
-## 六、 结语
+## 结语
 {: .lang-zh lang="zh-CN"}
 
 "Ask, and it will be given to you" is not a mechanistic formula for earthly prosperity, but a theological guarantee of spiritual communion. We ask confidently, not because of our own merit, but because a loving Father has ordained to bless us through the perfect mediation of His Son, Jesus Christ. The door opens because the Keeper of the Door loves you.
@@ -189,20 +189,20 @@ We do not generate the initiative to find God; He gives us the thirst, so that H
 
 ---
 
-## References & Further Reading
+## Bibliography
 {: .lang-en lang="en"}
 
-## 参考资料与延伸阅读
+## 参考文献
 {: .lang-zh lang="zh-CN"}
 
-- **Augustine of Hippo**. *Sermons on the New Testament*, Sermon LV. Transl. R.G. MacMullen. *Nicene and Post-Nicene Fathers*, First Series, Vol. 6.
-- **Calvin, John**. *Commentary on a Harmony of the Evangelists Matthew, Mark, and Luke*, Vol. 3. Transl. William Pringle. Calvin Translation Society, 1845.
-- **The Westminster Assembly**. *The Westminster Confession of Faith* (1646), Chapter XXI: "Of Religious Worship, and the Sabbath Day".
-- **Spurgeon, Charles H.** *The Treasury of David* (Commentary on Psalm 145 on the promptness of God in answering prayer).
+1. **Augustine of Hippo**. *Sermons on the New Testament*, Sermon LV. Transl. R.G. MacMullen. *Nicene and Post-Nicene Fathers*, First Series, Vol. 6.
+2. **Calvin, John**. *Commentary on a Harmony of the Evangelists Matthew, Mark, and Luke*, Vol. 3. Transl. William Pringle. Calvin Translation Society, 1845.
+3. **The Westminster Assembly**. *The Westminster Confession of Faith* (1646), Chapter XXI: "Of Religious Worship, and the Sabbath Day".
+4. **Spurgeon, Charles H.** *The Treasury of David* (Commentary on Psalm 145 on the promptness of God in answering prayer).
 {: .lang-en lang="en"}
 
-- **希波的奥古斯丁 (Augustine of Hippo)**. 《新约讲道集》第55讲 (Sermons on the New Testament, Sermon LV).
-- **约翰·加尔文 (John Calvin)**. 《福音书和谐注释》(Commentary on a Harmony of the Evangelists).
-- **威斯敏斯特会议**. 《威斯敏斯特信仰告白》(1646) 第二十一章：“论宗教敬拜与安息日”.
-- **司布真 (Charles H. Spurgeon)**. 《大卫宝库》(The Treasury of David) 有关神应允祷告之快的神学论述.
+1. **希波的奥古斯丁 (Augustine of Hippo)**. 《新约讲道集》第55讲 (Sermons on the New Testament, Sermon LV).
+2. **约翰·加尔文 (John Calvin)**. 《福音书和谐注释》(Commentary on a Harmony of the Evangelists).
+3. **威斯敏斯特会议**. 《威斯敏斯特信仰告白》(1646) 第二十一章：“论宗教敬拜与安息日”.
+4. **司布真 (Charles H. Spurgeon)**. 《大卫宝库》(The Treasury of David) 有关神应允祷告之快的神学论述.
 {: .lang-zh lang="zh-CN"}

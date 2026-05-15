@@ -12,7 +12,7 @@ image:
   alt_zh: "唯独基督"
 ---
 
-## I. Introduction: The "Percentage" Myth of Salvation
+## Introduction: The "Percentage" Myth of Salvation
 {: .lang-en lang="en"}
 
 **The Phenomenon:** Modern believers often harbor a subtle "salvation partnership" mentality. It sounds something like this: "God has completed 99% of the work of salvation, but I need to do the final 1% by 'accepting' it or 'persevering' in it."
@@ -21,7 +21,7 @@ image:
 **The Theological Tone:** This seemingly innocent idea is essentially a revival of Semi-Pelagianism. To understand the gravity of this, we must look back to the fiery debates of the 16th century to see why *Solus Christus* (Christ Alone) is not just a theological technicality, but the very bottom line of life and death in our faith.
 {: .lang-en lang="en"}
 
-## 一、 引言：救恩的“百分比”迷思
+## 引言：救恩的“百分比”迷思
 {: .lang-zh lang="zh-CN"}
 
 **现象描述：** 现代信徒常有一种微妙的“救恩合伙人”心态。这种心态听起来是这样的：“上帝完成了救恩中 99% 的工作，但我需要去完成最后那 1% 的‘接受’或者‘坚持’。”
@@ -32,7 +32,7 @@ image:
 
 ---
 
-## II. Head-to-Head: The Council of Trent's Dismantling of "Solus Christus"
+## 2. Head-to-Head: The Council of Trent's Dismantling of "Solus Christus"
 {: .lang-en lang="en"}
 
 To fully grasp the glory of Christ Alone, we must examine how the historical Roman Catholic Church, particularly through the Council of Trent, systematically diluted the exclusivity of Christ’s work by introducing a "Christ +" model.
@@ -50,7 +50,7 @@ To fully grasp the glory of Christ Alone, we must examine how the historical Rom
 ```
 {: .lang-en lang="en"}
 
-## 二、 针锋相对：特伦托会议对“唯独基督”的拆解
+## 2. 针锋相对：特伦托会议对“唯独基督”的拆解
 {: .lang-zh lang="zh-CN"}
 
 为了充分认识“唯独基督”的荣耀，我们要探讨历史上的罗马天主教（特别是在特伦托会议中）是如何通过“基督+”的模式，削弱基督工作的唯一性的。
@@ -70,7 +70,7 @@ To fully grasp the glory of Christ Alone, we must examine how the historical Rom
 
 ---
 
-## III. Deep Dive: How Much of "Your Handwriting" is in Your Salvation?
+## 3. Deep Dive: How Much of "Your Handwriting" is in Your Salvation?
 {: .lang-en lang="en"}
 
 *   **Total Depravity and Monergism:** As established in our previous explorations, humanity is spiritually "dead" (Ephesians 2:1). How exactly does a corpse "cooperate" with a physician? It cannot. Therefore, salvation—from its conception in eternity past, to its execution on the cross, to its application in the human heart—must be entirely the unilateral work of Christ (Monergism).
@@ -88,7 +88,7 @@ To fully grasp the glory of Christ Alone, we must examine how the historical Rom
 ```
 {: .lang-en lang="en"}
 
-## 三、 深度剖析：你的救恩里有多少“你的笔迹”？
+## 3. 深度剖析：你的救恩里有多少“你的笔迹”？
 {: .lang-zh lang="zh-CN"}
 
 *   **全然败坏与单边神作（Monergism）：** 正如我们在之前的文章中所确立的，人在属灵上是“死的”（以弗所书 2:1）。一具死尸如何与医生“配合”？这是不可能的。因此，救恩从起意、实施到在人心中达成，完全是基督单方面的工作（神恩独作）。
@@ -108,7 +108,7 @@ To fully grasp the glory of Christ Alone, we must examine how the historical Rom
 
 ---
 
-## IV. Defense: If I Have No Merit, What About "Faith" and "Good Works"?
+## 4. Defense: If I Have No Merit, What About "Faith" and "Good Works"?
 {: .lang-en lang="en"}
 
 *   **Faith is an Instrument, Not a Cause:** Faith is not a new kind of "good work" that God rewards. Rather, faith is simply the "empty hand of a beggar" given by God to receive the riches of Christ. No one praises a beggar because his hand was incredibly skilled at grabbing a coin; all the glory belongs strictly to the wealthy King who placed the gold there.
@@ -121,7 +121,7 @@ To fully grasp the glory of Christ Alone, we must examine how the historical Rom
 ```
 {: .lang-en lang="en"}
 
-## 四、 辩惑：如果我毫无功劳，那“信心”和“善功”算什么？
+## 4. 辩惑：如果我毫无功劳，那“信心”和“善功”算什么？
 {: .lang-zh lang="zh-CN"}
 
 *   **信心是器皿而非原因：** 信心绝不是上帝用来奖赏的一种新型“好行为”。相反，信心只是上帝赐予我们的“乞丐空空如也的手”，用来接住基督的丰富。没有人会称赞一个乞丐接钱的手有多么伟大；所有的荣耀都只属于那位将无价的黄金放进他手中的君王。
@@ -136,7 +136,7 @@ To fully grasp the glory of Christ Alone, we must examine how the historical Rom
 
 ---
 
-## V. From "Solus Christus" to "Soli Deo Gloria"
+## 5. From "Solus Christus" to "Soli Deo Gloria"
 {: .lang-en lang="en"}
 
 *   **Stripping Human Boast:** The arithmetic of heaven is strict. If you possess even 1% of the merit in your salvation, then for all eternity in heaven, you have a 1% reason not to give glory to God, but to praise your own wisdom or perseverance.
@@ -144,7 +144,7 @@ To fully grasp the glory of Christ Alone, we must examine how the historical Rom
 *   **Looking Ahead:** If we truly have absolutely no merit, then who owns the rights to our existence and our lives? In our next article, we will explore the ultimate destination of this entire theological logic—*Soli Deo Gloria* (To God Alone Be the Glory).
 {: .lang-en lang="en"}
 
-## 五、 从“唯独基督”通往“唯独神的荣耀”
+## 5. 从“唯独基督”通往“唯独神的荣耀”
 {: .lang-zh lang="zh-CN"}
 
 *   **剥夺人的夸口：** 天堂的算术是极其严格的。如果在你的救恩中，哪怕拥有 1% 的功劳，那么在永恒的天堂里，你就有 1% 的理由不把荣耀归给神，而是用来称赞你自己的智慧或毅力。

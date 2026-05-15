@@ -11,10 +11,10 @@ image:
   alt: "The Grafting of the Olive Tree"
 ---
 
-## I. Introduction: The Unsearchable Mystery
+## Introduction: The Unsearchable Mystery
 {: .lang-en lang="en"}
 
-## 一、 引言：深不可测的奥秘
+## 引言：深不可测的奥秘
 {: .lang-zh lang="zh-CN"}
 
 In the climax of his magnum opus, the Apostle Paul reaches a profound "mystery" in Romans 11 regarding the relationship between the Church, the Gentiles, and the ethnic people of Israel. To understand this properly, we must view it through the lens of **Covenant Theology** (which sees God's people as one continuous vine) rather than modern Dispensationalism (which often posits two separate paths for Israel and the Church).
@@ -31,10 +31,10 @@ How should we understand this? Does "All Israel" refer to every ethnic Jew? Does
 
 ---
 
-## II. The Foundational Distinction: Romans 9:6
+## 2. The Foundational Distinction: Romans 9:6
 {: .lang-en lang="en"}
 
-## 二、 基础性的区分：罗马书 9:6
+## 2. 基础性的区分：罗马书 9:6
 {: .lang-zh lang="zh-CN"}
 
 Before approaching the promise of Romans 11, we must anchor our interpretation in Paul’s earlier qualification:
@@ -63,10 +63,10 @@ Before approaching the promise of Romans 11, we must anchor our interpretation i
 
 ---
 
-## III. Three Historical Reformed Perspectives
+## 3. Three Historical Reformed Perspectives
 {: .lang-en lang="en"}
 
-## 三、 归正神学历史上的三种视角
+## 3. 归正神学历史上的三种视角
 {: .lang-zh lang="zh-CN"}
 
 Within the Reformed tradition, there have been three primary ways to interpret "All Israel":
@@ -113,10 +113,10 @@ This view emphasizes that "All Israel" represents the full collection of **every
 
 ---
 
-## IV. The Voice of the Great Tradition: From Augustine to Westminster
+## 4. The Voice of the Great Tradition: From Augustine to Westminster
 {: .lang-en lang="en"}
 
-## 四、 大公传统的呼声：从奥古斯丁到威斯敏斯特
+## 4. 大公传统的呼声：从奥古斯丁到威斯敏斯特
 {: .lang-zh lang="zh-CN"}
 
 Throughout the history of the Church, theologians have wrestled with this mystery, finding in it a display of God's unshakeable faithfulness.
@@ -175,10 +175,10 @@ Reformed orthodoxy has often nurtured a specific hope for the ethnic Jewish peop
 
 ---
 
-## V. The Metaphor of the Olive Tree
+## 5. The Metaphor of the Olive Tree
 {: .lang-en lang="en"}
 
-## 四、 橄榄树的隐喻
+## 4. 橄榄树的隐喻
 {: .lang-zh lang="zh-CN"}
 
 Paul uses the striking image of an olive tree to illustrate his point. The root is holy (the patriarchs/covenants), and while some "natural branches" (unbelieving Jews) were broken off due to unbelief, "wild olive shoots" (Gentiles) were grafted in.
@@ -201,10 +201,10 @@ Paul uses the striking image of an olive tree to illustrate his point. The root 
 
 ---
 
-## VI. Fulfillment, Not Replacement
+## 6. Fulfillment, Not Replacement
 {: .lang-en lang="en"}
 
-## 六、 成全而非替代
+## 6. 成全而非替代
 {: .lang-zh lang="zh-CN"}
 
 Reformers generally avoid the term **"Replacement Theology"** (Supersessionism), preferring **"Fulfillment Theology."** The Church does not simply "replace" Israel as a separate entity; rather, the Church is the *continuation* and *expansion* of all that Israel was promised to be.
@@ -231,10 +231,10 @@ Reformers generally avoid the term **"Replacement Theology"** (Supersessionism),
 
 ---
 
-## VII. Sola Gratia: The Only Way of Salvation
+## 7. Sola Gratia: The Only Way of Salvation
 {: .lang-en lang="en"}
 
-## 七、 唯独恩典：救赎只有一条路
+## 7. 唯独恩典：救赎只有一条路
 {: .lang-zh lang="zh-CN"}
 
 Regardless of which interpretation of "All Israel" one holds, we must maintain two ironclad biblical rules:
@@ -249,10 +249,10 @@ Regardless of which interpretation of "All Israel" one holds, we must maintain t
 
 ---
 
-## VIII. Conclusion: The Irrevocable Call
+## Conclusion: The Irrevocable Call
 {: .lang-en lang="en"}
 
-## 八、 结语：永不后悔的选召
+## 结语：永不后悔的选召
 {: .lang-zh lang="zh-CN"}
 
 The mystery of Romans 11 is not a special privilege outside of Christ, but a display of God's sovereign rescue in the graveyard of history. Whether "All Israel" refers to the spiritual reality of the whole Church or a future national turning, the glory remains the same: God is faithful even when we are faithless.

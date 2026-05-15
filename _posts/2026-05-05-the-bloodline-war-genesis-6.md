@@ -32,10 +32,10 @@ For many modern readers, the accounts of giants and angelic incursions feel like
 
 ---
 
-## I. The Limitations of the Sethite View: A "Rationalist Bias"
+## 1. The Limitations of the Sethite View: A "Rationalist Bias"
 {: .lang-en lang="en"}
 
-## I. 塞特后裔说的局限与解经的“理性偏误”
+## 1. 塞特后裔说的局限与解经的“理性偏误”
 {: .lang-zh lang="zh-CN"}
 
 Traditional Reformed exegesis, in an effort to safeguard human moral responsibility, has often adopted the "Sethite View," equating the "Sons of God" with the godly line of Seth. This view suggests that the sin was merely the intermarriage of believers and unbelievers. However, this interpretation suffers from severe linguistic, logical, and historical flaws:
@@ -106,10 +106,10 @@ The traditional view fails to explain why moral compromise would result in physi
 
 ---
 
-## II. The Strategy of the Fallen Watchers: A War of Bloodlines
+## 2. The Strategy of the Fallen Watchers: A War of Bloodlines
 {: .lang-en lang="en"}
 
-## II. 堕落看守者的战略：一场血脉之战
+## 2. 堕落看守者的战略：一场血脉之战
 {: .lang-zh lang="zh-CN"}
 
 Following the "Protoevangelium" in Genesis 3:15, Satan understood that his ultimate defeat would come through a "Seed of the Woman." His response was not merely to tempt, but to corrupt. The intervention in Genesis 6 was a tactical move of **Biological Warfare** against the Messiah's lineage.
@@ -150,10 +150,10 @@ For Christ to be the second Adam, He had to be "fully man." If all of humanity h
 
 ---
 
-## III. Noah: The "Unblemished" Lamb of Humanity
+## 3. Noah: The "Unblemished" Lamb of Humanity
 {: .lang-en lang="en"}
 
-## III. 挪亚：人类中“无残疾”的羔羊
+## 3. 挪亚：人类中“无残疾”的羔羊
 {: .lang-zh lang="zh-CN"}
 
 The text describes Noah as a "just man" and "perfect" (*Tamim*) in his generations.
@@ -194,10 +194,10 @@ While Noah was certainly a man of faith, the context of Genesis 6 implies that h
 
 ---
 
-## IV. The Geography of Rebellion: From Hermon to Caesarea Philippi
+## 4. The Geography of Rebellion: From Hermon to Caesarea Philippi
 {: .lang-en lang="en"}
 
-## IV. 背叛的地理学：从黑门山到凯撒利亚·腓立比
+## 4. 背叛的地理学：从黑门山到凯撒利亚·腓立比
 {: .lang-zh lang="zh-CN"}
 
 Heiser restores a crucial geographic link: Jewish tradition identifies **Mount Hermon** as the site where the Watchers descended. This gives profound meaning to Jesus' ministry in the New Testament.
@@ -226,10 +226,10 @@ His Transfiguration, which likely occurred on Mount Hermon, was a public declara
 
 ---
 
-## V. The Origin of Demons: The Disembodied Nephilim
+## 5. The Origin of Demons: The Disembodied Nephilim
 {: .lang-en lang="en"}
 
-## V. 鬼魔起源论：失去肉身的 Nephilim
+## 5. 鬼魔起源论：失去肉身的 Nephilim
 {: .lang-zh lang="zh-CN"}
 
 One of the most profound insights in Heiser's research is the distinction between "Fallen Angels" and "Demons."
@@ -256,10 +256,10 @@ This is why they reacted with such terror when they saw Jesus. They are the ghos
 
 ---
 
-## VI. Conclusion: The Victory of Sovereign Grace
+## Conclusion: The Victory of Sovereign Grace
 {: .lang-en lang="en"}
 
-## VI. 结论：主权恩典的胜利
+## 结论：主权恩典的胜利
 {: .lang-zh lang="zh-CN"}
 
 The Great Flood was a surgical act of grace. It was the means by which God preserved the human race from a supernatural "extinction event."

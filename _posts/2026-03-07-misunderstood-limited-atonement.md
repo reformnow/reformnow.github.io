@@ -11,10 +11,10 @@ image:
   alt: "Limited Atonement and the Efficacy of the Cross"
 ---
 
-## 1. Introduction: The Worst-Named "Crown Jewel"
+## Introduction: The Worst-Named "Crown Jewel"
 {: .lang-en lang="en"}
 
-## 1. 引言：名声最差的“皇冠珠宝”
+## 引言：名声最差的“皇冠珠宝”
 {: .lang-zh lang="zh-CN"}
 
 Among the Five Points of Calvinism (TULIP), the letter "L"—Limited Atonement—is perhaps the most misunderstood and frequently attacked. Often referred to as "Particular Redemption," this doctrine is seen by some as a restriction on God’s love, as if a wall were built around the cross.
@@ -290,10 +290,10 @@ As Charles Spurgeon famously put it:
 
 ---
 
-## 7. Conclusion: Victory, Not Potential
+## Conclusion: Victory, Not Potential
 {: .lang-en lang="en"}
 
-## 7. 结语：是胜利，而非潜力
+## 结语：是胜利，而非潜力
 {: .lang-zh lang="zh-CN"}
 
 Limited Atonement is the crown jewel of the TULIP because it defends the sheer power of the cross. It presents a Christ who does not just "try" to save, but who **successfully saves**. It reveals an Almighty God who does not wait for human permission to be victorious.

@@ -12,11 +12,11 @@ image:
   alt_zh: "埃利亚·纳乌里齐奥所绘的天特会议 (1633)"
 ---
 
-## I. The Forensic Breaking Point: The Legal Trial of Martin Luther (1517–1521)
+## 1. The Forensic Breaking Point: The Legal Trial of Martin Luther (1517–1521)
 The Reformation did not begin with a desire to leave the Church, but with a question about an indulgence. However, within four years, this question evolved into a total legal and ecclesiastical rupture. To understand the "excommunication" of Luther, we must look at the specific legal documents that defined his status as an outlaw.
 {: .lang-en lang="en"}
 
-## 一、 法理断裂点：马丁·路德的法律审判 (1517–1521)
+## 1. 法理断裂点：马丁·路德的法律审判 (1517–1521)
 宗教改革并非始于离开教会的愿望，而是始于对比萨（赦罪券）的质疑。然而，在短短四年内，这一质疑演变成了一场彻底的法律与教会关系的破裂。要理解路德的“绝罚”，我们必须查看那些定义其法外之徒身份的具体法律文本。
 {: .lang-zh lang="zh-CN"}
 
@@ -58,11 +58,11 @@ On January 3, 1521, Luther was formally and finally excommunicated. The legal la
 
 ---
 
-## II. Premeditated Condemnation: The Council of Trent (1545–1563)
+## 2. Premeditated Condemnation: The Council of Trent (1545–1563)
 The Council of Trent was the greatest legal factory in the history of the Western Church. It was not a debate; it was a **Judgment**. The Council spent 18 years refining the laws that would permanently define the boundary between "Catholicism" and "Heretical Sects."
 {: .lang-en lang="en"}
 
-## 二、 蓄谋已久的定罪：天特会议 (1545–1563)
+## 2. 蓄谋已久的定罪：天特会议 (1545–1563)
 天特会议是西方教会历史上规模最大的法律工厂。它不是一场辩论，而是一场 **审判**。会议历时 18 年，不断完善那些永久定义“天主教”与“异端教派”边界律法。
 {: .lang-zh lang="zh-CN"}
 
@@ -128,11 +128,11 @@ Luther taught that we are "righteous" only because Christ's merit is "imputed" (
 
 ---
 
-## III. John Calvin: The Systematic Enemy
+## 3. John Calvin: The Systematic Enemy
 If Luther was the blunt instrument, Calvin was the surgical strike. The Roman Catholic Church viewed Calvin as the most dangerous of all heretics because he built a **parallel world**.
 {: .lang-en lang="en"}
 
-## 三、 约翰·加尔文：系统性的公敌
+## 3. 约翰·加尔文：系统性的公敌
 如果说路德是钝器，那么加尔文就是外科手术般的打击。罗马天主教会将加尔文视为所有异端中最危险的一个，因为他构建了一个 **平行的世界**。
 {: .lang-zh lang="zh-CN"}
 
@@ -174,11 +174,11 @@ By the time of the Index Librorum Prohibitorum (List of Prohibited Books), Calvi
 
 ---
 
-## IV. The Theological Summary: Faith vs. Merit
+## 4. The Theological Summary: Faith vs. Merit
 To wrap up this 45-minute investigation, we must look at the final legal divide established at Trent. For Rome, salvation is a process of **Inherent Justice**. For the Reformers, it is **Imputed Justice**.
 {: .lang-en lang="en"}
 
-## 四、 神学总结：信心与功德
+## 4. 神学总结：信心与功德
 回顾这段 45 分钟的调查，我们必须审视在天特会议上确立的最终法律鸿沟。对于罗马来说，救恩是一个 **内在公义** 的过程。对于改革者来说，它是 **归算公义**。
 {: .lang-zh lang="zh-CN"}
 
@@ -208,14 +208,14 @@ To the Reformers, this was a return to the Galatian heresy—the idea that somet
 
 ---
 
-## V. Historical Conclusion: The Unbridgeable Chasm
+## 5. Historical Conclusion: The Unbridgeable Chasm
 The Council of Trent did not "solve" the Reformation; it **codified the divorce**. By using the phrase "Anathema Sit," the Catholic Church declared that the Reformation was not a reform of the Church, but a departure from it. 
 {: .lang-en lang="en"}
 
 In 20th century, some attempts were made to bridge this gap, but as long as the Canons of Trent stand—and they are considered infallible by the Catholic Church—the legal status of Martin Luther and the theological status of John Calvin remain that of the condemned.
 {: .lang-en lang="en"}
 
-## 五、 历史结论：无法逾越的鸿沟
+## 5. 历史结论：无法逾越的鸿沟
 天特会议并没有“解决”宗教改革；它只是 **使离婚程序法律化**。通过使用“Anathema Sit”这一措辞，天主教会宣布宗教改革并非教会的内部改良，而是对教会的离弃。
 在 20 世纪，人们尝试弥合这一差距，但只要天特会议的法典依然存在——且它们被天主教会视为不可错谬的——马丁·路德在法律上的身份及其约翰·加尔文在神学上的地位，就始终是“被定罪者”。
 {: .lang-zh lang="zh-CN"}

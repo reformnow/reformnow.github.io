@@ -12,7 +12,7 @@ image:
   alt_zh: "一本打开的圣经，象征唯独圣经"
 ---
 
-## I. Introduction: The Crisis Behind the Slogan
+## Introduction: The Crisis Behind the Slogan
 {: .lang-en lang="en"}
 
 In the modern evangelical world, "Sola Scriptura" (Scripture Alone) is a ubiquitous slogan. Almost every Christian group claims to follow "the Bible alone." Yet, a glaring paradox remains: if we all hold the same Bible, why do we arrive at thousands of contradictory conclusions? Why does one group find support for infant baptism while another sees only believer's baptism? Why do some see a strict predestination while others see radical free will?
@@ -36,7 +36,7 @@ As the Westminster Confession of Faith (WCF) 1.10 states:
 But how we hear that Spirit speak makes all the difference.
 {: .lang-en lang="en"}
 
-## 一、 引言：口号背后的危机
+## 引言：口号背后的危机
 {: .lang-zh lang="zh-CN"}
 
 在现代福音派世界中，“唯独圣经”（Sola Scriptura）是一个无处不在的口号。几乎所有基督徒群体都宣称自己遵循“唯独圣经”。然而，一个显而易见的悖论依然存在：如果我们都拿着同一本圣经，为什么会得出成千上万种彼此矛盾的结论？为什么一个群体在圣经里看到了婴儿洗礼的依据，而另一个群体却只看到信徒洗礼？为什么有人看到了严格的预定论，而有人却看到了绝对的自由意志？
@@ -62,7 +62,7 @@ But how we hear that Spirit speak makes all the difference.
 
 ---
 
-## II. Correction: What "Sola Scriptura" is NOT
+## 2. Correction: What "Sola Scriptura" is NOT
 {: .lang-en lang="en"}
 
 To understand the truth, we must first clear the weeds of misunderstanding.
@@ -80,7 +80,7 @@ To understand the truth, we must first clear the weeds of misunderstanding.
 ```
 {: .lang-en lang="en"}
 
-## 二、 纠偏：唯独圣经“不是”什么？
+## 2. 纠偏：唯独圣经“不是”什么？
 {: .lang-zh lang="zh-CN"}
 
 为了理解真理，我们必须首先清除误解的杂草。
@@ -100,7 +100,7 @@ To understand the truth, we must first clear the weeds of misunderstanding.
 
 ---
 
-## III. Interpretation: What "Sola Scriptura" IS
+## 3. Interpretation: What "Sola Scriptura" IS
 {: .lang-en lang="en"}
 
 Properly understood, Sola Scriptura defines the *nature* and *rank* of biblical authority.
@@ -143,7 +143,7 @@ He later wrote in the **Smalcald Articles (1537)**:
 ```
 {: .lang-en lang="en"}
 
-## 三、 正解：唯独圣经“是”什么？
+## 3. 正解：唯独圣经“是”什么？
 {: .lang-zh lang="zh-CN"}
 
 正确理解的“唯独圣经”，定义了圣经权威的“性质”与“位阶”。
@@ -188,7 +188,7 @@ He later wrote in the **Smalcald Articles (1537)**:
 
 ---
 
-## IV. The Problems of Misunderstanding: When "Sola" Becomes "Solo"
+## 4. The Problems of Misunderstanding: When "Sola" Becomes "Solo"
 {: .lang-en lang="en"}
 
 When we isolate the Bible from its historical and ecclesiastical context, we don't get "more Bible"—we get more chaos.
@@ -214,7 +214,7 @@ Many modern groups reject the heritage of the ancient Church, viewing the last 1
 *   **The Consequence:** Ancient heresies are resurrected under new names. Today’s "Bible-only" groups often stumble back into Arianism or Pelagianism because they refuse to learn from the battles fought at Nicaea or Chalcedon.
 {: .lang-en lang="en"}
 
-## 四、 误解导致的问题：当“唯独”变成了“孤立”
+## 4. 误解导致的问题：当“唯独”变成了“孤立”
 {: .lang-zh lang="zh-CN"}
 
 当我们把圣经从其历史和教会处境中孤立出来时，我们得到的不是“更多的圣经”，而是更多的混乱。
@@ -242,7 +242,7 @@ Many modern groups reject the heritage of the ancient Church, viewing the last 1
 
 ---
 
-## V. Deep Reflection: Returning to Scripture is the "Goal," not the Only "Means"
+## 5. Deep Reflection: Returning to Scripture is the "Goal," not the Only "Means"
 {: .lang-en lang="en"}
 
 A common error is believing that the slogan "Back to the Bible" is itself the method for getting there.
@@ -253,7 +253,7 @@ A common error is believing that the slogan "Back to the Bible" is itself the me
 *   **The Metaphor:** The Bible is our destination, but you need a map (the Creeds) and a compass (the Confessions) to navigate the terrain without falling into a ravine.
 {: .lang-en lang="en"}
 
-## 五、 深度反思：回归圣经是“目标”，但不是唯一的“手段”
+## 5. 深度反思：回归圣经是“目标”，但不是唯一的“手段”
 {: .lang-zh lang="zh-CN"}
 
 一个普遍的谬误是：认为喊出“回归圣经”这一口号本身，就是达成回归的方法。
@@ -266,7 +266,7 @@ A common error is believing that the slogan "Back to the Bible" is itself the me
 
 ---
 
-## VI. The Means to Achieve Return: The Church's "Guardrails"
+## 6. The Means to Achieve Return: The Church's "Guardrails"
 {: .lang-en lang="en"}
 
 History and orthodox theology teach that to protect Sola Scriptura, we must employ "Secondary Standards." These standards possess **Ministerial Authority (仆从性权威)**—they serve the Word—while the Bible alone possesses **Magisterial Authority (主权性权威)**.
@@ -291,7 +291,7 @@ History and orthodox theology teach that to protect Sola Scriptura, we must empl
     2.  **Systematic Synthesis:** They collect truths scattered throughout Scripture (Covenant, Election, Sacraments) into a coherent whole, providing a comprehensive biblical perspective.
 {: .lang-en lang="en"}
 
-## 六、 达成回归圣经的手段：教会的“护栏”
+## 6. 达成回归圣经的手段：教会的“护栏”
 {: .lang-zh lang="zh-CN"}
 
 历史与正统神学认为，要真正保护“唯独圣经”，必须使用“次要标准”。这些标准拥有的是**“仆从性权威”（Ministerial Authority）**，而唯独圣经拥有的是**“主权性权威”（Magisterial Authority）**。
@@ -318,7 +318,7 @@ History and orthodox theology teach that to protect Sola Scriptura, we must empl
 
 ---
 
-## VII. Conclusion: Embracing Scripture Within Tradition
+## Conclusion: Embracing Scripture Within Tradition
 {: .lang-en lang="en"}
 
 In summary, respecting the Creeds and Confessions does not weaken the authority of the Bible; it honors it. It acknowledges that the same Holy Spirit who inspired the Word also promised to guide His Church into all truth (John 16:13).
@@ -330,7 +330,7 @@ Do not be a "theological orphan," trying to reinvent the wheel every Sunday. Ins
 **Question for Reflection:** *If your church or tradition has no formal confession of faith, how do you ensure that your interpretation of Scripture is not simply repeating an ancient heresy that the Church already resolved centuries ago?*
 {: .lang-en lang="en"}
 
-## 七、 结语：在传统中拥抱圣经
+## 结语：在传统中拥抱圣经
 {: .lang-zh lang="zh-CN"}
 
 综上所述，尊重信经与信条，不但没有削弱圣经的权威，反而是在尊荣圣经。这承认了那位默示圣经的圣灵，也同样应许了要引导祂的教会进入一切的真理（约16:13）。

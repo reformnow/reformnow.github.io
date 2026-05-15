@@ -11,10 +11,10 @@ image:
   path: /assets/img/posts/perseverance_oil.jpg
   alt: Perseverance of the Saints - The Good Shepherd
 ---
-## 1. Introduction
+## Introduction
 {: .lang-en lang="en"}
 
-## 一、引言
+## 引言
 {: .lang-zh lang="zh-CN"}
 
 ### 1. A Book that Misses the Mark
@@ -58,7 +58,7 @@ Many Christians indeed like to use the slogan "Once Saved, Always Saved" (OSAS) 
 ## 2. The Danger of "Once Saved, Always Saved"
 {: .lang-en lang="en"}
 
-## 二、“一次得救，永远得救” 这个口号的危险性
+## 2. “一次得救，永远得救” 这个口号的危险性
 {: .lang-zh lang="zh-CN"}
 
 ### 1. A breeding ground for cheap grace
@@ -126,7 +126,7 @@ We need to pay attention to the severe warnings in the Bible.
 ## 3. What is True "Perseverance of the Saints"?
 {: .lang-en lang="en"}
 
-## 三、什么是真实的“信徒的坚韧”？
+## 3. 什么是真实的“信徒的坚韧”？
 {: .lang-zh lang="zh-CN"}
 
 ### 1. Not man's striving, but God's preservation
@@ -182,7 +182,7 @@ True believers are also weak and can commit sins (like David and Peter), but the
 ## 4. Fundamental Differences Summarized
 {: .lang-en lang="en"}
 
-## 四、两者的根本区别总结
+## 4. 两者的根本区别总结
 {: .lang-zh lang="zh-CN"}
 
 ### 1. OSAS vs. Perseverance
@@ -208,7 +208,7 @@ True believers are also weak and can commit sins (like David and Peter), but the
 ## 5. Solid Scriptural Foundation
 {: .lang-en lang="en"}
 
-## 五、圣经的坚固根基 (Scriptural Support)
+## 5. 圣经的坚固根基 (Scriptural Support)
 {: .lang-zh lang="zh-CN"}
 
 ```bible
@@ -293,7 +293,7 @@ True believers are also weak and can commit sins (like David and Peter), but the
 ## 6. Voices from Church History: From Church Fathers to Reformers
 {: .lang-en lang="en"}
 
-## 六、教会历史的见证：从教父到改教家
+## 6. 教会历史的见证：从教父到改教家
 {: .lang-zh lang="zh-CN"}
 
 ### 1. The Historical Consensus
@@ -409,7 +409,7 @@ In response to challenges against this doctrine, the historic Synod of Dort summ
 ## 7. The 17th-Century Crisis: Remonstrants vs. the Synod of Dort
 {: .lang-en lang="en"}
 
-## 七、17 世纪的危机：抗辩派与多特会议
+## 7. 17 世纪的危机：抗辩派与多特会议
 {: .lang-zh lang="zh-CN"}
 
 ### 1. The Remonstrant Challenge (1610)
@@ -477,7 +477,7 @@ The Synod of Dort taught that while we may let go of God's hand, He never lets g
 ## 8. The Hebrews 6:4 Challenge: Overcoming Hard Sayings
 {: .lang-en lang="en"}
 
-## 八、希伯来书 6:4 的挑战：攻克难点
+## 8. 希伯来书 6:4 的挑战：攻克难点
 {: .lang-zh lang="zh-CN"}
 
 ### 1. The Objection
@@ -572,10 +572,10 @@ Hebrews 6 serves as a severe warning against surface-level profession and hypocr
 
 ---
 
-## 9. Conclusion & Application
+## Conclusion & Application
 {: .lang-en lang="en"}
 
-## 九、结论与应用 (Conclusion & Application)
+## 结论与应用 (Conclusion & Application)
 {: .lang-zh lang="zh-CN"}
 
 ### 1. Brings great comfort
