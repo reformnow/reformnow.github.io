@@ -164,7 +164,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 
 ---
 
-### I. On True Repentance (Theses 1-4)
+### 1. On True Repentance (Theses 1-4)
 1. When our Lord and Master Jesus Christ said, “Repent” (Mt 4:17), he willed the entire life of believers to be one of repentance.
 2. This word cannot be understood as referring to the sacrament of penance, that is, confession and satisfaction, as administered by the clergy.
 3. Yet it does not mean solely inner repentance; such inner repentance is worthless unless it produces various outward mortification of the flesh.
@@ -172,7 +172,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 
 ---
 
-### II. Limits of Papal Authority (Theses 5-20)
+### 2. Limits of Papal Authority (Theses 5-20)
 5. The pope has neither the will nor the power to remit any penalties beyond those imposed either at his own discretion or by canon law.
 6. The pope cannot remit any guilt, except by declaring and showing that it has been remitted by God.
 7. God remits guilt to no one unless at the same time he humbles him in all things and makes him submissive to the vicar, the priest.
@@ -224,7 +224,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 
 ---
 
-### III. Errors Regarding Indulgences (Theses 21-40)
+### 3. Errors Regarding Indulgences (Theses 21-40)
 21. Thus those indulgence preachers are in error who say that a man is absolved from every penalty and saved by papal indulgences.
 22. As a matter of fact, the pope remits to souls in purgatory no penalty which, according to canon law, they should have paid in this life.
 23. If remission of all penalties whatsoever could be granted to anyone at all, certainly it would be granted only to the most perfect, that is, to very few.
@@ -276,7 +276,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 
 ---
 
-### IV. True Works and Church Responsibility (Theses 41-55)
+### 4. True Works and Church Responsibility (Theses 41-55)
 41. Papal indulgences must be preached with caution, lest people erroneously think that they are preferable to other good works of love.
 42. Christians are to be taught that the pope does not intend that the buying of indulgences should in any way be compared with works of mercy.
 43. Christians are to be taught that **he who gives to the poor or lends to the needy does a better deed than he who buys indulgences.**
@@ -318,7 +318,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 
 ---
 
-### V. The True Treasure of the Church (Theses 56-80)
+### 5. The True Treasure of the Church (Theses 56-80)
 56. The treasures of the church, out of which the pope distributes indulgences, are not sufficiently discussed or known among the people of Christ.
 57. That indulgences are not temporal treasures is certainly evident, for many of the sellers do not distribute them freely but only gather them.
 58. Nor are they the merits of Christ and the saints, for, even without the pope, the latter always work grace for the inner man, and the cross, death, and hell for the outer man.
@@ -392,7 +392,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 
 ---
 
-### VI. Sharp Questions from the Laity (Theses 81-91)
+### 6. Sharp Questions from the Laity (Theses 81-91)
 81. This unbridled preaching of indulgences makes it difficult even for learned men to rescue the reverence which is due the pope from slander or from the shrewd questions of the laity.
 82. Such as: “Why does not the pope empty purgatory for the sake of holy love and the dire need of the souls that are there if he redeems an infinite number of souls for the sake of miserable money with which to build a church?" The former reason would be most just; the latter is most trivial.
 83. Again, "Why are funeral and anniversary masses for the dead continued and why does he not return or permit the withdrawal of the endowments founded for them, since it is wrong to pray for the redeemed?"
@@ -430,7 +430,7 @@ Out of love for the truth and the desire to bring it to light, the following pro
 
 ---
 
-### VII. Conclusion (Theses 92-95)
+### 7. Conclusion (Theses 92-95)
 92. Away, then, with all those prophets who say to the people of Christ, “Peace, peace,” and there is no peace! (Jer 6:14)
 93. Blessed be all those prophets who say to the people of Christ, “Cross, cross,” and there is no cross!
 94. Christians should be exhorted to be diligent in following Christ, their Head, through penalties, death and hell.
