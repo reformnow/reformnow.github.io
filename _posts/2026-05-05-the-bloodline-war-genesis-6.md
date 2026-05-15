@@ -6,7 +6,7 @@ description: "A deep dive into the supernatural worldview of Genesis 6, explorin
 description_zh: "深度解析创世记 6 章的超自然世界观，探讨堕落天使的战略性干预以及上帝如何为弥赛亚保全人类纯正血脉。"
 date: 2026-05-05 12:00:00 +0800
 categories: [Theology, Biblical Studies]
-tags: [Genesis 6, Nephilim, Unseen Realm, Michael Heiser, Christology, Sovereignty]
+tags: [Genesis 6, Nephilim, Unseen Realm, Michael Heiser, christology, sovereignty]
 image:
   path: /assets/img/posts/bloodline_war_genesis_6.png
   alt: A dramatic oil painting of Noah's family in divine light versus the supernatural corruption of the pre-flood world.

@@ -6,7 +6,7 @@ description: "Exploring why the vast geological timelines of secular science are
 description_zh: "探讨为什么一旦拒绝神导进化论，世俗科学所主张的漫长地质年代不仅不再必要，而且在神学上具有破坏性。"
 date: 2026-05-08 10:00:00 +0800
 categories: [Theological Reflection, Creation]
-tags: [Young Earth, Creationism, Fall, Death, Sovereignty, Noah's Flood]
+tags: [Young Earth, Creationism, Fall, Death, sovereignty, Noah's Flood]
 image:
   path: /assets/img/posts/young_earth_necessity.png
   alt: A classical oil painting showing the Garden of Eden in divine light shattering the dark, grey layers of secular billions of years.
