@@ -6,7 +6,7 @@ description: "Examining the theological tensions between the evolutionary proces
 description_zh: "探讨进化过程与圣经关于特殊创造、亚当的历史性以及死亡起源之记录之间的神学张力。"
 date: 2026-05-07 10:00:00 +0800
 categories: [Theological Reflection, Biblical Studies]
-tags: [Theistic Evolution, Creation, Adam and Eve, Federal Headship, Sovereignty]
+tags: [Theistic Evolution, Creation, Adam and Eve, Federal Headship, sovereignty]
 image:
   path: /assets/img/posts/creation_vs_evolution.png
   alt: A majestic oil painting depicting the creation of man from dust by the divine hand vs. the silhouette of an evolutionary tree.

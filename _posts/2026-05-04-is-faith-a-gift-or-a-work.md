@@ -6,7 +6,7 @@ description: "If the source of faith is ourselves, what does it mean for salvati
 description_zh: "如果信心的来源是人自己，这对救恩意味着什么？本文从大公教会正统神学和历史基督教信仰出发，探讨其中的神学后果。"
 date: 2026-05-04 10:00:00 +0800
 categories: [Theology, Soteriology]
-tags: [Grace, Faith, Sola Gratia, Sola Fide, Orthodoxy]
+tags: [grace, Faith, sola-gratia, sola-fide, Orthodoxy]
 image:
   path: /assets/img/posts/saving_faith_gift.png
   alt: A man looking up to divine light, representing the gift of faith.

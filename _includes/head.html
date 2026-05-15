@@ -12,7 +12,7 @@
   <meta name="google" content="notranslate">
 
   {%- capture seo_tags -%}
-    {% seo title=false description=false %}
+    {% seo %}
   {%- endcapture -%}
 
   {%- assign seo_title = page.title -%}
@@ -29,16 +29,28 @@
     {%- assign seo_description = site.description -%}
   {%- endif -%}
 
-  <!-- Update SEO tags with bilingual content -->
-  {%- capture bilingual_meta -%}
-    <meta name="description" content="{{ seo_description | strip_html | strip_newlines | truncate: 160 }}">
-    <meta property="og:title" content="{{ seo_title }}">
-    <meta property="og:description" content="{{ seo_description | strip_html | strip_newlines | truncate: 160 }}">
-    <meta name="twitter:title" content="{{ seo_title }}">
-    <meta name="twitter:description" content="{{ seo_description | strip_html | strip_newlines | truncate: 160 }}">
-  {%- endcapture -%}
+  {%- assign escaped_seo_title = seo_title | xml_escape -%}
+  {%- assign escaped_seo_description = seo_description | strip_html | strip_newlines | truncate: 160 | xml_escape -%}
 
-  {% assign seo_tags = seo_tags | append: bilingual_meta %}
+  {%- capture default_og_title -%}<meta property="og:title" content="{{ page.title | xml_escape }}" />{%- endcapture -%}
+  {%- capture bilingual_og_title -%}<meta property="og:title" content="{{ escaped_seo_title }}" />{%- endcapture -%}
+  {% assign seo_tags = seo_tags | replace: default_og_title, bilingual_og_title %}
+
+  {%- capture default_description -%}<meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | xml_escape }}" />{%- endcapture -%}
+  {%- capture bilingual_description -%}<meta name="description" content="{{ escaped_seo_description }}" />{%- endcapture -%}
+  {% assign seo_tags = seo_tags | replace: default_description, bilingual_description %}
+
+  {%- capture default_og_description -%}<meta property="og:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | xml_escape }}" />{%- endcapture -%}
+  {%- capture bilingual_og_description -%}<meta property="og:description" content="{{ escaped_seo_description }}" />{%- endcapture -%}
+  {% assign seo_tags = seo_tags | replace: default_og_description, bilingual_og_description %}
+
+  {%- capture default_twitter_title -%}<meta property="twitter:title" content="{{ page.title | xml_escape }}" />{%- endcapture -%}
+  {%- capture bilingual_twitter_title -%}<meta property="twitter:title" content="{{ escaped_seo_title }}" />{%- endcapture -%}
+  {% assign seo_tags = seo_tags | replace: default_twitter_title, bilingual_twitter_title %}
+
+  {%- capture default_twitter_description -%}<meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | xml_escape }}" />{%- endcapture -%}
+  {%- capture bilingual_twitter_description -%}<meta name="twitter:description" content="{{ escaped_seo_description }}" />{%- endcapture -%}
+  {% assign seo_tags = seo_tags | replace: default_twitter_description, bilingual_twitter_description %}
 
   <!-- Setup Open Graph image -->
   {% if page.image %}
