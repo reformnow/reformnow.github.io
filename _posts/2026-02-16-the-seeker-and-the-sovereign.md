@@ -22,11 +22,11 @@ One of the most profound questions in spiritual inquiry is: "What happens if a p
 
 ---
 
-## I. The Silence of the Natural Heart
+## 1. The Silence of the Natural Heart
 The consistent testimony of reality is that the natural man, left to his own resources, does not wander toward God. He may wander toward religion, toward spirituality, or toward a god of his own making, but the Holy God of the Bible is an object of natural aversion.
 {: .lang-en lang="en"}
 
-## 一、 天然之心的沉默
+## 1. 天然之心的沉默
 现实的一贯见证是：属血气的人如果任由其自身的发展，绝不会走向教上帝。他可能会走向宗教，走向灵性，或者走向一个他自己造出来的神，但圣经中所描述的那位圣洁的上帝，却是天然本性所厌恶的对象。
 {: .lang-zh lang="zh-CN"}
 
@@ -104,11 +104,11 @@ that should prevent us from seeking God."
 
 ---
 
-## II. Divine Regeneration Precedes Human Seeking
+## 2. Divine Regeneration Precedes Human Seeking
 If the natural heart is silent and averse, why then do we see people knocking? Why do we see people weeping over their sins and crying out for a Savior? The answer is simple: they are not acting out of their own unregenerate power. The "knock" is the fruit of a "touch."
 {: .lang-en lang="en"}
 
-## 二、 神重生的恩典在先，人寻求的能力在后
+## 2. 神重生的恩典在先，人寻求的能力在后
 如果天然之心是沉默且反感的，那我们为什么会看到人们在叩门？为什么会看到人们为罪哀恸，并呼求救主？答案很简单：他们并非出于其自身未被重生的力量而行动。“叩门”其实是“触动”的结果。
 {: .lang-zh lang="zh-CN"}
 
@@ -136,11 +136,11 @@ Therefore, it is a theological impossibility for an "un-chosen" or "un-graced" p
 
 ---
 
-## III. The Harmonious Will: Not Just Attraction, but Drawing (Draw)
+## 3. The Harmonious Will: Not Just Attraction, but Drawing (Draw)
 A common misunderstanding is that God might drag a screaming sinner who is unwilling to enter heaven into it, or reject some repentant and weeping person who is seeking salvation by locking them out of heaven's gate. Both images are distorted misunderstandings of the Bible that ignore the nature of the sinner's will. God's drawing is first to change the heart; the sinner's heart of stone becomes a heart of flesh, and they naturally and joyfully turn to Christ of their own accord. Therefore, this drawing is not coercion, nor is there any resistance. This is also why we have the theological concept of "Irresistible Grace."
 {: .lang-en lang="en"}
 
-## 三、 和谐的意志：神不光是是吸引，更是救拔（draw）
+## 3. 和谐的意志：神不光是是吸引，更是救拔（draw）
 一种常见的误解是：上帝可能会将一些尖叫挣扎不愿意进天堂的罪人拖进天堂，或者拒绝一些痛悔哭泣寻求救恩的人关在天堂门外。这两幅图景都是对圣经扭曲的误解，忽略了罪人意志的本质。神的救拔是先改变人心，罪人的石心变成了肉心，自然就会欢欢喜喜主动归向基督，因此这救拔不是强迫，也不会有抗拒。这也是为什么我们会有“不可抗拒的恩典”这一神学概念。
 {: .lang-zh lang="zh-CN"}
 
@@ -178,11 +178,11 @@ These promises are absolute. But we must remember that the power to ask, to seek
 
 ---
 
-## IV. Conclusion: The Gratitude of the Found
+## Conclusion: The Gratitude of the Found
 The realization that our seeking was fueled by His grace humbles the soul. It removes any ground for boasting. We do not say, "I was smarter than my neighbor because I sought God." Instead, we say with the Psalmist:
 {: .lang-en lang="en"}
 
-## 四、 结论：获救者的感恩
+## 结论：获救者的感恩
 意识到我们的寻找源于祂的恩典，这会使灵魂谦卑。它移除了任何自夸的根基。我们不会说：“我比邻居聪明，因为我寻求了上帝。” 相反，我们要与诗人一同说道：
 {: .lang-zh lang="zh-CN"}
 

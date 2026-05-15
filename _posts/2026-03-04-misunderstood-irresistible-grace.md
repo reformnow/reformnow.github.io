@@ -238,10 +238,10 @@ As the *Canons of Dort* beautifully states:
 
 ---
 
-## 5. Conclusion: A Willing Surrender
+## Conclusion: A Willing Surrender
 {: .lang-en lang="en"}
 
-## 5. 结论：心甘情愿的投降
+## 结论：心甘情愿的投降
 {: .lang-zh lang="zh-CN"}
 
 No one is forced into heaven. No one will be standing before the throne of God saying, "I didn't want to be here, but God made me." Every single person in the new creation will be there because they *wanted* to be there—but they wanted to be there only because God, in His infinite mercy, changed their "I won't" into "I will."

@@ -12,7 +12,7 @@ image:
   alt_zh: "唯独神得荣耀"
 ---
 
-## I. Introduction: Do We Really Mean "Glory to God"?
+## Introduction: Do We Really Mean "Glory to God"?
 {: .lang-en lang="en"}
 
 **The Phenomenon in Life:** We often say "Thank the Lord" when we succeed, or "May all glory be to God" after a period of service. But has this become a cheap theological "disclaimer" to sound spiritually humble?
@@ -20,7 +20,7 @@ image:
 *   **The Main Idea:** The true meaning of *Soli Deo Gloria* (Glory to God Alone) is not merely icing on the cake; it is a thorough and devastating reckoning with our inherent human-centric pride.
 {: .lang-en lang="en"}
 
-## 一、 引言：我们口中的“荣耀”是认真的吗？
+## 引言：我们口中的“荣耀”是认真的吗？
 {: .lang-zh lang="zh-CN"}
 
 **生活切入点：** 我们常在成功时习惯性地说“感谢主”，在服事一番之后说“愿一切荣耀归给神”。但这是否已经沦为了一句廉价大神学“免责声明”？
@@ -30,7 +30,7 @@ image:
 
 ---
 
-## II. Defining Glory: Who Dares to Touch the Scepter?
+## 2. Defining Glory: Who Dares to Touch the Scepter?
 {: .lang-en lang="en"}
 
 *   **The Self-Sufficiency of God's Glory:** God does not "need" our praises to become great or complete. He is the very eternal fountain of all that exists; His glory is entirely self-sufficient.
@@ -44,7 +44,7 @@ image:
 ```
 {: .lang-en lang="en"}
 
-## 二、 定义荣耀：上帝的权杖，谁敢触碰？
+## 2. 定义荣耀：上帝的权杖，谁敢触碰？
 {: .lang-zh lang="zh-CN"}
 
 *   **上帝荣耀的自足性：** 上帝绝不是“需要”我们的赞美来使祂自己变得伟大。祂的荣耀是自足的，祂本身就是万有存在与美善的源头。
@@ -60,7 +60,7 @@ image:
 
 ---
 
-## III. Deep Diagnosis: Three Hidden Ways You Rob God's Glory
+## 3. Deep Diagnosis: Three Hidden Ways You Rob God's Glory
 {: .lang-en lang="en"}
 
 ### 1. Splitting the Bill on the "Motive" of Salvation
@@ -99,7 +99,7 @@ If, in our religious practices, we grant an inappropriately high level of venera
 ```
 {: .lang-en lang="en"}
 
-## 三、 深度诊断：你抢夺荣耀的三种隐蔽方式
+## 3. 深度诊断：你抢夺荣耀的三种隐蔽方式
 {: .lang-zh lang="zh-CN"}
 
 ### 1. 在救恩的“动机”上分账
@@ -140,7 +140,7 @@ If, in our religious practices, we grant an inappropriately high level of venera
 
 ---
 
-## IV. Jonathan Edwards' Shocking Reminder: Only "Sin" is Yours
+## 4. Jonathan Edwards' Shocking Reminder: Only "Sin" is Yours
 {: .lang-en lang="en"}
 
 *   **Shattering the Illusion:** As we mentioned in the previous article regarding *Solus Christus*, consider Jonathan Edwards' shocking reminder:
@@ -154,7 +154,7 @@ If, in our religious practices, we grant an inappropriately high level of venera
 *   **Profound Reverence:** This concept ruthlessly destroys the false romance of "divine-human cooperation." It drags us off the altar of our own ego, bringing us back to a state of profound humility so that we can truly see the marvel of Grace.
 {: .lang-en lang="en"}
 
-## 四、 乔纳森·爱德华兹的震撼提醒：唯有“罪”是你的
+## 4. 乔纳森·爱德华兹的震撼提醒：唯有“罪”是你的
 {: .lang-zh lang="zh-CN"}
 
 *   **破除幻象：** 如同我们在关于“唯独基督”的上一篇文章中所提到的，请再次思想乔纳森·爱德华兹的震撼名言：
@@ -170,7 +170,7 @@ If, in our religious practices, we grant an inappropriately high level of venera
 
 ---
 
-## V. The Freedom Behind "Solus": Released from the Burden of Self-Proof
+## 5. The Freedom Behind "Solus": Released from the Burden of Self-Proof
 {: .lang-en lang="en"}
 
 *   **A Shift in Mindset:** When we completely abandon the attempt to steal God's glory, we are freed from the exhausting treadmill of having to chronically "maintain our image" of piety or success before others. This is a profound rest.
@@ -178,7 +178,7 @@ If, in our religious practices, we grant an inappropriately high level of venera
 *   **A Paradigm for Life:** We learn to give glory to God not only in massive victories, but through quiet "faithfulness"—whether in ordinary jobs, mundane chores, or the hidden corners of everyday life, seeking His approval rather than human fame. As the Reformers taught: all honest vocations are a sacred stage for His glory.
 {: .lang-en lang="en"}
 
-## 五、 “唯独”背后的自由：从自我证明的重担中解脱
+## 5. “唯独”背后的自由：从自我证明的重担中解脱
 {: .lang-zh lang="zh-CN"}
 
 *   **心态转折：** 当我们彻底放弃抢夺上帝荣耀的企图时，我们就不再需要为了“维持自己敬虔和成功的形象”而疲于奔命。这是一种极其深沉的属灵安息。
@@ -188,14 +188,14 @@ If, in our religious practices, we grant an inappropriately high level of venera
 
 ---
 
-## VI. Conclusion: The Eternal Timpani
+## Conclusion: The Eternal Timpani
 {: .lang-en lang="en"}
 
 *   **Summary:** The starting point of pure faith is Grace, but its ultimate, inevitable, and glorious destination must be the Glory of God Alone.
 *   **Final Call:** Examine every single "trophy" and accomplishment in your life, and check carefully to see if you've quietly scratched your own name onto the bottom of it. May we learn to be an "invisible" people, fading into the background so that the Lamb seated on the throne may receive all the praise, honor, and glory He so richly deserves.
 {: .lang-en lang="en"}
 
-## 六、 结论：永恒的定音鼓
+## 结论：永恒的定音鼓
 {: .lang-zh lang="zh-CN"}
 
 *   **总结：** 纯正信仰的起点是不可抗拒的恩典，但其最终的、不可避免的终点，必然而且必须是上帝自己的荣耀。

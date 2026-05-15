@@ -29,7 +29,7 @@ In an age obsessed with the search for extraterrestrial intelligence (SETI) and 
 ## 1. The Universality of the Curse
 {: .lang-en lang="en"}
 
-## 一、 咒诅的普遍性
+## 1. 咒诅的普遍性
 {: .lang-zh lang="zh-CN"}
 
 The primary theological barrier to the existence of extraterrestrial life is the scope of Adam's sin. When Adam fell, he did not just bring a local curse upon the soil of Eden; he brought a cosmic curse upon the entire physical universe. The Apostle Paul makes this clear:
@@ -61,7 +61,7 @@ The term "whole creation" (*pasa hē ktisis*) leaves no room for unfallen except
 ## 2. The Dilemma of the "Alien Sinner"
 {: .lang-en lang="en"}
 
-## 二、 “外星罪人”的困境
+## 2. “外星罪人”的困境
 {: .lang-zh lang="zh-CN"}
 
 If we assume these hypothetical beings are *also* fallen and sinful, the theological problem becomes even more acute. Who redeems them? The Biblical record is clear that there is only one Mediator between God and men, and He is the "Last Adam."
@@ -93,7 +93,7 @@ Redemption is tied to the Incarnation. God became *human* (anthropomorphos) to s
 ## 3. The Particularity of the Last Adam
 {: .lang-en lang="en"}
 
-## 三、 末后亚当的独特性
+## 3. 末后亚当的独特性
 {: .lang-zh lang="zh-CN"}
 
 The Biblical narrative is uncompromisingly Earth-centered because it is Christ-centered. The Earth is the "Theater of God's Glory" not because of its size or location in the galaxy, but because it is the site of the Incarnation, the Crucifixion, and the Resurrection.

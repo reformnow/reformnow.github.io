@@ -168,10 +168,10 @@ The excuse "I'm not chosen" is a form of fatalistic paralysis used to justify st
 
 ---
 
-## 6. Conclusion: Comfort in Sovereignty
+## Conclusion: Comfort in Sovereignty
 {: .lang-en lang="en"}
 
-## 6. 结论：主权中的安慰
+## 结论：主权中的安慰
 {: .lang-zh lang="zh-CN"}
 
 For those who have fled to Christ, predestination is not a dark shadow, but a rock of absolute security. It means our salvation depends not on our fickle wills, but on the unchangeable love of God.
@@ -188,10 +188,10 @@ Instead of fatalism's "I am a victim of fate," we declare "I am a child of a sov
 
 ---
 
-## Bibliography / 参考文献
+## Bibliography
 {: .lang-en lang="en"}
 
-## Bibliography / 参考文献
+## 参考文献
 {: .lang-zh lang="zh-CN"}
 
 1. **Sproul, R.C.** *Chosen by God*. Tyndale House Publishers, 1986. (An essential resource for understanding the personal and loving nature of predestination).

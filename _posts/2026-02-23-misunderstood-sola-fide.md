@@ -300,7 +300,7 @@ Works are the evidence of a prior soteric justification, not the cause of it. Fo
 
 ---
 
-## 8. Conclusion: The Gift of Infallible Assurance
+## Conclusion: The Gift of Infallible Assurance
 {: .lang-en lang="en"}
 
 The doctrine of Sola Fide replaces the "legalistic bondage" of performance-based acceptance with "infallible assurance." In the modern theological landscape, this remains under siege by the "New Perspective on Paul" (NPP) and figures like N.T. Wright, who attempt to shift justification from a "status before God" to a "membership in a community."
@@ -312,7 +312,7 @@ However, we must reject this modern shadow. If our standing depended on our memb
 **Final Ponderable:** *If your standing with the Divine was based entirely on someone else's perfect record rather than your own fluctuating performance, how would that change the way you live tomorrow morning?*
 {: .lang-en lang="en"}
 
-## 8. 结论：绝对确据的礼物
+## 结论：绝对确据的礼物
 {: .lang-zh lang="zh-CN"}
 
 “唯独信心”的教义用“绝对的确据”取代了基于表现而被接纳的“律法主义枷锁”。在现代神学版图中，这仍受到“保罗新观”（New Perspective on Paul, NPP）及N.T. 赖特等人的围攻，他们试图将称义从“在神面前的地位”转变为“共同体中的成员资格”。

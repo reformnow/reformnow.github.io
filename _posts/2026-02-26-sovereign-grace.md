@@ -11,7 +11,7 @@ image:
   alt: "Sovereign Grace"
 ---
 
-## I. Introduction: A Theological Crisis Hidden by Warmth
+## Introduction: A Theological Crisis Hidden by Warmth
 {: .lang-en lang="en"}
 
 In many pulpits and evangelistic meetings today, we often hear this seemingly warm and popular analogy:
@@ -23,7 +23,7 @@ In many pulpits and evangelistic meetings today, we often hear this seemingly wa
 The temptation of this logic is enormous. It perfectly caters to modern man's desire for autonomy and the psychological need to hold the initiative, making salvation look like a fair, harmonious cooperation between God and man. However, while this view seems to exalt the richness of grace, it is actually severely degrading God's sovereignty and glory. If a perfect grace's ultimate "activation" and realization completely depend on man's fallen will, then in the matter of salvation, the glory of casting the final, decisive vote will inevitably belong to man, not God. Let us look through the teachings of the Bible and early church fathers to re-examine this theological crisis hidden by warmth.
 {: .lang-en lang="en"}
 
-## 一、 引言：被温情掩盖的神学危机
+## 引言：被温情掩盖的神学危机
 {: .lang-zh lang="zh-CN"}
 
 在今天的许多讲坛和布道会上，我们常常听到这样一个看似充满温情的流行类比：
@@ -37,7 +37,7 @@ The temptation of this logic is enormous. It perfectly caters to modern man's de
 
 ---
 
-## II. Is the Gift for Everyone? The Two Kinds of Calling
+## 2. Is the Gift for Everyone? The Two Kinds of Calling
 {: .lang-en lang="en"}
 
 Before discussing whether we can "accept" the gift, we must first face a sharper question: Is this gift of salvation truly distributed equally to everyone unconditionally?
@@ -61,7 +61,7 @@ Yet, because all humans are totally depraved in sin, our natural response to thi
 If there were only the External Call, no one would ever be saved. Therefore, for those whom God has chosen, He issues an effectual **Internal Call**. This goes beyond the eardrums directly into the dead soul, imparting new life so the sinner can willingly and joyfully believe. The "gift" is not a voucher randomly scattered to the indifferent masses, but a definite rescue personally applied by the Holy Spirit.
 {: .lang-en lang="en"}
 
-## 二、 这份礼物是给每个人的吗？外在呼召与内在呼召
+## 2. 这份礼物是给每个人的吗？外在呼召与内在呼召
 {: .lang-zh lang="zh-CN"}
 
 在探讨我们能否“签收”礼物之前，我们必须先面对一个更尖锐的问题：这份救恩的礼物，真的是无差别地平摊给世界上的每一个人的吗？
@@ -87,7 +87,7 @@ If there were only the External Call, no one would ever be saved. Therefore, for
 
 ---
 
-## III. The Root Controversy: The Sinner's True Condition
+## 3. The Root Controversy: The Sinner's True Condition
 {: .lang-en lang="en"}
 
 ### 1. From "Weakness" to "Total Depravity"
@@ -126,7 +126,7 @@ We must thoroughly critique the "neutral will theory" that believes human fallen
 How could a will that naturally hates and flees from God spontaneously and independently make the holy choice to "accept God"? This is impossible both logically and in spiritual fact.
 {: .lang-en lang="en"}
 
-## 三、 根源之争：罪人的真实境遇
+## 3. 根源之争：罪人的真实境遇
 {: .lang-zh lang="zh-CN"}
 
 ### 1. 从“软弱”到“全然败坏”
@@ -167,7 +167,7 @@ How could a will that naturally hates and flees from God spontaneously and indep
 
 ---
 
-## IV. Logical Critique: When Faith is Misused as "Merit"
+## 4. Logical Critique: When Faith is Misused as "Merit"
 {: .lang-en lang="en"}
 
 ### 1. To Whom Does the "Last Step" of Salvation Belong?
@@ -194,7 +194,7 @@ Many people see faith as a condition to exchange for God's salvation, or even so
 We need a profound theological correction: It is not because we first "believed" that God conditionally "regenerated" us; on the contrary, it is because God first "regenerated" us from the pile of dead bodies (regeneration preceding faith), removing our heart of stone, that we acquired a spiritual life capable of producing faith.
 {: .lang-en lang="en"}
 
-## 四、 逻辑批判：当信心被误用为“功德”
+## 4. 逻辑批判：当信心被误用为“功德”
 {: .lang-zh lang="zh-CN"}
 
 ### 1. 救恩的“最后一步”属于谁？
@@ -223,7 +223,7 @@ We need a profound theological correction: It is not because we first "believed"
 
 ---
 
-## V. Reaffirming the Truth: The Perfect Work of the Father, Son, and Holy Spirit
+## 5. Reaffirming the Truth: The Perfect Work of the Father, Son, and Holy Spirit
 {: .lang-en lang="en"}
 
 Salvation is by no means an agonizing possibility-protocol thrown to humanity by God, but the perfect, indivisible redemptive work of the Triune God.
@@ -262,7 +262,7 @@ He not only paid the price to purchase the gift on the cross, He even personally
 God's grace is absolutely not a weak, flimsy invitation that can be casually frustrated and rejected by the pride of creatures. When God sovereignly chooses to save a person, He sends the Holy Spirit to issue a call. This kind of calling is an "Effectual Calling" that reaches deep into the soul. The Holy Spirit does not merely politely knock on the door and propose; He directly changes a person's disposition, removes that hard, rebellious heart of stone, and replaces it with a soft, desiring heart of flesh, wonderfully transforming a person from a fundamental "unwillingness to believe" to a "willingness to believe."
 {: .lang-en lang="en"}
 
-## 五、 真理重申：圣父、圣子与圣灵的完美作工
+## 5. 真理重申：圣父、圣子与圣灵的完美作工
 {: .lang-zh lang="zh-CN"}
 
 救恩绝非上帝向人类无奈抛掷出的可能性协议，而是三一真神完美的、不可分割的救赎大工。
@@ -303,7 +303,7 @@ God's grace is absolutely not a weak, flimsy invitation that can be casually fru
 
 ---
 
-## VI. Pastoral Implications: To God Alone Be the Glory
+## 6. Pastoral Implications: To God Alone Be the Glory
 {: .lang-en lang="en"}
 
 ### 1. The Rock of Assurance
@@ -318,7 +318,7 @@ When we understand that salvation depends entirely on God's sovereign grace, our
 The true gospel leaves not a shred of room for boasting or self-exaltation. We are saved not at all because we were more enlightened or sensitive than others; we can be saved merely because the mighty shepherd, in the storm, forcefully sought and carried us, a flock of sheep lost in the thorns. It was absolutely not that the dead sheep found its own way home, but that the Shepherd resurrected it and carried it home.
 {: .lang-en lang="en"}
 
-## 六、 牧养意义：唯独上帝得荣耀
+## 6. 牧养意义：唯独上帝得荣耀
 {: .lang-zh lang="zh-CN"}
 
 ### 1. 确据的磐石
@@ -335,7 +335,7 @@ The true gospel leaves not a shred of room for boasting or self-exaltation. We a
 
 ---
 
-## VII. Conclusion: Let God Be God
+## Conclusion: Let God Be God
 {: .lang-en lang="en"}
 
 Salvation has never been an "olive branch of peace" extended by God to arrogant humanity, but the "sovereign right of redemption" exercised by the Lord of Heaven and Earth over mortal, deserving sinners. Let us stop degrading that exceedingly glorious and blood-stained redemption into a haggling transaction or a carnival of human free will.
@@ -344,7 +344,7 @@ Salvation has never been an "olive branch of peace" extended by God to arrogant 
 May we bow down and worship the Lord who woke us up from the pile of dead bodies. Let God be the sole source of our salvation, and without reservation, ascribe all the glory that originally belongs only to Him, entirely back to Him.
 {: .lang-en lang="en"}
 
-## 七、 结语：让上帝成为上帝
+## 结语：让上帝成为上帝
 {: .lang-zh lang="zh-CN"}
 
 救恩从来都不是上帝向傲慢自大的人类“伸出的求和橄榄枝”，而是天地之主对必死、该死的罪人行使的“救赎主权”。让我们停止把那极其荣耀且用血染红的救赎，降格为一场讨价还价的交易或人类自由意志的狂欢。

@@ -13,10 +13,10 @@ image:
   alt: A symbolic golden chain descending from heavenly light, representing the steps of salvation.
 ---
 
-## 1. Introduction: An Unbreakable Hope
+## Introduction: An Unbreakable Hope
 {: .lang-en lang="en"}
 
-## 1. 引言：不可动摇的盼望
+## 引言：不可动摇的盼望
 {: .lang-zh lang="zh-CN"}
 
 In a world of shifting sand and broken promises, the human heart longs for something certain. When it comes to the salvation of our souls, we often wonder: Is it up to my fluctuating will or feelings? Or is it anchored in something greater? The historic Christian faith points us to a "Golden Chain"—a series of divine acts that follow a necessary order (Ordo Salutis). It begins not with man's initiative, but with God's: **Regeneration** precedes **Faith** and **Repentance**, which inevitably leads to **Justification**, **Sanctification**, and finally **Glorification**.
@@ -462,10 +462,10 @@ This is why the chain is "golden"—from the election before the foundation of t
 
 ---
 
-## 9. Conclusion: Soli Deo Gloria
+## Conclusion: Soli Deo Gloria
 {: .lang-en lang="en"}
 
-## 9. 结语：唯独上帝的荣耀
+## 结语：唯独上帝的荣耀
 {: .lang-zh lang="zh-CN"}
 
 The Ordo Salutis reveals a God who is both the Author and the Perfecter of our faith. We are not safe because we hold onto the chain; we are safe because the Golden Chain of God’s decree and power holds onto us. To the One who stooped to call us, be all the glory forever.

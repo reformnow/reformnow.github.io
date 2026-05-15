@@ -12,10 +12,10 @@ image:
   alt: A representation of Divine Sovereignty and Grace
 ---
 
-## 1. Introduction: The Misunderstood "Right to Choose"
+## Introduction: The Misunderstood "Right to Choose"
 {: .lang-en lang="en"}
 
-## 1. 引言：被误解的“选择权”
+## 引言：被误解的“选择权”
 {: .lang-zh lang="zh-CN"}
 
 Many modern pulpits treat Deuteronomy 30:19 as a victory for "humanism," believing it proves that man possesses a neutral and sufficient free will to save himself. When this verse is isolated from its context, the Gospel is subtly transformed into a "transaction"—a merit-based offer where the decisive factor lies within the creature rather than the Creator.
@@ -128,10 +128,10 @@ Our spiritual inability is not a neutral physical handicap, but a moral corrupti
 
 ---
 
-## 5. Conclusion: The Augustinian Prayer
+## Conclusion: The Augustinian Prayer
 {: .lang-en lang="en"}
 
-## 5. 结语：奥古斯丁式的祈祷
+## 结语：奥古斯丁式的祈祷
 {: .lang-zh lang="zh-CN"}
 
 When we hear the command, "Choose life," our response should not be a roll-up-your-sleeves resolve to try harder. Rather, it should be the humble prayer of the historic faith. As Saint Augustine famously summarized:

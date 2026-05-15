@@ -11,10 +11,10 @@ image:
   alt: "John 3:16 Greek Manuscript"
 ---
 
-## I. Introduction: The Most Familiar Yet "Unfamiliar" Verse
+## Introduction: The Most Familiar Yet "Unfamiliar" Verse
 {: .lang-en lang="en"}
 
-## 一、 引言：最熟悉的“陌生”经文
+## 引言：最熟悉的“陌生”经文
 {: .lang-zh lang="zh-CN"}
 
 John 3:16 is arguably the most famous verse in the entire Bible. Yet, it might also be the most severely misunderstood.
@@ -43,10 +43,10 @@ John 3:16 is arguably the most famous verse in the entire Bible. Yet, it might a
 
 ---
 
-## II. Exegetical Breakdown: Shattering "Human-Centric" Semantic Myths
+## 2. Exegetical Breakdown: Shattering "Human-Centric" Semantic Myths
 {: .lang-en lang="en"}
 
-## 二、 原文拆解：粉碎“人本中心”的语义误区
+## 2. 原文拆解：粉碎“人本中心”的语义误区
 {: .lang-zh lang="zh-CN"}
 
 To grasp this verse's true weight, we must look at the original Greek syntax.
@@ -66,9 +66,6 @@ To grasp this verse's true weight, we must look at the original Greek syntax.
 ——约翰福音 3:16 (希腊文新约原文)
 ```
 {: .lang-zh lang="zh-CN"}
-
-<audio controls src="/assets/audio/john_3_16_greek.mp3" style="width: 100%; margin-bottom: 20px;"></audio>
-{: .lang-en lang="en"}
 
 <audio controls src="/assets/audio/john_3_16_greek.mp3" style="width: 100%; margin-bottom: 20px;"></audio>
 {: .lang-zh lang="zh-CN"}
@@ -171,10 +168,10 @@ Thus, "believing" is the sacred evidence that God has already worked regeneratio
 
 ---
 
-## III. The Lexical Lexicon: Does "The World" Mean Every Single Person?
+## 3. The Lexical Lexicon: Does "The World" Mean Every Single Person?
 {: .lang-en lang="en"}
 
-## 三、 词汇探源：“世界”是否指每一个活过的人？
+## 3. 词汇探源：“世界”是否指每一个活过的人？
 {: .lang-zh lang="zh-CN"}
 
 A major point of confusion hinges on the word "world" (Greek: *kosmos*). Modern readers reflexively assume this means "every single individual who has ever lived." But is that how the Bible uses it? Let's trace its usage in Scripture.
@@ -305,10 +302,10 @@ Did Caesar literally decree a census for the entire globe, including uncontacted
 
 ---
 
-## IV. Deep Critique: The "Certainty" vs. "Possibility" of Salvation
+## 4. Deep Critique: The "Certainty" vs. "Possibility" of Salvation
 {: .lang-en lang="en"}
 
-## 四、 深度批判：救恩的“确定性”vs“可能性”
+## 4. 深度批判：救恩的“确定性”vs“可能性”
 {: .lang-zh lang="zh-CN"}
 
 ### 1. Is Christ's Work "Finished" or a "Trial Run"?
@@ -349,10 +346,10 @@ Did Caesar literally decree a census for the entire globe, including uncontacted
 
 ---
 
-## V. Reshaping Truth: The Omnipotent Rescue of the Triune God
+## 5. Reshaping Truth: The Omnipotent Rescue of the Triune God
 {: .lang-en lang="en"}
 
-## 五、 真理重塑：三位一体神的全能拯救
+## 5. 真理重塑：三位一体神的全能拯救
 {: .lang-zh lang="zh-CN"}
 
 ### 1. The Sovereign Sending by the Father
@@ -393,10 +390,10 @@ Grace is not a polite invitation that can be casually rejected by the flesh. It 
 
 ---
 
-## VI. Pastoral Implications: To God Alone Be the Glory
+## 6. Pastoral Implications: To God Alone Be the Glory
 {: .lang-en lang="en"}
 
-## 六、 牧养意义：唯独神得荣耀
+## 6. 牧养意义：唯独神得荣耀
 {: .lang-zh lang="zh-CN"}
 
 ### 1. The Rock of Assurance
@@ -425,10 +422,10 @@ The true gospel leaves no room for self-boasting. When we read John 3:16, we sho
 
 ---
 
-## VII. Conclusion: Let the Gospel Be Holy Again
+## Conclusion: Let the Gospel Be Holy Again
 {: .lang-en lang="en"}
 
-## 七、 结语：让福音回归神圣
+## 结语：让福音回归神圣
 {: .lang-zh lang="zh-CN"}
 
 John 3:16 is not God getting down on one knee to "propose" to humanity, waiting anxiously for our answer. It is the mighty King of Heaven exercising His "sovereign right of pardon" in a graveyard of the spiritually dead.

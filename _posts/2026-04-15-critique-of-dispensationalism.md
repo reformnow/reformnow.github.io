@@ -12,10 +12,10 @@ image:
   alt: Unity of the Old and New Testaments leading to the Cross
 ---
 
-## 1. Introduction: The Need for Clarification
+## Introduction: The Need for Clarification
 {: .lang-en lang="en"}
 
-## 1. 引言：必须澄清的议题
+## 引言：必须澄清的议题
 {: .lang-zh lang="zh-CN"}
 
 For over a century, Dispensationalism has profoundly shaped evangelical theology, especially in North America and through its global missionary outreach. Many believers assume that concepts like a "secret rapture," a strict separation between Israel and the Church, and a future rebuilt temple are universally held historic Christian doctrines. However, these ideas are relatively recent developments.
@@ -192,10 +192,10 @@ Furthermore, the "Left Behind" theology often generates an escapist mentality am
 
 ---
 
-## 6. Conclusion: Recovering the Unity of Scripture
+## Conclusion: Recovering the Unity of Scripture
 {: .lang-en lang="en"}
 
-## 6. 结论：重拾圣经的统一性
+## 结论：重拾圣经的统一性
 {: .lang-zh lang="zh-CN"}
 
 John Gerstner profoundly observed the danger of the Dispensational paradigm:
@@ -230,10 +230,10 @@ As believers who seek to stand upon the historic, unified faith of the Church, w
 
 ---
 
-## Bibliography / 参考文献
+## Bibliography
 {: .lang-en lang="en"}
 
-## Bibliography / 参考文献
+## 参考文献
 {: .lang-zh lang="zh-CN"}
 
 1. **Allis, Oswald T.** *Prophecy and the Church*. Presbyterian and Reformed Publishing, 1945. (A classic critique of Dispensationalism's dichotomy between Israel and the Church).

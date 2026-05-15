@@ -11,10 +11,10 @@ image:
   alt: "Christ the True Temple"
 ---
 
-## I. Introduction: The Sensationalism of the Temple
+## Introduction: The Sensationalism of the Temple
 {: .lang-en lang="en"}
 
-## 一、 引言：圣殿的热度与迷思
+## 引言：圣殿的热度与迷思
 {: .lang-zh lang="zh-CN"}
 
 In recent decades, news and social media have been rife with sensationalist claims regarding the rebuilding of the "Third Temple" in Jerusalem. For many modern Christians, this event is seen as the ultimate countdown to the end times. However, when we look back at the **Great Tradition of the Church** and the core tenets of **Reformed Theology**, we find a much more profound, Christ-centered perspective that moves beyond physical stones to the spiritual reality of the New Covenant.
@@ -25,10 +25,10 @@ In recent decades, news and social media have been rife with sensationalist clai
 
 ---
 
-## II. Christ: The True and Final Temple
+## 2. Christ: The True and Final Temple
 {: .lang-en lang="en"}
 
-## 二、 基督：真实且终极的圣殿
+## 2. 基督：真实且终极的圣殿
 {: .lang-zh lang="zh-CN"}
 
 The Great Tradition, from the early Church Fathers to the Reformers, has always maintained that the physical temple in Jerusalem was a **"type" or "shadow"** that pointed to Jesus Christ. In John 2, Jesus famously declared:
@@ -57,10 +57,10 @@ The Great Tradition, from the early Church Fathers to the Reformers, has always 
 
 ---
 
-## III. The Church: The Living Third Temple
+## 3. The Church: The Living Third Temple
 {: .lang-en lang="en"}
 
-## 三、 教会：活着的“第三圣殿”
+## 3. 教会：活着的“第三圣殿”
 {: .lang-zh lang="zh-CN"}
 
 For Reformed theology, the "Third Temple" is not a future political project in Israel, but the **Church of Jesus Christ** itself. Under the New Covenant, the presence of God does not dwell in a "Holy of Holies" blocked by a curtain, but in the hearts of his people—the living stones.
@@ -89,10 +89,10 @@ The Apostle Peter further reinforces this by calling believers **"living stones"
 
 ---
 
-## IV. The Witness of History: Fathers and Confessions
+## 4. The Witness of History: Fathers and Confessions
 {: .lang-en lang="en"}
 
-## 四、 历史的见证：教父与信经
+## 4. 历史的见证：教父与信经
 {: .lang-zh lang="zh-CN"}
 
 The "Great Tradition" of the Church has consistently rejected any redemptive significance in a physical Third Temple.
@@ -151,10 +151,10 @@ The Reformed confessions are equally clear regarding the "ceremonial laws" (whic
 
 ---
 
-## V. The Finished Work vs. Blasphemous Regression
+## 5. The Finished Work vs. Blasphemous Regression
 {: .lang-en lang="en"}
 
-## 五、 成了之工 vs 亵渎性的退化
+## 5. 成了之工 vs 亵渎性的退化
 {: .lang-zh lang="zh-CN"}
 
 Perhaps the most serious concern for the Great Tradition is the implication of **restarting animal sacrifices** in a rebuilt Third Temple. The blood of bulls and goats was never enough to wash away sins; it was merely a temporary seal pointing to the cross. To reintroduce these rituals now is not just a mistake—it is a slight against the sufficiency of Christ's blood and, in many ways, an act of theological blasphemy.
@@ -183,10 +183,10 @@ Perhaps the most serious concern for the Great Tradition is the implication of *
 
 ---
 
-## VI. The Seat of the Lawless One: 2 Thessalonians 2:4
+## 6. The Seat of the Lawless One: 2 Thessalonians 2:4
 {: .lang-en lang="en"}
 
-## 六、 不法之人的座：帖后 2:4
+## 6. 不法之人的座：帖后 2:4
 {: .lang-zh lang="zh-CN"}
 
 History and Scripture suggest that a physical "Third Temple" is not intended to be a throne for the King of Kings, who already reigns in heaven. Rather, many Reformed interpreters point to the warning in 2 Thessalonians:
@@ -215,10 +215,10 @@ History and Scripture suggest that a physical "Third Temple" is not intended to 
 
 ---
 
-## VII. Perspective Comparison
+## 7. Perspective Comparison
 {: .lang-en lang="en"}
 
-## 七、 视角对比
+## 7. 视角对比
 {: .lang-zh lang="zh-CN"}
 
 | Perspective | Dispensationalist View (Popular) | Historic Orthodox / Reformed View |
@@ -239,10 +239,10 @@ History and Scripture suggest that a physical "Third Temple" is not intended to 
 
 ---
 
-## VIII. Conclusion: Looking to the New Jerusalem
+## Conclusion: Looking to the New Jerusalem
 {: .lang-en lang="en"}
 
-## 八、 结语：仰望新耶路撒冷
+## 结语：仰望新耶路撒冷
 {: .lang-zh lang="zh-CN"}
 
 As Christians, our hope is not in a temple made with human hands, but in the city that is to come. In the vision of the New Jerusalem, John tells us specifically:
