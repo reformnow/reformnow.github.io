@@ -43,10 +43,10 @@ _Augustine and Pelagius: Two colliding visions of humanity and hope._
 _奥古斯丁与伯拉纠：两种冲突的人性观与希望观。_
 {: .lang-zh lang="zh-CN"}
 
-### I. The Vision of the "Blank Slate" vs. the "Shattered Mirror"
+### 1. The Vision of the "Blank Slate" vs. the "Shattered Mirror"
 {: .lang-en lang="en"}
 
-### I. “白板”与“破碎的镜子”之见
+### 1. “白板”与“破碎的镜子”之见
 {: .lang-zh lang="zh-CN"}
 
 The disagreement began at the very beginning—with the nature of the human start.
@@ -108,7 +108,7 @@ When the root of the tree was poisoned, every branch and leaf that followed shar
 当树根中毒时，随之而来的每一根树枝和每一片叶子都会带有那毒素。我们不仅是犯下了罪；我们在核心深处都是背离最高美善的。正如他那句名言所说：*non posse non peccare*——即不能不犯罪。
 {: .lang-zh lang="zh-CN"}
 
-### II. The Paradox of Capability: "Ought" vs. "Can"
+### 2. The Paradox of Capability: "Ought" vs. "Can"
 {: .lang-en lang="en"}
 
 ### II. 能力的悖论：“应当”与“能够”
@@ -154,7 +154,7 @@ This prayer admitted that even obeying God’s commands requires a gift from God
 由于这个祈祷承认即使是遵守上帝的诫命也需要上帝亲自赐予能力。对于伯拉纠来说，这是产生道德懒惰和否定人类尊严。但对于奥古斯丁来说，这是对人类状况唯一诚实的回应。我们“应当”完美地爱神，但我们“不能”，因为我们的心被更次要的爱俘虏了。我们的问题不是缺乏信息，而是缺乏倾向。诫命的存在是为了将我们推向那能提供我们所缺乏之大能的那一位。
 {: .lang-zh lang="zh-CN"}
 
-### III. The Anatomy of Grace: Assistance vs. Re-creation
+### 3. The Anatomy of Grace: Assistance vs. Re-creation
 {: .lang-en lang="en"}
 
 ### III. 恩典的剖析：协助与重造
@@ -231,10 +231,10 @@ _Two views of grace: A GPS for the capable traveler vs. a divine rescue for the 
 _两种恩典观：为有能力的旅行者提供的 GPS，与为溺水者提供的神圣救援。_
 {: .lang-zh lang="zh-CN"}
 
-### IV. The Choice of the Will: Freedom vs. Liberty
+### 4. The Choice of the Will: Freedom vs. Liberty
 {: .lang-en lang="en"}
 
-### IV. 意志的选择：选择自由与真正自由
+### 4. 意志的选择：选择自由与真正自由
 {: .lang-zh lang="zh-CN"}
 
 One of the most misunderstood parts of this debate is the concept of "free will." Modern observers often assume Pelagius defended free will while Augustine denied it. In reality, both affirmed that humans make choices. The difference lay in the *constraints* and *source* of those choices.
@@ -277,10 +277,10 @@ True liberty (*Libertas*)—the freedom to love God and neighbor purely—is not
 真正的自由（*Libertas*）——即纯洁地爱神和爱邻舍的自由——并不是我们天生拥有的；它是我们通过恩典获得的。我们可以“自由”地顺从我们的天性，但在更高的力量改变我们的所爱之前，我们是那天性的俘虏。
 {: .lang-zh lang="zh-CN"}
 
-### V. The Transmission of Corruption: How the Poison Spreads
+### 5. The Transmission of Corruption: How the Poison Spreads
 {: .lang-en lang="en"}
 
-### V. 腐化的遗传：毒素如何扩散
+### 5. 腐化的遗传：毒素如何扩散
 {: .lang-zh lang="zh-CN"}
 
 A key battleground in this debate was the mechanism of how sin moves from generation to generation.
@@ -307,10 +307,10 @@ To visualize this, imagine a factory that produces compasses. If the master mold
 为了将此形象化，请想象一个生产指南针的工厂。如果母模是弯曲的，那么根据该模具生产出的每个指南针都会稍微指向东方而不是北方。你可以给指南针一个“坏榜样”或一个“好榜样”，但它的指针总会停在错误的方向，因为它的对齐本身就是有缺陷的。这种“原罪”不是我们出生时被指责的个人过错，而是一种共有的脆弱性，以及缺乏亚当原本拥有的那种原始正义。这是一种照亮我们前行之光的缺失。
 {: .lang-zh lang="zh-CN"}
 
-### VI. The Semi-Pelagian Compromise and the Final Verdict
+### 6. The Semi-Pelagian Compromise and the Final Verdict
 {: .lang-en lang="en"}
 
-### VI. “半伯拉纠”的妥协与最终定论
+### 6. “半伯拉纠”的妥协与最终定论
 {: .lang-zh lang="zh-CN"}
 
 The debate did not end with the death of the two main protagonists. In the decades that followed, a "middle way" emerged, particularly in Southern France, which history has labeled **Semi-Pelagianism**.
@@ -347,10 +347,10 @@ The controversy reached its definitive theological conclusion at the **Council o
 这场争议在公元 **529 年的奥兰治会议**（Council of Orange）上得出了明确的神学结论。会议以毫不妥协的清晰态度肯定了奥古斯丁的立场。它宣布即使是“洁净的渴望”和“信心的开始”也是圣灵的赐予。它拒绝了我们可以做任何事情来“配得”或“启动”恩典的观点。会议坚持认为，恩典才是最初使对恩典的渴望成为可能的原因。这是救恩从始至终都是神的工作这一观点——**唯独恩典**（*Sola Gratia*）——的最终胜利。
 {: .lang-zh lang="zh-CN"}
 
-### VII. The Enduring Resonance: Why It Matters Today
+### 7. The Enduring Resonance: Why It Matters Today
 {: .lang-en lang="en"}
 
-### VII. 持久的共鸣：为何今日它依然重要
+### 7. 持久的共鸣：为何今日它依然重要
 {: .lang-zh lang="zh-CN"}
 
 Why does a 1,600-year-old debate still matter? Because the "Pelagian impulse" is the default setting of the human heart and modern culture.
