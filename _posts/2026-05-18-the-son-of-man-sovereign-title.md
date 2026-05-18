@@ -220,30 +220,34 @@ The title "Son of Man" was a double-edged sword of divine wisdom. To the crowds 
 
 ---
 
-## 5. Homiletical Guide: Preaching the Son of Man
+## 5. The Consummate Hope: The Climax of the Son of Man's Triune Mission
 {: .lang-en lang="en"}
 
-## 五、 宣讲大纲：人子主题的讲章构建
+## 五、 终极的盼望：人子三重使命的伟大终结
 {: .lang-zh lang="zh-CN"}
 
-For those seeking to preach or teach this rich doctrine of biblical truth, the following structured outline aligns with orthodox catholic theology and serves as a solid homiletical framework:
+In the pastoral framework of biblical truth, the title "Son of Man" is not a dry theological abstraction, but a living reality that bridges the humiliation of the cross with the exaltation of the throne. It maps out three glorious aspects of Christ’s mission that shape the believer's absolute hope: the Humiliated, the Redeeming, and the Glorified Son of Man.
 {: .lang-en lang="en"}
 
-对于渴望在讲坛上或小组中宣讲这一圣经真理的牧者与信徒，以下基于正统大公神学的结构化大纲可以作为一个扎实的讲章构建框架：
+在圣经真理的教牧框架中，“人子”这一头衔并非冰冷枯燥的神学抽象概念，而是将十字架的降卑与宝座的升贵有机联结在一起的活泼现实。它展现了基督救赎使命的三个荣耀维度，构成了信徒绝对盼望的磐石：即那降卑的人子、代赎的人子以及荣耀的人子。
 {: .lang-zh lang="zh-CN"}
 
-| **Homiletical Point / 讲章要点** | **Theological Core / 神学核心** | **Gospel Response / 福音回应** |
-|:---|:---|:---|
-| **1. The Humiliated Son of Man / 降卑的人子** | Chalcedonian Christology: True God took on true humanity and entered our suffering. / 迦克墩基督论：真神成为真人，经历世间苦难与软弱。 | He is able to sympathize with your weakness. / 祂能体恤你的痛苦与无助。 |
-| **2. The Redeeming Son of Man / 代赎的人子** | Covenant Theology: The Second Adam satisfies divine justice on the cross. / 盟约神学：末后的亚当，在十字架上完全顺服满足公义。 | Your guilt is cleared; His active righteousness is imputed to you. / 你的罪债已清，祂的义已白白归给你。 |
-| **3. The Glorified Son of Man / 荣耀的人子** | Daniel's Vision: The eternal Sovereign coming on the clouds for judgment. / 但以理书异象：驾云降临、执掌绝对审判权的永恒君王。 | Repent of worldly vanity; bow before the sovereign Lord. / 停止地上的捕风，伏在这位永恒主宰的主权之下。 |
+First, as the Humiliated Son of Man, He entered the full depth of our human frailty, experiencing sorrow, temptation, and physical weakness, yet without sin. In orthodox catholic theology, this means His sympathy is absolute. When you cry out in your helplessness, you do not pray to an indifferent deity, but to a High Priest who has tasted the dust of your earth.
 {: .lang-en lang="en"}
 
-| **Homiletical Point / 讲章要点** | **Theological Core / 神学核心** | **Gospel Response / 福音回应** |
-|:---|:---|:---|
-| **1. The Humiliated Son of Man / 降卑的人子** | Chalcedonian Christology: True God took on true humanity and entered our suffering. / 迦克墩基督论：真神成为真人，经历世间苦难与软弱。 | He is able to sympathize with your weakness. / 祂能体恤你的痛苦与无助。 |
-| **2. The Redeeming Son of Man / 代赎的人子** | Covenant Theology: The Second Adam satisfies divine justice on the cross. / 盟约神学：末后的亚当，在十字架上完全顺服满足公义。 | Your guilt is cleared; His active righteousness is imputed to you. / 你的罪债已清，祂的义已白白归给你。 |
-| **3. The Glorified Son of Man / 荣耀的人子** | Daniel's Vision: The eternal Sovereign coming on the clouds for judgment. / 但以理书异象：驾云降临、执掌绝对审判权的永恒君王。 | Repent of worldly vanity; bow before the sovereign Lord. / 停止地上的捕风，伏在这位永恒主宰的主权之下。 |
+首先，作为降卑的人子，祂完全进入了人类软弱的深渊，亲身体验了忧伤、试探与肉体的疲惫，只是祂没有犯罪。在大公教会正统神学中，这意味着祂的体恤是完全的。当你在无助中呼求时，你并非向一位冷漠的神祇祈祷，而是向一位亲自尝过这地上尘土滋味的大祭司倾心吐意。
+{: .lang-zh lang="zh-CN"}
+
+Second, as the Redeeming Son of Man, He fulfilled the federal covenant on our behalf, satisfying the eternal justice of God by laying down His life as a substitutionary ransom. Under this Covenant of Grace, there is no condemnation remaining for those who believe. Your eternal guilt was fully extinguished on the tree, and the active righteousness of the Second Adam is imputed to you forever.
+{: .lang-en lang="en"}
+
+其次，作为代赎的人子，祂代表我们履行了联邦盟约，通过舍命作为替代性的赎价满足了上帝公义的烈怒。在恩典盟约之下，凡信靠祂的人就再也不被定罪了。你永远的罪债已在十架木头上被彻底偿清，而第二个亚当完美的顺服与义已白白归算给你，直到永远。
+{: .lang-zh lang="zh-CN"}
+
+Finally, as the Glorified Son of Man, He is the sovereign Monarch prophesied by Daniel, who will return on the clouds of heaven to judge the quick and the dead and establish His everlasting kingdom. This guarantees that all earthly powers and spiritual host of wickedness are already under His feet. The believer’s final victory is secure, because our representative Head is already crowned with absolute glory.
+{: .lang-en lang="en"}
+
+最后，作为荣耀的人子，祂是但以理所预言的至高君王，将驾着天云降临，审判活人死人，并建立祂永不败坏的国度。这向我们保障：一切世俗权势与属灵的邪恶势力早已被践踏在祂脚下。信徒的最终胜利已得保障，因为我们代表性的元首早已戴上了绝对荣耀的冠冕。
 {: .lang-zh lang="zh-CN"}
 
 When the Lord Jesus Christ designated Himself as the Son of Man, He was proclaiming to the entire cosmos: "I am the One who created you, the One who descended to redeem you, and the One who will sit upon the fiery throne of eternity to judge you as the King of Kings."
