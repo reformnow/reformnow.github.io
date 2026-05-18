@@ -79,6 +79,17 @@
     {% assign seo_tags = seo_tags | replace: old_meta_clip, new_meta_clip %}
   {% endif %}
 
+  {% if page.title_zh %}
+  <!-- Chinese OG overrides: output BEFORE seo_tags so first-occurrence parsers (WeChat, FB, etc.) use Chinese -->
+  <meta property="og:title" content="{{ page.title_zh }}" />
+  <meta property="twitter:title" content="{{ page.title_zh }}" />
+  {% endif %}
+  {% if page.description_zh %}
+  <meta name="description" content="{{ page.description_zh | strip_html | truncate: 200 }}" />
+  <meta property="og:description" content="{{ page.description_zh | strip_html | truncate: 200 }}" />
+  <meta property="twitter:description" content="{{ page.description_zh | strip_html | truncate: 200 }}" />
+  {% endif %}
+
   {{ seo_tags }}
 
   {% if page.title_zh or page.description_zh %}
