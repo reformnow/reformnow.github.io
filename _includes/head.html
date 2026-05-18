@@ -48,10 +48,27 @@
       {%- assign seo_tags = _tw_parts[0] | append: '<meta property="twitter:title" content="' | append: _zh_title | append: '" />' | append: _tw_tail -%}
     {%- endif -%}
   {%- endif -%}
-
-  {%- capture default_twitter_description -%}<meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | xml_escape }}" />{%- endcapture -%}
-  {%- capture bilingual_twitter_description -%}<meta name="twitter:description" content="{{ escaped_seo_description }}" />{%- endcapture -%}
-  {% assign seo_tags = seo_tags | replace: default_twitter_description, bilingual_twitter_description %}
+  {%- if page.description_zh -%}
+    {%- assign _zh_desc = page.description_zh | strip_html | truncate: 200 | xml_escape -%}
+    {%- assign _d_parts = seo_tags | split: '<meta name="description"' -%}
+    {%- if _d_parts.size > 1 -%}
+      {%- assign _d_rest = _d_parts[1] | split: '/>' -%}
+      {%- assign _d_tail = _d_rest | slice: 1, 999 | join: '/>' -%}
+      {%- assign seo_tags = _d_parts[0] | append: '<meta name="description" content="' | append: _zh_desc | append: '" />' | append: _d_tail -%}
+    {%- endif -%}
+    {%- assign _ogd_parts = seo_tags | split: '<meta property="og:description"' -%}
+    {%- if _ogd_parts.size > 1 -%}
+      {%- assign _ogd_rest = _ogd_parts[1] | split: '/>' -%}
+      {%- assign _ogd_tail = _ogd_rest | slice: 1, 999 | join: '/>' -%}
+      {%- assign seo_tags = _ogd_parts[0] | append: '<meta property="og:description" content="' | append: _zh_desc | append: '" />' | append: _ogd_tail -%}
+    {%- endif -%}
+    {%- assign _twd_parts = seo_tags | split: '<meta name="twitter:description"' -%}
+    {%- if _twd_parts.size > 1 -%}
+      {%- assign _twd_rest = _twd_parts[1] | split: '/>' -%}
+      {%- assign _twd_tail = _twd_rest | slice: 1, 999 | join: '/>' -%}
+      {%- assign seo_tags = _twd_parts[0] | append: '<meta name="twitter:description" content="' | append: _zh_desc | append: '" />' | append: _twd_tail -%}
+    {%- endif -%}
+  {%- endif -%}
 
   <!-- Setup Open Graph image -->
   {% if page.image %}
