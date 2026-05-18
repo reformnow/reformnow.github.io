@@ -6,6 +6,37 @@
   
   // Note: Core bilingual CSS is now injected in head.html to prevent FOUC.
 
+  // Update meta tags (og:title, og:description, etc.) for browser share sheet
+  function updateMetaTags(lang) {
+    var m = window.__bilingualMeta;
+    if (!m) return;
+    var title, desc;
+    if (lang === 'chinese') {
+      title = m.title_zh;
+      desc  = m.desc_zh;
+    } else if (lang === 'english') {
+      title = m.title_en;
+      desc  = m.desc_en;
+    } else { // both
+      title = m.title_zh + ' | ' + m.title_en;
+      desc  = m.desc_zh + ' ' + m.desc_en;
+    }
+    function setMeta(sel, attr, val) {
+      var el = document.querySelector(sel);
+      if (el && val) el.setAttribute(attr, val);
+    }
+    if (title) {
+      document.title = title + ' | ' + (m.site_title || '');
+      setMeta('meta[property="og:title"]',       'content', title);
+      setMeta('meta[property="twitter:title"]',  'content', title);
+    }
+    if (desc) {
+      setMeta('meta[property="og:description"]', 'content', desc);
+      setMeta('meta[name="description"]',        'content', desc);
+      setMeta('meta[name="twitter:description"]','content', desc);
+    }
+  }
+
   // Global function for button clicks
   window.setLanguageView = function(lang) {
     // Update button states
@@ -27,9 +58,13 @@
     document.documentElement.classList.remove('view-english', 'view-chinese', 'view-bilingual');
     document.documentElement.classList.add(`view-${classMode}`);
     
+    // Update meta tags for browser share sheet
+    updateMetaTags(lang);
+
     // Save preference
     localStorage.setItem('preferredLanguage', lang);
   };
+
   
   // Tag TOC links based on their targets' language
   window.tagTOCLinks = function() {

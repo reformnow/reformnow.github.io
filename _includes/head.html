@@ -81,6 +81,33 @@
 
   {{ seo_tags }}
 
+  {% if page.title_zh or page.description_zh %}
+  <!-- Bilingual meta override: update OG/Twitter tags to Chinese by default -->
+  <script>
+    (function () {
+      window.__bilingualMeta = {
+        title_zh: {{ page.title_zh | default: page.title | jsonify }},
+        title_en: {{ page.title | jsonify }},
+        desc_zh: {{ page.description_zh | default: page.description | strip_html | truncate: 200 | jsonify }},
+        desc_en: {{ page.description | default: page.description_zh | strip_html | truncate: 200 | jsonify }},
+        site_title: {{ site.title | jsonify }}
+      };
+      var m = window.__bilingualMeta;
+      function setMeta(sel, attr, val) {
+        var el = document.querySelector(sel);
+        if (el && val) el.setAttribute(attr, val);
+      }
+      // Default to Chinese meta (matches the site's default language)
+      setMeta('meta[property="og:title"]',       'content', m.title_zh);
+      setMeta('meta[property="twitter:title"]',  'content', m.title_zh);
+      setMeta('meta[property="og:description"]', 'content', m.desc_zh);
+      setMeta('meta[name="description"]',        'content', m.desc_zh);
+      setMeta('meta[name="twitter:description"]','content', m.desc_zh);
+      if (m.title_zh) document.title = m.title_zh + ' | ' + m.site_title;
+    })();
+  </script>
+  {% endif %}
+
   <title>
     {%- unless page.layout == 'home' -%}
       {{ seo_title | append: ' | ' }}
