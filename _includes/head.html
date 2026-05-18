@@ -32,21 +32,22 @@
   {%- assign escaped_seo_title = seo_title | xml_escape -%}
   {%- assign escaped_seo_description = seo_description | strip_html | strip_newlines | truncate: 160 | xml_escape -%}
 
-  {%- capture default_og_title -%}<meta property="og:title" content="{{ page.title | xml_escape }}" />{%- endcapture -%}
-  {%- capture bilingual_og_title -%}<meta property="og:title" content="{{ escaped_seo_title }}" />{%- endcapture -%}
-  {% assign seo_tags = seo_tags | replace: default_og_title, bilingual_og_title %}
-
-  {%- capture default_description -%}<meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | xml_escape }}" />{%- endcapture -%}
-  {%- capture bilingual_description -%}<meta name="description" content="{{ escaped_seo_description }}" />{%- endcapture -%}
-  {% assign seo_tags = seo_tags | replace: default_description, bilingual_description %}
-
-  {%- capture default_og_description -%}<meta property="og:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | xml_escape }}" />{%- endcapture -%}
-  {%- capture bilingual_og_description -%}<meta property="og:description" content="{{ escaped_seo_description }}" />{%- endcapture -%}
-  {% assign seo_tags = seo_tags | replace: default_og_description, bilingual_og_description %}
-
-  {%- capture default_twitter_title -%}<meta property="twitter:title" content="{{ page.title | xml_escape }}" />{%- endcapture -%}
-  {%- capture bilingual_twitter_title -%}<meta property="twitter:title" content="{{ escaped_seo_title }}" />{%- endcapture -%}
-  {% assign seo_tags = seo_tags | replace: default_twitter_title, bilingual_twitter_title %}
+  {%- if page.title_zh -%}
+    {%- assign _zh_title = page.title_zh | xml_escape -%}
+    {%- comment -%} Split on the fixed tag pattern — avoids apostrophe/escape mismatch {%- endcomment -%}
+    {%- assign _og_parts = seo_tags | split: '<meta property="og:title"' -%}
+    {%- if _og_parts.size > 1 -%}
+      {%- assign _og_rest = _og_parts[1] | split: '/>' -%}
+      {%- assign _og_tail = _og_rest | slice: 1, 999 | join: '/>' -%}
+      {%- assign seo_tags = _og_parts[0] | append: '<meta property="og:title" content="' | append: _zh_title | append: '" />' | append: _og_tail -%}
+    {%- endif -%}
+    {%- assign _tw_parts = seo_tags | split: '<meta property="twitter:title"' -%}
+    {%- if _tw_parts.size > 1 -%}
+      {%- assign _tw_rest = _tw_parts[1] | split: '/>' -%}
+      {%- assign _tw_tail = _tw_rest | slice: 1, 999 | join: '/>' -%}
+      {%- assign seo_tags = _tw_parts[0] | append: '<meta property="twitter:title" content="' | append: _zh_title | append: '" />' | append: _tw_tail -%}
+    {%- endif -%}
+  {%- endif -%}
 
   {%- capture default_twitter_description -%}<meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | xml_escape }}" />{%- endcapture -%}
   {%- capture bilingual_twitter_description -%}<meta name="twitter:description" content="{{ escaped_seo_description }}" />{%- endcapture -%}
@@ -77,17 +78,6 @@
     {% assign old_meta_clip = '<meta name="twitter:card" content="summary" />' %}
     {% assign new_meta_clip = og_image | append: twitter_image %}
     {% assign seo_tags = seo_tags | replace: old_meta_clip, new_meta_clip %}
-  {% endif %}
-
-  {% if page.title_zh %}
-  <!-- Chinese OG overrides: output BEFORE seo_tags so first-occurrence parsers (WeChat, FB, etc.) use Chinese -->
-  <meta property="og:title" content="{{ page.title_zh }}" />
-  <meta property="twitter:title" content="{{ page.title_zh }}" />
-  {% endif %}
-  {% if page.description_zh %}
-  <meta name="description" content="{{ page.description_zh | strip_html | truncate: 200 }}" />
-  <meta property="og:description" content="{{ page.description_zh | strip_html | truncate: 200 }}" />
-  <meta property="twitter:description" content="{{ page.description_zh | strip_html | truncate: 200 }}" />
   {% endif %}
 
   {{ seo_tags }}
