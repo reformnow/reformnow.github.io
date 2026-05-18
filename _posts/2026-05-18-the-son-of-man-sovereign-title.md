@@ -261,6 +261,9 @@ When the Lord Jesus Christ designated Himself as the Son of Man, He was proclaim
 {: .lang-zh lang="zh-CN"}
 
 1\. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
+
 2\. **The Chalcedonian Creed (451)**, The Ecumenical Council of Chalcedon.
+
 3\. **Saint Gregory of Nazianzus**, *Epistola 101: Ad Cledonium* (c. 382).
+
 4\. **John Calvin**, *Institutes of the Christian Religion* (1559 Edition), Book II, Chapters XII-XIV (The Hypostatic Union and the Mediator).
