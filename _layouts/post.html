@@ -170,7 +170,10 @@ script_includes:
     </div>
 
     <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
-      <span class="label ps-2 pe-1">{{- site.data.locales[lang].panel.toc -}}</span>
+      <span class="label ps-2 pe-1">
+        <span class="lang-en">{{- site.data.locales['en'].panel.toc | default: 'Contents' -}}</span>
+        <span class="lang-zh">{{- site.data.locales['zh-CN'].panel.toc | default: '文章内容' -}}</span>
+      </span>
       <i class="fa-solid fa-angle-right fa-fw"></i>
     </button>
 
