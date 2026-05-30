@@ -4,6 +4,7 @@ import json
 import hashlib
 import asyncio
 import edge_tts
+import subprocess
 
 posts_dir = '_posts'
 audio_dir = 'assets/audio/posts'
@@ -39,7 +40,91 @@ def clean_markdown(text):
     text = re.sub(r'[\u0370-\u03FF\u1F00-\u1FFF\u0590-\u05FF\uFB1D-\uFB4F]+', '', text)
     return text.strip()
 
-async def generate_speech(text, voice, outfile, retries=4, delay=5):
+def chunk_text(text, max_chars=1500):
+    chunks = []
+    current_chunk = []
+    current_length = 0
+    # Split by newlines first (paragraphs)
+    paragraphs = text.split('\n')
+    for p in paragraphs:
+        p = p.strip()
+        if not p:
+            continue
+        # If a single paragraph is larger than max_chars, split by sentences
+        if len(p) > max_chars:
+            # Simple sentence splitter: . ? ! for English, 。 ？ ！ for Chinese
+            sentences = re.split(r'([.?!。？！])', p)
+            # Reconstruct sentences with their punctuation
+            reconstructed = []
+            for i in range(0, len(sentences) - 1, 2):
+                reconstructed.append(sentences[i] + sentences[i+1])
+            if len(sentences) % 2 != 0:
+                reconstructed.append(sentences[-1])
+            
+            for s in reconstructed:
+                s = s.strip()
+                if not s:
+                    continue
+                if current_length + len(s) > max_chars:
+                    if current_chunk:
+                        chunks.append(" ".join(current_chunk))
+                    current_chunk = [s]
+                    current_length = len(s)
+                else:
+                    current_chunk.append(s)
+                    current_length += len(s)
+        else:
+            if current_length + len(p) > max_chars:
+                if current_chunk:
+                    chunks.append("\n\n".join(current_chunk))
+                current_chunk = [p]
+                current_length = len(p)
+            else:
+                current_chunk.append(p)
+                current_length += len(p)
+                
+    if current_chunk:
+        chunks.append("\n\n".join(current_chunk))
+    return chunks
+
+def concatenate_audios(input_files, output_file):
+    if not input_files:
+        return
+    if len(input_files) == 1:
+        if os.path.exists(output_file):
+            os.remove(output_file)
+        os.rename(input_files[0], output_file)
+        return
+        
+    list_file_path = output_file + ".txt"
+    with open(list_file_path, 'w', encoding='utf-8') as f:
+        for file in input_files:
+            basename = os.path.basename(file)
+            escaped_file = basename.replace("'", "'\\''")
+            f.write(f"file '{escaped_file}'\n")
+            
+    try:
+        cmd = [
+            'ffmpeg',
+            '-f', 'concat',
+            '-safe', '0',
+            '-i', list_file_path,
+            '-c', 'copy',
+            '-y',
+            output_file
+        ]
+        subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"Error concatenating files: {e.stderr.decode('utf-8')}")
+        raise e
+    finally:
+        if os.path.exists(list_file_path):
+            os.remove(list_file_path)
+        for file in input_files:
+            if os.path.exists(file):
+                os.remove(file)
+
+async def generate_speech_chunk(text, voice, outfile, retries=4, delay=5):
     for attempt in range(retries):
         try:
             communicate = edge_tts.Communicate(text, voice)
@@ -53,6 +138,23 @@ async def generate_speech(text, voice, outfile, retries=4, delay=5):
             else:
                 print(f"Failed to generate {outfile} after {retries} attempts.")
                 raise e
+
+async def generate_speech(text, voice, outfile, retries=4, delay=5):
+    chunks = chunk_text(text, max_chars=1500)
+    if len(chunks) == 1:
+        await generate_speech_chunk(chunks[0], voice, outfile, retries, delay)
+        return
+        
+    temp_files = []
+    for idx, chunk in enumerate(chunks):
+        temp_outfile = f"{outfile}.chunk{idx}.mp3"
+        print(f"  Generating chunk {idx + 1}/{len(chunks)} ({len(chunk)} chars)...")
+        await generate_speech_chunk(chunk, voice, temp_outfile, retries, delay)
+        temp_files.append(temp_outfile)
+        await asyncio.sleep(0.5)
+        
+    print(f"  Concatenating {len(chunks)} chunks into {outfile}...")
+    concatenate_audios(temp_files, outfile)
 
 async def main():
     has_changes = False
