@@ -80,6 +80,24 @@ Fallen humans, by their very nature, desire to usurp the throne of the universe 
 堕落之人的本质，就是想自己坐在宇宙的宝座上当神。因此，从根本的属灵法统上来说：在日光之下，“恨恶神的”自然人占了100%，而在整个历史长河中，“真正爱神的”自然人则是0%。
 {: .lang-zh lang="zh-CN"}
 
+While Scripture describes certain individuals seeking God or walking in piety—such as Cornelius in the New Testament or the repenting Ninevites in the Old—historic Christian theology recognizes that this seeking is never a product of the unregenerate human nature. Left to itself, the fallen human heart remains in total opposition and hostility to Him. Any genuine movement toward God is the fruit of His prior, prevenient grace working in the soul. As St. Augustine observed regarding our will and God's work:
+{: .lang-en lang="en"}
+
+虽然圣经也描述了一些寻求上帝或行事敬虔的例子——如新约中的哥尼流，或旧约中悔改的尼尼微人与历代圣徒——但大公教会的正统神学清醒地认识到，这种寻求绝非出于未重生的自然人本性。任由其自身发展，堕落的人心对上帝只有全然的敌意。人任何真正迈向神的脚步，都是上帝那先行的、重生的恩典在人灵魂里作工的果子。正如圣奥古斯丁在谈到人的意志与上帝的工作时所言：
+{: .lang-zh lang="zh-CN"}
+
+```quote
+"It is certain that we will when we will; but He makes us to will what is good... He operates that we may will, and co-operates when we will."
+— St. Augustine, On Grace and Free Will, 17
+```
+{: .lang-en lang="en"}
+
+```quote
+“当我们立志时，固然是我们自己在立志；但那使我们立志行善的乃是祂……祂动工以致我们立志，并在我们立志时与我们同工。”
+—— 圣奥古斯丁，《论恩典与自由意志》，17
+```
+{: .lang-zh lang="zh-CN"}
+
 If we plug these two chilling percentages into the formula of the Second Commandment, the literal outcome is an absolute cosmic catastrophe. God must execute His justice, visiting iniquity from generation to generation upon 100% of humanity. Meanwhile, the "lovingkindness to thousands of generations" promised to "those who love Him" is left with no qualified recipients, rendering it an undeliverable inheritance.
 {: .lang-en lang="en"}
 
@@ -106,17 +124,30 @@ Since humanity could never untangle this deadlock, God broke the chains of death
 既然人类自己解不开这个死结，上帝就在历史的尽头，用一种颠覆宇宙逻辑的方式，强行砸断了死亡的锁链。这就是历史基督教信仰最核心的真理宣告——“双重归算（Double Imputation）”。
 {: .lang-zh lang="zh-CN"}
 
-In the entire span of human history, there has been only one true "Son of Man"—Jesus Christ. He is the sole individual who loved God perfectly and kept every single one of God's commandments with absolute purity.
+In its original historical-grammatical context, this covenant promise in Exodus 20:6 was directed toward the collective covenant community of Israel—those set apart to belong to God. Yet, because no member of that community could render perfect obedience, this promise stood as an unachievable ideal. Traditional biblical exegesis resolves this tension through the concept of *sensus plenior* (the fuller sense), recognizing that what was spoken of the community is ultimately and perfectly fulfilled in a single Representative. In the entire span of human history, there has been only one true "Son of Man"—Jesus Christ. He is the sole individual who loved God perfectly and kept every single one of God's commandments with absolute purity.
 {: .lang-en lang="en"}
 
-在整个人类历史上，有且只有一位真正的“人子”——耶稣基督。祂是唯一一个百分之百完全爱神、百分之百完全守住上帝一切诫命的“人”。
+在历史-语法释经的原始语境中，出埃及记20:6的这一盟约应许首先是面向以色列这一盟约群体的——即被分别出来归给上帝的属神百姓。然而，由于该群体中没有任何人能够献上完全的顺服，这一应许在历史上始终是一个无法企及的理想。传统释经学通过“更丰满的意义（Sensus Plenior）”这一概念来解决这一张力，认识到凡是指向这群体的应许，终极且完美地落在了他们唯一的代表身上。在整个人类历史上，有且只有一位真正的“人子”——耶稣基督。祂是唯一一个百分之百完全爱神、百分之百完全守住上帝一切诫命的“人”。
 {: .lang-zh lang="zh-CN"}
 
-Before the divine registry of life and death, Christ alone was qualified to sign His name under the clause "those who love Me and keep My commandments," thereby inheriting the infinite blessing of thousands of generations. Yet, He walked toward the cross to enact a divine exchange in the highest court of the cosmos.
+Before the divine registry of life and death, Christ alone, acting as our Representative Covenant Head, was qualified to sign His name under the clause "those who love Me and keep My commandments," thereby inheriting the infinite blessing of thousands of generations. Yet, He walked toward the cross to enact a divine exchange in the highest court of the cosmos. As the ancient *Epistle to Diognetus* beautifully declares regarding this sweet exchange:
 {: .lang-en lang="en"}
 
-在上帝那本判定生死的“历史生死簿”面前，原本只有耶稣一个人，有资格在“爱我、守我诫命”的格子上签字，合法承接那直到千代的无穷祝福。但祂却走向了十字架，在宇宙最高的法庭上，进行了一场神圣的“账目大擦除”：
+在上帝那本判定生死的“历史生死簿”面前，原本只有耶稣基督作为我们的盟约元首与代表，有资格在“爱我、守我诫命”的格子上签字，合法承接那直到千代的无穷祝福。但祂却走向了十字架，在宇宙最高的法庭上，进行了一场神圣的“账目大擦除”。正如古代的《致迪奥格内图斯书》对这甜蜜大交换的赞美：
 {: .lang-zh lang="zh-CN"}
+
+```quote
+"O sweet exchange! O unsearchable creation! O benefits surpassing all expectation! That the wickedness of many should be concealed in one righteous Man, and the righteousness of One should justify many transgressors!"
+— The Epistle to Diognetus, 9.5
+```
+{: .lang-en lang="en"}
+
+```quote
+“何等甜蜜的交换！何等不可思议的作为！何等超出一切预期的恩惠！众人的邪恶竟被隐藏在一位义者里面，而一位义者的公义竟使众多的不法之人被称为义！”
+—— 《致迪奥格内图斯书》，9.5
+```
+{: .lang-zh lang="zh-CN"}
+
 
 | Our Real Record | The Divine Exchange of Christ |
 | :--- | :--- |
@@ -306,6 +337,12 @@ The "three and four generations" of judgment in the Second Commandment is an ind
 旧约十诫第二诫的“三四代追讨”，是一张让所有人认罪伏法的通缉令；而“千代慈爱”，则是上帝在基督里早已为你盖章签字的遗产赠予书。
 {: .lang-zh lang="zh-CN"}
 
+To be sure, we must distinguish between the judicial curse (the penalty of sin under divine judgment) and the temporal consequences of sin in this fallen world. While Christ has fully borne and forever extinguished the judicial curse on the cross, the temporal and historical consequences of sin—such as broken family relationships, childhood trauma, or the painful legacy of parental alcoholism—may still linger and require healing in our temporal lives. The cross does not immediately erase every earthly scar, but it guarantees that these scars no longer carry condemnation or the sting of divine wrath.
+{: .lang-en lang="en"}
+
+确切地说，我们必须区分罪的“司法性咒诅”（即上帝审判下的罪刑）与罪在堕落世界中的“历史性与暂时的后果”。基督虽已在十字架上完全承担并永远消除了罪的司法性咒诅，但罪的历史性与暂时后果——例如破碎的家庭关系、童年创伤或父母酗酒留下的痛苦阴影——仍可能在现世残留，并在漫长的成圣过程中经历医治。十字架并不保证立即抹去地上的每一道伤痕，但它确凿地保证，这些伤痕绝不再带有任何定罪的法理效力，也不再含有神圣愤怒的毒钩。
+{: .lang-zh lang="zh-CN"}
+
 In history and reality, no matter how destructive sin and death may seem, God's sovereignty has locked them within the boundary of "three or four generations"—a finite limit in time. But the moment Christ cried out, "It is finished!" upon the cross, the eternal covenant torrent of grace, destined to overflow to "thousands of generations," burst forth irresistibly.
 {: .lang-en lang="en"}
 
@@ -340,6 +377,10 @@ In your daily walk, do you still find yourself pulled between the fatalism of "b
 
 1\. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
 
-2\. **The Heidelberg Catechism (1563)**, Questions 60, 88-90.
+2\. **The Epistle to Diognetus** (c. 2nd century), Chapter 9.
 
-3\. **The Canons of Dort (1619)**, The Third and Fourth Heads of Doctrine: The Corruption of Man, and His Conversion to God, and the Manner Thereof.
+3\. **St. Augustine**, *On Grace and Free Will* (*De Gratia et Libero Arbitrio*), c. 426-427.
+
+4\. **The Heidelberg Catechism (1563)**, Questions 60, 88-90.
+
+5\. **The Canons of Dort (1619)**, The Third and Fourth Heads of Doctrine: The Corruption of Man, and His Conversion to God, and the Manner Thereof.
