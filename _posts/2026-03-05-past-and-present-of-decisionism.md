@@ -2,6 +2,7 @@
 layout: post
 title: "The Usurpation of Salvation: The Past and Present of Decisionism"
 title_zh: "救恩的篡位——决志主义的前世今生"
+date: 2026-03-05 10:00:00 +0000
 description: "Is salvation a sovereign work of God or a psychological 'decision' made by man? Unpacking the roots of decisionism from the Synod of Dort to Charles Finney."
 description_zh: "救恩是上帝主权的作为，还是人心理上的“决策”？从多特会议到查尔斯·芬尼，揭开决志主义的根源。"
 categories: [Theology, Church History]
