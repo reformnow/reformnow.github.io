@@ -1,393 +1,612 @@
-"1-timothy":
-  en: "1 Timothy"
-  zh: "提摩太前书"
-"2-peter":
-  en: "2 Peter"
-  zh: "彼得后书"
-"95-theses":
-  en: "95 Theses"
-  zh: "九十五条论纲"
-"A.W. Pink":
-  en: "A.W. Pink"
-  zh: "A.W. 平克"
-"Atonement":
-  en: "Atonement"
-  zh: "救赎"
-"Charles Finney":
-  en: "Charles Finney"
-  zh: "查尔斯·芬尼"
-"Correcting Misunderstandings":
-  en: "Correcting Misunderstandings"
-  zh: "纠偏辨析"
-"Crucifixion":
-  en: "Crucifixion"
-  zh: "十字架"
-"Decisionism":
-  en: "Decisionism"
-  zh: "决志主义"
-"Divine Sovereignty":
-  en: "Divine Sovereignty"
-  zh: "神的主权"
-"Election":
-  en: "Election"
-  zh: "拣选"
-"Human Responsibility":
-  en: "Human Responsibility"
-  zh: "人的责任"
-"Law and Gospel":
-  en: "Law and Gospel"
-  zh: "律法与福音"
-"Lament":
-  en: "Lament"
-  zh: "哀歌"
-"Monergism":
-  en: "Monergism"
-  zh: "神单独作工"
-"New Creation":
-  en: "New Creation"
-  zh: "新造"
-"Ordo Salutis":
-  en: "Ordo Salutis"
-  zh: "救恩次序"
-"Resurrection":
-  en: "Resurrection"
-  zh: "复活"
-"Revelation":
-  en: "Revelation"
-  zh: "启示录"
-"Seven Last Words":
-  en: "Seven Last Words"
-  zh: "十架七言"
-"Soteriology":
-  en: "Soteriology"
-  zh: "救恩论"
-"Sovereignty":
-  en: "Sovereignty"
-  zh: "主权"
-"Spurgeon":
-  en: "Spurgeon"
-  zh: "司布真"
-"Synod of Dort":
-  en: "Synod of Dort"
-  zh: "多特会议"
-"TULIP":
-  en: "TULIP"
-  zh: "加尔文主义五要点"
-"Total Depravity":
-  en: "Total Depravity"
-  zh: "全然败坏"
-"Total Inability":
-  en: "Total Inability"
-  zh: "全然无能"
+1-timothy:
+  en: 1 Timothy
+  zh: 提摩太前书
+2-peter:
+  en: 2 Peter
+  zh: 彼得后书
+95-theses:
+  en: 95 Theses
+  zh: 九十五条论纲
+A.W. Pink:
+  en: A.W. Pink
+  zh: A.W. 平克
+Adam and Eve:
+  en: Adam and Eve
+  zh: 亚当与夏娃
+Aliens:
+  en: Aliens
+  zh: 外星人
+Atonement:
+  en: Atonement
+  zh: 救赎
+Biblical Studies:
+  en: Biblical Studies
+  zh: 圣经研究
+Charles Finney:
+  en: Charles Finney
+  zh: 查尔斯·芬尼
+Church History:
+  en: Church History
+  zh: 教会历史
+Correcting Misunderstandings:
+  en: Correcting Misunderstandings
+  zh: 纠偏辨析
+Creation:
+  en: Creation
+  zh: 创造
+Creationism:
+  en: Creationism
+  zh: 创造论
+Crucifixion:
+  en: Crucifixion
+  zh: 十字架
+Death:
+  en: Death
+  zh: 死亡
+Decisionism:
+  en: Decisionism
+  zh: 决志主义
+Divine Sovereignty:
+  en: Divine Sovereignty
+  zh: 神的主权
+Ecclesiology:
+  en: Ecclesiology
+  zh: 教会论
+Election:
+  en: Election
+  zh: 拣选
+Eschatology:
+  en: Eschatology
+  zh: 末世论
+Faith:
+  en: Faith
+  zh: 信心
+Fall:
+  en: Fall
+  zh: 堕落
+Federal Headship:
+  en: Federal Headship
+  zh: 代表首领制
+Genesis 6:
+  en: Genesis 6
+  zh: 创世记 6 章
+Gospel Truth:
+  en: Gospel Truth
+  zh: 福音真理
+History:
+  en: History
+  zh: 历史
+Human Responsibility:
+  en: Human Responsibility
+  zh: 人的责任
+LA Marzulli:
+  en: LA Marzulli
+  zh: L.A. 马祖利
+Lament:
+  en: Lament
+  zh: 哀歌
+Law and Gospel:
+  en: Law and Gospel
+  zh: 律法与福音
+Michael Heiser:
+  en: Michael Heiser
+  zh: 迈克尔·海瑟
+Monergism:
+  en: Monergism
+  zh: 神单独作工
+Nephilim:
+  en: Nephilim
+  zh: 拿非利人
+New Creation:
+  en: New Creation
+  zh: 新造
+Noah's Flood:
+  en: Noah's Flood
+  zh: 挪亚洪水
+Ordo Salutis:
+  en: Ordo Salutis
+  zh: 救恩次序
+Orthodoxy:
+  en: Orthodoxy
+  zh: 正统信仰
+Redemption:
+  en: Redemption
+  zh: 救恩
+Resurrection:
+  en: Resurrection
+  zh: 复活
+Revelation:
+  en: Revelation
+  zh: 启示录
+Romans 8:
+  en: Romans 8
+  zh: 罗马书 8 章
+Seven Last Words:
+  en: Seven Last Words
+  zh: 十架七言
+Soteriology:
+  en: Soteriology
+  zh: 救恩论
+Sovereignty:
+  en: Sovereignty
+  zh: 主权
+Spurgeon:
+  en: Spurgeon
+  zh: 司布真
+Stephen Quayle:
+  en: Stephen Quayle
+  zh: 史蒂芬·奎尔
+Synod of Dort:
+  en: Synod of Dort
+  zh: 多特会议
+TULIP:
+  en: TULIP
+  zh: 加尔文主义五要点
+Theistic Evolution:
+  en: Theistic Evolution
+  zh: 神导进化论
+Theological Reflection:
+  en: Theological Reflection
+  zh: 神学反思
+Timelines:
+  en: Timelines
+  zh: 时间线
+Timothy Alberino:
+  en: Timothy Alberino
+  zh: 提摩太·阿尔贝里诺
+Total Depravity:
+  en: Total Depravity
+  zh: 全然败坏
+Total Inability:
+  en: Total Inability
+  zh: 全然无能
+UFO:
+  en: UFO
+  zh: 不明飞行物
+Unseen Realm:
+  en: Unseen Realm
+  zh: 看不见的国度
+Young Earth:
+  en: Young Earth
+  zh: 年轻地球
+adam-and-eve:
+  en: Adam and Eve
+  zh: 亚当与夏娃
+aliens:
+  en: Aliens
+  zh: 外星人
 anathema:
-  en: "Anathema"
-  zh: "咒诅"
-authority:
-  en: "Authority"
-  zh: "权威"
+  en: Anathema
+  zh: 咒诅
+ancient-church:
+  en: Ancient Church
+  zh: 古代教会
+apologetics:
+  en: Apologetics
+  zh: 护教学
+apostle-paul:
+  en: Apostle Paul
+  zh: 使徒保罗
+archaeology:
+  en: Archaeology
+  zh: 考古学
+arminius:
+  en: Arminius
+  zh: 亚米纽斯
+assurance:
+  en: Assurance
+  zh: 得救确据
+atonement:
+  en: Atonement
+  zh: 代赎 / 救赎
 augustine:
-  en: "Augustine"
-  zh: "奥古斯丁"
+  en: Augustine
+  zh: 奥古斯丁
+authority:
+  en: Authority
+  zh: 权威
+belgic-confession:
+  en: Belgic Confession
+  zh: 比利时信条
 bible:
-  en: "Bible"
-  zh: "圣经"
+  en: Bible
+  zh: 圣经
 biblical:
-  en: "Biblical"
-  zh: "合乎圣经"
+  en: Biblical
+  zh: 合乎圣经
+biblical-studies:
+  en: Biblical Studies
+  zh: 圣经研究
 bilingual:
-  en: "Bilingual"
-  zh: "双语"
+  en: Bilingual
+  zh: 双语
+canons-of-dort:
+  en: Canons of Dort
+  zh: 多特信经
+catechism:
+  en: Catechism
+  zh: 要理问答
 catholicism:
-  en: "Catholicism"
-  zh: "天主教"
-church-history:
-  en: "Church History"
-  zh: "教会历史"
+  en: Catholicism
+  zh: 天主教
+charles-finney:
+  en: Charles Finney
+  zh: 查尔斯·芬尼
 christology:
-  en: "Christology"
-  zh: "基督论"
+  en: Christology
+  zh: 基督论
+church-history:
+  en: Church History
+  zh: 教会历史
+comfort:
+  en: Comfort
+  zh: 安慰
+confessions:
+  en: Confessions
+  zh: 信条
+correcting-misunderstandings:
+  en: Correcting Misunderstandings
+  zh: 纠偏辨析
 council-of-trent:
-  en: "Council of Trent"
-  zh: "特伦特会议"
-"Biblical Studies":
-  en: "Biblical Studies"
-  zh: "圣经研究"
-"biblical-studies":
-  en: "Biblical Studies"
-  zh: "圣经研究"
+  en: Council of Trent
+  zh: 特伦特会议
+covenant:
+  en: Covenant
+  zh: 圣约
 covenant-theology:
-  en: "Covenant Theology"
-  zh: "圣约神学"
+  en: Covenant Theology
+  zh: 圣约神学
 covenants:
-  en: "Covenants"
-  zh: "诸约"
+  en: Covenants
+  zh: 诸约
+creation:
+  en: Creation
+  zh: 创造
+creationism:
+  en: Creationism
+  zh: 创造论
 creeds:
-  en: "Creeds"
-  zh: "信经"
+  en: Creeds
+  zh: 信经
+crucifixion:
+  en: Crucifixion
+  zh: 十字架受死
+damascus:
+  en: Damascus
+  zh: 大马士革
+death:
+  en: Death
+  zh: 死亡
+decisionism:
+  en: Decisionism
+  zh: 决志主义
+determinism:
+  en: Determinism
+  zh: 决定论
+dispensationalism:
+  en: Dispensationalism
+  zh: 时代主义
+divine-sovereignty:
+  en: Divine Sovereignty
+  zh: 神的主权
+dord:
+  en: Dord
+  zh: 多特
+dordt:
+  en: Dordt
+  zh: 多特会议
+double-imputation:
+  en: Double Imputation
+  zh: 双重归算
+eastern-orthodoxy:
+  en: Eastern Orthodoxy
+  zh: 东正教
 election:
-  en: "Election"
-  zh: "拣选"
+  en: Election
+  zh: 拣选
+eschatology:
+  en: Eschatology
+  zh: 末世论
 evangelism:
-  en: "Evangelism"
-  zh: "布道"
+  en: Evangelism
+  zh: 布道
 evangelism-explosion:
-  en: "Evangelism Explosion"
-  zh: "三元福音"
+  en: Evangelism Explosion
+  zh: 三元福音
 exegesis:
-  en: "Exegesis"
-  zh: "释经"
+  en: Exegesis
+  zh: 释经
+exodus:
+  en: Exodus
+  zh: 出埃及记
+faith:
+  en: Faith
+  zh: 信心
+fall:
+  en: Fall
+  zh: 堕落
 false-assurance:
-  en: "False Assurance"
-  zh: "虚假确据"
+  en: False Assurance
+  zh: 虚假确据
+fatalism:
+  en: Fatalism
+  zh: 宿命论
+federal-headship:
+  en: Federal Headship
+  zh: 代表首领制
 five-solas:
-  en: "Five Solas"
-  zh: "五个唯独"
+  en: Five Solas
+  zh: 五个唯独
 free-will:
-  en: "Free Will"
-  zh: "自由意志"
-gods-will:
-  en: "God's Will"
-  zh: "神的旨意"
+  en: Free Will
+  zh: 自由意志
+genesis-6:
+  en: Genesis 6
+  zh: 创世记 6 章
 glory:
-  en: "Glory"
-  zh: "荣耀"
+  en: Glory
+  zh: 荣耀
+gods-will:
+  en: God's Will
+  zh: 神的旨意
 gospel:
-  en: "Gospel"
-  zh: "福音"
+  en: Gospel
+  zh: 福音
 gospel-of-john:
-  en: "Gospel of John"
-  zh: "约翰福音"
+  en: Gospel of John
+  zh: 约翰福音
 grace:
-  en: "Grace"
-  zh: "恩典"
+  en: Grace
+  zh: 恩典
+guido-de-bres:
+  en: Guido de Brès
+  zh: 居多·德·布雷
+hagiography:
+  en: Hagiography
+  zh: 圣徒传记
+heidelberg-catechism:
+  en: Heidelberg Catechism
+  zh: 海德堡要理问答
+heresy:
+  en: Heresy
+  zh: 异端
+historical-paul:
+  en: Historical Paul
+  zh: 历史保罗
+historicity:
+  en: Historicity
+  zh: 历史真实性
+human-responsibility:
+  en: Human Responsibility
+  zh: 人的责任
 human-will:
-  en: "Human Will"
-  zh: "人的意志"
+  en: Human Will
+  zh: 人的意志
+iconography:
+  en: Iconography
+  zh: 圣像学
 israel:
-  en: "Israel"
-  zh: "以色列"
+  en: Israel
+  zh: 以色列
 john-3-16:
-  en: "John 3:16"
-  zh: "约翰福音 3:16"
+  en: John 3:16
+  zh: 约翰福音 3:16
 john-calvin:
-  en: "John Calvin"
-  zh: "加尔文"
+  en: John Calvin
+  zh: 加尔文
 justification:
-  en: "Justification"
-  zh: "称义"
+  en: Justification
+  zh: 称义
+king-aretas:
+  en: King Aretas
+  zh: 亚略达王
+la-marzulli:
+  en: L.A. Marzulli
+  zh: L.A. 马祖利
+lament:
+  en: Lament
+  zh: 哀歌
+law-and-gospel:
+  en: Law and Gospel
+  zh: 律法与福音
 lazarus:
-  en: "Lazarus"
-  zh: "拉撒路"
+  en: Lazarus
+  zh: 拉撒路
 limited-atonement:
-  en: "Limited Atonement"
-  zh: "限定的救赎"
+  en: Limited Atonement
+  zh: 限定的救赎
 luther:
-  en: "Luther"
-  zh: "路德"
+  en: Luther
+  zh: 路德
 martin-luther:
-  en: "Martin Luther"
-  zh: "马丁·路德"
+  en: Martin Luther
+  zh: 马丁·路德
+michael-heiser:
+  en: Michael Heiser
+  zh: 迈克尔·海瑟
+modalism:
+  en: Modalism
+  zh: 形态论
+molinism:
+  en: Molinism
+  zh: 莫林纳主义
+monergism:
+  en: Monergism
+  zh: 神单独作工
+nephilim:
+  en: Nephilim
+  zh: 拿非利人
+new-creation:
+  en: New Creation
+  zh: 新造
+noah's-flood:
+  en: Noah's Flood
+  zh: 挪亚洪水
+oneness-pentecostalism:
+  en: Oneness Pentecostalism
+  zh: 独一神格灵恩派
+ordo-salutis:
+  en: Ordo Salutis
+  zh: 救恩次序
+orthodoxy:
+  en: Orthodoxy
+  zh: 正统信仰
 patience:
-  en: "Patience"
-  zh: "忍耐"
+  en: Patience
+  zh: 忍耐
 pelagius:
-  en: "Pelagius"
-  zh: "伯拉纠"
+  en: Pelagius
+  zh: 伯拉纠
 perseverance:
-  en: "Perseverance"
-  zh: "坚忍"
+  en: Perseverance
+  zh: 坚忍
+pharaoh:
+  en: Pharaoh
+  zh: 法老
+prayer:
+  en: Prayer
+  zh: 祷告
+predestination:
+  en: Predestination
+  zh: 预定
+providence:
+  en: Providence
+  zh: 摄理 / 护理
+psychology:
+  en: Psychology
+  zh: 心理学
+redemption:
+  en: Redemption
+  zh: 救赎
 reformation:
-  en: "Reformation"
-  zh: "宗教改革"
+  en: Reformation
+  zh: 宗教改革
 regeneration:
-  en: "Regeneration"
-  zh: "重生"
+  en: Regeneration
+  zh: 重生
+resurrection:
+  en: Resurrection
+  zh: 复活
+revelation:
+  en: Revelation
+  zh: 启示录
+romans:
+  en: Romans
+  zh: 罗马书
 romans-11:
-  en: "Romans 11"
-  zh: "罗马书 11 章"
+  en: Romans 11
+  zh: 罗马书 11 章
+romans-8:
+  en: Romans 8
+  zh: 罗马书 8 章
+sabellianism:
+  en: Sabellianism
+  zh: 撒伯流主义
+saint-christopher:
+  en: Saint Christopher
+  zh: 圣克里斯多福
 salvation:
-  en: "Salvation"
-  zh: "救恩"
+  en: Salvation
+  zh: 救恩
 sanctification:
-  en: "Sanctification"
-  zh: "成圣"
+  en: Sanctification
+  zh: 成圣
+second-commandment:
+  en: Second Commandment
+  zh: 第二诫
+sermon-on-the-mount:
+  en: Sermon on the Mount
+  zh: 山上宝训
+seven-last-words:
+  en: Seven Last Words
+  zh: 十架七言
 slide:
-  en: "Slides"
-  zh: "幻灯片"
+  en: Slides
+  zh: 幻灯片
 sola-fide:
-  en: "Sola Fide"
-  zh: "唯独信心"
+  en: Sola Fide
+  zh: 唯独信心
 sola-gratia:
-  en: "Sola Gratia"
-  zh: "唯独恩典"
+  en: Sola Gratia
+  zh: 唯独恩典
 sola-scriptura:
-  en: "Sola Scriptura"
-  zh: "唯独圣经"
+  en: Sola Scriptura
+  zh: 唯独圣经
 soli-deo-gloria:
-  en: "Soli Deo Gloria"
-  zh: "唯独神的荣耀"
+  en: Soli Deo Gloria
+  zh: 唯独神的荣耀
 solus-christus:
-  en: "Solus Christus"
-  zh: "唯独基督"
-sovereign-grace:
-  en: "Sovereign Grace"
-  zh: "主权恩典"
+  en: Solus Christus
+  zh: 唯独基督
 soteriology:
-  en: "Soteriology"
-  zh: "救恩论"
+  en: Soteriology
+  zh: 救恩论
+sovereign-grace:
+  en: Sovereign Grace
+  zh: 主权恩典
+sovereignty:
+  en: Sovereignty
+  zh: 主权
 spiritual-laws:
-  en: "Spiritual Laws"
-  zh: "属灵定律"
+  en: Spiritual Laws
+  zh: 属灵定律
+spurgeon:
+  en: Spurgeon
+  zh: 司布真
+stephen-quayle:
+  en: Stephen Quayle
+  zh: 史蒂芬·奎尔
+synergism:
+  en: Synergism
+  zh: 神人合作论
 temple:
-  en: "Temple"
-  zh: "圣殿"
+  en: Temple
+  zh: 圣殿
+text-criticism:
+  en: Textual Criticism
+  zh: 文本批判
+theistic-evolution:
+  en: Theistic Evolution
+  zh: 神导进化论
 theology:
-  en: "Theology"
-  zh: "神学"
+  en: Theology
+  zh: 神学
 third-temple:
-  en: "Third Temple"
-  zh: "第三圣殿"
+  en: Third Temple
+  zh: 第三圣殿
+three-forms-of-unity:
+  en: Three Forms of Unity
+  zh: 三项联合信条
 timeline:
-  en: "Timeline"
-  zh: "时间线"
+  en: Timeline
+  zh: 时间线
+timothy-alberino:
+  en: Timothy Alberino
+  zh: 提摩太·阿尔贝里诺
+total-depravity:
+  en: Total Depravity
+  zh: 全然败坏
+total-inability:
+  en: Total Inability
+  zh: 全然无能
+trinity:
+  en: Trinity
+  zh: 三位一体
+tulip:
+  en: TULIP
+  zh: 加尔文主义五要点
+ufo:
+  en: UFO
+  zh: 不明飞行物
+unseen-realm:
+  en: Unseen Realm
+  zh: 看不见的国度
+ursinus:
+  en: Zacharias Ursinus
+  zh: 乌尔西努
 worship:
-  en: "Worship"
-  zh: "敬拜"
-"Adam and Eve":
-  en: "Adam and Eve"
-  zh: "亚当与夏娃"
-"Aliens":
-  en: "Aliens"
-  zh: "外星人"
-"Church History":
-  en: "Church History"
-  zh: "教会历史"
-"Creation":
-  en: "Creation"
-  zh: "创造"
-"Creationism":
-  en: "Creationism"
-  zh: "创造论"
-"Death":
-  en: "Death"
-  zh: "死亡"
-"Ecclesiology":
-  en: "Ecclesiology"
-  zh: "教会论"
-"Eschatology":
-  en: "Eschatology"
-  zh: "末世论"
-"eschatology":
-  en: "Eschatology"
-  zh: "末世论"
-"Faith":
-  en: "Faith"
-  zh: "信心"
-"Fall":
-  en: "Fall"
-  zh: "堕落"
-"Federal Headship":
-  en: "Federal Headship"
-  zh: "代表首领制"
-"Genesis 6":
-  en: "Genesis 6"
-  zh: "创世记 6 章"
-"Gospel Truth":
-  en: "Gospel Truth"
-  zh: "福音真理"
-"History":
-  en: "History"
-  zh: "历史"
-"LA Marzulli":
-  en: "LA Marzulli"
-  zh: "L.A. 马祖利"
-"Michael Heiser":
-  en: "Michael Heiser"
-  zh: "迈克尔·海瑟"
-"Nephilim":
-  en: "Nephilim"
-  zh: "拿非利人"
-"Noah's Flood":
-  en: "Noah's Flood"
-  zh: "挪亚洪水"
-"Orthodoxy":
-  en: "Orthodoxy"
-  zh: "正统信仰"
-"Redemption":
-  en: "Redemption"
-  zh: "救恩"
-"Romans 8":
-  en: "Romans 8"
-  zh: "罗马书 8 章"
-"Stephen Quayle":
-  en: "Stephen Quayle"
-  zh: "史蒂芬·奎尔"
-"Theistic Evolution":
-  en: "Theistic Evolution"
-  zh: "神导进化论"
-"Theological Reflection":
-  en: "Theological Reflection"
-  zh: "神学反思"
-"Timelines":
-  en: "Timelines"
-  zh: "时间线"
-"Timothy Alberino":
-  en: "Timothy Alberino"
-  zh: "提摩太·阿尔贝里诺"
-"UFO":
-  en: "UFO"
-  zh: "不明飞行物"
-"Unseen Realm":
-  en: "Unseen Realm"
-  zh: "看不见的国度"
-"Young Earth":
-  en: "Young Earth"
-  zh: "年轻地球"
-"ancient-church":
-  en: "Ancient Church"
-  zh: "古代教会"
-"arminius":
-  en: "Arminius"
-  zh: "亚米纽斯"
-"charles-finney":
-  en: "Charles Finney"
-  zh: "查尔斯·芬尼"
-"confessions":
-  en: "Confessions"
-  zh: "信条"
-"decisionism":
-  en: "Decisionism"
-  zh: "决志主义"
-"dispensationalism":
-  en: "Dispensationalism"
-  zh: "时代主义"
-"dordt":
-  en: "Dordt"
-  zh: "多特会议"
-"dord":
-  en: "Dord"
-  zh: "多特"
-"fatalism":
-  en: "Fatalism"
-  zh: "宿命论"
-"molinism":
-  en: "Molinism"
-  zh: "莫林纳主义"
-"prayer":
-  en: "Prayer"
-  zh: "祷告"
-"predestination":
-  en: "Predestination"
-  zh: "预定"
-"romans":
-  en: "Romans"
-  zh: "罗马书"
-"sermon-on-the-mount":
-  en: "Sermon on the Mount"
-  zh: "山上宝训"
-"sovereignty":
-  en: "Sovereignty"
-  zh: "主权"
-"synergism":
-  en: "Synergism"
-  zh: "神人合作论"
+  en: Worship
+  zh: 敬拜
+young-earth:
+  en: Young Earth
+  zh: 年轻地球

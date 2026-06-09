@@ -6,7 +6,7 @@ description: "Analyzing the theological distinction between Angels, Fallen Angel
 description_zh: "在现代UFO信息披露与末世大欺骗的背景下，分析天使、堕落天使与鬼魔之间的神学区别。"
 date: 2026-05-10 10:00:00 -0400
 categories: [Theology, Eschatology]
-tags: [UFO, Nephilim, LA Marzulli, Timothy Alberino, Stephen Quayle]
+tags: [ufo, nephilim, la-marzulli, timothy-alberino, stephen-quayle]
 image:
   path: /assets/img/posts/ufo_deception_masks.png
   alt: A cinematic oil painting of a glowing UFO hovering over a modern city, with shadowy entities in the foreground.

@@ -6,7 +6,7 @@ description: "Exploring the tension of Matthew 23:37 and Luke 13:34 through the 
 description_zh: "通过历史基督教信仰的视角，探讨《马太福音》23:37和《路加福音》13:34中的这种张力，揭示基督的心肠与人类灵魂的刚硬。"
 date: 2026-03-21 14:00:00 +0800
 categories: [Theological Reflection, Gospel]
-tags: [Divine Sovereignty, Human Responsibility, Total Depravity, Lament]
+tags: [divine-sovereignty, human-responsibility, total-depravity, lament]
 image:
   path: /assets/img/posts/jesus_lamenting_jerusalem_hen_chicks.png
   alt: Jesus lamenting Jerusalem, with a symbolic hen gathering her chicks.

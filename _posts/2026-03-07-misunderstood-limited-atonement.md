@@ -3,7 +3,7 @@ title: "Misunderstood Doctrine: Limited Atonement - Is God Unloving or Unjust?"
 title_zh: "被误解的教义：有限的救恩 - 神岂是缺少爱心，而且不够公义的呢？"
 date: 2026-03-07 10:00:00 +0000
 categories: [Theology, Salvation]
-tags: [limited-atonement, TULIP, grace, soteriology, bilingual]
+tags: [limited-atonement, tulip, grace, soteriology, bilingual]
 description: "The doctrine of Limited Atonement is often accused of narrowness, but it actually defends the absolute efficacy of Christ's work on the cross."
 description_zh: "‘有限的救恩’常被指责为狭隘，但它真正捍卫的是：基督在十字架上的工作不是一种‘可能救赎的提议’，而是一个‘确实成就的胜利’。"
 image:

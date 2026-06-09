@@ -6,7 +6,7 @@ description: "Modern Christians often reject the doctrine of bound will because 
 description_zh: '许多现代基督徒一听到"意志被捆绑"就立即反弹，因为他们将神学上的自由意志与现代心理学的决定论混为一谈。本文厘清这两场根本不同的辩论。'
 date: 2026-05-16 10:00:00 +0800
 categories: [Theology, Church History]
-tags: [Free Will, Luther, Augustine, Determinism, Total Depravity, Psychology]
+tags: [free-will, luther, augustine, determinism, total-depravity, psychology]
 image:
   path: /assets/img/posts/free-will-theology-vs-psychology.png
   alt: A Reformation scholar with a Bible faces a modern neuroscientist, the word FREEDOM carved in cracked stone between them
