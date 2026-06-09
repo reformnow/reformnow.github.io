@@ -6,7 +6,7 @@ description: "A theological examination of God's active providence in the harden
 description_zh: "对上帝在使法老心刚硬中的主动护理进行的神学考察，重点探讨对罪恶的限制及其永恒旨意的成就。"
 date: 2026-05-13 10:00:00 +0800
 categories: [Theology, Biblical Studies]
-tags: [Sovereignty, Providence, Pharaoh, Exodus, Reformed Theology]
+tags: [sovereignty, providence, pharaoh, exodus, theology]
 image:
   path: /assets/img/posts/pharaoh-hardening.png
   alt: The Sovereign Providence of God

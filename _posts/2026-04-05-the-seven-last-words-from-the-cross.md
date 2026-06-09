@@ -5,7 +5,7 @@ description: "A deep theological reflection on the seven utterances of Jesus fro
 description_zh: "深入探讨耶稣在十架上的七个呼吁，融合司布真的温情与平克的系统神学深度，剖析救主完美的代偿性救赎之功。"
 date: 2026-04-04 12:00:00 +0800
 categories: [Bilingual, Theology]
-tags: [Crucifixion, Spurgeon, Atonement, Seven Last Words]
+tags: [crucifixion, spurgeon, atonement, seven-last-words]
 image:
   path: /assets/img/posts/crucifixion_oil_painting.png
   alt: A dramatic oil painting of the crucifixion of Jesus Christ.
