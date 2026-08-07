@@ -33,6 +33,8 @@ assets/js/dist
 /*.html
 !/index.html
 !/googled*.html
+/*.py
+/*.zip
 /*.json
 !/_data/*.json
 !/package*.json
