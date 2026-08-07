@@ -33,6 +33,9 @@ However, when we return to the original Greek scriptures, particularly comparing
 {: .lang-en lang="en"}
 
 然而，当我们回归希腊文圣经原文，特别是将著名的《约翰福音》3:16 与其神学平行经文《约翰一书》5:1 进行对比时，我们会发现其语法逻辑完全颠覆了这种人本主义秩序。希腊文原典对历史大公教会正统信仰作出了极其优美且语法精准的见证：重生绝非信心的奖赏，而是信心的神圣原因。主动权不在于人的意愿，而在于上帝主权的怜悯。
+{: .lang-zh lang="zh-CN"}
+
+As this article unfolds, we will reconstruct the divine, monergistic order of faith and regeneration in Scripture through rigorous Greek grammatical analysis and the testimony of historic church theology.
 {: .lang-en lang="en"}
 
 随着这篇博文的展开，我们将通过严格的希腊文文法剖析与大公教会历史神学的证言，还原圣经中关于信心与重生的神圣独作秩序。
@@ -270,7 +273,7 @@ St. Augustine confessed his early theological misstep regarding human ability in
 {: .lang-en lang="en"}
 
 圣奥古斯丁在其关于预定的著作中，真诚地忏悔了自己早期对人类意志能力的误判：
-{: .lang-en lang="en"}
+{: .lang-zh lang="zh-CN"}
 
 ```quote
 "I carried this error still further in my thinking, believing that faith was not preceded by the grace of God, so that by it we might receive what we asked for aright... but that we should consent when the gospel was preached to us I thought was our own doing, and came to us from ourselves... But the Holy Spirit opened my eyes when He said: 'What do you have that you did not receive?'"
@@ -300,7 +303,7 @@ St. John Chrysostom expounded on the origin of saving faith in his homilies on E
 {: .lang-en lang="en"}
 
 圣约翰·金口在其《以弗所书注释》中阐述了得救信心的源头：
-{: .lang-en lang="en"}
+{: .lang-zh lang="zh-CN"}
 
 ```quote
 "Even faith, he means, is not of ourselves. Because had He not come, had He not called us, how had we been able to believe? For how, he says, shall they believe on Him of whom they have not heard? So that even the act of faith is not our own achievement, but is the gift of God."
@@ -330,7 +333,7 @@ The Synod of Dort articulated the supernatural and monergistic nature of regener
 {: .lang-en lang="en"}
 
 多特会议在其关于归正之工的法理条文中，极其清晰地陈明了重生的超自然性与神圣独作本质：
-{: .lang-en lang="en"}
+{: .lang-zh lang="zh-CN"}
 
 ```quote
 "This is that regeneration so highly celebrated in Scripture, and denominated a new creation: a resurrection from the dead, a making alive, which God works in us without our aid. But this is in no wise effected merely by the external preaching of the gospel, by moral suasion... It is evidently a supernatural work, most powerful, and at the same time most delightful, astonishing, mysterious, and ineffable... so that all those in whose hearts God works in this marvelous manner, are certainly, infallibly, and effectually regenerated, and do actually believe. And then the will, being now renewed, is not only actuated and influenced by God, but in consequence of this influence, becomes itself active. Wherefore also, man himself is rightly said to believe and repent, by virtue of that grace received."
