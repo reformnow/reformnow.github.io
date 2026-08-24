@@ -2,7 +2,7 @@
 layout: post
 title: "The Awakening of the Dead: Sovereign Grace and the Parable of the Prodigal Son"
 title_zh: "死人复活与主权恩典：剖析“浪子回头”比喻中的神圣主动性"
-date: 2026-08-24 12:00:00 -0400
+date: 2026-08-24 00:00:00 -0400
 categories: [Theology, Exegesis]
 tags: [sovereign-grace, regeneration, exegesis, luke-15, theology]
 description: "Is the Parable of the Prodigal Son a proof text for autonomous free will? An exegesis of Luke 15 and the priority of divine grace."
