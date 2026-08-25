@@ -35,7 +35,7 @@ In many contemporary evangelical pulpits and popular anthropocentric theologies,
 This sentiment sounds intuitively appealing to modern individualistic ears. It paints God as the ultimate "gentleman" who politely knocks on the heart's door, patiently waiting for the autonomous creature to grant Him permission. However, when this assertion is weighed on the balances of historic Christian orthodoxy, biblical exegesis, patristic consensus, and historic confessions, it is revealed to be not only logically self-defeating, but a catastrophic misunderstanding of divine love, human freedom, and the dead state of fallen humanity.
 {: .lang-en lang="en"}
 
-这一论调在现代个体主义的文化语境中极具亲和力，它将上帝塑造成一位彬彬有礼的“绅士”，在人心门外被动等候受造物的垂青与许可。然而，若将这一论调置于历史基督教信仰与大公教会正统神学的天平上，就会发现它不仅在逻辑上充满荒谬，在神学上更是对“真爱”、“自由”与“重病中（乃至死在过犯中）的人性”的彻底误读。
+这一论调在现代个体主义的文化语境中极具亲和力，它将上帝塑造成一位彬彬有礼的“绅士”，在人心门外被动等候受造物的垂青与许可。然而，若将这一论调置于历史基督教信仰与大公教会正统神学的天平上，就会发现它不仅在逻辑上充满荒谬，在神学上更是对“真爱”、“自由”与“死在罪恶过犯中的人性”的彻底误读。
 {: .lang-zh lang="zh-CN"}
 
 To dismantle this pervasive myth, we must move beyond sentimental rhetoric and examine the issue across multiple rigorous dimensions: conceptual category distinction, biblical exegesis, the patristic refutation of Pelagianism, eschatological logic, and historic confessional theology.
