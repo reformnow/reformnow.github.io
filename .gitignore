@@ -25,6 +25,9 @@ package-lock.json
 _sass/vendors
 assets/js/dist
 
+# Copyrighted reference texts — keep locally for tools/, never publish
+bibles/
+
 # Debris and Temp
 .DS_Store
 **/.DS_Store

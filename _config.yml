@@ -223,6 +223,8 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
+  - bibles
+  - THEME_UPDATE_GUIDE.md
 
 jekyll-archives:
   enabled: [categories, tags]
