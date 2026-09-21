@@ -528,28 +528,28 @@ The events of 1948 may astonish the secular historian and lead the pious believe
 ## 参考文献
 {: .lang-zh lang="zh-CN"}
 
-1\. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
-2\. **Aquinas, Thomas.** *Summa Theologiae*. Translated by Fathers of the English Dominican Province. New York: Benziger Brothers, 1947.
-3\. **Aquinas, Thomas.** *Quaestiones disputatae de potentia Dei* (*On the Power of God*).
-4\. **Augustine of Hippo.** *De utilitate credendi* (*On the Profit of Believing*).
-5\. **Augustine of Hippo.** *Contra Faustum Manichaeum* (*Answer to Faustus, a Manichean*).
-6\. **Augustine of Hippo.** *De vera religione* (*Of True Religion*).
-7\. **Augustine of Hippo.** *De Civitate Dei* (*The City of God*).
-8\. **Bavinck, Herman.** *Reformed Dogmatics*. Vol. 4, *Holy Spirit, Church, and New Creation*. Translated by John Vriend. Grand Rapids: Baker Academic, 2008.
-9\. **Berkhof, Louis.** *Systematic Theology*. Grand Rapids: Eerdmans, 1938.
-10\. **Bray, Gerald**, ed. *Ancient Christian Commentary on Scripture: New Testament VI, Romans*. Downers Grove, IL: InterVarsity Press, 1998.
-11\. **Bruce, F. F.** *Israel and the Nations: From the Exodus to the Fall of the Second Temple*. Grand Rapids: Eerdmans, 1963.
-12\. **Calvin, John.** *Institutes of the Christian Religion*. 1559. Translated by Ford Lewis Battles. Edited by John T. McNeill. Philadelphia: Westminster Press, 1960.
-13\. **Calvin, John.** *The Epistles of Paul the Apostle to the Romans and to the Thessalonians*. Translated by Ross Mackenzie. Grand Rapids: Eerdmans, 1960.
-14\. **Hendriksen, William.** *Israel in Prophecy*. Grand Rapids: Baker Book House, 1968.
-15\. **Hodge, Charles.** *Commentary on the Epistle to the Romans*. Rev. ed. New York: A. C. Armstrong and Son, 1896.
-16\. **Hoekema, Anthony A.** *The Bible and the Future*. Grand Rapids: Eerdmans, 1979.
-17\. **Ladd, George Eldon.** "Israel and the Church." *The Evangelical Quarterly* 36, no. 4 (1964): 206–213.
-18\. **Moo, Douglas J.** *The Letter to the Romans*. 2nd ed. New International Commentary on the New Testament. Grand Rapids: Eerdmans, 2018.
-19\. **Murray, Iain H.** *The Puritan Hope: Revival and the Interpretation of Prophecy*. Edinburgh: Banner of Truth, 1971.
-20\. **Murray, John.** *The Epistle to the Romans*. Grand Rapids: Eerdmans, 1959–1965. Combined edition, 1968.
-21\. **Robertson, O. Palmer.** *The Israel of God: Yesterday, Today, and Tomorrow*. Phillipsburg, NJ: P&R, 2000.
-22\. **Schreiner, Thomas R.** *Romans*. 2nd ed. Baker Exegetical Commentary on the New Testament. Grand Rapids: Baker Academic, 2018.
-23\. **Vos, Geerhardus.** *The Pauline Eschatology*. 1930. Reprint, Phillipsburg, NJ: P&R, 1994.
-24\. **Warfield, Benjamin Breckinridge.** *Counterfeit Miracles*. New York: Charles Scribner’s Sons, 1918.
-25\. **Witsius, Herman.** *The Economy of the Covenants between God and Man: Comprehending a Complete Body of Divinity*.
+1. **The Holy Bible**, New American Standard Bible (NASB) / Chinese Union Version (CUV).
+2. **Aquinas, Thomas.** *Summa Theologiae*. Translated by Fathers of the English Dominican Province. New York: Benziger Brothers, 1947.
+3. **Aquinas, Thomas.** *Quaestiones disputatae de potentia Dei* (*On the Power of God*).
+4. **Augustine of Hippo.** *De utilitate credendi* (*On the Profit of Believing*).
+5. **Augustine of Hippo.** *Contra Faustum Manichaeum* (*Answer to Faustus, a Manichean*).
+6. **Augustine of Hippo.** *De vera religione* (*Of True Religion*).
+7. **Augustine of Hippo.** *De Civitate Dei* (*The City of God*).
+8. **Bavinck, Herman.** *Reformed Dogmatics*. Vol. 4, *Holy Spirit, Church, and New Creation*. Translated by John Vriend. Grand Rapids: Baker Academic, 2008.
+9. **Berkhof, Louis.** *Systematic Theology*. Grand Rapids: Eerdmans, 1938.
+10. **Bray, Gerald**, ed. *Ancient Christian Commentary on Scripture: New Testament VI, Romans*. Downers Grove, IL: InterVarsity Press, 1998.
+11. **Bruce, F. F.** *Israel and the Nations: From the Exodus to the Fall of the Second Temple*. Grand Rapids: Eerdmans, 1963.
+12. **Calvin, John.** *Institutes of the Christian Religion*. 1559. Translated by Ford Lewis Battles. Edited by John T. McNeill. Philadelphia: Westminster Press, 1960.
+13. **Calvin, John.** *The Epistles of Paul the Apostle to the Romans and to the Thessalonians*. Translated by Ross Mackenzie. Grand Rapids: Eerdmans, 1960.
+14. **Hendriksen, William.** *Israel in Prophecy*. Grand Rapids: Baker Book House, 1968.
+15. **Hodge, Charles.** *Commentary on the Epistle to the Romans*. Rev. ed. New York: A. C. Armstrong and Son, 1896.
+16. **Hoekema, Anthony A.** *The Bible and the Future*. Grand Rapids: Eerdmans, 1979.
+17. **Ladd, George Eldon.** "Israel and the Church." *The Evangelical Quarterly* 36, no. 4 (1964): 206–213.
+18. **Moo, Douglas J.** *The Letter to the Romans*. 2nd ed. New International Commentary on the New Testament. Grand Rapids: Eerdmans, 2018.
+19. **Murray, Iain H.** *The Puritan Hope: Revival and the Interpretation of Prophecy*. Edinburgh: Banner of Truth, 1971.
+20. **Murray, John.** *The Epistle to the Romans*. Grand Rapids: Eerdmans, 1959–1965. Combined edition, 1968.
+21. **Robertson, O. Palmer.** *The Israel of God: Yesterday, Today, and Tomorrow*. Phillipsburg, NJ: P&R, 2000.
+22. **Schreiner, Thomas R.** *Romans*. 2nd ed. Baker Exegetical Commentary on the New Testament. Grand Rapids: Baker Academic, 2018.
+23. **Vos, Geerhardus.** *The Pauline Eschatology*. 1930. Reprint, Phillipsburg, NJ: P&R, 1994.
+24. **Warfield, Benjamin Breckinridge.** *Counterfeit Miracles*. New York: Charles Scribner’s Sons, 1918.
+25. **Witsius, Herman.** *The Economy of the Covenants between God and Man: Comprehending a Complete Body of Divinity*.
