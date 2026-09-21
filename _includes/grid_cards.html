@@ -1,29 +1,29 @@
 <style>
-  .timeline-grid-container {
+  .{{ include.prefix }}-grid-container {
     padding: 2rem 0;
     --card-bg: rgba(255, 255, 255, 0.05);
     --card-border: rgba(255, 255, 255, 0.12);
-    --accent-color: #4a90e2; /* Blue for Timelines */
+    --accent-color: {{ include.accent }};
     --text-color: inherit;
   }
 
-  [data-theme='light'] .timeline-grid-container {
+  [data-theme='light'] .{{ include.prefix }}-grid-container {
     --card-bg: rgba(255, 255, 255, 0.9);
     --card-border: rgba(0, 0, 0, 0.08);
   }
 
-  .timeline-category-section {
+  .{{ include.prefix }}-category-section {
     margin-bottom: 5rem;
   }
 
-  .timeline-category-header {
+  .{{ include.prefix }}-category-header {
     display: flex;
     align-items: center;
     margin-bottom: 2.5rem;
     gap: 1.5rem;
   }
 
-  .timeline-category-title {
+  .{{ include.prefix }}-category-title {
     font-size: 2.2rem;
     font-family: 'Playfair Display', serif;
     margin: 0;
@@ -32,26 +32,26 @@
     letter-spacing: 0.5px;
   }
 
-  .timeline-category-line {
+  .{{ include.prefix }}-category-line {
     flex-grow: 1;
     height: 1px;
     background: linear-gradient(to right, var(--accent-color), transparent);
     opacity: 0.3;
   }
 
-  .timeline-grid {
+  .{{ include.prefix }}-grid {
     display: grid !important;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)) !important;
     gap: 3rem !important;
   }
 
   @media (max-width: 768px) {
-    .timeline-grid {
+    .{{ include.prefix }}-grid {
       grid-template-columns: 1fr !important;
     }
   }
 
-  .timeline-card {
+  .{{ include.prefix }}-card {
     background: var(--card-bg) !important;
     border: 1px solid var(--card-border) !important;
     border-radius: 16px !important;
@@ -65,19 +65,19 @@
     height: 100% !important;
   }
 
-  .timeline-card:hover {
+  .{{ include.prefix }}-card:hover {
     transform: translateY(-12px) !important;
     box-shadow: 0 25px 50px rgba(0,0,0,0.25) !important;
     border-color: var(--accent-color) !important;
   }
 
-  .timeline-card-image-wrapper {
+  .{{ include.prefix }}-card-image-wrapper {
     position: relative !important;
     padding-top: 65% !important;
     overflow: hidden !important;
   }
 
-  .timeline-card-image {
+  .{{ include.prefix }}-card-image {
     position: absolute !important;
     top: 0 !important;
     left: 0 !important;
@@ -89,11 +89,11 @@
     transition: transform 0.8s ease !important;
   }
 
-  .timeline-card:hover .timeline-card-image {
+  .{{ include.prefix }}-card:hover .{{ include.prefix }}-card-image {
     transform: scale(1.08) !important;
   }
 
-  .timeline-card-overlay {
+  .{{ include.prefix }}-card-overlay {
     position: absolute !important;
     top: 0 !important;
     left: 0 !important;
@@ -104,18 +104,18 @@
     transition: opacity 0.5s ease !important;
   }
 
-  .timeline-card:hover .timeline-card-overlay {
+  .{{ include.prefix }}-card:hover .{{ include.prefix }}-card-overlay {
     opacity: 1 !important;
   }
 
-  .timeline-card-content {
+  .{{ include.prefix }}-card-content {
     padding: 1.8rem !important;
     flex-grow: 1 !important;
     display: flex !important;
     flex-direction: column !important;
   }
 
-  .timeline-card-title {
+  .{{ include.prefix }}-card-title {
     font-size: 1.4rem !important;
     margin: 0 0 1rem 0 !important;
     color: var(--accent-color) !important;
@@ -123,7 +123,7 @@
     font-family: 'Playfair Display', serif !important;
   }
 
-  .timeline-card-desc {
+  .{{ include.prefix }}-card-desc {
     font-size: 1rem !important;
     line-height: 1.6 !important;
     margin-bottom: 2rem !important;
@@ -131,7 +131,7 @@
     opacity: 0.85 !important;
   }
 
-  .timeline-card-footer {
+  .{{ include.prefix }}-card-footer {
     margin-top: auto !important;
     display: flex !important;
     align-items: center !important;
@@ -143,23 +143,23 @@
     transition: color 0.3s ease !important;
   }
 
-  .timeline-card-footer i {
+  .{{ include.prefix }}-card-footer i {
     margin-left: 0.8rem !important;
     transition: transform 0.4s ease !important;
   }
 
-  .timeline-card:hover .timeline-card-footer i {
+  .{{ include.prefix }}-card:hover .{{ include.prefix }}-card-footer i {
     transform: translateX(8px) !important;
   }
 
   /* Entrance Animation */
-  .timeline-fade-up-card {
+  .{{ include.prefix }}-fade-up-card {
     opacity: 0;
     transform: translateY(30px);
-    animation: timelineFadeUp 0.8s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    animation: {{ include.prefix }}FadeUp 0.8s cubic-bezier(0.19, 1, 0.22, 1) forwards;
   }
 
-  @keyframes timelineFadeUp {
+  @keyframes {{ include.prefix }}FadeUp {
     to {
       opacity: 1;
       transform: translateY(0);
@@ -167,36 +167,36 @@
   }
 </style>
 
-<div class="timeline-grid-container">
+<div class="{{ include.prefix }}-grid-container">
   {% for category_item in include.data %}
-    <div class="timeline-category-section">
-      <div class="timeline-category-header">
-        <h2 class="timeline-category-title">
+    <div class="{{ include.prefix }}-category-section">
+      <div class="{{ include.prefix }}-category-header">
+        <h2 class="{{ include.prefix }}-category-title">
           <span class="lang-en">{{ category_item.category }}</span>
           <span class="lang-zh">{{ category_item.category_zh }}</span>
         </h2>
-        <div class="timeline-category-line"></div>
+        <div class="{{ include.prefix }}-category-line"></div>
       </div>
-      
-      <div class="timeline-grid">
-        {% for timeline in category_item.timelines %}
-          <a href="{{ timeline.url | relative_url }}" class="timeline-card timeline-fade-up-card" style="animation-delay: {{ forloop.index0 | times: 0.1 }}s">
-            <div class="timeline-card-image-wrapper">
-              <div class="timeline-card-image" style="background-image: url('{{ timeline.image | relative_url }}');" role="img" aria-label="{{ timeline.title }}"></div>
-              <div class="timeline-card-overlay"></div>
+
+      <div class="{{ include.prefix }}-grid">
+        {% for item in category_item[include.collection] %}
+          <a href="{{ item.url | relative_url }}" class="{{ include.prefix }}-card {{ include.prefix }}-fade-up-card" style="animation-delay: {{ forloop.index0 | times: 0.1 }}s">
+            <div class="{{ include.prefix }}-card-image-wrapper">
+              <div class="{{ include.prefix }}-card-image" style="background-image: url('{{ item.image | relative_url }}');" role="img" aria-label="{{ item.title }}"></div>
+              <div class="{{ include.prefix }}-card-overlay"></div>
             </div>
-            <div class="timeline-card-content">
-              <h3 class="timeline-card-title">
-                <span class="lang-en">{{ timeline.title }}</span>
-                <span class="lang-zh">{{ timeline.title_zh }}</span>
+            <div class="{{ include.prefix }}-card-content">
+              <h3 class="{{ include.prefix }}-card-title">
+                <span class="lang-en">{{ item.title }}</span>
+                <span class="lang-zh">{{ item.title_zh }}</span>
               </h3>
-              <p class="timeline-card-desc">
-                <span class="lang-en">{{ timeline.description }}</span>
-                <span class="lang-zh">{{ timeline.description_zh }}</span>
+              <p class="{{ include.prefix }}-card-desc">
+                <span class="lang-en">{{ item.description }}</span>
+                <span class="lang-zh">{{ item.description_zh }}</span>
               </p>
-              <div class="timeline-card-footer">
-                <span class="lang-en">View Timeline</span>
-                <span class="lang-zh">查看时间线</span>
+              <div class="{{ include.prefix }}-card-footer">
+                <span class="lang-en">{{ include.footer_en }}</span>
+                <span class="lang-zh">{{ include.footer_zh }}</span>
                 <i class="fas fa-arrow-right"></i>
               </div>
             </div>

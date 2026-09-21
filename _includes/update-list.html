@@ -2,9 +2,11 @@
 
 {% assign MAX_SIZE = 5 %}
 
+{% assign posts = site.posts | where_exp: 'post', 'post.hidden != true' %}
+
 {% assign all_list = '' | split: '' %}
 
-{% for post in site.posts %}
+{% for post in posts %}
   {% assign datetime = post.last_modified_at | default: post.date %}
 
   {% capture elem %}
@@ -31,7 +33,7 @@
     <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
       {% for item in update_list %}
         {% assign index = item | split: '::' | last | plus: 0 %}
-        {% assign post = site.posts[index] %}
+        {% assign post = posts[index] %}
         {% assign url = post.url | relative_url %}
         <li class="lh-lg mb-2">
           <a href="{{ url }}" class="d-inline-block" style="line-height: 1.4;">

@@ -6,10 +6,6 @@ layout: page
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
 <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
-{% if page.editor %}
-<link rel="stylesheet" href="https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.css" />
-<script src="https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.min.js"></script>
-{% endif %}
 
 <style>
   #bible-map {
@@ -228,7 +224,7 @@ layout: page
 
     /* Base Map selection */
     {% if page.basemap %}
-      var baseTerrain = L.tileLayer('{{ page.basemap }}', {
+      var baseTerrain = L.tileLayer({{ page.basemap | jsonify }}, {
         attribution: 'Tiles &copy; Esri',
         maxZoom: 13,
         className: 'parchment-filter'
@@ -253,7 +249,7 @@ layout: page
 
     /* ===== GeoJSON loading (preferred path) ===== */
     {% if page.geojson %}
-      fetch('{{ site.baseurl }}/assets/geo/{{ page.geojson }}?v=' + new Date().getTime())
+      fetch({{ '/assets/geo/' | append: page.geojson | prepend: site.baseurl | jsonify }} + '?v=' + new Date().getTime())
         .then(function(response) { return response.json(); })
         .then(function(data) {
           var geojsonLayer = L.geoJSON(data, {
@@ -316,524 +312,12 @@ layout: page
             }
           }).addTo(map);
 
-          /* --- Local Editing Support --- */
-          {% if page.editor %}
-          if (window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost') {
-            map.pm.setGlobalOptions({ limitMarkersToCount: 50 });
-            map.pm.addControls({
-              position: 'topleft',
-              drawPolyline: true,
-              drawPolygon: true,
-              drawMarker: true,
-              drawCircleMarker: false,
-              drawRectangle: true,
-              drawCircle: false,
-              drawText: false,
-              editMode: true,
-              dragMode: true,
-              cutPolygon: true,
-              removalMode: true
-            });
-
-            /* Push drawn shapes into the exportable geojsonLayer */
-            map.on('pm:create', function(e) {
-              var newLayer = e.layer;
-              if (!newLayer.feature) {
-                newLayer.feature = { type: "Feature", properties: { name: "New Feature", color: "#888" } };
-              }
-              geojsonLayer.addLayer(newLayer);
-            });
-            map.on('pm:remove', function(e) {
-              if (geojsonLayer.hasLayer(e.layer)) {
-                geojsonLayer.removeLayer(e.layer);
-              }
-            });
-
-            var SaveControl = L.Control.extend({
-              options: { position: 'topleft' },
-              onAdd: function (map_instance) {
-                var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
-                container.style.backgroundColor = 'white';
-                container.style.padding = '8px 12px';
-                container.style.cursor = 'pointer';
-                container.style.fontWeight = 'bold';
-                container.style.color = '#3e2723';
-                container.innerHTML = '💾 Download Edits';
-                
-                container.onclick = function(e) {
-                  e.stopPropagation();
-                  var newData = geojsonLayer.toGeoJSON();
-                  container.innerHTML = '⏳ Saving...';
-                  
-                  fetch('http://localhost:4001/save', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ filename: '{{ page.geojson }}', data: newData })
-                  })
-                  .then(response => {
-                    if (response.ok) {
-                      container.innerHTML = '✅ Saved Locally!';
-                      setTimeout(() => container.innerHTML = '💾 Save to Codebase', 3000);
-                    } else {
-                      container.innerHTML = '❌ Save Failed';
-                      setTimeout(() => container.innerHTML = '💾 Save to Codebase', 3000);
-                    }
-                  })
-                  .catch(err => {
-                    console.error('Save error:', err);
-                    container.innerHTML = '❌ Server Not Running';
-                    setTimeout(() => container.innerHTML = '💾 Save to Codebase', 3000);
-                  });
-                }
-                return container;
-              }
-            });
-            map.addControl(new SaveControl());
-
-            /* --- Image Reference Tool --- */
-            var DigitizingControl = L.Control.extend({
-              options: { position: 'bottomright' },
-              onAdd: function (map_instance) {
-                var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
-                container.style.backgroundColor = 'white';
-                container.style.padding = '10px';
-                container.style.width = '250px';
-                container.style.maxHeight = '90vh';
-                container.style.overflowY = 'auto';
-                container.innerHTML = `
-                  <div style="font-weight:bold; margin-bottom:8px; font-size:13px; color:#3e2723;">Reference Image</div>
-                  <input type="file" id="ref-image-upload" accept="image/*" style="width:100%; margin-bottom:8px; font-size:11px;">
-                  
-                  <div id="ref-image-controls" style="display:none; font-size:12px; color:#444;">
-                    <label style="display:flex; justify-content:space-between; margin-top:5px; align-items:center;">Opacity: 
-                      <input type="number" id="val-opacity" min="0" max="1" step="0.01" value="0.5" style="width:50px; font-size:11px; padding:2px; height:20px; text-align:right;">
-                    </label>
-                    <input type="range" id="slider-opacity" min="0" max="1" step="0.01" value="0.5" style="width:100%;">
-                    
-                    <label style="display:flex; justify-content:space-between; margin-top:5px; align-items:center;">Rotation (°): 
-                      <input type="number" id="val-rot" min="-180" max="180" step="1" value="0" style="width:50px; font-size:11px; padding:2px; height:20px; text-align:right;">
-                    </label>
-                    <input type="range" id="slider-rot" min="-180" max="180" step="1" value="0" style="width:100%;">
-                    
-                    <label style="display:flex; justify-content:space-between; margin-top:5px; align-items:center;">Overall Scale: 
-                      <input type="number" id="val-scale" min="0.1" max="100" step="0.01" value="1.0" style="width:50px; font-size:11px; padding:2px; height:20px; text-align:right;">
-                    </label>
-                    <input type="range" id="slider-scale" min="0.1" max="10" step="0.01" value="1" style="width:100%;">
-
-                    <label style="display:flex; justify-content:space-between; margin-top:5px; align-items:center;">Scale X (Width): 
-                      <input type="number" id="val-scale-x" min="0.1" max="100" step="0.01" value="1.0" style="width:50px; font-size:11px; padding:2px; height:20px; text-align:right;">
-                    </label>
-                    <input type="range" id="slider-scale-x" min="0.1" max="10" step="0.01" value="1" style="width:100%;">
-
-                    <label style="display:flex; justify-content:space-between; margin-top:5px; align-items:center;">Scale Y (Height): 
-                      <input type="number" id="val-scale-y" min="0.1" max="100" step="0.01" value="1.0" style="width:50px; font-size:11px; padding:2px; height:20px; text-align:right;">
-                    </label>
-                    <input type="range" id="slider-scale-y" min="0.1" max="10" step="0.01" value="1" style="width:100%;">
-
-                    <label style="display:block; margin-top:5px;">Fine-tune N/S (Lat)</label>
-                    <input type="range" id="slider-lat" min="-1" max="1" step="0.001" value="0" style="width:100%;">
-
-                    <label style="display:block; margin-top:5px;">Fine-tune E/W (Lng)</label>
-                    <input type="range" id="slider-lng" min="-1" max="1" step="0.001" value="0" style="width:100%;">
-                    
-                    <button id="btn-ref-center" style="margin-top:8px; width:100%; padding:4px;">Move to Center</button>
-                    <button id="btn-ref-hide" style="margin-top:4px; width:100%; padding:4px;">Toggle Visibility</button>
-                    <button id="btn-ref-pin" style="margin-top:4px; width:100%; padding:4px;">Pin Image (Disable Dragging)</button>
-                    <button id="btn-ref-save" style="margin-top:4px; width:100%; padding:4px; background:#4CAF50; color:white; font-weight:bold; border:none; border-radius:3px;">💾 Save Map Reference</button>
-                  </div>
-                `;
-                
-                L.DomEvent.disableClickPropagation(container);
-                L.DomEvent.disableScrollPropagation(container);
-
-                setTimeout(() => {
-                  var uploadInput = document.getElementById('ref-image-upload');
-                  var controlsDiv = document.getElementById('ref-image-controls');
-                  var sOp = document.getElementById('slider-opacity');
-                  var sRot = document.getElementById('slider-rot');
-                  var sScale = document.getElementById('slider-scale');
-                  var sScaleX = document.getElementById('slider-scale-x');
-                  var sScaleY = document.getElementById('slider-scale-y');
-                  var sLat = document.getElementById('slider-lat');
-                  var sLng = document.getElementById('slider-lng');
-                  
-                  var vOp = document.getElementById('val-opacity');
-                  var vRot = document.getElementById('val-rot');
-                  var vScale = document.getElementById('val-scale');
-                  var vScaleX = document.getElementById('val-scale-x');
-                  var vScaleY = document.getElementById('val-scale-y');
-
-                  var refOverlay = null;
-                  var svgEl = null;
-                  var imgEl = null;
-
-                  var baseLat = 0;
-                  var baseLng = 0;
-                  var baseWidth = 0.5;
-                  var baseHeight = 0.5;
-                  
-                  var naturalWidth = 100;
-                  var naturalHeight = 100;
-
-                  var isDraggingImg = false;
-                  var isPinned = false;
-                  var dragStartPoint = null;
-                  var startDragLat = null;
-                  var startDragLng = null;
-
-                  document.getElementById('btn-ref-pin').onclick = function(e) {
-                    e.preventDefault();
-                    isPinned = !isPinned;
-                    this.innerText = isPinned ? 'Unpin Image (Enable Dragging)' : 'Pin Image (Disable Dragging)';
-                    if (refOverlay) refOverlay.getElement().style.cursor = isPinned ? 'default' : 'move';
-                    
-                    var saveBtn = document.getElementById('btn-ref-save');
-                    if(isPinned) {
-                      saveBtn.style.opacity = '1';
-                      saveBtn.style.cursor = 'pointer';
-                      saveBtn.innerText = '💾 Save Map Reference';
-                    } else {
-                      saveBtn.style.opacity = '0.5';
-                      saveBtn.style.cursor = 'not-allowed';
-                      saveBtn.innerText = '🔒 Pin to Enable Save';
-                    }
-                  };
-
-                  document.getElementById('btn-ref-save').onclick = function(e) {
-                    e.preventDefault();
-                    if (!isPinned) {
-                      alert("Please pin the image before saving to prevent accidental drag.");
-                      return;
-                    }
-                    if(!imgEl) return;
-                    var btn = this;
-                    btn.innerText = '⏳ Saving...';
-                    
-                    var payload = {
-                      imgUrl: imgEl.getAttribute('href'),
-                      naturalWidth: naturalWidth, naturalHeight: naturalHeight,
-                      baseLat: baseLat, baseLng: baseLng, baseWidth: baseWidth, baseHeight: baseHeight,
-                      op: parseFloat(sOp.value), rot: parseFloat(sRot.value),
-                      sc: parseFloat(sScale.value), scX: parseFloat(sScaleX.value), scY: parseFloat(sScaleY.value),
-                      isPinned: isPinned
-                    };
-                    
-                    var refName = '{{ page.geojson }}'.replace('.geojson', '_ref.json');
-                    if(!refName || refName === '{{ page.geojson }}') refName = 'default_ref.json';
-
-                    fetch('http://localhost:4001/save', {
-                      method: 'POST',
-                      headers: { 'Content-Type': 'application/json' },
-                      body: JSON.stringify({ filename: refName, data: payload })
-                    }).then(r => {
-                      if(r.ok) { btn.innerText = '✅ Saved to ' + refName; setTimeout(()=>btn.innerText='💾 Save Map Reference', 3000); }
-                      else { btn.innerText = '❌ Failed'; setTimeout(()=>btn.innerText='💾 Save Map Reference', 3000); }
-                    }).catch(err => {
-                      btn.innerText = '❌ Server Not Running'; setTimeout(()=>btn.innerText='💾 Save Map Reference', 3000);
-                    });
-                  };
-
-                  // Initial button state
-                  document.getElementById('btn-ref-save').style.opacity = '0.5';
-                  document.getElementById('btn-ref-save').style.cursor = 'not-allowed';
-                  document.getElementById('btn-ref-save').innerText = '🔒 Pin to Enable Save';
-
-                  function bindImageDrag() {
-                    if(!refOverlay) return;
-                    refOverlay.getElement().style.cursor = isPinned ? 'default' : 'move';
-                    refOverlay.on('mousedown', function(e) {
-                      if (isPinned) return;
-                      isDraggingImg = true;
-                      dragStartPoint = e.latlng;
-                      startDragLat = baseLat;
-                      startDragLng = baseLng;
-                      map_instance.dragging.disable();
-                    });
-                  }
-
-                  function updateOverlay() {
-                    if (!refOverlay) return;
-                    var op = parseFloat(sOp.value);
-                    var rot = parseFloat(sRot.value);
-                    var sc = parseFloat(sScale.value);
-                    var scX = parseFloat(sScaleX.value);
-                    var scY = parseFloat(sScaleY.value);
-                    var dLat = parseFloat(sLat.value);
-                    var dLng = parseFloat(sLng.value);
-
-                    if(document.activeElement !== vOp) vOp.value = op.toFixed(2);
-                    if(document.activeElement !== vRot) vRot.value = rot;
-                    if(document.activeElement !== vScale) vScale.value = sc.toFixed(2);
-                    if(document.activeElement !== vScaleX) vScaleX.value = scX.toFixed(2);
-                    if(document.activeElement !== vScaleY) vScaleY.value = scY.toFixed(2);
-
-                    imgEl.setAttribute('opacity', op);
-                    imgEl.setAttribute('transform', 'rotate(' + rot + ' ' + (naturalWidth/2) + ' ' + (naturalHeight/2) + ')');
-                    
-                    var curBaseLat = baseLat + dLat;
-                    var curBaseLng = baseLng + dLng;
-                    
-                    var curW = baseWidth * sc * scX;
-                    var curH = baseHeight * sc * scY;
-
-                    var bounds = [
-                      [curBaseLat - curH/2, curBaseLng - curW/2],
-                      [curBaseLat + curH/2, curBaseLng + curW/2]
-                    ];
-                    
-                    refOverlay.setBounds(bounds);
-                  }
-
-                  uploadInput.addEventListener('change', function(e) {
-                    var file = e.target.files[0];
-                    if (!file) return;
-                    var reader = new FileReader();
-                    reader.onload = function(event) {
-                      var imgUrl = event.target.result;
-                      var tempImg = new Image();
-                      tempImg.onload = function() {
-                        naturalWidth = tempImg.width;
-                        naturalHeight = tempImg.height;
-                        var aspect = naturalWidth / naturalHeight;
-                        
-                        var mbounds = map_instance.getBounds();
-                        baseWidth = mbounds.getEast() - mbounds.getWest();
-                        baseHeight = mbounds.getNorth() - mbounds.getSouth();
-
-                        var center = map_instance.getCenter();
-                        baseLat = center.lat;
-                        baseLng = center.lng;
-
-                        sLat.value = 0;
-                        sLng.value = 0;
-                        sScale.value = 1;
-                        sScaleX.value = 1;
-                        sScaleY.value = 1;
-                        sRot.value = 0;
-                        sOp.value = 0.5;
-
-                        if (refOverlay) {
-                          map_instance.removeLayer(refOverlay);
-                        }
-
-                        svgEl = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-                        svgEl.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-                        svgEl.setAttribute('viewBox', '0 0 ' + naturalWidth + ' ' + naturalHeight);
-                        svgEl.setAttribute('preserveAspectRatio', 'none');
-                        
-                        imgEl = document.createElementNS('http://www.w3.org/2000/svg', 'image');
-                        imgEl.setAttribute('href', imgUrl);
-                        imgEl.setAttribute('x', '0');
-                        imgEl.setAttribute('y', '0');
-                        imgEl.setAttribute('width', naturalWidth);
-                        imgEl.setAttribute('height', naturalHeight);
-                        imgEl.setAttribute('preserveAspectRatio', 'none');
-                        svgEl.appendChild(imgEl);
-
-                        var bounds = [
-                          [baseLat - baseHeight/2, baseLng - baseWidth/2],
-                          [baseLat + baseHeight/2, baseLng + baseWidth/2]
-                        ];
-
-                        refOverlay = L.svgOverlay(svgEl, bounds, { interactive: true }).addTo(map_instance);
-                        isPinned = false;
-                        document.getElementById('btn-ref-pin').innerText = 'Pin Image (Disable Dragging)';
-                        
-                        var saveBtn = document.getElementById('btn-ref-save');
-                        saveBtn.style.opacity = '0.5';
-                        saveBtn.style.cursor = 'not-allowed';
-                        saveBtn.innerText = '🔒 Pin to Enable Save';
-
-                        bindImageDrag();
-
-                        controlsDiv.style.display = 'block';
-                        updateOverlay();
-                      };
-                      tempImg.src = imgUrl;
-                    };
-                    reader.readAsDataURL(file);
-                  });
-
-                  var refNameLoad = '{{ page.geojson }}'.replace('.geojson', '_ref.json');
-                  if(refNameLoad && refNameLoad !== '{{ page.geojson }}') {
-                    fetch('{{ site.baseurl }}/assets/geo/' + refNameLoad + '?v=' + new Date().getTime())
-                      .then(r => { if(r.ok) return r.json(); throw new Error('no ref'); })
-                      .then(rd => {
-                        naturalWidth = rd.naturalWidth;
-                        naturalHeight = rd.naturalHeight;
-                        baseLat = rd.baseLat;
-                        baseLng = rd.baseLng;
-                        baseWidth = rd.baseWidth;
-                        baseHeight = rd.baseHeight;
-                        
-                        sOp.value = rd.op;
-                        sRot.value = rd.rot;
-                        sScale.value = rd.sc;
-                        sScaleX.value = rd.scX;
-                        sScaleY.value = rd.scY;
-                        sLat.value = 0;
-                        sLng.value = 0;
-
-                        svgEl = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-                        svgEl.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-                        svgEl.setAttribute('viewBox', '0 0 ' + naturalWidth + ' ' + naturalHeight);
-                        svgEl.setAttribute('preserveAspectRatio', 'none');
-                        
-                        imgEl = document.createElementNS('http://www.w3.org/2000/svg', 'image');
-                        imgEl.setAttribute('href', rd.imgUrl);
-                        imgEl.setAttribute('x', '0');
-                        imgEl.setAttribute('y', '0');
-                        imgEl.setAttribute('width', naturalWidth);
-                        imgEl.setAttribute('height', naturalHeight);
-                        imgEl.setAttribute('preserveAspectRatio', 'none');
-                        svgEl.appendChild(imgEl);
-
-                        var bounds = [
-                          [baseLat - baseHeight/2, baseLng - baseWidth/2],
-                          [baseLat + baseHeight/2, baseLng + baseWidth/2]
-                        ];
-
-                        refOverlay = L.svgOverlay(svgEl, bounds, { interactive: true }).addTo(map_instance);
-                        
-                        isPinned = rd.isPinned;
-                        // For backwards compatibility: if undefined, act as unpinned
-                        if (isPinned === undefined) isPinned = false; 
-
-                        var pBtn = document.getElementById('btn-ref-pin');
-                        var sBtn = document.getElementById('btn-ref-save');
-
-                        if(isPinned) {
-                          pBtn.innerText = 'Unpin Image (Enable Dragging)';
-                          sBtn.style.opacity = '1';
-                          sBtn.style.cursor = 'pointer';
-                          sBtn.innerText = '💾 Save Map Reference';
-                        } else {
-                          pBtn.innerText = 'Pin Image (Disable Dragging)';
-                          sBtn.style.opacity = '0.5';
-                          sBtn.style.cursor = 'not-allowed';
-                          sBtn.innerText = '🔒 Pin to Enable Save';
-                        }
-                        
-                        bindImageDrag();
-
-                        controlsDiv.style.display = 'block';
-                        updateOverlay();
-                      })
-                      .catch(e => { /* Ignore, no file or valid json */ });
-                  }
-
-                  map_instance.on('mousemove', function(e) {
-                    if (!isDraggingImg || isPinned) return;
-                    var dLat = e.latlng.lat - dragStartPoint.lat;
-                    var dLng = e.latlng.lng - dragStartPoint.lng;
-                    baseLat = startDragLat + dLat;
-                    baseLng = startDragLng + dLng;
-                    updateOverlay();
-                  });
-
-                  map_instance.on('mouseup', function(e) {
-                    if (isDraggingImg) {
-                      isDraggingImg = false;
-                      map_instance.dragging.enable();
-                    }
-                  });
-
-                  sOp.addEventListener('input', updateOverlay);
-                  sRot.addEventListener('input', updateOverlay);
-                  sScale.addEventListener('input', updateOverlay);
-                  sScaleX.addEventListener('input', updateOverlay);
-                  sScaleY.addEventListener('input', updateOverlay);
-                  sLat.addEventListener('input', updateOverlay);
-                  sLng.addEventListener('input', updateOverlay);
-
-                  /* Bi-directional bindings for number inputs */
-                  [
-                    { num: vOp, slider: sOp },
-                    { num: vRot, slider: sRot },
-                    { num: vScale, slider: sScale },
-                    { num: vScaleX, slider: sScaleX },
-                    { num: vScaleY, slider: sScaleY }
-                  ].forEach(pair => {
-                    pair.num.addEventListener('input', function() {
-                      pair.slider.value = this.value;
-                      updateOverlay();
-                    });
-                  });
-
-                  document.getElementById('btn-ref-center').addEventListener('click', function(e) {
-                    e.preventDefault();
-                    var center = map_instance.getCenter();
-                    baseLat = center.lat;
-                    baseLng = center.lng;
-                    sLat.value = 0;
-                    sLng.value = 0;
-                    updateOverlay();
-                  });
-
-                  document.getElementById('btn-ref-hide').addEventListener('click', function(e) {
-                    e.preventDefault();
-                    if(!refOverlay) return;
-                    if(map_instance.hasLayer(refOverlay)) {
-                      map_instance.removeLayer(refOverlay);
-                    } else {
-                      map_instance.addLayer(refOverlay);
-                    }
-                  });
-                  
-                }, 200);
-
-                return container;
-              }
-            });
-            map.addControl(new DigitizingControl());
-          }
-          {% endif %}
-          /* -------------------------- */
 
         })
         .catch(function(err) {
           console.error('Failed to load GeoJSON:', err);
         });
 
-      /* ===== Load existing saved Map Reference if it exists (PUBLIC STATIC SITE ONLY) ===== */
-      var isLocalEditor = (window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost');
-      {% if page.editor %}
-      var showRef = isLocalEditor;
-      {% else %}
-      var showRef = false;
-      {% endif %}
-
-      var refFile = '{{ page.geojson }}'.replace('.geojson', '_ref.json');
-      if (showRef && refFile && refFile !== '{{ page.geojson }}') {
-        fetch('{{ site.baseurl }}/assets/geo/' + refFile + '?v=' + new Date().getTime())
-          .then(function(res) { if (res.ok) return res.json(); throw new Error('No ref'); })
-          .then(function(rd) {
-            var tempSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-            tempSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-            tempSvg.setAttribute('viewBox', '0 0 ' + rd.naturalWidth + ' ' + rd.naturalHeight);
-            tempSvg.setAttribute('preserveAspectRatio', 'none');
-            
-            var tImg = document.createElementNS('http://www.w3.org/2000/svg', 'image');
-            tImg.setAttribute('href', rd.imgUrl);
-            tImg.setAttribute('x', '0');
-            tImg.setAttribute('y', '0');
-            tImg.setAttribute('width', rd.naturalWidth);
-            tImg.setAttribute('height', rd.naturalHeight);
-            tImg.setAttribute('preserveAspectRatio', 'none');
-            tImg.setAttribute('opacity', rd.op);
-            tImg.setAttribute('transform', 'rotate(' + rd.rot + ' ' + (rd.naturalWidth/2) + ' ' + (rd.naturalHeight/2) + ')');
-            tempSvg.appendChild(tImg);
-            
-            var curW = rd.baseWidth * rd.sc * rd.scX;
-            var curH = rd.baseHeight * rd.sc * rd.scY;
-            var curBounds = [
-              [rd.baseLat - curH/2, rd.baseLng - curW/2],
-              [rd.baseLat + curH/2, rd.baseLng + curW/2]
-            ];
-            L.svgOverlay(tempSvg, curBounds, {interactive: false}).addTo(map);
-          })
-          .catch(function() { /* silently ignore if absent */ });
-      }
     {% endif %}
 
     /* ===== City markers ===== */
@@ -848,22 +332,22 @@ layout: page
         var marker = L.marker([{{ loc.lat }}, {{ loc.lng }}], { icon: markerIcon }).addTo(map);
         
         marker.bindTooltip(
-          "<div style='text-align:center;'><strong>{{ loc.name }}</strong><br>{{ loc.name_zh }}</div>", 
+          "<div style='text-align:center;'><strong>" + {{ loc.name | jsonify }} + "</strong><br>" + {{ loc.name_zh | jsonify }} + "</div>",
           { permanent: true, direction: "top", opacity: 0.9, className: 'bible-label', offset: [0, -10] }
         );
 
         var popupContent = "<div style='font-family: Georgia, serif; min-width: 220px;'>";
         {% if loc.image %}
-          popupContent += "<img src='{{ site.baseurl }}{{ loc.image }}' style='width: 100%; height: auto; max-height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 8px; border: 1px solid rgba(0,0,0,0.1);'>";
+          popupContent += "<img src='" + {{ loc.image | prepend: site.baseurl | jsonify }} + "' style='width: 100%; height: auto; max-height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 8px; border: 1px solid rgba(0,0,0,0.1);'>";
         {% endif %}
-        popupContent += "<div style='font-size: 1.2em;'><strong>{{ forloop.index }}. {{ loc.name }} / {{ loc.name_zh }}</strong></div>";
+        popupContent += "<div style='font-size: 1.2em;'><strong>" + {{ forloop.index }} + ". " + {{ loc.name | jsonify }} + " / " + {{ loc.name_zh | jsonify }} + "</strong></div>";
         {% if loc.event %}
-          popupContent += "<div style='margin-top: 6px; font-weight: 700; color: #a04000; font-size: 1.05em;'>✦ {{ loc.event }}{% if loc.event_zh %} <br> ✦ {{ loc.event_zh }}{% endif %}</div>";
+          popupContent += "<div style='margin-top: 6px; font-weight: 700; color: #a04000; font-size: 1.05em;'>✦ " + {{ loc.event | jsonify }}{% if loc.event_zh %} + " <br> ✦ " + {{ loc.event_zh | jsonify }}{% endif %} + "</div>";
         {% endif %}
-        popupContent += "<div style='margin-top: 8px; opacity: 0.9; font-size: 1.05em; line-height: 1.45;'>{{ loc.desc }}{% if loc.desc_zh %}<br>{{ loc.desc_zh }}{% endif %}</div>";
+        popupContent += "<div style='margin-top: 8px; opacity: 0.9; font-size: 1.05em; line-height: 1.45;'>" + {{ loc.desc | jsonify }}{% if loc.desc_zh %} + "<br>" + {{ loc.desc_zh | jsonify }}{% endif %} + "</div>";
         
         {% if loc.bible_ref %}
-          popupContent += "<div style='margin-top: 10px; padding-top: 6px; border-top: 1px solid rgba(0,0,0,0.1); font-style: italic; color: #d4af37; font-weight: 600; font-size: 0.95em;'>{{ loc.bible_ref }}</div>";
+          popupContent += "<div style='margin-top: 10px; padding-top: 6px; border-top: 1px solid rgba(0,0,0,0.1); font-style: italic; color: #d4af37; font-weight: 600; font-size: 0.95em;'>" + {{ loc.bible_ref | jsonify }} + "</div>";
         {% endif %}
         popupContent += "</div>";
 
@@ -885,7 +369,7 @@ layout: page
         var cityMarker = L.marker([{{ city.lat }}, {{ city.lng }}], { icon: cityIcon }).addTo(map);
         
         cityMarker.bindTooltip(
-          "<div style='text-align:center; font-weight: 600; color: #444;'>{{ city.name }}<br>{{ city.name_zh }}</div>", 
+          "<div style='text-align:center; font-weight: 600; color: #444;'>" + {{ city.name | jsonify }} + "<br>" + {{ city.name_zh | jsonify }} + "</div>",
           { permanent: true, direction: "top", opacity: 0.8, className: 'bible-label', offset: [0, -6] }
         );
       {% endfor %}
@@ -941,15 +425,15 @@ layout: page
           {% endfor %}
         ];
         var polygon = L.polygon(polygonPoints, {
-          color: '{{ region.color | default: "#777" }}',
-          fillColor: '{{ region.color | default: "#777" }}',
+          color: {{ region.color | default: "#777" | jsonify }},
+          fillColor: {{ region.color | default: "#777" | jsonify }},
           fillOpacity: 0.35,
           weight: 2
         }).addTo(map);
         
         {% if region.name %}
         polygon.bindTooltip(
-          "<div style='text-align:center; font-weight: bold;'>{{ region.name }}<br>{{ region.name_zh }}</div>",
+          "<div style='text-align:center; font-weight: bold;'>" + {{ region.name | jsonify }} + "<br>" + {{ region.name_zh | jsonify }} + "</div>",
           { permanent: true, direction: "center", className: 'bible-label', opacity: 0.7 }
         );
         {% endif %}
@@ -972,7 +456,7 @@ layout: page
       var allLayerGroups = [];
       {% for layer in page.layers %}
         {% assign layer_index = forloop.index %}
-        var layerColor_{{ layer_index }} = '{{ layer.color | default: "#d4af37" }}';
+        var layerColor_{{ layer_index }} = {{ layer.color | default: "#d4af37" | jsonify }};
         var thisLayerGroup = L.featureGroup();
         
         {% for loc in layer.locations %}
@@ -985,25 +469,25 @@ layout: page
           var m = L.marker([{{ loc.lat }}, {{ loc.lng }}], { icon: layerMarkerIcon });
           
           m.bindTooltip(
-            "<div style='text-align:center;'><strong>{{ loc.name }}</strong><br>{{ loc.name_zh }}</div>", 
+            "<div style='text-align:center;'><strong>" + {{ loc.name | jsonify }} + "</strong><br>" + {{ loc.name_zh | jsonify }} + "</div>",
             { permanent: true, direction: "top", opacity: 0.9, className: 'bible-label', offset: [0, -10] }
           );
 
           var pCont = "<div style='font-family: Georgia, serif; min-width: 220px;'>";
           {% if loc.image %}
-            pCont += "<img src='{{ site.baseurl }}{{ loc.image }}' style='width: 100%; height: auto; max-height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 8px; border: 1px solid rgba(0,0,0,0.1);'>";
+            pCont += "<img src='" + {{ loc.image | prepend: site.baseurl | jsonify }} + "' style='width: 100%; height: auto; max-height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 8px; border: 1px solid rgba(0,0,0,0.1);'>";
           {% endif %}
-          pCont += "<div style='font-size: 1.2em;'><strong>{{ forloop.index }}. {{ loc.name }} / {{ loc.name_zh }}</strong></div>";
+          pCont += "<div style='font-size: 1.2em;'><strong>" + {{ forloop.index }} + ". " + {{ loc.name | jsonify }} + " / " + {{ loc.name_zh | jsonify }} + "</strong></div>";
           {% if layer.date %}
-            pCont += "<div style='color: #665c49; font-size: 0.95em; margin-top: 3px; font-weight: 500;'><i class='far fa-clock'></i> {{ layer.date }} / {{ layer.date_zh }}</div>";
+            pCont += "<div style='color: #665c49; font-size: 0.95em; margin-top: 3px; font-weight: 500;'><i class='far fa-clock'></i> " + {{ layer.date | jsonify }} + " / " + {{ layer.date_zh | jsonify }} + "</div>";
           {% endif %}
           {% if loc.event %}
-            pCont += "<div style='margin-top: 6px; font-weight: 700; color: #a04000; font-size: 1.05em;'>✦ {{ loc.event }}{% if loc.event_zh %} <br> ✦ {{ loc.event_zh }}{% endif %}</div>";
+            pCont += "<div style='margin-top: 6px; font-weight: 700; color: #a04000; font-size: 1.05em;'>✦ " + {{ loc.event | jsonify }}{% if loc.event_zh %} + " <br> ✦ " + {{ loc.event_zh | jsonify }}{% endif %} + "</div>";
           {% endif %}
-          pCont += "<div style='margin-top: 8px; opacity: 0.9; font-size: 1.05em; line-height: 1.45;'>{{ loc.desc }}{% if loc.desc_zh %}<br>{{ loc.desc_zh }}{% endif %}</div>";
+          pCont += "<div style='margin-top: 8px; opacity: 0.9; font-size: 1.05em; line-height: 1.45;'>" + {{ loc.desc | jsonify }}{% if loc.desc_zh %} + "<br>" + {{ loc.desc_zh | jsonify }}{% endif %} + "</div>";
           
           {% if loc.bible_ref %}
-            pCont += "<div style='margin-top: 10px; padding-top: 6px; border-top: 1px solid rgba(0,0,0,0.1); font-style: italic; color: " + layerColor_{{ layer_index }} + "; font-weight: 600; font-size: 0.95em;'>{{ loc.bible_ref }}</div>";
+            pCont += "<div style='margin-top: 10px; padding-top: 6px; border-top: 1px solid rgba(0,0,0,0.1); font-style: italic; color: " + layerColor_{{ layer_index }} + "; font-weight: 600; font-size: 0.95em;'>" + {{ loc.bible_ref | jsonify }} + "</div>";
           {% endif %}
           pCont += "</div>";
 
@@ -1029,7 +513,7 @@ layout: page
         allLayerGroups.push(thisLayerGroup);
 
         /* Add to layer control */
-        overlayMaps["<span style='color: " + layerColor_{{ layer_index }} + "; font-weight: bold;'>{{ layer.name }} / {{ layer.name_zh }}</span>"] = thisLayerGroup;
+        overlayMaps["<span style='color: " + layerColor_{{ layer_index }} + "; font-weight: bold;'>" + {{ layer.name | jsonify }} + " / " + {{ layer.name_zh | jsonify }} + "</span>"] = thisLayerGroup;
       {% endfor %}
 
       /* Add the layer control panel to top right */
@@ -1161,11 +645,11 @@ layout: page
         {% if page.layers %}
           {% for layer in page.layers %}
             {% assign layer_index = forloop.index %}
-            sidebarHtml += '<div class="map-sidebar-group"><div class="map-sidebar-group-title" style="color: {{ layer.color | default: "#d4af37" }};">{{ layer.name }} / {{ layer.name_zh }}</div>';
+            sidebarHtml += '<div class="map-sidebar-group"><div class="map-sidebar-group-title" style="color: ' + {{ layer.color | default: "#d4af37" | jsonify }} + ';">' + {{ layer.name | jsonify }} + ' / ' + {{ layer.name_zh | jsonify }} + '</div>';
             {% for loc in layer.locations %}
               sidebarHtml += '<li class="map-sidebar-item" onclick="openMapPopup(\'layer_{{ layer_index }}_loc_{{ forloop.index }}\')">' +
-                '<div class="map-sidebar-number" style="background-color: {{ layer.color | default: "#d4af37" }};">{{ forloop.index }}</div>' +
-                '<div class="map-sidebar-text"><strong>{{ loc.name }}</strong><br><span class="text-muted" style="font-size:0.85em;">{{ loc.name_zh }}</span></div>' +
+                '<div class="map-sidebar-number" style="background-color: ' + {{ layer.color | default: "#d4af37" | jsonify }} + ';">' + {{ forloop.index }} + '</div>' +
+                '<div class="map-sidebar-text"><strong>' + {{ loc.name | jsonify }} + '</strong><br><span class="text-muted" style="font-size:0.85em;">' + {{ loc.name_zh | jsonify }} + '</span></div>' +
               '</li>';
             {% endfor %}
             sidebarHtml += '</div>';
@@ -1174,8 +658,8 @@ layout: page
           sidebarHtml += '<div class="map-sidebar-group">';
           {% for loc in page.locations %}
             sidebarHtml += '<li class="map-sidebar-item" onclick="openMapPopup(\'loc_{{ forloop.index }}\')">' +
-              '<div class="map-sidebar-number" style="background-color: var(--marker-color, #d4af37);">{{ forloop.index }}</div>' +
-              '<div class="map-sidebar-text"><strong>{{ loc.name }}</strong><br><span class="text-muted" style="font-size:0.85em;">{{ loc.name_zh }}</span></div>' +
+              '<div class="map-sidebar-number" style="background-color: var(--marker-color, #d4af37);">' + {{ forloop.index }} + '</div>' +
+              '<div class="map-sidebar-text"><strong>' + {{ loc.name | jsonify }} + '</strong><br><span class="text-muted" style="font-size:0.85em;">' + {{ loc.name_zh | jsonify }} + '</span></div>' +
             '</li>';
           {% endfor %}
           sidebarHtml += '</div>';

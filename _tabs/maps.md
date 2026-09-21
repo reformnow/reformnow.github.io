@@ -14,4 +14,4 @@ Explore the geographical landscape of the biblical narrative through our collect
 通过我们精心收集的交互式和历史性地图，探索圣经叙事中的地理全图。
 </div>
 
-{% include map_grid.html data=site.data.bible_maps %}
+{% include grid_cards.html prefix="map" collection="maps" accent="#d4af37" footer_en="View Ancient Map" footer_zh="查看古地图" data=site.data.bible_maps %}

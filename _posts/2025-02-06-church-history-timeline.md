@@ -8,6 +8,7 @@ tags: [timeline, church-history, slide]
 description: A comprehensive timeline of church history from Pentecost to the Reformation
 description_zh: 教会历史的全面时间线，从五旬节到宗教改革。
 hidden: true
+sitemap: false
 ---
 
 This timeline showcases major events in church history, from the birth of the Christian church to the present day.
